@@ -1,10 +1,5 @@
 events.listen('recipes', function(e) {
-  //====== Ban List (Chunkloaders) ======
-   e.remove({
-  	  output: [
-     'Mekanism:upgrade_anchor'
-  	  ]
-   })
+
   //====== Ban List (Greifing/Lag) ======
   e.remove({
       output: [
