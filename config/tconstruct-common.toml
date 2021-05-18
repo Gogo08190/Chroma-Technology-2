@@ -30,7 +30,7 @@
 #Everything to do with world generation
 [worldgen]
 	#Generate Copper
-	generateCopper = true
+	generateCopper = false
 	#Approx Ores per Chunk
 	veinCountCopper = 20
 	#Generate Cobalt
@@ -80,4 +80,3 @@
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
 			separation = 25
-
