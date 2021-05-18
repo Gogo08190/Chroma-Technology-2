@@ -19,7 +19,6 @@ onEvent('recipes', event => {
   ]
 
   dusts.forEach(function (item, index) {
-    event.replaceOutput({}, "crossroads:" + item, "thermal:" + item)
     event.replaceOutput({}, "immersiveengineering:" + item, "thermal:" + item)
     event.replaceOutput({}, "mekanism:" + item, "thermal:" + item)
     event.replaceOutput({}, "silents_mechanisms:" + item, "thermal:" + item)
@@ -38,7 +37,6 @@ onEvent('recipes', event => {
   ]
 
   copper.forEach(function (item, index) {
-    event.replaceOutput({}, "crossroads:" + item, "thermal:" + item)
     event.replaceOutput({}, "immersiveengineering:" + item, "thermal:" + item)
     event.replaceOutput({}, "mekanism:" + item, "thermal:" + item)
     event.replaceOutput({}, "iceandfire:" + item, "thermal:" + item)
@@ -59,7 +57,6 @@ onEvent('recipes', event => {
   ]
 
   tin.forEach(function (item, index) {
-    event.replaceOutput({}, "crossroads:" + item, "thermal:" + item)
     event.replaceOutput({}, "immersiveengineering:" + item, "thermal:" + item)
     event.replaceOutput({}, "mekanism:" + item, "thermal:" + item)
     event.replaceOutput({}, "bno:" + item, "thermal:" + item)
@@ -73,7 +70,6 @@ onEvent('recipes', event => {
   ]
 
   tinnugget.forEach(function (item, index) {
-    event.replaceOutput({}, "crossroads:" + item, "thermal:" + item)
     event.replaceOutput({}, "mekanism:" + item, "thermal:" + item)
     event.replaceOutput({}, "bno:" + item, "thermal:" + item)
     event.replaceOutput({}, "silents_mechanisms:" + item, "thermal:" + item)
@@ -91,7 +87,6 @@ onEvent('recipes', event => {
   ]
 
   lead.forEach(function (item, index) {
-    event.replaceOutput({}, "crossroads:" + item, "thermal:" + item)
     event.replaceOutput({}, "immersiveengineering:" + item, "thermal:" + item)
     event.replaceOutput({}, "mekanism:" + item, "thermal:" + item)
     event.replaceOutput({}, "bno:" + item, "thermal:" + item)
@@ -111,7 +106,6 @@ onEvent('recipes', event => {
   ]
 
   silver.forEach(function (item, index) {
-    event.replaceOutput({}, "crossroads:" + item, "thermal:" + item)
     event.replaceOutput({}, "immersiveengineering:" + item, "thermal:" + item)
     event.replaceOutput({}, "iceandfire:" + item, "thermal:" + item)
     event.replaceOutput({}, "bno:" + item, "thermal:" + item)
@@ -131,7 +125,6 @@ onEvent('recipes', event => {
   ]
 
   nickel.forEach(function (item, index) {
-    event.replaceOutput({}, "crossroads:" + item, "thermal:" + item)
     event.replaceOutput({}, "immersiveengineering:" + item, "thermal:" + item)
     event.replaceOutput({}, "bno:" + item, "thermal:" + item)
     event.replaceOutput({}, "silents_mechanisms:" + item, "thermal:" + item)
@@ -149,7 +142,6 @@ onEvent('recipes', event => {
   ]
 
   uranium.forEach(function (item, index) {
-    event.replaceOutput({}, "crossroads:" + item, "silents_mechanisms:" + item)
     event.replaceOutput({}, "immersiveengineering:" + item, "silents_mechanisms:" + item)
     event.replaceOutput({}, "mekanism:" + item, "silents_mechanisms:" + item)
     event.replaceOutput({}, "bno:" + item, "silents_mechanisms:" + item)
