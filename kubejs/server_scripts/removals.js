@@ -36,15 +36,10 @@ events.listen('recipes', e => {
             'titanium:iron_gear',
             'titanium:gold_gear',
             'titanium:diamond_gear',
+            'darkutils:ender_hopper',
         ]
     });
 
-    //Item Ban
-    e.remove({
-        output: [
-            'darkutils:ender_hopper' //Tics every second a item is dropped
-        ]
-    })
 
 
     //Remove via mod name
