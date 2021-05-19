@@ -28,15 +28,19 @@ events.listen('recipes', e => {
             'quark:beetroot_crate',
             'quark:charcoal_block',
             'quark:gunpowder_sack',
+<<<<<<< HEAD
+=======
+
+            'mekanism:block_charcoal',
+
+            'titanium:iron_gear',
+            'titanium:gold_gear',
+            'titanium:diamond_gear',
+            'darkutils:ender_hopper',
+>>>>>>> 14e411eecdfad1c74029431bbe3664dca87ec2bd
         ]
     });
 
-    //Item Ban
-    e.remove({
-        output: [
-            'darkutils:ender_hopper' //Tics every second a item is dropped
-        ]
-    })
 
 
     //Remove via mod name
