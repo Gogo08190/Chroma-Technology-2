@@ -28,12 +28,6 @@ events.listen('recipes', e => {
             'quark:beetroot_crate',
             'quark:charcoal_block',
             'quark:gunpowder_sack',
-
-            'mekanism:block_charcoal',
-
-            'titanium:iron_gear',
-            'titanium:gold_gear',
-            'titanium:diamond_gear',
         ]
     });
 
