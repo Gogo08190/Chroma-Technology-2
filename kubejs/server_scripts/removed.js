@@ -65,6 +65,7 @@ onEvent('recipes', event => {
   event.remove({output: 'cyclic:emerald_shovel'})
   event.remove({output: 'cyclic:emerald_axe'})
   event.remove({output: 'cyclic:emerald_hoe'})
+  event.remove({output: 'cyclic:tile_transporter_empty'})
 
   event.remove({output: 'bno:aluminum_block'})
   event.remove({output: 'bno:copper_block'})
