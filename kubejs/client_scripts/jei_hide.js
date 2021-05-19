@@ -125,4 +125,9 @@ events.listen('jei.hide.items', function (event) {
   event.hide('appliedenergistics2:gold_dust')
   event.hide('appliedenergistics2:iron_dust')
 
+  // Create
+  event.hide('create:copper_ingot')
+  event.hide('create:copper_ore')
+  event.hide('create:copper_block')
+  event.hide('create:copper_nugget')
 })
