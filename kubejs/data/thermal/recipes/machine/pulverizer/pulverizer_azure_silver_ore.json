@@ -1,0 +1,17 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:ores/azure_silver"
+  },
+  "result": [
+    {
+      "item": "silentgear:azure_silver_dust",
+      "chance": 2.0
+    },
+    {
+      "item": "betterendforge:endstone_dust",
+      "chance": 0.2
+    }
+  ],
+  "experience": 0.2
+}

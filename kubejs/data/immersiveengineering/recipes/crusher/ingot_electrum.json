@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "item": "thermal:electrum_dust"
+  },
+  "input": {
+    "tag": "forge:ingots/electrum"
+  },
+  "energy": 3000
+}

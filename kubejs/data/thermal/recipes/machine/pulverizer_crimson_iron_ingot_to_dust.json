@@ -1,0 +1,13 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "silentgear:crimson_iron_ingot"
+  },
+  "result": [
+    {
+      "item": "silentgear:crimson_iron_dust",
+      "count": 1
+    }
+  ],
+  "energy_mod": 0.5
+}

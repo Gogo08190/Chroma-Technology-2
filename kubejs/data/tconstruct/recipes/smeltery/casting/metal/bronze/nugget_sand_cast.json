@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "value": {
+        "item": "thermal:bronze_nugget",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/single_use/nugget"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "tconstruct:molten_bronze",
+    "amount": 16
+  },
+  "result": {
+    "item": "thermal:bronze_nugget"
+  },
+  "cooling_time": 19
+}

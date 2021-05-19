@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:fire_essence",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:fire_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:inferium_farmland"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:fire_crop"
+  }
+}

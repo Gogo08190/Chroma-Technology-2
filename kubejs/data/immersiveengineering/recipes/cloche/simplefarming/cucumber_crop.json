@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "simplefarming:cucumber",
+      "count": 2
+    },
+    {
+      "item": "simplefarming:cucumber_seeds",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "simplefarming:cucumber_seeds"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "simplefarming:cucumber_crop"
+  }
+}

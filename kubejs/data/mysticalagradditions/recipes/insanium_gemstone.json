@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EGE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    "G": {
+      "item": "mysticalagriculture:prosperity_gemstone"
+    }
+  },
+  "result": {
+    "item": "mysticalagradditions:insanium_gemstone"
+  }
+}

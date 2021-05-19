@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "value": {
+        "item": "thermal:lead_nugget",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "cast": {
+    "item": "tconstruct:nugget_cast"
+  },
+  "fluid": {
+    "name": "tconstruct:molten_lead",
+    "amount": 16
+  },
+  "result": {
+    "item": "thermal:lead_nugget"
+  },
+  "cooling_time": 14
+}

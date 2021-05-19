@@ -1,0 +1,30 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [
+    {
+      "chance": 0.1,
+      "output": {
+        "item": "thermal:platinum_dust"
+      },
+      "conditions": [
+        {
+          "value": {
+            "tag": "thermal:platinum_dust",
+            "type": "forge:tag_empty"
+          },
+          "type": "forge:not"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "count": 2,
+    "base_ingredient": {
+      "item": "thermal:nickel_dust"
+    }
+  },
+  "input": {
+    "tag": "forge:ores/nickel"
+  },
+  "energy": 6000
+}

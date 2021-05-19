@@ -1,0 +1,12 @@
+{
+  "type": "silents_mechanisms:crushing",
+  "process_time": 200,
+  "ingredient": {
+    "tag": "forge:gems/certus_quartz"
+  },
+  "results": [
+    {
+      "item": "appliedenergistics2:certus_quartz_dust"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "item": "thermal:gold_dust"
+  },
+  "input": {
+    "item": "minecraft:gold_ingot"
+  },
+  "energy": 3000
+}

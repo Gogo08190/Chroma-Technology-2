@@ -1,0 +1,17 @@
+{
+  "type": "silents_mechanisms:crushing",
+  "process_time": 300,
+  "ingredient": {
+    "tag": "forge:ores/soulium"
+  },
+  "results": [
+    {
+      "item": "mysticalagriculture:soulium_dust",
+      "count": 3
+    },
+    {
+      "item": "mysticalagriculture:soulium_dust",
+      "chance": 0.1
+    }
+  ]
+}

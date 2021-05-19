@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "silentgear:fluffy_puff",
+      "count": 2
+    },
+    {
+      "item": "silentgear:fluffy_seeds",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "silentgear:fluffy_seeds"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "silentgear:fluffy_plant"
+  }
+}

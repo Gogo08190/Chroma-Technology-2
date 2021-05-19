@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "item": "thermal:copper_dust"
+  },
+  "input": {
+    "tag": "forge:ores/copper"
+  }
+}

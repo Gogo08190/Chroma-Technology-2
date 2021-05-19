@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:signalum_essence",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:signalum_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:imperium_farmland"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:signalum_crop"  
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "silentgear:flax_fiber",
+      "count": 2
+    },
+    {
+      "item": "silentgear:flax_flowers",
+      "count": 1
+    },
+    {
+      "item": "silentgear:flax_seeds",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "silentgear:flax_seeds"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "silentgear:flax_plant"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "value": {
+        "item": "thermal:bronze_ingot",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "cast": {
+    "item": "tconstruct:ingot_cast"
+  },
+  "fluid": {
+    "name": "tconstruct:molten_bronze",
+    "amount": 144
+  },
+  "result": {
+    "item": "thermal:bronze_ingot"
+  },
+  "cooling_time": 57
+}

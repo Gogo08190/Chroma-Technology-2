@@ -1,0 +1,17 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:ores/copper"
+  },
+  "result": {
+    "primary": {
+      "item": "thermal:copper_dust"
+    },
+    "optional": [
+      {
+        "item": "thermal:copper_dust"
+      }
+    ]
+  },
+  "turns": 8
+}

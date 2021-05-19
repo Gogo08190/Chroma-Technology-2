@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:earth_essence",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:earth_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:inferium_farmland"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:earth_crop"
+  }
+}

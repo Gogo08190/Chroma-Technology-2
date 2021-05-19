@@ -1,0 +1,21 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "create"
+		}
+	],
+	"type": "create:milling",
+    "ingredients": [
+    	{
+    		"tag": "forge:ores/netherite_scrap"
+    	}
+    ], 
+	"results": [
+		{
+			"item": "minecraft:netherite_scrap",
+			"count": 2
+		}
+	],
+	"processingTime": 200
+}

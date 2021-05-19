@@ -1,0 +1,26 @@
+{
+  "type": "thermal:smelter",
+  "input": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 2
+    },
+    {
+      "tag": "forge:dusts/coal",
+      "count": 2
+    }
+  ],
+  "result": [
+    {
+      "item": "silents_mechanisms:steel_ingot",
+      "count": 2
+    }
+  ],
+  "energy": 4000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
+}

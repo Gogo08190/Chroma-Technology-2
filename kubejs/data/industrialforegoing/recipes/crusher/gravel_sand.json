@@ -1,0 +1,9 @@
+{
+  "input": {
+    "tag": "forge:gravel"
+  },
+  "output": {
+    "tag": "minecraft:sand"
+  },
+  "type": "industrialforegoing:crusher"
+}

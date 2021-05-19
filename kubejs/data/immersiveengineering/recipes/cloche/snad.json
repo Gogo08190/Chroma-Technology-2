@@ -1,0 +1,19 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "minecraft:sugar_cane"
+    }
+  ],
+  "input": {
+    "item": "minecraft:sugar_cane"
+  },
+  "soil": {
+    "item": "snad:snad"
+  },
+  "time": 200,
+  "render": {
+    "type": "stacking",
+    "block": "minecraft:sugar_cane"
+  }
+}

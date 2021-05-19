@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:cow_essence",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:cow_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:prudentium_farmland"
+  },
+  "time": 650,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:cow_crop"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mysticalagriculture:imperium_essence"
+    },
+    "X": {
+      "item": "mysticalagriculture:prosperity_gemstone"
+    }
+  },
+  "result": {
+    "item": "mysticalagriculture:imperium_gemstone"
+  }
+}

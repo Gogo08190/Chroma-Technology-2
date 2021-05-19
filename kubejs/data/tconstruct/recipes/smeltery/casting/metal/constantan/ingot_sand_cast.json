@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "value": {
+        "item": "thermal:constantan_ingot",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/single_use/ingot"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "tconstruct:molten_constantan",
+    "amount": 144
+  },
+  "result": {
+    "item": "thermal:constantan_ingot"
+  },
+  "cooling_time": 64
+}

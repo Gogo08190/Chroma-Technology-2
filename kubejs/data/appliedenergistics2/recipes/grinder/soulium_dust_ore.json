@@ -1,0 +1,18 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:ores/soulium"
+  },
+  "result": {
+    "primary": {
+      "item": "mysticalagriculture:soulium_dust",
+      "count": 3
+    },
+    "optional": [
+      {
+        "item": "mysticalagriculture:soulium_dust"
+      }
+    ]
+  },
+  "turns": 6
+}

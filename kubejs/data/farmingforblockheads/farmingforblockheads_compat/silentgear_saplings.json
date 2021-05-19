@@ -1,0 +1,18 @@
+{
+  "modId": "silentgear",
+  "group": {
+    "name": "Silent Gear Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "silentgear:blaze_gold_ingot"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "silentgear:netherwood_sapling"
+      }
+    }
+  ]
+}

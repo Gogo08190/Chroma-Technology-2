@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "results": [
+    {
+      "count": 2,
+      "base_ingredient": {
+        "item": "thermal:ingot_constantan_ingot"
+      }
+    }
+  ],
+  "additives": [
+    {
+      "item": "thermal:nickel_ingot"
+    }
+  ],
+  "input": {
+    "item": "thermal:copper_ingot"
+  },
+  "time": 100,
+  "energy": 51200
+}

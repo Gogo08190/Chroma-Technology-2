@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:apatite_essence",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:apatite_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:prudentium_farmland"
+  },
+  "time": 650,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:apatite_crop"  
+  }
+}

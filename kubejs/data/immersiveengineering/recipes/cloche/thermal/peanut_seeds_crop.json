@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "thermal:peanut",
+      "count": 2
+    },
+    {
+      "item": "thermal:peanut_seeds",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "thermal:peanut_seeds"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "thermal:peanut"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "results": [
+    {
+      "item": "bigreactors:yellorium_ingot"
+    }
+  ],
+  "additives": [],
+  "input": {
+    "item": "bigreactors:yellorium_dust"
+  },
+  "time": 100,
+  "energy": 51200
+}

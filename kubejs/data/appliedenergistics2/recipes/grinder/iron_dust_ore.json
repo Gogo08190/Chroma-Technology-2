@@ -1,0 +1,17 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:ores/iron"
+  },
+  "result": {
+    "primary": {
+      "item": "thermal:iron_dust"
+    },
+    "optional": [
+      {
+        "item": "thermal:iron_dust"
+      }
+    ]
+  },
+  "turns": 8
+}

@@ -1,0 +1,35 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalagriculture:prosperity_seed_base"
+  },
+  "ingredients": [
+    {
+      "item": "industrialforegoing:dryrubber"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_essence"
+    },
+    {
+      "item": "industrialforegoing:dryrubber"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_essence"
+    },
+    {
+      "item": "industrialforegoing:dryrubber"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_essence"
+    },
+    {
+      "item": "industrialforegoing:dryrubber"
+    },
+    {
+      "item": "mysticalagriculture:prudentium_essence"
+    }
+  ],
+  "result": {
+    "item": "mysticalagriculture:rubber_seeds"
+  }
+}

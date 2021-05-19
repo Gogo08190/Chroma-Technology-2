@@ -1,0 +1,17 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "item": "bigreactors:yellorite_ore"
+  },
+  "result": {
+    "primary": {
+      "item": "bigreactors:yellorium_dust"
+    },
+    "optional": [
+      {
+        "item": "bigreactors:yellorium_dust"
+      }
+    ]
+  },
+  "turns": 8
+}

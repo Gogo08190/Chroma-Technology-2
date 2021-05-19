@@ -1,0 +1,17 @@
+{
+  "type": "silents_mechanisms:crushing",
+  "process_time": 300,
+  "ingredient": {
+    "item": "mana-and-artifice:vinteum_ore"
+  },
+  "results": [
+    {
+      "item": "mana-and-artifice:vinteum_dust",
+      "count": 2
+    },
+    {
+      "item": "mana-and-artifice:vinteum_dust",
+      "chance": 0.1
+    }
+  ]
+}

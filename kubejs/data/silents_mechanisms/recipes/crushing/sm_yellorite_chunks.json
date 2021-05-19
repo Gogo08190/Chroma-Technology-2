@@ -1,0 +1,17 @@
+{
+  "type": "silents_mechanisms:crushing",
+  "process_time": 400,
+  "ingredient": {
+    "item": "bigreactors:yellorite_ore"
+  },
+  "results": [
+    {
+      "item": "kubejs:yellorite_chunks",
+      "count": 2
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "chance": 0.1
+    }
+  ]
+}

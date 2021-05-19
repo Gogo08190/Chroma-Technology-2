@@ -13,8 +13,6 @@ events.listen('recipes', e => {
     //Recipe removals
     e.remove({
         output: [
-            'appliedenergistics2:silicon',
-
             'mekanism:upgrade_anchor',
 
             'xreliquary:alkahestry_tome',

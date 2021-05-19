@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "thermal:tea",
+      "count": 2
+    },
+    {
+      "item": "thermal:tea_seeds",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "thermal:tea_seeds"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "thermal:tea"
+  }
+}

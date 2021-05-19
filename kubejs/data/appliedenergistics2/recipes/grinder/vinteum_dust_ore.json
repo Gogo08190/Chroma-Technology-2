@@ -1,0 +1,17 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "item": "mana-and-artifice:vinteum_ore"
+  },
+  "result": {
+    "primary": {
+      "item": "mana-and-artifice:vinteum_dust"
+    },
+    "optional": [
+      {
+        "item": "mana-and-artifice:vinteum_dust"
+      }
+    ]
+  },
+  "turns": 8
+}

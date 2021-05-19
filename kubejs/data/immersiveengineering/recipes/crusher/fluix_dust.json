@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "item": "appliedenergistics2:fluix_dust"
+  },
+  "input": {
+    "tag": "forge:gems/fluix"
+  },
+  "energy": 3000
+}

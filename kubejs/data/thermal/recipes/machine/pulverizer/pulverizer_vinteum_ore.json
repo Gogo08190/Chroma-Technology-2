@@ -1,0 +1,17 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "mana-and-artifice:vinteum_ore"
+  },
+  "result": [
+    {
+      "item": "mana-and-artifice:vinteum_dust",
+      "chance": 2.0
+    },
+    {
+      "item": "minecraft:gravel",
+      "chance": 0.2
+    }
+  ],
+  "experience": 0.2
+}

@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    "X": {
+      "item": "mysticalagriculture:prosperity_ingot"
+    }
+  },
+  "result": {
+    "item": "mysticalagriculture:supremium_ingot"
+  }
+}

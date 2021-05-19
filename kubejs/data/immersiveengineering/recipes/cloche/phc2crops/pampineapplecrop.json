@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "pamhc2crops:pineappleitem",
+      "count": 2
+    },
+    {
+      "item": "pamhc2crops:pineappleitem",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "pamhc2crops:pineappleseeditem"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "pamhc2crops:pampineapplecrop"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "item": "bigreactors:yellorium_dust"
+  },
+  "input": {
+    "item": "bigreactors:yellorium_ingot"
+  },
+  "energy": 3000
+}
