@@ -39,6 +39,13 @@ events.listen('recipes', e => {
         ]
     });
 
+    //Item Ban
+    e.remove({
+        output: [
+            'darkutils:ender_hopper' //Tics every second a item is dropped
+        ]
+    })
+
 
     //Remove via mod name
     e.remove({
