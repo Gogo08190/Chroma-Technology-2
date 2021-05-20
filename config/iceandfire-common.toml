@@ -5,17 +5,17 @@
 	#Blocks that a dragon can break, but won't spawn drops for. Use the format like "minecraft:stone" or "rats:block_of_cheese" 
 	noDropBreakBlocks = ["minecraft:stone", "minecraft:dirt", "minecraft:grass_block"]
 	#Whether to generate silver ore or not
-	"Generate Silver Ore" = false
+	"Generate Silver Ore" = true
 	#True if using blacklists, false if using whitelists for dragons and structure gen.
 	"Use Dimension Blacklist" = false
 	#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
 	blacklistDimensions = ["minecraft:overworld"]
 	#Whether to generate copper ore or not
-	"Generate Copper Ore" = false
+	"Generate Copper Ore" = true
 	#Whether to generate sapphire ore or not
-	"Generate Sapphire Ore" = false
+	"Generate Sapphire Ore" = true
 	#Whether to generate amethyst ore or not
-	"Generate Amethyst Ore" = false
+	"Generate Amethyst Ore" = true
 	#Whether to generate dragon skeletons or not
 	"Generate Dragon Skeletons" = true
 	#1 out of this number chance per chunk for generation
@@ -25,7 +25,7 @@
 	"Generate Dragon Caves" = true
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Generate Dragon Cave Chance" = 200
+	"Generate Dragon Cave Chance" = 180
 	#Whether to generate dragon roosts or not
 	"Generate Dragon Roosts" = true
 	#1 out of this number chance per chunk for generation
@@ -50,9 +50,9 @@
 	"Dragon Egg Hatch Time" = 7200
 	#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default
 	#Range: 0 ~ 2
-	"Dragon Griefing" = 2
+	"Dragon Griefing" = 0
 	#True if tamed dragons can follow the griefing rules.
-	"Tamed Dragon Griefing" = false
+	"Tamed Dragon Griefing" = true
 	#Dragon Flap Noise Distance - Larger number, further away you can hear it
 	#Range: 0 ~ 10000
 	"Dragon Flap Noise Distance" = 4
