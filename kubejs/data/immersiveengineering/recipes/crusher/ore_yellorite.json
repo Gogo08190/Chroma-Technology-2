@@ -1,0 +1,14 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "count": 2,
+    "base_ingredient": {
+      "item": "bigreactors:yellorium_dust"
+    }
+  },
+  "input": {
+    "item": "bigreactors:yellorite_ore"
+  },
+  "energy": 6000
+}

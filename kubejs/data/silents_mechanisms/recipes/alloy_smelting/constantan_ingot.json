@@ -1,0 +1,38 @@
+{
+  "type": "silents_mechanisms:alloy_smelting",
+  "process_time": 400,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "tag": "forge:ingots/copper"
+        },
+        {
+          "tag": "silents_mechanisms:chunks/copper"
+        },
+        {
+          "tag": "forge:dusts/copper"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "value": [
+        {
+          "tag": "forge:ingots/nickel"
+        },
+        {
+          "tag": "silents_mechanisms:chunks/nickel"
+        },
+        {
+          "tag": "forge:dusts/nickel"
+        }
+      ],
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "thermal:constantan_ingot",
+    "count": 2
+  }
+}

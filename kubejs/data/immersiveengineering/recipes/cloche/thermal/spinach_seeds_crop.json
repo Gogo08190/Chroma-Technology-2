@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "thermal:spinach",
+      "count": 2
+    },
+    {
+      "item": "thermal:spinach_seeds",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "thermal:spinach_seeds"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "thermal:spinach"
+  }
+}

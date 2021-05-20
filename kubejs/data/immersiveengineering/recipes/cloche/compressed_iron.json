@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:compressed_iron_essence",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:compressed_iron_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:imperium_farmland"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:compressed_iron_crop"  
+  }
+}

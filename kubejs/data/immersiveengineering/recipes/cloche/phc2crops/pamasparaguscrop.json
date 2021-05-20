@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "pamhc2crops:asparagusitem",
+      "count": 2
+    },
+    {
+      "item": "pamhc2crops:asparagusitem",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "pamhc2crops:asparagusseeditem"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "pamhc2crops:pamasparaguscrop"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:casting_basin",
+  "conditions": [
+    {
+      "value": {
+        "item": "thermal:constantan_block",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "fluid": {
+    "name": "tconstruct:molten_constantan",
+    "amount": 1296
+  },
+  "result": {
+    "item": "thermal:constantan_block"
+  },
+  "cooling_time": 192
+}

@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "simplefarming:spinach",
+      "count": 2
+    },
+    {
+      "item": "simplefarming:spinach_seeds",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "simplefarming:spinach_seeds"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "simplefarming:spinach_crop"
+  }
+}

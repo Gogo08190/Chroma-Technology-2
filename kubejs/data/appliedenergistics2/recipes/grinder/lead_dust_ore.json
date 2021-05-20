@@ -1,0 +1,17 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:ores/lead"
+  },
+  "result": {
+    "primary": {
+      "item": "thermal:lead_dust"
+    },
+    "optional": [
+      {
+        "item": "thermal:lead_dust"
+      }
+    ]
+  },
+  "turns": 8
+}

@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:enderman_essence",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:enderman_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:imperium_farmland"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:enderman_crop"  
+  }
+}

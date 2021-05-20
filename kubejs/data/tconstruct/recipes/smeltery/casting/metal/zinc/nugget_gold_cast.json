@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "value": {
+        "item": "silents_mechanisms:zinc_nugget",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "cast": {
+    "item": "tconstruct:nugget_cast"
+  },
+  "fluid": {
+    "name": "tconstruct:molten_zinc",
+    "amount": 16
+  },
+  "result": {
+    "item": "silents_mechanisms:zinc_nugget"
+  },
+  "cooling_time": 16
+}

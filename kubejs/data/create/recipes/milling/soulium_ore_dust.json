@@ -1,0 +1,21 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "create"
+		}
+	],
+	"type": "create:milling",
+    "ingredients": [
+    	{
+    		"item": "mysticalagriculture:soulium_ore"
+    	}
+    ], 
+	"results": [
+		{
+			"item": "mysticalagriculture:soulium_dust",
+			"count": 3
+		}
+	],
+	"processingTime": 200
+}

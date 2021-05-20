@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:casting_basin",
+  "conditions": [
+    {
+      "value": {
+        "item": "silents_mechanisms:uranium_block",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "fluid": {
+    "name": "tconstruct:molten_uranium",
+    "amount": 1296
+  },
+  "result": {
+    "item": "silents_mechanisms:uranium_block"
+  },
+  "cooling_time": 183
+}

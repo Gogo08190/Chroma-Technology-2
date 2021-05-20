@@ -1,0 +1,21 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:ores/soulium"
+  },
+  "result": [
+    {
+      "item": "mysticalagriculture:soulium_dust",
+      "chance": 2.0
+    },
+    {
+      "item": "mysticalagriculture:soulium_dust",
+      "chance": 1.0
+    },
+    {
+      "item": "minecraft:soul_sand",
+      "chance": 0.2
+    }
+  ],
+  "experience": 0.2
+}

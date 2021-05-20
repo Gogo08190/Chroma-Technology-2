@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:starmetal_essence",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:starmetal_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:imperium_farmland"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:starmetal_crop"  
+  }
+}

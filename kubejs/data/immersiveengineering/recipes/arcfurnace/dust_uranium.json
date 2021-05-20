@@ -1,0 +1,14 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "results": [
+    {
+      "item": "silents_mechanisms:uranium_ingot"
+    }
+  ],
+  "additives": [],
+  "input": {
+    "item": "silents_mechanisms:uranium_dust"
+  },
+  "time": 100,
+  "energy": 51200
+}

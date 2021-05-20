@@ -209,23 +209,23 @@
 		#Generate Coal Ore
 		coal = true
 		#Generate Silver Ore
-		silver = false
+		silver = true
 		#Generate Iron Ore
 		iron = true
 		#Generate Lead Ore
-		lead = false
+		lead = true
 		#Generate Nickel Ore
-		nickel = false
+		nickel = true
 		#Generate Copper Ore
-		copper = false
+		copper = true
 		#Generate Aluminum Ore
-		aluminum = false
+		aluminum = true
 		#Generate Tin Ore
 		tin = false
 		#Generate Osmium Ore
-		osmium = false
+		osmium = true
 		#Generate Uranium Ore
-		uranium = false
+		uranium = true
 
 [ore_protector]
 	#If set to 'true' Piglins will protect Nether Ores

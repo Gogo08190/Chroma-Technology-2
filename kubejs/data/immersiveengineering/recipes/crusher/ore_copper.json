@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "count": 2,
+    "item": "thermal:copper_dust"
+  },
+  "input": {
+    "tag": "forge:ores/copper"
+  },
+  "energy": 6000
+}

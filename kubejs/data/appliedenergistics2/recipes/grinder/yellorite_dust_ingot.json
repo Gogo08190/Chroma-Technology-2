@@ -1,0 +1,12 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "item": "bigreactors:yellorium_ingot"
+  },
+  "result": {
+    "primary": {
+      "item": "bigreactors:yellorium_dust"
+    }
+  },
+  "turns": 4
+}

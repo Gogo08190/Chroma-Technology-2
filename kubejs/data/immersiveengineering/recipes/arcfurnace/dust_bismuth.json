@@ -1,0 +1,14 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "results": [
+    {
+      "item": "silents_mechanisms:bismuth_ingot"
+    }
+  ],
+  "additives": [],
+  "input": {
+    "tag": "forge:dusts/bismuth"
+  },
+  "time": 100,
+  "energy": 51200
+}

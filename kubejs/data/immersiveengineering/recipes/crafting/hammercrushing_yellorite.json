@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "item": "bigreactors:yellorium_dust"
+  },
+  "input": {
+    "item": "bigreactors:yellorite_ore"
+  }
+}

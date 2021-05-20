@@ -1,0 +1,17 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:ores/silver"
+  },
+  "result": {
+    "primary": {
+      "item": "thermal:silver_dust"
+    },
+    "optional": [
+      {
+        "item": "thermal:silver_dust"
+      }
+    ]
+  },
+  "turns": 8
+}

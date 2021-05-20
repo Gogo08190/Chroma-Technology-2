@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:niotic_crystal_essence",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:niotic_crystal_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:supremium_farmland"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:niotic_crystal_crop"  
+  }
+}

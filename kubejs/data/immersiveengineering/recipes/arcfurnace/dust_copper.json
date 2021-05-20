@@ -1,0 +1,14 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "results": [
+    {
+      "item": "thermal:copper_ingot"
+    }
+  ],
+  "additives": [],
+  "input": {
+    "tag": "forge:dusts/copper"
+  },
+  "time": 100,
+  "energy": 51200
+}

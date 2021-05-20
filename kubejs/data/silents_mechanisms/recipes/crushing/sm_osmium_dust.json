@@ -1,0 +1,16 @@
+{
+  "type": "silents_mechanisms:crushing",
+  "process_time": 300,
+  "ingredient": {
+    "item": "kubejs:osmium_chunks"
+  },
+  "results": [
+    {
+      "item": "mekanism:dust_osmium"
+    },
+    {
+      "item": "mekanism:dust_osmium",
+      "chance": 0.1
+    }
+  ]
+}

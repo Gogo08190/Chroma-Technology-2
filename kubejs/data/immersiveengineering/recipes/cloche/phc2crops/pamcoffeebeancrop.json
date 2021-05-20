@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "pamhc2crops:coffeebeanitem",
+      "count": 2
+    },
+    {
+      "item": "pamhc2crops:coffeebeanitem",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "pamhc2crops:coffeebeanseeditem"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "pamhc2crops:pamcoffeebeancrop"
+  }
+}

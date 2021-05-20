@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "mysticalagriculture:hop_graphite_essence",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:hop_graphite_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:imperium_farmland"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "mysticalagriculture:hop_graphite_crop"  
+  }
+}

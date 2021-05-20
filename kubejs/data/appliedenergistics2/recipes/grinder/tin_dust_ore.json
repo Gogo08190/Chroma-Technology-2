@@ -1,0 +1,17 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "forge:ores/tin"
+  },
+  "result": {
+    "primary": {
+      "item": "thermal:tin_dust"
+    },
+    "optional": [
+      {
+        "item": "thermal:tin_dust"
+      }
+    ]
+  },
+  "turns": 8
+}

@@ -1,0 +1,16 @@
+{
+  "type": "silents_mechanisms:crushing",
+  "process_time": 300,
+  "ingredient": {
+    "item": "kubejs:yellorite_chunks"
+  },
+  "results": [
+    {
+      "item": "bigreactors:yellorium_dust"
+    },
+    {
+      "item": "bigreactors:yellorium_dust",
+      "chance": 0.1
+    }
+  ]
+}

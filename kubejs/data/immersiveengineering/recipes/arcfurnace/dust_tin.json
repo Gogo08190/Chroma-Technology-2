@@ -1,0 +1,14 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "results": [
+    {
+      "item": "thermal:tin_ingot"
+    }
+  ],
+  "additives": [],
+  "input": {
+    "tag": "forge:dusts/tin"
+  },
+  "time": 100,
+  "energy": 51200
+}

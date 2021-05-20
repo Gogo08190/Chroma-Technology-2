@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "count": 3,
+    "item": "mysticalagriculture:soulium_dust"
+  },
+  "input": {
+    "item": "mysticalagriculture:soulium_ore"
+  },
+  "energy": 6000
+}

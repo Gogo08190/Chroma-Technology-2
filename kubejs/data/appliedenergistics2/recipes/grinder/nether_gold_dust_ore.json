@@ -1,0 +1,17 @@
+{
+  "type": "appliedenergistics2:grinder",
+  "input": {
+    "tag": "minecraft:gold_ores"
+  },
+  "result": {
+    "primary": {
+      "item": "thermal:gold_dust"
+    },
+    "optional": [
+      {
+        "item": "thermal:gold_dust"
+      }
+    ]
+  },
+  "turns": 8
+}

@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "thermal:corn",
+      "count": 2
+    },
+    {
+      "item": "thermal:corn_seeds",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "thermal:corn_seeds"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "thermal:corn"
+  }
+}

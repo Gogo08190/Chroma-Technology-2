@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "item": "thermal:copper_dust"
+  },
+  "input": {
+    "item": "thermal:copper_ingot"
+  },
+  "energy": 3000
+}

@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "count": 2,
+    "item": "silents_mechanisms:bismuth_dust"
+  },
+  "input": {
+    "tag": "forge:ores/bismuth"
+  },
+  "energy": 6000
+}

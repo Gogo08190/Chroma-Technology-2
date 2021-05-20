@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "simplefarming:corn",
+      "count": 2
+    },
+    {
+      "item": "simplefarming:corn_seeds",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "simplefarming:corn_seeds"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "simplefarming:corn_crop"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:ores/netherite_scrap"
+  },
+  "result": [
+    {
+      "item": "minecraft:netherite_scrap",
+      "chance": 2.0
+    },
+    {
+      "item": "minecraft:netherrack",
+      "chance": 0.2
+    }
+  ],
+  "experience": 0.2
+}

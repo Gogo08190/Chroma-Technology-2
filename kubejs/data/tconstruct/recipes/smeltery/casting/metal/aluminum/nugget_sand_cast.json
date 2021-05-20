@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "value": {
+        "item": "silents_mechanisms:aluminum_nugget",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/single_use/nugget"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "tconstruct:molten_aluminum",
+    "amount": 16
+  },
+  "result": {
+    "item": "silents_mechanisms:aluminum_nugget"
+  },
+  "cooling_time": 16
+}

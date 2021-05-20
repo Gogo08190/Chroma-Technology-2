@@ -1,0 +1,16 @@
+{
+  "type": "silents_mechanisms:crushing",
+  "process_time": 300,
+  "ingredient": {
+    "tag": "silents_mechanisms:chunks/nickel"
+  },
+  "results": [
+    {
+      "item": "thermal:nickel_dust"
+    },
+    {
+      "item": "thermal:nickel_dust",
+      "chance": 0.1
+    }
+  ]
+}

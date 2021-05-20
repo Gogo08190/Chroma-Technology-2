@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "thermal:bell_pepper",
+      "count": 2
+    },
+    {
+      "item": "thermal:bell_pepper_seeds",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "thermal:bell_pepper_seeds"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "thermal:bell_pepper"
+  }
+}

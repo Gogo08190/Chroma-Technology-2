@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "item": "silents_mechanisms:aluminum_dust"
+  },
+  "input": {
+    "item": "silents_mechanisms:aluminum_ingot"
+  },
+  "energy": 3000
+}
