@@ -86,6 +86,12 @@ events.listen('jei.hide.items', function (event) {
   event.hide('iceandfire:silver_block')
   event.hide('iceandfire:silver_ingot')
   event.hide('iceandfire:silver_nugget')
+  event.hide('iceandfire:sapphire_ore')
+  event.hide('iceandfire:sapphire_gem') 
+  event.hide('iceandfire:sapphire_block')
+  event.hide('iceandfire:amythest_ore')
+  event.hide('iceandfire:amythest_block')
+  event.hide('iceandfire:amythest_gem')
 
   // Silent Gear
   event.hide('silentgear:iron_rod')
@@ -136,6 +142,9 @@ events.listen('jei.hide.items', function (event) {
   event.hide('create:zinc_nugget')
   event.hide('create:brass_block')
   event.hide('create:brass_nugget')
+
+  //eidolon
+  event.hide('eidolon:lead_ingot')
 
   // Silent's Mechanisms
   event.hide('silents_mechanisms:copper_ingot')
