@@ -1,14 +1,14 @@
 
 [general]
-	#Blocks that a dragon cannot break. Use the format like "minecraft:chest" or "rats:block_of_cheese"
+	#Blocks that a dragon cannot break. Use the format like "minecraft:chest" or "rats:block_of_cheese" 
 	blacklistedBreakBlocks = []
-	#Blocks that a dragon can break, but won't spawn drops for. Use the format like "minecraft:stone" or "rats:block_of_cheese"
+	#Blocks that a dragon can break, but won't spawn drops for. Use the format like "minecraft:stone" or "rats:block_of_cheese" 
 	noDropBreakBlocks = ["minecraft:stone", "minecraft:dirt", "minecraft:grass_block"]
 	#Whether to generate silver ore or not
 	"Generate Silver Ore" = false
 	#True if using blacklists, false if using whitelists for dragons and structure gen.
 	"Use Dimension Blacklist" = false
-	#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis"
+	#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
 	blacklistDimensions = ["minecraft:overworld"]
 	#Whether to generate copper ore or not
 	"Generate Copper Ore" = false
@@ -371,3 +371,4 @@
 	#Maximum nodes for dragons/myrmex to path too. Decrease this is dragon pathfinding is super slow or intensive.
 	#Range: > 1
 	"Dragon Max Pathfinding Nodes" = 5000
+
