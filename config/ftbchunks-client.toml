@@ -58,3 +58,4 @@ minimap_visibility = 255
 minimap_zone = true
 #Enables debug info
 debug_info = false
+
