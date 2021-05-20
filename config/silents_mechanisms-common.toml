@@ -144,28 +144,28 @@
 		[world.ores.bauxite]
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 0
+			veinCount = 4
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 0
+			veinSize = 8
 			#Minimum Y-coordinate (base height) of veins
 			#Range: 0 ~ 255
-			minHeight = 15
+			minHeight = 40
 			#Maximum Y-coordinate (highest level) of veins
 			#Range: 0 ~ 255
-			maxHeight = 50
+			maxHeight = 85
 
 		[world.ores.uranium]
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 0
+			veinCount = 4
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 0
+			veinSize = 2
 			#Minimum Y-coordinate (base height) of veins
 			#Range: 0 ~ 255
-			minHeight = 0
+			minHeight = 8
 			#Maximum Y-coordinate (highest level) of veins
 			#Range: 0 ~ 255
-			maxHeight = 18
+			maxHeight = 24
 

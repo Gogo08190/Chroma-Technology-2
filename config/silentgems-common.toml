@@ -209,7 +209,7 @@
 				#Range: > 0
 				topaz = 10
 				#Range: > 0
-				amber = 10
+				amber = 0
 				#Range: > 0
 				heliodor = 10
 				#Range: > 0
@@ -267,7 +267,7 @@
 				#Range: > 0
 				black_diamond = 10
 				#Range: > 0
-				moonstone = 10
+				moonstone = 0
 
 			[world.generation.gemWeights.the_end]
 				#Range: > 0
@@ -312,7 +312,7 @@
 				#Range: > 0
 				topaz = 10
 				#Range: > 0
-				amber = 10
+				amber = 0
 				#Range: > 0
 				heliodor = 10
 				#Range: > 0

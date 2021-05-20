@@ -11,7 +11,7 @@
 #World generation settings
 [world]
 	#Whether lead ore is enabled. Set to false to disable spawning.
-	leadEnabled = true
+	leadEnabled = false
 	#Minimum Y value for lead ore veins
 	#Range: 0 ~ 254
 	leadOreMinY = 0
