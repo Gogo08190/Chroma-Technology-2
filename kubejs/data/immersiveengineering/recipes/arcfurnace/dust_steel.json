@@ -2,7 +2,7 @@
   "type": "immersiveengineering:arc_furnace",
   "results": [
     {
-      "item": "thermal:steel_ingot"
+      "item": "silents_mechanisms:steel_ingot"
     }
   ],
   "additives": [],

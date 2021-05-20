@@ -12,14 +12,6 @@ onEvent('recipes', event => {
     "silents_mechanisms:uranium_dust"
     )
 
-  // Osmium Ore Chunks to Osmium Ingot
-  event.smelting(Item.of('mekanism:ingot_osmium', 1), 'kubejs:osmium_chunks').xp(1.0)
-  event.blasting(Item.of('mekanism:ingot_osmium', 1), 'kubejs:osmium_chunks').xp(1.0)
-
-  // Yellorite Ore Chunks to Yellorium Ingot
-  event.smelting(Item.of('bigreactors:yellorium_ingot', 1), 'kubejs:yellorite_chunks').xp(1.0)
-  event.blasting(Item.of('bigreactors:yellorium_ingot', 1), 'kubejs:yellorite_chunks').xp(1.0)
-
   // Mystical Agriculture Enderium Essence Craft
   event.remove({id: "mysticalagriculture:essence/thermal/enderium_ingot"})
   event.shaped(Item.of('thermal:enderium_ingot', 2), [

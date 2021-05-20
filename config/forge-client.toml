@@ -14,7 +14,7 @@
 	#Enable the Forge block rendering pipeline - fixes the lighting of custom models.
 	forgeLightPipelineEnabled = true
 	#EXPERIMENTAL: Enable the Forge block rendering pipeline - fixes the lighting of custom models.
-	experimentalForgeLightPipelineEnabled = false
+	experimentalForgeLightPipelineEnabled = true
 	#When enabled, makes specific reload tasks such as language changing quicker to run.
 	selectiveResourceReloadEnabled = true
 	#When enabled, Forge will show any warnings that occurred during loading.
