@@ -184,6 +184,10 @@ events.listen('jei.hide.items', function (event) {
   // Tinkers' Construct
   event.hide('tconstruct:copper_ingot')
   event.hide('tconstruct:copper_block')
+  event.hide('tconstruct:aluminum_ore')
+  event.hide('tconstruct:aluminum_block')
+  event.hide('tconstruct:aluminum_ingot')
+  event.hide('tconstruct:aluminum_nugget')
 })
 
 onEvent('jei.hide.items', event => {
