@@ -86,6 +86,12 @@ events.listen('jei.hide.items', function (event) {
   event.hide('iceandfire:silver_block')
   event.hide('iceandfire:silver_ingot')
   event.hide('iceandfire:silver_nugget')
+  event.hide('iceandfire:sapphire_ore')
+  event.hide('iceandfire:sapphire_gem') 
+  event.hide('iceandfire:sapphire_block')
+  event.hide('iceandfire:amythest_ore')
+  event.hide('iceandfire:amythest_block')
+  event.hide('iceandfire:amythest_gem')
 
   // Silent Gear
   event.hide('silentgear:iron_rod')
@@ -137,23 +143,31 @@ events.listen('jei.hide.items', function (event) {
   event.hide('create:brass_block')
   event.hide('create:brass_nugget')
 
+  //eidolon
+  event.hide('eidolon:lead_ingot')
+
   // Silent's Mechanisms
   event.hide('silents_mechanisms:copper_ingot')
   event.hide('silents_mechanisms:copper_dust')
   event.hide('silents_mechanisms:copper_nugget')
+  event.hide('silents_mechanisms:copper_ore')
   event.hide('silents_mechanisms:tin_ingot')
   event.hide('silents_mechanisms:tin_dust')
   event.hide('silents_mechanisms:tin_nugget')
+  event.hide('silents_mechanisms:tin_ore')
   event.hide('silents_mechanisms:iron_dust')
   event.hide('silents_mechanisms:silver_ingot')
   event.hide('silents_mechanisms:silver_dust')
   event.hide('silents_mechanisms:silver_nugget')
+  event.hide('silents_mechanisms:silver_ore')
   event.hide('silents_mechanisms:lead_ingot')
   event.hide('silents_mechanisms:lead_dust')
   event.hide('silents_mechanisms:lead_nugget')
+  event.hide('silents_mechanisms:lead_ore')
   event.hide('silents_mechanisms:nickel_ingot')
   event.hide('silents_mechanisms:nickel_dust')
   event.hide('silents_mechanisms:nickel_nugget')
+  event.hide('silents_mechanisms:nickel_ore')
   event.hide('silents_mechanisms:bronze_ingot')
   event.hide('silents_mechanisms:bronze_dust')
   event.hide('silents_mechanisms:bronze_nugget')
@@ -170,6 +184,10 @@ events.listen('jei.hide.items', function (event) {
   // Tinkers' Construct
   event.hide('tconstruct:copper_ingot')
   event.hide('tconstruct:copper_block')
+  event.hide('tconstruct:aluminum_ore')
+  event.hide('tconstruct:aluminum_block')
+  event.hide('tconstruct:aluminum_ingot')
+  event.hide('tconstruct:aluminum_nugget')
 })
 
 onEvent('jei.hide.items', event => {
