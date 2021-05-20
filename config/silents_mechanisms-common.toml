@@ -1,7 +1,7 @@
 
 [general]
 	#Shows a message in chat warning the player that the mod is early in development
-	showBetaWelcomeMessage = true
+	showBetaWelcomeMessage = false
 
 [machine]
 
@@ -168,4 +168,3 @@
 			#Maximum Y-coordinate (highest level) of veins
 			#Range: 0 ~ 255
 			maxHeight = 18
-
