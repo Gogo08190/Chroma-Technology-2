@@ -21,3 +21,4 @@
 	showLoadWarnings = true
 	#Set to true to use a combined DEPTH_STENCIL attachment instead of two separate ones.
 	useCombinedDepthStencilAttachment = false
+
