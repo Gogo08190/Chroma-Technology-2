@@ -1,21 +1,21 @@
 
 [general]
-	#Blocks that a dragon cannot break. Use the format like "minecraft:chest" or "rats:block_of_cheese" 
+	#Blocks that a dragon cannot break. Use the format like "minecraft:chest" or "rats:block_of_cheese"
 	blacklistedBreakBlocks = []
-	#Blocks that a dragon can break, but won't spawn drops for. Use the format like "minecraft:stone" or "rats:block_of_cheese" 
+	#Blocks that a dragon can break, but won't spawn drops for. Use the format like "minecraft:stone" or "rats:block_of_cheese"
 	noDropBreakBlocks = ["minecraft:stone", "minecraft:dirt", "minecraft:grass_block"]
 	#Whether to generate silver ore or not
-	"Generate Silver Ore" = true
+	"Generate Silver Ore" = false
 	#True if using blacklists, false if using whitelists for dragons and structure gen.
 	"Use Dimension Blacklist" = false
-	#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
+	#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis"
 	blacklistDimensions = ["minecraft:overworld"]
 	#Whether to generate copper ore or not
-	"Generate Copper Ore" = true
+	"Generate Copper Ore" = false
 	#Whether to generate sapphire ore or not
-	"Generate Sapphire Ore" = true
+	"Generate Sapphire Ore" = false
 	#Whether to generate amethyst ore or not
-	"Generate Amethyst Ore" = true
+	"Generate Amethyst Ore" = false
 	#Whether to generate dragon skeletons or not
 	"Generate Dragon Skeletons" = true
 	#1 out of this number chance per chunk for generation
@@ -25,7 +25,7 @@
 	"Generate Dragon Caves" = true
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Generate Dragon Cave Chance" = 180
+	"Generate Dragon Cave Chance" = 200
 	#Whether to generate dragon roosts or not
 	"Generate Dragon Roosts" = true
 	#1 out of this number chance per chunk for generation
@@ -50,9 +50,9 @@
 	"Dragon Egg Hatch Time" = 7200
 	#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default
 	#Range: 0 ~ 2
-	"Dragon Griefing" = 0
+	"Dragon Griefing" = 2
 	#True if tamed dragons can follow the griefing rules.
-	"Tamed Dragon Griefing" = true
+	"Tamed Dragon Griefing" = false
 	#Dragon Flap Noise Distance - Larger number, further away you can hear it
 	#Range: 0 ~ 10000
 	"Dragon Flap Noise Distance" = 4
@@ -371,4 +371,3 @@
 	#Maximum nodes for dragons/myrmex to path too. Decrease this is dragon pathfinding is super slow or intensive.
 	#Range: > 1
 	"Dragon Max Pathfinding Nodes" = 5000
-
