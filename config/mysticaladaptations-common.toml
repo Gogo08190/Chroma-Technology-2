@@ -1,9 +1,9 @@
 
 ["Mystical Agradditions"]
 	#Set whether Insanium Armor can be enchanted using a enchantment table
-	enchantable_insanium_armor = false
+	enchantable_insanium_armor = true
 	#Set whether Insanium Tools can be enchanted using a enchantment table
-	enchantable_insanium_tools = false
+	enchantable_insanium_tools = true
 	#Set how many augments can be placed on the insanium armor
 	#Range: 1 ~ 2
 	insanium_armor_augments = 2
@@ -22,4 +22,3 @@
 	wither_insanium = true
 	#Ender Dragon drops insanium essence when killed with an Insanium weapon.
 	dragon_insanium = true
-
