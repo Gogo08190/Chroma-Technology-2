@@ -5,6 +5,27 @@ onEvent('recipes', event => {
   // 3x Gravel to 1x Flint
   event.shapeless(Item.of('minecraft:flint'), ['minecraft:gravel', 'minecraft:gravel', 'minecraft:gravel'])
 
+  // conversion craft silent gem to druidcraft
+  //Rajout désactivation craft shard silent gem
+  event.shapeless(Item.of('silentgems:amber_shard',9), ['silentgems:amber'])
+  event.shapeless(Item.of('silentgems:moonstone_shard',9), ['silentgems:moonstone'])
+  //rajout désactiation craft gem silent gem
+  event.shaped(Item.of('silentgems:amber', 1), [
+    'AAA',
+    'AAA',
+    'AAA'
+  ], {
+    A: 'silentgems:amber_shard',
+  })
+  event.shaped(Item.of('silentgems:moonstone', 1), [
+    'MMM',
+    'MMM',
+    'MMM'
+  ], {
+    M: 'silentgems:moonstone_shard',
+  })
+
+
   // Dusts
   event.replaceOutput(
     { id: "engineerstools:crushing/uranium_grit_crushing_recipe" },

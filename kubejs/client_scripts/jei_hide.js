@@ -101,6 +101,12 @@ events.listen('jei.hide.items', function (event) {
   event.hide('silentgems:silver_block')
   event.hide('silentgems:silver_ingot')
   event.hide('silentgems:silver_nugget')
+  event.hide('silentgems:amber')
+  event.hide('silentgems:amber_ore')
+  event.hide('silentgems:amber_block')
+  event.hide('silentgems:moonstone')
+  event.hide('silentgems:moonstone_ore')
+  event.hide('silentgems:moonstone_block')
 
   // Basic Nether Ore
   event.hide('bno:aluminum_block')
@@ -184,10 +190,20 @@ events.listen('jei.hide.items', function (event) {
   // Tinkers' Construct
   event.hide('tconstruct:copper_ingot')
   event.hide('tconstruct:copper_block')
+  event.hide('tconstruct:copper_ore')
+  event.hide('tconstruct:copper_nugget')
   event.hide('tconstruct:aluminum_ore')
   event.hide('tconstruct:aluminum_block')
   event.hide('tconstruct:aluminum_ingot')
   event.hide('tconstruct:aluminum_nugget')
+  event.hide('tmechworks:copper_ingot')
+  event.hide('tmechworks:copper_block')
+  event.hide('tmechworks:copper_ore')
+  event.hide('tmechworks:copper_nugget')
+  event.hide('tmechworks:aluminum_ore')
+  event.hide('tmechworks:aluminum_block')
+  event.hide('tmechworks:aluminum_ingot')
+  event.hide('tmechworks:aluminum_nugget')
 })
 
 onEvent('jei.hide.items', event => {
