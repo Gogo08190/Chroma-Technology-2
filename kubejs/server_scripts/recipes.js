@@ -7,17 +7,22 @@ onEvent('recipes', event => {
 
   // conversion craft silent gem to druidcraft
   //Rajout désactivation craft shard silent gem
-  event.shapeless(Item.of('silentgems:amber_shard',9), ['silentgems:amber'])
-  event.shapeless(Item.of('silentgems:moonstone_shard',9), ['silentgems:moonstone'])
+  event.remove({id: 'silentgems:amber'})
+  event.remove({output: 'silentgems:amber'})
+  event.remove({output: 'silentgems:amber_shard'})
+  event.remove({output: 'silentgems:moonstone'})
+  event.remove({output: 'silentgems:moonstone_shard'})
+  event.shapeless(Item.of('silentgems:amber_shard',9), ['druidcraft:amber'])
+  event.shapeless(Item.of('silentgems:moonstone_shard',9), ['druidcraft:moonstone'])
   //rajout désactiation craft gem silent gem
-  event.shaped(Item.of('silentgems:amber', 1), [
+  event.shaped(Item.of('druidcraft:amber', 1), [
     'AAA',
     'AAA',
     'AAA'
   ], {
     A: 'silentgems:amber_shard',
   })
-  event.shaped(Item.of('silentgems:moonstone', 1), [
+  event.shaped(Item.of('druidcraft:moonstone', 1), [
     'MMM',
     'MMM',
     'MMM'
