@@ -154,4 +154,3 @@
 	#The speed multiplier to use when the crystals are submerged in the improved fluid.
 	#Range: 1.0 ~ 10.0
 	improvedFluidMultiplier = 2.0
-
