@@ -33,6 +33,9 @@
 	stalkerHuntsAnimals = false
 	#Should the Wilden Defender attack animals?
 	defenderHuntsAnimals = false
+	#Archwood forest spawn weight
+	#Range: > 0
+	archwoodForest = 3
 
 #Mana
 [mana]

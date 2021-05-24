@@ -195,9 +195,6 @@
 	#Chance on 1000 to receive a decorative grave on undead boss [0..1000|default:50]
 	#Range: 0 ~ 1000
 	chance_decorative_grave_on_boss = 30
-	#Chance on 1000 to receive a random poppet on undead boss [0..1000|default:100]
-	#Range: 0 ~ 1000
-	chance_random_poppet_on_boss = 100
 	#Chance on 1000 to receive a random scroll on undead boss [0..1000|default:100]
 	#Range: 0 ~ 1000
 	chance_random_scroll_on_boss = 100
@@ -213,6 +210,15 @@
 	treasure_loot_table = ["minecraft:chests/end_city_treasure", "minecraft:chests/abandoned_mineshaft", "minecraft:chests/nether_bridge", "minecraft:chests/stronghold_library", "minecraft:chests/desert_pyramid", "minecraft:chests/jungle_temple", "minecraft:chests/igloo_chest", "minecraft:chests/woodland_mansion"]
 	#The magic items from Tombstone can only be found as creature loot if the player is the killer [false/true|default:true]
 	drop_only_on_player_kill = true
+	#Chance on 1000 to receive a voodoo poppet on undead boss [0..1000|default:100]
+	#Range: 0 ~ 1000
+	chance_voodoo_poppet_on_boss = 100
+	#Chance on 1000 to receive a familiar receptacle on undead boss [0..1000|default:100]
+	#Range: 0 ~ 1000
+	chance_familiar_receptacle_on_boss = 100
+	#Minimum life for an undead to be considered as a boss for drop [10..1000|default:100]
+	#Range: > 10
+	undead_boss_life_for_drop = 100
 
 #Allows to enable some features related to others mods
 [compatibility]
