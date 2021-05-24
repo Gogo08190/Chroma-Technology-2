@@ -3,8 +3,8 @@ events.listen('recipes', event => {
 event.custom({type: 'compactcrafting:miniaturization',recipeSize: 1,layers:[{type: 'compactcrafting:filled', component: 'R'},{type: 'compactcrafting:filled', component: 'I'}],
 catalyst: {"id": 'botania:mana_powder', Count: 1},
 components:
-{"R": {type: 'compactcrafting:block', block: 'botania:manasteel_block'},
-"I": {type: 'compactcrafting:block', block: 'minecraft:redstone_block'}},
+{"R": {type: 'compactcrafting:block', block: 'minecraft:redstone_block'},
+"I": {type: 'compactcrafting:block', block: 'botania:manasteel_block'}},
 outputs: [{id: 'compactmachines:wall',Count: 16}]})
 
 event.custom({
