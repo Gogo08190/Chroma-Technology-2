@@ -102,10 +102,10 @@
 		[world.ores.platinum]
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 0
+			veinCount = 1
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 0
+			veinSize = 8
 			#Minimum Y-coordinate (base height) of veins
 			#Range: 0 ~ 255
 			minHeight = 5
