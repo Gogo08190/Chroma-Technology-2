@@ -31,7 +31,3 @@ lateGeneration = true
 oreTexture = ":block/nether_gold_ore"
 rockTexture = ":block/netherrack"
 lateGeneration = true
-
-[":gilded_blackstone"]
-oreTexture = ":block/gilded_blackstone"
-rockTexture = ":block/blackstone"
