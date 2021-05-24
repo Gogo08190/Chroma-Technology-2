@@ -1,10 +1,10 @@
 events.listen('recipes', event => {
 
 event.custom({type: 'compactcrafting:miniaturization',recipeSize: 1,layers:[{type: 'compactcrafting:filled', component: 'R'},{type: 'compactcrafting:filled', component: 'I'}],
-catalyst: {"id": 'minecraft:redstone', Count: 1},
+catalyst: {"id": 'botania:mana_powder', Count: 1},
 components:
 {"R": {type: 'compactcrafting:block', block: 'botania:manasteel_block'},
-"I": {type: 'compactcrafting:block', block: 'minecraft:redstone'}},
+"I": {type: 'compactcrafting:block', block: 'minecraft:redstone_block'}},
 outputs: [{id: 'compactmachines:wall',Count: 16}]})
 
 event.custom({
@@ -248,5 +248,56 @@ event.custom(
 "catalyst": {"id": 'minecraft:ender_pearl',"Count": 1},
 "components": {"S": {"type": "compactcrafting:block","block": 'compactmachines:wall'}, "D": {"type": "compactcrafting:block","block": 'minecraft:diamond_block'}},
 "outputs": [{"id": 'compactmachines:machine_giant',"Count": 1}]})
+
+event.custom(
+  {
+    "type": "compactcrafting:miniaturization",
+    "recipeSize": 5,
+    "layers":[
+      {"type": "compactcrafting:mixed",
+      "pattern": [
+        ["S", "S", "S", "S", "S"],
+        ["S", "S", "S", "S", "S"],
+        ["S", "S", "S", "S", "S"],
+        ["S", "S", "S", "S", "S"],
+        ["S", "S", "S", "S", "S"]
+      ]},
+      {
+        "type": "compactcrafting:mixed",
+        "pattern": [
+          ["S", "S", "S", "S", "S"],
+          ["S", "S", "S", "S", "S"],
+          ["S", "S", "S", "S", "S"],
+          ["S", "S", "S", "S", "S"],
+          ["S", "S", "S", "S", "S"]
+        ]},
+        {"type": "compactcrafting:mixed",
+        "pattern": [
+          ["S", "S", "S", "S", "S"],
+          ["S", "S", "S", "S", "S"],
+          ["S", "S", "D", "S", "S"],
+          ["S", "S", "S", "S", "S"],
+          ["S", "S", "S", "S", "S"]
+        ]},
+        {
+          "type": "compactcrafting:mixed",
+          "pattern": [
+            ["S", "S", "S", "S", "S"],
+            ["S", "S", "S", "S", "S"],
+            ["S", "S", "S", "S", "S"],
+            ["S", "S", "S", "S", "S"],
+            ["S", "S", "S", "S", "S"]
+          ]},
+          {"type": "compactcrafting:mixed",
+          "pattern": [
+            ["S", "S", "S", "S", "S"],
+            ["S", "S", "S", "S", "S"],
+            ["S", "S", "S", "S", "S"],
+            ["S", "S", "S", "S", "S"],
+            ["S", "S", "S", "S", "S"]
+          ]}],
+"catalyst": {"id": 'minecraft:ender_pearl',"Count": 1},
+"components": {"S": {"type": "compactcrafting:block","block": 'compactmachines:wall'}, "D": {"type": "compactcrafting:block","block": 'minecraft:emerald_block'}},
+"outputs": [{"id": 'compactmachines:machine_maximum',"Count": 1}]})
 
 })
