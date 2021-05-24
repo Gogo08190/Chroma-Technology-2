@@ -1,0 +1,9 @@
+["!local"]
+rockTexture = "minecraft:block/stone"
+
+[":inferium_ore"]
+oreTexture = ":block/inferium_ore"
+
+[":prosperity_ore"]
+oreTexture = ":block/prosperity_ore"
+
