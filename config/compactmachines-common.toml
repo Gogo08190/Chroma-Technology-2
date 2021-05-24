@@ -3,4 +3,3 @@
 [recipes]
 	#Enable vanilla-style recipes.
 	vanillaRecipes = false
-
