@@ -6,7 +6,7 @@
 	[worldgen.v2]
 		#
 		#Prevents all worldgen added by Create from taking effect
-		disableWorldGen = false
+		disableWorldGen = true
 		#
 		#Forward caught TileEntityExceptions to the log at debug level.
 		logTeErrors = false
@@ -136,4 +136,3 @@
 			#No comment
 			#Range: > 0
 			maxHeight = 10
-
