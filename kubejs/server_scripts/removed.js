@@ -130,4 +130,6 @@ onEvent('recipes', event => {
   event.remove({output: 'extradisks:262144k_fluid_storage_disk'})
   event.remove({output: 'extradisks:1048576k_fluid_storage_disk'})
   event.remove({output: 'extradisks:1048576k_fluid_storage_disk'})
+
+  event.remove({id: 'compactmachines:wall'})
 });
