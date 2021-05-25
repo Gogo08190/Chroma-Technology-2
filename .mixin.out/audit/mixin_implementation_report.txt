@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Mixin Implementation Report generated on 2021-05-25 08:22:42
+=======
+Mixin Implementation Report generated on 2021-05-24 17:23:45
+>>>>>>> f89b8346c99565275d9868c4cf1b82fc3990f462
