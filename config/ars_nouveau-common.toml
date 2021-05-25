@@ -20,13 +20,13 @@
 	sylphWeight = 5
 	#How often Wilden Guardians spawn
 	#Range: 0 ~ 200
-	wguardianWeight = 50
+	wguardianWeight = 35
 	#How often Wilden Stalkers spawn
 	#Range: 0 ~ 200
-	wstalkerWeight = 50
+	wstalkerWeight = 35
 	#How often Wilden Hunter spawn
 	#Range: 0 ~ 200
-	whunterWeight = 50
+	whunterWeight = 35
 	#Should the Wilden Hunter attack animals?
 	hunterHuntsAnimals = true
 	#Should the Wilden Stalker attack animals?
