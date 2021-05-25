@@ -1,0 +1,8 @@
+["!local"]
+rockTexture = "minecraft:block/stone"
+
+[":quartz_ore"]
+oreTexture = ":block/quartz_ore"
+
+[":charged_quartz_ore"]
+oreTexture = ":block/charged_certus_quartz_ore"

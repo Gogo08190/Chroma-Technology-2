@@ -1,0 +1,6 @@
+["!local"]
+rockTexture = "minecraft:block/stone"
+
+[":osmium_ore"]
+oreTexture = ":block/osmium_ore"
+
