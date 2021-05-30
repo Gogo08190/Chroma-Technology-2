@@ -7,13 +7,13 @@ onEvent('recipes', event => {
 
   // conversion craft silent gem to druidcraft
   //Rajout désactivation craft shard silent gem
-  event.remove({id: 'silentgems:amber'})
-  event.remove({output: 'silentgems:amber'})
-  event.remove({output: 'silentgems:amber_shard'})
-  event.remove({output: 'silentgems:moonstone'})
-  event.remove({output: 'silentgems:moonstone_shard'})
-  event.shapeless(Item.of('silentgems:amber_shard',9), ['druidcraft:amber'])
-  event.shapeless(Item.of('silentgems:moonstone_shard',9), ['druidcraft:moonstone'])
+  event.remove({ id: 'silentgems:amber' })
+  event.remove({ output: 'silentgems:amber' })
+  event.remove({ output: 'silentgems:amber_shard' })
+  event.remove({ output: 'silentgems:moonstone' })
+  event.remove({ output: 'silentgems:moonstone_shard' })
+  event.shapeless(Item.of('silentgems:amber_shard', 9), ['druidcraft:amber'])
+  event.shapeless(Item.of('silentgems:moonstone_shard', 9), ['druidcraft:moonstone'])
   //rajout désactiation craft gem silent gem
   event.shaped(Item.of('druidcraft:amber', 1), [
     'AAA',
@@ -36,10 +36,10 @@ onEvent('recipes', event => {
     { id: "engineerstools:crushing/uranium_grit_crushing_recipe" },
     "immersiveengineering:dust_uranium",
     "silents_mechanisms:uranium_dust"
-    )
+  )
 
   // Mystical Agriculture Enderium Essence Craft
-  event.remove({id: "mysticalagriculture:essence/thermal/enderium_ingot"})
+  event.remove({ id: "mysticalagriculture:essence/thermal/enderium_ingot" })
   event.shaped(Item.of('thermal:enderium_ingot', 2), [
     'EEE',
     'E E',
@@ -49,7 +49,7 @@ onEvent('recipes', event => {
   })
 
   // Mystical Agriculture Lumium Essence Craft
-  event.remove({id: "mysticalagriculture:essence/thermal/lumium_ingot"})
+  event.remove({ id: "mysticalagriculture:essence/thermal/lumium_ingot" })
   event.shaped(Item.of('thermal:lumium_ingot', 4), [
     'LLL',
     'L L',
@@ -59,7 +59,7 @@ onEvent('recipes', event => {
   })
 
   // Mystical Agriculture Signalum Essence Craft
-  event.remove({id: "mysticalagriculture:essence/thermal/signalum_ingot"})
+  event.remove({ id: "mysticalagriculture:essence/thermal/signalum_ingot" })
   event.shaped(Item.of('thermal:signalum_ingot', 4), [
     'SSS',
     'S S',
@@ -179,16 +179,16 @@ onEvent('recipes', event => {
     { id: "silents_mechanisms:metals/uranium_block" },
     "#forge:ingots/uranium",
     "silents_mechanisms:uranium_ingot"
-    )
+  )
 
   event.replaceInput(
     { id: "silents_mechanisms:metals/uranium_nugget" },
     "#forge:ingots/uranium",
     "silents_mechanisms:uranium_ingot"
-    )
+  )
 
   // Connecting Glass
-  event.remove({id: 'connectedglass:borderless_glass1'})
+  event.remove({ id: 'connectedglass:borderless_glass1' })
   event.shaped(Item.of('connectedglass:borderless_glass', 9), [
     'GGG',
     'GGG',
@@ -206,4 +206,6 @@ onEvent('recipes', event => {
     G: '#forge:glass/colorless',
     C: 'minecraft:cobblestone_wall'
   });
+  //craft hammer immersive
+  
 });
