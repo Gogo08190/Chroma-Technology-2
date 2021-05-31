@@ -4,10 +4,6 @@
 	teleportButtonX = 58
 	#The y position of the warp button in the inventory.
 	teleportButtonY = 60
-	#The x position of the warp button in the creative menu.
-	creativeTeleportButtonX = 58
-	#The y position of the warp button in the creative menu.
-	creativeTeleportButtonY = 60
 	#If enabled, activated waystones will not emit particles.
 	disableParticles = false
 	#If enabled, the text overlay on waystones will no longer always render at full brightness.
@@ -17,4 +13,8 @@
 	soundVolume = 0.10000000149011612
 	#If enabled, JourneyMap waypoints will be created for each activated waystone.
 	displayWaystonesOnJourneyMap = false
+	#The x position of the warp button in the creative menu.
+	creativeWarpButtonX = 88
+	#The y position of the warp button in the creative menu.
+	creativeWarpButtonY = 33
 

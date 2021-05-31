@@ -1,5 +1,5 @@
 {
-	version: 12,
+	version: 11,
 	default_reward_team: false,
 	default_consume_items: false,
 	default_autoclaim_rewards: "disabled",
@@ -14,6 +14,5 @@
 	},
 	disable_gui: false,
 	grid_scale: 0.5d,
-	pause_game: false,
-	lock_message: ""
+	pause_game: false
 }
