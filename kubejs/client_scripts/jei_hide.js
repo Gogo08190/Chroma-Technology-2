@@ -205,8 +205,8 @@ events.listen('jei.hide.items', function (event) {
   event.hide('tmechworks:aluminum_ingot')
   event.hide('tmechworks:aluminum_nugget')
 
-  event.hide({output: 'thermal:earth_tnt'})
-  event.hide({output: 'thermal:earth_grenade'})
+  event.hide('thermal:earth_tnt')
+  event.hide('thermal:earth_grenade')
 })
 
 onEvent('jei.hide.items', event => {
