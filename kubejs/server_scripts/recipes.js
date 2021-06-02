@@ -206,6 +206,4 @@ onEvent('recipes', event => {
     G: '#forge:glass/colorless',
     C: 'minecraft:cobblestone_wall'
   });
-  //craft hammer immersive
-  
 });

@@ -14,7 +14,7 @@
 	#If enabled, JourneyMap waypoints will be created for each activated waystone.
 	displayWaystonesOnJourneyMap = false
 	#The x position of the warp button in the creative menu.
-	creativeTeleportButtonX = 58
+	creativeWarpButtonX = 88
 	#The y position of the warp button in the creative menu.
-	creativeTeleportButtonY = 60
+	creativeWarpButtonY = 33
 
