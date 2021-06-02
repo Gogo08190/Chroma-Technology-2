@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
 	version: 13
+=======
+	version: 12
+>>>>>>> 2d6afc3d3f013e839cc2da0d2afa1bfa3e2d7615
 	default_reward_team: false
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"

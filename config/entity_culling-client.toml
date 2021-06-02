@@ -1,4 +1,4 @@
-#Requires restart. Ram usage (in MB) = (x * 16 * 2) ^ 3 / 4
+#Requires restart. Ram usage (in Bytes) = ((x * 16 * 2) ^ 3) / 4
 #Range: 1 ~ 32
 cacheSize = 12
 #No comment
@@ -27,37 +27,37 @@ skipHiddenTileEntityRenderingBlacklist = []
 	#No comment
 	entityShadowsCullingLessAggressiveMode = false
 	#No comment
-	#Range: 0.0 ~ 128.0
+	#Range: 0.0 ~ 32.0
 	entityShadowsCullingLessAggressiveModeDiff = 4.0
-	#No comment
-	entityShadowsDisabled = false
 	#No comment
 	entityShadowsDistanceLimited = false
 	#No comment
-	#Range: 0.0 ~ 1024.0
+	#Range: 0.0 ~ 64.0
 	entityShadowsMaxDistance = 64.0
-	#No comment
-	terrainShadowsDisabled = false
 	#No comment
 	terrainShadowsDistanceLimited = false
 	#No comment
-	#Range: 0.0 ~ 1024.0
-	terrainShadowsMaxHorizontalDistance = 128.0
+	#Range: 0.0 ~ 64.0
+	terrainShadowsMaxHorizontalDistance = 64.0
 	#No comment
-	#Range: 0.0 ~ 1024.0
+	#Range: 0.0 ~ 64.0
 	terrainShadowsMaxVerticalDistance = 64.0
 	#No comment
 	tileEntityShadowsCulling = true
 	#No comment
 	tileEntityShadowsCullingLessAggressiveMode = false
 	#No comment
-	#Range: 0.0 ~ 128.0
+	#Range: 0.0 ~ 32.0
 	tileEntityShadowsCullingLessAggressiveModeDiff = 4.0
-	#No comment
-	tileEntityShadowsDisabled = false
 	#No comment
 	tileEntityShadowsDistanceLimited = false
 	#No comment
-	#Range: 0.0 ~ 1024.0
+	#Range: 0.0 ~ 64.0
 	tileEntityShadowsMaxDistance = 64.0
+	#No comment
+	entityShadowsEnabled = true
+	#No comment
+	terrainShadowsEnabled = true
+	#No comment
+	tileEntityShadowsEnabled = true
 

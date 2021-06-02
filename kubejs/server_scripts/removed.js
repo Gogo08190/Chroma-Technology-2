@@ -132,4 +132,7 @@ onEvent('recipes', event => {
   event.remove({output: 'extradisks:1048576k_fluid_storage_disk'})
 
   event.remove({id: 'compactmachines:wall'})
+
+  event.remove({output: 'thermal:earth_tnt'})
+  event.remove({output: 'thermal:earth_grenade'})
 });

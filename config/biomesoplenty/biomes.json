@@ -39,8 +39,14 @@
     "biomesoplenty:lush_desert": {
       "weight": 1
     },
+    "biomesoplenty:marsh": {
+      "weight": 7
+    },
     "biomesoplenty:meadow": {
       "weight": 7
+    },
+    "biomesoplenty:muskeg": {
+      "weight": 1
     },
     "biomesoplenty:mystic_grove": {
       "weight": 1
@@ -92,6 +98,9 @@
     },
     "biomesoplenty:wooded_wasteland": {
       "weight": 1
+    },
+    "biomesoplenty:woodland": {
+      "weight": 7
     }
   },
   "technical_biome_toggles": {
@@ -131,13 +140,17 @@
       "weight": 100,
       "rarity": 1.0
     },
-    "biomesoplenty:dead_swamp": {
-      "weight": 100,
-      "rarity": 0.75
-    },
     "biomesoplenty:deep_bayou": {
       "weight": 100,
       "rarity": 1.0
+    },
+    "biomesoplenty:dense_marsh": {
+      "weight": 100,
+      "rarity": 1.0
+    },
+    "biomesoplenty:dense_woodland": {
+      "weight": 100,
+      "rarity": 0.9
     },
     "biomesoplenty:dry_boneyard": {
       "weight": 100,
@@ -190,6 +203,10 @@
     "biomesoplenty:meadow_forest": {
       "weight": 100,
       "rarity": 1.0
+    },
+    "biomesoplenty:mushroomy_muskeg": {
+      "weight": 100,
+      "rarity": 0.75
     },
     "biomesoplenty:mystic_plains": {
       "weight": 100,
@@ -251,7 +268,7 @@
       "weight": 100,
       "rarity": 2.0
     },
-    "biomesoplenty:wetland_marsh": {
+    "biomesoplenty:wetland_forest": {
       "weight": 100,
       "rarity": 1.0
     },
