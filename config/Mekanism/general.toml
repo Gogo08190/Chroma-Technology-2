@@ -4,7 +4,7 @@
 	#Log Mekanism packet names. Debug setting.
 	logPackets = false
 	#Disable to make the anchor upgrade not do anything.
-	allowChunkloading = true
+	allowChunkloading = false
 	#How many ticks must pass until a block's active state is synced with the client, if it has been rapidly changing.
 	blockDeactivationDelay = 60
 	#Any mod ids added to this list will not be able to have any of their blocks, picked up by the cardboard box. For example: ["mekanism"]
@@ -82,14 +82,14 @@
 		radiationEnabled = true
 		#The radius of chunks checked when running radiation calculations. The algorithm is efficient, but don't abuse it by making this crazy high.
 		#Range: 1 ~ 100
-		chunkCheckRadius = 5
+		chunkCheckRadius = 1
 		#Radiation sources are multiplied by this constant roughly once per second to represent their emission decay. At the default rate, it takes roughly 10 days to remove a 1,000 Sv/h (crazy high) source.
 		sourceDecayRate = 0.9995
 		#Radiated objects and entities are multiplied by this constant roughly once per second to represent their dosage decay.
 		targetDecayRate = 0.9995
 		#Defines the minimum severity radiation dosage severity (scale of 0 to 1) for which negative effects can take place. Set to 1 to disable negative effects completely.
 		#Range: 0.0 ~ 1.0
-		negativeEffectsMinSeverity = 0.1
+		negativeEffectsMinSeverity = 1
 		#Amount of gas (mB) that can be stored in a Radioactive Waste Barrel.
 		#Range: 1 ~ 9223372036854775807
 		radioactiveWasteBarrelMaxGas = 64000
@@ -174,4 +174,3 @@
 		inputPerAntimatter = 1000
 		#Energy needed to process 1 mB of input (inputPerAntimatter * energyPerInput = energy to produce 1 mB of antimatter).
 		energyPerInput = "1000000"
-
