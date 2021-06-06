@@ -27,7 +27,7 @@
 		maxReactorSize = 32
 		#A multiplier for balancing Reactor power production. Stacks with powerProductionMultiplier.
 		#Range: 0.5 ~ 100.0
-		reactorPowerProductionMultiplier = 0.9
+		reactorPowerProductionMultiplier = 1
 		#How much light (0-15) does a Fuel Rod emits.
 		#Range: 0 ~ 15
 		fuelRodLightValue = 15
