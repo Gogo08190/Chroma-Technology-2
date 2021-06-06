@@ -34,7 +34,7 @@ minimap_scale = 1.0
 #Minimap will not rotate
 minimap_locked_north = true
 #Show waypoints on minimap
-minimap_waypoints = true
+minimap_waypoints = false
 #Show entities on minimap
 minimap_entities = true
 #Show entity heads on minimap
@@ -58,4 +58,3 @@ minimap_visibility = 255
 minimap_zone = true
 #Enables debug info
 debug_info = false
-
