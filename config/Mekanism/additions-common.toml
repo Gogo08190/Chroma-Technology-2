@@ -8,7 +8,7 @@
 		#Config options regarding baby creepers.
 		[additions-common.spawning.baby-creepers]
 			#Enable the spawning of baby creepers. Think baby zombies.
-			shouldSpawn = true
+			shouldSpawn = false
 			#The multiplier for weight of baby creepers spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
 			weightPercentage = 0.5
@@ -32,7 +32,7 @@
 		#Config options regarding baby endermen.
 		[additions-common.spawning.baby-endermen]
 			#Enable the spawning of baby endermen. Think baby zombies.
-			shouldSpawn = true
+			shouldSpawn = false
 			#The multiplier for weight of baby endermen spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
 			weightPercentage = 0.5
@@ -56,7 +56,7 @@
 		#Config options regarding baby skeletons.
 		[additions-common.spawning.baby-skeletons]
 			#Enable the spawning of baby skeletons. Think baby zombies.
-			shouldSpawn = true
+			shouldSpawn = false
 			#The multiplier for weight of baby skeletons spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
 			weightPercentage = 0.5
@@ -80,7 +80,7 @@
 		#Config options regarding baby strays.
 		[additions-common.spawning.baby-strays]
 			#Enable the spawning of baby strays. Think baby zombies.
-			shouldSpawn = true
+			shouldSpawn = false
 			#The multiplier for weight of baby strays spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
 			weightPercentage = 0.5
@@ -104,7 +104,7 @@
 		#Config options regarding baby wither skeletons.
 		[additions-common.spawning.baby-wither-skeletons]
 			#Enable the spawning of baby wither skeletons. Think baby zombies.
-			shouldSpawn = true
+			shouldSpawn = false
 			#The multiplier for weight of baby wither skeletons spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
 			weightPercentage = 0.5
@@ -124,4 +124,3 @@
 			biomeBlackList = []
 			#The list of structure ids that baby wither skeletons will not spawn in even if the normal mob variant can spawn.
 			structureBlackList = []
-
