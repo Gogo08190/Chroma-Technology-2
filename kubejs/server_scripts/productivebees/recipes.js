@@ -20,7 +20,7 @@ onEvent('recipes', event => {
   ], {
     S: '#forge:ingots/steel',
     R: 'silents_mechanisms:redstone_alloy_ingot',
-    C: 'silents_mechanisms:redstone_alloy_ingot',
+    C: 'productivebees:centrifuge',
     M: 'silents_mechanisms:alloy_machine_frame',
     F: 'thermal:rf_coil'
   })
