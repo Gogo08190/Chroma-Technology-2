@@ -34,7 +34,7 @@ onEvent('recipes', event => {
     'RFR'
   ], {
     R: 'pneumaticcraft:reinforced_bricks',
-    T: 'powah:steel_energized',
+    T: 'pneumaticcraft:pressure_tube',
     F: 'industrialforegoing:resourceful_furnace'
 
   })
