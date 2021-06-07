@@ -300,4 +300,90 @@ event.custom(
 "components": {"S": {"type": "compactcrafting:block","block": 'compactmachines:wall'}, "D": {"type": "compactcrafting:block","block": 'minecraft:emerald_block'}},
 "outputs": [{"id": 'compactmachines:machine_maximum',"Count": 1}]})
 
+event.custom(
+  {
+    "type": "compactcrafting:miniaturization",
+    "recipeSize": 3,
+    "layers":[
+      {"type": "compactcrafting:mixed",
+      "pattern": [
+        ["F", "Q", "F"],
+        ["Q", "S", "Q"],
+        ["F", "Q", "F"]
+      ]},
+      {
+        "type": "compactcrafting:mixed",
+        "pattern": [
+          ["Q", "S", "Q"],
+          ["S", "M", "S"],
+          ["Q", "S", "Q"]
+        ]},
+        {"type": "compactcrafting:mixed",
+        "pattern": [
+          ["F", "Q", "F"],
+          ["Q", "S", "Q"],
+          ["F", "Q", "F"]
+        ]}],
+"catalyst": {"id": 'appliedenergistics2:engineering_processor',"Count": 1},
+"components": {"F": {"type": "compactcrafting:block","block": 'appliedenergistics2:fluix_block'}, "Q": {"type": "compactcrafting:block","block": 'appliedenergistics2:quartz_block'}, "S": {"type": "compactcrafting:block","block": 'appliedenergistics2:smooth_sky_stone_block'}, "M": {"type": "compactcrafting:block","block": 'appliedenergistics2:energy_cell'}},
+"outputs": [{"id": 'appliedenergistics2:controller',"Count": 1}]})
+
+event.custom(
+  {
+    "type": "compactcrafting:miniaturization",
+    "recipeSize": 3,
+    "layers":[
+      {"type": "compactcrafting:mixed",
+      "pattern": [
+        ["I", "Q", "I"],
+        ["Q", "I", "Q"],
+        ["I", "Q", "I"]
+      ]},
+      {
+        "type": "compactcrafting:mixed",
+        "pattern": [
+          ["Q", "I", "Q"],
+          ["I", "M", "I"],
+          ["Q", "I", "Q"]
+        ]},
+        {"type": "compactcrafting:mixed",
+        "pattern": [
+          ["I", "Q", "I"],
+          ["Q", "I", "Q"],
+          ["I", "Q", "I"]
+        ]}],
+"catalyst": {"id": 'refinedstorage:advanced_processor',"Count": 1},
+"components": {"I": {"type": "compactcrafting:block","block": 'minecraft:quartz_block'}, "Q": {"type": "compactcrafting:block","block": 'refinedstorage:quartz_enriched_iron_block'}, "M": {"type": "compactcrafting:block","block": 'refinedstorage:machine_casing'}},
+"outputs": [{"id": 'refinedstorage:controller',"Count": 1}]})
+
+event.custom(
+  {
+    "type": "compactcrafting:miniaturization",
+    "recipeSize": 3,
+    "layers":[
+      {
+        "type": "compactcrafting:mixed",
+        "pattern": [
+            ["-", "-", "-"],
+            ["-", "-", "-"],
+            ["-", "-", "-"]
+        ]
+      },
+      {
+        "type": "compactcrafting:mixed",
+        "pattern": [
+          ["N", "R", "N"],
+          ["R", "C", "R"],
+          ["N", "R", "N"]
+        ]},
+        {"type": "compactcrafting:mixed",
+        "pattern": [
+          ["B", "B", "B"],
+          ["B", "M", "B"],
+          ["B", "B", "B"]
+        ]}],
+"catalyst": {"id": 'tconstruct:blood_slime_ball',"Count": 1},
+"components": {"N": {"type": "compactcrafting:block","block": 'powah:nitro_crystal_block'}, "R": {"type": "compactcrafting:block","block": 'minecraft:redstone_block'}, "B": {"type": "compactcrafting:block","block": 'minecraft:blackstone'}, "D": {"type": "compactcrafting:block","block": 'botania:mana_diamond_block'}, "C": {"type": "compactcrafting:block","block": 'minecraft:cauldron'}},
+"outputs": [{"id": 'bloodmagic:altar',"Count": 1}]})
+
 })
