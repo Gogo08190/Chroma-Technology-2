@@ -8,12 +8,3 @@ mods.extendedcrafting.TableCrafting.addShaped("angelring", <item:angelring:itemr
 	[<item:iceandfire:siren_tear>, <item:powersuits:jetpack>, <item:enigmaticlegacy:fabulous_scroll>, <item:powersuits:jetpack>, <item:iceandfire:hippogryph_talon>],
 	[<item:simplyjetpacks:thruster_mek4>, <item:cyclic:antigravity>, <item:xreliquary:rending_gale>, <item:cyclic:antigravity>, <item:simplyjetpacks:thruster_mek4>]
 ]);
-
-// Diamond Ring
-craftingTable.removeRecipe(<item:angelring:itemdiamondring>);
-
-craftingTable.addShaped("diamondring", <item:angelring:itemdiamondring>, [
-    [<item:botania:mana_diamond>, <item:powah:niotic_crystal_block>, <item:botania:mana_diamond>],
-    [<item:powah:niotic_crystal_block>, <item:minecraft:elytra>, <item:powah:niotic_crystal_block>],
-    [<item:botania:mana_diamond>, <item:powah:niotic_crystal_block>, <item:botania:mana_diamond>]
-]);
