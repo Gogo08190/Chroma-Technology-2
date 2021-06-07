@@ -60,7 +60,7 @@ onEvent('recipes', event => {
     N: 'powah:crystal_niotic',
     M: 'rftoolspower:dimensionalcell_simple',
     R: 'silents_mechanisms:redstone_alloy_block',
-    C: 'powah:crystal_niotic'
+    C: 'powah:crystal_spirited'
   })
 
   // Dimensional Cell (Advanced)
