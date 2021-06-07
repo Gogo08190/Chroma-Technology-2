@@ -9,7 +9,7 @@
 		fuelUsageMultiplier = 1.0
 		#A multiplier for balancing overall power production from Extreme Reactors generators.
 		#Range: 0.5 ~ 100.0
-		powerProductionMultiplier = 1.0
+		powerProductionMultiplier = 0.5
 		#Number of ticks between updates for the Redstone Port.
 		#Range: 10 ~ 100
 		ticksPerRedstoneUpdate = 20
@@ -27,7 +27,7 @@
 		maxReactorSize = 32
 		#A multiplier for balancing Reactor power production. Stacks with powerProductionMultiplier.
 		#Range: 0.5 ~ 100.0
-		reactorPowerProductionMultiplier = 1.0
+		reactorPowerProductionMultiplier = 1
 		#How much light (0-15) does a Fuel Rod emits.
 		#Range: 0 ~ 15
 		fuelRodLightValue = 15

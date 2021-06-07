@@ -159,7 +159,7 @@
 	#Disable the Christmas Tree pet (default:false)
 	disableChristmasTree = false
 	#Disable the Cloud pet (default:false)
-	disableCloud = false
+	disableCloud = true
 	#Disable the Cobblestone pet (default:false)
 	disableCobblestone = false
 	#Disable the Cow pet (default:false)

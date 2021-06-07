@@ -5,8 +5,7 @@ onEvent('recipes', event => {
   // 3x Gravel to 1x Flint
   event.shapeless(Item.of('minecraft:flint'), ['minecraft:gravel', 'minecraft:gravel', 'minecraft:gravel'])
 
-  // conversion craft silent gem to druidcraft
-  //Rajout désactivation craft shard silent gem
+  //Disable Silent Gem shard craft
   event.remove({ id: 'silentgems:amber' })
   event.remove({ output: 'silentgems:amber' })
   event.remove({ output: 'silentgems:amber_shard' })
@@ -14,7 +13,8 @@ onEvent('recipes', event => {
   event.remove({ output: 'silentgems:moonstone_shard' })
   event.shapeless(Item.of('silentgems:amber_shard', 9), ['druidcraft:amber'])
   event.shapeless(Item.of('silentgems:moonstone_shard', 9), ['druidcraft:moonstone'])
-  //rajout désactiation craft gem silent gem
+
+  // Disable Silent Gem gem craft
   event.shaped(Item.of('druidcraft:amber', 1), [
     'AAA',
     'AAA',
@@ -206,16 +206,4 @@ onEvent('recipes', event => {
     G: '#forge:glass/colorless',
     C: 'minecraft:cobblestone_wall'
   });
-  
-  //craft hammer immersive
-  event.remove({ output: 'immersiveengineering:hammer' })
-  event.recipes.create.mechanical_crafting(Item.of('immersiveengineering:hammer'),[
-    ' IP',
-    ' SI',
-    'S  '
-  ], {
-    P: 'create:powdered_obsidian',
-    S: 'createaddition:copper_rod',
-    I: 'create:iron_sheet'
-  })
 });
