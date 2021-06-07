@@ -135,4 +135,6 @@ onEvent('recipes', event => {
 
   event.remove({output: 'thermal:earth_tnt'})
   event.remove({output: 'thermal:earth_grenade'})
+
+  event.remove({id: 'refinedstorage:quartz_enriched_iron'})
 });
