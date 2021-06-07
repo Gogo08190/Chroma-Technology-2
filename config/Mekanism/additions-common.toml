@@ -124,3 +124,4 @@
 			biomeBlackList = []
 			#The list of structure ids that baby wither skeletons will not spawn in even if the normal mob variant can spawn.
 			structureBlackList = []
+

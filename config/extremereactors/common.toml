@@ -9,7 +9,7 @@
 		fuelUsageMultiplier = 1.0
 		#A multiplier for balancing overall power production from Extreme Reactors generators.
 		#Range: 0.5 ~ 100.0
-		powerProductionMultiplier = 0.
+		powerProductionMultiplier = 0.5
 		#Number of ticks between updates for the Redstone Port.
 		#Range: 10 ~ 100
 		ticksPerRedstoneUpdate = 20
@@ -76,7 +76,7 @@
 		#If false, disables all world gen from Extreme Reactors;
 		#all other worldgen settings are automatically ignored.
 		enableWorldGen = true
-		#Re-run world gen in chunks that have already been generated (once they have been loaded),
+		#Re-run world gen in chunks that have already been generated (once they have been loaded), 
 		#but have not been modified by Extreme Reactors before.
 		enableWorldRegeneration = false
 		#User-set world generation version.
@@ -110,3 +110,4 @@
 		#Maximum number of Benitoite Ores to generate in each cluster.
 		#Range: 1 ~ 16
 		benitoiteOrePerCluster = 5
+
