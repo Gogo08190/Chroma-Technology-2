@@ -71,7 +71,7 @@ onEvent('recipes', event => {
   'RPR'
   ], {
     P: 'rftoolsbase:infused_enderpearl',
-    D: 'rftoolsbase:infused_diamond'
+    D: 'rftoolsbase:infused_diamond',
     M: 'rftoolspower:dimensionalcell',
     R: 'silents_mechanisms:redstone_alloy_block'
   })
