@@ -219,6 +219,12 @@ events.listen('jei.hide.items', function (event) {
 
   event.hide('thermal:earth_tnt')
   event.hide('thermal:earth_grenade')
+
+  event.hide('cyclic:emerald_pickaxe')
+  event.hide('cyclic:emerald_sword')
+  event.hide('cyclic:emerald_hoe')
+  event.hide('cyclic:emerald_axe')
+  event.hide('cyclic:emerald_shovel')
 })
 
 onEvent('jei.hide.items', event => {
