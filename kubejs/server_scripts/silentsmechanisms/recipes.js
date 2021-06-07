@@ -25,4 +25,18 @@ onEvent('recipes', event => {
     I: 'silents_mechanisms:stone_machine_frame',
     G: 'tconstruct:clear_glass'
   })
+
+  // Circuit Board
+  event.remove({ output: 'silents_mechanisms:circuit_board' })
+  event.shaped('silents_mechanisms:circuit_board', [
+  'ICI',
+  'RGR',
+  'WWW'
+  ], {
+    W: 'immersiveengineering:wire_lead',
+    G: 'minecraft:gold_block',
+    R: 'silents_mechanisms:redstone_alloy_ingot',
+    I: 'immersiveengineering:insulating_glass',
+    C: 'create:copper_sheet'
+  })
 });
