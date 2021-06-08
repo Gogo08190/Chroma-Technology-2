@@ -379,7 +379,7 @@ event.custom(
         {"type": "compactcrafting:mixed",
         "pattern": [
           ["B", "B", "B"],
-          ["B", "M", "B"],
+          ["B", "D", "B"],
           ["B", "B", "B"]
         ]}],
 "catalyst": {"id": 'tconstruct:blood_slime_ball',"Count": 1},
