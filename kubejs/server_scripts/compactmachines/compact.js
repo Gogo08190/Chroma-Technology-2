@@ -400,7 +400,7 @@ event.custom(
           ["S", "S", "S"]
         ]}],
 "catalyst": {"id": 'minecraft:netherite_ingot',"Count": 1},
-"components": {"B": {"type": "compactcrafting:block","block": 'minecraft:iron_bars'}, "C": {"type": "compactcrafting:block","block": 'minecraft:chain'}, "S": {"type": "compactcrafting:block","block": 'silents_mechanisms:steel_block'}},
+"components": {"B": {"type": "compactcrafting:block","block": 'minecraft:iron_bars'}, "C": {"type": "compactcrafting:block","block": 'minecraft:chain'}, "S": {"type": "compactcrafting:block","block": 'silents_mechanisms:steel_block'}, "E": {"type": "compactcrafting:block","block": 'botanicalmachinery:mana_emerald_block'}},
 "outputs": [{"id": 'cagedmobs:mobcage',"Count": 1}]})
 
 })
