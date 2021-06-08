@@ -225,6 +225,7 @@ events.listen('jei.hide.items', function (event) {
   event.hide('cyclic:emerald_hoe')
   event.hide('cyclic:emerald_axe')
   event.hide('cyclic:emerald_shovel')
+
 })
 
 onEvent('jei.hide.items', event => {
