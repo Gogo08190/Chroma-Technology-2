@@ -2,7 +2,7 @@ onEvent('recipes', event => {
 
   // Field Projector
   event.remove({ output: 'compactcrafting:field_projector' })
-  event.shaped('compactcrafting:field_projector', [
+  event.shaped('4x compactcrafting:field_projector', [
   ' S ',
   ' R ',
   'NMN'

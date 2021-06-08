@@ -1,7 +1,6 @@
 onEvent('recipes', event => {
 
   // Blank Upgrade
-  event.remove({ output: 'solarflux:blank_upgrade' })
   event.shaped('solarflux:blank_upgrade', [
   'PPP',
   'WMW',
@@ -13,8 +12,7 @@ onEvent('recipes', event => {
   })
 
   // Mirror
-  event.remove({ output: 'solarflux:mirror' })
-  event.shaped('solarflux:mirror', [
+  event.shaped('3x solarflux:mirror', [
   'GGG',
   'SSS',
   'RQR'
@@ -26,7 +24,6 @@ onEvent('recipes', event => {
   })
 
   // Cell I
-  event.remove({ output: 'solarflux:photovoltaic_cell_1' })
   event.shaped('solarflux:photovoltaic_cell_1', [
   'HHH',
   'LLL',
@@ -38,7 +35,6 @@ onEvent('recipes', event => {
   })
 
   // Cell II
-  event.remove({ output: 'solarflux:photovoltaic_cell_2' })
   event.shaped('solarflux:photovoltaic_cell_2', [
   'CLC',
   'LCL',
@@ -51,7 +47,6 @@ onEvent('recipes', event => {
   })
 
   // Cell III
-  event.remove({ output: 'solarflux:photovoltaic_cell_3' })
   event.shaped('solarflux:photovoltaic_cell_3', [
   'HHH',
   'OGO',
@@ -64,7 +59,6 @@ onEvent('recipes', event => {
   })
 
   // Cell IV
-  event.remove({ output: 'solarflux:photovoltaic_cell_4' })
   event.shaped('solarflux:photovoltaic_cell_4', [
   'BBB',
   'GDG',
@@ -78,7 +72,6 @@ onEvent('recipes', event => {
   })
 
   // Cell V
-  event.remove({ output: 'solarflux:photovoltaic_cell_5' })
   event.shaped('solarflux:photovoltaic_cell_5', [
   'BBB',
   'GDG',
@@ -92,7 +85,6 @@ onEvent('recipes', event => {
   })
 
   // Cell VI
-  event.remove({ output: 'solarflux:photovoltaic_cell_6' })
   event.shaped('solarflux:photovoltaic_cell_6', [
   'BBB',
   'GDG',
@@ -106,7 +98,6 @@ onEvent('recipes', event => {
   })
 
   // Solar I
-  event.remove({ output: 'solarflux:sp_1' })
   event.shaped('solarflux:sp_1', [
   'MMM',
   'TRT',
@@ -118,7 +109,6 @@ onEvent('recipes', event => {
   })
 
   // Solar II
-  event.remove({ output: 'solarflux:sp_2' })
   event.shaped('solarflux:sp_2', [
   'SSS',
   'SMS',
@@ -129,8 +119,7 @@ onEvent('recipes', event => {
   })
 
   // Solar III
-  event.remove({ output: '2x solarflux:sp_3' })
-  event.shaped('solarflux:sp_3', [
+  event.shaped('2x solarflux:sp_3', [
   'MMM',
   'SRS',
   'SQS'
@@ -142,8 +131,7 @@ onEvent('recipes', event => {
   })
 
   // Solar IV
-  event.remove({ output: '2x solarflux:sp_4' })
-  event.shaped('solarflux:sp_4', [
+  event.shaped('2x solarflux:sp_4', [
   'MMM',
   'SCS',
   'SBS'
@@ -155,8 +143,7 @@ onEvent('recipes', event => {
   })
 
   // Solar V
-  event.remove({ output: '2x solarflux:sp_5' })
-  event.shaped('solarflux:sp_5', [
+  event.shaped('2x solarflux:sp_5', [
   'MMM',
   'SDS',
   'SGS'
@@ -168,8 +155,7 @@ onEvent('recipes', event => {
   })
 
   // Solar VI
-  event.remove({ output: '2x solarflux:sp_6' })
-  event.shaped('solarflux:sp_6', [
+  event.shaped('2x solarflux:sp_6', [
   'MMM',
   'SLS',
   'SNS'
@@ -181,8 +167,7 @@ onEvent('recipes', event => {
   })
 
   // Solar VII
-  event.remove({ output: '2x solarflux:sp_7' })
-  event.shaped('solarflux:sp_7', [
+  event.shaped('2x solarflux:sp_7', [
   'MMM',
   'SES',
   'SES'
@@ -193,8 +178,7 @@ onEvent('recipes', event => {
   })
 
   // Solar VII
-  event.remove({ output: '2x solarflux:sp_8' })
-  event.shaped('solarflux:sp_8', [
+  event.shaped('2x solarflux:sp_8', [
   'MMM',
   'SDS',
   'SDS'
