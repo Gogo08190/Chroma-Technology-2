@@ -359,16 +359,8 @@ event.custom(
 event.custom(
   {
     "type": "compactcrafting:miniaturization",
-    "recipeSize": 3,
+    "recipeSize": 2,
     "layers":[
-      {
-        "type": "compactcrafting:mixed",
-        "pattern": [
-            ["-", "-", "-"],
-            ["-", "-", "-"],
-            ["-", "-", "-"]
-        ]
-      },
       {
         "type": "compactcrafting:mixed",
         "pattern": [
@@ -385,5 +377,30 @@ event.custom(
 "catalyst": {"id": 'tconstruct:blood_slime_ball',"Count": 1},
 "components": {"N": {"type": "compactcrafting:block","block": 'powah:nitro_crystal_block'}, "R": {"type": "compactcrafting:block","block": 'minecraft:redstone_block'}, "B": {"type": "compactcrafting:block","block": 'minecraft:blackstone'}, "D": {"type": "compactcrafting:block","block": 'botania:mana_diamond_block'}, "C": {"type": "compactcrafting:block","block": 'minecraft:cauldron'}},
 "outputs": [{"id": 'bloodmagic:altar',"Count": 1}]})
+
+event.custom(
+  {
+    "type": "compactcrafting:miniaturization",
+    "recipeSize": 3,
+    "layers":[
+      {"type": "compactcrafting:filled",
+        "component": "B"
+      },
+      {
+        "type": "compactcrafting:mixed",
+        "pattern": [
+          ["B", "B", "B"],
+          ["B", "C", "B"],
+          ["B", "B", "B"]
+        ]},
+        {"type": "compactcrafting:mixed",
+        "pattern": [
+          ["S", "S", "S"],
+          ["S", "E", "S"],
+          ["S", "S", "S"]
+        ]}],
+"catalyst": {"id": 'minecraft:netherite_ingot',"Count": 1},
+"components": {"B": {"type": "compactcrafting:block","block": 'minecraft:iron_bars'}, "C": {"type": "compactcrafting:block","block": 'minecraft:chain'}, "S": {"type": "compactcrafting:block","block": 'silents_mechanisms:steel_block'}},
+"outputs": [{"id": 'cagedmobs:mobcage',"Count": 1}]})
 
 })
