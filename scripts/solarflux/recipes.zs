@@ -93,8 +93,8 @@ craftingTable.removeRecipe(<item:solarflux:sp_3>);
 
 craftingTable.addShaped("sp_3", <item:solarflux:sp_3>*2, [
     [<item:solarflux:photovoltaic_cell_1>, <item:solarflux:photovoltaic_cell_1>, <item:solarflux:photovoltaic_cell_1>],
-    [<item:solarflux:sp_2> * 2, <item:create:adjustable_pulse_repeater>, <item:solarflux:sp_2> * 2],
-    [<item:solarflux:sp_2> * 2, <item:refinedstorage:quartz_enriched_iron_block>, <item:solarflux:sp_2> * 2]
+    [<item:solarflux:sp_2>, <item:create:adjustable_pulse_repeater>, <item:solarflux:sp_2>],
+    [<item:solarflux:sp_2>, <item:refinedstorage:quartz_enriched_iron_block>, <item:solarflux:sp_2>]
 ]);
 
 // Solar IV
