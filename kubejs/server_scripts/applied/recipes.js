@@ -21,7 +21,7 @@ onEvent('recipes', event => {
 /*onEvent('recipes', event => {
 
     // Engineering Processor
->>>>>>> 39bf5e4f94645bddb612acbcccad18f0e3852fac
+
     event.remove({ output: 'appliedenergistics2:engineering_processor' })
 
     event.custom(
