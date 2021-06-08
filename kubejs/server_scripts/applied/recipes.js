@@ -1,6 +1,8 @@
 onEvent('recipes', event => {
-    //craft energy cell
+
+    // Energy Cell
     event.remove({ output: 'appliedenergistics2:energy_cell' })
+
     event.shaped('appliedenergistics2:energy_cell', [
         'PHP',
         'DAD',
@@ -12,8 +14,9 @@ onEvent('recipes', event => {
         H: 'powah:dielectric_rod_horizontal'
     })
 
-    //Enginering processor
+    // Engineering Processor
     event.remove({ output: 'appliedenergistics2:engineering_processor' })
+
     event.custom(
         {
           "type": "appliedenergistics2:inscriber",
@@ -34,9 +37,10 @@ onEvent('recipes', event => {
           }
         }
     )
-    
-    //Logic processor    
+
+    // Logic Processor
     event.remove({ output: 'appliedenergistics2:logic_processor' })
+
     event.custom(
         {
           "type": "appliedenergistics2:inscriber",
@@ -57,9 +61,10 @@ onEvent('recipes', event => {
           }
         }
     )
-    
-    //Calculation processor    
+
+    // Calculation Processor
     event.remove({ output: 'appliedenergistics2:calculation_processor' })
+    
     event.custom(
         {
           "type": "appliedenergistics2:inscriber",
