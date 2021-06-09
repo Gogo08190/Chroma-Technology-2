@@ -45,6 +45,9 @@ events.listen('jei.hide.items', function (event) {
   event.hide('immersiveengineering:storage_steel')
   event.hide('immersiveengineering:ingot_steel')
   event.hide('immersiveengineering:nugget_steel')
+  event.hide('immersiveengineering:nugget_electrum')
+  event.hide('immersiveengineering:ingot_electrum')
+  event.hide('immersiveengineering:storage_electrum')
 
   // Mekanism
   event.hide('mekanism:copper_ore')
@@ -198,6 +201,10 @@ events.listen('jei.hide.items', function (event) {
   event.hide('silents_mechanisms:enderium_dust')
   event.hide('silents_mechanisms:enderium_nugget')
   event.hide('silents_mechanisms:enderium_block')
+  event.hide('silents_mechanisms:electrum_block')
+  event.hide('silents_mechanisms:electrum_ingot')
+  event.hide('silents_mechanisms:electrum_nugget')
+  event.hide('silents_mechanisms:electrum_dust')
 
   // Tinkers' Construct
   event.hide('tconstruct:copper_ingot')
