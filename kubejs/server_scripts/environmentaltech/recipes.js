@@ -43,4 +43,14 @@ onEvent('recipes', event => {
   })
 
   event.shapeless('9x envirocore:litherite_crystal', ['envirocore:litherite'])
+
+  event.remove({ output: 'envirocore:laser_core' })
+  event.shaped('envirocore:laser_core', [
+  'OSO',
+  'S S',
+  'OSO'
+  ], {
+    O: 'envirocore:obsidian_plate',
+    S: '#forge:ingots/steel'
+  })
 });
