@@ -25,7 +25,7 @@ onEvent('recipes', event => {
     S: '#minecraft:stone_bricks',
     C: 'cookingforblockheads:sink',
     N: 'minecraft:nether_brick_slab',
-    S: '#botania:petals'
+    P: '#botania:petals'
   })
 
   // Mana Pylon
