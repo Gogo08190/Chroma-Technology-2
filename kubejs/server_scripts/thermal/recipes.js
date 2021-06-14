@@ -36,4 +36,15 @@ onEvent('recipes', event => {
     P: 'thermal:bronze_plate',
     B: 'minecraft:bucket'
   })
+
+  // Redstone Servo
+  event.remove({ output: 'thermal:redstone_servo' })
+  event.shaped('thermal:redstone_servo', [
+  'RAR',
+  ' A ',
+  'RAR'
+  ], {
+    R: 'silents_mechanisms:redstone_alloy_ingot',
+    A: 'silents_mechanisms:aluminum_steel_ingot'
+  })
 });
