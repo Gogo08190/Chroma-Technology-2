@@ -16,7 +16,7 @@
 	// Show waypoints in world
 	"inWorldWaypoints": true,
 	// Enables creation of death waypoints
-	"deathWaypoints": true,
+	"deathWaypoints": false,
 	// Different ways to render map
 	"mapMode": "NONE",
 	// How many blocks should height checks skip in water. 0 means flat water, ignoring terrain
@@ -28,7 +28,7 @@
 	// Minimap will not rotate
 	"minimapLockedNorth": true,
 	// Show waypoints on minimap
-	"minimapWaypoints": true,
+	"minimapWaypoints": false,
 	// Show player heads on minimap
 	"minimapPlayerHeads": true,
 	// Show entities on minimap
