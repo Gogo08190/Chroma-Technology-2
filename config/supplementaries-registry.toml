@@ -65,6 +65,9 @@
 		flag = true
 		#WIP
 		laser_block = false
+		goblet = true
+		raked_gravel = true
+		i_want_flags = false
 
 	[registration.entities]
 		firefly = true

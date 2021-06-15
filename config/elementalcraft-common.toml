@@ -316,12 +316,6 @@
 	improvedReceptacleDurability = 20
 	#Define if or not receptacles can be enchanted.
 	receptacleEnchantable = false
-	#The element capacity of an element holder.
-	#Range: 0 ~ 100000000
-	elementHolderCapacity = 10000
-	#The amount of element transfered by an element holder.
-	#Range: 0 ~ 1000
-	elementHolderTransferAmount = 25
 	#The max number of spells on a focus.
 	#Range: 1 ~ 20
 	focusMaxSpell = 10
@@ -339,6 +333,22 @@
 	#the multiplier of lense (based on 1000)
 	#Range: 0 ~ 100
 	lenseElementMultiplier = 100
+
+	[items.elementHolder]
+		#The element capacity of an element holder.
+		#Range: 0 ~ 100000000
+		elementHolderCapacity = 10000
+		#The amount of element transfered by an element holder.
+		#Range: 0 ~ 1000
+		elementHolderTransferAmount = 25
+
+		[items.elementHolder.pure]
+			#The element capacity of a pure element holder.
+			#Range: 0 ~ 100000000
+			pureElementHolderCapacity = 100000
+			#The amount of element transfered by a pure element holder.
+			#Range: 0 ~ 1000
+			pureElementHolderTransferAmount = 100
 
 #Worldgen config
 [worldgen]
@@ -403,4 +413,9 @@
 		mekanismPureOreEnrichingRecipe = true
 		#Set to false if you want pure ore to not use mekanism crushing recipes.
 		mekanismPureOreCrushingRecipe = true
+
+#Spell config
+[spell]
+	#Define if a spell will be cast (and destroyed) or not if you dont have enought element.
+	spellConsumeOnFail = false
 

@@ -57,6 +57,12 @@
 			enableNetherrackSlabs = true
 			#Enables/Disables Sand Slab Variants
 			enableSandSlabs = true
+			#Enables/Disables Clay Slab Variants
+			enableClaySlabs = true
+			#Enables/Disables Snow Slab Variants
+			enableSnowSlabs = true
+			#Enables/Disables Ice Slab Variants
+			enableIceSlabs = true
 
 		#Custom Stairs Settings
 		[variant16x.custom.stairs]
@@ -90,6 +96,12 @@
 			enableNetherrackStairs = true
 			#Enables/Disables Sand Stairs Variants
 			enableSandStairs = true
+			#Enables/Disables Clay Stairs Variants
+			enableClayStairs = true
+			#Enables/Disables Snow Stairs Variants
+			enableSnowStairs = true
+			#Enables/Disables Ice Stairs Variants
+			enableIceStairs = true
 
 		#Custom Wall Settings
 		[variant16x.custom.walls]
@@ -125,6 +137,12 @@
 			enableNetherrackWalls = true
 			#Enables/Disables Sand Wall Variants
 			enableSandWalls = true
+			#Enables/Disables Clay Wall Variants
+			enableClayWalls = true
+			#Enables/Disables Snow Wall Variants
+			enableSnowWalls = true
+			#Enables/Disables Ice Wall Variants
+			enableIceWalls = true
 
 		#Custom Fence Settings
 		[variant16x.custom.fences]
@@ -170,12 +188,18 @@
 			enableObsidianPressurePlates = true
 			#Enables/Disables Concrete/Concrete Powder Pressure Plate Variants
 			enableConcretePressurePlates = true
-			#Enables/Disables Gravel Pressure Variants
+			#Enables/Disables Gravel Pressure Plate Variants
 			enableGravelPressurePlates = true
 			#Enables/Disables Netherrack/Nylium Pressure Plate Variants
 			enableNetherrackPressurePlates = true
 			#Enables/Disables Sand Pressure Plate Variants
 			enableSandPressurePlates = true
+			#Enables/Disables Clay Pressure Plate Variants
+			enableClayPressurePlates = true
+			#Enables/Disables Snow Pressure Plate Variants
+			enableSnowPressurePlates = true
+			#Enables/Disables Ice Pressure Plate Variants
+			enableIcePressurePlates = true
 
 		#Custom Button Settings
 		[variant16x.custom.buttons]
@@ -215,6 +239,12 @@
 			enableNetherrackButtons = true
 			#Enables/Disables Sand Button Variants
 			enableSandButtons = true
+			#Enables/Disables Clay Button Variants
+			enableClayButtons = true
+			#Enables/Disables Snow Button Variants
+			enableSnowButtons = true
+			#Enables/Disables Ice Button Variants
+			enableIceButtons = true
 
 		#Custom Miscellaneous Settings
 		[variant16x.custom.miscellaneous]
@@ -230,4 +260,6 @@
 			enableBoats = true
 			#Enables/Disables Advancement Variants
 			enableAdvancements = true
+			#Enables/Disables Painting Variants
+			enablePaintings = true
 
