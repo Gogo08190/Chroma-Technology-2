@@ -266,6 +266,7 @@ onEvent('recipes', event => {
     "constantan_nugget",
     "nugget_constantan",
     "constantan_block",
+    "storage_constantan",
     "block_constantan",
     "dust_constantan",
     "constantan_dust",

@@ -1,8 +1,8 @@
 onEvent('recipes', event => {
 
-   // Item pipe
+   // Item Pipe
   event.remove({ output: 'pipez:item_pipe' })
-  event.shaped('pipez:item_pipe', [
+  event.shaped('8x pipez:item_pipe', [
   'LLL',
   'BRB',
   'LLL'
@@ -12,9 +12,9 @@ onEvent('recipes', event => {
     R: 'minecraft:redstone'
   })
 
-  // Fluid pipe
+  // Fluid Pipe
   event.remove({ output: 'pipez:fluid_pipe' })
-  event.shaped('pipez:fluid_pipe', [
+  event.shaped('8x pipez:fluid_pipe', [
   'LLL',
   'BRB',
   'LLL'
@@ -24,27 +24,37 @@ onEvent('recipes', event => {
     R: 'minecraft:redstone'
   })
 
-  // Energy pipe
+  // Energy Pipe
   event.remove({ output: 'pipez:energy_pipe' })
-  event.shaped('pipez:energy_pipe', [
-  'III',
+  event.shaped('8x pipez:energy_pipe', [
+  'LLL',
   'BRB',
-  'III'
+  'LLL'
   ], {
     L: '#forge:ingots/iron',
     B: 'mekanism:basic_universal_cable',
     R: 'minecraft:redstone'
   })
 
-  // Gaz pipe
+  // Gaz Pipe
   event.remove({ output: 'pipez:gas_pipe' })
-  event.shaped('pipez:gas_pipe', [
-  'III',
+  event.shaped('8x pipez:gas_pipe', [
+  'LLL',
   'BRB',
-  'III'
+  'LLL'
   ], {
     L: '#forge:ingots/iron',
     B: 'mekanism:basic_pressurized_tube',
     R: 'minecraft:redstone'
+  })
+
+  // Infinity pipe
+  event.shaped('pipez:infinity_upgrade', [
+  ' U ',
+  'UCU',
+  ' U '
+  ], {
+    C: 'mysticalagradditions:creative_essence',
+    U: 'pipez:ultimate_upgrade'
   })
 });
