@@ -37,7 +37,7 @@ onEvent('recipes', event => {
     S: 'silents_mechanisms:steel_ingot',
     Y: 'bigreactors:yellorium_ingot',
     P: 'powah:crystal_spirited',
-    I: 'bigreactors:graphite_ingot',
+    I: 'bigreactors:graphite_ingot'
   })
 
   // Reactor control Rod basic
@@ -51,7 +51,7 @@ onEvent('recipes', event => {
     S: 'silents_mechanisms:steel_ingot',
     V: 'minecraft:piston',
     P: 'powah:crystal_spirited',
-    I: 'bigreactors:graphite_ingot',
+    I: 'bigreactors:graphite_ingot'
   })
 
   // Reactor solid Access Port basic
@@ -65,7 +65,7 @@ onEvent('recipes', event => {
     S: 'silents_mechanisms:steel_ingot',
     V: 'minecraft:piston',
     C: 'expandedstorage:diamond_chest',
-    H: 'minecraft:hopper',
+    H: 'minecraft:hopper'
   })
 
   // Reactor Active forge energy power tape basic
@@ -77,7 +77,7 @@ onEvent('recipes', event => {
   ], {
     R: 'bigreactors:basic_reactorcasing',
     P: 'powah:spirited_crystal_block',
-    Y: 'bigreactors:yellorium_ingot',
+    Y: 'bigreactors:yellorium_ingot'
   })
 
   // Reactor Passive forge energy power tape basic
@@ -89,7 +89,7 @@ onEvent('recipes', event => {
   ], {
     R: 'bigreactors:basic_reactorcasing',
     P: 'powah:spirited_crystal_block',
-    Y: 'bigreactors:yellorium_ingot',
+    Y: 'bigreactors:yellorium_ingot'
   })
 
   // Reactor Redstone port basic
@@ -153,7 +153,7 @@ onEvent('recipes', event => {
     R: 'bigreactors:basic_reactorcontrolrod',
     G: 'silents_mechanisms:steel_ingot',
     S: 'bigreactors:reinforced_reactorcasing',
-    P: 'powah:crystal_spirited'
+    P: 'powah:crystal_spirited',
     B: 'bigreactors:graphite_ingot'
   })
 
@@ -180,7 +180,7 @@ onEvent('recipes', event => {
   ], {
     R: 'bigreactors:reinforced_reactorcasing',
     P: 'powah:spirited_crystal_block',
-    B: 'bigreactors:basic_reactorpowertapfe_active',
+    B: 'bigreactors:basic_reactorpowertapfe_active'
   })
 
   // Reactor Passive Forge Energy Power Tap reinforced
