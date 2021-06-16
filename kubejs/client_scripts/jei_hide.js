@@ -48,6 +48,13 @@ events.listen('jei.hide.items', function (event) {
   event.hide('immersiveengineering:nugget_electrum')
   event.hide('immersiveengineering:ingot_electrum')
   event.hide('immersiveengineering:storage_electrum')
+  event.hide('immersiveengineering:slab_storage_electrum')
+  event.hide('immersiveengineering:dust_electrum')
+  event.hide('immersiveengineering:dust_constantan')
+  event.hide('immersiveengineering:storage_constantan')
+  event.hide('immersiveengineering:nugget_constantan')
+  event.hide('immersiveengineering:ingot_constantan')
+  event.hide('immersiveengineering:slab_storage_constantan')
 
   // Mekanism
   event.hide('mekanism:copper_ore')
@@ -233,6 +240,8 @@ events.listen('jei.hide.items', function (event) {
   event.hide('cyclic:emerald_axe')
   event.hide('cyclic:emerald_shovel')
 
+  //Refined Storage
+  event.hide('refinedstorage:external_storage')
 })
 
 onEvent('jei.hide.items', event => {

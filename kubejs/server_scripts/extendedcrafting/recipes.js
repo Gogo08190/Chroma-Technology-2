@@ -26,4 +26,8 @@ onEvent('recipes', event => {
   // Luminessence
   event.remove({ output: 'extendedcrafting:luminessence' })
   event.shapeless('extendedcrafting:luminessence', ['powah:charged_snowball', 'mekanism:ingot_refined_glowstone', 'botania:mana_powder', 'minecraft:redstone'])
+
+  // Black Iron
+  event.remove({ output: 'extendedcrafting:black_iron_ingot' })
+  event.recipes.thermal.smelter('extendedcrafting:black_iron_ingot', ['rats:little_black_squash_balls', '#forge:ingots/steel', 'minecraft:blackstone']).energy(5000)
 });
