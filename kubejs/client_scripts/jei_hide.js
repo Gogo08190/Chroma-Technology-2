@@ -233,6 +233,8 @@ events.listen('jei.hide.items', function (event) {
   event.hide('cyclic:emerald_axe')
   event.hide('cyclic:emerald_shovel')
 
+  //Refined Storage
+  event.hide('refinedstorage:external_storage')
 })
 
 onEvent('jei.hide.items', event => {
