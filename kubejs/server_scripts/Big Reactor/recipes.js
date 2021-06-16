@@ -100,7 +100,7 @@ onEvent('recipes', event => {
   'RTR'
   ], {
     R: 'bigreactors:basic_reactorcasing',
-    P: 'silents_mechanisms:steel_ingot',
+    S: 'silents_mechanisms:steel_ingot',
     T: 'thermal:redstone_servo',
     Y: 'bigreactors:yellorium_ingot'
   })
