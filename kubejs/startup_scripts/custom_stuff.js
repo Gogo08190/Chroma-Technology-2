@@ -4,6 +4,7 @@
 onEvent('fluid.registry', event => {
     //create molten coke brick
     event.create('thick_fluid').textureThick(0x292929).bucketColor(0x292929).displayName('Molten Coke Brick')
+    //create molten shadow steel
     event.create('Molten_shadow_steel').textureThick(0x4B006E).bucketColor(0x4B006E).displayName('Molten shadow steel')
 })
 
