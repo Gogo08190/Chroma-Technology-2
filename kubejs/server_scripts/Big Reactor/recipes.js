@@ -117,4 +117,81 @@ onEvent('recipes', event => {
     V: '#forge:glass',
     B: 'bigreactors:basic_reactorpowertapfe_active'
   })
+
+  // Reactor casing reinforced
+  event.remove({ output: 'bigreactors:reinforced_reactorcasing' })
+  event.shaped('bigreactors:reinforced_reactorcasing', [
+  'SGS',
+  'GRG',
+  'SGS'
+  ], {
+    R: 'bigreactors:basic_reactorcasing',
+    G: 'bigreactors:graphite_ingot',
+    S: 'silents_mechanisms:steel_ingot',
+  })
+
+  // Reactor Fuel rod reinforced
+  event.remove({ output: 'bigreactors:reinforced_reactorfuelrod' })
+  event.shaped('bigreactors:reinforced_reactorfuelrod', [
+  'PSP',
+  'GRG',
+  'PSP'
+  ], {
+    R: 'bigreactors:basic_reactorfuelrod',
+    G: 'bigreactors:graphite_ingot',
+    S: 'silents_mechanisms:steel_ingot',
+    P: 'powah:crystal_spirited'
+  })
+
+  // Reactor control Rod Reinforced
+  event.remove({ output: 'bigreactors:reinforced_reactorcontrolrod' })
+  event.shaped('bigreactors:reinforced_reactorcontrolrod', [
+  'SPS',
+  'GRG',
+  'SBS'
+  ], {
+    R: 'bigreactors:basic_reactorcontrolrod',
+    G: 'silents_mechanisms:steel_ingot',
+    S: 'bigreactors:reinforced_reactorcasing',
+    P: 'powah:crystal_spirited'
+    B: 'bigreactors:graphite_ingot'
+  })
+
+  // Reactor Solid Access Port Reinforced
+  event.remove({ output: 'bigreactors:reinforced_reactorsolidaccessport' })
+  event.shaped('bigreactors:reinforced_reactorsolidaccessport', [
+  'RHR',
+  'SBS',
+  'RPR'
+  ], {
+    R: 'bigreactors:reinforced_reactorcasing',
+    B: 'bigreactors:basic_reactorsolidaccessport',
+    S: 'silents_mechanisms:steel_ingot',
+    P: 'minecraft:piston',
+    H: 'minecraft:hopper'
+  })
+
+  // Reactor Active Forge Energy Power Tap Reinforced
+  event.remove({ output: 'bigreactors:reinforced_reactorpowertapfe_active' })
+  event.shaped('bigreactors:reinforced_reactorpowertapfe_active', [
+  'RPR',
+  'PBP',
+  'RPR'
+  ], {
+    R: 'bigreactors:reinforced_reactorcasing',
+    P: 'powah:spirited_crystal_block',
+    B: 'bigreactors:basic_reactorpowertapfe_active',
+  })
+
+  // Reactor Passive Forge Energy Power Tap reinforced
+  event.remove({ output: 'bigreactors:reinforced_reactorpowertapfe_passive' })
+  event.shaped('bigreactors:reinforced_reactorpowertapfe_passive', [
+  'RPR',
+  'PGP',
+  'RPR'
+  ], {
+    R: 'bigreactors:reinforced_reactorcasing',
+    G: 'bigreactors:basic_reactorpowertapfe_passive',
+    P: 'powah:crystal_spirited'
+  })
 });
