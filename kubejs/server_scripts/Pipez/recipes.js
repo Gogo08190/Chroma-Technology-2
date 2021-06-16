@@ -47,4 +47,14 @@ onEvent('recipes', event => {
     B: 'mekanism:basic_pressurized_tube',
     R: 'minecraft:redstone'
   })
+
+  // Infinity pipe
+  event.shaped('pipez:infinity_upgrade', [
+  ' U ',
+  'UCU',
+  ' U '
+  ], {
+    C: 'mysticalagradditions:creative_essence',
+    U: 'pipez:ultimate_upgrade'
+  })
 });
