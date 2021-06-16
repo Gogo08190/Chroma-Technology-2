@@ -47,4 +47,19 @@ onEvent('recipes', event => {
     R: 'silents_mechanisms:redstone_alloy_ingot',
     A: 'silents_mechanisms:aluminum_steel_ingot'
   })
+
+  // Redstone Flux Coil
+  event.remove({ output: 'thermal:rf_coil' })
+  event.shaped('thermal:rf_coil', [
+  ' GC',
+  'WRW',
+  'CG '
+  ], {
+    R: 'silents_mechanisms:redstone_alloy_ingot',
+    C: 'thermal:constantan_ingot',
+    W: 'immersiveengineering:wire_copper',
+    G: 'createaddition:gold_wire'
+  })
+
+
 });
