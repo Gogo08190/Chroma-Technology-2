@@ -186,6 +186,31 @@ onEvent('recipes', event => {
     S: 'botania:elementium_shears'
   })
 
+<<<<<<< HEAD
+  // Upgrade:Porductivity
+  event.remove({ output: 'productivebees:upgrade_productivity' })
+  event.shaped('productivebees:upgrade_productivity', [
+  'TSM',
+  'SBS',
+  'MST'
+  ], {
+    T: 'productivebees:comb_terrasteel',
+    S: 'minecraft:nether_star',
+    M: 'productivebees:comb_supremium',
+    B: 'productivebees:upgrade_base'
+  })
+
+  // Honey Generator
+  event.remove({ output: 'productivebees:honey_generator' })
+  event.shaped('productivebees:honey_generator', [
+  'EBE',
+  'EME',
+  'EEE'
+  ], {
+    E: 'powah:steel_energized',
+    B: 'productivebees:honey_bucket',
+    M: 'mysticalagriculture:prudentium_furnace'
+=======
   // Advanced Hellbark Beehive
   event.remove({ output: 'productivebees:advanced_bop_hellbark_beehive' })
   event.shaped('productivebees:advanced_bop_hellbark_beehive', [
@@ -361,5 +386,6 @@ onEvent('recipes', event => {
     S: 'iceandfire:dragonsteel_fire_ingot',
     C: '#forge:campfires',
     B: 'minecraft:bricks'
+>>>>>>> 81211d7bc6a1cbb9b21081e4519d45961ee6eb30
   })
 });
