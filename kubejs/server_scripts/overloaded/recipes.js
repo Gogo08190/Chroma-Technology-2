@@ -49,4 +49,18 @@ onEvent('recipes', event => {
     C: 'overloaded:energy_core',
     P: 'powah:nitro_crystal_block'
   })
+
+  // Instant Furnace
+  event.remove({ output: 'overloaded:instant_furnace' })
+  event.shaped('overloaded:instant_furnace', [
+  'NEN',
+  'EFE',
+  'PIP'
+  ], {
+    P: 'powah:battery_nitro',
+    I: 'mysticaladaptations:insanium_furnace',
+    F: 'ironfurnaces:million_furnace',
+    E: 'powah:energized_steel_block',
+    N: 'overloaded:nether_star_block'
+  })
 });

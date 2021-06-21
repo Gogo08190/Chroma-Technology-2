@@ -186,6 +186,7 @@ onEvent('recipes', event => {
     S: 'botania:elementium_shears'
   })
 
+<<<<<<< HEAD
   // Upgrade:Porductivity
   event.remove({ output: 'productivebees:upgrade_productivity' })
   event.shaped('productivebees:upgrade_productivity', [
@@ -209,5 +210,182 @@ onEvent('recipes', event => {
     E: 'powah:steel_energized',
     B: 'productivebees:honey_bucket',
     M: 'mysticalagriculture:prudentium_furnace'
+=======
+  // Advanced Hellbark Beehive
+  event.remove({ output: 'productivebees:advanced_bop_hellbark_beehive' })
+  event.shaped('productivebees:advanced_bop_hellbark_beehive', [
+  'PPP',
+  'CBC',
+  'FMS'
+  ], {
+    P: 'biomesoplenty:hellbark_planks',
+    C: 'minecraft:honeycomb_block',
+    B: 'minecraft:beehive',
+    F: 'farmersdelight:stove',
+    M: 'thermal:machine_frame',
+    S: 'botania:elementium_shears'
+  })
+
+  // Advanced Umbran Beehive
+  event.remove({ output: 'productivebees:advanced_bop_umbran_beehive' })
+  event.shaped('productivebees:advanced_bop_umbran_beehive', [
+  'PPP',
+  'CBC',
+  'FMS'
+  ], {
+    P: 'biomesoplenty:umbran_planks',
+    C: 'minecraft:honeycomb_block',
+    B: 'minecraft:beehive',
+    F: 'farmersdelight:stove',
+    M: 'thermal:machine_frame',
+    S: 'botania:elementium_shears'
+  })
+
+  // Advanced Fir Beehive
+  event.remove({ output: 'productivebees:advanced_bop_fir_beehive' })
+  event.shaped('productivebees:advanced_bop_fir_beehive', [
+  'PPP',
+  'CBC',
+  'FMS'
+  ], {
+    P: 'biomesoplenty:fir_planks',
+    C: 'minecraft:honeycomb_block',
+    B: 'minecraft:beehive',
+    F: 'farmersdelight:stove',
+    M: 'thermal:machine_frame',
+    S: 'botania:elementium_shears'
+  })
+
+  // Advanced Redwood Beehive
+  event.remove({ output: 'productivebees:advanced_bop_redwood_beehive' })
+  event.shaped('productivebees:advanced_bop_redwood_beehive', [
+  'PPP',
+  'CBC',
+  'FMS'
+  ], {
+    P: 'biomesoplenty:redwood_planks',
+    C: 'minecraft:honeycomb_block',
+    B: 'minecraft:beehive',
+    F: 'farmersdelight:stove',
+    M: 'thermal:machine_frame',
+    S: 'botania:elementium_shears'
+  })
+
+  // Advanced Palm Beehive
+  event.remove({ output: 'productivebees:advanced_bop_palm_beehive' })
+  event.shaped('productivebees:advanced_bop_palm_beehive', [
+  'PPP',
+  'CBC',
+  'FMS'
+  ], {
+    P: 'biomesoplenty:palm_planks',
+    C: 'minecraft:honeycomb_block',
+    B: 'minecraft:beehive',
+    F: 'farmersdelight:stove',
+    M: 'thermal:machine_frame',
+    S: 'botania:elementium_shears'
+  })
+
+  // Advanced Dead Beehive
+  event.remove({ output: 'productivebees:advanced_bop_dead_beehive' })
+  event.shaped('productivebees:advanced_bop_dead_beehive', [
+  'PPP',
+  'CBC',
+  'FMS'
+  ], {
+    P: 'biomesoplenty:dead_planks',
+    C: 'minecraft:honeycomb_block',
+    B: 'minecraft:beehive',
+    F: 'farmersdelight:stove',
+    M: 'thermal:machine_frame',
+    S: 'botania:elementium_shears'
+  })
+
+  // Advanced Mahogany Beehive
+  event.remove({ output: 'productivebees:advanced_bop_mahogany_beehive' })
+  event.shaped('productivebees:advanced_bop_mahogany_beehive', [
+  'PPP',
+  'CBC',
+  'FMS'
+  ], {
+    P: 'biomesoplenty:mahogany_planks',
+    C: 'minecraft:honeycomb_block',
+    B: 'minecraft:beehive',
+    F: 'farmersdelight:stove',
+    M: 'thermal:machine_frame',
+    S: 'botania:elementium_shears'
+  })
+
+  // Advanced Jacaranda Beehive
+  event.remove({ output: 'productivebees:advanced_bop_jacaranda_beehive' })
+  event.shaped('productivebees:advanced_bop_jacaranda_beehive', [
+  'PPP',
+  'CBC',
+  'FMS'
+  ], {
+    P: 'biomesoplenty:jacaranda_planks',
+    C: 'minecraft:honeycomb_block',
+    B: 'minecraft:beehive',
+    F: 'farmersdelight:stove',
+    M: 'thermal:machine_frame',
+    S: 'botania:elementium_shears'
+  })
+
+  // Advanced Willow Beehive
+  event.remove({ output: 'productivebees:advanced_bop_willow_beehive' })
+  event.shaped('productivebees:advanced_bop_willow_beehive', [
+  'PPP',
+  'CBC',
+  'FMS'
+  ], {
+    P: 'biomesoplenty:willow_planks',
+    C: 'minecraft:honeycomb_block',
+    B: 'minecraft:beehive',
+    F: 'farmersdelight:stove',
+    M: 'thermal:machine_frame',
+    S: 'botania:elementium_shears'
+  })
+
+  // Advanced Cherry Beehive
+  event.remove({ output: 'productivebees:advanced_bop_cherry_beehive' })
+  event.shaped('productivebees:advanced_bop_cherry_beehive', [
+  'PPP',
+  'CBC',
+  'FMS'
+  ], {
+    P: 'biomesoplenty:cherry_planks',
+    C: 'minecraft:honeycomb_block',
+    B: 'minecraft:beehive',
+    F: 'farmersdelight:stove',
+    M: 'thermal:machine_frame',
+    S: 'botania:elementium_shears'
+  })
+
+  // Advanced Magic Beehive
+  event.remove({ output: 'productivebees:advanced_bop_magic_beehive' })
+  event.shaped('productivebees:advanced_bop_magic_beehive', [
+  'PPP',
+  'CBC',
+  'FMS'
+  ], {
+    P: 'biomesoplenty:magic_planks',
+    C: 'minecraft:honeycomb_block',
+    B: 'minecraft:beehive',
+    F: 'farmersdelight:stove',
+    M: 'thermal:machine_frame',
+    S: 'botania:elementium_shears'
+  })
+
+  // Stove
+  event.remove({ output: 'farmersdelight:stove' })
+  event.shaped('farmersdelight:stove', [
+  'SSS',
+  'B B',
+  'BCB'
+  ], {
+    S: 'iceandfire:dragonsteel_fire_ingot',
+    C: '#forge:campfires',
+    B: 'minecraft:bricks'
+>>>>>>> 81211d7bc6a1cbb9b21081e4519d45961ee6eb30
   })
 });
