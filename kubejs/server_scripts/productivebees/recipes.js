@@ -185,4 +185,29 @@ onEvent('recipes', event => {
     M: 'thermal:machine_frame',
     S: 'botania:elementium_shears'
   })
+
+  // Upgrade:Porductivity
+  event.remove({ output: 'productivebees:upgrade_productivity' })
+  event.shaped('productivebees:upgrade_productivity', [
+  'TSM',
+  'SBS',
+  'MST'
+  ], {
+    T: 'productivebees:comb_terrasteel',
+    S: 'minecraft:nether_star',
+    M: 'productivebees:comb_supremium',
+    B: 'productivebees:upgrade_base'
+  })
+
+  // Honey Generator
+  event.remove({ output: 'productivebees:honey_generator' })
+  event.shaped('productivebees:honey_generator', [
+  'EBE',
+  'EME',
+  'EEE'
+  ], {
+    E: 'powah:steel_energized',
+    B: 'productivebees:honey_bucket',
+    M: 'mysticalagriculture:prudentium_furnace'
+  })
 });
