@@ -1,5 +1,17 @@
 onEvent('recipes', event => {
 
+  // Machine Casing
+  event.remove({ output: 'refinedstorage:machine_casing' })
+  event.shaped('refinedstorage:machine_casing', [
+  'QSQ',
+  'SMS',
+  'QSQ'
+  ], {
+    Q: 'refinedstorage:quartz_enriched_iron',
+    S: 'powah:steel_energized',
+    M: 'rftoolsbase:machine_frame'
+  })
+
   // Raw Basic Processor
   event.remove({ output: 'refinedstorage:raw_basic_processor' })
   event.shapeless('refinedstorage:raw_basic_processor', ['refinedstorage:processor_binding', '#forge:ingots/iron'])
