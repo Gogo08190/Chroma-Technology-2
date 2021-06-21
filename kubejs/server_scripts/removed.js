@@ -137,4 +137,6 @@ onEvent('recipes', event => {
   event.remove({output: 'thermal:earth_grenade'})
 
   event.remove({id: 'refinedstorage:quartz_enriched_iron'})
+
+  event.remove({output: 'extendedcrafting:nether_star_block'})
 });

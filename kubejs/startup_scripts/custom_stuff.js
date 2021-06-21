@@ -1,20 +1,19 @@
-
-// Fluid custom
-
+// Custom Fluid
 onEvent('fluid.registry', event => {
-    //create molten coke brick
-    event.create('thick_fluid').textureThick(0x292929).bucketColor(0x292929).displayName('Molten Coke Brick')
-    //create molten shadow steel
-    event.create('molten_shadow_steel').textureThick(0x4B006E).bucketColor(0x4B006E).displayName('Molten shadow steel')
+  // Molten Coke Brick
+  event.create('molten_coke_brick').textureThick(0x292929).bucketColor(0x292929).displayName('Molten Coke Brick')
+
+  // Molten Shadow Steel
+  event.create('molten_shadow_steel').textureThick(0x4B006E).bucketColor(0x4B006E).displayName('Molten shadow steel')
 })
 
-// Item custom
-
+// Custom Items
 onEvent('item.registry', event => {
+  event.create('boots').displayName('Boots Core')
+  event.create('leggings').displayName('Leggings Core')
+  event.create('chestplate').displayName('Chestplate Core')
+  event.create('helmet').displayName('Helmet Core')
+  event.create('damage').displayName('Damage Core')
 
-    // The texture for this item has to be placed in kubejs/assets/kubejs/textures/item/test_item.png
-    event.create('boot').displayName('Boot Core')
-    event.create('leging').displayName('Legging Core')
-    event.create('chest').displayName('Chestplate Core')
-    event.create('helmet').displayName('Helmet Core')
+  event.create('chroma_ingot').displayName('Chroma Ingot')
 })
