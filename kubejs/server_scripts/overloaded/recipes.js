@@ -57,7 +57,7 @@ onEvent('recipes', event => {
   'EFE',
   'PIP'
   ], {
-    B: 'powah:battery_nitro',
+    P: 'powah:battery_nitro',
     I: 'mysticaladaptations:insanium_furnace',
     F: 'ironfurnaces:million_furnace',
     E: 'powah:energized_steel_block',
