@@ -13,6 +13,7 @@ onEvent('item.registry', event => {
   event.create('leggings').displayName('Leggings Core')
   event.create('chestplate').displayName('Chestplate Core')
   event.create('helmet').displayName('Helmet Core')
+  event.create('damage').displayName('Damage Core')
 
   event.create('chroma_ingot').displayName('Chroma Ingot')
 })

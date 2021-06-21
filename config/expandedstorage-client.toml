@@ -1,7 +1,7 @@
 
 [client]
 	#Preferred Container Type, set to expandedstorage:auto to display selection screen.
-	preferred_container_type = "expandedstorage:single"
+	preferred_container_type = "expandedstorage:scrollable"
 	#Only allows scrolling with mouse-wheel whilst hovering over the scroll bar.
 	restrictive_scrolling = false
 	#Centers the settings button on the scrollbar of the scrollable screen.
