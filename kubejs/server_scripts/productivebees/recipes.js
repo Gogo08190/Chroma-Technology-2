@@ -51,4 +51,18 @@ onEvent('recipes', event => {
     C: 'naturescompass:naturescompass',
     R: 'minecraft:redstone_block'
   })
+
+  // Upgrade: Comb Block
+  event.remove({ output: 'productivebees:upgrade_comb_block' })
+  event.shaped('productivebees:upgrade_comb_block', [
+  'BNB',
+  'DUD',
+  'BWB'
+  ], {
+    B: 'productivebees:comb_ender_biotite',
+    W: 'xreliquary:witherless_rose',
+    U: 'productivebees:upgrade_base',
+    D: 'productivebees:inactive_dragon_egg',
+    N: 'minecraft:nether_star'
+  })
 });
