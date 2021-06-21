@@ -186,7 +186,6 @@ onEvent('recipes', event => {
     S: 'botania:elementium_shears'
   })
 
-<<<<<<< HEAD
   // Upgrade:Porductivity
   event.remove({ output: 'productivebees:upgrade_productivity' })
   event.shaped('productivebees:upgrade_productivity', [
@@ -210,7 +209,8 @@ onEvent('recipes', event => {
     E: 'powah:steel_energized',
     B: 'productivebees:honey_bucket',
     M: 'mysticalagriculture:prudentium_furnace'
-=======
+  })
+
   // Advanced Hellbark Beehive
   event.remove({ output: 'productivebees:advanced_bop_hellbark_beehive' })
   event.shaped('productivebees:advanced_bop_hellbark_beehive', [
@@ -386,6 +386,5 @@ onEvent('recipes', event => {
     S: 'iceandfire:dragonsteel_fire_ingot',
     C: '#forge:campfires',
     B: 'minecraft:bricks'
->>>>>>> 81211d7bc6a1cbb9b21081e4519d45961ee6eb30
   })
 });
