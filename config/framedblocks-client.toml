@@ -4,4 +4,6 @@
 	showGhostBlocks = true
 	#Wether certain framed blocks should show fancy hitboxes
 	fancyHitboxes = true
+	#If false only full block faces of framed blocks will be culled, if true all outer faces of famed blocks can be culled
+	detailedCulling = true
 
