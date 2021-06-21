@@ -240,8 +240,11 @@ events.listen('jei.hide.items', function (event) {
   event.hide('cyclic:emerald_axe')
   event.hide('cyclic:emerald_shovel')
 
-  //Refined Storage
+  // Refined Storage
   event.hide('refinedstorage:external_storage')
+
+  // Extended Crafting
+  event.hide('extendedcrafting:nether_star_block')
 })
 
 onEvent('jei.hide.items', event => {
