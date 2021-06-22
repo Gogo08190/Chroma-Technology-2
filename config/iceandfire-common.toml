@@ -53,10 +53,10 @@
 	[Generation.Structures-Features]
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn(0, 0).
 		#Range: 1 ~ 10000
-		"Dangerous World Gen Dist From Spawn" = 800
+		"Dangerous World Gen Dist From Spawn" = 2000
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from the last generated structure.
 		#Range: 1 ~ 10000
-		"Dangerous World Gen Dist Seperation" = 300
+		"Dangerous World Gen Dist Seperation" = 2000
 		#Whether to generate glacier biomes or not
 		"Generate Glaciers" = true
 		#Glacier Spawn Weight. Higher number = more common
@@ -216,7 +216,7 @@
 		"Use Siren Shader" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sirens Chance" = 400
+		"Spawn Sirens Chance" = 300
 		#how long(in ticks) can a siren use its sing effect on a player, without a cooldown.
 		#Range: 100 ~ 24000
 		"Siren Max Sing Time" = 12000
@@ -353,7 +353,7 @@
 		"Spawn Sea Serpents" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sea Serpent Chance" = 250
+		"Spawn Sea Serpent Chance" = 200
 		#Whether or not sea serpents can break weak blocks in their way
 		"Sea Serpent Griefing" = true
 		#Default sea serpent health, this is scaled to the sea serpent's particular size
@@ -378,7 +378,7 @@
 		"Spawn Gorgons" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Gorgon Chance" = 75
+		"Spawn Gorgon Chance" = 90
 		#Maximum gorgon health
 		#Range: 1.0 ~ 10000.0
 		"Gorgon Max Health" = 100.0
