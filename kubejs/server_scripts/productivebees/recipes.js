@@ -186,7 +186,7 @@ onEvent('recipes', event => {
     S: 'botania:elementium_shears'
   })
 
-  // Upgrade:Porductivity
+  // Upgrade: Productivity
   event.remove({ output: 'productivebees:upgrade_productivity' })
   event.shaped('productivebees:upgrade_productivity', [
   'TSM',
