@@ -122,3 +122,18 @@ mods.extendedcrafting.TableCrafting.addShaped("multi_boots", <item:overloaded:mu
 	[<item:extendedcrafting:the_ultimate_ingot>, <item:kubejs:chroma_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:extendedcrafting:the_ultimate_ingot>, <item:kubejs:chroma_ingot>, <item:extendedcrafting:the_ultimate_ingot>],
 	[<item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:extendedcrafting:the_ultimate_ingot>]
 ]);
+
+// Railgun
+craftingTable.removeRecipe(<item:overloaded:railgun>);
+
+mods.extendedcrafting.TableCrafting.addShaped("railgun", <item:overloaded:railgun>, [
+	[<item:minecraft:air>, <item:overloaded:energy_core>, <item:overloaded:energy_core>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:overloaded:energy_core>, <item:overloaded:energy_core>, <item:extendedcrafting:the_ultimate_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:overloaded:energy_core>, <item:extendedcrafting:the_ultimate_ingot>, <item:kubejs:chroma_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:minecraft:air>, <item:extendedcrafting:the_ultimate_ingot>, <item:kubejs:chroma_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:extendedcrafting:the_ultimate_ingot>, <item:kubejs:damage>, <item:extendedcrafting:the_ultimate_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:kubejs:chroma_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:kubejs:chroma_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:minecraft:air>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:mysticalagradditions:creative_essence>, <item:extendedcrafting:ultimate_singularity>, <item:extendedcrafting:the_ultimate_ingot>, <item:kubejs:chroma_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:minecraft:air>],
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:extendedcrafting:the_ultimate_ingot>, <item:mysticalagradditions:creative_essence>, <item:kubejs:chroma_ingot>, <item:extendedcrafting:the_ultimate_ingot>, <item:overloaded:hyper_energy_sender>, <item:overloaded:energy_core>],
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:overloaded:energy_core>, <item:overloaded:energy_core>]
+]);
