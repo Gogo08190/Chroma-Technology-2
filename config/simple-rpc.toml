@@ -13,7 +13,7 @@
 	description = "Minecraft is loading"
 	state = "Game Starting..."
 	largeImageKey = "mclogo"
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "Chroma Technology 2"
 	smallImageKey = "mclogo"
 	smallImageText = "%mods% mods installed"
 	buttons = []
@@ -23,7 +23,7 @@
 	description = "%player% is currently lazy"
 	state = "Chilling in the menu"
 	largeImageKey = "mclogo"
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "Chroma Technology 2"
 	smallImageKey = "mclogo"
 	smallImageText = "%mods% mods installed"
 	buttons = []
@@ -33,7 +33,7 @@
 	description = "%player% is looking for a server"
 	state = "Searching for friends"
 	largeImageKey = "mclogo"
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "Chroma Technology 2"
 	smallImageKey = "mclogo"
 	smallImageText = "%mods% mods installed"
 	buttons = []
@@ -43,7 +43,7 @@
 	description = "%player% is joining a game"
 	state = "Joining Game"
 	largeImageKey = "mclogo"
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "Chroma Technology 2"
 	smallImageKey = "mclogo"
 	smallImageText = "%mods% mods installed"
 	buttons = []
@@ -63,7 +63,7 @@
 	description = "Playing on %servername% with %players% players"
 	state = "Playing online"
 	largeImageKey = "mclogo"
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "Chroma Technology 2"
 	smallImageKey = "mclogo"
 	smallImageText = "%mods% mods installed"
 	buttons = []
@@ -72,7 +72,7 @@
 	description = "Playing Minecraft"
 	state = ""
 	largeImageKey = "mclogo"
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "Chroma Technology 2"
 	smallImageKey = "mclogo"
 	smallImageText = "%mods% mods installed"
 	buttons = []
