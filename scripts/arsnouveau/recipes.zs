@@ -1,0 +1,1 @@
+<recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("enchanting_test", <item:minecraft:dirt>, <item:minecraft:glass>, [<item:minecraft:gold_ore>, <item:minecraft:iron_ore>, <item:minecraft:diamond_ore>, <item:minecraft:diamond_ore>]);
