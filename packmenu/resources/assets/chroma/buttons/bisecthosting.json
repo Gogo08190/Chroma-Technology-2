@@ -1,0 +1,21 @@
+{
+	"x": 0,
+	"y": 50,
+	"width": 120,
+	"height": 30,
+	"langKey": "packmenu.chroma.bisecthosting",
+	"action": "OPEN_URL",
+	"data": "https://www.bisecthosting.com/chromatech",
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 30,
+	"texWidth": 120,
+	"texHeight": 60,
+	"texture": "chroma:textures/bisecthosting.png",
+	"fontColor": 1140326,
+	"hoverFontColor": 1048575,
+	"dropShadow": false,
+	"textXOffset": 6,
+	"textYOffset": -4
+}
