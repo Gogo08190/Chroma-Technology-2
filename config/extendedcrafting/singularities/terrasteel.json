@@ -1,0 +1,10 @@
+{
+  "name": "Terrasteel",
+  "colors": [
+    "9dfc56",
+    "3ebf00"
+  ],
+  "ingredient": {
+    "item": "botania:terrasteel_ingot"
+  }
+}

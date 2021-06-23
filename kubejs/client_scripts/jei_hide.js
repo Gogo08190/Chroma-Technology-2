@@ -231,14 +231,17 @@ events.listen('jei.hide.items', function (event) {
   event.hide('tmechworks:aluminum_ingot')
   event.hide('tmechworks:aluminum_nugget')
 
+  // Thermal
   event.hide('thermal:earth_tnt')
   event.hide('thermal:earth_grenade')
 
+  // Cyclic
   event.hide('cyclic:emerald_pickaxe')
   event.hide('cyclic:emerald_sword')
   event.hide('cyclic:emerald_hoe')
   event.hide('cyclic:emerald_axe')
   event.hide('cyclic:emerald_shovel')
+  event.hide('cyclic:battery')
 
   // Refined Storage
   event.hide('refinedstorage:external_storage')
