@@ -18,7 +18,7 @@ events.listen('recipes', event => {
     "experience": 0.00
   })
 
-  //molten shadowsteel
+  // Molten shadowsteel
   event.custom({
     "type": "tconstruct:melting",
     "ingredient":
@@ -33,12 +33,7 @@ events.listen('recipes', event => {
     "temperature": 800, "time": 50
   })
 
-  /*
-  exemple
-  event.custom({"type": "tconstruct:melting","ingredient": {"item": "tinycoal:tinycoal"},"result": {"fluid": "thermal:crude_oil","amount": 10},"temperature": 200,"time": 350})
- */
-
-  //molten to item
+  // Shadow Steel
   event.custom({
     "type": "tconstruct:casting_table",
     "cast":
@@ -55,7 +50,7 @@ events.listen('recipes', event => {
     "cooling_time": 100
   })
 
-  //molten coke brick
+  // Molten coke brick
   event.custom({
     "type": "tconstruct:alloy",
     "inputs":
@@ -77,14 +72,7 @@ events.listen('recipes', event => {
     "temperature": 800
   })
 
-  /*
- 
-  Exempl
-   event.custom({"type": "tconstruct:alloy","inputs": [{"name": "kubejs:organic_fluid","amount": 500},{"name": "tconstruct:molten_tin","amount": 144},{"name": "tconstruct:molten_clay","amount": 250}],
-   "result": {"fluid": "kubejs:molten_overworld_matter","amount": 1000},"temperature": 800})
-   */
-
-  //molten to block
+  // Coke Brick
   event.custom({
     "type": "tconstruct:casting_basin",
     "fluid":

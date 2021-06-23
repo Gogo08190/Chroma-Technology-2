@@ -19,4 +19,9 @@ onEvent('item.registry', event => {
   event.create('unassembled_chroma_ingot').displayName('Unassembled Chroma Ingot')
   event.create('assembled_magical_ingot').displayName('Assembled Magical Ingot')
   event.create('assembled_technical_ingot').displayName('Assembled Technical Ingot')
+
+  event.create('elemental_essence').displayName('Elemental Essence')
+  event.create('fallen_pet').displayName('Shard Of The Fallen Pet')
+  event.create('pure_evil').displayName('Essence Of Pure Evil')
+  event.create('condensed_mana').displayName('Condensed Mana')
 })
