@@ -15,6 +15,10 @@
 </p>
 
 <p align="center">
+ Hello adventurers and welcome to Chroma Technology II !<br><br>Successor of the first sequel in 1.12.2, this new modpack strives to help you through your entire adventure. With its new quests system that will surely show you the right way, you will have no difficulty to beat those challenges! But be warned, this is a dangerous world that you're stepping in !<br><br>With new evoluted mobs, mystics creatures... and finally but not least : Dragons !<br>The goal of this modpack is to make you travel technological ages with modified crafts but don't worry they aren't too difficult !<br>We want you to go to creatives recipes !<br><br>We think that this adventure will be a new way of discover new mods from the 1.16 like Create or ElementalCraft or even to rediscover the old time greats classics like Thermal, Applied, Blood Magic, Mekanism, Ice and Fire and Refined Storage.<br><br>The whole Chroma Technology Team wishes you a nice and fun adventure !
+</p>
+
+<p align="center">
   <strong>For support, please come directly to our <a href="https://discord.gg/cVEMguY">Discord server</a>.</strong>
 </p>
 
