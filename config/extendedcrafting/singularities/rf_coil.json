@@ -1,0 +1,10 @@
+{
+  "name": "Redstone Flux Coil Singularity",
+  "colors": [
+    "ec0909",
+    "fcf241"
+  ],
+  "ingredient": {
+    "item": "thermal:rf_coil"
+  }
+}

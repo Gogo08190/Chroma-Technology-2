@@ -1,0 +1,10 @@
+{
+  "name": "Logic Processor",
+  "colors": [
+    "FAF25E",
+    "A80F01"
+  ],
+  "ingredient": {
+    "item": "appliedenergistics2:logic_processor"
+  }
+}

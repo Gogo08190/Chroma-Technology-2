@@ -1,0 +1,10 @@
+{
+  "name": "Calculation Processor",
+  "colors": [
+    "8AB4D8",
+    "A80F01"
+  ],
+  "ingredient": {
+    "item": "appliedenergistics2:calculation_processor"
+  }
+}

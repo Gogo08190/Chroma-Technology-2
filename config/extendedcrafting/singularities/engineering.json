@@ -1,0 +1,10 @@
+{
+  "name": "Engineering Processor",
+  "colors": [
+    "2bddd5",
+    "A80F01"
+  ],
+  "ingredient": {
+    "item": "appliedenergistics2:engineering_processor"
+  }
+}

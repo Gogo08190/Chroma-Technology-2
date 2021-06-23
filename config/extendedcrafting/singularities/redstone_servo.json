@@ -1,0 +1,10 @@
+{
+  "name": "Redstone Servo",
+  "colors": [
+    "7a8487",
+    "ec0909"
+  ],
+  "ingredient": {
+    "item": "thermal:redstone_servo"
+  }
+}

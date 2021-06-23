@@ -1,0 +1,10 @@
+{
+  "name": "Treated Wood",
+  "colors": [
+    "573121",
+    "341d12"
+  ],
+  "ingredient": {
+    "item": "immersiveengineering:treated_wood_horizontal"
+  }
+}

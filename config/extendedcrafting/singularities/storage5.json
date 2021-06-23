@@ -1,0 +1,10 @@
+{
+  "name": "Storage Upgrade (V)",
+  "colors": [
+    "73e994",
+    "ba9661"
+  ],
+  "ingredient": {
+    "item": "storagedrawers:emerald_storage_upgrade"
+  }
+}

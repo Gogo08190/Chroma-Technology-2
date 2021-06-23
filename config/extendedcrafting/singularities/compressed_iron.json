@@ -1,0 +1,10 @@
+{
+  "name": "Compressed Iron",
+  "colors": [
+    "878787",
+    "484848"
+  ],
+  "ingredient": {
+    "item": "pneumaticcraft:ingot_iron_compressed"
+  }
+}

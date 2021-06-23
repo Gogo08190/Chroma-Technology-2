@@ -1,0 +1,10 @@
+{
+  "name": "Speculative Processor",
+  "colors": [
+    "28455a",
+    "A80F01"
+  ],
+  "ingredient": {
+    "item": "lazierae2:speculative_processor"
+  }
+}

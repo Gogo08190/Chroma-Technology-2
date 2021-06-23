@@ -1,0 +1,10 @@
+{
+  "name": "Storage Upgrade (III)",
+  "colors": [
+    "fbf85f",
+    "ba9661"
+  ],
+  "ingredient": {
+    "item": "storagedrawers:gold_storage_upgrade"
+  }
+}
