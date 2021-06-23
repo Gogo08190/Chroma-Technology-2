@@ -73,6 +73,7 @@ events.listen('recipes', event => {
   })
 
   // Coke Brick
+  event.remove({ output: 'immersiveengineering:cokebrick' })
   event.custom({
     "type": "tconstruct:casting_basin",
     "fluid":
