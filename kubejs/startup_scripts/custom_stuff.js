@@ -18,7 +18,7 @@ onEvent('item.registry', event => {
   event.create('chroma_ingot').displayName('Chroma Ingot')
   event.create('unassembled_chroma_ingot').displayName('Unassembled Chroma Ingot')
   event.create('assembled_magical_ingot').displayName('Assembled Magical Ingot')
-  event.create('assembled_technical_ingot').displayName('Assembled Technical Ingot')
+  event.create('assembled_technical_ingot').displayName('Dense Technical Ingot')
 
   event.create('elemental_essence').displayName('Elemental Essence')
   event.create('fallen_pet').displayName('Shard Of The Fallen Pet')

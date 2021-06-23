@@ -1,4 +1,6 @@
 onEvent('recipes', event => {
+
+  // Mystical
   event.remove({id: 'mysticalagriculture:essence/common/constantan_ingot'})
   event.remove({id: 'mysticalagriculture:essence/common/invar_ingot'})
   event.remove({id: 'mysticalagriculture:essence/common/electrum_ingot'})
@@ -9,6 +11,7 @@ onEvent('recipes', event => {
   event.remove({id: 'mysticalagriculture:essence/common/tin_ingot'})
   event.remove({id: 'mysticalagriculture:essence/common/copper_ingot'})
 
+  // Mekanism
   event.remove({id: 'mekanism:processing/uranium/dust/from_ingot'})
   event.remove({id: 'mekanism:processing/uranium/dust/from_ore'})
   event.remove({id: 'mekanism:processing/uranium/dust/from_dirty_dust'})
@@ -21,6 +24,7 @@ onEvent('recipes', event => {
   event.remove({output: 'mekanism:block_charcoal'})
   event.remove({output: 'mekanism:upgrade_anchor'})
 
+  // Thermal
   event.remove({output: 'thermal:apple_block'})
   event.remove({output: 'thermal:potato_block'})
   event.remove({output: 'thermal:carrot_block'})
@@ -46,6 +50,7 @@ onEvent('recipes', event => {
   event.remove({output: 'thermal:beetroot_block'})
   event.remove({output: 'thermal:bamboo_block'})
 
+  // Tinker
   event.remove({id: 'tmechworks:copper_ingot_from_copper_block'})
   event.remove({id: 'tmechworks:copper_ingot_from_copper_nugget'})
   event.remove({id: 'tmechworks:copper_nugget_from_copper_ingot'})
@@ -53,6 +58,7 @@ onEvent('recipes', event => {
   event.remove({id: 'tmechworks:aluminum_ingot_from_aluminum_nugget'})
   event.remove({id: 'tmechworks:aluminum_nugget_from_aluminum_ingot'})
 
+  // Cyclic
   event.remove({output: 'cyclic:crafting_stick'})
   event.remove({output: 'cyclic:crafting_bag'})
   event.remove({output: 'cyclic:uncrafter'})
@@ -66,7 +72,9 @@ onEvent('recipes', event => {
   event.remove({output: 'cyclic:emerald_axe'})
   event.remove({output: 'cyclic:emerald_hoe'})
   event.remove({output: 'cyclic:tile_transporter_empty'})
+  event.remove({output: 'cyclic:battery'})
 
+  // Badic Nether Ore
   event.remove({output: 'bno:aluminum_block'})
   event.remove({output: 'bno:copper_block'})
   event.remove({output: 'bno:lead_block'})

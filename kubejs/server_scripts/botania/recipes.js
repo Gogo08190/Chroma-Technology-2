@@ -15,19 +15,6 @@ onEvent('recipes', event => {
     F: 'minecraft:bone_meal'
   })
 
-  // Petal Apothecary
-  event.remove({ output: 'botania:apothecary_default' })
-  event.shaped('botania:apothecary_default', [
-  'NPN',
-  ' C ',
-  'SSS'
-  ], {
-    S: '#minecraft:stone_bricks',
-    C: 'cookingforblockheads:sink',
-    N: 'minecraft:nether_brick_slab',
-    P: '#botania:petals'
-  })
-
   // Mana Pylon
   event.remove({ output: 'botania:mana_pylon' })
   event.shaped('botania:mana_pylon', [

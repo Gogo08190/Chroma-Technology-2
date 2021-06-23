@@ -1,0 +1,10 @@
+{
+  "name": "Elementium",
+  "colors": [
+    "f395c9",
+    "ea3298"
+  ],
+  "ingredient": {
+    "item": "botania:elementium_ingot"
+  }
+}
