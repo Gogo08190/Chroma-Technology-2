@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.curseforge.com/minecraft/modpacks/chroma-technology">
-    <img border="0" alt="CurseForge" src="https://www.bisecthosting.com/images/CF/Chroma_Technology/BH_CT_Header.png">
+    <img border="0" alt="CurseForge" src="https://imgur.com/JFrClUh.png">
   </a>
 </p>
 
