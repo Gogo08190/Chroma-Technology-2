@@ -24,6 +24,4 @@ onEvent('item.registry', event => {
   event.create('fallen_pet').displayName('Shard Of The Fallen Pet')
   event.create('pure_evil').displayName('Essence Of Pure Evil')
   event.create('condensed_mana').displayName('Condensed Mana')
-
-  event.create('test').displayName('Test')
 })
