@@ -387,4 +387,22 @@ onEvent('recipes', event => {
     C: '#forge:campfires',
     B: 'minecraft:bricks'
   })
+
+  // life blood
+  event.custom({
+    "type": "thermal:centrifuge",
+    "ingredient":
+    {
+      "item": 'productivebees:honeycomb_bloody'
+    },
+    "result":
+      [{
+        "fluid": "bloodmagic:life_essence_fluid", "amount": 100
+      },
+      {
+        "item": 'tconstruct:blood_slime_ball', "chance": 0.75 
+      }],
+    "energy": 2000,
+    "experience": 0.00
+  })
 });
