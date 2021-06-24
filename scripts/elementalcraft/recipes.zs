@@ -9,7 +9,7 @@
   },
   { "item": "elementalcraft:element_holder_fire"    //item with fire elements
   },
-  { "item": "elementalcraft:element_holder_hearth"  //item with earth element
+  { "item": "elementalcraft:element_holder_earth"  //item with earth element
   },
   { "item": "elementalcraft:element_holder_air"     //item with wind element
   } ],
