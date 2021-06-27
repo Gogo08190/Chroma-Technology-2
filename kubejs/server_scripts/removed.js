@@ -156,4 +156,7 @@ onEvent('recipes', event => {
   event.remove({id: 'refinedstorage:quartz_enriched_iron'})
 
   event.remove({output: 'extendedcrafting:nether_star_block'})
+
+  //silent mechanisme
+  event.remove({output: 'silents_mechanisms:compressed_iron_ingot'})
 });
