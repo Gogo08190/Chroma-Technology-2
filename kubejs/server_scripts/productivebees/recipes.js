@@ -415,7 +415,7 @@ onEvent('recipes', event => {
     },
     "result":
       [{
-        "fluid": "fluid:productivebees:honey", "amount": 250
+        "fluid": "fluid:industrialforegoing:pink_slime>", "amount": 100
       },
       {
         "item": 'industrialforegoing:pink_slime', "chance": 1
