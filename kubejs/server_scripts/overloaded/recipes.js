@@ -63,4 +63,17 @@ onEvent('recipes', event => {
     E: 'powah:energized_steel_block',
     N: 'overloaded:nether_star_block'
   })
+
+  // Hyper Energy Sender
+  event.remove({ output: 'overloaded:hyper_energy_sender' })
+  event.shaped('overloaded:hyper_energy_sender', [
+  'SPS',
+  'ENE',
+  'SPS'
+  ], {
+    S: 'powah:energized_steel_block',
+    P: 'powah:nitro_crystal_block',
+    E: 'xreliquary:salamander_eye',
+    N: 'xreliquary:salamander_eye'
+  })
 });

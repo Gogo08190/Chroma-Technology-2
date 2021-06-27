@@ -1,5 +1,17 @@
 onEvent('recipes', event => {
 
+  // Sacrificial Dagger
+  event.remove({ output: 'bloodmagic:sacrificialdagger' })
+  event.shaped('bloodmagic:sacrificialdagger', [
+  'BBB',
+  ' AB',
+  'M B'
+  ], {
+    M: 'mythicbotany:alfsteel_armor_upgrade',
+    A: 'aiotbotania:alfsteel_aiot',
+    B: 'botania:bifrost_perm'
+  })
+
   // Pure Evil
   event.recipes.bloodmagic.alchemytable('kubejs:pure_evil', ['upgradednetherite:ultimate_upgraded_netherite_ingot', 'botania:cosmetic_devil_horns', 'druidcraft:red_soulfire', 'bloodmagic:demonslate', 'botania:cosmetic_devil_tail', 'kubejs:chroma_ingot']).syphon(666).upgradeLevel(2)
 
