@@ -400,9 +400,27 @@ onEvent('recipes', event => {
         "fluid": "bloodmagic:life_essence_fluid", "amount": 100
       },
       {
-        "item": 'tconstruct:blood_slime_ball', "chance": 0.75 
+        "item": 'tconstruct:blood_slime_ball', "chance": 0.75
       }],
     "energy": 2000,
+    "experience": 0.00
+  })
+
+  // pink slime comb
+  event.custom({
+    "type": "thermal:centrifuge",
+    "ingredient":
+    {
+      "item": 'productivebees:honeycomb_pink_slimy'
+    },
+    "result":
+      [{
+        "fluid": "fluid:industrialforegoing:pink_slime>", "amount": 100
+      },
+      {
+        "item": 'industrialforegoing:pink_slime', "chance": 1
+      }],
+    "energy": 3000,
     "experience": 0.00
   })
 });
