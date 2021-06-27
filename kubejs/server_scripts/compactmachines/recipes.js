@@ -26,4 +26,26 @@ onEvent('recipes', event => {
     S: 'rftoolsbase:information_screen',
     H: 'thermal:obsidian_glass'
   })
+
+  // Item Tunnel
+  event.remove({ output: Item.of('compactmachines:tunnel', {definition:{id:"compactmachines:item"}}) })
+  event.shaped(Item.of('compactmachines:tunnel', 2, {definition:{id:"compactmachines:item"}}), [
+  'CCC',
+  'CRC',
+  'CCC'
+  ], {
+    C: 'compactmachines:wall',
+    R: '#forge:chests'
+  })
+
+  // Redstone Tunnel
+  event.remove({ output: Item.of('compactmachines:tunnel', {definition:{id:"compactmachines:redstone_in"}}) })
+  event.shaped(Item.of('compactmachines:tunnel', 2, {definition:{id:"compactmachines:redstone_in"}}), [
+  'CCC',
+  'CRC',
+  'CCC'
+  ], {
+    C: 'compactmachines:wall',
+    R: '#forge:chests'
+  })
 });
