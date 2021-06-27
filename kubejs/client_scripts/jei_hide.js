@@ -243,6 +243,35 @@ events.listen('jei.hide.items', function (event) {
   event.hide('cyclic:emerald_shovel')
   event.hide('cyclic:battery')
 
+  // Extra Disk
+  event.hide('extradisks:256k_storage_part')
+  event.hide('extradisks:1024k_storage_part')
+  event.hide('extradisks:4096k_storage_part')
+  event.hide('extradisks:16384k_storage_part')
+  event.hide('extradisks:256k_storage_disk')
+  event.hide('extradisks:1024k_storage_disk')
+  event.hide('extradisks:4096k_storage_disk')
+  event.hide('extradisks:16384k_storage_disk')
+  event.hide('extradisks:16384k_fluid_storage_part')
+  event.hide('extradisks:65536k_fluid_storage_part')
+  event.hide('extradisks:262144k_fluid_storage_part')
+  event.hide('extradisks:1048576k_fluid_storage_part')
+  event.hide('extradisks:16384k_fluid_storage_disk')
+  event.hide('extradisks:65536k_fluid_storage_disk')
+  event.hide('extradisks:262144k_fluid_storage_disk')
+  event.hide('extradisks:1048576k_fluid_storage_disk')
+  event.hide('extradisks:1048576k_fluid_storage_disk')
+
+  // Extra Storage
+  event.hide('extrastorage:block_256k')
+  event.hide('extrastorage:block_1024k')
+  event.hide('extrastorage:block_4096k')
+  event.hide('extrastorage:block_16384k')
+  event.hide('extrastorage:block_16384k_fluid')
+  event.hide('extrastorage:block_65536k_fluid')
+  event.hide('extrastorage:block_262144k_fluid')
+  event.hide('extrastorage:block_1048576k_fluid')
+
   // Refined Storage
   event.hide('refinedstorage:external_storage')
 

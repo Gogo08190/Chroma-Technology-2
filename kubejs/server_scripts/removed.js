@@ -139,6 +139,15 @@ onEvent('recipes', event => {
   event.remove({output: 'extradisks:1048576k_fluid_storage_disk'})
   event.remove({output: 'extradisks:1048576k_fluid_storage_disk'})
 
+  event.remove({output: 'extrastorage:block_256k'})
+  event.remove({output: 'extrastorage:block_1024k'})
+  event.remove({output: 'extrastorage:block_4096k'})
+  event.remove({output: 'extrastorage:block_16384k'})
+  event.remove({output: 'extrastorage:block_16384k_fluid'})
+  event.remove({output: 'extrastorage:block_65536k_fluid'})
+  event.remove({output: 'extrastorage:block_262144k_fluid'})
+  event.remove({output: 'extrastorage:block_1048576k_fluid'})
+
   event.remove({id: 'compactmachines:wall'})
 
   event.remove({output: 'thermal:earth_tnt'})
