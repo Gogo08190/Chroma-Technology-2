@@ -1,5 +1,5 @@
 // Elemental Essence
-<recipetype:elementalcraft:pureinfusion>.addJSONRecipe("test_recipes",
+<recipetype:elementalcraft:pureinfusion>.addJSONRecipe("elemental_essence",
 {
   "element_amount": 5000, "ingredients":
   [ {
@@ -25,7 +25,7 @@
 //remove craft worn notebook
 craftingTable.removeRecipe(<item:ars_nouveau:worn_notebook>);
 
-<recipetype:elementalcraft:pureinfusion>.addJSONRecipe("test_recipes",
+<recipetype:elementalcraft:pureinfusion>.addJSONRecipe("worn_notebook",
 {
   "element_amount": 5000, "ingredients":
   [ {
