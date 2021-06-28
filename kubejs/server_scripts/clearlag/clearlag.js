@@ -42,9 +42,7 @@ function clearLag (server) {
     text.lightPurple('[ClearLag]'),
     ' Removed ',
     lastTotalClearLagResult.totalCount,
-    ' items. ',
-    text.yellow('Click here').click('command:/clearlagresults'),
-    ' for results.'
+    ' items. '
   ])
 }
 
@@ -63,34 +61,4 @@ events.listen('server.load', function (event) {
     // Re-schedule this task for another 30 minutes (endless loop)
     callback.reschedule()
   })
-})
-
-// Register commands
-events.listen('command.registry', function (event) {
-  // Register new OP command /clearlag, that instantly runs clearlag
-  event
-    .create('clearlag')
-    .op()
-    .execute(function (sender, args) {
-      clearLag(sender.server)
-    })
-    .add()
-
-  // Register new non-OP command /clearlagresults, that displays stats of all removed items from previous /clearlag
-  event
-    .create('clearlagresults')
-    .execute(function (sender, args) {
-      sender.tell([ text.lightPurple('[ClearLag]'), ' Last clearlag results:' ])
-
-      lastClearLagResult.forEach(function (entry) {
-        var total = lastTotalClearLagResult.get(entry.key)
-
-        if (entry.value == total) {
-          sender.tell([ text.gold(entry.key), ': ', text.red(entry.value) ])
-        } else {
-          sender.tell([ text.gold(entry.key), ': ', text.red(entry.value), ' entities, ', text.red(total), ' total' ])
-        }
-      })
-    })
-    .add()
 })
