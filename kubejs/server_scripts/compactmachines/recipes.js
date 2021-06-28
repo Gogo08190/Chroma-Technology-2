@@ -26,11 +26,4 @@ onEvent('recipes', event => {
     S: 'rftoolsbase:information_screen',
     H: 'thermal:obsidian_glass'
   })
-
-  // Item Tunnel
-  event.shaped(Item.of('compactmachines:tunnel', {definition:{id:"compactmachines:item"}}), ['SSS', 'SCS', 'SSS'],{S: 'compactmachines:wall', C: '#forge:chests/wooden'})
-
-  // Redstone Tunnel
-  event.shaped(Item.of('compactmachines:tunnel', {definition:{id:"compactmachines:redstone_in"}}), ['SSS', 'SCS', 'SSS'],{S: 'compactmachines:wall', C: '#forge:storage_blocks/redstone'})
-
 });
