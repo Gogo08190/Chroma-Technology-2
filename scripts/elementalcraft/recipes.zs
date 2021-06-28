@@ -20,9 +20,7 @@
 });
 
 
-//worn notebook
-
-//remove craft worn notebook
+// Worn Notebook
 craftingTable.removeRecipe(<item:ars_nouveau:worn_notebook>);
 
 <recipetype:elementalcraft:pureinfusion>.addJSONRecipe("worn_notebook",
