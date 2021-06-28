@@ -37,6 +37,8 @@ mods.extendedcrafting.TableCrafting.addShaped("creative_chemical_tank", <item:me
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:extendedcrafting:the_ultimate_catalyst>, <item:kubejs:chroma_ingot>, <item:extendedcrafting:the_ultimate_catalyst>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 
+craftingTable.addShapeless("creative_chemical_tank", <item:mekanism:creative_chemical_tank>, [<item:mekanism:creative_chemical_tank>]);
+
 // Creative Fluid Tank
 mods.extendedcrafting.TableCrafting.addShaped("creative_fluid_tank", <item:mekanism:creative_fluid_tank>, [
 	[<item:mekanism:ultimate_fluid_tank>, <item:ae2extras:16m_cell_component>, <item:rats:rat_upgrade_big_bucket>, <item:extendedcrafting:the_ultimate_catalyst>, <item:extradisks:infinite_fluid_storage_part>, <item:extendedcrafting:the_ultimate_catalyst>, <item:pneumaticcraft:huge_tank>, <item:ae2extras:16m_cell_component>, <item:mekanism:ultimate_fluid_tank>],
@@ -49,6 +51,8 @@ mods.extendedcrafting.TableCrafting.addShaped("creative_fluid_tank", <item:mekan
 	[<item:mekanism:ultimate_fluid_tank>, <item:industrialforegoing:supreme_black_hole_tank>, <item:extendedcrafting:the_ultimate_catalyst>, <item:ae2extras:16m_fluid_cell_component>, <item:mysticalagradditions:creative_essence>, <item:ae2extras:16m_fluid_cell_component>, <item:extendedcrafting:the_ultimate_catalyst>, <item:industrialforegoing:supreme_black_hole_tank>, <item:mekanism:ultimate_fluid_tank>],
 	[<item:mekanism:ultimate_fluid_tank>, <item:ae2extras:16m_cell_component>, <item:pneumaticcraft:huge_tank>, <item:extendedcrafting:the_ultimate_catalyst>, <item:extradisks:infinite_fluid_storage_part>, <item:extendedcrafting:the_ultimate_catalyst>, <item:rats:rat_upgrade_big_bucket>, <item:ae2extras:16m_cell_component>, <item:mekanism:ultimate_fluid_tank>]
 ]);
+
+craftingTable.addShapeless("creative_fluid_tank", <item:mekanism:creative_fluid_tank>, [<item:mekanism:creative_fluid_tank>]);
 
 // Creative Capacitor
 mods.extendedcrafting.TableCrafting.addShaped("capacitor_creative", <item:immersiveengineering:capacitor_creative>, [

@@ -46,6 +46,6 @@ onEvent('recipes', event => {
   'CCC'
   ], {
     C: 'compactmachines:wall',
-    R: '#forge:chests'
+    R: 'minecraft:redstone_block'
   })
 });
