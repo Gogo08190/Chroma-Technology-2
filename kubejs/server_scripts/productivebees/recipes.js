@@ -415,12 +415,12 @@ onEvent('recipes', event => {
     },
     "result":
       [{
-        "fluid": "fluid:industrialforegoing:pink_slime>", "amount": 100
+        "fluid": "industrialforegoing:pink_slime", "amount": 250
       },
       {
-        "item": 'industrialforegoing:pink_slime', "chance": 1
+        "item": 'industrialforegoing:pink_slime', "chance": 0.25
       }],
-    "energy": 3000,
+    "energy": 2000,
     "experience": 0.00
   })
 });
