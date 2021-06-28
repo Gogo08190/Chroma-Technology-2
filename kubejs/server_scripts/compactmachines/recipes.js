@@ -28,24 +28,9 @@ onEvent('recipes', event => {
   })
 
   // Item Tunnel
-  event.remove({ output: Item.of('compactmachines:tunnel', {definition:{id:"compactmachines:item"}}) })
-  event.shaped(Item.of('compactmachines:tunnel', 2, {definition:{id:"compactmachines:item"}}), [
-  'CCC',
-  'CRC',
-  'CCC'
-  ], {
-    C: 'compactmachines:wall',
-    R: '#forge:chests'
-  })
+  event.shaped(Item.of('compactmachines:tunnel', {definition:{id:"compactmachines:item"}}), ['SSS', 'SCS', 'SSS'],{S: 'compactmachines:wall', C: '#forge:chests/wooden'})
 
   // Redstone Tunnel
-  event.remove({ output: Item.of('compactmachines:tunnel', {definition:{id:"compactmachines:redstone_in"}}) })
-  event.shaped(Item.of('compactmachines:tunnel', 2, {definition:{id:"compactmachines:redstone_in"}}), [
-  'CCC',
-  'CRC',
-  'CCC'
-  ], {
-    C: 'compactmachines:wall',
-    R: 'minecraft:redstone_block'
-  })
+  event.shaped(Item.of('compactmachines:tunnel', {definition:{id:"compactmachines:redstone_in"}}), ['SSS', 'SCS', 'SSS'],{S: 'compactmachines:wall', C: '#forge:storage_blocks/redstone'})
+
 });
