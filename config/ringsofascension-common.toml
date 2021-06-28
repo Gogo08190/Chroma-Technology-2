@@ -21,7 +21,7 @@
 	ringLuck = true
 	ringDolphin = true
 	ringMagnetism = true
-	ringFlight = true
+	ringFlight = false
 	ringPoisonResistance = true
 	ringHungerless = true
 	ringGrowth = true
@@ -31,7 +31,7 @@
 	ringExperience = true
 	ringWaterWalking = true
 	ringWither = true
-	ringUndying = true
+	ringUndying = false
 	ringSlowResistance = true
 
 ["Rings Amplifier"]
@@ -157,4 +157,3 @@
 	ringLocationWither = "minecraft:chests/bastion_treasure"
 	ringLocationUndying = "minecraft:chests/woodland_mansion"
 	ringLocationSlowResistance = "minecraft:chests/end_city_treasure;minecraft:chests/shipwreck_treasure;minecraft:chests/bastion_treasure;minecraft:chests/bastion_bridge"
-
