@@ -2,7 +2,13 @@
 var whitelist = ingredient.matchAny([
   'minecraft:diamond',
   'extendedcrafting:elite_table',
-  'extendedcrafting:ultimate_table'
+  'extendedcrafting:ultimate_table',
+  'appliedenergistics2:certus_crystal_seed',
+  'appliedenergistics2:fluix_crystal_seed',
+  'appliedenergistics2:nether_quartz_seed',
+  'appliedenergistics2:purified_certus_quartz_crystal',
+  'appliedenergistics2:purified_nether_quartz_crystal',
+  'appliedenergistics2:purified_fluix_crystal'
 ])
 
 // Create variable for last clearlag result
@@ -51,7 +57,7 @@ events.listen('server.load', function (event) {
   // Log message in console
   event.server.tell([ text.lightPurple('[ClearLag]'), ' Timer started, clearing lag in 30 minutes!' ])
   // Schedule new task in 30 minutes
-  event.server.schedule(MINUTE * 15, event.server, function (callback) {
+  event.server.schedule(MINUTE * 30, event.server, function (callback) {
     // Tell everyone on server that items will be removed
     callback.data.tell([ text.lightPurple('[ClearLag]'), ' Removing all items on ground in one minute!' ])
     // Schedule a subtask that will clear items in one minute

@@ -81,6 +81,7 @@ events.listen('jei.hide.items', function (event) {
   event.hide('mekanism:dust_gold')
   event.hide('mekanism:block_steel')
   event.hide('mekanism:ingot_steel')
+  event.hide('mekanism:dust_steel')
   event.hide('mekanism:nugget_steel')
   event.hide('mekanism:nugget_bronze')
   event.hide('mekanism:dust_bronze')
@@ -278,6 +279,9 @@ events.listen('jei.hide.items', function (event) {
 
   // Extended Crafting
   event.hide('extendedcrafting:nether_star_block')
+
+  // Dark Utilities
+  event.hide('darkutils:ender_hopper')
 })
 
 onEvent('jei.hide.items', event => {
