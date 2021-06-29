@@ -1,7 +1,7 @@
 
 #General settings
 [general]
-	#Dimensions where hostile mobs will not spawn. Ex: minecraft:overworld. Run /forge dimensions for a list.
+	#Dimensions where hostile mobs will not spawn. Ex: ["minecraft:overworld", "undergarden:undergarden"]. . Run /forge dimensions for a list.
 	dimensionBlacklist = []
 	#Spawn Arcane Ore in the world
 	genOre = true
@@ -38,6 +38,9 @@
 	archwoodForest = 3
 	#Crystallizer output item. Do not use a wrong ID!
 	crystallizer_output = "ars_nouveau:mana_gem"
+	#How often Drygmys spawn
+	#Range: 0 ~ 100
+	drygmyWeight = 3
 
 #Mana
 [mana]

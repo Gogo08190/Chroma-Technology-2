@@ -80,3 +80,4 @@
 	useTags = false
 	#Should the recipe maker add NBT tags when possible?
 	useNBT = true
+

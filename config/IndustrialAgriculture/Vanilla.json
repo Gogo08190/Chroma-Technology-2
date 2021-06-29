@@ -27,7 +27,10 @@
     "evoker": 10,
     "mooshroom": 10,
     "witch": 10,
-    "parrot": 10
+    "parrot": 10,
+    "piglin": 10,
+    "piglin_brute": 10,
+    "zombified_piglin": 10
   },
   "tierMap": {
     "panda": "TWO",
@@ -57,7 +60,10 @@
     "evoker": "FIVE",
     "mooshroom": "FOUR",
     "witch": "THREE",
-    "parrot": "TWO"
+    "parrot": "TWO",
+    "piglin": "FOUR",
+    "piglin_brute": "FIVE",
+    "zombified_piglin": "THREE"
   },
   "cruxMap": {
     "saltpeter": "",
@@ -200,6 +206,9 @@
     "steeleaf": "",
     "ironwood": "",
     "knightmetal": "",
-    "fiery_ingot": ""
+    "fiery_ingot": "",
+    "piglin": "",
+    "piglin_brute": "",
+    "zombified_piglin": ""
   }
 }

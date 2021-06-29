@@ -384,7 +384,7 @@
 		"Ghost Spawn from PvP deaths" = true
 		#Villager Scribe House generation weight. Lower = lower chance to spawn
 		#Range: 30 ~ 10000
-		"Villager Scribe House Weight" = 30
+		"Villager Scribe House Weight" = 1
 
 	[Mobs.Hippocampus]
 		#True if hippocampi are allowed to spawn

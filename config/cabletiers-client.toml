@@ -30,4 +30,20 @@ ultraconstructorspeed = 6
 #Ultra Destructor Speed
 #Range: 1 ~ 10
 ultradestructorspeed = 6
+#
+#Creative Exporter Speed
+#Range: 1 ~ 10
+creativeexporterspeed = 10
+#
+#Creative Importer Speed
+#Range: 1 ~ 10
+creativeimporterspeed = 10
+#
+#Creative Constructor Speed
+#Range: 1 ~ 10
+creativeconstructorspeed = 10
+#
+#Creative Destructor Speed
+#Range: 1 ~ 10
+creativedestructorspeed = 10
 

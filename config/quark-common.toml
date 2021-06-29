@@ -85,6 +85,7 @@
 		"Render Blacklist" = ["psi:programmer", "botania:starfield"]
 		"Movement Blacklist" = ["minecraft:spawner", "integrateddynamics:cable", "randomthings:blockbreaker", "minecraft:ender_chest", "minecraft:enchanting_table", "minecraft:trapped_chest", "quark:spruce_trapped_chest", "quark:birch_trapped_chest", "quark:jungle_trapped_chest", "quark:acacia_trapped_chest", "quark:dark_oak_trapped_chest", "endergetic:bolloom_bud"]
 		"Delayed Update List" = ["minecraft:dispenser", "minecraft:dropper"]
+		"Enable Chests Moving Together" = true
 
 	[automation.redstone_circuit]
 		"Enable Randomizer" = true
@@ -218,6 +219,9 @@
 	[building.celebratory_lamps]
 		"Light Level" = 15
 
+	[building.item_frames]
+		"Glass Item Frames Update Maps" = true
+
 [management]
 	"Chests In Boats" = true
 	"Easy Transfering" = true
@@ -250,6 +254,7 @@
 	"Seed Pouch" = true
 	"Slime In A Bucket" = true
 	Trowel = true
+	Abacus = true
 
 	[tools.ancient_tomes]
 		#Set to 0 to not generate in Dungeons
@@ -362,6 +367,7 @@
 	"Springy Slime" = true
 	"Utility Recipes" = true
 	"Villagers Follow Emeralds" = true
+	"Better Elytra Rocket" = true
 
 	[tweaks.skull_pikes]
 		"Pike Range" = 5.0
@@ -1333,6 +1339,8 @@
 		#The chance that a crystal can grow, this is on average 1 in X world ticks, set to a higher value to make them grow slower. Minimum is 1, for every tick. Set to 0 to disable growth.
 		"Cave Crystal Growth Chance" = 5
 		"Crystals Craft Runes" = true
+		"Enable Beacon Redirection" = true
+		"Enable Collateral Movement" = true
 
 		[world.cave_crystal_underground_biome.biome_settings]
 			#Allowed values: [0,)
