@@ -89,19 +89,6 @@ onEvent('recipes', event => {
         C: 'numina:component_control_circuit'
     })
 
-    // Magnet
-    event.shaped('powersuits:magnet', [
-        ' F ',
-        'WSW',
-        'MCM'
-    ], {
-        I: 'numina:component_rubber_hose',
-        S: 'numina:component_servo',
-        W: 'numina:component_wiring',
-        M: 'numina:component_magnet',
-        C: 'numina:component_control_circuit'
-    })
-
     // Flight Control
     event.shaped('powersuits:flight_control', [
         ' F ',
@@ -140,7 +127,7 @@ onEvent('recipes', event => {
 
     // Blink Drive
     event.shaped('powersuits:blink_drive', [
-        ' E',
+        ' E ',
         'SCS',
         'FIF'
     ], {
