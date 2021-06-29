@@ -78,7 +78,7 @@ onEvent('recipes', event => {
 
     // Magnet
     event.shaped('powersuits:magnet', [
-        ' F ',
+        ' I ',
         'WSW',
         'MCM'
     ], {
