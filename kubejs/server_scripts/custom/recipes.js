@@ -10,7 +10,7 @@ events.listen('recipes', event => {
   // Time In A Bottle
   event.remove({ output: 'tiab:timeinabottle' })
   event.shaped('tiab:timeinabottle', [
-  'GGG',
+  'GHG',
   'DCD',
   'LBL'
   ], {
@@ -18,6 +18,7 @@ events.listen('recipes', event => {
     D: 'tombstone:impregnated_diamond',
     C: 'create:cuckoo_clock',
     L: 'create:lapis_sheet',
-    B: 'minecraft:glass_bottle'
+    B: 'minecraft:glass_bottle',
+    H: 'supplementaries:hourglass'
   })
 });
