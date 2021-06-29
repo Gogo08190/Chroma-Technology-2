@@ -61,7 +61,7 @@
 	enabled = true
 	#The default amount of items required to create a Singularity.
 	#Range: > 1
-	defaultMaterialsRequired = 10000
+	defaultMaterialsRequired = 8000
 	#The default amount of FE required to create a Singularity.
 	#Range: > 0
 	defaultPowerRequired = 5000000
@@ -80,4 +80,3 @@
 	useTags = false
 	#Should the recipe maker add NBT tags when possible?
 	useNBT = true
-
