@@ -74,6 +74,6 @@ onEvent('recipes', event => {
     S: 'powah:energized_steel_block',
     P: 'powah:nitro_crystal_block',
     E: 'xreliquary:salamander_eye',
-    N: 'xreliquary:salamander_eye'
+    N: 'overloaded:nether_star_block'
   })
 });
