@@ -61,5 +61,14 @@ onEvent('recipes', event => {
     G: 'createaddition:gold_wire'
   })
 
-
+  // Flux Efficiency
+  event.shaped('thermal:machine_efficiency_augment', [
+  ' G ',
+  'PRP',
+  ' G '
+  ], {
+    G: 'thermal:iron_gear',
+    P: 'thermal:silver_plate',
+    R: 'thermal:rf_coil'
+  })
 });
