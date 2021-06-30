@@ -26,87 +26,17 @@ onEvent('recipes', event => {
         C: 'appliedenergistics2:fluix_glass_cable'
     })
 
-
-
+  // Infinity Booster Card
+  event.remove({output: 'ae2wtlib:infinity_booster_card'})
+  event.shaped(Item.of('ae2wtlib:infinity_booster_card'), [
+    'SWS',
+    'FNF',
+    'SWS'
+  ], {
+      W: 'appliedenergistics2:wireless_receiver',
+      F: 'appliedenergistics2:fluix_pearl',
+      N: 'minecraft:nether_star',
+      S: '#forge:ingots/steel'
+  })
 
 });
-/*onEvent('recipes', event => {
-
-    // Engineering Processor
-
-    event.remove({ output: 'appliedenergistics2:engineering_processor' })
-
-    event.custom(
-        {
-            "type": "appliedenergistics2:inscriber",
-            "mode": "press",
-            "result": {
-                "item": "appliedenergistics2:engineering_processor"
-            },
-            "ingredients": {
-                "top": {
-                    "item": "appliedenergistics2:printed_engineering_processor"
-                },
-                "middle": {
-                    "tag": "refinedstorage:construction_core"
-                },
-                "bottom": {
-                    "item": "appliedenergistics2:printed_silicon"
-                }
-            }
-        }
-    )
-
-
-    // Logic Processor
-
-    event.remove({ output: 'appliedenergistics2:logic_processor' })
-
-    event.custom(
-        {
-            "type": "appliedenergistics2:inscriber",
-            "mode": "press",
-            "result": {
-                "item": "appliedenergistics2:logic_processor"
-            },
-            "ingredients": {
-                "top": {
-                    "item": "appliedenergistics2:printed_logic_processor"
-                },
-                "middle": {
-                    "tag": "refinedstorage:destruction_core"
-                },
-                "bottom": {
-                    "item": "appliedenergistics2:printed_silicon"
-                }
-            }
-        }
-    )
-
-
-    // Calculation Processor
-
-    event.remove({ output: 'appliedenergistics2:calculation_processor' })
-
-    event.custom(
-        {
-            "type": "appliedenergistics2:inscriber",
-            "mode": "press",
-            "result": {
-                "item": "appliedenergistics2:calculation_processor"
-            },
-            "ingredients": {
-                "top": {
-                    "item": "appliedenergistics2:printed_calculation_processor"
-                },
-                "middle": {
-                    "tag": "refinedstorage:construction_core"
-                },
-                "bottom": {
-                    "item": "appliedenergistics2:printed_silicon"
-                }
-            }
-        }
-    )
-
-})*/
