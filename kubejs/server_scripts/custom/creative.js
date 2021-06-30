@@ -1,7 +1,5 @@
 events.listen('recipes', e => {
 
-    const compressed_singu = Item.of('extendedcrafting:singularity', {Id:"extendedcrafting:compressed_iron"})
-
     function pressure(inputs, result, rCount, pressure) {
         e.recipes.pneumaticcraft.pressure_chamber({
             inputs: inputs,
@@ -60,4 +58,23 @@ events.listen('recipes', e => {
             'count': 10
         }
     ], 'pneumaticcraft:creative_compressor', 1, 4.9)
+
+    // Creative Motor
+    e.recipes.create.mechanical_crafting('create:creative_motor', [
+          '  AAAAAA ',
+          ' ABBBBBBA',
+          ' ACCCDFBA',
+          'AEEEGDFBA',
+          ' ACCCDFBA',
+          ' ABBBBBBA',
+          '  AAAAAA '
+      ], {
+          A: 'create:shadow_steel',
+          B: 'extendedcrafting:the_ultimate_ingot',
+          C: 'kubejs:assembled_technical_ingot',
+          D: 'kubejs:chroma_ingot',
+          E: 'create:shaft',
+          F: 'extendedcrafting:ultimate_singularity',
+          G: 'createaddition:electric_motor'
+      })
 });

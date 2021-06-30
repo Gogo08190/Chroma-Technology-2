@@ -282,6 +282,9 @@ events.listen('jei.hide.items', function (event) {
 
   // Dark Utilities
   event.hide('darkutils:ender_hopper')
+
+  // Rats
+  event.hide('rats:raw_plastic')
 })
 
 onEvent('jei.hide.items', event => {

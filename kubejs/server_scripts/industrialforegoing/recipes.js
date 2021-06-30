@@ -8,7 +8,7 @@ onEvent('recipes', event => {
   'WCW'
   ], {
     W: 'minecraft:warped_planks',
-    C: 'silentgems:chaos_iron_ingot',
+    C: 'silents_mechanisms:platinum_ingot',
     R: 'silents_mechanisms:redstone_alloy_block'
   })
 });
