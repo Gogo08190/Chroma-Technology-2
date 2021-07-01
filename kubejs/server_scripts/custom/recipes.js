@@ -21,4 +21,43 @@ events.listen('recipes', event => {
     B: 'minecraft:glass_bottle',
     H: 'supplementaries:hourglass'
   })
+
+  // Dense Technical Ingot
+  event.custom(
+    {
+        "input": [
+            {
+                "item": "mekanism:ingot_refined_obsidian"
+            },
+            {
+                "item": "mekanism:pellet_polonium"
+            },
+            {
+                "item": "mekanism:ingot_refined_obsidian"
+            },
+            {
+                "item": "powah:nitro_crystal_block"
+            },
+            {
+                "item": "powah:nitro_crystal_block"
+            },
+            {
+                "item": "mekanism:ingot_refined_obsidian"
+            },
+            {
+                "item": "mekanism:pellet_polonium"
+            },
+            {
+                "item": "mekanism:ingot_refined_obsidian"
+            }
+        ],
+        "inputFluid": "{FluidName:\"industrialforegoing:ether_gas\",Amount:1000}",
+        "processingTime": 320,
+        "output": {
+            "item": "kubejs:assembled_technical_ingot",
+            "count": 1
+        },
+        "type": "industrialforegoing:dissolution_chamber"
+    }
+  )
 });

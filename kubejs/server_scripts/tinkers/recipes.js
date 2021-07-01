@@ -84,4 +84,9 @@ events.listen('recipes', event => {
     "result": "immersiveengineering:cokebrick",
     "cooling_time": 80
   })
+
+  // Grout
+  event.remove({ output: 'tconstruct:grout' })
+  event.shapeless('8x tconstruct:grout', ['minecraft:clay', 'immersiveengineering:concrete', 'immersiveengineering:concrete', 'immersiveengineering:concrete', 'immersiveengineering:concrete', '#forge:sandstone', '#forge:sandstone', '#forge:sandstone', '#forge:sandstone'])
+  event.shapeless('2x tconstruct:grout', ['minecraft:clay_ball', '#forge:sandstone', 'immersiveengineering:concrete'])
 });
