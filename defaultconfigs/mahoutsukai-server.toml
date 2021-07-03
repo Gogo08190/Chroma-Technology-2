@@ -660,7 +660,7 @@
 	DEATH_COLLECTION_MAX = 1.0E7
 	#Mana drained per soul held
 	#Range: -1.0E7 ~ 1.0E7
-	DEATH_COLLECTION_DRAIN_PER_SOUL = 1.0
+	DEATH_COLLECTION_DRAIN_PER_SOUL = -1.0
 	#This is the cost of using the scroll
 	#Range: 0 ~ 100000000
 	BLACK_FLAME_MANA_COST = 300
