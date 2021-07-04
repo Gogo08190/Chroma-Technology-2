@@ -60,4 +60,64 @@ events.listen('recipes', event => {
         "type": "industrialforegoing:dissolution_chamber"
     }
   )
+
+  event.custom(
+    {
+        "type": "botania:runic_altar",
+        "output": {
+            "item": "kubejs:condensed_mana"
+        },
+        "mana": 20000,
+        "ingredients": [
+            {
+                "item": "botania:rune_mana"
+            },
+            {
+                "item": "botania:terrasteel_ingot"
+            },
+            {
+                "item": "botania:gaia_ingot"
+            },
+            {
+                "item": "botania:elementium_ingot"
+            },
+    		    {
+                "item": "botania:manasteel_ingot"
+            },
+            {
+                "item": "mythicbotany:asgard_rune"
+            },
+            {
+                "item": "botania:blacker_lotus"
+            },
+            {
+                "item": "botania:lens_influence"
+            },
+            {
+                "item": "botania:pixie_dust"
+            },
+            {
+                "item": "botania:dragonstone"
+            },
+            {
+                "item": "botanicalmachinery:mana_emerald"
+            },
+            {
+                "item": "botania:mana_pearl"
+            },
+            {
+                "item": "botania:mana_powder"
+            },
+            {
+                "item": "botania:mana_diamond"
+            },
+            {
+                "item": "botania:quartz_mana"
+            },
+            {
+                "item": "botania:manaweave_cloth"
+            }
+        ]
+    }
+  )
 });
