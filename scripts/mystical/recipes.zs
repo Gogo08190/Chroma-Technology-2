@@ -10,3 +10,5 @@ mods.extendedcrafting.TableCrafting.addShaped("master_infusion_crystal", <item:m
 ]);
 
 mods.mysticalagriculture.InfusionCrafting.addRecipe("chroma_ingot", <item:kubejs:chroma_ingot> * 2, [<item:kubejs:unassembled_chroma_ingot>, <item:kubejs:assembled_technical_ingot>, <item:appliedenergistics2:singularity>, <item:kubejs:condensed_magical_ingot>, <item:iceandfire:dragonsteel_lightning_ingot>, <item:kubejs:assembled_technical_ingot>, <item:iceandfire:dragonsteel_ice_ingot>, <item:kubejs:condensed_magical_ingot>, <item:iceandfire:dragonsteel_fire_ingot>]);
+
+mods.mysticalagriculture.InfusionCrafting.addRecipe("condensed_magical_ingot", <item:kubejs:condensed_magical_ingot>, [<item:upgradednetherite:corrupt_upgraded_netherite_ingot>, <item:mysticalagradditions:insanium_essence>, <item:kubejs:fallen_pet>, <item:mysticalagradditions:insanium_essence>, <item:kubejs:condensed_mana>, <item:mysticalagradditions:insanium_essence>, <item:kubejs:pure_evil>, <item:mysticalagradditions:insanium_essence>, <item:kubejs:elemental_essence>]);
