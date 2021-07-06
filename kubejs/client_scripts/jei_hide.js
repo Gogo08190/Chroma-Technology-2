@@ -245,6 +245,8 @@ events.listen('jei.hide.items', function (event) {
   event.hide('cyclic:emerald_axe')
   event.hide('cyclic:emerald_shovel')
   event.hide('cyclic:battery')
+  event.hide('cyclic:crafting_bag')
+  event.hide('cyclic:crafting_stick')
 
   // Extra Disk
   event.hide('extradisks:256k_storage_part')
