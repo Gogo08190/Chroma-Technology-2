@@ -10,7 +10,8 @@ var whitelist = ingredient.matchAny([
   'appliedenergistics2:purified_nether_quartz_crystal',
   'appliedenergistics2:purified_fluix_crystal',
   'create:shadow_steel',
-  'create:chromatic_compound'
+  'create:chromatic_compound',
+  'fluxnetworks:flux_dust'
 ])
 
 // Create variable for last clearlag result
