@@ -268,3 +268,4 @@
 	disableWither = false
 	#Disable the Wolf pet (default:false)
 	disableWolf = false
+
