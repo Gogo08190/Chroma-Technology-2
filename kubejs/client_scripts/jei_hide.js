@@ -288,6 +288,11 @@ events.listen('jei.hide.items', function (event) {
 
   // Rats
   event.hide('rats:raw_plastic')
+
+  // Iventory Pets
+  event.hide(Item.of('inventorypets:pet_cloud', {Damage:0}))
+  event.hide(Item.of('inventorypets:pet_illuminati', {Damage:0,slowDelay:1625604491239}))
+  event.hide(Item.of('inventorypets:pet_qcm', {Damage:0}))
 })
 
 onEvent('jei.hide.items', event => {
