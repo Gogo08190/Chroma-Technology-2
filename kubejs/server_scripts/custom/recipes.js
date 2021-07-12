@@ -17,7 +17,7 @@ events.listen('recipes', event => {
     G: '#forge:ingots/gold',
     D: 'tombstone:impregnated_diamond',
     C: 'create:cuckoo_clock',
-    L: 'create:lapis_sheet',
+    L: 'thermal:lapis_gear',
     B: 'minecraft:glass_bottle',
     H: 'supplementaries:hourglass'
   })
