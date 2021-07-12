@@ -46,4 +46,6 @@
 		powerPerOperation = 1000
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
+		#If true, the boss bar of an entity with the AI disable won't be rendered
+		disableBossBars = true
 

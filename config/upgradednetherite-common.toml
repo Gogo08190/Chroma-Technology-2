@@ -77,6 +77,8 @@
 	#How many durability damage take the Poison Upgraded Armor when protect the player ? 
 	#Range: 1 ~ 100
 	DamageDurabilityPoisonArmor = 5
+	#Enable Poison Upgraded Armor Effect : Climbs Walls. ?
+	EnableClimbWall = true
 
 ["Phantom Armor Effect Options"]
 	#Phantom Upgraded Armor loose durability when protect the player ? (Depend on fall distance)
