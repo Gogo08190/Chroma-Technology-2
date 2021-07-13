@@ -408,7 +408,7 @@
 
 	[Mobs.Gorgons]
 		#True if gorgon temples are allowed to spawn
-		"Spawn Gorgons" = true
+		"Spawn Gorgons" = false
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Spawn Gorgon Chance" = 75

@@ -1,5 +1,35 @@
 onEvent('recipes', event => {
 
+  // Power armor Tinker Table
+  event.remove({ output: 'powersuits:tinkertable' })
+  event.shaped('powersuits:tinkertable', [
+    'SES',
+    'LIL',
+    'PEP'
+    ], {
+      P: 'powah:crystal_blazing',
+      E: 'thermal:enderium_plate',
+      L: 'thermal:lapis_gear',
+      I: 'immersiveengineering:craftingtable',
+      S: 'powah:steel_energized'
+    })
+
+  // Jetpack
+  event.remove({ output: 'powersuits:jetpack' })
+  event.shaped('powersuits:jetpack', [
+    'RBR',
+    'JIV',
+    'PSP'
+    ], {
+      P: 'rftoolspower:power_core2',
+      S: 'thermal:redstone_servo',
+      J: 'simplyjetpacks:jetpack_mek1',
+      I: 'minecraft:iron_block',
+      V: 'simplyjetpacks:jetpack_ie1',
+      R: 'minecraft:redstone_block',
+      B: 'minecraft:stone_button'
+    })
+
     // Auto-feeder
     event.shaped('powersuits:auto_feeder', [
         ' C ',

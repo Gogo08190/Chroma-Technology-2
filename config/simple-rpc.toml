@@ -3,7 +3,7 @@
 	clientID = 856886668657164298
 	enabled = true
 	debugging = false
-	configScreen = true
+	configScreen = false
 	launcherIntegration = false
 	updater = false
 	version = 9

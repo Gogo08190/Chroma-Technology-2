@@ -103,6 +103,7 @@ events.listen('jei.hide.items', function (event) {
   event.hide('iceandfire:amythest_ore')
   event.hide('iceandfire:amythest_block')
   event.hide('iceandfire:amythest_gem')
+  event.hide(Item.of('iceandfire:gorgon_head', {Damage:0}))
 
   // Silent Gear
   event.hide('silentgear:iron_rod')
@@ -244,6 +245,8 @@ events.listen('jei.hide.items', function (event) {
   event.hide('cyclic:emerald_axe')
   event.hide('cyclic:emerald_shovel')
   event.hide('cyclic:battery')
+  event.hide('cyclic:crafting_bag')
+  event.hide('cyclic:crafting_stick')
 
   // Extra Disk
   event.hide('extradisks:256k_storage_part')
@@ -285,6 +288,17 @@ events.listen('jei.hide.items', function (event) {
 
   // Rats
   event.hide('rats:raw_plastic')
+
+  // Extended Crafting
+  event.hide('extendedcrafting:handheld_table')
+
+  // Iventory Pets
+  event.hide(Item.of('inventorypets:pet_cloud', {Damage:0}))
+  event.hide(Item.of('inventorypets:pet_illuminati', {Damage:0,slowDelay:1625604491239}))
+  event.hide(Item.of('inventorypets:pet_qcm', {Damage:0}))
+
+  // Better End
+  event.hide('betterendforge:pearlberry_seed')
 })
 
 onEvent('jei.hide.items', event => {

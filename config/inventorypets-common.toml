@@ -193,7 +193,7 @@
 	#Disable the House pet (default:false)
 	disableHouse = false
 	#Disable the Illuminati pet (default:false)
-	disableIlluminati = false
+	disableIlluminati = true
 	#Disable the Iron Golem pet (default:false)
 	disableIronGolem = false
 	#Disable the Juggernaut pet (default:false)
@@ -237,7 +237,7 @@
 	#Disable the Purplicious Cow pet (default:false)
 	disablePurpliciousCow = false
 	#Disable the Quantum Crystal Monster pet (default:false)
-	disableQuantumCrystalMonster = false
+	disableQuantumCrystalMonster = true
 	#Disable the Quiver pet (default:false)
 	disableQuiver = false
 	#Disable the Saddle pet (default:false)
