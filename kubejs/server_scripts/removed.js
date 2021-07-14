@@ -49,6 +49,7 @@ onEvent('recipes', event => {
   event.remove({output: 'thermal:carrot_block'})
   event.remove({output: 'thermal:beetroot_block'})
   event.remove({output: 'thermal:bamboo_block'})
+  event.remove({output: 'thermal:ruby_block'})
 
   // Tinker
   event.remove({id: 'tmechworks:copper_ingot_from_copper_block'})

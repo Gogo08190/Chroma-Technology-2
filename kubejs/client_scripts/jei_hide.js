@@ -237,6 +237,7 @@ events.listen('jei.hide.items', function (event) {
   // Thermal
   event.hide('thermal:earth_tnt')
   event.hide('thermal:earth_grenade')
+  event.hide('thermal:ruby_block')
 
   // Cyclic
   event.hide('cyclic:emerald_pickaxe')
