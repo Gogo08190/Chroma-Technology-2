@@ -120,4 +120,16 @@ events.listen('recipes', event => {
         ]
     }
   )
+
+  // Entangled
+  event.remove({ output: 'entangled:block' })
+  event.shaped('entangled:block', [
+  'POP',
+  'OCO',
+  'POP'
+  ], {
+    C: 'immersiveengineering:reinforced_crate',
+    O: 'minecraft:obsidian',
+    P: 'powah:aerial_pearl'
+  })
 });
