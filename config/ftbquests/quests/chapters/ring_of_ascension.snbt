@@ -1,0 +1,372 @@
+{
+	id: "2E6D5040FFA10D78"
+	group: "6717F1A631FB3B83"
+	order_index: 6
+	filename: "ring_of_ascension"
+	title: "Ring Of ascension"
+	icon: "ringsofascension:ring_knockback_resistance"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 5.0d
+			y: -5.0d
+			id: "6E80B34D16C0E79B"
+			tasks: [{
+				id: "35C3463807769535"
+				type: "item"
+				item: "ringsofascension:ring_fire_resistance"
+			}]
+			rewards: [{
+				id: "4B654699A99C04CB"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			shape: "heart"
+			id: "067250233BB09BE1"
+			tasks: [{
+				id: "6CF2EB96CDF26995"
+				type: "item"
+				item: "ringsofascension:ring_invisibility"
+			}]
+			rewards: [{
+				id: "081812990E9E5626"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			shape: "hexagon"
+			id: "65FE748B3E05BB94"
+			tasks: [{
+				id: "1D1DD710F1236B17"
+				type: "item"
+				item: "ringsofascension:ring_regeneration"
+			}]
+			rewards: [{
+				id: "3121E454B12D7933"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			id: "2F4C40767BAC4642"
+			tasks: [{
+				id: "2B20887A772CE931"
+				type: "item"
+				item: "ringsofascension:ring_slow_falling"
+			}]
+			rewards: [{
+				id: "587835DE096C8EE8"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			shape: "rsquare"
+			id: "1E3F2E2EBD3F59E5"
+			tasks: [{
+				id: "78CFB20EC46DF42C"
+				type: "item"
+				item: "ringsofascension:ring_strength"
+			}]
+			rewards: [{
+				id: "63C28828478D6866"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			id: "48BCFDA8C9A819C0"
+			tasks: [{
+				id: "04105D368AD74B26"
+				type: "item"
+				item: "ringsofascension:ring_water_breathing"
+			}]
+			rewards: [{
+				id: "1CCD72ED362CF403"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.5d
+			shape: "heart"
+			id: "69023F5D0BB4CE4D"
+			tasks: [{
+				id: "60D0B3EC9C99B06A"
+				type: "item"
+				item: "ringsofascension:ring_speed"
+			}]
+			rewards: [{
+				id: "18C8C93699DCBACF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			id: "478E0507103ABAD1"
+			tasks: [{
+				id: "1128625B7C3C640B"
+				type: "item"
+				item: "ringsofascension:ring_night_vision"
+			}]
+			rewards: [{
+				id: "699C7F5D4B21C9AF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			id: "465EC1932FC9552F"
+			tasks: [{
+				id: "3C0B368E94191B6C"
+				type: "item"
+				item: "ringsofascension:ring_jump_boost"
+			}]
+			rewards: [{
+				id: "049E754684350F0F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			shape: "rsquare"
+			id: "3A2B17460FAB7502"
+			tasks: [{
+				id: "32EF08E3DF8AC2B2"
+				type: "item"
+				item: "ringsofascension:ring_mining"
+			}]
+			rewards: [{
+				id: "32B09A43BC9821FF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			shape: "hexagon"
+			id: "6B84C5CBF0E9D0DC"
+			tasks: [{
+				id: "054A4FBFC5FA7B6D"
+				type: "item"
+				item: "ringsofascension:ring_luck"
+			}]
+			rewards: [{
+				id: "6F01AA955953E321"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			shape: "heart"
+			id: "719C77ABF735489A"
+			tasks: [{
+				id: "2E18BCF899BAD89A"
+				type: "item"
+				item: "ringsofascension:ring_dolphin"
+			}]
+			rewards: [{
+				id: "49BD5D2F7FED75B9"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			shape: "rsquare"
+			id: "2BFBA1C0460A2211"
+			tasks: [{
+				id: "7D7F686FA5285A61"
+				type: "item"
+				item: "ringsofascension:ring_magnetism"
+			}]
+			rewards: [{
+				id: "48A05902940A337D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			shape: "rsquare"
+			id: "31E4C5F95BE50286"
+			tasks: [{
+				id: "4374ACD21D5568A6"
+				type: "item"
+				item: "ringsofascension:ring_poison_resistance"
+			}]
+			rewards: [{
+				id: "2B471223AE59F1E5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			shape: "hexagon"
+			id: "4D79C092ECD3A5C1"
+			tasks: [{
+				id: "54186B8EA08297DC"
+				type: "item"
+				item: "ringsofascension:ring_hungerless"
+			}]
+			rewards: [{
+				id: "3A68A7E7402A893C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			shape: "rsquare"
+			id: "41C3E3D953886598"
+			tasks: [{
+				id: "42C9C99CA635C71A"
+				type: "item"
+				item: "ringsofascension:ring_growth"
+			}]
+			rewards: [{
+				id: "3D7BC0CE43316083"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			id: "02D575805668074F"
+			tasks: [{
+				id: "2D37FB589CBAFC34"
+				type: "item"
+				item: "ringsofascension:ring_knockback_resistance"
+			}]
+			rewards: [{
+				id: "2C1D8193E5138F7B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			shape: "hexagon"
+			id: "33165594609E113C"
+			tasks: [{
+				id: "0D299833AE78FDF6"
+				type: "item"
+				item: "ringsofascension:ring_health"
+			}]
+			rewards: [{
+				id: "64747D482E3C0C98"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			shape: "heart"
+			id: "1054FA5D7AE83528"
+			tasks: [{
+				id: "28634243E1FE5ED8"
+				type: "item"
+				item: "ringsofascension:ring_sponge"
+			}]
+			rewards: [{
+				id: "198D21641095849D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			id: "0AF6D8C3BB5DDDF0"
+			tasks: [{
+				id: "7BFAF57E15B97374"
+				type: "item"
+				item: "ringsofascension:ring_experience"
+			}]
+			rewards: [{
+				id: "70A365079109522A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			id: "04F2AE28B86F6AA5"
+			tasks: [{
+				id: "261839DC1F60BA84"
+				type: "item"
+				item: "ringsofascension:ring_water_walking"
+			}]
+			rewards: [{
+				id: "0DEBC0F772157EF4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			shape: "heart"
+			id: "54021D09D5DFD4F2"
+			tasks: [{
+				id: "366A9995E4A638CE"
+				type: "item"
+				item: "ringsofascension:ring_wither"
+			}]
+			rewards: [{
+				id: "54294D9DE1C242C7"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			shape: "heart"
+			id: "42B7A58BC41E8706"
+			tasks: [{
+				id: "0A67F7C38A2F5280"
+				type: "item"
+				item: "ringsofascension:ring_slow_resistance"
+			}]
+			rewards: [{
+				id: "26935B3BFDC3AC89"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+	]
+}

@@ -1,0 +1,237 @@
+{
+	id: "38640C93E7726914"
+	order_index: 0
+	title: "Basic Loot Bag"
+	icon: {
+		id: "inventorypets:pet_loot"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "farmersdelight:barbecue_stick" }
+		{ item: "minecraft:oak_log", count: 32 }
+		{ item: "minecraft:red_sand", count: 32 }
+		{ item: "minecraft:sand", count: 32 }
+		{ item: "chiseled:hazard_yellow", count: 32 }
+		{ item: "minecraft:coal", count: 8 }
+		{ item: "minecraft:clay", count: 32 }
+		{ item: "minecraft:book", count: 12 }
+		{ item: "rats:cheese" }
+		{ item: "silentgems:candy_cane" }
+		{ item: "supplementaries:bomb" }
+		{
+			item: {
+				id: "tconstruct:broad_axe_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:steel"
+				}
+			}
+		}
+		{ item: "minecraft:blaze_rod" }
+		{ item: "botania:blacker_lotus" }
+		{ item: "botania:black_lotus" }
+		{ item: "pamhc2foodcore:friedchickenitem" }
+		{ item: "pamhc2foodcore:fishandchipsitem" }
+		{ item: "botania:fertilizer" }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "create:potato_recovery"
+					}]
+				}
+			}
+		}
+		{ item: "silentgems:cup_of_coffee" }
+		{ item: "thermal:copper_ingot", count: 12 }
+		{
+			item: {
+				id: "chiselsandbits:chisel_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "farmersdelight:horse_feed" }
+		{ item: "create:honeyed_apple" }
+		{ item: "variant16x:honeycomb_slab", count: 8 }
+		{ item: "createaddition:honey_cake" }
+		{ item: "quark:golden_frog_leg" }
+		{ item: "minecraft:glowstone_dust", count: 10 }
+		{ item: "supplementaries:globe" }
+		{ item: "thermal:frost_melon_slice" }
+		{ item: "farmersdelight:mutton_wrap" }
+		{ item: "farmersdelight:melon_popsicle" }
+		{ item: "industrialagriculture:llama_disc" }
+		{ item: "minecraft:lapis_lazuli", count: 8 }
+		{
+			item: {
+				id: "betterendforge:iron_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "chiseled:iron_chisel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mysticalagriculture:inferium_essence", count: 4 }
+		{ item: "botania:hydroangeas_motif" }
+		{ item: "farmersdelight:hot_cocoa" }
+		{ item: "pamhc2foodcore:pickledbeetsitem" }
+		{
+			item: {
+				id: "tconstruct:pickaxe_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:slimewood"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:pickaxe_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:bronze"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:pickaxe_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:rose_gold"
+				}
+			}
+		}
+		{ item: "farmersdelight:pasta_with_mutton_chop" }
+		{ item: "pamhc2trees:passionfruit_sapling" }
+		{ item: "supplementaries:pancake" }
+		{ item: "storagedrawers:oak_full_drawers_1" }
+		{
+			item: {
+				id: "tconstruct:broad_axe_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:pig_iron"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:small_axe_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:pig_iron"
+				}
+			}
+		}
+		{ item: "silentgems:secret_donut" }
+		{ item: "tconstruct:seared_lantern" }
+		{ item: "minecraft:scute" }
+		{ item: "supplementaries:sconce_lever" }
+		{ item: "bhc:red_heart" }
+		{ item: "pamhc2foodcore:potatochipsitem" }
+		{ item: "silentgems:potato_on_a_stick" }
+		{ item: "farmersdelight:stuffed_pumpkin_block" }
+		{
+			item: {
+				id: "xreliquary:splash_potion"
+				Count: 1b
+				tag: {
+					effects: [{
+						duration: 2250
+						name: "minecraft:resistance"
+						potency: 1
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "xreliquary:splash_potion"
+				Count: 1b
+				tag: {
+					effects: [{
+						duration: 2250
+						name: "minecraft:health_boost"
+						potency: 1
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "xreliquary:splash_potion"
+				Count: 1b
+				tag: {
+					effects: [{
+						duration: 3000
+						name: "minecraft:speed"
+						potency: 2
+					}]
+				}
+			}
+		}
+		{ item: "minecraft:snowball", count: 16 }
+		{
+			item: {
+				id: "tconstruct:small_blade"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:rose_gold"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:small_blade"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:bronze"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:small_blade"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:slimewood"
+				}
+			}
+		}
+		{ item: "minecraft:shulker_shell" }
+		{ item: "bhc:yellow_heart" }
+		{
+			item: {
+				id: "cyclic:torch_launcher"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "botania:tiny_potato" }
+		{ item: "silentgems:sugar_cookie" }
+		{ item: "minecraft:sugar", count: 16 }
+	]
+}

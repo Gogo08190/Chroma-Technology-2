@@ -1,0 +1,742 @@
+{
+	id: "039BEECB1DC113DE"
+	group: "3D82B5A12B3D6336"
+	order_index: 0
+	filename: "challenges"
+	title: "Challenges"
+	icon: "nomowanderer:no_mo_wanderer_totem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&8Grim Reaper"
+			x: -0.5d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "The Undertaker will wait"
+			description: ["Survive death for &c100 hours&f !"]
+			id: "2F46EE4D9968FED6"
+			tasks: [{
+				id: "469FAB6DE28D8BD0"
+				type: "stat"
+				icon: {
+					id: "rats:plague_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:time_since_death"
+				value: 7200000
+			}]
+			rewards: [
+				{
+					id: "45B85B240DA29056"
+					type: "command"
+					auto: "invisible"
+					command: "/say The Miracle is here ! @p you have beaten Death itself ! You will now be known as The Immortal One !"
+					player_command: true
+				}
+				{
+					id: "33BB0F672C8E88BA"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "499E916D9A3BF64F"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+		{
+			title: "&cYou really like this modpack !"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "One More Time "
+			description: ["Play a total of &a500 hours&f to get this challenge !"]
+			size: 2.5d
+			id: "5DE3A8731ECD43B9"
+			tasks: [{
+				id: "191CE47D17CC46AB"
+				type: "stat"
+				icon: "supplementaries:clock_block"
+				stat: "minecraft:play_one_minute"
+				value: 36000000
+			}]
+			rewards: [
+				{
+					id: "1DCDAB9AD8DD3AFD"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "1E178A60C2E4FC8C"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+				{
+					id: "50110B95F63CBDB1"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p played 500 hours on Chroma Technology 2 !"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "&bApplied is my Best Friend <3"
+			x: -2.0d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "Stocking stacks"
+			description: ["Add &a100,000 items&f in your AE2 system !"]
+			id: "60920DBC6BBB8054"
+			tasks: [{
+				id: "55E17045B12F2E94"
+				type: "stat"
+				icon: {
+					id: "appliedenergistics2:64k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+				stat: "appliedenergistics2:items_inserted"
+				value: 100000
+			}]
+			rewards: [
+				{
+					id: "218E34E4F70CD2C8"
+					type: "command"
+					auto: "invisible"
+					command: "/say Beware everyone @p has became a mad scientist and has stocked 100000 items in it's applied storage system."
+					player_command: true
+				}
+				{
+					id: "0A450D857DF6E655"
+					type: "item"
+					item: {
+						id: "ae2extras:1m_storage_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "2FF88481159DCAA1"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "252C4D947E40D00F"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+		{
+			title: "&cHurt myself"
+			x: 0.0d
+			y: -3.0d
+			shape: "diamond"
+			subtitle: "Raining blood"
+			description: [
+				"This is not a game !"
+				""
+				"Take &41,000,000 points of damage&f !"
+			]
+			id: "1EF4D79EADB01AAA"
+			tasks: [{
+				id: "04EF9FBE681B2607"
+				type: "stat"
+				icon: "kubejs:pure_evil"
+				stat: "minecraft:damage_taken"
+				value: 1000000
+			}]
+			rewards: [
+				{
+					id: "5C280AB40B529299"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has taken 1000000 damage, he really likes to suffer !"
+					player_command: true
+				}
+				{
+					id: "770205FD2D9691C3"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "45C7006971D7CAB0"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+		{
+			title: "&dLightning Dragon Slayer"
+			x: 2.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "Zeus Dragon"
+			description: ["Kill &d25 Lightning Dragons&f !"]
+			id: "3DDC6AC4C62254FB"
+			tasks: [{
+				id: "7F2A8D8BF4C9AFD9"
+				type: "kill"
+				icon: {
+					id: "iceandfire:dragonbone_sword_lightning"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "iceandfire:lightning_dragon"
+				value: 25L
+			}]
+			rewards: [
+				{
+					id: "788662EF39EDC878"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "0D349887A72EF1CB"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+				{
+					id: "59D0B63350A4F5F2"
+					type: "item"
+					item: "iceandfire:lightning_dragon_blood"
+					count: 16
+					random_bonus: 8
+				}
+				{
+					id: "6937DE04C7537ABE"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has discovered the Thunder power by killing 25 Lightning Dragons. Be warned, Raiden is coming for you."
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "&6Fire Dragon Slayer"
+			x: 3.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "To HellFire !"
+			description: ["Kill &625 Fire Dragons&f !"]
+			id: "3E0A389067D6B414"
+			tasks: [{
+				id: "72020A014B56EC4B"
+				type: "kill"
+				icon: {
+					id: "iceandfire:dragonbone_sword_fire"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "iceandfire:fire_dragon"
+				value: 25L
+			}]
+			rewards: [
+				{
+					id: "315637CB6391D608"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "499842CCE65703B5"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+				{
+					id: "797885DB69BC7096"
+					type: "item"
+					item: "iceandfire:fire_dragon_blood"
+					count: 16
+					random_bonus: 8
+				}
+				{
+					id: "7E7B0CA616132CFB"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has killed 25 Fire Dragons and will now rule The Nether ! Be careful to not burn your wings. "
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "&bIce Dragon Slayer"
+			x: 2.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "Ice bucket challenge 2.0"
+			description: ["Kill &b25 Ice Dragons&f !"]
+			id: "044999A0F5B29F96"
+			tasks: [{
+				id: "7C8039E3FF598F2C"
+				type: "kill"
+				icon: {
+					id: "iceandfire:dragonbone_sword_ice"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "iceandfire:ice_dragon"
+				value: 25L
+			}]
+			rewards: [
+				{
+					id: "782FE2BA649D39A1"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "137954CF92E0A7D9"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+				{
+					id: "19E7430BCB043ED0"
+					type: "item"
+					item: "iceandfire:ice_dragon_blood"
+					count: 16
+					random_bonus: 8
+				}
+				{
+					id: "6C2372D710081F3C"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has just defeated 25 Ice Dragons ! God is proud that you didn't become an ice cube !"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "&7Berserker"
+			x: 0.5d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "Amon Amarth"
+			description: ["Cause &c500,000 damage points&f !"]
+			id: "69492BADC1F15C05"
+			tasks: [{
+				id: "5C218C9463DE9E0F"
+				type: "stat"
+				icon: {
+					id: "enigmaticlegacy:etherium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:damage_dealt"
+				value: 500000
+			}]
+			rewards: [
+				{
+					id: "09E6779AB22A237C"
+					type: "command"
+					auto: "invisible"
+					command: "/say Be careful around @p, because that player has just caused 500000 damage ! RUN !"
+					player_command: true
+				}
+				{
+					id: "68C784E80C38106D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "28AD922A4C22786A"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+		{
+			title: "&cMob Slayer !"
+			x: -0.5d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "Angel of Death"
+			description: ["Kill &c100,000 mobs&f !"]
+			id: "77790259F36AA4FD"
+			tasks: [{
+				id: "39E2A537FF89EF1A"
+				type: "stat"
+				icon: {
+					id: "druidcraft:bone_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:mob_kills"
+				value: 100000
+			}]
+			rewards: [
+				{
+					id: "1A3BDBF260B3D07D"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has killed too many mobs ! Behold the new Doom Guy !"
+					player_command: true
+				}
+				{
+					id: "60C16DC1372CB03D"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "5484DDDE2DB1562F"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+		{
+			title: "&dMake love !"
+			x: 0.0d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "Green Peace Member"
+			description: [
+				"Make love Not War !"
+				""
+				"Bred &d1000 animals&f !"
+			]
+			id: "591FCC81FE6297FD"
+			tasks: [{
+				id: "65CD9E9F1D45A63B"
+				type: "stat"
+				icon: "cyclic:heart"
+				stat: "minecraft:animals_bred"
+				value: 1000
+			}]
+			rewards: [
+				{
+					id: "0A2957FE83EA8FD2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "674AF4BCA83EA33C"
+					type: "choice"
+					table_id: 5661033526083048525L
+				}
+				{
+					id: "09C9A60911CB49A3"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p brings love around him !"
+					player_command: true
+				}
+				{
+					id: "732D16E750312827"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+		{
+			title: "&aExplorer like Indiana Jones !"
+			x: -2.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "Harisson Ford will be proud"
+			description: ["Travel &a10,000,000 blocks&f !"]
+			id: "71D623F3A9A7FD82"
+			tasks: [{
+				id: "73892CEC664BA6C0"
+				type: "stat"
+				icon: {
+					id: "eidolon:warlock_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:walk_one_cm"
+				value: 10000000
+			}]
+			rewards: [
+				{
+					id: "4FBAEDEE8D935AA5"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p is going on an adventure ! You can encourage that decision because the new adventurer has already reached 10 millions blocks ! Congratulations !"
+					player_command: true
+				}
+				{
+					id: "5B96DC28E4F996D9"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "29A1F12EFF3F3B8B"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+		{
+			title: "&4ALT F4 &cPro Player"
+			x: -2.0d
+			y: -2.0d
+			shape: "diamond"
+			subtitle: "&c&kllllll &r&cRAGE QUIT &kllllll"
+			description: ["&cALT F4&f is not the best solution !"]
+			id: "3FD95D2F53A5D8D7"
+			tasks: [{
+				id: "68C53762959576CF"
+				type: "stat"
+				icon: "engineersdecor:sign_exit"
+				stat: "minecraft:leave_game"
+				value: 100
+			}]
+			rewards: [
+				{
+					id: "7971D2BC9EA0EE0F"
+					type: "command"
+					auto: "invisible"
+					command: "/say You can now boo @p because @p has left the game too many times. SHAME ON YOU !"
+					player_command: true
+				}
+				{
+					id: "3A7983688412BBBF"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "549D424746B1B838"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+		{
+			title: "&2I am a kangaroo"
+			x: -3.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Australia best kept secret"
+			description: [
+				"Jump &350,000 times&f ! "
+				""
+				"Don't break your space bar !"
+			]
+			id: "748257DE0DBCE2D2"
+			tasks: [{
+				id: "7AFFC40410D69555"
+				type: "stat"
+				icon: "powersuits:jump_assist"
+				stat: "minecraft:jump"
+				value: 50000
+			}]
+			rewards: [
+				{
+					id: "4B3F1729B8EE34D4"
+					type: "command"
+					auto: "invisible"
+					command: "/say Boiiiing boiiing ! @p is now a Kangaroo ! "
+					player_command: true
+				}
+				{
+					id: "53C9170BBDB7EE82"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "07A29A33F7E04371"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+		{
+			title: "&5Power of Enchanting"
+			x: 2.0d
+			y: -2.0d
+			shape: "diamond"
+			subtitle: "&d&kdffffff&r&dC&ksd&r&dT&kfsd&r&d2&ksfsfjj"
+			description: ["Enchant &5500 items &f!"]
+			id: "07B0BF77A8BBFE7F"
+			tasks: [{
+				id: "7D0B0934E60106FF"
+				type: "stat"
+				icon: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:piercing"
+						}]
+					}
+				}
+				stat: "minecraft:enchant_item"
+				value: 500
+			}]
+			rewards: [
+				{
+					id: "4300D421A3390309"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "7CD03D88F801EBCD"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+				{
+					id: "71365F6C3B6CF762"
+					type: "choice"
+					table_id: 3629210468503981663L
+				}
+				{
+					id: "444DD1C36F54CC54"
+					type: "command"
+					auto: "invisible"
+					command: "/say Far from town, a little magician named @p has just enchanted 500 items !"
+					player_command: true
+				}
+			]
+		}
+		{
+			title: "&9HOLD SNEAK !"
+			x: -2.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "It doesn't grow trees"
+			description: ["Everyone twerk !"]
+			id: "56E8E6789F8F9EE0"
+			tasks: [{
+				id: "0C5DC3F689F2EDFC"
+				type: "stat"
+				icon: {
+					id: "botania:cosmetic_thinking_hand"
+					Count: 1b
+					tag: { }
+				}
+				stat: "minecraft:sneak_time"
+				value: 100000
+			}]
+			rewards: [
+				{
+					id: "5669E19372D3E419"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p has now made Nicki Minaj jealous ! Because @p has twerked more than her ! "
+					player_command: true
+				}
+				{
+					id: "5D0D3CC01D59C3FA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "64EDC5E5BB0F61D8"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+		{
+			title: "&eDing Dong !"
+			x: 2.0d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "From whom the bells tolls !"
+			description: ["Toll the Villager's Bell a &e1000 times &f!"]
+			id: "49AAE355A693705F"
+			tasks: [{
+				id: "39782210838EF26A"
+				type: "stat"
+				icon: "minecraft:bell"
+				stat: "minecraft:bell_ring"
+				value: 1000
+			}]
+			rewards: [
+				{
+					id: "46855DB20C965F5F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "7DD8D8766BCA904D"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p is the new bell-ringer !"
+					player_command: true
+				}
+				{
+					id: "0E33859226C9BC0E"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+		{
+			title: "&4My nightmare !"
+			x: 0.5d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "Wind of Change"
+			description: [
+				"Those Wandering Traders are everywhere !!! "
+				"Everytime they spawn in front of you !"
+				""
+				"Kill &550 Wandering Trader &f!"
+				""
+				"You now can seek for revenge ! "
+			]
+			id: "6C6222B93169F02C"
+			tasks: [{
+				id: "28D5C626AA873304"
+				type: "kill"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/wandering_trader.png"
+					}
+				}
+				entity: "minecraft:wandering_trader"
+				value: 50L
+			}]
+			rewards: [
+				{
+					id: "77485030EE4985EC"
+					type: "item"
+					item: "nomowanderer:no_soliciting_sign"
+				}
+				{
+					id: "13832BDBABFC3C4C"
+					type: "item"
+					item: "nomowanderer:no_mo_wanderer_totem"
+				}
+				{
+					id: "67DDCCAE293A1EC2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "527513B16B9C4565"
+					type: "command"
+					auto: "invisible"
+					command: "/say @p eradicated Wandering Trader ! Good Job !"
+					player_command: true
+				}
+				{
+					id: "37062F6A358262BD"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+	]
+}

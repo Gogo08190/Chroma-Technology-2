@@ -1,0 +1,2394 @@
+{
+	id: "5F47388F5655C619"
+	group: "247A2B0D60E02610"
+	order_index: 14
+	filename: "applied_energistics"
+	title: "Applied Energistics"
+	icon: "appliedenergistics2:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&b&lME Controller"
+			x: 12.0d
+			y: -1.0d
+			shape: "octagon"
+			description: ["The &bME Controller &fis the routing hub of a &6ME Network&f. Without it, only up to 8 devices can interact, any more and everything stops working. It is not possible to have 2 ME Controller in one &6ME Network&f."]
+			hide_dependency_lines: true
+			dependencies: [
+				"7027D5234A96CE58"
+				"31731B4D3FFE7B7C"
+			]
+			size: 2.0d
+			id: "51AA5595AD22808D"
+			tasks: [{
+				id: "16A57767FD016A31"
+				type: "item"
+				item: "appliedenergistics2:controller"
+			}]
+			rewards: [
+				{
+					id: "4831D1DC67830ABA"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+				{
+					id: "193715A32623D7A7"
+					type: "item"
+					item: "appliedenergistics2:engineering_processor"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -7.0d
+			shape: "diamond"
+			description: ["The &bInscriber &fis used to press items using various Inscriber Plates. Each operation requires 1k AE charged up. The Inscriber needs a supply of 10 AE/t and 100 ticks to fully charge up."]
+			id: "30F3A924C14D7A97"
+			tasks: [{
+				id: "2A650FA8186CF543"
+				type: "item"
+				item: "appliedenergistics2:inscriber"
+			}]
+			rewards: [{
+				id: "41BE4C98840CA351"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 16.5d
+			y: 1.5d
+			shape: "diamond"
+			description: ["A compass which points to the nearest Sky Stone in the current world, it has a max range of roughly 2,700 blocks."]
+			id: "50EA50E9D59312CE"
+			tasks: [{
+				id: "78C0997A50E6D849"
+				type: "item"
+				item: "appliedenergistics2:sky_compass"
+			}]
+			rewards: [{
+				id: "393C4A9843BF190A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 16.0d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["50EA50E9D59312CE"]
+			id: "7BA4BD11977EB2B8"
+			tasks: [{
+				id: "6DCCA288E4F1613B"
+				type: "item"
+				item: "appliedenergistics2:calculation_processor_press"
+			}]
+			rewards: [{
+				id: "419ECD4EB13F70AE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 17.5d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["50EA50E9D59312CE"]
+			id: "4EC94B9D73A052CB"
+			tasks: [{
+				id: "6555CC75535C3DE0"
+				type: "item"
+				item: "appliedenergistics2:engineering_processor_press"
+			}]
+			rewards: [{
+				id: "5482ECFBBE23E493"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 17.0d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["50EA50E9D59312CE"]
+			id: "74B8C841903377F1"
+			tasks: [{
+				id: "402B5437F7942E0E"
+				type: "item"
+				item: "appliedenergistics2:logic_processor_press"
+			}]
+			rewards: [{
+				id: "49E5A5CECC787DB1"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 15.5d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["50EA50E9D59312CE"]
+			id: "18DC57D4E23E5749"
+			tasks: [{
+				id: "1695493AAD6C28D0"
+				type: "item"
+				item: "appliedenergistics2:silicon_press"
+			}]
+			rewards: [{
+				id: "659474BE14EDA6F6"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 16.5d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["50EA50E9D59312CE"]
+			id: "54DCAA37F0B380FB"
+			tasks: [{
+				id: "52B772CC91D824D8"
+				type: "item"
+				item: "appliedenergistics2:sky_stone_block"
+			}]
+			rewards: [
+				{
+					id: "54193BF9F481E7B7"
+					type: "loot"
+					table_id: 4063386593177790740L
+				}
+				{
+					id: "5B6EE65F734B2C19"
+					type: "item"
+					item: "appliedenergistics2:sky_stone_block"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"30F3A924C14D7A97"
+				"18DC57D4E23E5749"
+			]
+			id: "3C0111DF100CDAB5"
+			tasks: [{
+				id: "20549A46E1162857"
+				type: "item"
+				item: "appliedenergistics2:printed_silicon"
+			}]
+			rewards: [{
+				id: "1F0B8216CFDC1B15"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"30F3A924C14D7A97"
+				"74B8C841903377F1"
+			]
+			id: "51CF499E6A00FAF9"
+			tasks: [{
+				id: "2674A0946F58FEFF"
+				type: "item"
+				item: "appliedenergistics2:printed_logic_processor"
+			}]
+			rewards: [{
+				id: "271A26549D282C6A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -7.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"30F3A924C14D7A97"
+				"4EC94B9D73A052CB"
+			]
+			id: "4251AC782D18EE3D"
+			tasks: [{
+				id: "18B09389F8A4C74C"
+				type: "item"
+				item: "appliedenergistics2:printed_engineering_processor"
+			}]
+			rewards: [{
+				id: "0C189D5D8FEB0925"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -7.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"30F3A924C14D7A97"
+				"7BA4BD11977EB2B8"
+			]
+			id: "080B21375975A7C6"
+			tasks: [{
+				id: "6C2AEB61080DFE34"
+				type: "item"
+				item: "appliedenergistics2:printed_calculation_processor"
+			}]
+			rewards: [{
+				id: "0F0DA0F1E5225352"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["1D1FE9C462047B2B"]
+			id: "512A205992F9A45E"
+			tasks: [{
+				id: "31157F7A717FAE13"
+				type: "item"
+				item: "appliedenergistics2:1k_cell_component"
+			}]
+			rewards: [{
+				id: "1510A5B51E03D02E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.0d
+			shape: "diamond"
+			dependencies: ["512A205992F9A45E"]
+			id: "7DB2368F2F281CA8"
+			tasks: [{
+				id: "2C90C86B7A8A3252"
+				type: "item"
+				item: "appliedenergistics2:4k_cell_component"
+			}]
+			rewards: [{
+				id: "3A69E2A80D84FA55"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["7DB2368F2F281CA8"]
+			id: "0F986184229443BC"
+			tasks: [{
+				id: "11F9FDDC9EF2CBF6"
+				type: "item"
+				item: "appliedenergistics2:16k_cell_component"
+			}]
+			rewards: [{
+				id: "260C9738200D7DA3"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			shape: "diamond"
+			dependencies: ["0F986184229443BC"]
+			id: "7F63ABF6C2FB85F6"
+			tasks: [{
+				id: "70B9566BC0CBAEF4"
+				type: "item"
+				item: "appliedenergistics2:64k_cell_component"
+			}]
+			rewards: [{
+				id: "371E07050EF50260"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["7F63ABF6C2FB85F6"]
+			id: "5C773678C8CC18BF"
+			tasks: [{
+				id: "04909AB5EFD3A63E"
+				type: "item"
+				item: "ae2extras:256k_cell_component"
+			}]
+			rewards: [{
+				id: "4B9C9B785CC3E3F1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["5C773678C8CC18BF"]
+			id: "4671ADA22B71BF35"
+			tasks: [{
+				id: "0685C41FA7BF476D"
+				type: "item"
+				item: "ae2extras:1m_cell_component"
+			}]
+			rewards: [{
+				id: "257CBAE5AE6F4AC7"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["4671ADA22B71BF35"]
+			id: "408BF00362D72AE7"
+			tasks: [{
+				id: "6A193DB5795D6B8C"
+				type: "item"
+				item: "ae2extras:4m_cell_component"
+			}]
+			rewards: [{
+				id: "3C6E2D0548B55EBA"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["408BF00362D72AE7"]
+			id: "492FF94814ABF3D9"
+			tasks: [{
+				id: "5F2595DFAF84743C"
+				type: "item"
+				item: "ae2extras:16m_cell_component"
+			}]
+			rewards: [{
+				id: "3483A452F1BDF799"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["512A205992F9A45E"]
+			id: "46F88A4B6E6B970A"
+			tasks: [{
+				id: "373A365FA04FE1DE"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:1k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "56F3E98E9A3485C8"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["7DB2368F2F281CA8"]
+			id: "7BE8CC306A296718"
+			tasks: [{
+				id: "622F6C6861782643"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:4k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "19BBC5F8A10648BA"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0F986184229443BC"]
+			id: "4C88CC4E032BD34F"
+			tasks: [{
+				id: "5AA922F8C16641D4"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:16k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5B9A177303A05AAA"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["7F63ABF6C2FB85F6"]
+			id: "605E5928C20A3310"
+			tasks: [{
+				id: "51B091001C97F1B4"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6F9AD65D8F75EBDA"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5C773678C8CC18BF"]
+			id: "5AEE66C9E96EE89F"
+			tasks: [{
+				id: "422DE2634CA58DAA"
+				type: "item"
+				item: {
+					id: "ae2extras:256k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3CE4344C7A728390"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["4671ADA22B71BF35"]
+			id: "56A3E70CF4B7FE53"
+			tasks: [{
+				id: "301C1133B7F24543"
+				type: "item"
+				item: {
+					id: "ae2extras:1m_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "025457267E9ACC52"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["408BF00362D72AE7"]
+			id: "2478DDFAC419CAEA"
+			tasks: [{
+				id: "4DEA898AAC643CE6"
+				type: "item"
+				item: {
+					id: "ae2extras:4m_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4158767A3313E32D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["492FF94814ABF3D9"]
+			id: "39FB4E1A3E50E758"
+			tasks: [{
+				id: "315E73C9F143095B"
+				type: "item"
+				item: {
+					id: "ae2extras:16m_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "53A024983D30BC9A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["1D1FE9C462047B2B"]
+			id: "0341BD1100D4D5FB"
+			tasks: [{
+				id: "0D1EA54CD42A26FB"
+				type: "item"
+				item: "appliedenergistics2:1k_fluid_cell_component"
+			}]
+			rewards: [{
+				id: "11433A6CC03F1AB6"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 15.5d
+			y: -4.0d
+			shape: "diamond"
+			dependencies: ["0341BD1100D4D5FB"]
+			id: "07F95946AE635B84"
+			tasks: [{
+				id: "37E39EE1D6A1DCDE"
+				type: "item"
+				item: "appliedenergistics2:4k_fluid_cell_component"
+			}]
+			rewards: [{
+				id: "2248B5AA198B40BE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["07F95946AE635B84"]
+			id: "64F5FF59FE4EF33E"
+			tasks: [{
+				id: "497FDB379D32CA82"
+				type: "item"
+				item: "appliedenergistics2:16k_fluid_cell_component"
+			}]
+			rewards: [{
+				id: "4D0AC00CDD5D7383"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 14.5d
+			y: -4.0d
+			shape: "diamond"
+			dependencies: ["64F5FF59FE4EF33E"]
+			id: "10A3118A856C2A63"
+			tasks: [{
+				id: "6BEC59522256BB46"
+				type: "item"
+				item: "appliedenergistics2:64k_fluid_cell_component"
+			}]
+			rewards: [{
+				id: "5987F8897961335E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 15.5d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["701ED984E4541C6C"]
+			id: "25D417E0938E4C62"
+			tasks: [{
+				id: "005BAC6B630B6CFB"
+				type: "item"
+				item: "ae2extras:4m_fluid_cell_component"
+			}]
+			rewards: [{
+				id: "5702B7C310E37E7D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 14.5d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["2E75EF2A3152D1C0"]
+			id: "701ED984E4541C6C"
+			tasks: [{
+				id: "1275B8B728BBA082"
+				type: "item"
+				item: "ae2extras:1m_fluid_cell_component"
+			}]
+			rewards: [{
+				id: "5B92124C797718BE"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["10A3118A856C2A63"]
+			id: "2E75EF2A3152D1C0"
+			tasks: [{
+				id: "4546074E071610B3"
+				type: "item"
+				item: "ae2extras:256k_fluid_cell_component"
+			}]
+			rewards: [{
+				id: "6C0B98C96AEEF4B4"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 16.0d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["25D417E0938E4C62"]
+			id: "22CD222EE9559AF1"
+			tasks: [{
+				id: "25D91A9A97DD8C80"
+				type: "item"
+				item: "ae2extras:16m_fluid_cell_component"
+			}]
+			rewards: [{
+				id: "5541B18F65CEB06C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 17.0d
+			y: -3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["22CD222EE9559AF1"]
+			id: "06792614A54293EF"
+			tasks: [{
+				id: "101D3D41ECBD16A7"
+				type: "item"
+				item: {
+					id: "ae2extras:16m_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0E94AF8D4BDEBF2F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 16.5d
+			y: -3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["25D417E0938E4C62"]
+			id: "1C4D22D4B57AE737"
+			tasks: [{
+				id: "3DE883614DD27ED2"
+				type: "item"
+				item: {
+					id: "ae2extras:4m_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4981CF6C4CB97E38"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 16.0d
+			y: -2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["701ED984E4541C6C"]
+			id: "19D1CEA5C6DB323D"
+			tasks: [{
+				id: "5BF94773A4085B7D"
+				type: "item"
+				item: {
+					id: "ae2extras:1m_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "092DB9B6D1B91EBC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 15.5d
+			y: -2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2E75EF2A3152D1C0"]
+			id: "652A5466D46C329C"
+			tasks: [{
+				id: "65ECF4E6C04BC12F"
+				type: "item"
+				item: {
+					id: "ae2extras:256k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "50327D9F33F31F23"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 14.5d
+			y: -2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["10A3118A856C2A63"]
+			id: "776889C0E9C78CC7"
+			tasks: [{
+				id: "3E0E50048098BDD8"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7E1C6F9DB97D0A8C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["64F5FF59FE4EF33E"]
+			id: "53C6ACE908D6608D"
+			tasks: [{
+				id: "678E6CE4E373CDF1"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:16k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "70F8B2A1171E990F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 13.5d
+			y: -3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["07F95946AE635B84"]
+			id: "28D1E6BE422361AB"
+			tasks: [{
+				id: "4514E7BA562382DB"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:4k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "70B97863684541D5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 13.0d
+			y: -3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0341BD1100D4D5FB"]
+			id: "75E8BB2AD6C2E025"
+			tasks: [{
+				id: "65132E82CBB1C26A"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:1k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "620F0DDE4BB82C8B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -3.0d
+			shape: "diamond"
+			description: ["A block designed to do one thing, store &6Storage Cells&f. This block holds 10 storage cells so you can tightly pack your storage into a very small space."]
+			hide_dependency_lines: true
+			dependencies: [
+				"0A3A4346A32949C4"
+				"7027D5234A96CE58"
+			]
+			size: 1.5d
+			id: "0F0D9E4EFD9E7B68"
+			tasks: [{
+				id: "3A346CE84B473C48"
+				type: "item"
+				item: "appliedenergistics2:drive"
+			}]
+			rewards: [{
+				id: "6EF463E0FF5A7043"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 2.0d
+			shape: "diamond"
+			description: ["A specialized version of the &6ME Crafting Terminal&f designed to encode &6Blank Patterns&f into &6Encoded Pattern&f."]
+			dependencies: ["24DCFB4FA215F775"]
+			id: "3E0872C55BFD950F"
+			tasks: [{
+				id: "0F8A917893DD51C0"
+				type: "item"
+				item: "appliedenergistics2:pattern_terminal"
+			}]
+			rewards: [{
+				id: "2FD847FF086BC3F9"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 2.0d
+			shape: "diamond"
+			description: ["The &bME Crafting Terminal &fis the upgraded version of the ME Terminal which has an integrated crafting grid with access to a ME Network's Networked Storage."]
+			dependencies: ["24DCFB4FA215F775"]
+			id: "59CD962FBEE6553F"
+			tasks: [{
+				id: "163D4F11EC29C008"
+				type: "item"
+				item: "appliedenergistics2:crafting_terminal"
+			}]
+			rewards: [{
+				id: "1E84A2C2F4538A9E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.5d
+			shape: "diamond"
+			description: ["The &bME Terminal &fis a HID which gives you access to a ME Network's Networked Storage."]
+			dependencies: ["24DCFB4FA215F775"]
+			id: "7B4E8939AC013302"
+			tasks: [{
+				id: "744187F40ACDABCB"
+				type: "item"
+				item: "appliedenergistics2:terminal"
+			}]
+			rewards: [{
+				id: "1F6E9FE404C156BB"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.5d
+			shape: "diamond"
+			description: ["Gives remote access to all interface pattern slots on your network separated by which type of machine they are on. It will show the type of machine in the terminal, however you can name the ME Interface in the Inscriber or an Anvil to alter the name displayed in the &6ME Interface Terminal&f."]
+			dependencies: ["24DCFB4FA215F775"]
+			id: "2A8DC3810B4959DE"
+			tasks: [{
+				id: "7742CDB87A288F66"
+				type: "item"
+				item: "appliedenergistics2:interface_terminal"
+			}]
+			rewards: [{
+				id: "0E4C0D25B9D59168"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["24DCFB4FA215F775"]
+			id: "459F242255DC1092"
+			tasks: [{
+				id: "6C605CCC1D5F1A5F"
+				type: "item"
+				item: "appliedenergistics2:fluid_terminal"
+			}]
+			rewards: [{
+				id: "70F1559001D2E069"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.0d
+			shape: "diamond"
+			id: "24DCFB4FA215F775"
+			tasks: [{
+				id: "2CA6D4C4190CD0DD"
+				type: "item"
+				item: "appliedenergistics2:semi_dark_monitor"
+			}]
+			rewards: [{
+				id: "265D6D8DA794D281"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.5d
+			shape: "diamond"
+			description: ["Used to accelerate the process of purifying crystals, which allows you to create &6Pure Certus Quartz Crystal&f, &6Pure Nether Quartz Crystal &fand &6Pure Fluix Crystal&f."]
+			hide_dependency_lines: true
+			dependencies: ["61B717C5AE7C9455"]
+			id: "736C36EFE909F8CD"
+			tasks: [{
+				id: "674917476299AD34"
+				type: "item"
+				item: "appliedenergistics2:quartz_growth_accelerator"
+			}]
+			rewards: [{
+				id: "634C2B5374C9EE93"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: ["736C36EFE909F8CD"]
+			id: "4F58857D6A9069AF"
+			tasks: [{
+				id: "34D54B02371D11A0"
+				type: "item"
+				item: "appliedenergistics2:purified_certus_quartz_crystal"
+			}]
+			rewards: [
+				{
+					id: "073A6D31576FBA5B"
+					type: "loot"
+					table_id: 4063386593177790740L
+				}
+				{
+					id: "05E595CB702B668E"
+					type: "item"
+					item: "appliedenergistics2:certus_crystal_seed"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 4.5d
+			shape: "diamond"
+			dependencies: ["736C36EFE909F8CD"]
+			id: "6054DFCEE84675BC"
+			tasks: [{
+				id: "11B4377A7D90F72F"
+				type: "item"
+				item: "appliedenergistics2:purified_nether_quartz_crystal"
+			}]
+			rewards: [
+				{
+					id: "288E4D15C986BD51"
+					type: "loot"
+					table_id: 4063386593177790740L
+				}
+				{
+					id: "51E6FAF43FA42617"
+					type: "item"
+					item: "appliedenergistics2:nether_quartz_seed"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: ["736C36EFE909F8CD"]
+			id: "0A78FE90D2D56280"
+			tasks: [{
+				id: "615D3F8E66F89E6A"
+				type: "item"
+				item: "appliedenergistics2:purified_fluix_crystal"
+			}]
+			rewards: [
+				{
+					id: "6BA3617B562D37FD"
+					type: "loot"
+					table_id: 4063386593177790740L
+				}
+				{
+					id: "38568065EDF13F64"
+					type: "item"
+					item: "appliedenergistics2:fluix_crystal_seed"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"51CF499E6A00FAF9"
+				"30F3A924C14D7A97"
+			]
+			id: "1D1FE9C462047B2B"
+			tasks: [{
+				id: "4E50E1FA359B45D9"
+				type: "item"
+				item: "appliedenergistics2:logic_processor"
+			}]
+			rewards: [{
+				id: "52392EA369F3685E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -8.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"080B21375975A7C6"
+				"30F3A924C14D7A97"
+			]
+			id: "5AE9994C653AE5D6"
+			tasks: [{
+				id: "3F59799492D723D2"
+				type: "item"
+				item: "appliedenergistics2:calculation_processor"
+			}]
+			rewards: [{
+				id: "78CE089925A53353"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -8.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"4251AC782D18EE3D"
+				"30F3A924C14D7A97"
+			]
+			id: "7027D5234A96CE58"
+			tasks: [{
+				id: "77241870F99F8264"
+				type: "item"
+				item: "appliedenergistics2:engineering_processor"
+			}]
+			rewards: [{
+				id: "09E7BA5135A0A400"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"4F4953104E0940EC"
+				"30F3A924C14D7A97"
+			]
+			id: "7C9A06F740F66332"
+			tasks: [{
+				id: "44BEE6BE9CB8F5D6"
+				type: "item"
+				item: "lazierae2:parallel_processor"
+			}]
+			rewards: [{
+				id: "6289492C9E103FE1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -6.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"30F3A924C14D7A97"
+				"07FBD8174CA390BE"
+			]
+			id: "4F4953104E0940EC"
+			tasks: [{
+				id: "1B446CDB36426D68"
+				type: "item"
+				item: "lazierae2:parallel_printed"
+			}]
+			rewards: [{
+				id: "7F1820E58DB8A733"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -8.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["30F3A924C14D7A97"]
+			id: "3E5991D0FAB017F3"
+			tasks: [{
+				id: "7D916962A3BA89A8"
+				type: "item"
+				item: "lazierae2:fluix_iron_ingot"
+			}]
+			rewards: [{
+				id: "3C7950D176A16A16"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -7.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"30F3A924C14D7A97"
+				"07FBD8174CA390BE"
+			]
+			id: "475AF21CFAB50733"
+			tasks: [{
+				id: "22702255EC33B1B8"
+				type: "item"
+				item: "lazierae2:speculative_printed"
+			}]
+			rewards: [{
+				id: "2F6CA4DFA9243E5D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -7.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"475AF21CFAB50733"
+				"30F3A924C14D7A97"
+			]
+			id: "4BEFAB9A89EEB08A"
+			tasks: [{
+				id: "71F3B9A650E759B2"
+				type: "item"
+				item: "lazierae2:speculative_processor"
+			}]
+			rewards: [{
+				id: "453C5CB8B80D165D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 3.5d
+			shape: "diamond"
+			description: [
+				"Allows you to configure which users, and what permissions the users have with the ME System. By existing it enforces permissions on the usage of the system."
+				""
+				"The security system does not prevent destructive tampering, removing cables / machines or breaking of drives is not directly provided by the security Terminal. If you need to protect your system from physical vandalism you will need another form of physical security. This block provides Network level security."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"7027D5234A96CE58"
+				"0F986184229443BC"
+			]
+			id: "3A525B0BFC1BEB0A"
+			tasks: [{
+				id: "733C1E4709708C93"
+				type: "item"
+				item: "appliedenergistics2:security_station"
+			}]
+			rewards: [{
+				id: "2D8D01F9281BB88C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 4.0d
+			shape: "diamond"
+			description: ["Encodes a players identity on the card, right click another player, or shift slick to set yourself. If you encode the same player twice, it will clear the card. A Cleared card represents other users as the \"default\"."]
+			hide_dependency_lines: true
+			dependencies: ["7027D5234A96CE58"]
+			id: "4F38AC1BA58F648C"
+			tasks: [{
+				id: "61409798353AD3AE"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:biometric_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "18923B66A133CD83"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 14.0d
+			y: 4.0d
+			shape: "diamond"
+			description: ["Allows wireless access via a Wireless Terminal. Range and power usage is determined based on the number of Wireless Booster installed into the &bME Wireless Access Point&f."]
+			hide_dependency_lines: true
+			dependencies: ["5AE9994C653AE5D6"]
+			id: "38AE26D06665810A"
+			tasks: [{
+				id: "102CB2F4E1F2EC42"
+				type: "item"
+				item: "appliedenergistics2:wireless_access_point"
+			}]
+			rewards: [{
+				id: "18E1E1734C9F00A4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 4.5d
+			shape: "diamond"
+			description: ["Used to increase the range of the &6ME Wireless Access Point&f."]
+			id: "294742A2B801C211"
+			tasks: [{
+				id: "7E1E7AC2B2D32149"
+				type: "item"
+				item: "appliedenergistics2:wireless_booster"
+			}]
+			rewards: [
+				{
+					id: "4B1834FDD0309717"
+					type: "loot"
+					table_id: 4063386593177790740L
+				}
+				{
+					id: "7EE8B89D0F7FD507"
+					type: "item"
+					item: "appliedenergistics2:wireless_booster"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 6.0d
+			shape: "diamond"
+			description: ["Used to craft &6Capacity Card&f, &6Crafting Card &fand &6Redstone Card&f."]
+			hide_dependency_lines: true
+			dependencies: ["1D1FE9C462047B2B"]
+			id: "6A1B3802D52F4407"
+			tasks: [{
+				id: "483C77D7095995D8"
+				type: "item"
+				item: "appliedenergistics2:basic_card"
+			}]
+			rewards: [{
+				id: "2941F67127CC842F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.5d
+			shape: "diamond"
+			description: ["Can be used with the &6ME Interface &for the &6ME Export Bus &fto request autocrafting from the system."]
+			dependencies: ["6A1B3802D52F4407"]
+			id: "43830BD81962CBA4"
+			tasks: [{
+				id: "1AD9BC962202C64E"
+				type: "item"
+				item: "appliedenergistics2:crafting_card"
+			}]
+			rewards: [{
+				id: "6D6A157B34B858C6"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 7.0d
+			shape: "diamond"
+			description: ["Upgrades the number of configuration slots available in &6ME Import Bus&f, &6ME Export Bus&f, &6ME Storage Bus &fand the &6ME Formation Plane&f."]
+			dependencies: ["6A1B3802D52F4407"]
+			id: "2CDBC46F1EF4A093"
+			tasks: [{
+				id: "35A27E63D5F8BCF4"
+				type: "item"
+				item: "appliedenergistics2:capacity_card"
+			}]
+			rewards: [{
+				id: "1EBE7C6263D9AB43"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 6.5d
+			shape: "diamond"
+			dependencies: ["6A1B3802D52F4407"]
+			id: "56E61D722B1630ED"
+			tasks: [{
+				id: "19B1C395DA18BDC6"
+				type: "item"
+				item: "appliedenergistics2:redstone_card"
+			}]
+			rewards: [{
+				id: "7E4B9453049F18E8"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 6.0d
+			shape: "diamond"
+			description: ["Used to craft &6Fuzzy Card&f, &6Inverter Card &fand &6Acceleration Card&f."]
+			hide_dependency_lines: true
+			dependencies: ["5AE9994C653AE5D6"]
+			id: "00760E883E1CF079"
+			tasks: [{
+				id: "3DFBC82C07B00EDC"
+				type: "item"
+				item: "appliedenergistics2:advanced_card"
+			}]
+			rewards: [{
+				id: "21DB5CF4108F1802"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 6.5d
+			shape: "diamond"
+			description: ["Can be installed into ME IO Port, ME Import Bus and ME Export Bus to increase the speed of items being transfered, this also increases the idle drain of the machine by 1 ae/t per upgrade."]
+			dependencies: ["00760E883E1CF079"]
+			id: "52A490CB33A26FA6"
+			tasks: [{
+				id: "5299826D6B4419E8"
+				type: "item"
+				item: "appliedenergistics2:speed_card"
+			}]
+			rewards: [{
+				id: "7391E5DCB03943E0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 7.0d
+			shape: "diamond"
+			description: ["Used to add fuzzy behavior to &6ME Formation Plane&f, &6ME Export Bus&f, &6ME Import Bus&f, &6ME Level Emitter&f, &6ME Storage Bus&f, &6View Cell&f and &61k ME Storage Cell &fas well as other non spatial storage cells."]
+			dependencies: ["00760E883E1CF079"]
+			id: "650F31121B8299BC"
+			tasks: [{
+				id: "1ACC9807E972B302"
+				type: "item"
+				item: "appliedenergistics2:fuzzy_card"
+			}]
+			rewards: [{
+				id: "282116EBBDDC617B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 15.5d
+			y: 6.5d
+			shape: "diamond"
+			description: ["In non spatial storage cells such as 1k ME Storage Cell, View Cell, ME Formation Plane and the ME Storage Bus changes the standard accepted item list into a rejection list."]
+			dependencies: ["00760E883E1CF079"]
+			id: "33E4AC2B0F972E06"
+			tasks: [{
+				id: "00B282D3B0966F7B"
+				type: "item"
+				item: "appliedenergistics2:inverter_card"
+			}]
+			rewards: [{
+				id: "030C5B28FCF4452F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 14.5d
+			y: -7.5d
+			shape: "diamond"
+			description: ["The &bFluix Aggregator&f performs the operation of fluix crystal production, which is normally an inconvenient in-world operation. It is also used to craft other LazierAE2 crafting components -- in particular, it significantly increases the efficiency of producing fluix steel. Because of this, it is recommended that players first obtain a Fluix Aggregator before continuing with other parts of LazierAE2."]
+			dependencies: [
+				"4BA3F17750607AE8"
+				"104D5FA82D5F2D4A"
+			]
+			id: "155CB21246231748"
+			tasks: [{
+				id: "3085BAB675A41FDA"
+				type: "item"
+				item: "lazierae2:fluix_aggregator"
+			}]
+			rewards: [{
+				id: "7DBEB47C799F4E30"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -8.0d
+			shape: "diamond"
+			description: ["The &bPulse Centrifuge&f performs the operation of crystal purification, which supersedes the tedious seed-growing process. It can also be used to powderize certain materials that would normally require the quartz grindstone."]
+			dependencies: [
+				"4BA3F17750607AE8"
+				"104D5FA82D5F2D4A"
+			]
+			id: "4007144280C34E40"
+			tasks: [{
+				id: "78DD4749356680AA"
+				type: "item"
+				item: "lazierae2:pulse_centrifuge"
+			}]
+			rewards: [{
+				id: "06A690975C3B1B89"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -7.0d
+			shape: "diamond"
+			description: ["The &bCrystal Energizer &fperforms the operation of crystal charging, which is normally done by the AE2 Charger. The amount of time required to charge a crystal using the AE2 Charger is random and can take, in the worst case, upwards of 30 seconds. The Crystal Energizer, on the other hand, takes a deterministic amount of time to charge a crystal and can be upgraded to increase the processing rate."]
+			dependencies: [
+				"4BA3F17750607AE8"
+				"104D5FA82D5F2D4A"
+			]
+			id: "3EA0D300763821AA"
+			tasks: [{
+				id: "4FFB2DB9E1768C2E"
+				type: "item"
+				item: "lazierae2:crystal_energizer"
+			}]
+			rewards: [{
+				id: "370C50FCF19CBF36"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 15.5d
+			y: -7.5d
+			shape: "diamond"
+			description: [
+				"The &bCircuit Etcher &fis basically an advanced Inscriber but with the huge benefit of being able to process raw materials."
+				""
+				"This means that no other Inscribers are needed to process Silicon for example."
+			]
+			dependencies: [
+				"4BA3F17750607AE8"
+				"104D5FA82D5F2D4A"
+			]
+			id: "0633ADB24BC9F202"
+			tasks: [{
+				id: "7744D0A0E4005C03"
+				type: "item"
+				item: "lazierae2:circuit_etcher"
+			}]
+			rewards: [{
+				id: "3E361F0FFD0EEF7F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 14.5d
+			y: -6.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["736C36EFE909F8CD"]
+			id: "2A112E8097046DF9"
+			tasks: [{
+				id: "2C652B3478BD8964"
+				type: "item"
+				item: "lazierae2:growth_chamber"
+			}]
+			rewards: [{
+				id: "15767320F1D761F2"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 15.5d
+			y: -6.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"4EC94B9D73A052CB"
+				"74B8C841903377F1"
+				"7BA4BD11977EB2B8"
+				"18DC57D4E23E5749"
+				"3E5991D0FAB017F3"
+				"1CF41105BD685060"
+			]
+			id: "07FBD8174CA390BE"
+			tasks: [{
+				id: "46DDEF21CFDEC721"
+				type: "item"
+				item: "lazierae2:universal_press"
+			}]
+			rewards: [{
+				id: "3F8E9F4F2121608A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -6.0d
+			shape: "diamond"
+			dependencies: ["4BA3F17750607AE8"]
+			id: "104D5FA82D5F2D4A"
+			tasks: [{
+				id: "454363D0EED98080"
+				type: "item"
+				item: "lazierae2:logic_unit"
+			}]
+			rewards: [{
+				id: "56C1B2B602BFF7D8"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 16.0d
+			y: -7.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["155CB21246231748"]
+			id: "3204A597204E1F49"
+			tasks: [{
+				id: "7B47D08C57BA60CD"
+				type: "item"
+				item: "lazierae2:resonating_gem"
+			}]
+			rewards: [{
+				id: "2F0CD9934E9ACC92"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -7.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3E5991D0FAB017F3"]
+			id: "4BA3F17750607AE8"
+			tasks: [{
+				id: "65377070A0D4769B"
+				type: "item"
+				item: "lazierae2:fluix_steel_ingot"
+			}]
+			rewards: [{
+				id: "6952D54A3E82A228"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 3.5d
+			shape: "diamond"
+			description: ["The &bassembler &fis a powered machine which crafts items, it can be upgraded by inserting Acceleration Cards into it; once upgraded it is very fast."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1D1FE9C462047B2B"
+				"11823692E7014281"
+				"25D54F1E8D739561"
+			]
+			id: "6216F39A46420ECB"
+			tasks: [{
+				id: "70C5F05E5FBC5524"
+				type: "item"
+				item: "appliedenergistics2:molecular_assembler"
+			}]
+			rewards: [{
+				id: "27E8878E60035B04"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.0d
+			shape: "diamond"
+			description: ["Is a component of the Crafting CPU. This particular block provides the CPU with no additional features, but can be used as a \"filler\" block and as a crafting ingredient for the following,"]
+			hide_dependency_lines: true
+			dependencies: [
+				"61B717C5AE7C9455"
+				"5AE9994C653AE5D6"
+				"1D1FE9C462047B2B"
+			]
+			id: "3592AE725E407803"
+			tasks: [{
+				id: "4999F6AB44AA1404"
+				type: "item"
+				item: "appliedenergistics2:crafting_unit"
+			}]
+			rewards: [{
+				id: "3B551054D403DB2F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 4.5d
+			shape: "diamond"
+			description: ["Component of the &bCrafting CPU &fwhich provides additional item delivery from the CPU to the ME Interface for crafting."]
+			dependencies: ["3592AE725E407803"]
+			id: "5DABD41D49A59C1B"
+			tasks: [{
+				id: "29EB182F3FF0268E"
+				type: "item"
+				item: "appliedenergistics2:crafting_accelerator"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 4.5d
+			shape: "diamond"
+			dependencies: ["3592AE725E407803"]
+			id: "0886AA1DFDD469A5"
+			tasks: [{
+				id: "50F3DF539ADB8F8B"
+				type: "item"
+				title: "Crafting Storage"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "appliedenergistics2:1k_crafting_storage"
+								Count: 1b
+							}
+							{
+								id: "appliedenergistics2:4k_crafting_storage"
+								Count: 1b
+							}
+							{
+								id: "appliedenergistics2:16k_crafting_storage"
+								Count: 1b
+							}
+							{
+								id: "appliedenergistics2:64k_crafting_storage"
+								Count: 1b
+							}
+							{
+								id: "ae2extras:256k_crafting_storage"
+								Count: 1b
+							}
+							{
+								id: "ae2extras:1m_crafting_storage"
+								Count: 1b
+							}
+							{
+								id: "ae2extras:4m_crafting_storage"
+								Count: 1b
+							}
+							{
+								id: "ae2extras:16m_crafting_storage"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D9DCA4F1F05A7AF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 5.0d
+			shape: "diamond"
+			description: ["Component of the &6Crafting CPU &fwhich displays the top level job and its current progress so you can monitor at a glance how your crafting jobs are progressing."]
+			dependencies: ["3592AE725E407803"]
+			id: "266C78E0F2F4CF30"
+			tasks: [{
+				id: "618EF41989036133"
+				type: "item"
+				item: "appliedenergistics2:crafting_monitor"
+			}]
+			rewards: [{
+				id: "6B810C5E149B703B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 3.5d
+			shape: "diamond"
+			description: [
+				""
+				"The &bME Interface &fis the only component which can be used as a part, or as a Block. Crafting an ME interface in either form by itself produces the other form. The thin form is useful if you want to provide several different interfaces in a single block of physical space, but each will need its own channel. The block form lets multiple other blocks connect to a single ME interface, using only one channel for the interface."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"25D54F1E8D739561"
+				"11823692E7014281"
+			]
+			id: "305465326799C215"
+			tasks: [{
+				id: "26DF7088A67A0A35"
+				type: "item"
+				item: "appliedenergistics2:interface"
+			}]
+			rewards: [{
+				id: "3B180BD6EB54E46C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["1D1FE9C462047B2B"]
+			id: "25D54F1E8D739561"
+			tasks: [{
+				id: "3F414ED12D45DD67"
+				type: "item"
+				item: "appliedenergistics2:annihilation_core"
+			}]
+			rewards: [{
+				id: "5D14F3C4384E5AC9"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 16.0d
+			y: -6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["1D1FE9C462047B2B"]
+			id: "11823692E7014281"
+			tasks: [{
+				id: "4195362086879D01"
+				type: "item"
+				item: "appliedenergistics2:formation_core"
+			}]
+			rewards: [{
+				id: "3EEA32C7AEC02846"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 8.0d
+			shape: "diamond"
+			description: ["Is used to craft &6Quantum Entangled Singularity&f and is produced inside a &6Matter Condenser&f."]
+			dependencies: ["75B51A2AEE99B05B"]
+			id: "1CF41105BD685060"
+			tasks: [{
+				id: "56EBC7CF501E1E2A"
+				type: "item"
+				item: "appliedenergistics2:singularity"
+			}]
+			rewards: [{
+				id: "391EE2307138D0D5"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 8.5d
+			shape: "diamond"
+			description: ["Required to create a connection between to &6Quantum Network Bridges&f, they are always produced in matching pairs, to create a connection place 1 of the pair of&b Quantum Entangled Singularity&f into the of the bridge on each side."]
+			dependencies: ["1CF41105BD685060"]
+			id: "265571ED01E8FAD9"
+			tasks: [{
+				id: "68E32E960FF1A072"
+				type: "item"
+				item: "appliedenergistics2:quantum_entangled_singularity"
+			}]
+			rewards: [{
+				id: "0FAAE5FEAB52F125"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 7.5d
+			shape: "diamond"
+			description: ["Has two key functions, ellimination of excess materials in a cheap manor, and the production of &6Singularity &fand &6Matter Balls&f."]
+			id: "75B51A2AEE99B05B"
+			tasks: [{
+				id: "0669691565CED903"
+				type: "item"
+				item: "appliedenergistics2:condenser"
+			}]
+			rewards: [{
+				id: "1D0C36C4F0F7A97C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 8.0d
+			shape: "diamond"
+			dependencies: ["75B51A2AEE99B05B"]
+			id: "2DEFFB0D17354CD9"
+			tasks: [{
+				id: "19E6062A635B21DA"
+				type: "item"
+				item: "appliedenergistics2:matter_ball"
+			}]
+			rewards: [
+				{
+					id: "72399F40306EF15F"
+					type: "loot"
+					table_id: 4063386593177790740L
+				}
+				{
+					id: "362908F873423028"
+					type: "item"
+					item: "appliedenergistics2:matter_ball"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 8.5d
+			shape: "diamond"
+			dependencies: ["2DEFFB0D17354CD9"]
+			id: "6C39B494C9526E18"
+			tasks: [{
+				id: "6C35D26D87C3D848"
+				type: "item"
+				item: "lazierae2:spec_core_64"
+			}]
+			rewards: [{
+				id: "377206FED120EA8A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -7.0d
+			shape: "diamond"
+			description: ["The &bCharger &fprovides a way to charge supported tools through the ME Network or can be hand cranked using a Wooden Crank which while ineffective can be useful if you have no other means for power generation."]
+			id: "56F93274C075EC56"
+			tasks: [{
+				id: "5F5E02D927FD05BA"
+				type: "item"
+				item: "appliedenergistics2:charger"
+			}]
+			rewards: [{
+				id: "296191EBD1900D56"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "ME Bridge"
+			x: 12.0d
+			y: 9.0d
+			shape: "diamond"
+			description: [
+				"One of these blocks surrounded by a &6ME Quantum Rings &fwill create a Quantum Network Bridge. This block dosn't connect to any cables and only registers as part of the network with the full bridge is made."
+				""
+				"Eight of these blocks placed around a &6ME Quantum Link Chamber &fwill create a &6Quantum Network Bridge&f. Only the 4 ME Quantum Ring blocks adjcent to the ME Quantum Link Chamber will accept network connections, the 4 corner blocks cannot connect to cables."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1C8663F4A69580E4"
+				"1D1FE9C462047B2B"
+				"7027D5234A96CE58"
+			]
+			id: "5B4141C7DEA3EDD7"
+			tasks: [
+				{
+					id: "50429F01DF92B0B6"
+					type: "item"
+					item: "appliedenergistics2:quantum_link"
+				}
+				{
+					id: "7E183BA57B66766D"
+					type: "item"
+					item: "appliedenergistics2:quantum_ring"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "509F39B99BEE05CA"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+				{
+					id: "2E582AF94FF81883"
+					type: "item"
+					item: "appliedenergistics2:quantum_link"
+				}
+				{
+					id: "5F27567D5836BC52"
+					type: "item"
+					item: "appliedenergistics2:quantum_ring"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "ME Smart Cable"
+			x: 6.5d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["44DFB297E35FA720"]
+			id: "2B4EB73055F5B76A"
+			tasks: [{
+				id: "73AE6A46DD3BF31A"
+				type: "item"
+				title: "ME Smart Cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "appliedenergistics2:smart_cable"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C6975A8F71BF54C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "ME Covered Cable"
+			x: 7.0d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["61B717C5AE7C9455"]
+			id: "44DFB297E35FA720"
+			tasks: [{
+				id: "6A46F4F8A94B648E"
+				type: "item"
+				title: "ME Covered Cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "appliedenergistics2:covered_cable"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1369EF8B813B6660"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "ME Glass Cable"
+			x: 7.5d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["44328E67DB5C3179"]
+			id: "61B717C5AE7C9455"
+			tasks: [{
+				id: "00374906E91B0B21"
+				type: "item"
+				title: "ME Glass Cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "appliedenergistics2:glass_cable"
+					}
+				}
+			}]
+			rewards: [{
+				id: "03CD26ABB35622CF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "ME Dense Fluix Cable"
+			x: 8.5d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["0B065A924F19AE3C"]
+			id: "1C8663F4A69580E4"
+			tasks: [{
+				id: "6A96F2E991C5A29C"
+				type: "item"
+				title: "ME Dense Fluix Cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "appliedenergistics2:smart_dense_cable"
+					}
+				}
+			}]
+			rewards: [{
+				id: "47D28B0FDC5F0E10"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "ME Dense Covered Cable"
+			x: 8.0d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["61B717C5AE7C9455"]
+			id: "0B065A924F19AE3C"
+			tasks: [{
+				id: "3826D1929F750DFA"
+				type: "item"
+				title: "ME Dense Covered Cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "appliedenergistics2:covered_dense_cable"
+					}
+				}
+			}]
+			rewards: [{
+				id: "38682E65618A6362"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			shape: "diamond"
+			id: "44328E67DB5C3179"
+			tasks: [{
+				id: "5CE35E331CE409A9"
+				type: "item"
+				item: "appliedenergistics2:quartz_fiber"
+			}]
+			rewards: [{
+				id: "530F348FFCBB6801"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -5.5d
+			shape: "diamond"
+			description: ["The &bME Export Bus &fextracts items from the ME Network's Networked Storage and places them into the inventory it faces. You must configure which items it will insert, leaving the configuration blank will result in nothing. The ME Export Bus will try to export any of the items on its list skipping over those it cannot fit into the destination. The ME Export Bus requires a channel to function."]
+			hide_dependency_lines: true
+			dependencies: ["11823692E7014281"]
+			id: "401B93F461C55D20"
+			tasks: [{
+				id: "5A0648F4925E5439"
+				type: "item"
+				item: "appliedenergistics2:export_bus"
+			}]
+			rewards: [{
+				id: "01EC953DEF2B1F66"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -5.0d
+			shape: "diamond"
+			description: ["Pulls items from the inventory it is pointed at and places them into the ME Network's Networked Storage. You can specify which items it will pull out via the UI, else it tries to pull out any item in the adjacent inventory. The &bME Import Bus &fwill attempt to import any possible options, even if 1 or more of the configured items cannot be stored. The ME Import Bus requires a channel to function."]
+			hide_dependency_lines: true
+			dependencies: ["25D54F1E8D739561"]
+			id: "472BC7AAE09B069F"
+			tasks: [{
+				id: "49DAB8DFE257568C"
+				type: "item"
+				item: "appliedenergistics2:import_bus"
+			}]
+			rewards: [{
+				id: "531072C042F0F9E3"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -5.0d
+			shape: "diamond"
+			description: ["The &bME Storage Bus&f, when attached to another inventory block in the world lets you access that inventory via networked functions. This allows you to use chests, barrels, or other types of item storage in your networks."]
+			hide_dependency_lines: true
+			dependencies: ["305465326799C215"]
+			id: "20463BACD7A461CC"
+			tasks: [{
+				id: "445CF1704281F8BD"
+				type: "item"
+				item: "appliedenergistics2:storage_bus"
+			}]
+			rewards: [{
+				id: "29AF2413C48CAC5E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -7.5d
+			shape: "diamond"
+			description: ["The &bEnergy Acceptor &fconverts energy from external systems into AE and stores it into the &6ME Network&f."]
+			id: "665B739CEEE3797E"
+			tasks: [{
+				id: "0B288CF46CA3B43B"
+				type: "item"
+				item: "appliedenergistics2:energy_acceptor"
+			}]
+			rewards: [{
+				id: "357B5646B4EE75C1"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -7.5d
+			shape: "diamond"
+			description: ["&bEnergy Cells &fstore up to 200,000 AE. They do not accept power directly but are used to add additional power storage to an already existing &6ME Network&f."]
+			dependencies: [
+				"604B00E2A032DB53"
+				"76B3F0738BEBD4E9"
+			]
+			id: "4B83B6658F6E394E"
+			tasks: [{
+				id: "4F18F5CD93D67E63"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "59F793478501F946"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			icon: "appliedenergistics2:grindstone"
+			x: 16.0d
+			y: -8.0d
+			shape: "diamond"
+			description: ["The &bQuartz Grindstone &fprovides a low tech solution for getting more out of your mining trips. It is much cheaper than its more high-tech counter parts of other mods, but it is slow and a considerable time sink, but what else do you have to do while smelting those dusts? Why not grind up some other ores into dusts?"]
+			id: "5E4C35A57D261A6A"
+			tasks: [
+				{
+					id: "28E8134936E4DF08"
+					type: "item"
+					item: "appliedenergistics2:grindstone"
+				}
+				{
+					id: "7EC13D5BA0913ECD"
+					type: "item"
+					item: "appliedenergistics2:crank"
+				}
+			]
+			rewards: [{
+				id: "6705F154CAF8BB18"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -8.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5AE9994C653AE5D6"]
+			id: "2D557044EC561D50"
+			tasks: [{
+				id: "3B347D89F5DBF319"
+				type: "item"
+				item: "appliedenergistics2:network_tool"
+			}]
+			rewards: [{
+				id: "0A1C67040ED32A8E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 6.5d
+			shape: "diamond"
+			description: ["After you linked up the Wireless Terminal in the &6ME Security Terminal&f, it grants a portable access to the ME Network. Put it into a Charger to recharge it."]
+			hide_dependency_lines: true
+			dependencies: [
+				"7B4E8939AC013302"
+				"4B83B6658F6E394E"
+			]
+			id: "7326A06A7FEF2F04"
+			tasks: [{
+				id: "041682A42441E33D"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:wireless_terminal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3CFC7DA73BE6927F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 6.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["7326A06A7FEF2F04"]
+			id: "0784D4C6FBA8817B"
+			tasks: [{
+				id: "6D4FC4EEA415C55C"
+				type: "item"
+				item: {
+					id: "ae2wtlib:wireless_crafting_terminal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "042D114946B4A5DC"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["736C36EFE909F8CD"]
+			id: "64581AED87779851"
+			tasks: [{
+				id: "756F690F5BDEFCFD"
+				type: "item"
+				item: "ae2wtlib:infinity_booster_card"
+			}]
+			rewards: [{
+				id: "5D7145052A84EF6E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+	]
+}

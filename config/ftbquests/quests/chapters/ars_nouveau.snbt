@@ -1,0 +1,1324 @@
+{
+	id: "3149F0A88E46E869"
+	group: "1D8552F8A45BF753"
+	order_index: 1
+	filename: "ars_nouveau"
+	title: "Ars Nouveau"
+	icon: "ars_nouveau:creative_spell_book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Mana gem"
+			x: 0.0d
+			y: 0.0d
+			description: ["The primary ore for this mod"]
+			hide_dependency_lines: true
+			dependencies: ["2C3143BACB0592E9"]
+			hide: true
+			id: "5776690626AB11D3"
+			tasks: [{
+				id: "48EBD3CF0BDE0464"
+				type: "item"
+				item: "ars_nouveau:mana_gem"
+				count: 16L
+			}]
+			rewards: [{
+				id: "09A21089C01F3D1C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.0d
+			description: ["Enter the new ars"]
+			dependencies: ["4A44A6FE8FD947B6"]
+			hide: true
+			id: "2C3143BACB0592E9"
+			tasks: [{
+				id: "07AFA112C305E05A"
+				type: "item"
+				item: "ars_nouveau:worn_notebook"
+			}]
+			rewards: [{
+				id: "3A795327FAA59AE2"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.0d
+			description: ["A new seed"]
+			id: "36FAF61E7E63E06D"
+			tasks: [{
+				id: "5BB590AB5D6774AA"
+				type: "item"
+				item: "ars_nouveau:mana_berry"
+			}]
+			rewards: [{
+				id: "13BC7203FBD8D3E2"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			description: ["Will regen faster your mana"]
+			dependencies: ["36FAF61E7E63E06D"]
+			id: "2378F549BF86C8F1"
+			tasks: [{
+				id: "2EF013F4BB57696A"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "ars_nouveau:mana_regen_potion"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5A30D36CA8676659"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.5d
+			description: ["Can countain a lot of potion"]
+			hide_dependency_lines: true
+			dependencies: ["5776690626AB11D3"]
+			hide: true
+			id: "4F5EB894CB99F3B7"
+			tasks: [{
+				id: "0CF24CD3712B29AE"
+				type: "item"
+				item: "ars_nouveau:potion_jar"
+			}]
+			rewards: [{
+				id: "6E282D5523A31C51"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.0d
+			description: ["An automated version of the brewing stand"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4F5EB894CB99F3B7"
+				"13ECF17994290FF8"
+			]
+			hide: true
+			id: "058DCC593426560A"
+			tasks: [{
+				id: "71E35A6F6801311E"
+				type: "item"
+				item: "ars_nouveau:potion_melder"
+			}]
+			rewards: [{
+				id: "7C12AA7DAC1AF5A6"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.5d
+			description: ["Will countain a larger amount of potion"]
+			dependencies: ["058DCC593426560A"]
+			id: "2EE0A9D23E19779F"
+			tasks: [{
+				id: "1F78FD45434FAF6A"
+				type: "item"
+				item: "ars_nouveau:potion_flask"
+			}]
+			rewards: [{
+				id: "54439B8B68C26F06"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 6.0d
+			description: ["This flask augmant the duracy of the potion"]
+			dependencies: ["2EE0A9D23E19779F"]
+			id: "09193B0C52F35E54"
+			tasks: [{
+				id: "6B558FE7AC6AEB48"
+				type: "item"
+				item: "ars_nouveau:potion_flask_extend_time"
+			}]
+			rewards: [{
+				id: "6E61BDAA7FAB56E6"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 6.0d
+			description: ["This flask augment the effect of the potion"]
+			dependencies: ["2EE0A9D23E19779F"]
+			id: "77661DB31FF0F00A"
+			tasks: [{
+				id: "6E77BEA0E8DAE579"
+				type: "item"
+				item: "ars_nouveau:potion_flask_amplify"
+			}]
+			rewards: [{
+				id: "5E7E74089F953DAD"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			description: ["This wand permit you to link"]
+			hide_dependency_lines: true
+			dependencies: ["13ECF17994290FF8"]
+			hide: true
+			id: "22235B6788A41E43"
+			tasks: [{
+				id: "6E274EFF17BD4682"
+				type: "item"
+				item: "ars_nouveau:dominion_wand"
+			}]
+			rewards: [{
+				id: "0A08AEC5CE7F88E0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			description: ["Need to transport mana"]
+			dependencies: ["22235B6788A41E43"]
+			id: "6EE8986D6BF0CB22"
+			tasks: [{
+				id: "482B5C48549A2187"
+				type: "item"
+				item: "ars_nouveau:arcane_relay"
+			}]
+			rewards: [{
+				id: "448E6AD37B6806D0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 7.0d
+			description: ["Can split mana in multiple way"]
+			dependencies: ["6EE8986D6BF0CB22"]
+			id: "2F05E7BF1220AC45"
+			tasks: [{
+				id: "7CF71BAC66F5D7BD"
+				type: "item"
+				item: "ars_nouveau:arcane_relay_splitter"
+			}]
+			rewards: [{
+				id: "5A982C4FFB9AEA18"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			description: ["Can countain mana"]
+			dependencies: ["5776690626AB11D3"]
+			id: "17AEDD9B9E249661"
+			tasks: [{
+				id: "6E5DD3B8EA750031"
+				type: "item"
+				item: "ars_nouveau:mana_jar"
+			}]
+			rewards: [{
+				id: "4BC9E0D465C8D359"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			description: [
+				"The mana condenser will create mana from growing thing like crops or animal birth"
+				"Warning you can not put 2 in the same range (9x9)"
+			]
+			dependencies: ["17AEDD9B9E249661"]
+			id: "2C674E27EA9091AC"
+			tasks: [{
+				id: "5D73AFBAEBE3A817"
+				type: "item"
+				item: "ars_nouveau:mana_condenser"
+			}]
+			rewards: [{
+				id: "0F55E71106CBEAC8"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			description: ["Will create mana from lava  (don't have a limit )"]
+			dependencies: ["17AEDD9B9E249661"]
+			id: "40FF29FF508397B4"
+			tasks: [{
+				id: "6F42C652A51942EA"
+				type: "item"
+				item: "ars_nouveau:volcanic_accumulator"
+			}]
+			rewards: [{
+				id: "42D0C53B7580FCCF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Warding stone"
+			x: 1.0d
+			y: 1.0d
+			description: ["The mob can not pass over this stone"]
+			dependencies: ["5776690626AB11D3"]
+			id: "607EC6EB1D915590"
+			tasks: [{
+				id: "61055897FCD31ECF"
+				type: "item"
+				item: "ars_nouveau:warding_stone"
+				count: 16L
+			}]
+			rewards: [{
+				id: "15594D5963366F47"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["5776690626AB11D3"]
+			id: "35686F55ECCEDEB5"
+			tasks: [{
+				id: "699D5C04B7100238"
+				type: "item"
+				item: "ars_nouveau:marvelous_clay"
+			}]
+			rewards: [{
+				id: "0D001EA01FD253E5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["5776690626AB11D3"]
+			id: "301FDAEE26B0B310"
+			tasks: [{
+				id: "60E4FFCD52CA0CC6"
+				type: "item"
+				item: "ars_nouveau:magic_clay"
+			}]
+			rewards: [{
+				id: "137F4E7DC203D58D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["5776690626AB11D3"]
+			id: "7476BFD263AE3C3A"
+			tasks: [{
+				id: "70C253E29EAC3A94"
+				type: "item"
+				item: "ars_nouveau:mythical_clay"
+			}]
+			rewards: [{
+				id: "356B43B6AE3C57AF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			description: ["This machine will create glyph or item"]
+			dependencies: [
+				"301FDAEE26B0B310"
+				"35686F55ECCEDEB5"
+				"7476BFD263AE3C3A"
+			]
+			id: "2805409DFA1A3522"
+			tasks: [{
+				id: "002F8E93307CA9DE"
+				type: "item"
+				item: "ars_nouveau:glyph_press"
+			}]
+			rewards: [{
+				id: "23A65C04F7F55663"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			description: ["Will create gem from mana"]
+			dependencies: ["5776690626AB11D3"]
+			id: "0FBA19A80AB3B5C4"
+			tasks: [{
+				id: "32FA02FA93F8BB0F"
+				type: "item"
+				item: "ars_nouveau:crystallizer"
+			}]
+			rewards: [{
+				id: "0804E582FA4396AC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			description: ["The core for the enchantig aparathus"]
+			dependencies: ["5776690626AB11D3"]
+			id: "7CA16C5B91E06D7B"
+			tasks: [{
+				id: "5FF207562D5C5759"
+				type: "item"
+				item: "ars_nouveau:arcane_core"
+			}]
+			rewards: [{
+				id: "72E052CE92EE9775"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			icon: "ars_nouveau:enchanting_apparatus"
+			x: -2.0d
+			y: -2.0d
+			description: [
+				"Place the enchanting aparathus on the core"
+				"and the pedestal around"
+				"&lObviously need mana"
+			]
+			dependencies: ["7CA16C5B91E06D7B"]
+			id: "13ECF17994290FF8"
+			tasks: [
+				{
+					id: "17F1CB25C0793EFB"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+				{
+					id: "3AFC3DBC4B9CF370"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "386924A91CEB86C9"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Bloom"
+			x: -2.0d
+			y: -4.0d
+			subtitle: "You mean Boom ??"
+			description: ["A new seed for new craft"]
+			hide_dependency_lines: true
+			dependencies: ["13ECF17994290FF8"]
+			hide: true
+			id: "18D711B3F17EE1B5"
+			tasks: [
+				{
+					id: "4FA99CE76BD852F9"
+					type: "item"
+					item: "ars_nouveau:mana_bloom_crop"
+				}
+				{
+					id: "64625236CA394F20"
+					type: "item"
+					item: "ars_nouveau:mana_bloom"
+				}
+			]
+			rewards: [{
+				id: "53597706F5B59A6D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Fiber"
+			x: 0.0d
+			y: -4.0d
+			description: ["Itch material can craft a new and better armor than te previous"]
+			dependencies: ["18D711B3F17EE1B5"]
+			id: "0859D403F9FDBE8A"
+			tasks: [
+				{
+					id: "26F74FFFB6CB41E8"
+					type: "item"
+					item: "ars_nouveau:mana_fiber"
+				}
+				{
+					id: "6E160D7A1F005671"
+					type: "item"
+					item: "ars_nouveau:blaze_fiber"
+				}
+				{
+					id: "58934330F42E9AC2"
+					type: "item"
+					item: "ars_nouveau:end_fiber"
+				}
+			]
+			rewards: [{
+				id: "0D2682D2D792AE40"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			description: ["This pet will transport item "]
+			hide_dependency_lines: true
+			dependencies: ["13ECF17994290FF8"]
+			hide: true
+			id: "6784B1D14C0297D1"
+			tasks: [{
+				id: "1B6ED8D5961B8AAB"
+				type: "item"
+				item: "ars_nouveau:carbuncle_charm"
+			}]
+			rewards: [{
+				id: "647D4E34102D92E4"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			icon: "ars_nouveau:whelp_charm"
+			x: 4.0d
+			y: -2.0d
+			description: ["will grab item like vacum hopper"]
+			hide_dependency_lines: true
+			dependencies: ["13ECF17994290FF8"]
+			hide: true
+			id: "78357E10107D5547"
+			tasks: [
+				{
+					id: "5121ACAF9EB1D887"
+					type: "item"
+					item: "ars_nouveau:whelp_charm"
+				}
+				{
+					id: "0D49FF993056BB54"
+					type: "item"
+					item: "ars_nouveau:summoning_crystal"
+				}
+			]
+			rewards: [{
+				id: "08F0C629DD630B55"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			shape: "diamond"
+			subtitle: "The shard of the fallen pet was an old artifact created by some insane mages who tried to create the most powerful pet, but their creation was too powerful to handle a simple countaining artifact, their pet was desecrated and started to ravage the world. In his last hope, a young mage called &d&kdfdf&r sealed him in a newly discovered dimansion. Ever since the day if someone tried to recreate this summoning artifact, this newly created move instantly corupted because it may have one soul of an &0EnderDargon dragon&r."
+			dependencies: [
+				"6784B1D14C0297D1"
+				"71D77C0887FD4495"
+				"78357E10107D5547"
+				"0C3D2F374DE1B94B"
+			]
+			hide: true
+			size: 1.5d
+			id: "76A757AA9F1EF7CF"
+			tasks: [{
+				id: "472BF63C80051F4A"
+				type: "item"
+				item: "kubejs:fallen_pet"
+			}]
+			rewards: [{
+				id: "01907DE822B2F60C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			description: ["This pet will generate wood with the ambiant tree. More the tree a diversifed more the pyxie work fast"]
+			hide_dependency_lines: true
+			dependencies: ["13ECF17994290FF8"]
+			hide: true
+			id: "71D77C0887FD4495"
+			tasks: [{
+				id: "66EE59C2AE7216D1"
+				type: "item"
+				item: "ars_nouveau:sylph_charm"
+			}]
+			rewards: [{
+				id: "300092B824717856"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			icon: "ars_nouveau:wixie_charm"
+			x: 6.0d
+			y: -2.0d
+			description: ["will autocraft item and potion"]
+			hide_dependency_lines: true
+			dependencies: ["13ECF17994290FF8"]
+			hide: true
+			id: "0C3D2F374DE1B94B"
+			tasks: [
+				{
+					id: "261ABDE2C91DDA81"
+					type: "item"
+					item: "ars_nouveau:wixie_charm"
+				}
+				{
+					id: "54F9BF267C50BD2E"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+			]
+			rewards: [{
+				id: "07EA736D3BB48345"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			description: ["Need to asigned speel to item or to parchment"]
+			hide_dependency_lines: true
+			dependencies: ["521852C9625B5CB2"]
+			hide: true
+			id: "7C89CC353B9E99D6"
+			tasks: [{
+				id: "377164B251DFEFE6"
+				type: "item"
+				item: "ars_nouveau:scribes_table"
+			}]
+			rewards: [{
+				id: "188E571B4285D3F5"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			description: ["Need to craft every aspect of parchment"]
+			dependencies: ["7C89CC353B9E99D6"]
+			id: "1E6E3EDE5806502E"
+			tasks: [{
+				id: "2CDC37DDA1DC3AA2"
+				type: "item"
+				item: "ars_nouveau:blank_parchment"
+			}]
+			rewards: [{
+				id: "0F503CA432BFD28F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			description: [
+				"Shift + right click will save you location"
+				"Right click will teleport to item but consue you scroll"
+			]
+			dependencies: ["1E6E3EDE5806502E"]
+			id: "001E32C15F3054F8"
+			tasks: [{
+				id: "7B26F7730645D010"
+				type: "item"
+				item: "ars_nouveau:warp_scroll"
+			}]
+			rewards: [{
+				id: "399635A09D484D33"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			description: ["Throw the warp scroll in a portal make frome this stone will create a portal to the destination"]
+			dependencies: ["001E32C15F3054F8"]
+			id: "54A6DD4596C441EA"
+			tasks: [{
+				id: "5269A17087FF8243"
+				type: "item"
+				item: "ars_nouveau:arcane_bricks"
+			}]
+			rewards: [{
+				id: "00B5BFD0C3CCD399"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			description: ["Whitlist or blacklist for pet"]
+			dependencies: ["1E6E3EDE5806502E"]
+			id: "6C4AD852649DE5E7"
+			tasks: [
+				{
+					id: "44C122B0AD78C78B"
+					type: "item"
+					item: "ars_nouveau:allow_scroll"
+				}
+				{
+					id: "7AA2FCCE78734B00"
+					type: "item"
+					item: "ars_nouveau:deny_scroll"
+				}
+			]
+			rewards: [{
+				id: "0837F763F92104BE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			description: ["By puting him on the scrible table, you can apply spell from your spell book to the parchment "]
+			dependencies: ["1E6E3EDE5806502E"]
+			id: "6E549B8DC5D8122D"
+			tasks: [{
+				id: "317DC9767180CDB1"
+				type: "item"
+				item: "ars_nouveau:spell_parchment"
+			}]
+			rewards: [{
+				id: "58A26E7B7FB04117"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.0d
+			description: ["With a spell parchment you can apply spell to it, you can now automatise some spell or mining"]
+			dependencies: ["6E549B8DC5D8122D"]
+			id: "07F710A00F0739F0"
+			tasks: [{
+				id: "3DB898EBF0814B87"
+				type: "item"
+				item: "ars_nouveau:spell_turret"
+			}]
+			rewards: [{
+				id: "346DE36789F680E8"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			description: ["By rightclicking with a spell parchment to a draw runik chalk will apply the spell wrote on him"]
+			dependencies: ["6E549B8DC5D8122D"]
+			id: "28261B9D0AF1F24C"
+			tasks: [{
+				id: "1A9E79E239572FFC"
+				type: "item"
+				item: {
+					id: "ars_nouveau:runic_chalk"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3179994175F6287D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			description: ["Permit you to use magic"]
+			hide_dependency_lines: true
+			dependencies: ["5776690626AB11D3"]
+			hide: true
+			id: "521852C9625B5CB2"
+			tasks: [{
+				id: "4616E86FFD5DD96F"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+			rewards: [{
+				id: "5CC843A1932286C4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			description: ["Improved version of thhe novice"]
+			dependencies: ["521852C9625B5CB2"]
+			id: "748432B999DA2E80"
+			tasks: [{
+				id: "2C0B0144BAB6B3B3"
+				type: "item"
+				item: "ars_nouveau:apprentice_spell_book"
+			}]
+			rewards: [{
+				id: "53A381A31B7E3C97"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			description: ["Improved version of the mage"]
+			dependencies: ["748432B999DA2E80"]
+			id: "005BF8C83C4A98A2"
+			tasks: [{
+				id: "69D16B77E307DC83"
+				type: "item"
+				item: "ars_nouveau:archmage_spell_book"
+			}]
+			rewards: [{
+				id: "29CE06BB43415CF4"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			description: ["Will reduce mana cost"]
+			hide_dependency_lines: true
+			dependencies: ["0859D403F9FDBE8A"]
+			hide: true
+			id: "361E7EC42AC0DDCF"
+			tasks: [
+				{
+					id: "07F7E7E7E1B20B45"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5F2FE755CF417DA6"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "74B712F4BD6381AD"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2127855AC09F7E2E"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "353166BA9FF2846C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			description: ["Improved versio of the novice"]
+			hide_dependency_lines: true
+			dependencies: ["0859D403F9FDBE8A"]
+			hide: true
+			id: "27ABFB002F1A4A95"
+			tasks: [
+				{
+					id: "6574FB8286E7729A"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "73DFC8A849F4B9B0"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3E4BEE14FF9B68AD"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5EF26F69F63A4991"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7BE4869A263AADE4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			description: ["Improved version of the mage"]
+			hide_dependency_lines: true
+			dependencies: ["0859D403F9FDBE8A"]
+			hide: true
+			id: "1ACD4A94A87912F3"
+			tasks: [
+				{
+					id: "11425D86CF6B7774"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0FA7BE5078D71965"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3AC350AC74E76966"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "55AC91C4E8B7888C"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0A5755F337B1EAE7"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 6.5d
+			description: ["You can apply spell on the bow"]
+			hide_dependency_lines: true
+			dependencies: [
+				"13ECF17994290FF8"
+				"7C89CC353B9E99D6"
+			]
+			hide: true
+			id: "3C23C2213A2F06F3"
+			tasks: [{
+				id: "224C77A8CBE42DC7"
+				type: "item"
+				item: "ars_nouveau:spell_bow"
+			}]
+			rewards: [{
+				id: "624DB88647A1A9B1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 7.5d
+			description: ["Your arrow/spell bounce or pierce block/entities"]
+			dependencies: ["3C23C2213A2F06F3"]
+			id: "46385C679D037777"
+			tasks: [{
+				id: "0A3F2D964A94C63C"
+				type: "item"
+				item: "ars_nouveau:pierce_arrow"
+			}]
+			rewards: [{
+				id: "0B1A3F3AA05FAED0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 8.5d
+			description: ["2 arrow not once"]
+			dependencies: ["3C23C2213A2F06F3"]
+			id: "74CF2C8FD7AC0EA6"
+			tasks: [{
+				id: "416C975D3784CCF1"
+				type: "item"
+				item: "ars_nouveau:split_arrow"
+			}]
+			rewards: [{
+				id: "4B852FCED4F25DFB"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 7.5d
+			description: ["Dill more effect"]
+			dependencies: ["3C23C2213A2F06F3"]
+			id: "7CC2BFF996A9BDF8"
+			tasks: [{
+				id: "1A1AD4986700AB49"
+				type: "item"
+				item: "ars_nouveau:amplify_arrow"
+			}]
+			rewards: [{
+				id: "1441AC45FEDAF231"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.5d
+			description: ["On this sword you can apply spell with the enchant reactive"]
+			hide_dependency_lines: true
+			dependencies: [
+				"13ECF17994290FF8"
+				"7C89CC353B9E99D6"
+			]
+			hide: true
+			id: "6599FB2CBFDCC3D1"
+			tasks: [{
+				id: "3AA3F19553D33F3F"
+				type: "item"
+				item: {
+					id: "ars_nouveau:enchanters_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "14E91212A9D1257D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.5d
+			description: ["You can cast spell by apply spell this spell cost less mana but just one can be used"]
+			hide_dependency_lines: true
+			dependencies: [
+				"13ECF17994290FF8"
+				"7C89CC353B9E99D6"
+			]
+			hide: true
+			id: "28C73430EDDF0056"
+			tasks: [{
+				id: "41DEAF614EA0A6C2"
+				type: "item"
+				item: "ars_nouveau:wand"
+			}]
+			rewards: [{
+				id: "5AED84CE3957E847"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.0d
+			description: ["Will give you random benefic effect"]
+			hide_dependency_lines: true
+			dependencies: ["13ECF17994290FF8"]
+			hide: true
+			id: "67AB297C0A8DE714"
+			tasks: [{
+				id: "7201E292C090460B"
+				type: "item"
+				item: "ars_nouveau:belt_of_unstable_gifts"
+			}]
+			rewards: [{
+				id: "04A6F299791544C2"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 6.0d
+			description: ["You can \"\"Fly\"\""]
+			hide_dependency_lines: true
+			dependencies: ["13ECF17994290FF8"]
+			hide: true
+			id: "7A40613403EEADE4"
+			tasks: [{
+				id: "5FF2909CE03EEA9B"
+				type: "item"
+				item: "ars_nouveau:belt_of_levitation"
+			}]
+			rewards: [{
+				id: "243A76FDF001D302"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.0d
+			description: ["Reduce cost of mana"]
+			hide_dependency_lines: true
+			dependencies: ["13ECF17994290FF8"]
+			hide: true
+			id: "40457D0814AA136E"
+			tasks: [{
+				id: "061939B2F6D12868"
+				type: "item"
+				item: "ars_nouveau:ring_of_lesser_discount"
+			}]
+			rewards: [{
+				id: "7DBF4F01AA8B0CC3"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			description: ["Improved version"]
+			dependencies: ["40457D0814AA136E"]
+			id: "5830062BD868D4DB"
+			tasks: [{
+				id: "50B4F195695334E7"
+				type: "item"
+				item: "ars_nouveau:ring_of_greater_discount"
+			}]
+			rewards: [{
+				id: "29EC0E45DD0D3739"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.0d
+			description: ["Boost the number of mana"]
+			hide_dependency_lines: true
+			dependencies: ["13ECF17994290FF8"]
+			hide: true
+			id: "344E8A5F236AB532"
+			tasks: [{
+				id: "136C198F03DAC1F3"
+				type: "item"
+				item: "ars_nouveau:amulet_of_mana_boost"
+			}]
+			rewards: [{
+				id: "4362B856FD5723DD"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.0d
+			description: ["Regen you mana"]
+			hide_dependency_lines: true
+			dependencies: ["13ECF17994290FF8"]
+			hide: true
+			id: "15B20346839A9E6C"
+			tasks: [{
+				id: "0FC2FE2366DC4C73"
+				type: "item"
+				item: "ars_nouveau:amulet_of_mana_regen"
+			}]
+			rewards: [{
+				id: "3694322C198265DF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.0d
+			description: ["Place light in the world"]
+			hide_dependency_lines: true
+			dependencies: ["13ECF17994290FF8"]
+			hide: true
+			id: "6B872E25FA709F67"
+			tasks: [{
+				id: "5F0B0D3EC9179D6A"
+				type: "item"
+				item: {
+					id: "ars_nouveau:jar_of_light"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2E9F2C9747B3DA96"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 6.0d
+			description: ["A portable trash"]
+			hide_dependency_lines: true
+			dependencies: ["13ECF17994290FF8"]
+			hide: true
+			id: "06A20582723F351D"
+			tasks: [{
+				id: "5254C791DE42B833"
+				type: "item"
+				item: {
+					id: "ars_nouveau:void_jar"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4177008FF79B4DD4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			shape: "gear"
+			description: ["Enter in botania"]
+			hide_dependency_lines: true
+			dependencies: ["13ECF17994290FF8"]
+			hide: true
+			size: 3.0d
+			id: "1021DC75B3F6CBD8"
+			tasks: [{
+				id: "1D551966DD96A7E8"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			description: ["The glyph will earn new magic aspect"]
+			dependencies: ["2805409DFA1A3522"]
+			id: "7A51D504429FB28C"
+			tasks: [{
+				id: "324AEB1D07D05536"
+				type: "item"
+				item: "ars_nouveau:glyph_explosion"
+			}]
+			rewards: [
+				{
+					id: "0A4DE63949EB0743"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+				{
+					id: "5EBF4F9023C343D6"
+					type: "loot"
+					table_id: 4968239402355922629L
+				}
+			]
+		}
+	]
+}

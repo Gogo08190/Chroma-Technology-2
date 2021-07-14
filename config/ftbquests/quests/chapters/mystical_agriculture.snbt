@@ -1,0 +1,1512 @@
+{
+	id: "0B9927455580450E"
+	group: "1D8552F8A45BF753"
+	order_index: 4
+	filename: "mystical_agriculture"
+	title: "Mystical agriculture"
+	icon: "mysticalagriculture:master_infusion_crystal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "308889991F9AFE3A"
+			tasks: [{
+				id: "64BD4152CF670D8B"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -9.5d
+			hide_dependency_lines: true
+			dependencies: ["53DD39F0FFE9F397"]
+			id: "7E46BDC820AD265B"
+			tasks: [{
+				id: "59A3040EB4EB9B75"
+				type: "item"
+				item: {
+					id: "mysticaladaptations:insanium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1F67BD68F712220F"
+					type: "item"
+					item: "mysticalagradditions:insanium_ingot"
+				}
+				{
+					id: "63F77610796214CA"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["6AE79475672903F5"]
+			id: "0AE69B44F426A527"
+			tasks: [{
+				id: "47E8AEBF3BBA66A0"
+				type: "item"
+				item: {
+					id: "mysticaladaptations:insanium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "22E9444BA2F46A1E"
+					type: "item"
+					item: "mysticalagradditions:insanium_ingot"
+				}
+				{
+					id: "29FDDA2FBEF406E1"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["7D3371ACCE4E34E9"]
+			id: "74D0989291D38D9F"
+			tasks: [{
+				id: "6B8CA3C20802464C"
+				type: "item"
+				item: {
+					id: "mysticaladaptations:insanium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3B7F580EC467F0D5"
+					type: "item"
+					item: "mysticalagradditions:insanium_ingot"
+				}
+				{
+					id: "791C091DA637E705"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["0274498CAFA9D00C"]
+			id: "45BFA43217EE0A01"
+			tasks: [{
+				id: "66A7992821CAAA85"
+				type: "item"
+				item: {
+					id: "mysticaladaptations:insanium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "335473293B85C58A"
+					type: "item"
+					item: "mysticalagradditions:insanium_ingot"
+				}
+				{
+					id: "32D3B0DC809AC878"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -9.5d
+			hide_dependency_lines: true
+			dependencies: ["3CCDC695C9E91C27"]
+			id: "53DD39F0FFE9F397"
+			tasks: [{
+				id: "07DA1EE2769078E5"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:supremium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6D4DDE25A61C07B7"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+				{
+					id: "46BCC9E21FB7BDD3"
+					type: "item"
+					item: "mysticalagriculture:supremium_ingot"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["5A52FD8BAC032DF2"]
+			id: "6AE79475672903F5"
+			tasks: [{
+				id: "094C4691697FF5F1"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:supremium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "544FD21843006360"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+				{
+					id: "6147F146DD5FB583"
+					type: "item"
+					item: "mysticalagriculture:supremium_ingot"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["764766920C404B9F"]
+			id: "0274498CAFA9D00C"
+			tasks: [{
+				id: "661E46090CB57B56"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:supremium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5E5F2684FED46CB0"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+				{
+					id: "05232ECDAAAA46D2"
+					type: "item"
+					item: "mysticalagriculture:supremium_ingot"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["267371E00F874161"]
+			id: "7D3371ACCE4E34E9"
+			tasks: [{
+				id: "4B18CAFF411AEB30"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:supremium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0DBBA9A7B0C0C240"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+				{
+					id: "49D7BA882FF4FA48"
+					type: "item"
+					item: "mysticalagriculture:supremium_ingot"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -9.5d
+			hide_dependency_lines: true
+			dependencies: ["4DFF0326062DAAEA"]
+			id: "3CCDC695C9E91C27"
+			tasks: [{
+				id: "438ACD592F753AC1"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:imperium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2E51D41B9071BCEB"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["50BCE3064C23E72C"]
+			id: "5A52FD8BAC032DF2"
+			tasks: [{
+				id: "379A8E23345E89C9"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:imperium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3137EE9FDB445230"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["53108E4CA23E627B"]
+			id: "764766920C404B9F"
+			tasks: [{
+				id: "0C8536696DEDF633"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:imperium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "10EEF6D1542CE650"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["0726F472955A2384"]
+			id: "267371E00F874161"
+			tasks: [{
+				id: "135955F7263823A7"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:imperium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5A9F76A14A85BCBE"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -9.5d
+			hide_dependency_lines: true
+			dependencies: ["6815BED626EDF37C"]
+			id: "4DFF0326062DAAEA"
+			tasks: [{
+				id: "6F00F022C919C58D"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:tertium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "02D1705A242F2E40"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["0D4433B426017FCB"]
+			id: "50BCE3064C23E72C"
+			tasks: [{
+				id: "214AABFAC0AFE241"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:tertium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "40E35DE699482DFF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["60B259E7465A6EE7"]
+			id: "53108E4CA23E627B"
+			tasks: [{
+				id: "33288E78746C36FE"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:tertium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E5932DC9BB35B32"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["551480CCC7E90C2D"]
+			id: "0726F472955A2384"
+			tasks: [{
+				id: "675A2D889791041E"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:tertium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "55211811831C96FE"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -9.5d
+			hide_dependency_lines: true
+			dependencies: ["0FCBCF8406CB8697"]
+			id: "6815BED626EDF37C"
+			tasks: [{
+				id: "79720E50C7E3DB75"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:prudentium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "46E17B95ECAC371E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["5D299E3D610312DB"]
+			id: "0D4433B426017FCB"
+			tasks: [{
+				id: "7040AAA8CB5B5014"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:prudentium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "63A3A02DDC8A8376"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["511BB9E5143009B2"]
+			id: "60B259E7465A6EE7"
+			tasks: [{
+				id: "7033C2065D2EEC75"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:prudentium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "486D8022B362C8B4"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["3F5F46149F8018F7"]
+			id: "551480CCC7E90C2D"
+			tasks: [{
+				id: "4CBEB5089301B1F8"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:prudentium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6395E6D7D8031D70"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -9.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"51E3F2B05CAFB8FC"
+				"308889991F9AFE3A"
+			]
+			id: "0FCBCF8406CB8697"
+			tasks: [{
+				id: "17FEB62B0F0FB9BF"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:inferium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "097E374F91010F90"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"51E3F2B05CAFB8FC"
+				"308889991F9AFE3A"
+			]
+			id: "5D299E3D610312DB"
+			tasks: [{
+				id: "075522563AE991FA"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:inferium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "37E489396AA05982"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"51E3F2B05CAFB8FC"
+				"308889991F9AFE3A"
+			]
+			id: "511BB9E5143009B2"
+			tasks: [{
+				id: "41AC8CD36C70E129"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:inferium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5833C5686CCF7E51"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"51E3F2B05CAFB8FC"
+				"308889991F9AFE3A"
+			]
+			id: "3F5F46149F8018F7"
+			tasks: [{
+				id: "390B74C272FFCC09"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:inferium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E91C6DAC8A9489E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["547746DAC84806EC"]
+			id: "51E3F2B05CAFB8FC"
+			tasks: [{
+				id: "3C927478CA7F9214"
+				type: "item"
+				item: "mysticalagriculture:inferium_gemstone"
+			}]
+			rewards: [{
+				id: "537CAEB05C89A27A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			dependencies: ["547746DAC84806EC"]
+			id: "08E8BA3B8BB04536"
+			tasks: [{
+				id: "6ACAF0D5C5AD5A60"
+				type: "item"
+				item: "mysticalagriculture:prudentium_gemstone"
+			}]
+			rewards: [{
+				id: "78CC81C786618707"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			dependencies: ["547746DAC84806EC"]
+			id: "0D40B7DC7835F770"
+			tasks: [{
+				id: "6D14AADEC66F7705"
+				type: "item"
+				item: "mysticalagriculture:tertium_gemstone"
+			}]
+			rewards: [{
+				id: "36AAE0097481BACF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.5d
+			dependencies: ["547746DAC84806EC"]
+			id: "02008B3149EA043D"
+			tasks: [{
+				id: "04E8F6E176DB4CC0"
+				type: "item"
+				item: "mysticalagriculture:imperium_gemstone"
+			}]
+			rewards: [{
+				id: "02788ADB0F56B186"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			dependencies: ["547746DAC84806EC"]
+			id: "65498C38145E28C0"
+			tasks: [{
+				id: "547019732621E094"
+				type: "item"
+				item: "mysticalagriculture:supremium_gemstone"
+			}]
+			rewards: [{
+				id: "4E7B4EA21956BCF9"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["547746DAC84806EC"]
+			id: "79F62619CEDCED48"
+			tasks: [{
+				id: "0CA12B8A0D6CC230"
+				type: "item"
+				item: "mysticalagradditions:insanium_gemstone"
+			}]
+			rewards: [{
+				id: "1331BBB39C2FDC1F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			dependencies: ["5F3A506C3A29C9C9"]
+			id: "547746DAC84806EC"
+			tasks: [{
+				id: "4534CC60F864F708"
+				type: "item"
+				item: "mysticalagriculture:prosperity_gemstone"
+			}]
+			rewards: [{
+				id: "5F8AF4540EE602C3"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			dependencies: ["5F3A506C3A29C9C9"]
+			id: "7582E13771AF2AE5"
+			tasks: [{
+				id: "2A2BF2E8A3F03C0B"
+				type: "item"
+				item: "mysticalagriculture:prosperity_ingot"
+			}]
+			rewards: [{
+				id: "503F15CE6239DBFF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["5F3A506C3A29C9C9"]
+			id: "011E9A23C1E3AE00"
+			tasks: [{
+				id: "42A1515BD72A97FC"
+				type: "item"
+				item: "mysticalagriculture:soulium_ingot"
+			}]
+			rewards: [{
+				id: "399915757D34E432"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["7582E13771AF2AE5"]
+			id: "342AE2B9DDEEFAD9"
+			tasks: [{
+				id: "2A0706968F9103BE"
+				type: "item"
+				item: "mysticalagriculture:inferium_ingot"
+			}]
+			rewards: [{
+				id: "311DA357B9B05BB1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["7582E13771AF2AE5"]
+			id: "6EE10BFF6F9CAF0E"
+			tasks: [{
+				id: "246F1DBCF62BC054"
+				type: "item"
+				item: "mysticalagriculture:prudentium_ingot"
+			}]
+			rewards: [{
+				id: "44BBD323E0C965B1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["7582E13771AF2AE5"]
+			id: "74D6C743AAAA8F6A"
+			tasks: [{
+				id: "3845FD6779EF88E8"
+				type: "item"
+				item: "mysticalagriculture:tertium_ingot"
+			}]
+			rewards: [{
+				id: "613F2F48D90AC5CF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			dependencies: ["7582E13771AF2AE5"]
+			id: "7DD72EC23387AFC6"
+			tasks: [{
+				id: "28875E722FDB3124"
+				type: "item"
+				item: "mysticalagriculture:imperium_ingot"
+			}]
+			rewards: [{
+				id: "400F0B78E58B09D5"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			dependencies: ["7582E13771AF2AE5"]
+			id: "495DEF5B44C35F43"
+			tasks: [{
+				id: "60C6D65653B9365C"
+				type: "item"
+				item: "mysticalagriculture:supremium_ingot"
+			}]
+			rewards: [{
+				id: "08247E5E65B5DA03"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			dependencies: ["7582E13771AF2AE5"]
+			id: "1B3706B2A0C36C74"
+			tasks: [{
+				id: "58E92B471169B77B"
+				type: "item"
+				item: "mysticalagradditions:insanium_ingot"
+			}]
+			rewards: [{
+				id: "48DE57B0AFFAE8A7"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"342AE2B9DDEEFAD9"
+				"308889991F9AFE3A"
+			]
+			id: "691A18C22F952076"
+			tasks: [{
+				id: "640B70C7C2A5B098"
+				type: "item"
+				item: "mysticalagriculture:inferium_furnace"
+			}]
+			rewards: [{
+				id: "363193E60FA92F2B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.5d
+			dependencies: ["691A18C22F952076"]
+			id: "0A6D00DF193785AC"
+			tasks: [{
+				id: "4DF59A606037F179"
+				type: "item"
+				item: "mysticalagriculture:prudentium_furnace"
+			}]
+			rewards: [{
+				id: "6ADD4F31C43DE655"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -6.5d
+			dependencies: ["0A6D00DF193785AC"]
+			id: "4D7338C6D942D3F3"
+			tasks: [{
+				id: "149D97EC5393F836"
+				type: "item"
+				item: "mysticalagriculture:tertium_furnace"
+			}]
+			rewards: [{
+				id: "2811D4C121F9CDE1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -7.5d
+			dependencies: ["4D7338C6D942D3F3"]
+			id: "28D1920CC4E94617"
+			tasks: [{
+				id: "4EF1D19C0217D876"
+				type: "item"
+				item: "mysticalagriculture:imperium_furnace"
+			}]
+			rewards: [{
+				id: "7C859940C6606721"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -8.5d
+			dependencies: ["28D1920CC4E94617"]
+			id: "0D2B4DB50DCC632E"
+			tasks: [{
+				id: "7365C5168788DEBB"
+				type: "item"
+				item: "mysticalagriculture:supremium_furnace"
+			}]
+			rewards: [{
+				id: "692CF7309AC5B781"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -9.5d
+			dependencies: ["0D2B4DB50DCC632E"]
+			id: "056EBAF6ADF0B00F"
+			tasks: [{
+				id: "4C6946D710E0AE87"
+				type: "item"
+				item: "mysticaladaptations:insanium_furnace"
+			}]
+			rewards: [{
+				id: "742E0EE71A7274A0"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["4FD63B7B24C10B42"]
+			id: "4F7981BD12497BFC"
+			tasks: [{
+				id: "6B7EFB3EE300E669"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+			}]
+			rewards: [{
+				id: "48E13510BAA9170E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["4C9A19575A60F277"]
+			id: "4FD63B7B24C10B42"
+			tasks: [{
+				id: "5760D744878DD0D0"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+			}]
+			rewards: [{
+				id: "71E1FDBEDD5E8FAA"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["4BDFBE9EAA4D3A40"]
+			id: "4C9A19575A60F277"
+			tasks: [{
+				id: "1D948838DD56B7E8"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+			}]
+			rewards: [{
+				id: "07D271A76A624A40"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["6D774524A5846A82"]
+			id: "4BDFBE9EAA4D3A40"
+			tasks: [{
+				id: "19AF5489AB63B82C"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+			}]
+			rewards: [{
+				id: "5BC6490449CCB210"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["308889991F9AFE3A"]
+			id: "6D774524A5846A82"
+			tasks: [{
+				id: "027D1ACFC9F1D40B"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+			}]
+			rewards: [{
+				id: "7FA96C1C0D7865CD"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["7582E13771AF2AE5"]
+			id: "75024987D2672416"
+			tasks: [{
+				id: "5AB9C52E458304B3"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:infusion_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FA83F92BAFDAEDB"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["759BB5DF0F4EE0ED"]
+			id: "6F82E47A20F53B8E"
+			tasks: [{
+				id: "08EBEF6CC95DB932"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:passive_soulium_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5BA04F8B1C3B590F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			dependencies: ["759BB5DF0F4EE0ED"]
+			id: "0A458265C84B8B71"
+			tasks: [{
+				id: "68B6051882805742"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:hostile_soulium_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "26C321DD2318CC73"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			subtitle: "You need a redstone signal (button)"
+			dependencies: ["2B1E63E2EF6E34BE"]
+			id: "6189F7780B12D620"
+			tasks: [{
+				id: "157D3B217987B3D3"
+				type: "item"
+				item: "mysticalagriculture:infusion_altar"
+			}]
+			rewards: [{
+				id: "1A632079E1818540"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			subtitle: "Seeds T2"
+			hide_dependency_lines: true
+			dependencies: [
+				"6D774524A5846A82"
+				"1554E293B44167ED"
+			]
+			id: "2741486B3C591824"
+			tasks: [{
+				id: "1253A4C10A4809EA"
+				type: "item"
+				item: "mysticalagriculture:prudentium_farmland"
+			}]
+			rewards: [{
+				id: "0FC2EC1FBB75FEEE"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			shape: "circle"
+			subtitle: "Seeds T3"
+			hide_dependency_lines: true
+			dependencies: [
+				"4BDFBE9EAA4D3A40"
+				"2741486B3C591824"
+			]
+			id: "5A83E61A8E4AA632"
+			tasks: [{
+				id: "714F4344936DC6C6"
+				type: "item"
+				item: "mysticalagriculture:tertium_farmland"
+			}]
+			rewards: [{
+				id: "3A078167C7276C46"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			subtitle: "Seeds T4"
+			hide_dependency_lines: true
+			dependencies: [
+				"4C9A19575A60F277"
+				"5A83E61A8E4AA632"
+			]
+			id: "111F6BD1D7C839CA"
+			tasks: [{
+				id: "04D920B7E334696A"
+				type: "item"
+				item: "mysticalagriculture:imperium_farmland"
+			}]
+			rewards: [{
+				id: "523D09A58DBCC5BD"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			subtitle: "Seeds T5"
+			hide_dependency_lines: true
+			dependencies: [
+				"4FD63B7B24C10B42"
+				"111F6BD1D7C839CA"
+			]
+			id: "44D27D489BCAC12F"
+			tasks: [{
+				id: "2941D5E1874EF7F2"
+				type: "item"
+				item: "mysticalagriculture:supremium_farmland"
+			}]
+			rewards: [{
+				id: "51AEBC533C3EA7C4"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["011E9A23C1E3AE00"]
+			id: "759BB5DF0F4EE0ED"
+			tasks: [{
+				id: "1EB14AD72423EB09"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:soulium_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0C1660EB8AD7A330"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			id: "5F3A506C3A29C9C9"
+			tasks: [{
+				id: "7014F6145AFE5096"
+				type: "item"
+				item: "mysticalagriculture:prosperity_shard"
+			}]
+			rewards: [{
+				id: "30FFE70464D37753"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			dependencies: ["308889991F9AFE3A"]
+			id: "54480652B1D615BF"
+			tasks: [{
+				id: "5236273AE768ABEB"
+				type: "item"
+				item: "mysticalagriculture:inferium_seeds"
+			}]
+			rewards: [{
+				id: "7038AD1AC308D5FD"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -10.0d
+			shape: "octagon"
+			subtitle: "Upgrade your armor"
+			dependencies: ["2F50F0F80373268F"]
+			size: 1.5d
+			id: "2209832E7076F7C6"
+			tasks: [{
+				id: "28B59DD3E12B6397"
+				type: "item"
+				item: "mysticalagriculture:tinkering_table"
+			}]
+			rewards: [{
+				id: "1EFFF77F0268CB1A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -11.5d
+			hide_dependency_lines: true
+			dependencies: ["5F3A506C3A29C9C9"]
+			id: "2F50F0F80373268F"
+			tasks: [{
+				id: "47D83A2409820228"
+				type: "item"
+				item: "mysticalagriculture:unattuned_augment"
+			}]
+			rewards: [{
+				id: "511234B5A3CA0AEF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			dependencies: ["6189F7780B12D620"]
+			id: "5706E15C05D5987B"
+			tasks: [{
+				id: "33C783B44AE61D21"
+				type: "item"
+				item: "mysticalagriculture:infusion_pedestal"
+				count: 8L
+			}]
+			rewards: [{
+				id: "05D7EFC9FBADD914"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.5d
+			subtitle: "Seeds T6"
+			hide_dependency_lines: true
+			dependencies: [
+				"4F7981BD12497BFC"
+				"44D27D489BCAC12F"
+			]
+			id: "0C6AD4A400B874D5"
+			tasks: [{
+				id: "35405C134F3028A6"
+				type: "item"
+				item: "mysticalagradditions:insanium_farmland"
+			}]
+			rewards: [{
+				id: "6CF186E7553E6BC3"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.5d
+			dependencies: ["691A18C22F952076"]
+			id: "6EE7F86021B78FC7"
+			tasks: [{
+				id: "0652BA54F007A936"
+				type: "item"
+				item: "mysticalagradditions:inferium_coal"
+			}]
+			rewards: [{
+				id: "14882CD15858F2B1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.5d
+			dependencies: ["0A6D00DF193785AC"]
+			id: "661CA35AB37F3D32"
+			tasks: [{
+				id: "4DC05CAE03A73E41"
+				type: "item"
+				item: "mysticalagradditions:prudentium_coal"
+			}]
+			rewards: [{
+				id: "4973E1E0E5D8F21D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -6.5d
+			dependencies: ["4D7338C6D942D3F3"]
+			id: "726E89D6FBFCF2F2"
+			tasks: [{
+				id: "23618D2752B40C42"
+				type: "item"
+				item: "mysticalagradditions:tertium_coal"
+			}]
+			rewards: [{
+				id: "557076E27F15E8E4"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -7.5d
+			dependencies: ["28D1920CC4E94617"]
+			id: "7B9435185F11559D"
+			tasks: [{
+				id: "7F70D175C7696589"
+				type: "item"
+				item: "mysticalagradditions:imperium_coal"
+			}]
+			rewards: [{
+				id: "024532FFB980F34B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -8.5d
+			dependencies: ["0D2B4DB50DCC632E"]
+			id: "560CFC9FB1E6A785"
+			tasks: [{
+				id: "2FC69CFB3C5D8FB1"
+				type: "item"
+				item: "mysticalagradditions:supremium_coal"
+			}]
+			rewards: [{
+				id: "01B2001BCE4F99F8"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -9.5d
+			dependencies: ["056EBAF6ADF0B00F"]
+			id: "2B800A6BB10779D4"
+			tasks: [{
+				id: "76A3D3C45F51BCF0"
+				type: "item"
+				item: "mysticalagradditions:insanium_coal"
+			}]
+			rewards: [{
+				id: "3A0E989DBD5EDA7F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["342AE2B9DDEEFAD9"]
+			id: "269B913CE72D637B"
+			tasks: [{
+				id: "0C3A370E58C03860"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:inferium_watering_can"
+					Count: 1b
+					tag: {
+						Water: 0b
+						Active: 0b
+					}
+				}
+			}]
+			rewards: [{
+				id: "2835A0295C9CD204"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			description: ["The Master Infusion Crystal is unlimited. "]
+			dependencies: ["75024987D2672416"]
+			id: "184D6716473EB2F9"
+			tasks: [{
+				id: "2CA2642F7F0E165D"
+				type: "item"
+				item: "mysticalagriculture:master_infusion_crystal"
+			}]
+			rewards: [{
+				id: "372742A4ECC4B7C7"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			subtitle: "Seeds T1"
+			hide_dependency_lines: true
+			dependencies: ["308889991F9AFE3A"]
+			id: "1554E293B44167ED"
+			tasks: [{
+				id: "001B5D26089BAAE8"
+				type: "item"
+				item: "mysticalagriculture:inferium_farmland"
+			}]
+			rewards: [{
+				id: "35756351449DCAEB"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+	]
+}

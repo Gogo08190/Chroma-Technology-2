@@ -1,0 +1,143 @@
+{
+	id: "7F2BF784AA8F9AAF"
+	group: "674F2646E40CCF92"
+	order_index: 0
+	filename: "welcome"
+	title: "Welcome !"
+	icon: "thermal:signalum_gear"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "thermal:enderium_gear"
+			x: 0.0d
+			y: -1.0d
+			shape: "rsquare"
+			description: [
+				"Welcome to &bChroma Technology 2 !&r"
+				""
+				"This modpack is a mixed pack with &a&nExploration&r, &a&nMagic&r and &a&nTech&r."
+				""
+				"The main goal of this modpack is to go through all quests."
+				""
+				"Those are made to guide the player all along his survival but aren't mandatory."
+			]
+			size: 2.0d
+			id: "5C0C633D44AEFED9"
+			tasks: [{
+				id: "5EC4370D86132FA1"
+				type: "checkmark"
+				title: "Chroma Technology 2"
+			}]
+		}
+		{
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 0.0d
+			y: -3.0d
+			shape: "pentagon"
+			description: [
+				"You can have your Questing Progress sync to other &bplayers &fif you're in a &3party&f."
+				""
+				"To create a &3party &fyou will need to run the following command: &b/ftbteams party create &3<NAME>"
+				""
+				"You can then invite a &bplayer &fto your &3party &fwith the following command: &b/ftbteam party invite &3<PLAYER>"
+				""
+				"To leave a &cparty &fyou can run the following command: &c/ftbteams party &4leave"
+			]
+			dependencies: ["5C0C633D44AEFED9"]
+			size: 1.5d
+			id: "6EA10631FF6FDD92"
+			tasks: [{
+				id: "05620DE4F82DEB02"
+				type: "checkmark"
+				title: "FTB Quest"
+			}]
+			rewards: [{
+				id: "0E09746D1723E2CA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "botania:cosmetic_tiny_potato_mask"
+				Count: 1b
+				tag: { }
+			}
+			x: 0.0d
+			y: 1.0d
+			shape: "diamond"
+			description: [
+				"You're able to &bclaim chunks&f to protect your base(s). Just click the map icon that is located in the top left corner in your inventory."
+				""
+				"This will bring up a fullscreen map, but this isn't the map we're looking for. Click the map again on top left corner."
+				""
+				"To claim a chunk, hold down left click and drag with your mouse on the map."
+				""
+				"To &5Chunkload&f a Chunk hold down 'LSHIFT' while dragging over an existing claimed chunk."
+			]
+			dependencies: ["5C0C633D44AEFED9"]
+			size: 1.5d
+			id: "7C97F199CC7CC35C"
+			tasks: [{
+				id: "3F6D1AFFE924BB7F"
+				type: "checkmark"
+				title: "Chunk Claiming"
+			}]
+			rewards: [{
+				id: "77523A5BA9FF6681"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "nomowanderer:no_mo_wanderer_totem"
+			x: 2.0d
+			y: -1.0d
+			shape: "diamond"
+			description: ["&dChallenge quests&f are, surprisingly, challenges for the more seasoned modded Minecraft players."]
+			dependencies: ["5C0C633D44AEFED9"]
+			size: 1.5d
+			id: "764A82DF234888F5"
+			tasks: [{
+				id: "6B34FB6F530D5BE3"
+				type: "checkmark"
+				title: "Challenges"
+			}]
+			rewards: [{
+				id: "51DFEA92D1724AC3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "immersiveengineering:capacitor_creative"
+			x: -2.0d
+			y: -1.0d
+			shape: "diamond"
+			subtitle: "Here comes the money !"
+			description: [
+				"In this pack you should know that they are some beautiful &5Creative&r Recipes "
+				"You can look their recipes but don't say it's difficult because we balanced them ! "
+				"Oh I forgot to mention that certain creative items does have a related quest. So don't skip them to get an awesome reward !"
+			]
+			dependencies: ["5C0C633D44AEFED9"]
+			size: 1.5d
+			id: "6A22DF3FC617C59A"
+			tasks: [{
+				id: "2BBA6ECCE2107389"
+				type: "checkmark"
+				title: "Creative"
+			}]
+			rewards: [{
+				id: "64EFD954FDFB4AC9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+}

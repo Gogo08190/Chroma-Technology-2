@@ -1,0 +1,5329 @@
+{
+	id: "1D41CEF992ACEE79"
+	group: "1D8552F8A45BF753"
+	order_index: 2
+	filename: "botania"
+	title: "Botania"
+	icon: {
+		id: "botania:dice"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Mystical Petal"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Around the world, you may stumble upon a large variety of Mystical Flowers. Spotting these flowers doesn't take much work, as they glow faintly and sparkle."
+				""
+				"They come in a total of &a16 &fdifferent colors."
+				""
+				"These flowers can also be grown with &dFloral Fertilizer&f."
+			]
+			dependencies: ["5B11FC4E9479BEF3"]
+			size: 2.0d
+			id: "2485A86AC39EDA7B"
+			tasks: [{
+				id: "3B971E7DD97400DE"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "botania:white_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:orange_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:magenta_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:light_blue_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:yellow_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:lime_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:pink_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:light_gray_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:gray_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:black_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:red_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:green_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:brown_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:blue_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:purple_petal"
+								Count: 1b
+							}
+							{
+								id: "botania:cyan_petal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "265E7A4B4B553E1A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Pure Daisy"
+			x: 2.5d
+			y: 0.0d
+			description: [
+				"Far from being just the most basic, the Pure Daisy is the most important flower a botanist can have."
+				""
+				"This flower will purify any adjacent &6Wood&f and &6Stone&f blocks into their purified counterparts, &6Livingwood&f and &6Livingrock&f. These resources are important crafting materials throughout a botanist's career."
+			]
+			dependencies: ["2485A86AC39EDA7B"]
+			id: "53D9150ED6E0FB27"
+			tasks: [{
+				id: "60F248CFC9C18D16"
+				type: "item"
+				item: "botania:pure_daisy"
+				count: 2L
+			}]
+			rewards: [{
+				id: "2043ABEA147C6F23"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Livingwood"
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["53D9150ED6E0FB27"]
+			id: "7672A3025A0E0A34"
+			tasks: [{
+				id: "3A7DCCA76AAAB511"
+				type: "item"
+				item: "botania:livingwood"
+				count: 16L
+			}]
+			rewards: [{
+				id: "15166AA8B448FFB3"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Livingrock"
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["53D9150ED6E0FB27"]
+			id: "3347286B1E8B7EB5"
+			tasks: [{
+				id: "1150B165EE8B0B9B"
+				type: "item"
+				item: "botania:livingrock"
+				count: 16L
+			}]
+			rewards: [{
+				id: "0816B332C106FD76"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			shape: "diamond"
+			description: ["The &bMana Pool&f is, simply put, a storage for Mana."]
+			dependencies: ["3347286B1E8B7EB5"]
+			size: 2.0d
+			id: "00769E3D1917DAFB"
+			tasks: [{
+				id: "53C6DCDDFBD1300F"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "2CF7A6CEA793C692"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["00769E3D1917DAFB"]
+			id: "7ECA1866839946FF"
+			tasks: [{
+				id: "1D18B85AB9077C8A"
+				type: "item"
+				item: "botania:fabulous_pool"
+			}]
+			rewards: [{
+				id: "30EF6CD32326A841"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			dependencies: ["3347286B1E8B7EB5"]
+			id: "29A3AD1D70E2E030"
+			tasks: [{
+				id: "5BA29266D2ECDC3F"
+				type: "item"
+				item: "botania:diluted_pool"
+			}]
+			rewards: [{
+				id: "62E33FE2A7366C6D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: ["&aPetal Apothecaty&f, when placed in the world and given some water (by right-clicking or throwing in a Water Bucket), will accept any Mystical Petals thrown into it, absorbing their energies."]
+			dependencies: [
+				"2485A86AC39EDA7B"
+				"1021DC75B3F6CBD8"
+			]
+			size: 3.0d
+			id: "65D6D05E0F5D62F8"
+			tasks: [{
+				id: "0272D7E5F70A319F"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "434C2B4DF6E56D3B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -9.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["71ED6E10B612D8A1"]
+			id: "15FD83F0B4E8B466"
+			tasks: [{
+				id: "77BB7B9712218EE6"
+				type: "item"
+				item: "botania:rune_earth"
+			}]
+			rewards: [{
+				id: "52925404F77AF96A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -9.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"4B08DE5FE77A4696"
+				"31E7C7AA43E802F2"
+			]
+			id: "6E53214D2F296935"
+			tasks: [{
+				id: "369BCAFA85E35E89"
+				type: "item"
+				item: "botania:rune_autumn"
+			}]
+			rewards: [{
+				id: "28170F5B3E6F0071"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -8.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"31E7C7AA43E802F2"
+				"6E53214D2F296935"
+			]
+			id: "37809CC7CA5CDE57"
+			tasks: [{
+				id: "694515AB6BFAABD3"
+				type: "item"
+				item: "botania:rune_sloth"
+			}]
+			rewards: [{
+				id: "46202F9E8C926122"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 13.0d
+			y: -10.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"6A0284037005E40B"
+				"4B08DE5FE77A4696"
+			]
+			id: "69CD7EFD780D5CF6"
+			tasks: [{
+				id: "5DCE31B3F0F5A9CE"
+				type: "item"
+				item: "botania:rune_spring"
+			}]
+			rewards: [{
+				id: "328AADD2B1D3C9C5"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 13.0d
+			y: -9.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"15FD83F0B4E8B466"
+				"31E7C7AA43E802F2"
+			]
+			id: "3C05D8DC18FC6D50"
+			tasks: [{
+				id: "74BA0E1949399BC5"
+				type: "item"
+				item: "botania:rune_summer"
+			}]
+			rewards: [{
+				id: "039920A385C64183"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -9.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["71ED6E10B612D8A1"]
+			id: "6A0284037005E40B"
+			tasks: [{
+				id: "471710702BEDC369"
+				type: "item"
+				item: "botania:rune_water"
+			}]
+			rewards: [{
+				id: "1B8E9000249903BD"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -8.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["71ED6E10B612D8A1"]
+			id: "1C1C3A2F4C23169D"
+			tasks: [{
+				id: "3D229824085BEA67"
+				type: "item"
+				item: "botania:rune_winter"
+			}]
+			rewards: [{
+				id: "580B977815EB6AA6"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -11.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"15FD83F0B4E8B466"
+				"1C1C3A2F4C23169D"
+			]
+			id: "108BD010FFBD8E13"
+			tasks: [{
+				id: "6C8834FAD64A109F"
+				type: "item"
+				item: "botania:rune_wrath"
+			}]
+			rewards: [{
+				id: "4DE5765E289D801D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -12.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"69CD7EFD780D5CF6"
+				"63669895B667F02E"
+				"15FD83F0B4E8B466"
+			]
+			id: "48E0D9658650A8C6"
+			tasks: [{
+				id: "5C84192756F5035B"
+				type: "item"
+				item: "mythicbotany:vanaheim_rune"
+			}]
+			rewards: [{
+				id: "2F4225F91E628319"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -9.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"3C05D8DC18FC6D50"
+				"5EFD6677D56CF221"
+				"31E7C7AA43E802F2"
+			]
+			id: "3264D67DC4DF9CC4"
+			tasks: [{
+				id: "5D626098F8404475"
+				type: "item"
+				item: "mythicbotany:alfheim_rune"
+			}]
+			rewards: [{
+				id: "2009C0F00A977B2C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -8.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"63669895B667F02E"
+				"6E53214D2F296935"
+				"31E7C7AA43E802F2"
+			]
+			id: "20389596B4BF7C78"
+			tasks: [{
+				id: "0C6D3E9BA8C30BC5"
+				type: "item"
+				item: "mythicbotany:asgard_rune"
+			}]
+			rewards: [{
+				id: "318C79561D37B1CB"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -7.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"68B99B59F9C61786"
+				"6E53214D2F296935"
+				"4B08DE5FE77A4696"
+			]
+			id: "3218F13313E97E38"
+			tasks: [{
+				id: "7B6A5D63BD645574"
+				type: "item"
+				item: "mythicbotany:helheim_rune"
+			}]
+			rewards: [{
+				id: "10452D2AC100BBFC"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -9.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"6E53214D2F296935"
+				"5707FFA4C44626EE"
+				"15FD83F0B4E8B466"
+			]
+			id: "5AC1ED2286733036"
+			tasks: [{
+				id: "780B01BAA167E32C"
+				type: "item"
+				item: "mythicbotany:joetunheim_rune"
+			}]
+			rewards: [{
+				id: "091F0E04B86DDBD6"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -10.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"02168220AECF2CC7"
+				"69CD7EFD780D5CF6"
+				"15FD83F0B4E8B466"
+			]
+			id: "73F21C528D4DFCB8"
+			tasks: [{
+				id: "5D2F152A8983BB3B"
+				type: "item"
+				item: "mythicbotany:midgard_rune"
+			}]
+			rewards: [{
+				id: "27ACFD108002E6B4"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -11.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"108BD010FFBD8E13"
+				"4B08DE5FE77A4696"
+				"3C05D8DC18FC6D50"
+			]
+			id: "773FE75523C01757"
+			tasks: [{
+				id: "77106878982898BF"
+				type: "item"
+				item: "mythicbotany:muspelheim_rune"
+			}]
+			rewards: [{
+				id: "5453038D626ABC91"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -10.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"37809CC7CA5CDE57"
+				"1C1C3A2F4C23169D"
+			]
+			id: "59C2F3B16D47B289"
+			tasks: [{
+				id: "6E432BDD5E30B962"
+				type: "item"
+				item: "mythicbotany:nidavellir_rune"
+			}]
+			rewards: [{
+				id: "36511EBF8B0AF1E0"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -9.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"108BD010FFBD8E13"
+				"1C1C3A2F4C23169D"
+				"6A0284037005E40B"
+			]
+			id: "331CDA7B40E41BB1"
+			tasks: [{
+				id: "403BE69FA541C73E"
+				type: "item"
+				item: "mythicbotany:niflheim_rune"
+			}]
+			rewards: [{
+				id: "4867432FF4D845F2"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -10.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["71ED6E10B612D8A1"]
+			id: "31E7C7AA43E802F2"
+			tasks: [{
+				id: "624210E90085A641"
+				type: "item"
+				item: "botania:rune_air"
+			}]
+			rewards: [{
+				id: "71D9DA91670EDB95"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -7.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"4B08DE5FE77A4696"
+				"3C05D8DC18FC6D50"
+			]
+			id: "63669895B667F02E"
+			tasks: [{
+				id: "359DC9B7A787820F"
+				type: "item"
+				item: "botania:rune_pride"
+			}]
+			rewards: [{
+				id: "114312455E2C48A8"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -8.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["71ED6E10B612D8A1"]
+			id: "138B36075A62D58B"
+			tasks: [{
+				id: "71F1A05E52AF881E"
+				type: "item"
+				item: "botania:rune_mana"
+			}]
+			rewards: [{
+				id: "0803A5A707943EBA"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -8.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"31E7C7AA43E802F2"
+				"3C05D8DC18FC6D50"
+			]
+			id: "5EFD6677D56CF221"
+			tasks: [{
+				id: "0A83D72D57750E8E"
+				type: "item"
+				item: "botania:rune_lust"
+			}]
+			rewards: [{
+				id: "0F9C1121752001ED"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -10.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"6A0284037005E40B"
+				"69CD7EFD780D5CF6"
+			]
+			id: "02168220AECF2CC7"
+			tasks: [{
+				id: "4E6A150DA9F24367"
+				type: "item"
+				item: "botania:rune_greed"
+			}]
+			rewards: [{
+				id: "01247868A511557B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 13.5d
+			y: -9.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"1C1C3A2F4C23169D"
+				"4B08DE5FE77A4696"
+			]
+			id: "5707FFA4C44626EE"
+			tasks: [{
+				id: "48DFF068AFB3A752"
+				type: "item"
+				item: "botania:rune_gluttony"
+			}]
+			rewards: [{
+				id: "6E7F1FF3220B71A9"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -10.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["71ED6E10B612D8A1"]
+			id: "4B08DE5FE77A4696"
+			tasks: [{
+				id: "6350D4A6A6F5896C"
+				type: "item"
+				item: "botania:rune_fire"
+			}]
+			rewards: [{
+				id: "16F7C32432FDBCF5"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -11.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"71ED6E10B612D8A1"
+				"6A0284037005E40B"
+				"1C1C3A2F4C23169D"
+			]
+			id: "68B99B59F9C61786"
+			tasks: [{
+				id: "79800343E7860D76"
+				type: "item"
+				item: "botania:rune_envy"
+			}]
+			rewards: [{
+				id: "143F903525537E80"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -9.5d
+			shape: "diamond"
+			description: ["&bRunic&f creation is an complex topic, but an important one for the advancement of any botanist's career. However, this mode of crafting requires a firm grasp on the concepts of Mana Manipulation to use."]
+			hide_dependency_lines: true
+			dependencies: ["3347286B1E8B7EB5"]
+			size: 2.5d
+			id: "71ED6E10B612D8A1"
+			tasks: [{
+				id: "6D92500CEB33D41F"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			description: [
+				"The &eMana Spreader&f is the single most important tool a botanist needs to manipulate Mana."
+				""
+				"This block shoots Mana from point A to point B."
+			]
+			dependencies: ["7672A3025A0E0A34"]
+			id: "4BFD9B8CBF3DB544"
+			tasks: [{
+				id: "5DB44F6EAF02222C"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			dependencies: ["4BFD9B8CBF3DB544"]
+			id: "0C3B80A12C301AF8"
+			tasks: [{
+				id: "6B9A499DEDACF235"
+				type: "item"
+				item: "botania:redstone_spreader"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			description: ["The &aMana Tablet&f is a portable item that can carry Mana within itself."]
+			dependencies: ["3347286B1E8B7EB5"]
+			id: "0DB9AA863FDC5817"
+			tasks: [{
+				id: "49334B778AAD19DE"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "70E7D09ACA735226"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["00769E3D1917DAFB"]
+			id: "2620C2C0108504E6"
+			tasks: [{
+				id: "058AE07D0DAB5469"
+				type: "item"
+				item: "botanicalmachinery:mana_emerald"
+			}]
+			rewards: [{
+				id: "59F475D03F66B766"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["00769E3D1917DAFB"]
+			id: "167AC4181B2F5EA0"
+			tasks: [{
+				id: "4483BC66052992FC"
+				type: "item"
+				item: "botania:mana_diamond"
+			}]
+			rewards: [{
+				id: "6687EC8F2A0B98E0"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["00769E3D1917DAFB"]
+			id: "41BE0CB42202D8AE"
+			tasks: [{
+				id: "31038FFA6A393235"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+			rewards: [{
+				id: "6991CA5C78ED1E4F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["00769E3D1917DAFB"]
+			id: "73799F1EBC9052BE"
+			tasks: [{
+				id: "67727F638D493F07"
+				type: "item"
+				item: "botania:mana_pearl"
+			}]
+			rewards: [{
+				id: "0732B788BB1F4C96"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.0d
+			dependencies: ["2620C2C0108504E6"]
+			id: "2B7CAD89301F2C73"
+			tasks: [{
+				id: "6368091373B4254D"
+				type: "item"
+				item: "botanicalmachinery:mana_emerald_block"
+			}]
+			rewards: [{
+				id: "4C923F5F9AC27A26"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -2.0d
+			subtitle: "Store mana"
+			dependencies: [
+				"2B7CAD89301F2C73"
+				"4DD8EB221C96F990"
+			]
+			id: "19CBA62DCC005FCF"
+			tasks: [{
+				id: "0BB2AC0FD19449DD"
+				type: "item"
+				item: "botanicalmachinery:mana_battery"
+			}]
+			rewards: [{
+				id: "019906CAD459CE58"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			description: ["A botanist's most important tool for manipulating flowers is the &5Wand of the Forest&f."]
+			dependencies: [
+				"2485A86AC39EDA7B"
+				"7672A3025A0E0A34"
+			]
+			id: "1E1E47D844D3557A"
+			tasks: [{
+				id: "02674410A9174ADD"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2CE451933E246147"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["167AC4181B2F5EA0"]
+			id: "61BE8881067F3D07"
+			tasks: [{
+				id: "4D2D541C92AC51DE"
+				type: "item"
+				item: "botania:mana_pylon"
+			}]
+			rewards: [{
+				id: "321706085D20550A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 3.0d
+			dependencies: ["61BE8881067F3D07"]
+			id: "053DA9875EB992AA"
+			tasks: [{
+				id: "2BA3116290C3D263"
+				type: "item"
+				item: "botania:natura_pylon"
+			}]
+			rewards: [{
+				id: "532DF61E180911E5"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 3.0d
+			dependencies: ["053DA9875EB992AA"]
+			id: "20D4760580F8A0E6"
+			tasks: [{
+				id: "67F731CE3DAEB470"
+				type: "item"
+				item: "mythicbotany:alfsteel_pylon"
+			}]
+			rewards: [{
+				id: "17355147FA1C3FC3"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 3.0d
+			dependencies: ["20D4760580F8A0E6"]
+			id: "61884C38894B5DB5"
+			tasks: [{
+				id: "0250AB917297BD8A"
+				type: "item"
+				item: "botania:gaia_pylon"
+			}]
+			rewards: [{
+				id: "0A0E858095FA1A0C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			dependencies: ["053DA9875EB992AA"]
+			id: "457116B6E1C7236C"
+			tasks: [
+				{
+					id: "24DDA67F6EE3EA7D"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "01A5F8955C65D17F"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+				{
+					id: "5DCDB4407ECA04FF"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "3994D680384ACCC9"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Gaya !!!"
+			x: 13.5d
+			y: 1.5d
+			dependencies: ["61884C38894B5DB5"]
+			id: "7F45E540DB77DE92"
+			tasks: [
+				{
+					id: "4DDAF6E46CB20B10"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+				{
+					id: "244077C4CD7A843E"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "41E1AEDC665359C3"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			description: [
+				"The mana infuser is an upgrade version of the &9Terrastrial Agglomeration Plate&r that is also capable of creating other mana-alloys."
+				""
+				"Like the terrastrial agglomeration plate this requires a platform below."
+				""
+				"&4However this requires a dominant spark upgrade to pull mana from sparks&r."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"69CD7EFD780D5CF6"
+				"3C05D8DC18FC6D50"
+				"20389596B4BF7C78"
+				"6E53214D2F296935"
+				"1C1C3A2F4C23169D"
+			]
+			id: "58FA261AD725470E"
+			tasks: [{
+				id: "60ADBB57A01826C4"
+				type: "item"
+				item: "mythicbotany:mana_infuser"
+			}]
+			rewards: [{
+				id: "72FE725568293983"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"138B36075A62D58B"
+				"6A0284037005E40B"
+				"15FD83F0B4E8B466"
+				"4B08DE5FE77A4696"
+				"31E7C7AA43E802F2"
+			]
+			id: "270A1131A5040591"
+			tasks: [{
+				id: "62E1453D02F8C23F"
+				type: "item"
+				item: "botania:terra_plate"
+			}]
+			rewards: [{
+				id: "39BD8097312CB18D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: [
+				"270A1131A5040591"
+				"167AC4181B2F5EA0"
+				"41BE0CB42202D8AE"
+				"73799F1EBC9052BE"
+			]
+			size: 2.0d
+			id: "2304E2C6A7596C38"
+			tasks: [{
+				id: "0BE63947E257D22C"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [{
+				id: "4554479EC6296632"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 24.0d
+			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["2304E2C6A7596C38"]
+			id: "776461AE8059043C"
+			tasks: [{
+				id: "1C60BB61884AFB19"
+				type: "item"
+				item: {
+					id: "botania:terrasteel_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5615E93067576E77"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 24.0d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["2304E2C6A7596C38"]
+			id: "024E9C832540A48D"
+			tasks: [{
+				id: "7C32420B2667494C"
+				type: "item"
+				item: {
+					id: "botania:terrasteel_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "73F6E2D59E42AD7C"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 24.0d
+			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["2304E2C6A7596C38"]
+			id: "10671D0D40077CBA"
+			tasks: [{
+				id: "5FEB0A534DCAC10D"
+				type: "item"
+				item: {
+					id: "botania:terrasteel_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "247AA7FEE3C5E4F2"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 24.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["2304E2C6A7596C38"]
+			id: "10134E559234BA8E"
+			tasks: [{
+				id: "501A57619F6AEE29"
+				type: "item"
+				item: {
+					id: "botania:terrasteel_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6FB99C12C86B6706"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 25.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["2304E2C6A7596C38"]
+			id: "5370F15EC65BB3D8"
+			tasks: [{
+				id: "707D680D991E7C4D"
+				type: "item"
+				item: {
+					id: "botania:terra_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "059E741DE85ECF42"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 24.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["2304E2C6A7596C38"]
+			id: "63CFD002743DC0DD"
+			tasks: [{
+				id: "3A86CCFD717D8C42"
+				type: "item"
+				item: {
+					id: "botania:terra_pick"
+					Count: 1b
+					tag: {
+						mana: 9999
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "65FF59BA2282B2C2"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 25.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["2304E2C6A7596C38"]
+			id: "4E0AFF128CA5EAA0"
+			tasks: [{
+				id: "5AFBEFA280F3EBB4"
+				type: "item"
+				item: {
+					id: "aiotbotania:terra_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "51F3E772485886DF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 23.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["2304E2C6A7596C38"]
+			id: "779A9C4CC93E24F3"
+			tasks: [{
+				id: "02C8660AE11273F0"
+				type: "item"
+				item: {
+					id: "botania:terra_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "277D176B7D4D73E5"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 24.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["2304E2C6A7596C38"]
+			id: "58BAAD465CD44876"
+			tasks: [{
+				id: "07E450E18C5A7FC0"
+				type: "item"
+				item: {
+					id: "aiotbotania:terra_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E4CB60791935735"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 23.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["2304E2C6A7596C38"]
+			id: "239B3A11A45FC0D3"
+			tasks: [{
+				id: "1B2B25AF6E62E974"
+				type: "item"
+				item: {
+					id: "botaniaadditions:terra_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B41F6F91F683A66"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 21.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4E0AFF128CA5EAA0"
+				"58BAAD465CD44876"
+				"779A9C4CC93E24F3"
+				"5370F15EC65BB3D8"
+				"63CFD002743DC0DD"
+			]
+			id: "47B1B4C9383ABF1E"
+			tasks: [{
+				id: "37D56F8EDF42E926"
+				type: "item"
+				item: {
+					id: "aiotbotania:terra_aiot"
+					Count: 1b
+					tag: {
+						mana: 9999
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "40E0F7E9D50CDD1B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 19.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["41BE0CB42202D8AE"]
+			id: "5BF182134D2B4B4A"
+			tasks: [{
+				id: "3EFE0082A7F328A8"
+				type: "item"
+				item: {
+					id: "aiotbotania:manasteel_aiot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D37256476846BFE"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 16.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["41BE0CB42202D8AE"]
+			id: "19E37FE11BBF4A4B"
+			tasks: [{
+				id: "14801ED484CE1CC5"
+				type: "item"
+				item: {
+					id: "botania:manasteel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "084712BE4FD70EC2"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 18.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["41BE0CB42202D8AE"]
+			id: "62BB7D2552B10F11"
+			tasks: [{
+				id: "568249159374692E"
+				type: "item"
+				item: {
+					id: "botania:manasteel_shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2DFED2971E06BAAF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 16.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["41BE0CB42202D8AE"]
+			id: "15A69FBC7030A275"
+			tasks: [{
+				id: "2C5CCFD42ACAAD84"
+				type: "item"
+				item: {
+					id: "botania:manasteel_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "09EA6CD801CD8699"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 18.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["41BE0CB42202D8AE"]
+			id: "759121DCFD275C23"
+			tasks: [{
+				id: "67778EB0686BFF8A"
+				type: "item"
+				item: {
+					id: "botania:manasteel_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "57B04021CF9F88B6"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 17.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["41BE0CB42202D8AE"]
+			id: "43BD79631C8F14F4"
+			tasks: [{
+				id: "4D700E87EFA17739"
+				type: "item"
+				item: {
+					id: "botania:manasteel_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7E9A45057DDB14CC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 17.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["41BE0CB42202D8AE"]
+			id: "790BA56036441A2D"
+			tasks: [{
+				id: "08ABAE6BA883B37B"
+				type: "item"
+				item: {
+					id: "botania:manasteel_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "689E7A891D47A124"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 17.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["41BE0CB42202D8AE"]
+			id: "4D4125A1666A05A3"
+			tasks: [{
+				id: "774A51A5E6B5E470"
+				type: "item"
+				item: {
+					id: "botania:manasteel_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B867E147F9FA5FB"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 17.0d
+			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["41BE0CB42202D8AE"]
+			id: "127C6ADFACC5B3B1"
+			tasks: [{
+				id: "002C16A13163803D"
+				type: "item"
+				item: {
+					id: "botania:manasteel_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7CD19DFB99E068FC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 17.0d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["41BE0CB42202D8AE"]
+			id: "35637D4FBC729551"
+			tasks: [{
+				id: "43DF9793E4EAE6AD"
+				type: "item"
+				item: {
+					id: "botania:manasteel_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "45C4018756B38140"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 17.0d
+			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: ["41BE0CB42202D8AE"]
+			id: "7D85BFB071CF8435"
+			tasks: [{
+				id: "478F3B38F6627AAE"
+				type: "item"
+				item: {
+					id: "botania:manasteel_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "64BFEF91E669A891"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 20.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["08C095E10B10E051"]
+			id: "4AB4A8EBFD40C359"
+			tasks: [{
+				id: "56C6D270ABE1364E"
+				type: "item"
+				item: {
+					id: "aiotbotania:elementium_aiot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "73C8995D21B6C58A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 19.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"08C095E10B10E051"
+				"25DFFBCD2771DA46"
+			]
+			id: "536FC36E55F91921"
+			tasks: [{
+				id: "568D538D56074D6B"
+				type: "item"
+				item: {
+					id: "botania:elementium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0112594E3D86AF9C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 22.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"08C095E10B10E051"
+				"25DFFBCD2771DA46"
+			]
+			id: "792E0B21782B9455"
+			tasks: [{
+				id: "6FF109741D80688A"
+				type: "item"
+				item: {
+					id: "botania:elementium_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D7C5377C51A81A2"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 19.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"08C095E10B10E051"
+				"25DFFBCD2771DA46"
+			]
+			id: "343CE9C051C290F8"
+			tasks: [{
+				id: "12B7C98BFDEF2DAF"
+				type: "item"
+				item: {
+					id: "botania:elementium_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3F80657E26D8BDBE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 22.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"08C095E10B10E051"
+				"25DFFBCD2771DA46"
+			]
+			id: "0170A16D83519940"
+			tasks: [{
+				id: "2C31E51E1ECCBA94"
+				type: "item"
+				item: {
+					id: "botania:elementium_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "14B18478436D51C1"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 19.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["08C095E10B10E051"]
+			id: "0E1C1026AE2CDD25"
+			tasks: [{
+				id: "18948AF253244B4D"
+				type: "item"
+				item: {
+					id: "botania:elementium_shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "368E109F92C8F388"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 22.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"08C095E10B10E051"
+				"25DFFBCD2771DA46"
+			]
+			id: "2D347DCAA460C2A2"
+			tasks: [{
+				id: "4E0EF151EBCB1615"
+				type: "item"
+				item: {
+					id: "botania:elementium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "799A49C0F45C84D1"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 20.5d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["08C095E10B10E051"]
+			id: "1DC301F976B11606"
+			tasks: [{
+				id: "0C7B08001028E80C"
+				type: "item"
+				item: {
+					id: "botania:elementium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "79102859255DA5D4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 20.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["08C095E10B10E051"]
+			id: "2BB181356439A513"
+			tasks: [{
+				id: "7223B1F63A71ED1F"
+				type: "item"
+				item: {
+					id: "botania:elementium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B88C6DDB568002A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 20.5d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["08C095E10B10E051"]
+			id: "4BBDEF142C4ED6B0"
+			tasks: [{
+				id: "3E44A473C3A321A5"
+				type: "item"
+				item: {
+					id: "botania:elementium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2B275A547CDF77AF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 20.5d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["08C095E10B10E051"]
+			id: "58959A8FEB2FAA95"
+			tasks: [{
+				id: "21FD8D858EE87116"
+				type: "item"
+				item: {
+					id: "botania:elementium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5FD16C469378D97E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 20.5d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["532C5B41726CDF9F"]
+			id: "14A5A877CD649553"
+			tasks: [{
+				id: "236E297FF0285EBA"
+				type: "item"
+				item: {
+					id: "aiotbotania:alfsteel_aiot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 19.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["532C5B41726CDF9F"]
+			id: "27112606991D9EED"
+			tasks: [{
+				id: "005879BD32C21385"
+				type: "item"
+				item: {
+					id: "mythicbotany:alfsteel_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "784A37B83C7B1BB2"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 22.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["532C5B41726CDF9F"]
+			id: "3686EFCEACBC8153"
+			tasks: [{
+				id: "6CC48D5939897B4F"
+				type: "item"
+				item: {
+					id: "mythicbotany:alfsteel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "63AA7A8A42AE11AE"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 19.0d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["532C5B41726CDF9F"]
+			id: "6F9E9D974975F65D"
+			tasks: [{
+				id: "1629621CA5E96BC2"
+				type: "item"
+				item: {
+					id: "aiotbotania:alfsteel_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1311637305BB630E"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 22.0d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["532C5B41726CDF9F"]
+			id: "22F35A56881257FC"
+			tasks: [{
+				id: "1A5648A95805F4DB"
+				type: "item"
+				item: {
+					id: "aiotbotania:alfsteel_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "703FCB84463E7C5A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 20.5d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["532C5B41726CDF9F"]
+			id: "6E63C54516DAAFC0"
+			tasks: [{
+				id: "4DDB397256ED6011"
+				type: "item"
+				item: {
+					id: "mythicbotany:alfsteel_pick"
+					Count: 1b
+					tag: {
+						mana: 9999
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2333F12B23F984BF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 20.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["532C5B41726CDF9F"]
+			id: "12FEB00A8DC0A11D"
+			tasks: [{
+				id: "16A71E6AA2A2C8DE"
+				type: "item"
+				item: {
+					id: "mythicbotany:alfsteel_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2E0584FF1EC4BB9D"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 20.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["532C5B41726CDF9F"]
+			id: "4A0BCEAF95357456"
+			tasks: [{
+				id: "04E2B7CE82381EED"
+				type: "item"
+				item: {
+					id: "mythicbotany:alfsteel_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D9D74CC5053467C"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 20.5d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["532C5B41726CDF9F"]
+			id: "7DF64B11FA3708C3"
+			tasks: [{
+				id: "3DD421577989356F"
+				type: "item"
+				item: {
+					id: "mythicbotany:alfsteel_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "789B804B5D29FA55"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 20.5d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["532C5B41726CDF9F"]
+			id: "51C082BBDB77E85D"
+			tasks: [{
+				id: "299AA7D104B66475"
+				type: "item"
+				item: {
+					id: "mythicbotany:alfsteel_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "46E8FD680534E90C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -9.0d
+			description: [
+				"Alfsteel is created like terrasteel but with ressources from alfheim."
+				""
+				"It requires much more mana but can be used to create various powerful things."
+			]
+			dependencies: ["58FA261AD725470E"]
+			id: "532C5B41726CDF9F"
+			tasks: [{
+				id: "4D881D4351B1A8F3"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+			}]
+			rewards: [{
+				id: "6B19CD1C4AD08365"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.0d
+			dependencies: ["7F45E540DB77DE92"]
+			id: "77CAA7FF46A56DB7"
+			tasks: [{
+				id: "5AFA7099BDA3D0EC"
+				type: "item"
+				item: "botania:life_essence"
+			}]
+			rewards: [{
+				id: "01A30B604C899FDF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -0.5d
+			dependencies: ["77CAA7FF46A56DB7"]
+			id: "4DD8EB221C96F990"
+			tasks: [{
+				id: "3912CF57F8D38C31"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+			rewards: [{
+				id: "611EAC1E129071C4"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -2.0d
+			dependencies: ["4DD8EB221C96F990"]
+			id: "6C0885448587B469"
+			tasks: [{
+				id: "680CF468ABAC2ED2"
+				type: "item"
+				item: "mythicbotany:mana_collector"
+			}]
+			rewards: [{
+				id: "7EABF4F70B232EC5"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Alfheim loot"
+			x: 15.0d
+			y: 1.5d
+			dependencies: ["7F45E540DB77DE92"]
+			id: "08C095E10B10E051"
+			tasks: [
+				{
+					id: "5D434B70853D1F77"
+					type: "item"
+					item: "botania:pixie_dust"
+				}
+				{
+					id: "033DCBF65CCB24E1"
+					type: "item"
+					item: "botania:dragonstone"
+				}
+				{
+					id: "022A4ACE4CF3EE44"
+					type: "item"
+					item: "botania:elementium_ingot"
+				}
+				{
+					id: "4BC931863F213695"
+					type: "item"
+					item: "botania:dreamwood"
+				}
+			]
+			rewards: [{
+				id: "0C9E7F3059576BB8"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["2485A86AC39EDA7B"]
+			id: "0E7FD34B6E1C174D"
+			tasks: [{
+				id: "33DB8B069506746C"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+			rewards: [{
+				id: "246F8B9CD1F93DE7"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["00769E3D1917DAFB"]
+			id: "223A3CFD1CF6E059"
+			tasks: [{
+				id: "10E5754BF886760E"
+				type: "item"
+				item: "botania:mana_string"
+			}]
+			rewards: [{
+				id: "1ADCBF9EE9730919"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 4.0d
+			dependencies: ["223A3CFD1CF6E059"]
+			id: "7C891BF9AE7ED6B2"
+			tasks: [{
+				id: "48F5289532F61F72"
+				type: "item"
+				item: "botania:manaweave_cloth"
+			}]
+			rewards: [{
+				id: "51293E0600849E4F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["7C891BF9AE7ED6B2"]
+			id: "4B7779C5001030C2"
+			tasks: [{
+				id: "266DE2B2E887C63A"
+				type: "item"
+				item: {
+					id: "botania:manaweave_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "31B03B7FA622043F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["7C891BF9AE7ED6B2"]
+			id: "2CDD3DE6867C7098"
+			tasks: [{
+				id: "66B0055BF349A816"
+				type: "item"
+				item: {
+					id: "botania:manaweave_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "50E129F3A755EF40"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["7C891BF9AE7ED6B2"]
+			id: "2B0E674593ED29A8"
+			tasks: [{
+				id: "4C408409023F7012"
+				type: "item"
+				item: {
+					id: "botania:manaweave_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "26C27190A9BEBC9B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 8.0d
+			hide_dependency_lines: true
+			dependencies: ["7C891BF9AE7ED6B2"]
+			id: "2C68C89DC89B98AA"
+			tasks: [{
+				id: "0FC336A5D54E17CE"
+				type: "item"
+				item: {
+					id: "botania:manaweave_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "31ED6EB464EFF8DD"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["2485A86AC39EDA7B"]
+			id: "58E1101478068F9D"
+			tasks: [{
+				id: "3F458F377BEB5C0C"
+				type: "item"
+				item: "botania:ender_air_bottle"
+			}]
+			rewards: [{
+				id: "36EA586EBB20D0D4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			id: "5B11FC4E9479BEF3"
+			tasks: [{
+				id: "45C838F59C664DF8"
+				type: "item"
+				item: "botania:pestle_and_mortar"
+			}]
+			rewards: [{
+				id: "24F689B3F13A6AED"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 9.0d
+			shape: "diamond"
+			description: [
+				"&cExperience Points&r contain a magic of their own."
+				"The &9Rosa Arcana&r can tap into this magic, absorbing the experience of nearby players and turning it into &9Mana&r."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"138B36075A62D58B"
+				"2485A86AC39EDA7B"
+			]
+			id: "59074C01CE27EE4B"
+			tasks: [{
+				id: "74A26AE63E851EC0"
+				type: "item"
+				item: "botania:rosa_arcana"
+			}]
+			rewards: [{
+				id: "2597A30872B7CBEA"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 8.5d
+			shape: "diamond"
+			description: [
+				"The &9Shulk Me Not&r is a generating flower that creates &cMana&r from the power of the shulker's &cLevitation&r."
+				""
+				"If nearby monster is targeted by and hit with a Shulker's projectile, and the &9Shulk Me Not's&r internal buffer is empty,both mob and Shulker will be killed, generating ludicrous amount of &cMana&r from the process."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"108BD010FFBD8E13"
+				"77CAA7FF46A56DB7"
+				"68B99B59F9C61786"
+				"2485A86AC39EDA7B"
+			]
+			id: "63707E1CF35540DA"
+			tasks: [{
+				id: "4DE1A57F6078D46A"
+				type: "item"
+				item: "botania:shulk_me_not"
+			}]
+			rewards: [{
+				id: "20012A7FF3CA63F1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 8.5d
+			shape: "diamond"
+			description: [
+				"The &9Ring of Magnetization&r is quite the handy tool for any diggers or collectors."
+				"However, it can also pick up unwanted items, disrupting automation setup in the process."
+				"The &9Solegnolia&r disrupts the ring's field of effect and prevents any items in its range form being pulled towards a ring-bearer."
+				"Its also prevent any ring-bearers in its range from pulling any items."
+				"It does no consume &cMana&r."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2485A86AC39EDA7B"]
+			id: "2EE8B22E80FF027D"
+			tasks: [{
+				id: "14DA7B608290A571"
+				type: "item"
+				item: "botania:solegnolia"
+			}]
+			rewards: [{
+				id: "12B766DAB150D324"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 9.5d
+			shape: "diamond"
+			description: [
+				"This flowers uses mana to transport items everywhere the world."
+				""
+				"Note that filled items whith &4Mana&r won't work."
+				""
+				"Use a &9Wand of the forest&r in &4Bind Mode&r to bind the flower to a location within 12 block, to specify the destination warped items."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"68B99B59F9C61786"
+				"6A0284037005E40B"
+				"2485A86AC39EDA7B"
+			]
+			id: "405F124D25694AFE"
+			tasks: [{
+				id: "6918424BFCCF5C32"
+				type: "item"
+				item: "botania:spectranthemum"
+			}]
+			rewards: [{
+				id: "48D416D2A86D5CA4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 8.5d
+			shape: "diamond"
+			description: [
+				"The &9Spectrolus&r is a flower that's particularly fond of the various hues of &9Wool&r."
+				"It'll consume any and all &9Wool&r block dropped nearby, converting them to &cMana&r."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"08C095E10B10E051"
+				"31E7C7AA43E802F2"
+				"1C1C3A2F4C23169D"
+				"2485A86AC39EDA7B"
+			]
+			id: "7E976A6D9544E4DD"
+			tasks: [{
+				id: "37A547C2850F6C9F"
+				type: "item"
+				item: "botania:spectrolus"
+			}]
+			rewards: [{
+				id: "7CFA317BC18A7C59"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 9.5d
+			shape: "diamond"
+			description: ["The &3Tangleberrie&f is a flower that, for a small Mana drain, keeps any nearby animals or monsters within a circular ward, preventing them from getting out."]
+			hide_dependency_lines: true
+			dependencies: [
+				"15FD83F0B4E8B466"
+				"31E7C7AA43E802F2"
+			]
+			id: "5DB39F0A7679A3AD"
+			tasks: [{
+				id: "1F4BD45439B7A396"
+				type: "item"
+				item: "botania:tangleberrie"
+			}]
+			rewards: [{
+				id: "434251672E6709B4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 9.0d
+			shape: "diamond"
+			description: [
+				"The &9Thermalily&r is a &9Lava&r flavoured counterpart to the &9Hydroangeas&r."
+				"The flower absorbs &9Lava&r around it to generate &cMana&r."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4B08DE5FE77A4696"
+				"15FD83F0B4E8B466"
+				"2485A86AC39EDA7B"
+			]
+			id: "1F1BDB70260F856D"
+			tasks: [{
+				id: "1E3097A64C9DEFFF"
+				type: "item"
+				item: "botania:thermalily"
+			}]
+			rewards: [{
+				id: "68421CD1F6C72381"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 9.5d
+			shape: "diamond"
+			description: ["The &6Tigerseye&f exploits that fact, emitting a feline aura to petrify any nearby Creepers and preventing them from exploding. As a side-effect, it makes them flee nearby players."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6E53214D2F296935"
+				"2485A86AC39EDA7B"
+			]
+			id: "449E5CBF904B4EAE"
+			tasks: [{
+				id: "72C3B6BBE677DE59"
+				type: "item"
+				item: "botania:tigerseye"
+			}]
+			rewards: [{
+				id: "7668568126A3D32A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 9.5d
+			shape: "diamond"
+			description: ["Quite a handy flower indeed, the &6Rannuncarpus&f will pick up nearby placeable items and place them within a large radius around itself as blocks, preferably facing them towards itself. However, it will only place blocks on top of a specific block type at a time; to specify this block, place it right below the soil the flower rests on."]
+			hide_dependency_lines: true
+			dependencies: [
+				"15FD83F0B4E8B466"
+				"2485A86AC39EDA7B"
+			]
+			id: "03499EB6C0B03A89"
+			tasks: [{
+				id: "7BDB0A2B7D5C39DF"
+				type: "item"
+				item: "botania:rannuncarpus"
+			}]
+			rewards: [{
+				id: "75995EA4931E0F43"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 10.5d
+			shape: "diamond"
+			description: ["The &dJiyuulia&f is a flower that, for a small Mana drain, keeps any nearby animals or monsters at bay, protecting a circular area from entry."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6A0284037005E40B"
+				"31E7C7AA43E802F2"
+			]
+			id: "452BCE16C10B0F87"
+			tasks: [{
+				id: "5B0B2CEB12F0562C"
+				type: "item"
+				item: "botania:jiyuulia"
+			}]
+			rewards: [{
+				id: "6924FF5D9DD9EB56"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.5d
+			shape: "diamond"
+			description: ["When fed with &cMana&r from a &9Mana Pool&r, it'll grow new &9Mystical Flowers&r on nearby soil at a rapid pace."]
+			hide_dependency_lines: true
+			dependencies: [
+				"69CD7EFD780D5CF6"
+				"2485A86AC39EDA7B"
+			]
+			id: "1A389BDC85B921EF"
+			tasks: [{
+				id: "2D6AFB833F7E9AAD"
+				type: "item"
+				item: "botania:jaded_amaranthus"
+			}]
+			rewards: [{
+				id: "459849BA5390BCEF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 9.5d
+			shape: "diamond"
+			description: [
+				"&9Hydroangeas&r flowers act as liquid-based passive generators."
+				""
+				"They suck up any &9still water&r in a 3x3 area (at the same altitude) around them, converting the water into &cMana&r."
+				""
+				"In addition, they decay after around three days."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2485A86AC39EDA7B"]
+			id: "726A63C36CB9E6C9"
+			tasks: [{
+				id: "56645A729EB5E49A"
+				type: "item"
+				item: "botania:hydroangeas"
+			}]
+			rewards: [{
+				id: "0ACD94B34F5E27BA"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 10.0d
+			shape: "diamond"
+			description: ["For some reason, poison does not kill. The &5Hyacidus&f conjures it within the bodies of nearby mobs, bringing them to their knees (after a wait) for a one-hit kill."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6A0284037005E40B"
+				"2485A86AC39EDA7B"
+				"6E53214D2F296935"
+			]
+			id: "1483D5B54E304748"
+			tasks: [{
+				id: "64D3659720922F91"
+				type: "item"
+				item: "botania:hyacidus"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 10.5d
+			shape: "diamond"
+			description: ["The &6Medumone &fis a flower with the ability to completely halt a creature's movements."]
+			hide_dependency_lines: true
+			dependencies: [
+				"15FD83F0B4E8B466"
+				"2485A86AC39EDA7B"
+			]
+			id: "24B243CD41D2ABBA"
+			tasks: [{
+				id: "0F6BE3BD5A2B8104"
+				type: "item"
+				item: "botania:medumone"
+			}]
+			rewards: [{
+				id: "1651342FB34F6B20"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.0d
+			shape: "diamond"
+			description: [
+				"The &dMarimorphosis&f is a flower that induces metamorphic transformations in nearby Stone blocks."
+				""
+				"These blocks are transmogrified into one of &38&f different types of Metamorphic Stone."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4B08DE5FE77A4696"
+				"15FD83F0B4E8B466"
+				"2485A86AC39EDA7B"
+			]
+			id: "1D703A219DBD261A"
+			tasks: [{
+				id: "5652D25C600B61B5"
+				type: "item"
+				item: "botania:marimorphosis"
+			}]
+			rewards: [{
+				id: "12713613578B0B7B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 8.5d
+			shape: "diamond"
+			description: [
+				"The &7Hopperhock&f simply picks up items around it and put them in adjacent inventories (like Chests). Mana is optional, but will increase its range if provided."
+				""
+				"Placing Item Frames on adjacent inventories will specify which items can or can't go in them."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"2485A86AC39EDA7B"
+				"31E7C7AA43E802F2"
+			]
+			id: "077B964B846E3785"
+			tasks: [{
+				id: "68EFBD825CDFA02F"
+				type: "item"
+				item: "botania:hopperhock"
+			}]
+			rewards: [{
+				id: "666837107D965369"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 8.5d
+			shape: "diamond"
+			description: ["Piglins and Hoglins that are near a Hellebore will not turn into zombies as long as the flower has enough mana."]
+			hide_dependency_lines: true
+			dependencies: [
+				"4B08DE5FE77A4696"
+				"2485A86AC39EDA7B"
+			]
+			id: "6AFB7C2B6D5DAAEE"
+			tasks: [{
+				id: "6276767877472C02"
+				type: "item"
+				item: "mythicbotany:hellebore"
+			}]
+			rewards: [{
+				id: "0567D8907C8FCEDC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.0d
+			shape: "diamond"
+			description: ["The &9Agricarnation&r transforms &cMana&r into a type of natural fertilizer, causing nearby plant-life to grow faster."]
+			hide_dependency_lines: true
+			dependencies: [
+				"69CD7EFD780D5CF6"
+				"2485A86AC39EDA7B"
+			]
+			id: "46AC145236538EF3"
+			tasks: [{
+				id: "28AF42FA0664073B"
+				type: "item"
+				item: "botania:agricarnation"
+			}]
+			rewards: [{
+				id: "14116C66418B1AF8"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 10.0d
+			shape: "diamond"
+			description: ["The &9Endoflame&r is a very rudimentary &cgenerating flower&r; it'll absorb any combustible items or block dropped on the nearby vicinity, one at a time, and burn through them to generate &cMana&r."]
+			hide_dependency_lines: true
+			dependencies: ["2485A86AC39EDA7B"]
+			id: "31C5BEAD5EDB28DE"
+			tasks: [{
+				id: "2F85B572C4FDC567"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "00BD011D199343CE"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 7.5d
+			shape: "diamond"
+			description: ["The &9Dreadthorne&r is a slightly more specialized counterpart to the &9Bellethorne&r: instead of all nearby beings, it only harms &cadult animals&r."]
+			hide_dependency_lines: true
+			dependencies: ["2485A86AC39EDA7B"]
+			id: "7E3003D07D65543F"
+			tasks: [{
+				id: "1854443E4AE2347F"
+				type: "item"
+				item: "botania:dreadthorn"
+			}]
+			rewards: [{
+				id: "51E0972280EF7047"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 10.0d
+			shape: "diamond"
+			description: [
+				"To generate a blast of &4Mana&r, in fact, a blast might be required."
+				""
+				"Igniting a block of &9TNT&r on dry land near an &9Entropinnyum&r will have the latter absorb all the entropy generated by the blast, converting it into &4Mana&r abd nullifying any damage in the process."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"108BD010FFBD8E13"
+				"4B08DE5FE77A4696"
+				"2485A86AC39EDA7B"
+			]
+			id: "24672743BB63C181"
+			tasks: [{
+				id: "3EE3C152686E31FB"
+				type: "item"
+				item: "botania:entropinnyum"
+			}]
+			rewards: [{
+				id: "12730FB9F0230E60"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 10.0d
+			shape: "diamond"
+			description: ["The Exoblaze uses mana to fill the fuel of nearby brewing stands."]
+			hide_dependency_lines: true
+			dependencies: [
+				"4B08DE5FE77A4696"
+				"2485A86AC39EDA7B"
+			]
+			id: "0B7468018D6FE7F9"
+			tasks: [{
+				id: "36A5C594C22EF98B"
+				type: "item"
+				item: "mythicbotany:exoblaze"
+			}]
+			rewards: [{
+				id: "5F8A0D3A8C203865"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 8.5d
+			shape: "diamond"
+			description: [
+				"Conversely to its Generating counterpart, the &cExoflame&f uses Mana to generate heat."
+				""
+				"Any Furnaces near an active Exoflame are fueled and given a speed boost."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3C05D8DC18FC6D50"
+				"4B08DE5FE77A4696"
+				"2485A86AC39EDA7B"
+			]
+			id: "71865609A9F1D042"
+			tasks: [{
+				id: "18AFCB1C296B9C50"
+				type: "item"
+				item: "botania:exoflame"
+			}]
+			rewards: [{
+				id: "2918419BE7827779"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 9.0d
+			shape: "diamond"
+			description: ["The &dFallen Kanade&f is a flower with angelic properties; it creates an aura of healing from Mana to apply a regeneration effect to any players nearby."]
+			hide_dependency_lines: true
+			dependencies: [
+				"2485A86AC39EDA7B"
+				"69CD7EFD780D5CF6"
+			]
+			id: "5BCE9C6C373911CC"
+			tasks: [{
+				id: "348C1664131E8569"
+				type: "item"
+				item: "botania:fallen_kanade"
+			}]
+			rewards: [{
+				id: "3644FDF00132FF86"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 10.0d
+			shape: "diamond"
+			description: [
+				"The &9Gourmaryllis&r is one hungry flower."
+				""
+				"It'll eat any food items it finds in a small area and turn them into &cMana&r."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4B08DE5FE77A4696"
+				"3C05D8DC18FC6D50"
+				"2485A86AC39EDA7B"
+			]
+			id: "105C9A3BF7CC03D3"
+			tasks: [{
+				id: "2B773453D2211195"
+				type: "item"
+				item: "botania:gourmaryllis"
+			}]
+			rewards: [{
+				id: "15389DBC76397E9A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 10.0d
+			shape: "diamond"
+			description: ["The &5Heisei Dream&f uses Mana to fuel artificial emotions of anger and revenge in any nearby mobs, turning them against each other."]
+			hide_dependency_lines: true
+			dependencies: [
+				"108BD010FFBD8E13"
+				"2485A86AC39EDA7B"
+			]
+			id: "7D76CE40FEFF7710"
+			tasks: [{
+				id: "1E96F3D81BD14ACD"
+				type: "item"
+				item: "botania:heisei_dream"
+			}]
+			rewards: [{
+				id: "06DEEFC0D070F5A5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 9.5d
+			shape: "diamond"
+			description: ["The aquapanthus uses very small amount of mana to fill nearby cauldrons and petal apothecaries with water."]
+			hide_dependency_lines: true
+			dependencies: ["2485A86AC39EDA7B"]
+			id: "34876A06F0E95690"
+			tasks: [{
+				id: "37A10788D3576116"
+				type: "item"
+				item: "mythicbotany:aquapanthus"
+			}]
+			rewards: [{
+				id: "28F618FFCF92BCEC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 9.0d
+			shape: "diamond"
+			description: ["The &cBellethorne &fis a malevelous flower. It twists any Mana provided to slowly inflict harm in any living beings (save for players) around it."]
+			hide_dependency_lines: true
+			dependencies: ["2485A86AC39EDA7B"]
+			id: "1EAC468400507A52"
+			tasks: [{
+				id: "5ABEF5C953D9DD8C"
+				type: "item"
+				item: "botania:bellethorn"
+			}]
+			rewards: [{
+				id: "5EA3FDE4FC5E93FD"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 9.0d
+			shape: "diamond"
+			description: ["Building underwater is no small feat; clearing air under the sea is incredibly troublesome and time-consuming. Placing a &bBubbell&f underwater and providing it with Mana will have it generate a dome of air (of about 12 blocks in radius)."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6A0284037005E40B"
+				"3C05D8DC18FC6D50"
+				"2485A86AC39EDA7B"
+			]
+			id: "30A4E8B540374BCD"
+			tasks: [{
+				id: "305998C78AC1EA20"
+				type: "item"
+				item: "botania:bubbell"
+			}]
+			rewards: [{
+				id: "13C87598B0220A11"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 9.0d
+			shape: "diamond"
+			description: ["The &7Clayconia&f is a simple flower. All it does is moisten nearby Sand, turning it into pellets of Clay. This process uses a decent amount of Mana."]
+			hide_dependency_lines: true
+			dependencies: [
+				"15FD83F0B4E8B466"
+				"2485A86AC39EDA7B"
+			]
+			id: "43B071B0B9411A52"
+			tasks: [{
+				id: "51E314654071F387"
+				type: "item"
+				item: "botania:clayconia"
+			}]
+			rewards: [{
+				id: "4C44A5DE12AB7C2E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 7.5d
+			shape: "diamond"
+			description: ["The &9Daffomill&r is a fan of sorts: it uses &cMana&r to push any items in front of it forward."]
+			hide_dependency_lines: true
+			dependencies: [
+				"31E7C7AA43E802F2"
+				"2485A86AC39EDA7B"
+			]
+			id: "09004739C8956FB9"
+			tasks: [{
+				id: "7FC5A095CAEF2629"
+				type: "item"
+				item: "botania:daffomill"
+			}]
+			rewards: [{
+				id: "7E48D8D7CAFDAFB3"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 9.5d
+			shape: "diamond"
+			description: ["This flower's functionis based on a cellular automaton know as &cConway's Game of Life&r."]
+			hide_dependency_lines: true
+			dependencies: [
+				"31E7C7AA43E802F2"
+				"15FD83F0B4E8B466"
+				"4B08DE5FE77A4696"
+				"6A0284037005E40B"
+				"77CAA7FF46A56DB7"
+				"2485A86AC39EDA7B"
+			]
+			id: "5F20FD15D4004DDE"
+			tasks: [{
+				id: "466DE1E67C1EB31B"
+				type: "item"
+				item: "botania:dandelifeon"
+			}]
+			rewards: [{
+				id: "3716BF69D68A004E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 14.0d
+			y: 9.5d
+			shape: "diamond"
+			description: ["The raindeletia produce mana it's raining and even more mana when it's thundering."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6A0284037005E40B"
+				"2485A86AC39EDA7B"
+			]
+			id: "69019C9D7FF40799"
+			tasks: [{
+				id: "3D514AAB0D05D0E7"
+				type: "item"
+				item: "mythicbotany:raindeletia"
+			}]
+			rewards: [{
+				id: "20D134CBD6778F1A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 8.0d
+			shape: "diamond"
+			description: ["The &9Vinculotus&r use &5Mana&r to hijack the power of any &cEnderman&r within a large radius around it."]
+			hide_dependency_lines: true
+			dependencies: [
+				"5EFD6677D56CF221"
+				"37809CC7CA5CDE57"
+				"6A0284037005E40B"
+				"2485A86AC39EDA7B"
+			]
+			id: "4298C1541D212E4F"
+			tasks: [{
+				id: "5BC6A3E539D03ACE"
+				type: "item"
+				item: "botania:vinculotus"
+			}]
+			rewards: [{
+				id: "1515732FED8F839C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 9.5d
+			shape: "diamond"
+			description: ["The wither aconite uses up nether stars droppen on it to create mana from them."]
+			hide_dependency_lines: true
+			dependencies: [
+				"63669895B667F02E"
+				"2485A86AC39EDA7B"
+			]
+			id: "32C68D8FB525E458"
+			tasks: [{
+				id: "0EC450AF97EAC3C2"
+				type: "item"
+				item: "mythicbotany:wither_aconite"
+			}]
+			rewards: [{
+				id: "2ECF1DC954040912"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 10.0d
+			shape: "diamond"
+			description: [
+				"The &9Rafflowsia&r fonctions similarly to a &9Kekimurus&r, but eats &9man-made flowers&r in the &9Petal Apothecary&r instead."
+				"It'll consume any nearby placed flowers and synthesize &cMana&r from them."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"15FD83F0B4E8B466"
+				"63669895B667F02E"
+				"2485A86AC39EDA7B"
+				"08C095E10B10E051"
+			]
+			id: "727A81D51A334904"
+			tasks: [{
+				id: "31685D4E46585425"
+				type: "item"
+				item: "botania:rafflowsia"
+			}]
+			rewards: [{
+				id: "2DC0E3A2215248BD"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 9.0d
+			shape: "diamond"
+			description: ["The &cPollidisiac&f will simply do just that; it uses mana to feed nearby food items on the ground (Wheat, Carrots, etc.) to animals within range, putting them in better moods."]
+			hide_dependency_lines: true
+			dependencies: [
+				"4B08DE5FE77A4696"
+				"2485A86AC39EDA7B"
+				"5EFD6677D56CF221"
+			]
+			id: "2847EF0C1B97A645"
+			tasks: [{
+				id: "2E37BB048BC712C3"
+				type: "item"
+				item: "botania:pollidisiac"
+			}]
+			rewards: [{
+				id: "1D5B0C31B355DD5E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 6.0d
+			shape: "gear"
+			description: [
+				"Create &cNether&r ores in &9Netherrack&r instead."
+				""
+				"The flower must be in the &cNether&r dimension to work."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"08C095E10B10E051"
+				"02168220AECF2CC7"
+				"63669895B667F02E"
+				"2485A86AC39EDA7B"
+			]
+			id: "03C6A5820C10166F"
+			tasks: [{
+				id: "7B92B9D714D0C967"
+				type: "item"
+				item: "botania:orechid_ignem"
+			}]
+			rewards: [{
+				id: "386F701CF0AAB191"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.0d
+			shape: "gear"
+			description: ["The &9Orechid&r uses &cMana&r to synthesize &cores&r from nearby &9stone&r block"]
+			hide_dependency_lines: true
+			dependencies: [
+				"63669895B667F02E"
+				"02168220AECF2CC7"
+				"2485A86AC39EDA7B"
+				"08C095E10B10E051"
+			]
+			id: "4600A534E585A07B"
+			tasks: [{
+				id: "5FDA7CC43F50C2E8"
+				type: "item"
+				item: "botania:orechid"
+			}]
+			rewards: [{
+				id: "3266C7A12B53A8CC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 10.0d
+			shape: "diamond"
+			description: ["It generates Mana by consuming Slimes naturally spawned in slime chunks."]
+			hide_dependency_lines: true
+			dependencies: [
+				"3C05D8DC18FC6D50"
+				"2485A86AC39EDA7B"
+				"6A0284037005E40B"
+			]
+			id: "2808924F2B4942C7"
+			tasks: [{
+				id: "056DF597903D1508"
+				type: "item"
+				item: "botania:narslimmus"
+			}]
+			rewards: [{
+				id: "4354B43620F6B5E1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 9.0d
+			shape: "diamond"
+			description: [
+				"Generating the from of natural energy that is &cMana&r is best done from other living materials."
+				""
+				"The &9Munchdew&r will eat up any nearby &9Leaves&r and convert them into &cMana&r."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"5707FFA4C44626EE"
+				"2485A86AC39EDA7B"
+			]
+			id: "7542504E506BA354"
+			tasks: [{
+				id: "2225F9642C30126C"
+				type: "item"
+				item: "botania:munchdew"
+			}]
+			rewards: [{
+				id: "5EFFC3C60085382D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 10.0d
+			shape: "diamond"
+			description: [
+				"Any adventurer knows that Dungeons can hold valuable goodies. The &6Loonium &fwill, when fed quite a bit of Mana, summon these items for said adventurers to collect."
+				""
+				"These monsters are extra-strong, but will drop their precious &3dungeon loot &fwhen killed."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"68B99B59F9C61786"
+				"5707FFA4C44626EE"
+				"37809CC7CA5CDE57"
+				"2485A86AC39EDA7B"
+			]
+			id: "57207E51E3C6BB88"
+			tasks: [{
+				id: "50B1489EF8424B2C"
+				type: "item"
+				item: "botania:loonium"
+			}]
+			rewards: [{
+				id: "2988CAA0CB433AE1"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			shape: "diamond"
+			description: ["For a moderate sun of &cMana&r, the &9Labellia&r picks up &cName Tags&r dropped on top of it, and uses them to name nearby items and mob within a 5x5 radius."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6E53214D2F296935"
+				"2485A86AC39EDA7B"
+			]
+			id: "48C77CE8B3B0B03F"
+			tasks: [{
+				id: "293BE6EEEC67B24D"
+				type: "item"
+				item: "botania:labellia"
+			}]
+			rewards: [{
+				id: "458E762C54867D70"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 9.0d
+			shape: "diamond"
+			description: ["The &9Kekimurus&r is one of these &9Cake&r aficionados, and will eat any placed in its vicinity, synthesizing the enriching nutrients into sweet, sweet &4Mana&r."]
+			hide_dependency_lines: true
+			dependencies: [
+				"5707FFA4C44626EE"
+				"08C095E10B10E051"
+				"2485A86AC39EDA7B"
+			]
+			id: "22B72FE698877D5B"
+			tasks: [{
+				id: "5DCA0573E2E9D97B"
+				type: "item"
+				item: "botania:kekimurus"
+			}]
+			rewards: [{
+				id: "269905323DE3EC65"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -6.0d
+			shape: "diamond"
+			subtitle: "Even better dirt"
+			description: ["The &2Rod of the Highlands&r can places dirt blocks in the middle of the air and of course on a basic regular place such as your base"]
+			hide_dependency_lines: true
+			dependencies: [
+				"31E7C7AA43E802F2"
+				"08C095E10B10E051"
+			]
+			id: "3A26B1D91A476749"
+			tasks: [{
+				id: "7D2177C9D1E95F69"
+				type: "item"
+				item: "botania:skydirt_rod"
+			}]
+			rewards: [{
+				id: "011FE2FB745FFD0B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "Elven Knowledge Required"
+			description: ["The &cRod &bof &1the &5Bifrost&r consumes Mana from a player-carried &2Mana Tablet&r to create bridges in the direction the player is looking. "]
+			hide_dependency_lines: true
+			dependencies: ["08C095E10B10E051"]
+			id: "4D5978C64EA59498"
+			tasks: [{
+				id: "4D18947CF2FDE93F"
+				type: "item"
+				item: "botania:rainbow_rod"
+			}]
+			rewards: [{
+				id: "2B7CF00649014108"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -5.0d
+			shape: "diamond"
+			subtitle: "Fire !"
+			description: ["The &2Rod of the Unstable Reservoir&r is a weapon that can kill many foes. It will launch Mana Missiles. "]
+			hide_dependency_lines: true
+			dependencies: [
+				"77CAA7FF46A56DB7"
+				"25DFFBCD2771DA46"
+				"08C095E10B10E051"
+			]
+			id: "7FEE0C7FEBD327BA"
+			tasks: [{
+				id: "6FE45EC20C072FD5"
+				type: "item"
+				item: "botania:missile_rod"
+			}]
+			rewards: [{
+				id: "6C1B62FFABFBFA8A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -5.5d
+			shape: "diamond"
+			subtitle: "Get out of here !"
+			description: ["The &2Rod of the Shaded Mesa&r is a powerful articfact. To use this, aim it at a mob or item and hold right-click to pick it up. Releasing right-click will drop the held entity, while punching with it will toss the entity in a powerful bust."]
+			hide_dependency_lines: true
+			dependencies: [
+				"08C095E10B10E051"
+				"25DFFBCD2771DA46"
+			]
+			id: "4BCEB1C2884E4EF6"
+			tasks: [{
+				id: "0A039AD18B2098D9"
+				type: "item"
+				item: {
+					id: "botania:gravity_rod"
+					Count: 1b
+					tag: {
+						dist: -1.0d
+						ticksCooldown: 0
+						ticksTillExpire: -1
+						target: -1
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B4ECEC041CA131B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -5.0d
+			shape: "diamond"
+			subtitle: "Swap "
+			description: [
+				"The &9Rod of the Shifting Crust&r is a magical device with the ability ta swap blocks in the world at very high speeds."
+				""
+				"To set up the rod, sneack-right click a block to select it."
+			]
+			hide_dependency_lines: true
+			dependencies: ["37809CC7CA5CDE57"]
+			id: "7AA62565554E3D11"
+			tasks: [{
+				id: "31B4F216D629D094"
+				type: "item"
+				item: {
+					id: "botania:exchange_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "036D926C1A60BDF2"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -5.5d
+			shape: "diamond"
+			subtitle: "Ores"
+			description: [
+				"The &2Rod of the Plentiful Mantle&r has the power to find ores."
+				"Those ores will emit a brief glow through walls. "
+				"Identical ores will glow identical color."
+				"It can be given to a &bLivingwood Avatar&r, when you do so, it will use Mana slowly and you will be able to see all nearby ores and colors will remain the same as long as the avatar isn't moved."
+			]
+			hide_dependency_lines: true
+			dependencies: ["167AC4181B2F5EA0"]
+			id: "6C655A539BF77CFC"
+			tasks: [{
+				id: "690B724296DA9B2F"
+				type: "item"
+				item: "botania:divining_rod"
+			}]
+			rewards: [{
+				id: "6E55BC7A690B81C4"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -6.0d
+			shape: "diamond"
+			subtitle: "Dirt please"
+			description: ["The &2Rod of the Lands&r places dirt in exchange of mana"]
+			hide_dependency_lines: true
+			dependencies: ["15FD83F0B4E8B466"]
+			id: "455EFD9C89E0086F"
+			tasks: [{
+				id: "4227C98A05DD4923"
+				type: "item"
+				item: "botania:dirt_rod"
+			}]
+			rewards: [{
+				id: "5CA332245172E33E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -4.0d
+			shape: "diamond"
+			description: ["When used, the &3Rod of the Depths&r will place a Cobblestone block in the targeted area. This consumes 150 &bMana&r from a &2Mana Tablet&r in the player's inventory per block. "]
+			hide_dependency_lines: true
+			dependencies: [
+				"4B08DE5FE77A4696"
+				"6A0284037005E40B"
+			]
+			id: "15AC1CF520473826"
+			tasks: [{
+				id: "1086053BACE94850"
+				type: "item"
+				item: "botania:cobble_rod"
+			}]
+			rewards: [{
+				id: "6E116C413B5DE0E3"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -4.5d
+			shape: "diamond"
+			description: ["By using &bMana&r from a &2Mana Tablet&r in the player's inventory, the Rod of the Hells will cast a circle of red fire clouds around the player, and any entity including the caster will burn inside the circle. "]
+			hide_dependency_lines: true
+			dependencies: ["4B08DE5FE77A4696"]
+			id: "0D32ED2AD00700C1"
+			tasks: [{
+				id: "737F169638F31304"
+				type: "item"
+				item: "botania:fire_rod"
+			}]
+			rewards: [{
+				id: "0B0C13D26AD5F27A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -4.0d
+			shape: "diamond"
+			description: ["By consuming &bMana&r from a player-carried &2Mana Tablet&r, the &1Rod of the Seas&r can create a Water source block in a targeted area. It can also be used to refill a Petal Apothecary. Both of these abilities consume 75 &bMana&r per use. "]
+			hide_dependency_lines: true
+			dependencies: ["6A0284037005E40B"]
+			id: "3022689D6391999A"
+			tasks: [{
+				id: "4839DE8328DE6DA5"
+				type: "item"
+				item: "botania:water_rod"
+			}]
+			rewards: [{
+				id: "02786E7BDF149409"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.5d
+			shape: "diamond"
+			description: [
+				"By using &bMana&r from a player-carried &2Mana Tablet&r, the &3Rod of the Skies&r propels the player into the air at a very high velocity. "
+				"This item does not have durability, but each time the rod is used, it must recharge and the durability bar shows the current state of recharging. When the durability bar has fully recharged the Rod can be used again and the durability bar will disappear. "
+			]
+			hide_dependency_lines: true
+			dependencies: ["31E7C7AA43E802F2"]
+			id: "014066400AB64013"
+			tasks: [{
+				id: "351F6745BAFA6807"
+				type: "item"
+				item: {
+					id: "botania:tornado_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5359BE6FB573CB85"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -4.0d
+			shape: "diamond"
+			description: [
+				"By consuming &bMana&r from a player-carried &2Mana Tablet&r it flattens and levels the ground to where the player is standing by either removing blocks or placing Dirt. "
+				"When the use key (right-mouse button by default) is held down, the Rod will attempt to flatten the land in a 33x33x33 area. It will fill the area 17 blocks below the player by placing Dirt on top of any blocks it finds and will remove all natural blocks 16 blocks above the player. When filling, it will try to alter the land as naturally as possible. Blocks that have been removed by the Rod are permanently lost. The cost of removing or creating blocks is 55 Mana per block. "
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"2304E2C6A7596C38"
+				"1C1C3A2F4C23169D"
+				"6E53214D2F296935"
+				"3C05D8DC18FC6D50"
+				"69CD7EFD780D5CF6"
+				"455EFD9C89E0086F"
+				"7269B6D7092E321A"
+			]
+			id: "16A38F507DF49B84"
+			tasks: [{
+				id: "51E12E76892D6EC1"
+				type: "item"
+				item: "botania:terraform_rod"
+			}]
+			rewards: [{
+				id: "34E9A5D887B772B9"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.5d
+			shape: "diamond"
+			description: ["By consuming &bMana&r from a player-carried &2Mana Tablet&r, the Rod of the Molten Core will smelt targeted blocks at a cost of 300 Mana per block smelted. "]
+			hide_dependency_lines: true
+			dependencies: ["4B08DE5FE77A4696"]
+			id: "262A6306EE21315D"
+			tasks: [{
+				id: "305544313C09B2C9"
+				type: "item"
+				item: "botania:smelt_rod"
+			}]
+			rewards: [{
+				id: "30534B0EFB0BE038"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 16.5d
+			y: 3.0d
+			dependencies: ["08C095E10B10E051"]
+			id: "25DFFBCD2771DA46"
+			tasks: [{
+				id: "38D23302107F7D38"
+				type: "item"
+				item: "botania:dreamwood_twig"
+			}]
+			rewards: [{
+				id: "5451F62935831BDD"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["00769E3D1917DAFB"]
+			id: "7269B6D7092E321A"
+			tasks: [
+				{
+					id: "384CD2B6F2C51A00"
+					type: "item"
+					item: "botania:grass_seeds"
+				}
+				{
+					id: "4049047913C5F2B5"
+					type: "item"
+					item: "botania:dry_seeds"
+				}
+				{
+					id: "4B38AA25772998BF"
+					type: "item"
+					item: "botania:golden_seeds"
+				}
+				{
+					id: "6761956BCDC6A24F"
+					type: "item"
+					item: "botania:vivid_seeds"
+				}
+				{
+					id: "0BA878F2A82C93AD"
+					type: "item"
+					item: "botania:scorched_seeds"
+				}
+				{
+					id: "347C9F744A9A3153"
+					type: "item"
+					item: "botania:infused_seeds"
+				}
+				{
+					id: "199E23D8583C181A"
+					type: "item"
+					item: "botania:mutated_seeds"
+				}
+			]
+			rewards: [{
+				id: "3C458E770329A10F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["73799F1EBC9052BE"]
+			id: "46B55525DC438213"
+			tasks: [{
+				id: "1A24A0724E17D188"
+				type: "item"
+				item: {
+					id: "botania:invisibility_cloak"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6E8A9D3FBF3A0594"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["77CAA7FF46A56DB7"]
+			id: "61CF634ECD6D50AE"
+			tasks: [{
+				id: "335069E13D4C409E"
+				type: "item"
+				item: {
+					id: "botania:balance_cloak"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2E7BD537663C3FB1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["77CAA7FF46A56DB7"]
+			id: "7DD8BA281A60D34B"
+			tasks: [{
+				id: "2F4A9C38C6E7A9FC"
+				type: "item"
+				item: {
+					id: "botania:unholy_cloak"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "65BC95DBF85CBD2D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["77CAA7FF46A56DB7"]
+			id: "756D3BD77C723911"
+			tasks: [{
+				id: "3FB278D2C1E60A83"
+				type: "item"
+				item: {
+					id: "botania:holy_cloak"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "68806703DE636A97"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 0.0d
+			dependencies: [
+				"77CAA7FF46A56DB7"
+				"08C095E10B10E051"
+			]
+			id: "7551278C490BFDE2"
+			tasks: [{
+				id: "74825A7841B5776B"
+				type: "item"
+				item: {
+					id: "botania:astrolabe"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6E87E398D5C11FA8"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["41BE0CB42202D8AE"]
+			id: "4D67DD7B68A87A74"
+			tasks: [{
+				id: "63F6095095B79011"
+				type: "item"
+				item: {
+					id: "botania:sextant"
+					Count: 1b
+					tag: {
+						sourceX: -4
+						sourceY: -1
+						sourceZ: 54
+					}
+				}
+			}]
+			rewards: [{
+				id: "631462E30CB8D806"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 17.0d
+			y: -11.0d
+			hide_dependency_lines: true
+			dependencies: ["41BE0CB42202D8AE"]
+			id: "1DEB5419D559D4E7"
+			tasks: [{
+				id: "7C4856A1D298E1CB"
+				type: "item"
+				item: {
+					id: "botania:magnet_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "17CD2E047C5421EB"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 18.0d
+			y: -11.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"138B36075A62D58B"
+				"41BE0CB42202D8AE"
+			]
+			id: "4A564978D3A2BF50"
+			tasks: [{
+				id: "7E2B0D2FE8AA8689"
+				type: "item"
+				item: {
+					id: "botania:aura_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "207099A7896D29B5"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 18.0d
+			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"0DB9AA863FDC5817"
+				"41BE0CB42202D8AE"
+			]
+			id: "50E6D7884A5651D8"
+			tasks: [{
+				id: "6BD0A2886885C5E0"
+				type: "item"
+				item: {
+					id: "botania:mana_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7AD76ACEAC1E3120"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 16.0d
+			y: -11.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"31E7C7AA43E802F2"
+				"41BE0CB42202D8AE"
+			]
+			id: "7FC474A906753E94"
+			tasks: [{
+				id: "3DD7A7C0DE29196B"
+				type: "item"
+				item: {
+					id: "botania:dodge_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4A25CE2D5CD195CB"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 17.0d
+			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: ["41BE0CB42202D8AE"]
+			id: "2643FA5565BD1593"
+			tasks: [{
+				id: "3B086DA934271AE9"
+				type: "item"
+				item: {
+					id: "botania:swap_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4160777AC91255D8"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 18.0d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"15FD83F0B4E8B466"
+				"41BE0CB42202D8AE"
+			]
+			id: "5CDCE6395B515A89"
+			tasks: [{
+				id: "40F1CB4BEC51D8A8"
+				type: "item"
+				item: {
+					id: "botania:mining_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4E2826971FF57B21"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 17.0d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"6A0284037005E40B"
+				"41BE0CB42202D8AE"
+			]
+			id: "16CF5E15375A0B52"
+			tasks: [{
+				id: "4B3976B065746461"
+				type: "item"
+				item: {
+					id: "botania:water_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0723E659530B0B63"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 24.5d
+			y: -10.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"2304E2C6A7596C38"
+				"4A564978D3A2BF50"
+			]
+			id: "024D544107FA85D2"
+			tasks: [{
+				id: "758C070A2C874B87"
+				type: "item"
+				item: {
+					id: "botania:aura_ring_greater"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1663DAE61037B151"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 24.0d
+			y: -9.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"50E6D7884A5651D8"
+				"2304E2C6A7596C38"
+			]
+			id: "79C0BF8268822A1E"
+			tasks: [{
+				id: "617B3773528E743A"
+				type: "item"
+				item: {
+					id: "botania:mana_ring_greater"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "681D2F75F969598C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 23.5d
+			y: -9.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"1DEB5419D559D4E7"
+				"2304E2C6A7596C38"
+			]
+			id: "68E882B8DD73C6A5"
+			tasks: [{
+				id: "70B10C3032262582"
+				type: "item"
+				item: {
+					id: "botania:magnet_ring_greater"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "51036FCFB083A6A3"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 21.5d
+			y: -11.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"0465B70DB57B7918"
+				"7269B6D7092E321A"
+			]
+			id: "378730ED96429123"
+			tasks: [{
+				id: "002E4A7BE701EF52"
+				type: "item"
+				item: {
+					id: "botania:speed_up_belt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "15ACC4AFBD683033"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 21.0d
+			y: -12.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"4B08DE5FE77A4696"
+				"31E7C7AA43E802F2"
+				"41BE0CB42202D8AE"
+			]
+			id: "7BEDF98763A4A490"
+			tasks: [{
+				id: "1BCC013E2F48A07C"
+				type: "item"
+				item: {
+					id: "botania:knockback_belt"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: 4283017749435663282L
+						baubleUUIDLeast: -8740818966228564334L
+					}
+				}
+			}]
+			rewards: [{
+				id: "4351F213192E5C9A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 20.5d
+			y: -11.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"15FD83F0B4E8B466"
+				"31E7C7AA43E802F2"
+				"41BE0CB42202D8AE"
+			]
+			id: "0465B70DB57B7918"
+			tasks: [{
+				id: "6A2ED8E1ECBC9468"
+				type: "item"
+				item: {
+					id: "botania:travel_belt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1154FC5A42C481AC"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 17.5d
+			y: -15.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"6A0284037005E40B"
+				"1C1C3A2F4C23169D"
+				"41BE0CB42202D8AE"
+				"223A3CFD1CF6E059"
+			]
+			id: "58C88534FB56425B"
+			tasks: [{
+				id: "4E441FC795D36301"
+				type: "item"
+				item: {
+					id: "botania:ice_pendant"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0D113813DEEFBAFB"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 17.0d
+			y: -14.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"6E53214D2F296935"
+				"31E7C7AA43E802F2"
+				"41BE0CB42202D8AE"
+				"223A3CFD1CF6E059"
+			]
+			id: "2DD634B1BE03730B"
+			tasks: [{
+				id: "23A45FA8E6E7322C"
+				type: "item"
+				item: {
+					id: "botania:cloud_pendant"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "08F01F99D8C8AAD8"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 17.5d
+			y: -14.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"2DD634B1BE03730B"
+				"08C095E10B10E051"
+				"77CAA7FF46A56DB7"
+			]
+			id: "375042FEE06E3692"
+			tasks: [{
+				id: "2292EA317A2651C1"
+				type: "item"
+				item: {
+					id: "botania:super_cloud_pendant"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "64D4302BB3477062"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 17.5d
+			y: -13.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"223A3CFD1CF6E059"
+				"3C05D8DC18FC6D50"
+				"4B08DE5FE77A4696"
+				"41BE0CB42202D8AE"
+			]
+			id: "58215ADD2951D531"
+			tasks: [{
+				id: "666075997C0219D8"
+				type: "item"
+				item: {
+					id: "botania:lava_pendant"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "45D5A082B94D19C1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 18.0d
+			y: -14.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"58215ADD2951D531"
+				"77CAA7FF46A56DB7"
+			]
+			id: "042B255E43751A59"
+			tasks: [{
+				id: "1F5E2B410382D34E"
+				type: "item"
+				item: {
+					id: "botania:super_lava_pendant"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7272B75853588F5B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 21.5d
+			y: -14.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"773FE75523C01757"
+				"08C095E10B10E051"
+			]
+			id: "71B5906D510DD4AB"
+			tasks: [{
+				id: "2008E134D17AC8A8"
+				type: "item"
+				item: {
+					id: "mythicbotany:fire_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "594709751645E987"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 21.0d
+			y: -14.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"331CDA7B40E41BB1"
+				"08C095E10B10E051"
+			]
+			id: "2A18DD8D7942F2B2"
+			tasks: [{
+				id: "27BF86F117E47689"
+				type: "item"
+				item: {
+					id: "mythicbotany:ice_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "09B90898B41CF56B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 21.0d
+			y: -11.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"77CAA7FF46A56DB7"
+				"08C095E10B10E051"
+				"0465B70DB57B7918"
+			]
+			id: "0BCCAEACC5861952"
+			tasks: [{
+				id: "76B95FFAD5C00AB2"
+				type: "item"
+				item: {
+					id: "botania:super_travel_belt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "743EE63B3ADF99F6"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 22.0d
+			y: -14.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"63669895B667F02E"
+				"08C095E10B10E051"
+			]
+			id: "18BA456653D8BD5E"
+			tasks: [{
+				id: "4AD606F7E1396B2F"
+				type: "item"
+				item: {
+					id: "botania:reach_ring"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: 1661339344857547357L
+						baubleUUIDLeast: -7248109445253675461L
+					}
+				}
+			}]
+			rewards: [{
+				id: "7D83E83EBEBCA9B1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 21.5d
+			y: -13.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["08C095E10B10E051"]
+			id: "6893D50AD5A4D930"
+			tasks: [{
+				id: "300DB35BC5C5AEBE"
+				type: "item"
+				item: {
+					id: "botania:pixie_ring"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: 3916023094946448525L
+						baubleUUIDLeast: -8578975844021147012L
+					}
+				}
+			}]
+			rewards: [{
+				id: "3F317D5AF58D3061"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -14.5d
+			description: ["You have to put the runes on the rune holder and throw the items."]
+			hide_dependency_lines: true
+			dependencies: ["15B5BC64BC242F57"]
+			id: "245528E23F0D8350"
+			tasks: [
+				{
+					id: "7BC489967282D6CF"
+					type: "item"
+					item: "mythicbotany:master_rune_holder"
+				}
+				{
+					id: "231FF6A9E31A3F8F"
+					type: "item"
+					item: "mythicbotany:rune_holder"
+				}
+			]
+			rewards: [{
+				id: "1FEF49BB4A4E3CBF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -14.5d
+			subtitle: "Thor Hammer!!!"
+			hide_dependency_lines: true
+			dependencies: [
+				"245528E23F0D8350"
+				"02168220AECF2CC7"
+				"108BD010FFBD8E13"
+				"31E7C7AA43E802F2"
+				"20389596B4BF7C78"
+				"59C2F3B16D47B289"
+				"15FD83F0B4E8B466"
+				"5AC1ED2286733036"
+			]
+			id: "5247B6D3ACAEBB23"
+			tasks: [{
+				id: "70163F8E5FDCB175"
+				type: "item"
+				item: "mythicbotany:mjoellnir"
+			}]
+			rewards: [{
+				id: "34E86A31644CA27D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -14.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"245528E23F0D8350"
+				"4B08DE5FE77A4696"
+				"3C05D8DC18FC6D50"
+				"73F21C528D4DFCB8"
+				"3218F13313E97E38"
+			]
+			id: "1A7DC8C9BB893233"
+			tasks: [{
+				id: "0BC91BBFCE171D36"
+				type: "item"
+				item: "mythicbotany:kvasir_blood"
+			}]
+			rewards: [{
+				id: "60456611058BCC34"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["00769E3D1917DAFB"]
+			id: "15B5BC64BC242F57"
+			tasks: [{
+				id: "553C9A94414948D5"
+				type: "item"
+				item: "botania:mana_powder"
+			}]
+			rewards: [{
+				id: "339D5231BD5A4AF3"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 13.5d
+			y: -1.5d
+			dependencies: ["77CAA7FF46A56DB7"]
+			id: "44AF8A8F691307B7"
+			tasks: [{
+				id: "3A42547750EDD246"
+				type: "item"
+				item: {
+					id: "botania:dice"
+					Count: 1b
+					tag: {
+						soulbindUUID: "831a44ac-a31b-4a60-9fc4-e1300b3f55e0"
+					}
+				}
+			}]
+			rewards: [{
+				id: "62341458A6404B9E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 16.5d
+			y: 1.5d
+			dependencies: ["08C095E10B10E051"]
+			id: "1EC6710C872FEDFF"
+			tasks: [{
+				id: "052D5DE1059C90AB"
+				type: "item"
+				item: "botania:open_bucket"
+			}]
+			rewards: [{
+				id: "648CAC750BE07474"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -8.0d
+			dependencies: ["36B058B062789AE0"]
+			id: "76A31F73B201325E"
+			tasks: [{
+				id: "014E8383A2B9782A"
+				type: "item"
+				item: "mythicbotany:gjallar_horn_empty"
+			}]
+			rewards: [{
+				id: "667101F0DAB28FED"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"7672A3025A0E0A34"
+				"7269B6D7092E321A"
+			]
+			id: "36B058B062789AE0"
+			tasks: [{
+				id: "676B5D0DF3EC957F"
+				type: "item"
+				item: "botania:horn_grass"
+			}]
+			rewards: [{
+				id: "36582689F3CF7D14"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -16.0d
+			description: ["After drinking the mead you'll be able to step in the &9Portal to Alfheim&r and travel to Aflheim yourself."]
+			dependencies: ["1A7DC8C9BB893233"]
+			id: "3CE70B0A6E5C4011"
+			tasks: [{
+				id: "2CB0FC712E7AF07D"
+				type: "item"
+				item: "mythicbotany:kvasir_mead"
+			}]
+			rewards: [
+				{
+					id: "1290027974A5612A"
+					type: "item"
+					item: "minecraft:honey_bottle"
+				}
+				{
+					id: "6DC044DF6E201B6A"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 3.0d
+			dependencies: ["08C095E10B10E051"]
+			id: "630729BCB9A91C7F"
+			tasks: [{
+				id: "08CC1372E190A701"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+			rewards: [{
+				id: "52B61D0F7764B16F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 4.5d
+			dependencies: ["630729BCB9A91C7F"]
+			id: "71B29732D6A8A87B"
+			tasks: [{
+				id: "1BB007356AFE5CC1"
+				type: "item"
+				item: "botania:gaia_spreader"
+			}]
+			rewards: [{
+				id: "6CAF5DBFB70B5BBD"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["73799F1EBC9052BE"]
+			id: "352B1D691B2075E4"
+			tasks: [{
+				id: "76C83EEC161B34D2"
+				type: "item"
+				item: "botania:alchemy_catalyst"
+			}]
+			rewards: [{
+				id: "1349AFB45FF760DA"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			dependencies: ["352B1D691B2075E4"]
+			id: "64AF3557F1173E76"
+			tasks: [{
+				id: "7ED67C05A7A1F638"
+				type: "item"
+				item: "botania:conjuration_catalyst"
+			}]
+			rewards: [{
+				id: "0632806332CAA605"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			description: ["Any Mana received from Mana Bursts will be split evenly into Mana Pools placed on adjacent sides."]
+			dependencies: ["3347286B1E8B7EB5"]
+			id: "6C7D662F8CDF2A88"
+			tasks: [{
+				id: "36C657ED5A4DB57B"
+				type: "item"
+				item: "botania:mana_distributor"
+			}]
+			rewards: [{
+				id: "046FF6D3EFF48B8B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"138B36075A62D58B"
+				"3347286B1E8B7EB5"
+				"41BE0CB42202D8AE"
+			]
+			id: "587C508AE0C73C0E"
+			tasks: [{
+				id: "0698F5082AE61CA0"
+				type: "item"
+				item: "botania:brewery"
+			}]
+			rewards: [{
+				id: "3BB7CA7D4784D10E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Mana Manipulation"
+			x: 2.0d
+			y: 1.0d
+			description: [
+				"The &cMana Void&f is, in layman's terms, a grave for Mana. Any Mana poured into this block will simply vanish into the void, never to be seen again."
+				"Placing one of these under a Mana Pool will allow the pool to always accept Mana, but void any it can't hold."
+				""
+				"The &cMana Detector&f detects when a Mana Burst flows through it (bursts pass through this block like air) and provides a redstone signal for the occasion."
+			]
+			dependencies: ["3347286B1E8B7EB5"]
+			id: "75F3357335FF44A8"
+			tasks: [
+				{
+					id: "5B8E2D54F9D079FD"
+					type: "item"
+					item: "botania:mana_void"
+				}
+				{
+					id: "6C99E9780D36DFA9"
+					type: "item"
+					item: "botania:mana_detector"
+				}
+			]
+			rewards: [{
+				id: "5770AB637506405B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Alfheim Ores"
+			x: 12.0d
+			y: 0.5d
+			dependencies: ["457116B6E1C7236C"]
+			id: "5BFB65322FB82396"
+			tasks: [
+				{
+					id: "164BD3097B26A005"
+					type: "item"
+					item: "mythicbotany:dragonstone_ore"
+				}
+				{
+					id: "483CE8CCC4F6C5FC"
+					type: "item"
+					item: "mythicbotany:gold_ore"
+				}
+				{
+					id: "09CF631AC2569F94"
+					type: "item"
+					item: "mythicbotany:elementium_ore"
+				}
+			]
+			rewards: [{
+				id: "4F268941CB79037E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"223A3CFD1CF6E059"
+				"08C095E10B10E051"
+			]
+			id: "45B7A9F1C30E6A19"
+			tasks: [{
+				id: "665DC3102DE17BCB"
+				type: "item"
+				item: {
+					id: "botania:crystal_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "06F28F550E98E071"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"41BE0CB42202D8AE"
+				"73799F1EBC9052BE"
+			]
+			id: "0948A919055DAC60"
+			tasks: [{
+				id: "57245B3BFDEB1DC7"
+				type: "item"
+				item: {
+					id: "botania:ender_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "044A9525FEB0D961"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 15.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["41BE0CB42202D8AE"]
+			id: "4A5CE5A86490E30D"
+			tasks: [{
+				id: "170B7A85499CD77D"
+				type: "item"
+				item: {
+					id: "botania:glass_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C400C863B9239D3"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["223A3CFD1CF6E059"]
+			id: "59412C295C8C261D"
+			tasks: [{
+				id: "4AD1E68EC5CB6A2D"
+				type: "item"
+				item: {
+					id: "botania:livingwood_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "660541AB959FE718"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"5370F15EC65BB3D8"
+				"58E1101478068F9D"
+				"08C095E10B10E051"
+			]
+			id: "5BF055D85C65D245"
+			tasks: [{
+				id: "60BCE82469B72711"
+				type: "item"
+				item: {
+					id: "botania:star_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7DCCBCC327F44499"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["2304E2C6A7596C38"]
+			id: "22DC491E5205811B"
+			tasks: [{
+				id: "27DD271C3D869542"
+				type: "item"
+				item: {
+					id: "botaniaadditions:terra_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D24E6486A432EFA"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 16.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"5370F15EC65BB3D8"
+				"167AC4181B2F5EA0"
+				"08C095E10B10E051"
+				"58E1101478068F9D"
+			]
+			id: "54CB0CC3EAECC1B1"
+			tasks: [{
+				id: "51FE496027F8A085"
+				type: "item"
+				item: {
+					id: "botania:thunder_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "27CDF81C338CE71B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -12.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"20389596B4BF7C78"
+				"71ED6E10B612D8A1"
+				"08C095E10B10E051"
+				"024D544107FA85D2"
+			]
+			id: "55EFF4F62A32CD87"
+			tasks: [{
+				id: "21F73446D55E4850"
+				type: "item"
+				item: "botanicalmachinery:mechanical_runic_altar"
+			}]
+			rewards: [{
+				id: "36250B944820906E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -14.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"352B1D691B2075E4"
+				"64AF3557F1173E76"
+				"29A3AD1D70E2E030"
+				"7ECA1866839946FF"
+				"08C095E10B10E051"
+				"024D544107FA85D2"
+			]
+			id: "7C91F1204CEB9659"
+			tasks: [{
+				id: "7B467DEE03B0307D"
+				type: "item"
+				item: "botanicalmachinery:mechanical_mana_pool"
+			}]
+			rewards: [{
+				id: "102835BE8DF28DDF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -13.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"08C095E10B10E051"
+				"024D544107FA85D2"
+			]
+			id: "327019CC28D6A874"
+			tasks: [{
+				id: "6969584AEC2ED90C"
+				type: "item"
+				item: "botanicalmachinery:mechanical_daisy"
+			}]
+			rewards: [{
+				id: "7E8BD85308585077"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -12.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"024D544107FA85D2"
+				"3777401A205F36FA"
+				"587C508AE0C73C0E"
+				"08C095E10B10E051"
+			]
+			id: "19555CFBA3CFF2B3"
+			tasks: [{
+				id: "3A170106F601CC29"
+				type: "item"
+				item: "botanicalmachinery:mechanical_brewery"
+			}]
+			rewards: [{
+				id: "7EA6609C1BAA0548"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -13.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"65D6D05E0F5D62F8"
+				"2485A86AC39EDA7B"
+				"024D544107FA85D2"
+				"08C095E10B10E051"
+			]
+			id: "7BD6A2FDF289F643"
+			tasks: [{
+				id: "70B2DE2D450047B5"
+				type: "item"
+				item: "botanicalmachinery:mechanical_apothecary"
+			}]
+			rewards: [{
+				id: "3FC221FCE3DC4C37"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -13.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"270A1131A5040591"
+				"08C095E10B10E051"
+				"73799F1EBC9052BE"
+				"167AC4181B2F5EA0"
+				"024D544107FA85D2"
+				"41BE0CB42202D8AE"
+			]
+			id: "6696BE724CFDD6FD"
+			tasks: [{
+				id: "26931C7BA0883F92"
+				type: "item"
+				item: "botanicalmachinery:industrial_agglomeration_factory"
+			}]
+			rewards: [{
+				id: "49EC3575734FB48F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -12.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"457116B6E1C7236C"
+				"08C095E10B10E051"
+				"024D544107FA85D2"
+			]
+			id: "119E1524BDC8B1D3"
+			tasks: [{
+				id: "5EB8AD5DAA3D3222"
+				type: "item"
+				item: "botanicalmachinery:alfheim_market"
+			}]
+			rewards: [{
+				id: "2AC9BD29CE194039"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			dependencies: ["457116B6E1C7236C"]
+			id: "6AEF8AE5D94FE891"
+			tasks: [
+				{
+					id: "240B0BC0CF57126D"
+					type: "item"
+					item: "botania:elf_glass"
+				}
+				{
+					id: "41058A988B832EF6"
+					type: "item"
+					item: "botania:mana_glass"
+				}
+			]
+			rewards: [{
+				id: "33F223AC333AB3C1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			dependencies: ["6AEF8AE5D94FE891"]
+			id: "3777401A205F36FA"
+			tasks: [{
+				id: "1E5671AB6B16E08F"
+				type: "item"
+				item: "botania:flask"
+			}]
+			rewards: [{
+				id: "60A180A0773F7D75"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -13.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["71ED6E10B612D8A1"]
+			id: "2224DB714A2398C4"
+			tasks: [{
+				id: "58F5D95856A7225F"
+				type: "item"
+				item: "kubejs:condensed_mana"
+			}]
+			rewards: [
+				{
+					id: "40B9FA4A25952384"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+				{
+					id: "39294ADCB07423D4"
+					type: "item"
+					item: "botania:terrasteel_nugget"
+					count: 8
+				}
+			]
+		}
+	]
+}

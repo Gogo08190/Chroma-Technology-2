@@ -1,0 +1,934 @@
+{
+	id: "7B9024AD95F287BB"
+	group: "1D8552F8A45BF753"
+	order_index: 0
+	filename: "elemental_craft"
+	title: "Elemental craft"
+	icon: "elementalcraft:focus"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Inert crystal"
+			x: 0.0d
+			y: 0.0d
+			description: ["You can find him by mining"]
+			id: "6DE51A98F6BE60C6"
+			tasks: [{
+				id: "1AFD8BB3978944B9"
+				type: "item"
+				item: "elementalcraft:inertcrystal"
+				count: 16L
+			}]
+			rewards: [{
+				id: "7889164A7C70CB8E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "elementalcraft:element_book"
+				}
+			}
+			x: 2.0d
+			y: 0.0d
+			description: ["Can help you if you just read"]
+			dependencies: ["6DE51A98F6BE60C6"]
+			hide: true
+			id: "5B0C726044803D44"
+			tasks: [{
+				id: "28112239F0F4A818"
+				type: "checkmark"
+				title: "Elementopia"
+			}]
+			rewards: [
+				{
+					id: "7C36A76C3AB06DF8"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "elementalcraft:element_book"
+						}
+					}
+				}
+				{
+					id: "237A4855FBEDFF7E"
+					type: "loot"
+					table_id: 4063386593177790740L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			description: ["Will contain a few amount of one element"]
+			dependencies: ["5B0C726044803D44"]
+			hide: true
+			id: "0B0EB289CB8CEA3C"
+			tasks: [{
+				id: "5F9506023A982348"
+				type: "item"
+				item: "elementalcraft:tank_small"
+			}]
+			rewards: [{
+				id: "6A723A15A5270D83"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			description: ["Improved version of the small container"]
+			dependencies: ["0B0EB289CB8CEA3C"]
+			hide: true
+			id: "551980577C217831"
+			tasks: [{
+				id: "37D25C967B0DC1C1"
+				type: "item"
+				item: "elementalcraft:tank"
+			}]
+			rewards: [{
+				id: "2670B9CC9F3E8735"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			description: ["When place below an element he will extract from him"]
+			dependencies: ["5B0C726044803D44"]
+			hide: true
+			id: "78BCB3BE7D6BE28F"
+			tasks: [{
+				id: "062724B9830DE552"
+				type: "item"
+				item: "elementalcraft:extractor"
+			}]
+			rewards: [{
+				id: "33C6B13B2F96AD4F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			description: ["Place it on an element container countaining the wished element"]
+			dependencies: ["5B0C726044803D44"]
+			hide: true
+			id: "0A3948A727717EB4"
+			tasks: [{
+				id: "37007D614C149D2F"
+				type: "item"
+				item: "elementalcraft:infuser"
+			}]
+			rewards: [{
+				id: "6903D3FA31F9CEED"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			description: ["Can craft item with element"]
+			dependencies: ["78BCB3BE7D6BE28F"]
+			hide: true
+			id: "5963F874AAE3DE3E"
+			tasks: [{
+				id: "615AFBF8374AF2AE"
+				type: "item"
+				item: "elementalcraft:binder"
+			}]
+			rewards: [{
+				id: "590EF971361D2195"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: ["an improved vrsion"]
+			dependencies: ["5963F874AAE3DE3E"]
+			hide: true
+			id: "0647945AC4934FB7"
+			tasks: [{
+				id: "51E88B87B8C7E645"
+				type: "item"
+				item: "elementalcraft:binder_improved"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			description: ["an improved version"]
+			dependencies: ["78BCB3BE7D6BE28F"]
+			hide: true
+			id: "0129F85F06EF3846"
+			tasks: [{
+				id: "38EDF60E90FC52BE"
+				type: "item"
+				item: "elementalcraft:extractor_improved"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["0A3948A727717EB4"]
+			hide: true
+			id: "691875E5448101B6"
+			tasks: [{
+				id: "3025BF1D2A1C3B48"
+				type: "item"
+				item: "elementalcraft:earthcrystal"
+			}]
+			rewards: [{
+				id: "116BB8C35F0A5E69"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["0A3948A727717EB4"]
+			hide: true
+			id: "0482F6AEA4CA8ED4"
+			tasks: [{
+				id: "06B9DF10410391F3"
+				type: "item"
+				item: "elementalcraft:firecrystal"
+			}]
+			rewards: [{
+				id: "2DE6B0D8D434A544"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			dependencies: ["0A3948A727717EB4"]
+			hide: true
+			id: "528A919751F7A145"
+			tasks: [{
+				id: "5C80C7E025357432"
+				type: "item"
+				item: "elementalcraft:watercrystal"
+			}]
+			rewards: [{
+				id: "7429CE62EF2BE692"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			dependencies: ["0A3948A727717EB4"]
+			hide: true
+			id: "12AAAE11B4297E26"
+			tasks: [{
+				id: "40DF1FB75C9A28B8"
+				type: "item"
+				item: "elementalcraft:aircrystal"
+			}]
+			rewards: [{
+				id: "7C6BCA794A877D9B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: ["This will be a primary craft"]
+			dependencies: ["6DE51A98F6BE60C6"]
+			hide: true
+			id: "2669F62A9D905F87"
+			tasks: [{
+				id: "46351F69088FCE4E"
+				type: "item"
+				item: "elementalcraft:containedcrystal"
+			}]
+			rewards: [{
+				id: "037B74A01F94A35C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			icon: "elementalcraft:pureinfuser"
+			x: 9.5d
+			y: 0.0d
+			description: ["You can now make new craft,you just need to input the right element on the good pedestal except the midle one"]
+			dependencies: [
+				"691875E5448101B6"
+				"528A919751F7A145"
+				"12AAAE11B4297E26"
+				"0482F6AEA4CA8ED4"
+			]
+			hide: true
+			id: "1CE7C3FE672DA886"
+			tasks: [
+				{
+					id: "6E52943E7507D63C"
+					type: "item"
+					item: "elementalcraft:pureinfuser"
+				}
+				{
+					id: "3DA60C74711CE015"
+					type: "item"
+					item: "elementalcraft:pedestal_fire"
+				}
+				{
+					id: "2936B26A85B49F3E"
+					type: "item"
+					item: "elementalcraft:pedestal_water"
+				}
+				{
+					id: "4F14FC95F0DE96C5"
+					type: "item"
+					item: "elementalcraft:pedestal_earth"
+				}
+				{
+					id: "657F5561114779FA"
+					type: "item"
+					item: "elementalcraft:pedestal_air"
+				}
+			]
+			rewards: [{
+				id: "3DEBC4658CB6A0DB"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			description: ["A new material"]
+			dependencies: ["1CE7C3FE672DA886"]
+			hide: true
+			id: "045A7AC4769EEF48"
+			tasks: [{
+				id: "65DAAB8AD026BFAB"
+				type: "item"
+				item: "elementalcraft:purecrystal"
+			}]
+			rewards: [{
+				id: "04AFF22686EAED7B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			description: [
+				""
+				"Can countain fire element for spell"
+			]
+			dependencies: ["0647945AC4934FB7"]
+			id: "008049ADCB42157F"
+			tasks: [{
+				id: "658BE840F2C11A05"
+				type: "item"
+				item: {
+					id: "elementalcraft:element_holder_fire"
+					Count: 1b
+					tag: {
+						Damage: 1000
+					}
+					ForgeCaps: {
+						Parent: {
+							element_capacity: 10000
+							element_amount: 0
+							element_type: "fire"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "180FC4F483EBD434"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			description: ["Can countain water element for spell"]
+			dependencies: ["0647945AC4934FB7"]
+			id: "476714364042055B"
+			tasks: [{
+				id: "67981F08983FC7B3"
+				type: "item"
+				item: {
+					id: "elementalcraft:element_holder_water"
+					Count: 1b
+					tag: {
+						Damage: 1000
+					}
+					ForgeCaps: {
+						Parent: {
+							element_capacity: 10000
+							element_amount: 0
+							element_type: "water"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "612154DA8DE3F8D7"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			description: ["Can countain earth element for spell"]
+			dependencies: ["0647945AC4934FB7"]
+			id: "36A18DF22711B51E"
+			tasks: [{
+				id: "3F7A95BCF0499C74"
+				type: "item"
+				item: {
+					id: "elementalcraft:element_holder_earth"
+					Count: 1b
+					tag: {
+						Damage: 1000
+					}
+					ForgeCaps: {
+						Parent: {
+							element_capacity: 10000
+							element_amount: 0
+							element_type: "earth"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6D8358BD197EAF10"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			description: ["Can countain air element for spell"]
+			dependencies: ["0647945AC4934FB7"]
+			id: "4A8F7E1DEF038947"
+			tasks: [{
+				id: "06826B76F785355F"
+				type: "item"
+				item: {
+					id: "elementalcraft:element_holder_air"
+					Count: 1b
+					tag: {
+						Damage: 1000
+					}
+					ForgeCaps: {
+						Parent: {
+							element_capacity: 10000
+							element_amount: 0
+							element_type: "air"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B7A96B4CE886883"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.75d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "Something powerful is inside, perhaps i could do something with other magican material"
+			dependencies: [
+				"008049ADCB42157F"
+				"476714364042055B"
+				"36A18DF22711B51E"
+				"4A8F7E1DEF038947"
+			]
+			hide: true
+			size: 1.5d
+			id: "0C2E50ABC2D63134"
+			tasks: [{
+				id: "259377EB865E9FCF"
+				type: "item"
+				item: "kubejs:elemental_essence"
+			}]
+			rewards: [{
+				id: "420B2B63E3E53388"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			subtitle: "The starter ingredient for all the shrine......Normaly"
+			dependencies: ["5963F874AAE3DE3E"]
+			hide: true
+			id: "746617CE4CE87181"
+			tasks: [{
+				id: "21FFE17492FAE68C"
+				type: "item"
+				item: "elementalcraft:shrinebase"
+			}]
+			rewards: [{
+				id: "14AC6AC4B226959D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			description: ["Set fire to nearby entities"]
+			dependencies: ["746617CE4CE87181"]
+			hide: true
+			id: "5D8FFBC33C841F06"
+			tasks: [{
+				id: "47A1E18011FAC1EB"
+				type: "item"
+				item: "elementalcraft:firepylon"
+			}]
+			rewards: [{
+				id: "286972876EAA962A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			description: ["will harvest crops"]
+			dependencies: ["2ECD838CFDF78A86"]
+			hide: true
+			id: "6E4420669E71BF06"
+			tasks: [{
+				id: "281138F8DC1207CC"
+				type: "item"
+				item: "elementalcraft:harvestshrine"
+			}]
+			rewards: [{
+				id: "03AED7450C9E0F51"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			description: ["Will acelerate crops grow"]
+			dependencies: ["746617CE4CE87181"]
+			hide: true
+			id: "2ECD838CFDF78A86"
+			tasks: [{
+				id: "331F47ADC46DF997"
+				type: "item"
+				item: "elementalcraft:growthshrine"
+			}]
+			rewards: [{
+				id: "62862DC429613DFC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.5d
+			description: ["Periodicaly reffil hunger"]
+			dependencies: ["746617CE4CE87181"]
+			hide: true
+			id: "5B7DBFB78BA64427"
+			tasks: [{
+				id: "2E196D3AA6196090"
+				type: "item"
+				item: "elementalcraft:sweetshrine"
+			}]
+			rewards: [{
+				id: "0AE50202600F1C62"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.5d
+			description: ["Will absorb item around him"]
+			dependencies: ["746617CE4CE87181"]
+			hide: true
+			id: "1F031BC9A972EF50"
+			tasks: [{
+				id: "6642B133819CA0B6"
+				type: "item"
+				item: "elementalcraft:vacuumshrine"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.5d
+			description: ["By input food he will make reproducing animal"]
+			dependencies: ["746617CE4CE87181"]
+			hide: true
+			id: "5BD871A97EACEF6A"
+			tasks: [{
+				id: "07176FD7132DB752"
+				type: "item"
+				item: "elementalcraft:breedingshrine"
+			}]
+			rewards: [{
+				id: "633D2BE9228CCCBE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.5d
+			description: ["Dig ore underneath it"]
+			dependencies: ["746617CE4CE87181"]
+			hide: true
+			id: "0A71E1877179ED7A"
+			tasks: [{
+				id: "4C63022CF1C1BFAA"
+				type: "item"
+				item: "elementalcraft:oreshrine"
+			}]
+			rewards: [{
+				id: "753C1A7CECD0B00C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			description: ["Willl create flower on top of grass"]
+			dependencies: ["746617CE4CE87181"]
+			hide: true
+			id: "167C3F2892707E65"
+			tasks: [{
+				id: "7AEC1BB3D0FFF6BB"
+				type: "item"
+				item: "elementalcraft:groveshrine"
+			}]
+			rewards: [{
+				id: "288E5F839960F8C1"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			description: ["Tick aceleration on block stick to him"]
+			dependencies: ["746617CE4CE87181"]
+			hide: true
+			id: "5B1CB4DF7C9C45A9"
+			tasks: [{
+				id: "3FE395F3FE45F4E4"
+				type: "item"
+				item: "elementalcraft:overloadshrine"
+			}]
+			rewards: [{
+				id: "4CB790EBFFD555D4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.0d
+			description: ["Permit you to transport element but one use"]
+			dependencies: ["045A7AC4769EEF48"]
+			hide: true
+			id: "4DF85537A3A0A2D6"
+			tasks: [{
+				id: "65E3A9B03A81534A"
+				type: "item"
+				item: {
+					id: "elementalcraft:receptacle_empty"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "237A4AFE78E403B8"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.0d
+			description: ["Permit you to transport element but with durability"]
+			dependencies: ["4DF85537A3A0A2D6"]
+			hide: true
+			id: "64DA51EADABA1B8D"
+			tasks: [{
+				id: "433FE1FFD21EC6DE"
+				type: "item"
+				item: {
+					id: "elementalcraft:receptacle_improved_empty"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "24B74A6324CDF5A3"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 13.0d
+			y: -1.0d
+			description: ["A new ingot"]
+			dependencies: ["045A7AC4769EEF48"]
+			hide: true
+			id: "229B9EB4219C784A"
+			tasks: [{
+				id: "035985EC7672BE89"
+				type: "item"
+				item: "elementalcraft:fireite_ingot"
+			}]
+			rewards: [{
+				id: "3F92A31657227C8C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.0d
+			description: ["Better Version"]
+			dependencies: ["045A7AC4769EEF48"]
+			hide: true
+			id: "569761A7546843B8"
+			tasks: [{
+				id: "49493C00FF720001"
+				type: "item"
+				item: "elementalcraft:reservoir_fire"
+			}]
+			rewards: [{
+				id: "2DA2783F1FEEFBFF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 1.0d
+			description: ["Better Version"]
+			dependencies: ["045A7AC4769EEF48"]
+			hide: true
+			id: "245B081A199D68DE"
+			tasks: [{
+				id: "3E9C07A47BB3296C"
+				type: "item"
+				item: "elementalcraft:reservoir_water"
+			}]
+			rewards: [{
+				id: "4B178BB4A9F8ABD0"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			description: ["Better Version"]
+			dependencies: ["045A7AC4769EEF48"]
+			hide: true
+			id: "45039F83032E5C9A"
+			tasks: [{
+				id: "358EA6042F5C0C6C"
+				type: "item"
+				item: "elementalcraft:reservoir_earth"
+			}]
+			rewards: [{
+				id: "01C2FC5A29F7AA4A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.0d
+			description: ["Better version"]
+			dependencies: ["045A7AC4769EEF48"]
+			hide: true
+			id: "08369CF09580028E"
+			tasks: [{
+				id: "4CA525FE5F64BC59"
+				type: "item"
+				item: "elementalcraft:reservoir_air"
+			}]
+			rewards: [{
+				id: "705D8F5BB1B88652"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			description: [
+				"Permit you to craft spell"
+				"Spell can also be found in overworld in chest"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0A3948A727717EB4"]
+			hide: true
+			id: "6C5A44C3DC9A72EE"
+			tasks: [{
+				id: "341D741D2DBA4AAD"
+				type: "item"
+				item: "elementalcraft:spell_desk"
+			}]
+			rewards: [
+				{
+					id: "4AD9D7BE3D7179BB"
+					type: "loot"
+					table_id: 4063386593177790740L
+				}
+				{
+					id: "260C3193DE339C07"
+					type: "loot"
+					table_id: 797243340673880527L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -5.5d
+			description: ["Like a magic wand with anvil you can add spell to him"]
+			dependencies: ["6C5A44C3DC9A72EE"]
+			id: "25FA26C314664D0B"
+			tasks: [{
+				id: "61B124F5997DE814"
+				type: "item"
+				item: "elementalcraft:focus"
+			}]
+			rewards: [{
+				id: "19CC30D80E68BF36"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			description: ["melt stone into  lava"]
+			dependencies: ["5D8FFBC33C841F06"]
+			hide: true
+			id: "39F6237930F22195"
+			tasks: [{
+				id: "18DD0EA5960E3671"
+				type: "item"
+				item: "elementalcraft:lavashrine"
+			}]
+			rewards: [{
+				id: "21A9476DE34B2E7B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.0d
+			shape: "gear"
+			description: ["Go into ars"]
+			dependencies: ["1CE7C3FE672DA886"]
+			hide: true
+			size: 3.0d
+			id: "4A44A6FE8FD947B6"
+			tasks: [{
+				id: "751446A8D0F78DEB"
+				type: "item"
+				item: "ars_nouveau:worn_notebook"
+			}]
+		}
+		{
+			title: "Impaired element pipe"
+			x: 2.5d
+			y: -2.0d
+			description: ["Can transport a few amount of element"]
+			dependencies: ["0B0EB289CB8CEA3C"]
+			hide: true
+			id: "73FE028836791BD0"
+			tasks: [{
+				id: "5B07EC173DAA96D5"
+				type: "item"
+				item: "elementalcraft:elementpipe_impaired"
+				count: 16L
+			}]
+			rewards: [{
+				id: "5A02ACBAC535A626"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Element Pipe"
+			x: 1.5d
+			y: -3.0d
+			description: ["Improved version of the impaired"]
+			dependencies: ["73FE028836791BD0"]
+			hide: true
+			id: "68AA9DBEA11BDEBC"
+			tasks: [{
+				id: "0994E28D55EBCB13"
+				type: "item"
+				item: "elementalcraft:elementpipe"
+				count: 16L
+			}]
+			rewards: [{
+				id: "7B15796245EAD60C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Improved Element Pipe"
+			x: 0.5d
+			y: -4.0d
+			description: ["Improved version of the element pipe"]
+			dependencies: ["68AA9DBEA11BDEBC"]
+			hide: true
+			id: "49189F8854F16C3F"
+			tasks: [{
+				id: "1F987A3950ED9D5C"
+				type: "item"
+				item: "elementalcraft:elementpipe_improved"
+				count: 16L
+			}]
+			rewards: [{
+				id: "6A318A9E028CD5AB"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+	]
+}

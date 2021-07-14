@@ -1,0 +1,672 @@
+{
+	id: "5E515EBB8CD3425E"
+	group: "674F2646E40CCF92"
+	order_index: 2
+	filename: "druidcraft"
+	title: "Druidcraft"
+	icon: "druidcraft:hemp"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -0.5d
+			shape: "hexagon"
+			dependencies: ["6E92B2DF328FEA99"]
+			id: "0AE0E7ED5B0187C4"
+			tasks: [{
+				id: "33DBE2AA29CF0B59"
+				type: "item"
+				item: {
+					id: "druidcraft:bone_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "368C1A696F0AEC23"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["6E92B2DF328FEA99"]
+			id: "7E794127DE21882A"
+			tasks: [{
+				id: "4A7A10D58733AE22"
+				type: "item"
+				item: {
+					id: "druidcraft:bone_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C93B2C1DE453AA7"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["6E92B2DF328FEA99"]
+			id: "1EEFDD8331F3AC65"
+			tasks: [{
+				id: "2317E9565F7FE757"
+				type: "item"
+				item: {
+					id: "druidcraft:bone_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "472A8A8E9A575866"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			shape: "hexagon"
+			dependencies: ["6E92B2DF328FEA99"]
+			id: "631C90F485EB8F44"
+			tasks: [{
+				id: "0B6F06E22B07F36C"
+				type: "item"
+				item: {
+					id: "druidcraft:bone_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "756514E408F491AA"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			shape: "hexagon"
+			dependencies: ["6E92B2DF328FEA99"]
+			id: "5BD7C5571890D635"
+			tasks: [{
+				id: "78E4D799EC54DD2D"
+				type: "item"
+				item: {
+					id: "druidcraft:bone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "75ED2BE7858323CD"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			shape: "pentagon"
+			dependencies: ["6E92B2DF328FEA99"]
+			id: "76BC0879F55D2733"
+			tasks: [{
+				id: "26BD786A17D8CCCD"
+				type: "item"
+				item: {
+					id: "druidcraft:bone_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5AE81CE6D557ED74"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["6E92B2DF328FEA99"]
+			id: "7749DCD1BD068A08"
+			tasks: [{
+				id: "376990ACE2417204"
+				type: "item"
+				item: {
+					id: "druidcraft:bone_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "23DD58A3F4066620"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["6E92B2DF328FEA99"]
+			id: "1E4868E126D52143"
+			tasks: [{
+				id: "15518F2729854CBC"
+				type: "item"
+				item: {
+					id: "druidcraft:bone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "501E147A181D05F4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			shape: "hexagon"
+			dependencies: ["6E92B2DF328FEA99"]
+			id: "7D25CE9BA9B60908"
+			tasks: [{
+				id: "52C22DB4FC0A5BE8"
+				type: "item"
+				item: {
+					id: "druidcraft:bone_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "40A7C3185EC1D57D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			shape: "hexagon"
+			dependencies: ["15B216B46F6C4482"]
+			id: "2183CA40057C593B"
+			tasks: [{
+				id: "782B5CA4A2B656B5"
+				type: "item"
+				item: {
+					id: "druidcraft:moonstone_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7636786F593A0976"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["15B216B46F6C4482"]
+			id: "73D52A2A83EF025A"
+			tasks: [{
+				id: "6B92B7AEAE42C5B7"
+				type: "item"
+				item: {
+					id: "druidcraft:moonstone_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3C561D3FA810C5CA"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["15B216B46F6C4482"]
+			id: "2E450D198AF608DD"
+			tasks: [{
+				id: "7384C2D7E0F20370"
+				type: "item"
+				item: {
+					id: "druidcraft:moonstone_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "68CBBD2A1FB4B2C1"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			shape: "hexagon"
+			dependencies: ["15B216B46F6C4482"]
+			id: "1C276E927025ACC2"
+			tasks: [{
+				id: "122815102236DE7B"
+				type: "item"
+				item: {
+					id: "druidcraft:moonstone_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "783BBADB61BDB669"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			shape: "hexagon"
+			dependencies: ["15B216B46F6C4482"]
+			id: "70D804225788F498"
+			tasks: [{
+				id: "2D549544881A0E9C"
+				type: "item"
+				item: {
+					id: "druidcraft:moonstone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "62F7E3E5830AEB84"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["15B216B46F6C4482"]
+			id: "2F0BB1DE5B26B20E"
+			tasks: [{
+				id: "76BCB207D105DBCA"
+				type: "item"
+				item: {
+					id: "druidcraft:moonstone_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "10CB1EBDC0D81C9D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["15B216B46F6C4482"]
+			id: "74901C6507321118"
+			tasks: [{
+				id: "1C2EE5FA8B518BAB"
+				type: "item"
+				item: {
+					id: "druidcraft:moonstone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2350B5924E2C3A2A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			shape: "hexagon"
+			dependencies: ["15B216B46F6C4482"]
+			id: "0498CD6816EDFF7D"
+			tasks: [{
+				id: "46BAECFFCDD95A16"
+				type: "item"
+				item: {
+					id: "druidcraft:moonstone_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "062959066EC2B284"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			shape: "hexagon"
+			dependencies: ["2D36C708CC19D1B2"]
+			id: "1A5BCE8B04393D5D"
+			tasks: [{
+				id: "57A9917C4F0D7A83"
+				type: "item"
+				item: {
+					id: "druidcraft:chitin_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "695D2CC161614982"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["2D36C708CC19D1B2"]
+			id: "2B591C0A65DCF926"
+			tasks: [{
+				id: "439AB69502343A1C"
+				type: "item"
+				item: {
+					id: "druidcraft:chitin_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "43369BF9CA195169"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["2D36C708CC19D1B2"]
+			id: "3DA86C419021D4BB"
+			tasks: [{
+				id: "722CB82C169F5C33"
+				type: "item"
+				item: {
+					id: "druidcraft:chitin_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4E8493F8BFD537D4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			shape: "hexagon"
+			dependencies: ["2D36C708CC19D1B2"]
+			id: "5DB94FFD19B4E414"
+			tasks: [{
+				id: "3B866BE75A338DD5"
+				type: "item"
+				item: {
+					id: "druidcraft:chitin_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "67E0E266551B5220"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			shape: "hexagon"
+			dependencies: ["15B216B46F6C4482"]
+			id: "00DD4DEA46FC0B91"
+			tasks: [{
+				id: "3447E3CDFDC4BB91"
+				type: "item"
+				item: {
+					id: "druidcraft:moonstone_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "733CD3CEE06D77F1"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			shape: "hexagon"
+			dependencies: ["2D36C708CC19D1B2"]
+			id: "6E931E0A0686ABF3"
+			tasks: [{
+				id: "1A15BE5EE772BC8C"
+				type: "item"
+				item: {
+					id: "druidcraft:chitin_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6640013E17E6BA3B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			shape: "octagon"
+			id: "2D36C708CC19D1B2"
+			tasks: [{
+				id: "46546D16F7839B88"
+				type: "item"
+				item: "druidcraft:chitin"
+			}]
+			rewards: [{
+				id: "535F7F7F291F5788"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			shape: "octagon"
+			id: "15B216B46F6C4482"
+			tasks: [{
+				id: "185BB8312C0E886A"
+				type: "item"
+				item: "druidcraft:moonstone"
+			}]
+			rewards: [{
+				id: "591D570888E03A0B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			shape: "octagon"
+			id: "6E92B2DF328FEA99"
+			tasks: [{
+				id: "6DE9082962631FB0"
+				type: "item"
+				item: "minecraft:bone"
+			}]
+			rewards: [{
+				id: "7026F4A120761882"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			shape: "pentagon"
+			dependencies: ["4F2EAA7A904857EA"]
+			id: "00DB6746E4F21D81"
+			tasks: [{
+				id: "786218C9ACC23257"
+				type: "item"
+				item: "druidcraft:growth_lamp"
+			}]
+			rewards: [{
+				id: "3023BA545B0678F0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			shape: "diamond"
+			id: "4F2EAA7A904857EA"
+			tasks: [{
+				id: "76F51CFD906D508C"
+				type: "item"
+				item: "druidcraft:rockroot"
+			}]
+			rewards: [{
+				id: "38B88D6FD56406A7"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			shape: "diamond"
+			id: "037921ADC39700F6"
+			tasks: [{
+				id: "5EDBD9A3FCD2333B"
+				type: "item"
+				item: "druidcraft:fiery_glass"
+			}]
+			rewards: [{
+				id: "761813E16C7C4DF8"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			shape: "pentagon"
+			dependencies: ["037921ADC39700F6"]
+			id: "08FB70B715F14BE4"
+			tasks: [{
+				id: "08BD36FA023D86C2"
+				type: "item"
+				item: "druidcraft:fiery_torch"
+			}]
+			rewards: [{
+				id: "61804B6BAA423F09"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			shape: "octagon"
+			size: 2.0d
+			id: "07565BAFC831EC1C"
+			tasks: [{
+				id: "5BCDC8E6A5E99AD5"
+				type: "item"
+				item: "druidcraft:hemp"
+			}]
+			rewards: [{
+				id: "386354A53F14F5C3"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+	]
+}

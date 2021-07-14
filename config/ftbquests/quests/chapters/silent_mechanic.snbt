@@ -1,0 +1,636 @@
+{
+	id: "1A2434895B1AA25B"
+	group: "247A2B0D60E02610"
+	order_index: 1
+	filename: "silent_mechanic"
+	title: "Silent Mechanic"
+	icon: "silents_mechanisms:stone_machine_frame"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.0d
+			y: -0.5d
+			shape: "octagon"
+			dependencies: ["7DC3B934D11739C1"]
+			size: 1.5d
+			id: "40A3B077E3309DCB"
+			tasks: [{
+				id: "41697D7A871F9278"
+				type: "item"
+				item: "silents_mechanisms:stone_machine_frame"
+			}]
+			rewards: [{
+				id: "5A7D7485472F3E07"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["40A3B077E3309DCB"]
+			id: "623565CF3B7D1495"
+			tasks: [{
+				id: "1DB5EAB8EDA47D2E"
+				type: "item"
+				item: "silents_mechanisms:alloy_machine_frame"
+			}]
+			rewards: [{
+				id: "325D471C90ACD39A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			description: ["The &6alloy smelter&f combines multiple items into one. It has four input slots and one output slot. Additional recipes can be added with data packs. The alloy smelter requires Forge Energy to work. Energy is used at a fixed rate while the machine is working, and no energy while it is not."]
+			dependencies: ["40A3B077E3309DCB"]
+			id: "576CB9E119CC74C7"
+			tasks: [{
+				id: "4DA72563EBBA6823"
+				type: "item"
+				item: "silents_mechanisms:basic_alloy_smelter"
+			}]
+			rewards: [{
+				id: "1AC089AAFA806459"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			description: ["The &6alloy smelter&f combines multiple items into one. It has four input slots and one output slot. Additional recipes can be added with data packs. The alloy smelter requires Forge Energy to work. Energy is used at a fixed rate while the machine is working, and no energy while it is not."]
+			hide_dependency_lines: true
+			dependencies: [
+				"623565CF3B7D1495"
+				"576CB9E119CC74C7"
+			]
+			id: "40CD7C6041477B82"
+			tasks: [{
+				id: "559B24D7E029E480"
+				type: "item"
+				item: "silents_mechanisms:alloy_smelter"
+			}]
+			rewards: [{
+				id: "026EA0AD1E1E928E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			description: ["The &6crusher&f is a block which can crush/grind items into other items. Additional recipes can be added with data packs. The crusher requires Forge Energy to work. Energy is used at a fixed rate while the machine is working, and no energy while it is not."]
+			dependencies: ["40A3B077E3309DCB"]
+			id: "32A3E38906E0DD46"
+			tasks: [{
+				id: "00FD83A1B9CD9146"
+				type: "item"
+				item: "silents_mechanisms:basic_crusher"
+			}]
+			rewards: [{
+				id: "770FA18EF975FDDB"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["5DD6D41CE8DB3CE3"]
+			id: "658E223820C76ABD"
+			tasks: [{
+				id: "7855D1559179CDF3"
+				type: "item"
+				item: "silents_mechanisms:wire"
+			}]
+			rewards: [{
+				id: "06E6DA9954B1350B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			description: ["The &6electric furnace &fis a furnace which use Forge Energy. It uses both blasting and smelting recipes. Energy is used at a fixed rate while the machine is working, and no energy while it is not."]
+			hide_dependency_lines: true
+			dependencies: [
+				"623565CF3B7D1495"
+				"6A1A359738424A35"
+				"2BEC4DE6DA016E7E"
+			]
+			id: "3C546A02E1E3AB5F"
+			tasks: [{
+				id: "64794DBB1A275C00"
+				type: "item"
+				item: "silents_mechanisms:electric_furnace"
+			}]
+			rewards: [{
+				id: "702AF4B86C7BB597"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			description: [
+				"The &6refinery&f is a machine which take in one fluid and outputs up to four fluids. Additional recipes can be added with data packs. The refinery requires Forge Energy to work. Energy is used at a fixed rate while the machine is working, and no energy while it is not."
+				""
+				"Refinery recipes process a full bucket (1000 mB) of feedstock (input fluid) at once. This means there needs to be at least 1000 mb of fluid in the input tank before the refinery will start working."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"623565CF3B7D1495"
+				"2BEC4DE6DA016E7E"
+				"6A1A359738424A35"
+			]
+			id: "3756FFA447D99E6A"
+			tasks: [{
+				id: "51FC02BA38D5D113"
+				type: "item"
+				item: "silents_mechanisms:refinery"
+			}]
+			rewards: [{
+				id: "313AAD05131F43F2"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			description: ["The &6solidifier&f is a machine which take in a fluid and items. Additional recipes can be added with data packs. The solidifier requires Forge Energy to work. Energy is used at a fixed rate while the machine is working, and no energy while it is not."]
+			hide_dependency_lines: true
+			dependencies: [
+				"623565CF3B7D1495"
+				"2BEC4DE6DA016E7E"
+			]
+			id: "2A76D79360C4F590"
+			tasks: [{
+				id: "50115225881D738D"
+				type: "item"
+				item: "silents_mechanisms:solidifier"
+			}]
+			rewards: [{
+				id: "7D099C56355A8148"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			description: ["The &6mixer&f is a machine which take in up to four fluids and outputs one fluid. Additional recipes can be added with data packs. The mixer requires Forge Energy to work. Energy is used at a fixed rate while the machine is working, and no energy while it is not."]
+			hide_dependency_lines: true
+			dependencies: [
+				"623565CF3B7D1495"
+				"0B1F8FA501A05CD3"
+				"2BEC4DE6DA016E7E"
+			]
+			id: "0A1A19F569C82AF9"
+			tasks: [{
+				id: "683BDC3E81948E40"
+				type: "item"
+				item: "silents_mechanisms:mixer"
+			}]
+			rewards: [{
+				id: "63C61B905E2DE10D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"623565CF3B7D1495"
+				"2BEC4DE6DA016E7E"
+			]
+			id: "730A80037F2A53BB"
+			tasks: [{
+				id: "7119AEF01FFFFEE9"
+				type: "item"
+				item: "silents_mechanisms:infuser"
+			}]
+			rewards: [{
+				id: "6BFFCE0078BCA6DE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"623565CF3B7D1495"
+				"2BEC4DE6DA016E7E"
+			]
+			id: "4FB074C001FEF41F"
+			tasks: [{
+				id: "0B5EC7914B6A8002"
+				type: "item"
+				item: "silents_mechanisms:pump"
+			}]
+			rewards: [{
+				id: "30A37CC45E1CBAA2"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: [
+				"The &7coal generator&f creates Forge Energy (FE) from coal, charcoal, or coal blocks."
+				""
+				"Generates &a60 FE/t&f."
+			]
+			dependencies: ["40A3B077E3309DCB"]
+			id: "35D0C3B6526014DF"
+			tasks: [{
+				id: "5E5515841466AB59"
+				type: "item"
+				item: "silents_mechanisms:coal_generator"
+			}]
+			rewards: [{
+				id: "1703DA0D499C853F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			description: [
+				"The &clava generator&f creates Forge Energy (FE) from lava."
+				""
+				"Generates &a100 FE/t&f, &a500K FE&f per bucket"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"623565CF3B7D1495"
+				"2BEC4DE6DA016E7E"
+			]
+			id: "3FAF070A67C391F6"
+			tasks: [{
+				id: "101496EEB33C0ECA"
+				type: "item"
+				item: "silents_mechanisms:lava_generator"
+			}]
+			rewards: [{
+				id: "0AF3E0E2D2A77753"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			description: [
+				"The &ediesel generator&f creates Forge Energy (FE) from diesel."
+				""
+				"Generates &a120 FE/t&f, &a1.2M FE&f per bucket"
+			]
+			hide_dependency_lines: true
+			dependencies: ["623565CF3B7D1495"]
+			id: "065C51868AFC637A"
+			tasks: [{
+				id: "5B2C48C5971F4F78"
+				type: "item"
+				item: "silents_mechanisms:diesel_generator"
+			}]
+			rewards: [{
+				id: "3A8484ED95C38992"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			description: ["The &6crusher&f is a block which can crush/grind items into other items. Additional recipes can be added with data packs. The crusher requires Forge Energy to work. Energy is used at a fixed rate while the machine is working, and no energy while it is not."]
+			hide_dependency_lines: true
+			dependencies: [
+				"623565CF3B7D1495"
+				"2BEC4DE6DA016E7E"
+				"32A3E38906E0DD46"
+			]
+			id: "16BA9893BC995117"
+			tasks: [{
+				id: "23F870B671819AF6"
+				type: "item"
+				item: "silents_mechanisms:crusher"
+			}]
+			rewards: [{
+				id: "7EC57A1B0773201A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"623565CF3B7D1495"
+				"1D2AE145A9B85C9B"
+			]
+			id: "01666D453CE3DEDB"
+			tasks: [{
+				id: "3D216FD6A2D42293"
+				type: "item"
+				item: "silents_mechanisms:battery_box"
+			}]
+			rewards: [{
+				id: "31B47CC0D1052BA5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["576CB9E119CC74C7"]
+			id: "14B35E5B51FEF5AF"
+			tasks: [{
+				id: "5FBB49236321F1AE"
+				type: "item"
+				item: "silents_mechanisms:bismuth_brass_ingot"
+			}]
+			rewards: [{
+				id: "4BCF1152CB30209E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["5DD6D41CE8DB3CE3"]
+			id: "2BEC4DE6DA016E7E"
+			tasks: [{
+				id: "1FB7BE3B94BB1E97"
+				type: "item"
+				item: "silents_mechanisms:circuit_board"
+			}]
+			rewards: [{
+				id: "2928BE0FAC50A31C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["5DD6D41CE8DB3CE3"]
+			id: "6A1A359738424A35"
+			tasks: [{
+				id: "654C5E78CB661D93"
+				type: "item"
+				item: "silents_mechanisms:heating_element"
+			}]
+			rewards: [{
+				id: "3010B11676CFC6EB"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			dependencies: ["576CB9E119CC74C7"]
+			id: "5DD6D41CE8DB3CE3"
+			tasks: [{
+				id: "1CB6F96DDA3540B1"
+				type: "item"
+				item: "silents_mechanisms:redstone_alloy_ingot"
+			}]
+			rewards: [{
+				id: "63B21CC09357B396"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["02548CF6A1622750"]
+			id: "52B5AA41BDF49352"
+			tasks: [{
+				id: "580848C86A01C624"
+				type: "item"
+				item: "silents_mechanisms:processing_speed_upgrade"
+			}]
+			rewards: [{
+				id: "5751893D9210CCD7"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["02548CF6A1622750"]
+			id: "4CD6456D4AF82223"
+			tasks: [{
+				id: "79C9AF7058B5F75A"
+				type: "item"
+				item: "silents_mechanisms:output_chance_upgrade"
+			}]
+			rewards: [{
+				id: "72BE7C2D547D3907"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["02548CF6A1622750"]
+			id: "76038D556BF83B63"
+			tasks: [{
+				id: "5B1B15B75FDBF3F8"
+				type: "item"
+				item: "silents_mechanisms:energy_efficiency_upgrade"
+			}]
+			rewards: [{
+				id: "528A2A7804FC68FB"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			id: "7DC3B934D11739C1"
+			tasks: [{
+				id: "497A3CEF63C1852A"
+				type: "item"
+				item: "silents_mechanisms:wrench"
+			}]
+			rewards: [{
+				id: "19244B5A833DC4E3"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["02548CF6A1622750"]
+			id: "7B230F7C271B7C61"
+			tasks: [{
+				id: "46F85B5ED8C66568"
+				type: "item"
+				item: "silents_mechanisms:range_upgrade"
+			}]
+			rewards: [{
+				id: "6D04D8DFD1642CB9"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["5DD6D41CE8DB3CE3"]
+			id: "1D2AE145A9B85C9B"
+			tasks: [{
+				id: "0EB7F1D19C876211"
+				type: "item"
+				item: {
+					id: "silents_mechanisms:battery"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "307F11DDFE895CEF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -0.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["1953B8DF8E68E9A8"]
+			size: 1.2d
+			id: "02548CF6A1622750"
+			tasks: [{
+				id: "71A1DB86943EA83D"
+				type: "item"
+				item: "silents_mechanisms:upgrade_case"
+			}]
+			rewards: [{
+				id: "125B18987255E96A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["576CB9E119CC74C7"]
+			id: "0B1F8FA501A05CD3"
+			tasks: [{
+				id: "592AF69371BACEC4"
+				type: "item"
+				item: "silents_mechanisms:bismuth_steel_ingot"
+			}]
+			rewards: [{
+				id: "3F807215A3A564C5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["2A76D79360C4F590"]
+			id: "1953B8DF8E68E9A8"
+			tasks: [{
+				id: "6F07591F2779A468"
+				type: "item"
+				item: "silents_mechanisms:plastic_sheet"
+			}]
+			rewards: [{
+				id: "02444175B0D7C331"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			dependencies: ["40A3B077E3309DCB"]
+			id: "2B7F6E671BE1996D"
+			tasks: [{
+				id: "36C2F9CD77EEFA6E"
+				type: "item"
+				item: "silentgear:crimson_iron_ingot"
+			}]
+			rewards: [{
+				id: "635EFD7DE6CC8AE8"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"7DC3B934D11739C1"
+				"2B7F6E671BE1996D"
+				"40A3B077E3309DCB"
+			]
+			id: "3BBE9BEB2123FFCA"
+			tasks: [{
+				id: "4DF766708CF23707"
+				type: "item"
+				item: "silentgear:salvager"
+			}]
+			rewards: [{
+				id: "7C75AD132366143E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			description: ["The &6compressor&f is a block which squeezes items into other items. It has one input slot and one output slot. Additional recipes can be added with data packs. The compressor requires Forge Energy to work. Energy is used at a fixed rate while the machine is working, and no energy while it is not."]
+			hide_dependency_lines: true
+			dependencies: ["623565CF3B7D1495"]
+			id: "4767BDAA57A83FE8"
+			tasks: [{
+				id: "1CB118A61134BBBA"
+				type: "item"
+				item: "silents_mechanisms:compressor"
+			}]
+			rewards: [{
+				id: "412AF18663EB17B5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+	]
+}

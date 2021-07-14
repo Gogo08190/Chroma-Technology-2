@@ -1,0 +1,846 @@
+{
+	id: "4BFCAEFB511272DD"
+	group: "6717F1A631FB3B83"
+	order_index: 0
+	filename: "dbetter_endr"
+	title: "Better End"
+	icon: "minecraft:end_portal_frame"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 5.0d
+			y: -8.5d
+			description: [""]
+			dependencies: ["61D62087F74D1130"]
+			id: "012C75BAD221A769"
+			tasks: [{
+				id: "2AB94EF4E564CDBE"
+				type: "advancement"
+				advancement: "minecraft:end/root"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "42B37CA075F8805B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&8Infusion Pedestal&r"
+			x: 3.0d
+			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["012C75BAD221A769"]
+			id: "6844808C976937FB"
+			tasks: [{
+				id: "60B9EBCB40E2C568"
+				type: "item"
+				item: "betterendforge:infusion_pedestal"
+			}]
+			rewards: [{
+				id: "50C52F86626276BF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			dependencies: ["6844808C976937FB"]
+			id: "3B716CFC662AC9AE"
+			tasks: [{
+				id: "2FECB24EBAB01BC3"
+				type: "item"
+				title: "Pedestals"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "betterendforge:quartz_pedestal"
+								Count: 1b
+							}
+							{
+								id: "betterendforge:purpur_pedestal"
+								Count: 1b
+							}
+							{
+								id: "betterendforge:andesite_pedestal"
+								Count: 1b
+							}
+							{
+								id: "betterendforge:diorite_pedestal"
+								Count: 1b
+							}
+							{
+								id: "betterendforge:granite_pedestal"
+								Count: 1b
+							}
+							{
+								id: "betterendforge:flavolite_pedestal"
+								Count: 1b
+							}
+							{
+								id: "betterendforge:violecite_pedestal"
+								Count: 1b
+							}
+							{
+								id: "betterendforge:sulphuric_rock_pedestal"
+								Count: 1b
+							}
+						]
+					}
+				}
+				count: 8L
+			}]
+			rewards: [{
+				id: "189BF4705D5F2FD9"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&5Crystalite Boots&r"
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["3B716CFC662AC9AE"]
+			id: "7635F68C13C3C20A"
+			tasks: [{
+				id: "11D6047CB69591F3"
+				type: "item"
+				item: {
+					id: "betterendforge:crystalite_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "48C38734E718EF6A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&5Crystalite Leggings&r"
+			x: 1.0d
+			y: -5.5d
+			dependencies: ["3B716CFC662AC9AE"]
+			id: "1B818C052CFB1CE6"
+			tasks: [{
+				id: "708F911D6B825C71"
+				type: "item"
+				item: {
+					id: "betterendforge:crystalite_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4AA40DF61B868F90"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&5Crystalite Chestplate&r"
+			x: 1.0d
+			y: -6.5d
+			dependencies: ["3B716CFC662AC9AE"]
+			id: "227B6F2BC6E28520"
+			tasks: [{
+				id: "17203254C82461AA"
+				type: "item"
+				item: {
+					id: "betterendforge:crystalite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "033AF91C896E70C7"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&5Crystalite Helmet&r"
+			x: 1.0d
+			y: -7.5d
+			dependencies: ["3B716CFC662AC9AE"]
+			id: "75F5570E2BCEF821"
+			tasks: [{
+				id: "36D77852194E2446"
+				type: "item"
+				item: {
+					id: "betterendforge:crystalite_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "275ADA983D4D3BC8"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -13.0d
+			dependencies: ["6319A9A1E9EAD717"]
+			id: "7FD5D07CE3851059"
+			tasks: [{
+				id: "1DDD1E7477423AD1"
+				type: "item"
+				item: "betterendforge:end_stone_smelter"
+			}]
+			rewards: [{
+				id: "2D0C0B7793FC68CF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&bThallasium Ingot&r"
+			x: 2.0d
+			y: -11.5d
+			dependencies: ["7A34831817F1EBEE"]
+			id: "6319A9A1E9EAD717"
+			tasks: [{
+				id: "36E29F43306091D3"
+				type: "item"
+				item: "betterendforge:thallasium_ingot"
+			}]
+		}
+		{
+			title: "&bThallasium Boots&r"
+			x: 3.5d
+			y: -10.0d
+			dependencies: ["6319A9A1E9EAD717"]
+			id: "4DD9F7DF6B5239FE"
+			tasks: [{
+				id: "662EE6D690DA7949"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "27CA275D7A3C02C9"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&bThallasium Leggings&r"
+			x: 3.5d
+			y: -11.0d
+			dependencies: ["6319A9A1E9EAD717"]
+			id: "14503E6B9E37997E"
+			tasks: [{
+				id: "642875637E67696B"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B0381517F4780B3"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&bThallasium Chestplate&r"
+			x: 3.5d
+			y: -12.0d
+			dependencies: ["6319A9A1E9EAD717"]
+			id: "4002B67FC5630397"
+			tasks: [{
+				id: "77FC340A9CF464D6"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "67E34547757405A6"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&bThallasium Helmet&r"
+			x: 3.5d
+			y: -13.0d
+			dependencies: ["6319A9A1E9EAD717"]
+			id: "08BFE01C8634D1B9"
+			tasks: [{
+				id: "3934BA9ACCBFDDAF"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "37F41F2F424122A5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&3Terminite Ingot&r"
+			x: 0.0d
+			y: -11.5d
+			dependencies: ["7FD5D07CE3851059"]
+			id: "76AAEEE50B92386F"
+			tasks: [{
+				id: "19C24AC24FDEEEFA"
+				type: "item"
+				item: "betterendforge:terminite_ingot"
+			}]
+			rewards: [{
+				id: "627A0EF90D8E562A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&3Terminite Helmet&r"
+			x: -1.0d
+			y: -13.0d
+			dependencies: ["76AAEEE50B92386F"]
+			id: "41C83A21FB7F664F"
+			tasks: [{
+				id: "74EBDF4D9913E789"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "03E13B0E3DF816FC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&3Terminite Chestplate&r"
+			x: -1.0d
+			y: -12.0d
+			dependencies: ["76AAEEE50B92386F"]
+			id: "12C0DEA7DED1B2FF"
+			tasks: [{
+				id: "5C4EA019A7702696"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "176295CEB880CE79"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&3Terminite Leggings&r"
+			x: -1.0d
+			y: -11.0d
+			dependencies: ["76AAEEE50B92386F"]
+			id: "4A5462448DCE743D"
+			tasks: [{
+				id: "49DF80E6DBF611B3"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2CF9FE50063C5CF8"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&3Terminite Boots&r"
+			x: -1.0d
+			y: -10.0d
+			dependencies: ["76AAEEE50B92386F"]
+			id: "0E697D53ACE517AB"
+			tasks: [{
+				id: "3AF0F18749A13998"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "61DCF12A72237CA9"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&9Aeternium Helmet&r"
+			x: -2.5d
+			y: -13.0d
+			dependencies: ["41C83A21FB7F664F"]
+			id: "1514610C27FA8B8B"
+			tasks: [{
+				id: "5A5B12CCA6052595"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "172876D682CF90B2"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&9Aeternium Chestplate&r"
+			x: -2.5d
+			y: -12.0d
+			dependencies: ["12C0DEA7DED1B2FF"]
+			id: "4C4B8CDFB2B62B9E"
+			tasks: [{
+				id: "3212AB68BE2989B4"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "621A3458ED11E6E5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&9Aeternium Leggings&r"
+			x: -2.5d
+			y: -11.0d
+			dependencies: ["4A5462448DCE743D"]
+			id: "58A1184916A5D25C"
+			tasks: [{
+				id: "3BAF902787A94715"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "60C41BBAD326BD57"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&9Aeternium Boots&r"
+			x: -2.5d
+			y: -10.0d
+			dependencies: ["0E697D53ACE517AB"]
+			id: "6C4D86403DEA2A5E"
+			tasks: [{
+				id: "284DE8EEB13DA3F8"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "61BA461A75235FE1"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&bThallasium Ore&r"
+			x: 2.0d
+			y: -9.5d
+			hide_dependency_lines: true
+			dependencies: ["012C75BAD221A769"]
+			id: "7A34831817F1EBEE"
+			tasks: [{
+				id: "347D87A7602C693C"
+				type: "item"
+				item: "betterendforge:thallasium_ore"
+			}]
+			rewards: [{
+				id: "45158F54F60C4EEE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&3Terminite Tools&r"
+			x: 0.0d
+			y: -14.0d
+			dependencies: ["76AAEEE50B92386F"]
+			id: "534D2A2C2DE123BB"
+			tasks: [
+				{
+					id: "7958C14A095F0166"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1CFFBB33257FD554"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2500B9889BBBE84F"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4D9EB32D971CDA07"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5DEBB1F389BB3161"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5120EF422885DF86"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "796E5749E0B34B01"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&bThallasium Tools&r"
+			x: 2.0d
+			y: -14.0d
+			dependencies: ["6319A9A1E9EAD717"]
+			id: "669E9DF381EEC7A3"
+			tasks: [
+				{
+					id: "6A4EB111FBA07A7D"
+					type: "item"
+					item: {
+						id: "betterendforge:thallasium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "44EC90AFCA75C8C5"
+					type: "item"
+					item: {
+						id: "betterendforge:thallasium_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "23731AA243D945D3"
+					type: "item"
+					item: {
+						id: "betterendforge:thallasium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35987FF194FFCC09"
+					type: "item"
+					item: {
+						id: "betterendforge:thallasium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "57531940D1C0670F"
+					type: "item"
+					item: {
+						id: "betterendforge:thallasium_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "500803ACE1527CB6"
+					type: "item"
+					item: {
+						id: "betterendforge:thallasium_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6B70031E5E4EC8CA"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&9Aeternium Ingot&r"
+			x: 1.0d
+			y: -15.0d
+			dependencies: ["7FD5D07CE3851059"]
+			id: "189993790157348E"
+			tasks: [{
+				id: "29FD78D8C2395F3F"
+				type: "item"
+				item: "betterendforge:aeternium_ingot"
+			}]
+			rewards: [{
+				id: "5477D0F1F0CCD04D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&9Aeternium Tools&r"
+			x: 1.0d
+			y: -16.5d
+			dependencies: ["189993790157348E"]
+			id: "214DBE596E0929A5"
+			tasks: [
+				{
+					id: "16786905B3270F67"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4CE778EF7E8A08A6"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2FA49039B13763B9"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "71F7AB014AF69070"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24F01EF8AD587493"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0AE5167CCF8D36B8"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "50804372A61373F6"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -6.5d
+			dependencies: [
+				"38FF6E5EAC9D1CD4"
+				"2DDE0A07D20599C0"
+			]
+			id: "3687488D8A8DBFB2"
+			tasks: [{
+				id: "1BB734FEDA420343"
+				type: "item"
+				item: "betterendforge:eternal_crystal"
+			}]
+			rewards: [{
+				id: "744781F14DC809BA"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.0d
+			dependencies: ["3B716CFC662AC9AE"]
+			id: "2DDE0A07D20599C0"
+			tasks: [{
+				id: "21EF2B4ACEFEBAC1"
+				type: "item"
+				item: "betterendforge:ender_shard"
+				count: 4L
+			}]
+			rewards: [{
+				id: "017FF8C7B1E82EC5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -7.0d
+			dependencies: ["3B716CFC662AC9AE"]
+			id: "38FF6E5EAC9D1CD4"
+			tasks: [{
+				id: "18D688C7541C9B2D"
+				type: "item"
+				item: "betterendforge:crystal_shards"
+				count: 4L
+			}]
+			rewards: [{
+				id: "41731898911E12FE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+	]
+}

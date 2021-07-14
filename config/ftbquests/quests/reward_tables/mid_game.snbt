@@ -1,0 +1,38 @@
+{
+	id: "781EB3670BE1C768"
+	order_index: 1
+	title: "Rare Loot Bag"
+	icon: {
+		id: "enigmaticlegacy:loot_generator"
+		Count: 1b
+		tag: {
+			Damage: 6
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{ item: "bhc:green_heart" }
+		{ item: "upgradednetherite:phantom_upgraded_netherite_ingot" }
+		{ item: "upgradednetherite:poison_upgraded_netherite_ingot" }
+		{ item: "upgradednetherite:wither_upgraded_netherite_ingot" }
+		{ item: "upgradednetherite:water_upgraded_netherite_ingot" }
+		{ item: "upgradednetherite:ender_upgraded_netherite_ingot" }
+		{ item: "upgradednetherite:fire_upgraded_netherite_ingot" }
+		{ item: "upgradednetherite:gold_upgraded_netherite_ingot" }
+		{ item: "bhc:blue_heart" }
+		{ item: "minecraft:netherite_ingot" }
+		{ item: "minecraft:iron_ingot", count: 12 }
+		{ item: "minecraft:emerald", count: 3 }
+		{ item: "upgradednetherite:enchanted_netherite_apple" }
+		{ item: "upgradednetherite:feather_upgraded_netherite_ingot" }
+		{ item: "minecraft:nether_star" }
+		{ item: "cyclic:heart" }
+		{ item: "minecraft:diamond", count: 3 }
+		{ item: "thermal:tin_ingot", count: 12 }
+		{ item: "thermal:silver_ingot", count: 12 }
+		{ item: "upgradednetherite:netherite_apple" }
+		{ item: "minecraft:ender_pearl", count: 4 }
+		{ item: "mekanism:ingot_osmium", count: 12 }
+		{ item: "minecraft:gold_ingot", count: 24 }
+	]
+}

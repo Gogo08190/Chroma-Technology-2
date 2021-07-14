@@ -1,0 +1,15 @@
+{
+	id: "4E9007FF9FC1D44D"
+	order_index: 3
+	title: "Golden Egg"
+	icon: "mob_grinding_utils:golden_egg"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:mooshroom_spawn_egg" }
+		{ item: "minecraft:pig_spawn_egg" }
+		{ item: "minecraft:chicken_spawn_egg" }
+		{ item: "minecraft:cow_spawn_egg" }
+		{ item: "minecraft:rabbit_spawn_egg" }
+		{ item: "minecraft:sheep_spawn_egg" }
+	]
+}

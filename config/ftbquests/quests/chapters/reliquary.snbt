@@ -1,0 +1,541 @@
+{
+	id: "514FC603555B3C15"
+	group: "6717F1A631FB3B83"
+	order_index: 4
+	filename: "reliquary"
+	title: "Reliquary"
+	icon: {
+		id: "xreliquary:mercy_cross"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: "diamond"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: -4.0d
+			description: ["A handgun that can be loaded with lots of different bullets."]
+			id: "2C6D93A0E4905ECF"
+			tasks: [{
+				id: "671347A21A38CD7C"
+				type: "item"
+				item: "xreliquary:handgun"
+			}]
+			rewards: [{
+				id: "27B70EBF5BF4BDBC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			description: ["&bSojourner's Staff &fholds many torches that you can place by right clicking with it. It can also place torchers at distance for a higher torch cost."]
+			id: "51D860BC3E10865F"
+			tasks: [{
+				id: "0DA1B32AAAAD760A"
+				type: "item"
+				item: "xreliquary:sojourner_staff"
+			}]
+			rewards: [{
+				id: "5FEA602E5E69EAD0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			description: ["&bRending Gale&f in flight mode allows player to fly by pointing and right clicking. It can also push or pull mobs and if it rains there's a Bolt mode available that allows spawning lightnings."]
+			id: "7C69EE7F7AF67BF4"
+			tasks: [{
+				id: "24863384B4259B5A"
+				type: "item"
+				item: {
+					id: "xreliquary:rending_gale"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								filter: {
+									id: "minecraft:feather"
+									Count: 1b
+								}
+								amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1A18B18DD2BDABB0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			description: ["&bTouchstone of Midas &fuses its glowstone charge to repair any gold based items in player's inventory. That includes Reliquary items like Cross of Mercy and Magic Bane."]
+			id: "365695B84A96A705"
+			tasks: [{
+				id: "328EC65919CC3F85"
+				type: "item"
+				item: "xreliquary:midas_touchstone"
+			}]
+			rewards: [{
+				id: "3760BAA8AC60612F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			description: [
+				"It can hoe the land, keep seeds/plantables in its inventory and plant these and keep bonemeal in its inventory and bonemeal with it."
+				""
+				"All of these can either be done on a block player is pointing at by simple right click or in an area of effect by holding right click. It also breaks all crops in its range when player breaks one so it helps with speeding up harvesting as well."
+			]
+			id: "41101A6FB3D26E13"
+			tasks: [{
+				id: "09C3559AB2216CD2"
+				type: "item"
+				item: {
+					id: "xreliquary:harvest_rod"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								filter: {
+									id: "minecraft:bone_meal"
+									Count: 1b
+								}
+								amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6BB7ACF89A18E61D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			description: ["&bLantern of Paranoia&f when on searches for dark spots around the player and places torches in those either from player's inventory or from Sojourner's Staff."]
+			id: "6053394F00CFBAD8"
+			tasks: [{
+				id: "1AB0F2EB5A78C258"
+				type: "item"
+				item: "xreliquary:lantern_of_paranoia"
+			}]
+			rewards: [{
+				id: "58D81D78DE170A79"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			description: ["&bCross of Mercy&f is a weapon that deals extra damage to undead mobs."]
+			id: "3B230587A724E474"
+			tasks: [{
+				id: "1A86C45AF9B4401A"
+				type: "item"
+				item: {
+					id: "xreliquary:mercy_cross"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5155D580A7E0A112"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			description: ["Death protection vial - shatters when the player would die, restores a bit of health and buffs the player with some helpful effects."]
+			id: "3F68326EEBD016D5"
+			tasks: [{
+				id: "02FFDE1379D101BF"
+				type: "item"
+				item: "xreliquary:angelheart_vial"
+			}]
+			rewards: [{
+				id: "64061201FDE2D458"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			description: [
+				"&bPyromancer's Staff&f has mutliple modes all related to fire."
+				""
+				"In Blaze powder and Fire charge mode it shoots blaze and ghast sized fireballs. In Erupt it burns anything in range in front of the player."
+				""
+				"And Flint and Steel mode works exactly as the vanilla flint and steel. It also destroys any fireballs shot at the player and puts out fires when turned off."
+			]
+			id: "43803BE759C669BC"
+			tasks: [{
+				id: "03143AAC8A7E03EB"
+				type: "item"
+				item: "xreliquary:pyromancer_staff"
+			}]
+			rewards: [{
+				id: "23A83F8033FF0C4F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			description: ["If in player's inventory it prevents them from getting withered."]
+			id: "35533BC6E53735CC"
+			tasks: [{
+				id: "5597980717DF7247"
+				type: "item"
+				item: "xreliquary:witherless_rose"
+			}]
+			rewards: [{
+				id: "18C1C44ED9258EB6"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			description: ["&bAngelic Feather &fprotects against falling damage. On a fall that would hurt the player it instead drains players hunger."]
+			id: "3FDDA4E8E1E534FC"
+			tasks: [{
+				id: "079BF5BDA60CA5DB"
+				type: "item"
+				item: "xreliquary:angelic_feather"
+			}]
+			rewards: [{
+				id: "35522A89967749AB"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			description: ["Prevents player from being hurt in fire in exchange for hunger."]
+			id: "7B24CFB4F81B3ACE"
+			tasks: [{
+				id: "0D589F24ABDCF93A"
+				type: "item"
+				item: "xreliquary:infernal_claws"
+			}]
+			rewards: [{
+				id: "4763182E3F50F6EB"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			description: [
+				"&bLilypad of Fertility &fspeeds up growth of crops around it."
+				""
+				"You can also place multiples of these next to each other to get even faster speed."
+			]
+			id: "0D6AF150FDF7230A"
+			tasks: [{
+				id: "5D778B1377907DD2"
+				type: "item"
+				item: "xreliquary:fertile_lily_pad"
+			}]
+			rewards: [{
+				id: "44D740372ECDF137"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			id: "02E73A5891AA3309"
+			tasks: [{
+				id: "0F3EF97B512FC81B"
+				type: "item"
+				item: "xreliquary:emperor_chalice"
+			}]
+			rewards: [{
+				id: "605710891A8CE5BF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			description: ["&bInfernal Chalice&f holds lava and based on mode it is in you can use it to place or remove lava in the world."]
+			id: "18E70A98CC770DF4"
+			tasks: [{
+				id: "736CC152C1CAAA00"
+				type: "item"
+				item: "xreliquary:infernal_chalice"
+			}]
+			rewards: [{
+				id: "114C37918F612EB2"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			description: [
+				"&bRod of Lyssa &fis a better fishing rod that in addition to usual fishing drops can do other things."
+				""
+				"You can use it to fish items dropped in the world. Also can pull entities more than regular rod, more so vertically than horizontally."
+				""
+				"Also if player is sneaking it can steal items from mob's inventory."
+			]
+			id: "2D4D516661C0C852"
+			tasks: [{
+				id: "090D01BF47E5D7D3"
+				type: "item"
+				item: "xreliquary:rod_of_lyssa"
+			}]
+			rewards: [{
+				id: "7476774F2C3DF7F6"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			description: ["Powerful thrown explosive that can kill most of the mobs in one hit."]
+			id: "11446138B6B0CC66"
+			tasks: [{
+				id: "64DAEEB30105723E"
+				type: "item"
+				item: "xreliquary:holy_hand_grenade"
+			}]
+			rewards: [{
+				id: "357897FA326580B9"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			description: ["Makes mobs ignore player during night even if they are hit by the player."]
+			id: "386C767E3079BAA3"
+			tasks: [{
+				id: "0219CF5BA62735EB"
+				type: "item"
+				item: "xreliquary:twilight_cloak"
+			}]
+			rewards: [{
+				id: "78CFAE8D93876845"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			description: [
+				"&bGlacial Staff&f is a ranged weapon that shoots snowballs out of its charge."
+				""
+				"When turned on it drains these from player's inventory and it also freezes lava (into obsidian) and water (into packed ice) within player's reach so it allows walking on lava and water."
+				""
+				"These frozen blocks will quickly melt back once outside of the range."
+			]
+			id: "6EE0F8CC8711BDEF"
+			tasks: [{
+				id: "6AE31B5A709B1723"
+				type: "item"
+				item: "xreliquary:glacial_staff"
+			}]
+			rewards: [{
+				id: "385C9CB65B616657"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.5d
+			description: [
+				"&bEnder Staff&f is a teleportation tool. In ender pearl mode it allows throwing ender pearls in the similar way that you would do with just ender pearls in hand."
+				""
+				"In ender eye mode the ender pearls thrown would go further and faster. In both modes when the ender pearl hits it teleports player in much safer way than vanilla ender pearl."
+				""
+				"In wraith node mode ender staff teleports player to the wraith node that it is set to (by right clicking with the ender staff on the wraith node)."
+			]
+			id: "14FCE32BE2E09855"
+			tasks: [{
+				id: "70AB82DAA6238C8F"
+				type: "item"
+				item: {
+					id: "xreliquary:ender_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								filter: {
+									id: "minecraft:ender_pearl"
+									Count: 1b
+								}
+								amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "340694F466DD5A07"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			description: ["Shoots slime balls at enemies."]
+			id: "1DEA97CA99113620"
+			tasks: [{
+				id: "386E46145620A538"
+				type: "item"
+				item: {
+					id: "xreliquary:serpent_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B0E9F021F89BA9F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			description: ["&bCoin of Fortune &fwhen turned on teleports items and experience within range to player. If right click is held with the coin in hand the range in which items and experience are teleported is higher"]
+			id: "450112E263586CF7"
+			tasks: [{
+				id: "0CAB03838CD01E73"
+				type: "item"
+				item: "xreliquary:fortune_coin"
+			}]
+			rewards: [{
+				id: "14F4AE7294FBA88B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: ["&bMagic Bane &fis a special sword that can randomly buff mobs hit with negative buffs. Its damage will also improve with the number of enchantments applied to it."]
+			id: "366628FAA81159BD"
+			tasks: [{
+				id: "3E17BCBA07E6AEB8"
+				type: "item"
+				item: {
+					id: "xreliquary:magicbane"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "51375F8AE0702967"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			description: ["One of the best food item in the game. Fills hunger and saturation fully."]
+			id: "1E6840C95E3D9BBA"
+			tasks: [{
+				id: "645488DAB1C46FE9"
+				type: "item"
+				item: "xreliquary:glowing_bread"
+			}]
+			rewards: [{
+				id: "569C5C8CA7F7870D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			description: ["When held it puts out fires around the player, it can also reflect ghast fireballs shot at the player."]
+			id: "195301F14116E246"
+			tasks: [{
+				id: "766EEDA6CBF9B6B9"
+				type: "item"
+				item: "xreliquary:salamander_eye"
+			}]
+			rewards: [{
+				id: "3CE2EC795EBF8F3E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			description: ["Creates a wall of force that prevents entities from getting near."]
+			id: "2B44D5C61ACC500B"
+			tasks: [{
+				id: "34B7BE6CC8F51499"
+				type: "item"
+				item: "xreliquary:interdiction_torch"
+			}]
+			rewards: [{
+				id: "73659FF8368284A4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			description: ["&bHero's Medallion&f stores experience. When turned on it drains it from player. When turned off player can take one level out of it per right click."]
+			id: "56C964291C4B3390"
+			tasks: [{
+				id: "494A12AC520D1868"
+				type: "item"
+				item: "xreliquary:hero_medallion"
+			}]
+			rewards: [{
+				id: "55C0DF12F4127212"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+	]
+}

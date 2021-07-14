@@ -1,0 +1,238 @@
+{
+	id: "3F2C75CFF5316009"
+	group: "247A2B0D60E02610"
+	order_index: 5
+	filename: "xnet"
+	title: "Xnet"
+	icon: "xnet:connector_upgrade"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 3.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["09623CE2AEBEB79E"]
+			size: 2.0d
+			id: "77E5402836D90DCD"
+			tasks: [{
+				id: "40982AA6ADF851B2"
+				type: "item"
+				item: "xnet:controller"
+			}]
+			rewards: [{
+				id: "3B5A8451453D8E4B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["77E5402836D90DCD"]
+			id: "55C7D1074EC8D407"
+			tasks: [{
+				id: "5279D546722776A8"
+				type: "item"
+				item: "xnet:netcable_routing"
+			}]
+			rewards: [{
+				id: "71C98E04E5782A68"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["77E5402836D90DCD"]
+			id: "1730791570C6DD5F"
+			tasks: [{
+				id: "5C80E4A56C7C17EE"
+				type: "item"
+				item: "xnet:netcable_blue"
+			}]
+			rewards: [{
+				id: "0414BB2488F4CE61"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["09623CE2AEBEB79E"]
+			id: "2B7E354F89946922"
+			tasks: [{
+				id: "1D029684FD5E23FF"
+				type: "item"
+				item: "xnet:wireless_router"
+				count: 2L
+			}]
+			rewards: [{
+				id: "021DE874B01A4266"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2B7E354F89946922"]
+			id: "52A8C7064DDA4230"
+			tasks: [{
+				id: "6B2802B1FBFD3AE6"
+				type: "item"
+				item: "xnet:antenna_base"
+				count: 2L
+			}]
+			rewards: [{
+				id: "2AA90BB5B98DEC86"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2B7E354F89946922"]
+			id: "10EBD63D7548460C"
+			tasks: [{
+				id: "6F11C3838A4FF8B6"
+				type: "item"
+				item: "xnet:antenna"
+				count: 4L
+			}]
+			rewards: [{
+				id: "49F550EA39DC6394"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2B7E354F89946922"]
+			id: "7EA38ADFD295E395"
+			tasks: [{
+				id: "08C72493B68D07B6"
+				type: "item"
+				item: "xnet:antenna_dish"
+				count: 2L
+			}]
+			rewards: [{
+				id: "51A9D68610507F95"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["09623CE2AEBEB79E"]
+			id: "26CBDF3BA66D5DEE"
+			tasks: [{
+				id: "52C0A826235EAD1B"
+				type: "item"
+				item: "xnet:router"
+				count: 2L
+			}]
+			rewards: [{
+				id: "76E634351EEE9BDE"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2E527F03D927707E"]
+			id: "5537AADD89D40E8E"
+			tasks: [{
+				id: "21FD5BA10BAA2DFB"
+				type: "item"
+				item: "xnet:connector_upgrade"
+			}]
+			rewards: [
+				{
+					id: "6D8D6DB8FD1A219C"
+					type: "item"
+					item: "xnet:connector_upgrade"
+				}
+				{
+					id: "27CA2472C2BC7FDB"
+					type: "loot"
+					table_id: 4063386593177790740L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["2E527F03D927707E"]
+			id: "11E81F03C077C454"
+			tasks: [{
+				id: "47B701D081F00EF1"
+				type: "item"
+				item: "xnet:connector_routing"
+			}]
+			rewards: [{
+				id: "0580BAA2BD997E71"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["11E81F03C077C454"]
+			id: "7229AECE5A40E71B"
+			tasks: [{
+				id: "4A7F0DB05EDA3167"
+				type: "item"
+				item: "xnet:advanced_connector_routing"
+			}]
+			rewards: [{
+				id: "1311991F4C7CA2DF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["77E5402836D90DCD"]
+			id: "2E527F03D927707E"
+			tasks: [{
+				id: "00D192D18114CDAA"
+				type: "item"
+				item: "xnet:connector_blue"
+			}]
+			rewards: [{
+				id: "46E7D1D3D664DB2F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+	]
+}

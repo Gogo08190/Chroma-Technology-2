@@ -1,0 +1,763 @@
+{
+	id: "6FFEBAEE473714BC"
+	group: "247A2B0D60E02610"
+	order_index: 16
+	filename: "modular_powersuits"
+	title: "Modular Powersuits"
+	icon: "powersuits:tinkertable"
+	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "Adding addons to your Suit"
+			description: [
+				"This table is usefull if you want to add usefulll addons to your &5PowerSuit&r armor."
+				""
+				"The effects of the addons are visible when you hover them with your mouse."
+				""
+				"I suggest that you must read them before installing anything."
+			]
+			min_width: 1
+			id: "4E684D6FBE120BF0"
+			tasks: [{
+				id: "04B03310B3A7EEE7"
+				type: "item"
+				item: "powersuits:tinkertable"
+			}]
+			rewards: [{
+				id: "6DA8C8BF82B7652D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			shape: "hexagon"
+			subtitle: "Modular Helmet"
+			description: [
+				"The &3Powersuit&r Helmet can provide you some cool addons !"
+				""
+				"They're all listed above this quest."
+				""
+			]
+			hide_dependency_lines: false
+			dependencies: ["4E684D6FBE120BF0"]
+			id: "37B020C1060947D7"
+			tasks: [{
+				id: "4D657CE2A98645AF"
+				type: "item"
+				item: {
+					id: "powersuits:powerarmor_head"
+					Count: 1b
+					tag: {
+						MMModItem: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "6F629F661251CD2F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			shape: "hexagon"
+			subtitle: "Modular Chestplate"
+			description: [
+				"The &3Powersuit&r Chestplate can offer some really good options to make the perfect armor"
+				""
+				"In order to install them, you must craft them ! "
+				""
+				"Oh and you can't (at least now) change the color of your armor."
+			]
+			dependencies: ["4E684D6FBE120BF0"]
+			id: "6815BCFFF2D388B2"
+			tasks: [{
+				id: "1CD14537D37B7617"
+				type: "item"
+				item: {
+					id: "powersuits:powerarmor_torso"
+					Count: 1b
+					tag: {
+						MMModItem: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "468DE6C677ADC2E7"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			shape: "hexagon"
+			subtitle: "Gotta go Fast !"
+			description: [
+				"With this &3Modular&r Leggings you can have addons related to movement"
+				""
+				"Craft those that you're interested in and you can go !"
+			]
+			dependencies: ["4E684D6FBE120BF0"]
+			id: "6A32084A2D60813D"
+			tasks: [{
+				id: "450E49061B1B3EA6"
+				type: "item"
+				item: {
+					id: "powersuits:powerarmor_legs"
+					Count: 1b
+					tag: {
+						MMModItem: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "20A85E7C0EDF2CA3"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			shape: "hexagon"
+			subtitle: "Boost the Boots"
+			description: [
+				"Hey Sonic, nice &3Modular&r boots you have here !"
+				""
+				"What are the addons you added? "
+				""
+				"Oh you definitively should check above this quest to find out!"
+			]
+			dependencies: ["4E684D6FBE120BF0"]
+			id: "4D94718CAEEB4DB5"
+			tasks: [{
+				id: "1F901AA3887CEB80"
+				type: "item"
+				item: {
+					id: "powersuits:powerarmor_feet"
+					Count: 1b
+					tag: {
+						MMModItem: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "5904746BBE4CDFE3"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "Thanos is jealous"
+			description: [
+				"This is it !"
+				""
+				"There is the magnificent &3Modular&r Fist! "
+				""
+				"No you can't use that to harm some innocents creatures. (Even I know you will !). "
+				""
+				"The possibilites are endless, put the desired addons to your &1Powerfist&r and conquer the entire Galaxy !"
+				""
+				"But you should be aware that Thanos is looking to get that Fist ! "
+				""
+			]
+			dependencies: ["4E684D6FBE120BF0"]
+			id: "45EB11358BEAAF92"
+			tasks: [{
+				id: "68671A676E252CED"
+				type: "item"
+				item: {
+					id: "powersuits:powerfist"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4C1BD160496DBC21"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Energy Storage"
+			x: 1.0d
+			y: 2.5d
+			subtitle: "Batteries :D"
+			description: [
+				"More it costs, more it stocks energy. Simple as that"
+				""
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"37B020C1060947D7"
+				"6815BCFFF2D388B2"
+				"6A32084A2D60813D"
+				"4D94718CAEEB4DB5"
+				"45EB11358BEAAF92"
+			]
+			id: "2779173A0797F913"
+			tasks: [
+				{
+					id: "36B0D44AA1142237"
+					type: "item"
+					item: {
+						id: "numina:battery_basic"
+						Count: 1b
+						tag: {
+							MMModModule: { }
+						}
+					}
+				}
+				{
+					id: "6EFC0A3FA34BB1E8"
+					type: "item"
+					item: {
+						id: "numina:battery_advanced"
+						Count: 1b
+						tag: {
+							MMModModule: { }
+						}
+					}
+				}
+				{
+					id: "501108454BF93FD8"
+					type: "item"
+					item: {
+						id: "numina:battery_elite"
+						Count: 1b
+						tag: {
+							MMModModule: { }
+						}
+					}
+				}
+				{
+					id: "704B8DB5703A84CF"
+					type: "item"
+					item: {
+						id: "numina:battery_ultimate"
+						Count: 1b
+						tag: {
+							MMModModule: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7965C088423AFE8C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Armoring"
+			x: 0.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"37B020C1060947D7"
+				"6815BCFFF2D388B2"
+				"6A32084A2D60813D"
+				"4D94718CAEEB4DB5"
+			]
+			id: "064D3ED1A3B7FD3C"
+			tasks: [
+				{
+					id: "3E93EDE156F36D86"
+					type: "item"
+					item: "powersuits:plating_leather"
+				}
+				{
+					id: "6942DF3B4C604E40"
+					type: "item"
+					item: "powersuits:plating_iron"
+				}
+				{
+					id: "5DB90D4A0448BDDE"
+					type: "item"
+					item: "powersuits:plating_diamond"
+				}
+				{
+					id: "6709D4937F7F0B95"
+					type: "item"
+					item: "powersuits:energy_shield"
+				}
+			]
+			rewards: [{
+				id: "0D231A72606D4661"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"37B020C1060947D7"
+				"6815BCFFF2D388B2"
+				"6A32084A2D60813D"
+				"4D94718CAEEB4DB5"
+			]
+			id: "5FD92348BA9D6824"
+			tasks: [{
+				id: "1728A5B1EE36DFEC"
+				type: "item"
+				item: "powersuits:transparent_armor"
+			}]
+			rewards: [{
+				id: "04FBD23302F1E737"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Solar Generation"
+			x: -1.5d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["37B020C1060947D7"]
+			id: "038669CB34A02508"
+			tasks: [
+				{
+					id: "21C2782DFF7DDE00"
+					type: "item"
+					item: "powersuits:generator_solar"
+				}
+				{
+					id: "081E30D944A190DC"
+					type: "item"
+					item: "powersuits:generator_solar_adv"
+				}
+			]
+			rewards: [{
+				id: "6F39BDE3E06A4570"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Environnement"
+			x: -1.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["37B020C1060947D7"]
+			id: "14B537813CD01592"
+			tasks: [
+				{
+					id: "08590CA87BEC9D0A"
+					type: "item"
+					item: "powersuits:auto_feeder"
+				}
+				{
+					id: "378FDD71304D44B7"
+					type: "item"
+					item: "powersuits:water_electrolyzer"
+				}
+			]
+			rewards: [{
+				id: "7D85958477DA2454"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["37B020C1060947D7"]
+			id: "2C435D60BF221D31"
+			tasks: [{
+				id: "09618AE053085110"
+				type: "item"
+				item: "powersuits:flight_control"
+			}]
+			rewards: [{
+				id: "0DC773A1F08CA0DA"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Vision"
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["37B020C1060947D7"]
+			id: "0026E5E59DFF04BE"
+			tasks: [
+				{
+					id: "6CC8134F153A2257"
+					type: "item"
+					item: "powersuits:binoculars"
+				}
+				{
+					id: "680D2FB304D82AE6"
+					type: "item"
+					item: "powersuits:night_vision"
+				}
+			]
+			rewards: [{
+				id: "642DBFB602BE6789"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Energy Generation"
+			x: -0.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["6815BCFFF2D388B2"]
+			id: "07E261F674287FCE"
+			tasks: [
+				{
+					id: "08BC23CAF703F274"
+					type: "item"
+					item: "powersuits:generator_kinetic"
+				}
+				{
+					id: "5D56A6536F69A12E"
+					type: "item"
+					item: "powersuits:generator_thermal"
+				}
+			]
+			rewards: [{
+				id: "488F28DAB513ED9E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Environnement"
+			x: -0.5d
+			y: -3.0d
+			dependencies: ["6815BCFFF2D388B2"]
+			id: "24E71781D196C9FD"
+			tasks: [
+				{
+					id: "1384C88F2AE2F088"
+					type: "item"
+					item: "powersuits:cooling_system"
+				}
+				{
+					id: "691B81687FD8A1BF"
+					type: "item"
+					item: {
+						id: "powersuits:fluid_tank"
+						Count: 1b
+						tag: {
+							MMModModule: { }
+						}
+					}
+				}
+				{
+					id: "10E952908DA62579"
+					type: "item"
+					item: "powersuits:mob_repulsor"
+				}
+			]
+			rewards: [{
+				id: "655C3957CEAAF618"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Movement"
+			x: -0.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["6815BCFFF2D388B2"]
+			id: "0B654EE97C0F497B"
+			tasks: [
+				{
+					id: "59731DF6888898BF"
+					type: "item"
+					item: "powersuits:jetpack"
+				}
+				{
+					id: "5855F6D59A7B7830"
+					type: "item"
+					item: "powersuits:glider"
+				}
+				{
+					id: "11AB66E8077E95CF"
+					type: "item"
+					item: "powersuits:parachute"
+				}
+			]
+			rewards: [{
+				id: "74A39394AA09FDB6"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Special"
+			x: -0.5d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["6815BCFFF2D388B2"]
+			id: "7D95FE3171F5B467"
+			tasks: [
+				{
+					id: "3C7B2AEDE868F6E7"
+					type: "item"
+					item: "powersuits:invisibility"
+				}
+				{
+					id: "4CBB4B82E80D1DFC"
+					type: "item"
+					item: "powersuits:magnet"
+				}
+			]
+			rewards: [{
+				id: "4C7AB8D86BCC0D4D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Movement"
+			x: 0.5d
+			y: -3.0d
+			dependencies: ["6A32084A2D60813D"]
+			id: "6D3110BE390D65BF"
+			tasks: [
+				{
+					id: "1F197A8759F88957"
+					type: "item"
+					item: "powersuits:climb_assist"
+				}
+				{
+					id: "363736E618F992B9"
+					type: "item"
+					item: "powersuits:jump_assist"
+				}
+				{
+					id: "18C86A1361426252"
+					type: "item"
+					item: "powersuits:sprint_assist"
+				}
+				{
+					id: "112A5BE964D3DBAE"
+					type: "item"
+					item: "powersuits:swim_assist"
+				}
+			]
+			rewards: [{
+				id: "6DF0B88C82B3B3DF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Movement"
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["4D94718CAEEB4DB5"]
+			id: "24455A7AC6F52D38"
+			tasks: [
+				{
+					id: "162F9A5DB5DC8AC6"
+					type: "item"
+					item: "powersuits:shock_absorber"
+				}
+				{
+					id: "08B4167287BA2C45"
+					type: "item"
+					item: "powersuits:jet_boots"
+				}
+			]
+			rewards: [{
+				id: "22378E2B0120E323"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Tools"
+			x: -2.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["45EB11358BEAAF92"]
+			id: "2FD806B0F2CD5AC0"
+			tasks: [
+				{
+					id: "3416047F2746D281"
+					type: "item"
+					item: "powersuits:tinkertable"
+				}
+				{
+					id: "7135AAF09E6F7BDF"
+					type: "item"
+					item: "powersuits:axe"
+				}
+				{
+					id: "3ADEE6A07CD0D1F7"
+					type: "item"
+					item: "powersuits:diamond_pick_upgrade"
+				}
+				{
+					id: "5CE990C6C985C4F8"
+					type: "item"
+					item: "powersuits:flint_and_steel"
+				}
+				{
+					id: "1F98577CE3E8F6F7"
+					type: "item"
+					item: "powersuits:hoe"
+				}
+				{
+					id: "2815310429B6E5FD"
+					type: "item"
+					item: "powersuits:leaf_blower"
+				}
+				{
+					id: "182A2313F8AD341F"
+					type: "item"
+					item: {
+						id: "powersuits:luxcapacitor_module"
+						Count: 1b
+						tag: {
+							MMModModule: { }
+						}
+					}
+				}
+				{
+					id: "2A7B6710AC728DF7"
+					type: "item"
+					item: "powersuits:pickaxe"
+				}
+				{
+					id: "75BD4714AEAB3193"
+					type: "item"
+					item: "powersuits:shears"
+				}
+				{
+					id: "026D952A5C9ABF4F"
+					type: "item"
+					item: "powersuits:shovel"
+				}
+			]
+			rewards: [{
+				id: "17098E71CE228F16"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Mining Enhancements"
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["45EB11358BEAAF92"]
+			id: "4D601094E2ADA775"
+			tasks: [
+				{
+					id: "638E43F12D718174"
+					type: "item"
+					item: "powersuits:aoe_pick_upgrade"
+				}
+				{
+					id: "2B4781D0C645C090"
+					type: "item"
+					item: "powersuits:aqua_affinity"
+				}
+				{
+					id: "045E5183DFB513BE"
+					type: "item"
+					item: "powersuits:silk_touch"
+				}
+				{
+					id: "75155DC1B232157D"
+					type: "item"
+					item: "powersuits:fortune"
+				}
+				{
+					id: "3ACC912C422FC0DB"
+					type: "item"
+					item: "powersuits:vein_miner"
+				}
+			]
+			rewards: [{
+				id: "1973A1C46717F1F7"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Movement"
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["45EB11358BEAAF92"]
+			id: "4E2E8FB87E2A5A2A"
+			tasks: [
+				{
+					id: "794BAABE0FE941D1"
+					type: "item"
+					item: "powersuits:blink_drive"
+				}
+				{
+					id: "590AD158401B05AD"
+					type: "item"
+					item: "powersuits:dim_rift_gen"
+				}
+			]
+			rewards: [{
+				id: "0861B1EA687C6E87"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Cool Weapons"
+			x: 2.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["45EB11358BEAAF92"]
+			id: "6DC1A14CBAC0278F"
+			tasks: [
+				{
+					id: "0451533815A72BA4"
+					type: "item"
+					item: "powersuits:blade_launcher"
+				}
+				{
+					id: "553CB0FBC75B2481"
+					type: "item"
+					item: "powersuits:lightning_summoner"
+				}
+				{
+					id: "3FFCE38C417D4AF9"
+					type: "item"
+					item: "powersuits:melee_assist"
+				}
+				{
+					id: "3E1FC046C3D5A3CE"
+					type: "item"
+					item: "powersuits:plasma_cannon"
+				}
+				{
+					id: "72CA3EB90038E95E"
+					type: "item"
+					item: "powersuits:railgun"
+				}
+			]
+			rewards: [{
+				id: "646F4978E45E1EB2"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+	]
+}

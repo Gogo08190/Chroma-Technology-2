@@ -1,0 +1,264 @@
+{
+	id: "08917F16FB003A65"
+	group: "02C811A04C8B1382"
+	order_index: 2
+	filename: "caged_mob"
+	title: "Caged Mob"
+	icon: "cagedmobs:mobcage"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["31731B4D3FFE7B7C"]
+			id: "41122C2FC023C374"
+			tasks: [{
+				id: "01B22468837BAFC4"
+				type: "item"
+				item: "cagedmobs:mobcage"
+			}]
+			rewards: [{
+				id: "7F9F882598EF1BE0"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["41122C2FC023C374"]
+			id: "1E65993DAD5539B0"
+			tasks: [{
+				id: "4291B2E50C9A2624"
+				type: "item"
+				item: "cagedmobs:hoppingmobcage"
+			}]
+			rewards: [{
+				id: "55029E2B8FCB54A5"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["41122C2FC023C374"]
+			id: "7F77DAD1D49D7BEB"
+			tasks: [{
+				id: "296B2997400FA893"
+				type: "item"
+				item: "cagedmobs:dnasampler"
+			}]
+			rewards: [
+				{
+					id: "5BE30571F145A848"
+					type: "loot"
+					table_id: 4063386593177790740L
+				}
+				{
+					id: "6B37D181ED1E28A4"
+					type: "item"
+					item: "cagedmobs:dnasampler"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["7F77DAD1D49D7BEB"]
+			id: "30C6D88742E41EC7"
+			tasks: [{
+				id: "004F03DC88313977"
+				type: "item"
+				item: "cagedmobs:dnasamplerdiamond"
+			}]
+			rewards: [{
+				id: "216623CB14D02ADE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: [
+				"30C6D88742E41EC7"
+				"4617FE0ABF4C79BE"
+			]
+			id: "1205677E95AC726C"
+			tasks: [{
+				id: "680AD9056AEF2633"
+				type: "item"
+				item: "cagedmobs:dnasamplernetherite"
+			}]
+			rewards: [{
+				id: "6F16EDBA72B172AA"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["1E65993DAD5539B0"]
+			id: "57258A010CC2AFD0"
+			tasks: [{
+				id: "2C7C06579B66DCE1"
+				type: "item"
+				item: "cagedmobs:cookingupgrade"
+			}]
+			rewards: [{
+				id: "07E8FCED48382721"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["1E65993DAD5539B0"]
+			id: "2635DE7E50D676F3"
+			tasks: [{
+				id: "7E2EAFD0E9B6843E"
+				type: "item"
+				item: "cagedmobs:lightningupgrade"
+			}]
+			rewards: [{
+				id: "098E8AC7B774596D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["1E65993DAD5539B0"]
+			id: "17F89A94BC486BA2"
+			tasks: [{
+				id: "590BBA6869296DC0"
+				type: "item"
+				item: "cagedmobs:arrowupgrade"
+			}]
+			rewards: [{
+				id: "6C322802FEDDAFC5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["1E65993DAD5539B0"]
+			id: "62097B7C87202A11"
+			tasks: [{
+				id: "2AB4AE7A45186211"
+				type: "item"
+				item: "cagedmobs:dragon_scale"
+			}]
+			rewards: [
+				{
+					id: "3BEC94DC1BDB567E"
+					type: "loot"
+					table_id: 4063386593177790740L
+				}
+				{
+					id: "7043BD4A936C7A55"
+					type: "item"
+					item: "quark:dragon_scale"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["1E65993DAD5539B0"]
+			id: "25A73688C1D4733B"
+			tasks: [{
+				id: "751FFBBA5309060D"
+				type: "item"
+				item: "cagedmobs:sponge_fragment"
+			}]
+			rewards: [
+				{
+					id: "795F41B6C9F81F14"
+					type: "loot"
+					table_id: 4063386593177790740L
+				}
+				{
+					id: "522BFFC6D8E7638E"
+					type: "item"
+					item: "minecraft:prismarine_shard"
+				}
+				{
+					id: "6285EE07A090A478"
+					type: "item"
+					item: "minecraft:prismarine_crystals"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["1E65993DAD5539B0"]
+			id: "60230534AE784546"
+			tasks: [{
+				id: "34939130816DDEDF"
+				type: "item"
+				item: "cagedmobs:nether_star_fragment"
+			}]
+			rewards: [
+				{
+					id: "70E02D3F926F5412"
+					type: "loot"
+					table_id: 4063386593177790740L
+				}
+				{
+					id: "7FB5A24010449A1C"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["1E65993DAD5539B0"]
+			id: "6036D8FFAFD7234A"
+			tasks: [{
+				id: "6804620B3F219BC5"
+				type: "item"
+				item: "cagedmobs:honey_drop"
+			}]
+			rewards: [
+				{
+					id: "7CADDB0C37EDFFBB"
+					type: "loot"
+					table_id: 4063386593177790740L
+				}
+				{
+					id: "4B86ED9F3281524C"
+					type: "item"
+					item: "minecraft:honeycomb"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["60230534AE784546"]
+			id: "4617FE0ABF4C79BE"
+			tasks: [{
+				id: "6787D419F130C2AA"
+				type: "item"
+				item: "cagedmobs:star_infused_netherite_ingot"
+			}]
+			rewards: [{
+				id: "342B8E65D44C7C6D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+	]
+}

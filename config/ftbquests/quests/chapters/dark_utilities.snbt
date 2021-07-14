@@ -1,0 +1,529 @@
+{
+	id: "42C14392C923EC99"
+	group: "02C811A04C8B1382"
+	order_index: 1
+	filename: "dark_utilities"
+	title: "Dark Utilities"
+	icon: "darkutils:book_runelic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 6.0d
+			shape: "diamond"
+			size: 1.5d
+			id: "46A846E14D68CF42"
+			tasks: [{
+				id: "7E971B8E45289B18"
+				type: "item"
+				item: "darkutils:blank_plate"
+			}]
+			rewards: [{
+				id: "4811FED82E0C663E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["46A846E14D68CF42"]
+			id: "577175B37161E3AA"
+			tasks: [{
+				id: "1BE60CD29E4E02CC"
+				type: "item"
+				item: "darkutils:rune_damage"
+			}]
+			rewards: [{
+				id: "380FE933AB74797A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["46A846E14D68CF42"]
+			id: "382C3939BA584E70"
+			tasks: [{
+				id: "4A4C118AB5F59C0F"
+				type: "item"
+				item: "darkutils:rune_damage_player"
+			}]
+			rewards: [{
+				id: "325DF0E0B3699439"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["46A846E14D68CF42"]
+			id: "56D15D0247328D8F"
+			tasks: [{
+				id: "2980C3E56E5AA81D"
+				type: "item"
+				item: "darkutils:rune_poison"
+			}]
+			rewards: [{
+				id: "71D7533D96C7382D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["46A846E14D68CF42"]
+			id: "6112E0685C9CFEA1"
+			tasks: [{
+				id: "247C24DE9F671539"
+				type: "item"
+				item: "darkutils:rune_weakness"
+			}]
+			rewards: [{
+				id: "599F8DF031727754"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["46A846E14D68CF42"]
+			id: "05E8EB482BBD16BD"
+			tasks: [{
+				id: "6BE20E8DD4765988"
+				type: "item"
+				item: "darkutils:rune_slowness"
+			}]
+			rewards: [{
+				id: "75E81B9205327B9A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["46A846E14D68CF42"]
+			id: "58E9F61C225879DE"
+			tasks: [{
+				id: "6BF5BA5A9A46C3A7"
+				type: "item"
+				item: "darkutils:rune_wither"
+			}]
+			rewards: [{
+				id: "3C31FB2F9AE3E013"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["46A846E14D68CF42"]
+			id: "5954B7BC4A1C4C63"
+			tasks: [{
+				id: "00A6C1A7E791EB4C"
+				type: "item"
+				item: "darkutils:rune_fire"
+			}]
+			rewards: [{
+				id: "5FA386C292C07C10"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["46A846E14D68CF42"]
+			id: "223BE736139D3B07"
+			tasks: [{
+				id: "0B59FBA6A2A0F173"
+				type: "item"
+				item: "darkutils:rune_fatigue"
+			}]
+			rewards: [{
+				id: "3F2BDA8D2C1ECB06"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["46A846E14D68CF42"]
+			id: "5BD25304F21004D3"
+			tasks: [{
+				id: "5BF3719B37827D05"
+				type: "item"
+				item: "darkutils:rune_glowing"
+			}]
+			rewards: [{
+				id: "16013C447820DF6A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["46A846E14D68CF42"]
+			id: "34BB23C763772A0A"
+			tasks: [{
+				id: "0CB584C3BD59294D"
+				type: "item"
+				item: "darkutils:rune_hunger"
+			}]
+			rewards: [{
+				id: "196560B7087419F7"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["46A846E14D68CF42"]
+			id: "174D5D84507B4595"
+			tasks: [{
+				id: "32AD277AFA386CAB"
+				type: "item"
+				item: "darkutils:rune_blindness"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["46A846E14D68CF42"]
+			id: "17E4937496A0201A"
+			tasks: [{
+				id: "4F9834AE7FB55860"
+				type: "item"
+				item: "darkutils:rune_nausea"
+			}]
+			rewards: [{
+				id: "5764ADEB74363CB9"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["46A846E14D68CF42"]
+			id: "03DBFC3A0A637397"
+			tasks: [{
+				id: "547DA3F7A253E520"
+				type: "item"
+				item: "darkutils:anchor_plate"
+			}]
+			rewards: [{
+				id: "613D6E32C1DBE657"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 9.5d
+			shape: "diamond"
+			id: "6D68BA6871B414C2"
+			tasks: [{
+				id: "353764B6E95F6EC6"
+				type: "item"
+				item: "darkutils:charm_portal"
+			}]
+			rewards: [{
+				id: "7CA0E54CCF122D2A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 9.5d
+			shape: "diamond"
+			id: "14D271669F480B75"
+			tasks: [{
+				id: "66927E3A11ADB51B"
+				type: "item"
+				item: "darkutils:charm_sleep"
+			}]
+			rewards: [{
+				id: "62CB03AC5A0EF27E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			shape: "diamond"
+			id: "48D7A37E9D91B3D0"
+			tasks: [{
+				id: "1911EE1F11B8D49F"
+				type: "item"
+				item: "darkutils:charm_experience"
+			}]
+			rewards: [{
+				id: "5C6241E39B6A6CAC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			shape: "diamond"
+			id: "361F2F0E1688560F"
+			tasks: [{
+				id: "750F73618C25AF17"
+				type: "item"
+				item: "darkutils:charm_gluttony"
+			}]
+			rewards: [{
+				id: "00C2E0145CD20FF7"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 9.0d
+			shape: "diamond"
+			id: "6730FC66142B9622"
+			tasks: [{
+				id: "0CDEA2079B38A319"
+				type: "item"
+				item: "darkutils:dark_glass"
+			}]
+			rewards: [{
+				id: "7E9E34EB3120EB9A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 7.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["46A846E14D68CF42"]
+			id: "34EFE5BC578794FF"
+			tasks: [{
+				id: "02B3CA627B64F385"
+				type: "item"
+				item: "darkutils:vector_plate"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"46A846E14D68CF42"
+				"72364DE219573C22"
+			]
+			id: "5DB538D39FB009A5"
+			tasks: [{
+				id: "12316DDB9AB66528"
+				type: "item"
+				item: "darkutils:vector_plate_extreme"
+			}]
+			rewards: [{
+				id: "639CE5B729D6AE32"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"46A846E14D68CF42"
+				"34EFE5BC578794FF"
+			]
+			id: "72364DE219573C22"
+			tasks: [{
+				id: "3C6E5E961F396A9E"
+				type: "item"
+				item: "darkutils:vector_plate_fast"
+			}]
+			rewards: [{
+				id: "3A5BEBB1E59FE4EC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["46A846E14D68CF42"]
+			id: "5A962D01338F120B"
+			tasks: [{
+				id: "47030801FD25F8B2"
+				type: "item"
+				item: "darkutils:export_plate"
+			}]
+			rewards: [{
+				id: "0A7EBFBE9D8BA214"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 8.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"46A846E14D68CF42"
+				"5A962D01338F120B"
+			]
+			id: "397BAE49CFC73728"
+			tasks: [{
+				id: "1CC6638A5B44FFB7"
+				type: "item"
+				item: "darkutils:export_plate_fast"
+			}]
+			rewards: [{
+				id: "6D2BFC73940FD2BC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 8.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"46A846E14D68CF42"
+				"397BAE49CFC73728"
+			]
+			id: "3824EE2E3C4FE181"
+			tasks: [{
+				id: "0C6D38B5F4E74E6F"
+				type: "item"
+				item: "darkutils:export_plate_extreme"
+			}]
+			rewards: [{
+				id: "47ACBA01139E2079"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["46A846E14D68CF42"]
+			id: "3FBA81DEBE0C049F"
+			tasks: [{
+				id: "68F97565AFE6F2D0"
+				type: "item"
+				item: "darkutils:import_plate"
+			}]
+			rewards: [{
+				id: "56D4144AE643F0C4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"46A846E14D68CF42"
+				"3FBA81DEBE0C049F"
+			]
+			id: "19E9671F4EA92B5C"
+			tasks: [{
+				id: "680F3B785BC2A7CD"
+				type: "item"
+				item: "darkutils:import_plate_fast"
+			}]
+			rewards: [{
+				id: "5C1511A599EA8383"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"46A846E14D68CF42"
+				"19E9671F4EA92B5C"
+			]
+			id: "53AE88CBE1B7768C"
+			tasks: [{
+				id: "779D1DF4E31FE78A"
+				type: "item"
+				item: "darkutils:import_plate_extreme"
+			}]
+			rewards: [{
+				id: "371C7A188315DDA2"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 9.0d
+			shape: "diamond"
+			id: "220D3034710F6147"
+			tasks: [{
+				id: "088C884D25051AB0"
+				type: "item"
+				item: "darkutils:item_grate"
+			}]
+			rewards: [{
+				id: "795E8292195C658B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+	]
+}

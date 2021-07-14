@@ -1,0 +1,769 @@
+{
+	id: "78540A242B5ADD20"
+	group: "1D8552F8A45BF753"
+	order_index: 6
+	filename: "mahoutsukai"
+	title: "Mahoutsukai"
+	icon: {
+		id: "mahoutsukai:morgan"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+		ForgeCaps: {
+			Parent: {
+				MAHOUTSUKAI_ATTACK_CAP: 0.0d
+				MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -2.5d
+			shape: "octagon"
+			subtitle: "Welcome"
+			description: [
+				"With &5Mahou Tsukai&r you can create very powerfull spells or weapons."
+				""
+				"You can see the recipe of the spell on the compendium"
+			]
+			id: "2C348BA89EAB5690"
+			tasks: [{
+				id: "064CA940955168C1"
+				type: "item"
+				item: "mahoutsukai:guidebook"
+			}]
+			rewards: [{
+				id: "6FD2ED6935B7E75D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			subtitle: "Suicidal"
+			description: [
+				"When you  right click with the &5Dagger&r, it will make you bleed."
+				""
+				"But when you press the &8Mahou Drawing&r key it will draw a &8Mahou Circle&r to create spell. "
+				""
+				"For that you will have to craft those &lPowdereds Powders&r"
+			]
+			dependencies: ["2C348BA89EAB5690"]
+			id: "26C2E5ACAAF1E02A"
+			tasks: [{
+				id: "58373435660C9B44"
+				type: "item"
+				item: "mahoutsukai:dagger"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			subtitle: "I'm cold"
+			description: [
+				"Some spell will ask you  to use &8Cloth&r to be created."
+				""
+				"You can see which spells needs cloths on the &5Mahou Tsukai Compendium&r."
+			]
+			dependencies: ["3C9F44D4A5C50520"]
+			id: "743C060DB0179ABD"
+			tasks: [{
+				id: "414BBAFD220A7AD4"
+				type: "item"
+				item: "mahoutsukai:spell_cloth"
+			}]
+			rewards: [{
+				id: "3E77C869A7108953"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			dependencies: ["26C2E5ACAAF1E02A"]
+			id: "1B81BC21FA5EF811"
+			tasks: [{
+				id: "2378F13B620EC794"
+				type: "item"
+				item: "mahoutsukai:powdered_diamond"
+			}]
+			rewards: [{
+				id: "4EFCE50D8A9155F2"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["26C2E5ACAAF1E02A"]
+			id: "41C836F13361F603"
+			tasks: [{
+				id: "57A44E2BE8882EBC"
+				type: "item"
+				item: "mahoutsukai:powdered_emerald"
+			}]
+			rewards: [{
+				id: "2BB6C912EE489FD1"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["26C2E5ACAAF1E02A"]
+			id: "5EFBEE10D0006508"
+			tasks: [{
+				id: "377C95208E250794"
+				type: "item"
+				item: "mahoutsukai:powdered_ender"
+			}]
+			rewards: [{
+				id: "6BD9DAF060D65368"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["26C2E5ACAAF1E02A"]
+			id: "3FC45CE7067772CD"
+			tasks: [{
+				id: "58C0CF5D43D6C20A"
+				type: "item"
+				item: "mahoutsukai:powdered_eye"
+			}]
+			rewards: [{
+				id: "326C6505864F9FA9"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			dependencies: ["26C2E5ACAAF1E02A"]
+			id: "2A032D8822F6D038"
+			tasks: [{
+				id: "5FC83A280EB413EC"
+				type: "item"
+				item: "mahoutsukai:powdered_gold"
+			}]
+			rewards: [{
+				id: "68C91ED49FD49D23"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			dependencies: ["26C2E5ACAAF1E02A"]
+			id: "6DA7F346F0A55CD3"
+			tasks: [{
+				id: "2C8B4F487657AE84"
+				type: "item"
+				item: "mahoutsukai:powdered_iron"
+			}]
+			rewards: [{
+				id: "69B04BB74D90A3D1"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["26C2E5ACAAF1E02A"]
+			id: "5C7F5A7D339DE985"
+			tasks: [{
+				id: "1155E28E0A9BCC6E"
+				type: "item"
+				item: "mahoutsukai:powdered_quartz"
+			}]
+			rewards: [{
+				id: "46280AC628D0B5A9"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			subtitle: "First Rule : Don't talk about the Code"
+			description: [
+				"The &4Mystical Code&r allows you to store and use spells. "
+				""
+				"You can press the \"Y\" key (by default) to switch between spells."
+			]
+			dependencies: ["743C060DB0179ABD"]
+			id: "2A1D2FE8DBC24DDB"
+			tasks: [{
+				id: "26496B54D05A12C3"
+				type: "item"
+				item: {
+					id: "mahoutsukai:mystic_code"
+					Count: 1b
+					ForgeCaps: {
+						Parent: [ ]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C4EEFADAF8BC148"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.0d
+			subtitle: "Fay Sight"
+			description: [
+				"This Scroll will allow the player to see the &3Fay Line&r."
+				""
+				"If you decide to follow this Line, you will discover the &3Fay Circle&r that make you regenerate your life quickly in exchange of some &5Mahou Power&r. "
+				""
+				"If you are waiting long enough, you will hear the Fay spawns. "
+				"With this spell, you can also get Fay Powder."
+			]
+			dependencies: ["2A1D2FE8DBC24DDB"]
+			id: "67353EE77E1685BD"
+			tasks: [{
+				id: "3B5890D644B173F5"
+				type: "item"
+				item: {
+					id: "mahoutsukai:scroll_fay_sight"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "625F34E3582CFA24"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 9.0d
+			subtitle: "I TOLD YOU TO NOT SPEAK ABOUT IT"
+			description: [
+				"This &cMystic Code&r is an advanced version of the previous one."
+				""
+				"This one will consume the durability of this Code instead of using the spell."
+			]
+			dependencies: ["67353EE77E1685BD"]
+			id: "64A2DF892DE9F6BE"
+			tasks: [{
+				id: "1531ACCBCB8BFC5C"
+				type: "item"
+				item: {
+					id: "mahoutsukai:mystic_code_first_sorcery"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: [ ]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5579E5CC6014D4BD"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 10.0d
+			subtitle: "It does need a mint"
+			description: ["Use the &8Strengthening&r on a sword and the right click when you find yourself in some &5Dragon's Breath&r"]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "027C68A9C0CBFC62"
+			tasks: [{
+				id: "63C36FD312A88FDD"
+				type: "item"
+				item: {
+					id: "mahoutsukai:clarent"
+					Count: 1b
+					tag: {
+						Damage: 0
+						mahoutsukai_clarent_attack: 0.0f
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "196EA44B1EA89983"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 11.5d
+			subtitle: "Is that a JoJo reference ?"
+			description: ["You will have to kill a tamed wolf (A dog then) with the &6Cliburn&r to get the &4Morgan&r"]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "2E5AA6365EA24880"
+			tasks: [{
+				id: "1728B46942FAE3E4"
+				type: "item"
+				item: {
+					id: "mahoutsukai:morgan"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 0.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "12A2D000D7D9DAAF"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			icon: {
+				id: "mahoutsukai:caliburn"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_ATTACK_CAP: 0.0d
+						MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+					}
+				}
+			}
+			x: -2.0d
+			y: 10.0d
+			subtitle: "It does burn"
+			description: ["Throw an enchanted sword into the &bPower Consolidation Lake&r. Make sure you have a total of 5k of &5Mahou&r and throw it with Q (default key). You will have to get wet to get it."]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "1F60DFD692E93221"
+			tasks: [{
+				id: "3E5619EECED51889"
+				type: "item"
+				item: {
+					id: "mahoutsukai:caliburn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 0.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7CD51F20EF4B4D94"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 8.5d
+			subtitle: "THIS IS SPARTA !"
+			description: [
+				"First you need to get 80 damage absorption with the spell &0&ldamage absorption"
+				"Have 100 death collection soul using &0&lthe death collection spell &rand see mob died and reach 100"
+				"Have 15 armor"
+				"Have the spell &0&limmunity exchange&r active"
+				"And you need to block something with a vanilla shield affected by the &0&lstrenghening spell&r"
+			]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "4831B5E3A251BB99"
+			tasks: [{
+				id: "6F12EBF7884B6F54"
+				type: "item"
+				item: {
+					id: "mahoutsukai:replica"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "24A60A929561D67C"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+				{
+					id: "6C825BB9A3D9CB53"
+					type: "random"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 8.5d
+			subtitle: "Keys = Doors? "
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "5D90B66ADD81DC4C"
+			tasks: [{
+				id: "14EE1EF76411C370"
+				type: "item"
+				item: {
+					id: "mahoutsukai:proximity_projection_keys"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "216AC1211B75785B"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 7.0d
+			subtitle: "I'm Lost"
+			description: ["Use a &0Spatial Disorientation Scroll&r"]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "2E13A67DDCE9BA7C"
+			tasks: [{
+				id: "5CC8988A0D3920CB"
+				type: "item"
+				item: {
+					id: "mahoutsukai:spatial_disorientation_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1A95ED14949BEA9B"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			subtitle: "EXPLOSION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+			description: ["Use an &0&lExplosive Mana Condensation Scroll&r"]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "3B77282812F2526C"
+			tasks: [{
+				id: "164837EC771707A9"
+				type: "item"
+				item: {
+					id: "mahoutsukai:mystic_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0DD7E1DA39695FEA"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			subtitle: "Worming "
+			description: [
+				"You can practice some sympathetic magic with it."
+				""
+				"You will need to place it on a monster that killed an other monster then you will have to kill it."
+				""
+				"Place the &aKodoku&r on achest underneath a spell circle."
+			]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "649A89F29765584D"
+			tasks: [{
+				id: "14F565FD340DA99B"
+				type: "item"
+				item: {
+					id: "mahoutsukai:kodoku"
+					Count: 1b
+					tag: {
+						MAHOUTSUKAI_KODOKU_VALUE: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_KODOKU_VALUE: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0323E19A60D95128"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			subtitle: "Where's my shovel?"
+			description: ["Use a &2Treasury Projection Scroll&r"]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "679BD9A0CB0B693A"
+			tasks: [{
+				id: "2463496FE800391B"
+				type: "item"
+				item: "mahoutsukai:treasury_projection_gauntlet"
+			}]
+			rewards: [{
+				id: "31532332A7304970"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			subtitle: "Archers ! "
+			description: ["Use the &8Weapon Projectile Spell&r"]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "321035D54F8B4D03"
+			tasks: [{
+				id: "503935BABF2CEF56"
+				type: "item"
+				item: {
+					id: "mahoutsukai:weapon_projectile_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5A94E3E0AD5841D8"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			subtitle: "Grim Reaper"
+			description: ["Use a &2Presence Concealment Scroll&r"]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "6131C87991220D87"
+			tasks: [{
+				id: "746EDA7C4A7AC175"
+				type: "item"
+				item: {
+					id: "mahoutsukai:theripper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F8F186F0DBD9458"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			subtitle: "Stick it to Stick"
+			description: [
+				"Use the &9Strenghtening&r enchant on a stick and hold it in your off-hand. "
+				""
+				"Now you will have to wait the thunder to strike you."
+			]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "219D93D90B663BEB"
+			tasks: [{
+				id: "4B48305C1E416155"
+				type: "item"
+				item: "mahoutsukai:staff_emrys"
+			}]
+			rewards: [{
+				id: "4321FFB8AF70ABB5"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			subtitle: "This is a lie"
+			description: ["Will increase your &5Mahou&r regen but will avoid Faes to spawn."]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "0ABF8C7E4A32B1B7"
+			tasks: [{
+				id: "653E74DD2129B1F4"
+				type: "item"
+				item: "mahoutsukai:faecake"
+			}]
+			rewards: [{
+				id: "00D8BDA71A10D8F1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			subtitle: "Shiny storage"
+			description: ["This &bAttuned Diamond&r allows you to extra store your &5Mahou&r"]
+			dependencies: ["2C348BA89EAB5690"]
+			id: "71E38258C00F4A23"
+			tasks: [{
+				id: "04981410B91DD22D"
+				type: "item"
+				item: {
+					id: "mahoutsukai:attuned_diamond"
+					Count: 1b
+					tag: {
+						MAHOUTSUKAI_GEM_STORED_MANA: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0B418DF3F32307C7"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Not for villagers"
+			description: ["The &aAttuned Emerald&r will allow you to store more &5Mahou&r"]
+			dependencies: ["2C348BA89EAB5690"]
+			id: "02FF8E64ED4B5A6D"
+			tasks: [{
+				id: "2E23B63E2A1DF586"
+				type: "item"
+				item: {
+					id: "mahoutsukai:attuned_emerald"
+					Count: 1b
+					tag: {
+						MAHOUTSUKAI_GEM_STORED_MANA: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "088A32ADB7BDC7CA"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			icon: {
+				id: "mahoutsukai:scroll_swap_familiar"
+				Count: 1b
+				tag: {
+					MAHOUTSUKAI_CASTER_NAME: ""
+				}
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+				}
+			}
+			x: -3.0d
+			y: 2.5d
+			subtitle: "Trust the process"
+			description: ["The &cDurability Exchange Spell&r allows you to generate &5Mahou&r by using the durability of a dropped item on the newly created spell "]
+			dependencies: [
+				"6DA7F346F0A55CD3"
+				"2A032D8822F6D038"
+				"1B81BC21FA5EF811"
+				"41C836F13361F603"
+				"5EFBEE10D0006508"
+				"3FC45CE7067772CD"
+				"5C7F5A7D339DE985"
+			]
+			id: "3C9F44D4A5C50520"
+			tasks: [{
+				id: "15592695C9A2257B"
+				type: "checkmark"
+				title: "Durability exchange"
+			}]
+			rewards: [{
+				id: "1357E5AFD4FD595C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 13.0d
+			description: ["Like caliburn just throw a lance in the &0&lpower consolidation lake"]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "5DA99295F2B4F033"
+			tasks: [{
+				id: "659F3E7223A75C35"
+				type: "item"
+				item: {
+					id: "mahoutsukai:rhongomyniad"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_WEIGHT: 2.0f
+							MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "41880E2B6A608D47"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+	]
+}

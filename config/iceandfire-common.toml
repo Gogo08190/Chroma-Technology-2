@@ -32,12 +32,12 @@
 		"Generate Dragon Skeletons" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Skeleton Chance" = 300
+		"Generate Dragon Skeleton Chance" = 385
 		#Whether to generate dragon caves or not
 		"Generate Dragon Caves" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Cave Chance" = 180
+		"Generate Dragon Cave Chance" = 115
 		#Whether to generate dragon roosts or not
 		"Generate Dragon Roosts" = true
 		#1 out of this number chance per chunk for generation
@@ -53,10 +53,10 @@
 	[Generation.Structures-Features]
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn(0, 0).
 		#Range: 1 ~ 10000
-		"Dangerous World Gen Dist From Spawn" = 2000
+		"Dangerous World Gen Dist From Spawn" = 450
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from the last generated structure.
 		#Range: 1 ~ 10000
-		"Dangerous World Gen Dist Seperation" = 2000
+		"Dangerous World Gen Dist Seperation" = 300
 		#Whether to generate glacier biomes or not
 		"Generate Glaciers" = true
 		#Glacier Spawn Weight. Higher number = more common
@@ -66,19 +66,19 @@
 		"Generate Mausoleums" = true
 		#One out of this number chance per chunk to generate a mausoleum.
 		#Range: 1 ~ 10000
-		"Mausoleum Gen Chance" = 1800
+		"Mausoleum Gen Chance" = 1500
 		#Whether to generate graveyards or not
 		"Generate Graveyards" = true
 		#Graveyard rarity.
 		#Range: 2 ~ 10000
-		"Graveyard Chance" = 46
+		"Graveyard Chance" = 225
 
 [Dragons]
 
 	[Dragons.Griefing]
 		#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default
 		#Range: 0 ~ 2
-		"Dragon Griefing" = 1
+		"Dragon Griefing" = 2
 		#True if tamed dragons can follow the griefing rules.
 		"Tamed Dragon Griefing" = true
 		#The percentage chance for a block to drop as an item when a dragon breaks it.
@@ -101,19 +101,19 @@
 		"Dragon Flute Distance" = 4
 		#Max dragon health. Health is scaled to this
 		#Range: 1.0 ~ 100000.0
-		"Dragon Health" = 500.0
+		"Dragon Health" = 6500.0
 		#Max dragon attack damage. Attack Damage is scaled to this
 		#Range: 1 ~ 10000
-		"Dragon Attack Damage" = 17
+		"Dragon Attack Damage" = 40
 		#Damage dealt from a successful fire breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Fire breath)" = 2.0
+		"Dragon Attack Damage(Fire breath)" = 4.5
 		#Damage dealt from a successful ice breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Ice breath)" = 2.5
+		"Dragon Attack Damage(Ice breath)" = 5.0
 		#Damage dealt from a successful lightning breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Lightning breath)" = 3.5
+		"Dragon Attack Damage(Lightning breath)" = 6.5
 		#Change this to slow down or speed up dragon or amphithere flight.
 		#Range: 0.0 ~ 2.0
 		"Dragon Flight Speed Modifier" = 1.0
@@ -172,14 +172,14 @@
 		#Range: 1 ~ 10000
 		"Pixie Village Size" = 5
 		#True if pixies are allowed to steal from players
-		"Pixies Steal Items" = true
+		"Pixies Steal Items" = false
 
 	[Mobs.Cyclops]
 		#True if cyclops caves are allowed to spawn
 		"Spawn Cyclopes Caves" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Cyclops Cave Chance" = 100
+		"Spawn Cyclops Cave Chance" = 180
 		#True if wandering cyclopes are allowed to spawn
 		"Spawn Wandering Cyclopes" = true
 		#1 out of this number chance per chunk for generation
@@ -187,7 +187,7 @@
 		"Spawn Wandering Cyclops Chance" = 100
 		#Maximum cyclops health
 		#Range: 1.0 ~ 10000.0
-		"Cyclops Max Health" = 150.0
+		"Cyclops Max Health" = 2500.0
 		#How many blocks away can cyclopes detect sheep. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
 		"Cyclopes Sheep Search Length" = 17
@@ -196,14 +196,14 @@
 		"Cyclops Attack Strength" = 15.0
 		#Amount of damage done with cyclops bite attack.
 		#Range: 1.0 ~ 10000.0
-		"Cyclops Bite Strength" = 40.0
+		"Cyclops Bite Strength" = 50.0
 		#Whether or not cyclops can break logs or leaves in their way
 		"Cyclops Griefing" = true
 
 	[Mobs.Sirens]
 		#Maximum siren health
 		#Range: 1.0 ~ 10000.0
-		"Siren Max Health" = 50.0
+		"Siren Max Health" = 250.0
 		#True if siren islands are allowed to spawn
 		"Spawn Sirens" = true
 		#True to make the screen pink when sirens attract players
@@ -224,25 +224,25 @@
 		"Death Worm Target Search Length" = 64
 		#Default deathworm health, this is scaled to the worm's particular size
 		#Range: 1.0 ~ 10000.0
-		"Death Worm Base Health" = 10.0
+		"Death Worm Base Health" = 50.0
 		#Default deathworm attack strength, this is scaled to the worm's particular size
 		#Range: 1.0 ~ 10000.0
-		"Death Worm Base Attack Strength" = 3.0
+		"Death Worm Base Attack Strength" = 4.0
 		#True if deathworms are allowed to spawn
 		"Spawn Death Worms" = true
 		#True if wild deathworms are allowed to target and attack monsters
 		"Death Worms Target Monsters" = true
 		#Deathworm spawn weight. Higher = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Death Worm Spawn Weight" = 30
+		"Death Worm Spawn Weight" = 45
 		#A double check to see if the game can spawn death worms. Higher number = lower chance to spawn.
 		#Range: 0 ~ 10000
-		"Death Worm Spawn Check Chance" = 3
+		"Death Worm Spawn Check Chance" = 5
 
 	[Mobs.Cockatrice]
 		#Maximum cockatrice health
 		#Range: 1.0 ~ 10000.0
-		"Cockatrice Health" = 40.0
+		"Cockatrice Health" = 80.0
 		#1 out of this number chance per 6000 ticks for a chicken to lay a cockatrice egg.
 		#Range: > 1
 		"Cockatrice chicken Search Length" = 30
@@ -296,10 +296,10 @@
 		"Troll Spawn Check Chance" = 10
 		#Maximum troll health
 		#Range: 1.0 ~ 10000.0
-		"Troll Max Health" = 50.0
+		"Troll Max Health" = 2000.0
 		#Troll attack strength
 		#Range: 1.0 ~ 10000.0
-		"Troll Attack Strength" = 10.0
+		"Troll Attack Strength" = 12.0
 
 	[Mobs.Myrmex]
 		#True if myrmex colonies are allowed to spawn
@@ -340,22 +340,22 @@
 		"Amphithere Flight Speed" = 1.75
 		#Maximum amphithere health
 		#Range: 1.0 ~ 10000.0
-		"Amphithere Max Health" = 50.0
+		"Amphithere Max Health" = 150.0
 		#Amphithere attack strength
 		#Range: 1.0 ~ 10000.0
-		"Amphithere Attack Strength" = 7.0
+		"Amphithere Attack Strength" = 7.5
 
 	[Mobs.SeaSerpents]
 		#True if sea serpents are allowed to spawn
 		"Spawn Sea Serpents" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sea Serpent Chance" = 200
+		"Spawn Sea Serpent Chance" = 350
 		#Whether or not sea serpents can break weak blocks in their way
 		"Sea Serpent Griefing" = true
 		#Default sea serpent health, this is scaled to the sea serpent's particular size
 		#Range: 1.0 ~ 10000.0
-		"Sea Serpent Base Health" = 20.0
+		"Sea Serpent Base Health" = 150.0
 		#Default sea serpent attack strength, this is scaled to the sea serpent's particular size
 		#Range: 1.0 ~ 10000.0
 		"Sea Serpent Base Attack Strength" = 4.0
@@ -368,7 +368,7 @@
 		"Lich Spawn Weight" = 2
 		#Maximum hydra health
 		#Range: 1.0 ~ 10000.0
-		"Hydra Max Health" = 250.0
+		"Hydra Max Health" = 1750.0
 		#True if hydra caves are allowed to generate
 		"Generate Hydra Caves" = true
 		#One out of this number chance per chunk to generate a hydra cave.
@@ -376,7 +376,7 @@
 		"Hydra Caves Gen Chance" = 100
 		#Maximum ghost health.
 		#Range: 1.0 ~ 10000.0
-		"Ghost Max Health" = 30.0
+		"Ghost Max Health" = 40.0
 		#Maximum ghost attack strength.
 		#Range: 0.0 ~ 10000.0
 		"Ghost Attack Strength" = 3.0
@@ -414,7 +414,7 @@
 		"Spawn Gorgon Chance" = 75
 		#Maximum gorgon health
 		#Range: 1.0 ~ 10000.0
-		"Gorgon Max Health" = 100.0
+		"Gorgon Max Health" = 1500.0
 
 [Items]
 	#Default attack strength of a dragonsteel sword.

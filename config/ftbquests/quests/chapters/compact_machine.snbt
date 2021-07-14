@@ -1,0 +1,198 @@
+{
+	id: "06FA108E29F302CB"
+	group: "247A2B0D60E02610"
+	order_index: 6
+	filename: "compact_machine"
+	title: "Compact Machine"
+	icon: "compactcrafting:field_projector"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.0d
+			y: 0.5d
+			dependencies: ["31731B4D3FFE7B7C"]
+			id: "4BA1DF0EFC027204"
+			tasks: [{
+				id: "4CBE41DD7FC11167"
+				type: "item"
+				item: "compactmachines:wall"
+				count: 64L
+			}]
+			rewards: [{
+				id: "4BAA6B5BC35E57BE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			dependencies: ["4BA1DF0EFC027204"]
+			id: "56985F19676A7950"
+			tasks: [{
+				id: "6073813A924D507C"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
+			rewards: [{
+				id: "394CEBAFBB5CF431"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			dependencies: ["4BA1DF0EFC027204"]
+			id: "34B97B0FDACD54F1"
+			tasks: [{
+				id: "5D35D17A2CF8DCFD"
+				type: "item"
+				item: "compactmachines:machine_giant"
+			}]
+			rewards: [{
+				id: "3FB4F44EAF50A49F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			dependencies: ["4BA1DF0EFC027204"]
+			id: "497BD9A1421D1358"
+			tasks: [{
+				id: "7746DA27CDC2E898"
+				type: "item"
+				item: "compactmachines:machine_large"
+			}]
+			rewards: [{
+				id: "16E962A052047226"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			dependencies: ["4BA1DF0EFC027204"]
+			id: "648EA19983AE4DC3"
+			tasks: [{
+				id: "66A5CF7D3506A2BB"
+				type: "item"
+				item: "compactmachines:machine_normal"
+			}]
+			rewards: [{
+				id: "79B8FCFD325D6A4A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			dependencies: ["4BA1DF0EFC027204"]
+			id: "4C320B4240FD0A18"
+			tasks: [{
+				id: "635918BD0DF2B467"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
+			rewards: [{
+				id: "6390AC103492977F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			dependencies: ["4BA1DF0EFC027204"]
+			id: "5A002C8D18840D37"
+			tasks: [{
+				id: "65BBB7B8FCCF733D"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+			rewards: [{
+				id: "0E56D8D8837C21C7"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			dependencies: ["2BA6CC57CD607971"]
+			id: "31731B4D3FFE7B7C"
+			tasks: [{
+				id: "01C16AB41E9033B9"
+				type: "item"
+				item: "compactcrafting:field_projector"
+				count: 4L
+			}]
+			rewards: [{
+				id: "7C5240573C372E7F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["2BEC4DE6DA016E7E"]
+			id: "2BA6CC57CD607971"
+			tasks: [{
+				id: "26A5F845A4BBC6EB"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+			rewards: [{
+				id: "101D7373ECE90B88"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Tunnels"
+			x: -6.0d
+			y: 0.5d
+			dependencies: ["4BA1DF0EFC027204"]
+			id: "3236188C3F6EF554"
+			tasks: [
+				{
+					id: "7AA9B4AA348AB544"
+					type: "item"
+					item: {
+						id: "compactmachines:tunnel"
+						Count: 1b
+						tag: {
+							definition: {
+								id: "compactmachines:item"
+							}
+						}
+					}
+				}
+				{
+					id: "718F52ECAB289EEF"
+					type: "item"
+					item: {
+						id: "compactmachines:tunnel"
+						Count: 1b
+						tag: {
+							definition: {
+								id: "compactmachines:redstone_in"
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "44C7104AA662ABF0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+	]
+}

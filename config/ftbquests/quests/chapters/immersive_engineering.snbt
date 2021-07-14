@@ -1,0 +1,1053 @@
+{
+	id: "43E8D81356B460D9"
+	group: "247A2B0D60E02610"
+	order_index: 0
+	filename: "immersive_engineering"
+	title: "Immersive Engineering"
+	icon: {
+		id: "immersiveengineering:toolbox"
+		Count: 1b
+		ForgeCaps: {
+			Parent: {
+				Size: 23
+				Items: [ ]
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 10.080272108843552d
+			y: 1.572789115646291d
+			shape: "diamond"
+			dependencies: ["3062EC7F5DD6F6C5"]
+			id: "23C51BCF5BE87227"
+			tasks: [{
+				id: "795D25025071B349"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7E1FF709A8E8171F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.0d
+			shape: "diamond"
+			id: "228DAA7B7CDF1CCD"
+			tasks: [{
+				id: "6148BC50D1E860C0"
+				type: "item"
+				item: {
+					id: "immersiveengineering:wirecutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "65C4A2B144AAA842"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.937414965986399d
+			y: 1.572789115646291d
+			shape: "diamond"
+			id: "4F6FD2DF838AD6E7"
+			tasks: [{
+				id: "449D41EFB3E8F612"
+				type: "item"
+				item: "immersiveengineering:screwdriver"
+			}]
+			rewards: [{
+				id: "1A78C1806FA84577"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&7Coke Oven"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/ftbquest/coke_oven.png"
+				}
+			}
+			x: 8.5d
+			y: 2.5d
+			shape: "diamond"
+			description: [
+				"The &bCoke Oven &fis the first important machine you will need to create in order to proceed with Immersive Engineering."
+				""
+				"Its functionality is simple, it will heat up &6coal &for &6blocks of coal &fwithout supplying it with oxygen, creating &6Coal Coke&f and &6Creosote Oil&f."
+			]
+			dependencies: ["57CABF1593171BFD"]
+			size: 1.3d
+			id: "023D25A69534B322"
+			tasks: [{
+				id: "36840C530E530B1B"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "52BBDA7BB76CC34A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&6Blast Furnace"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/ftbquest/blast_furnace.png"
+				}
+			}
+			x: 12.5d
+			y: 2.5d
+			shape: "diamond"
+			description: ["The &bCrude Blast Furnace &fis used to increase the carbon content in iron, turning it into &6steel&f."]
+			hide_dependency_lines: true
+			dependencies: ["23C51BCF5BE87227"]
+			size: 1.3d
+			id: "0C183BE13C0010F0"
+			tasks: [{
+				id: "6272103A55AEB921"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "2142FCB01F2249D8"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&6Kiln"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/ftbquest/alloy_kiln.png"
+				}
+			}
+			x: 10.5d
+			y: 4.0d
+			shape: "diamond"
+			description: ["The &bAlloy Kiln &fis a simple furnace made out of heat resistant sandstone and bricks. Within it, temperatures are high enough to allow metals to be melted into a fluid state and mixed, creating an &6alloy&f."]
+			hide_dependency_lines: true
+			dependencies: ["23C51BCF5BE87227"]
+			size: 1.3d
+			id: "1751A811DF4C7F92"
+			tasks: [{
+				id: "3C70D6C89891C025"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+			rewards: [{
+				id: "7327F47CC68696B7"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["0C183BE13C0010F0"]
+			id: "0341C2453C2A59D8"
+			tasks: [{
+				id: "2C81CE086D5ED285"
+				type: "item"
+				item: "silents_mechanisms:steel_ingot"
+			}]
+			rewards: [{
+				id: "1307C0BC6A2C9AC3"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["023D25A69534B322"]
+			id: "3276AE733B03D83E"
+			tasks: [{
+				id: "588D172F5DC104FD"
+				type: "item"
+				item: "immersiveengineering:coal_coke"
+			}]
+			rewards: [{
+				id: "75829860E2C4D21D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 5.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["13CBC44AE9A3E93E"]
+			id: "329AEC635A1CAB77"
+			tasks: [{
+				id: "18C22825F807433B"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 8L
+			}]
+			rewards: [{
+				id: "2EC189F2DE8CC9A5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&cImproved Blast Furnace"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/ftbquest/improved_blast.png"
+				}
+			}
+			x: 12.5d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"0C183BE13C0010F0"
+				"0341C2453C2A59D8"
+				"5A86AC0CFE0827D9"
+				"199D01B97275C878"
+			]
+			id: "72E0E9DFA9BB3556"
+			tasks: [
+				{
+					id: "1E99DDE40B003A6B"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+				{
+					id: "3A8AC8579F25E61C"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+			]
+			rewards: [{
+				id: "0B98074A2DEFF7DA"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["72E0E9DFA9BB3556"]
+			id: "5FBBCB256939F80D"
+			tasks: [{
+				id: "0875751CA42193D4"
+				type: "item"
+				item: "immersiveengineering:blastfurnace_preheater"
+				count: 2L
+			}]
+			rewards: [{
+				id: "013FC2E45B6EE81F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["329AEC635A1CAB77"]
+			id: "0869322727F62F09"
+			tasks: [{
+				id: "53175F7DC1CC54FB"
+				type: "item"
+				item: "immersiveengineering:windmill_blade"
+				count: 8L
+			}]
+			rewards: [{
+				id: "0426F22B8A1F2E5C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 7.5d
+			shape: "square"
+			description: ["Generate energy with the wind power"]
+			hide_dependency_lines: true
+			dependencies: ["0869322727F62F09"]
+			id: "5733ACC805470A4D"
+			tasks: [{
+				id: "4B6DB1557C785295"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+			rewards: [{
+				id: "669EF3A036A1BBFF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["329AEC635A1CAB77"]
+			id: "5E85DACB6E2D19FE"
+			tasks: [{
+				id: "1DBA3FFB2F39F919"
+				type: "item"
+				item: "immersiveengineering:waterwheel_segment"
+				count: 4L
+			}]
+			rewards: [{
+				id: "7CB4021CA702470A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.5d
+			shape: "square"
+			description: ["Generate energy with the power of water."]
+			hide_dependency_lines: true
+			dependencies: [
+				"5E85DACB6E2D19FE"
+				"0341C2453C2A59D8"
+			]
+			id: "2BD90EF7993B7F7C"
+			tasks: [{
+				id: "1469BB6EDC5A5872"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+			rewards: [{
+				id: "1C142CD2F482C9B5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.761904761904766d
+			y: 7.013605442176903d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["329AEC635A1CAB77"]
+			id: "496443196351622D"
+			tasks: [{
+				id: "2196A06A558B8475"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 7.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"329AEC635A1CAB77"
+				"26556622AE8B4406"
+			]
+			id: "5291EF8E736F8150"
+			tasks: [{
+				id: "10BB728E2169E523"
+				type: "item"
+				item: "immersiveengineering:capacitor_mv"
+			}]
+		}
+		{
+			x: 11.272108843537417d
+			y: 7.013605442176903d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"0341C2453C2A59D8"
+				"329AEC635A1CAB77"
+			]
+			id: "7EE5AF2F5D610E2C"
+			tasks: [{
+				id: "4A10376FC086ADAD"
+				type: "item"
+				item: "immersiveengineering:capacitor_hv"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 7.0d
+			shape: "rsquare"
+			id: "233B3D0B7804972C"
+			tasks: [
+				{
+					id: "6D5BA07492A51456"
+					type: "item"
+					item: "immersiveengineering:seed"
+				}
+				{
+					id: "371BFC01B6964858"
+					type: "item"
+					item: "immersiveengineering:hemp_fiber"
+				}
+			]
+			rewards: [{
+				id: "09393F84AAD66128"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 8.0d
+			shape: "rsquare"
+			dependencies: ["233B3D0B7804972C"]
+			id: "04288C5CF1BA4BE3"
+			tasks: [{
+				id: "3499DE20B74E5460"
+				type: "item"
+				item: "immersiveengineering:hemp_fabric"
+			}]
+			rewards: [{
+				id: "509FC4EE2A5D6690"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 9.0d
+			shape: "rsquare"
+			description: ["Upgrade your WindMill."]
+			dependencies: ["04288C5CF1BA4BE3"]
+			id: "45F60D7A1A111B38"
+			tasks: [{
+				id: "2433A6A885881395"
+				type: "item"
+				item: "immersiveengineering:windmill_sail"
+			}]
+			rewards: [{
+				id: "4D5318784C2A6FBB"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 6.0d
+			shape: "diamond"
+			description: ["The &bEngineer's Workbench &fis a professional worktable for the educated engineer? It is widely used to construct the items described in &6Engineer's Blueprints&f."]
+			hide_dependency_lines: true
+			dependencies: ["329AEC635A1CAB77"]
+			id: "554053C7E54FA909"
+			tasks: [{
+				id: "0C9F8A8A22F48EB2"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+			rewards: [{
+				id: "6798B6BE6118DB44"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 14.0d
+			y: 5.5d
+			shape: "diamond"
+			description: ["The &bGarden Cloche&f, is a device designed to hasten the growth of plants. It allows even the agriculturally challenged engineer to grow plants and harvest their yield."]
+			hide_dependency_lines: true
+			dependencies: ["554053C7E54FA909"]
+			id: "45B7FEDF1025D35A"
+			tasks: [{
+				id: "60C6EE75F7642F2A"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [{
+				id: "01A0C43A5A18E650"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 14.0d
+			y: 6.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["554053C7E54FA909"]
+			id: "656C528C928B214E"
+			tasks: [
+				{
+					id: "4F4E6DFD6DF0D526"
+					type: "item"
+					title: "Metal Press Molds"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "molds"
+						}
+					}
+				}
+				{
+					id: "3CD306398E8DE827"
+					type: "item"
+					title: "Common Projectiles"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "bullet"
+						}
+					}
+				}
+				{
+					id: "3FA8D8F3BEE6F517"
+					type: "item"
+					title: "Crafting Components"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "components"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5FD0162AB2596283"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&3Metal Press"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/ftbquest/metal_press.png"
+				}
+			}
+			x: 16.900000000000002d
+			y: 5.2d
+			shape: "rsquare"
+			description: ["The &bMetal Press &fis an automated way of shaping metal."]
+			hide_dependency_lines: true
+			dependencies: ["0341C2453C2A59D8"]
+			size: 1.3d
+			id: "199D01B97275C878"
+			tasks: [
+				{
+					id: "687C7A5471EAFD63"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 2L
+				}
+				{
+					id: "23B63F77401CEA9D"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "71D49DE73CF5E39D"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					id: "75C5790BFF7952B7"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "6002078055C1341D"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "37084A7379162536"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["554053C7E54FA909"]
+			id: "5A86AC0CFE0827D9"
+			tasks: [
+				{
+					id: "306B75DF4D161BCC"
+					type: "item"
+					item: "immersiveengineering:mold_plate"
+				}
+				{
+					id: "1684E0DBE0D9A7DE"
+					type: "item"
+					item: "immersiveengineering:mold_gear"
+				}
+				{
+					id: "2C39D5F6BE3A000D"
+					type: "item"
+					item: "immersiveengineering:mold_rod"
+				}
+				{
+					id: "636F1A8422644DF5"
+					type: "item"
+					item: "immersiveengineering:mold_wire"
+				}
+			]
+			rewards: [{
+				id: "4D9EA99E3163492C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 6.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0F7B53DE6C38BD6D"]
+			id: "227A6CA2A6CD14BC"
+			tasks: [{
+				id: "30A7EA3EA2CF9D5E"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+			rewards: [{
+				id: "768AC4AB6C957E63"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 9.0d
+			shape: "square"
+			description: ["&bThermoelectric Generators &fuse the temperature gradients between two sources."]
+			hide_dependency_lines: true
+			dependencies: ["0341C2453C2A59D8"]
+			id: "41E27E9DEC90D20F"
+			tasks: [{
+				id: "34AAC8F060FA62FE"
+				type: "item"
+				item: "immersiveengineering:thermoelectric_generator"
+			}]
+			rewards: [{
+				id: "0EB52F61EDCEE87D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 8.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["228DAA7B7CDF1CCD"]
+			id: "0F7B53DE6C38BD6D"
+			tasks: [{
+				id: "1637FF7543595F1A"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper"
+			}]
+			rewards: [{
+				id: "73636B47F91BE9DF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 14.0d
+			y: 8.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["228DAA7B7CDF1CCD"]
+			id: "5FAFD7A2C5AD5441"
+			tasks: [{
+				id: "363E6423553ACBBC"
+				type: "item"
+				item: "immersiveengineering:wirecoil_electrum"
+			}]
+			rewards: [{
+				id: "58DFAF59770573F5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 8.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["228DAA7B7CDF1CCD"]
+			id: "2724BE90AC86C9C6"
+			tasks: [{
+				id: "00C47BC8AEE7F26D"
+				type: "item"
+				item: "immersiveengineering:wirecoil_steel"
+			}]
+			rewards: [{
+				id: "72380239A8AF44E5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 14.0d
+			y: 9.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"5FAFD7A2C5AD5441"
+				"04288C5CF1BA4BE3"
+			]
+			id: "504E1F1545FA3DC4"
+			tasks: [{
+				id: "3EC66F586AD1A3C8"
+				type: "item"
+				item: "immersiveengineering:wirecoil_electrum_ins"
+			}]
+			rewards: [{
+				id: "35FC69F5D0B42588"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 9.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"0F7B53DE6C38BD6D"
+				"04288C5CF1BA4BE3"
+			]
+			id: "0C90235237F0E6C5"
+			tasks: [{
+				id: "11FCA6F2F5E439F2"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper_ins"
+			}]
+			rewards: [{
+				id: "3E5FF1ABCFC8F199"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.072108843537421d
+			y: 5.58503401360548d
+			shape: "diamond"
+			id: "550CBCED171A266C"
+			tasks: [{
+				id: "59D04AF996D96AC6"
+				type: "item"
+				item: "immersiveengineering:connector_lv"
+			}]
+			rewards: [{
+				id: "27A48AF09989FFEE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 6.0d
+			shape: "diamond"
+			id: "7B53B4CEB0BC57ED"
+			tasks: [{
+				id: "1519443DE3517C93"
+				type: "item"
+				item: "immersiveengineering:connector_mv"
+			}]
+			rewards: [{
+				id: "6771D4A601DA5544"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.929251700680283d
+			y: 5.58503401360548d
+			shape: "diamond"
+			id: "13628CD729E06E42"
+			tasks: [{
+				id: "29446B1CFA09552D"
+				type: "item"
+				item: "immersiveengineering:connector_hv"
+			}]
+			rewards: [{
+				id: "07C2F4789366A5D8"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.072108843537436d
+			y: 8.442176870748327d
+			shape: "diamond"
+			id: "359BC3B873764E8E"
+			tasks: [{
+				id: "37FD34DE854B9176"
+				type: "item"
+				item: "immersiveengineering:connector_lv_relay"
+			}]
+			rewards: [{
+				id: "52234782FA07B588"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 8.0d
+			shape: "diamond"
+			id: "13DC1A48E1F33176"
+			tasks: [{
+				id: "0B50580888C06D36"
+				type: "item"
+				item: "immersiveengineering:connector_mv_relay"
+			}]
+			rewards: [{
+				id: "4974A1E6F3A9E058"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.929251700680283d
+			y: 8.442176870748327d
+			shape: "diamond"
+			id: "376B1B7F53FA596D"
+			tasks: [{
+				id: "0D731C6632E7419A"
+				type: "item"
+				item: "immersiveengineering:connector_hv_relay"
+			}]
+			rewards: [{
+				id: "495079699B0B28E3"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.75d
+			shape: "diamond"
+			size: 1.5d
+			id: "5E01E9233EF2E0BC"
+			tasks: [{
+				id: "59F357315F0C24FB"
+				type: "item"
+				item: "immersiveengineering:manual"
+			}]
+			rewards: [{
+				id: "71637D353F5F3B56"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["023D25A69534B322"]
+			id: "13CBC44AE9A3E93E"
+			tasks: [{
+				id: "3C705B014D9302DA"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+			rewards: [{
+				id: "6DC59928E5C2E64E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["0C183BE13C0010F0"]
+			id: "6CDE4DB1A3C2DA2D"
+			tasks: [{
+				id: "41BDB5839A675F3F"
+				type: "item"
+				item: "immersiveengineering:slag"
+			}]
+			rewards: [{
+				id: "404DB18D3568097B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["1751A811DF4C7F92"]
+			id: "7CD71A8A7EA2FD7B"
+			tasks: [{
+				id: "3CB14E8C1DDC2C44"
+				type: "item"
+				item: "thermal:invar_ingot"
+			}]
+			rewards: [{
+				id: "72CE81F84ECD93D0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["1751A811DF4C7F92"]
+			id: "26556622AE8B4406"
+			tasks: [{
+				id: "32CCD45AD24E724B"
+				type: "item"
+				item: "thermal:electrum_ingot"
+			}]
+			rewards: [{
+				id: "6726A9D21663FE8C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&3Assembler"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "kubejs:textures/ftbquest/assembler.png"
+				}
+			}
+			x: 16.900000000000002d
+			y: 6.500000000000001d
+			shape: "rsquare"
+			description: ["The &bAssembler &fis a complex machine capable of crafting items, similar to how a player would."]
+			hide_dependency_lines: true
+			dependencies: ["0341C2453C2A59D8"]
+			size: 1.3d
+			id: "03423D1B7B1CC992"
+			tasks: [
+				{
+					id: "29BFD365C6BC970D"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "1CE92411D0B4ABB8"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+					count: 2L
+				}
+				{
+					id: "26D53727BA3B3BC5"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "5855D0C7D45BDD0A"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 9L
+				}
+				{
+					id: "56CB735B20B7F214"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_iron"
+					count: 6L
+				}
+				{
+					id: "59EFA705DD0FB07F"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "520F47AA4DD80B50"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["1751A811DF4C7F92"]
+			id: "398DDC66DE7E3A4B"
+			tasks: [{
+				id: "0D919FE6EDBE4C21"
+				type: "item"
+				item: "thermal:constantan_ingot"
+			}]
+			rewards: [{
+				id: "746E3266EA38793D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 12.0d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: [
+				"199D01B97275C878"
+				"5A86AC0CFE0827D9"
+			]
+			size: 3.0d
+			id: "38DACBFD41366CF2"
+			tasks: [{
+				id: "440CAC77C4BC8084"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+		}
+	]
+}

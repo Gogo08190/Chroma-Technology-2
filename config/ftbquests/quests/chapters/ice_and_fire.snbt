@@ -1,0 +1,3990 @@
+{
+	id: "016FFBFA41E8B452"
+	group: "6717F1A631FB3B83"
+	order_index: 2
+	filename: "ice_and_fire"
+	title: "Ice and Fire"
+	icon: "iceandfire:bestiary"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.0d
+		y: 9.0d
+		width: 5.0d
+		height: 2.5d
+		rotation: 0.0d
+		image: "kubejs:textures/ftbquest/death_worm.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			id: "37498A776C0B5351"
+			tasks: [{
+				id: "46E2204149C3643B"
+				type: "item"
+				item: "iceandfire:bestiary"
+			}]
+			rewards: [{
+				id: "18D7C6764B4C4677"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			dependencies: ["6107D92C8EACB707"]
+			id: "3407481804AE838B"
+			tasks: [{
+				id: "60E6896EF7DE933F"
+				type: "item"
+				item: "iceandfire:manuscript"
+			}]
+			rewards: [{
+				id: "2EB90A1C571FC3DA"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["37498A776C0B5351"]
+			id: "6107D92C8EACB707"
+			tasks: [{
+				id: "764DC662454B3893"
+				type: "item"
+				item: "iceandfire:lectern"
+			}]
+			rewards: [{
+				id: "58F1B49DDA6D03BC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&4Red dragon Scale&r"
+			x: 1.5d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "35C651C368E8420A"
+			tasks: [{
+				id: "09C20238BDE7769A"
+				type: "item"
+				item: "iceandfire:dragonscales_red"
+				count: 24L
+			}]
+			rewards: [{
+				id: "61ED93AF678F6C7F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&6Bronze Dragon Scale&r"
+			x: 0.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "25C77554A8FBAE46"
+			tasks: [{
+				id: "2972486E7D7378E3"
+				type: "item"
+				item: "iceandfire:dragonscales_bronze"
+				count: 24L
+			}]
+			rewards: [{
+				id: "38D4F216CD17E662"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&2Emerald Dragon Scale&r"
+			x: 0.5d
+			y: -14.5d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "5583212ABE4125F0"
+			tasks: [{
+				id: "005754C067061563"
+				type: "item"
+				item: "iceandfire:dragonscales_green"
+				count: 24L
+			}]
+			rewards: [{
+				id: "70CFDFE2A8548618"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&7Gray Dragon Scale&r"
+			x: 1.5d
+			y: -14.5d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "6E58D6EEFB59B161"
+			tasks: [{
+				id: "4F73909490023EFF"
+				type: "item"
+				item: "iceandfire:dragonscales_gray"
+				count: 24L
+			}]
+			rewards: [{
+				id: "3BB0A198D8906BD8"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&9Blue Dragon Scale&r"
+			x: 1.5d
+			y: -11.5d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "76E85ADEB9E774C7"
+			tasks: [{
+				id: "2A63B3052249826C"
+				type: "item"
+				item: "iceandfire:dragonscales_blue"
+				count: 24L
+			}]
+			rewards: [{
+				id: "6C3C6CAD96D6D326"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&fWhite Dragon Scale&r"
+			x: 1.5d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "0EBFE5E72894049A"
+			tasks: [{
+				id: "593DFAA9ED332C58"
+				type: "item"
+				item: "iceandfire:dragonscales_white"
+				count: 24L
+			}]
+			rewards: [{
+				id: "0C21A59D6BD1CEC8"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&3sapphire Dragon Scale&r"
+			x: 1.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "614D32113A63D90F"
+			tasks: [{
+				id: "07CD92FDEF8F98B4"
+				type: "item"
+				item: "iceandfire:dragonscales_sapphire"
+				count: 24L
+			}]
+			rewards: [{
+				id: "2D1E1A213916B921"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&7Silver Dragon Scale&r"
+			x: 1.5d
+			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "2E9AC8A42297EEFE"
+			tasks: [{
+				id: "4CF8AF1E80B06524"
+				type: "item"
+				item: "iceandfire:dragonscales_silver"
+				count: 24L
+			}]
+			rewards: [{
+				id: "24975ED3C084F9AF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&1Electric Blue Dragon Scale&r"
+			x: 1.5d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "38C5619C90BFCA92"
+			tasks: [{
+				id: "7792D378AA1971A0"
+				type: "item"
+				item: "iceandfire:dragonscales_electric"
+				count: 24L
+			}]
+			rewards: [{
+				id: "5DDD6B0D2BFAFC3B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&dAmethyst Dragon Scale&r"
+			x: 1.5d
+			y: -13.0d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "6ADB4877F454381A"
+			tasks: [{
+				id: "3DCE8A1591BCBCCD"
+				type: "item"
+				item: "iceandfire:dragonscales_amythest"
+				count: 24L
+			}]
+			rewards: [{
+				id: "6EBB3B5B5C9E061B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&bShi&r&eny Sc&r&cale&r"
+			x: 9.5d
+			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "24AA8F84688F0173"
+			tasks: [{
+				id: "01A046B802D6ABE6"
+				type: "item"
+				item: "iceandfire:shiny_scales"
+				count: 30L
+			}]
+			rewards: [{
+				id: "2C30BBD25665B661"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&2Sea Serp&r&aent Scale&r"
+			x: 7.5d
+			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "486FC07321AC3477"
+			tasks: [{
+				id: "46C5F0B953CF6568"
+				type: "item"
+				item: "iceandfire:sea_serpent_scales_green"
+				count: 20L
+			}]
+			rewards: [{
+				id: "2CA1110010AC888F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&5Sea Serp&r&dent Scale&r"
+			x: 7.5d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "30642661054C9338"
+			tasks: [{
+				id: "4B3FAEA2D467AA81"
+				type: "item"
+				item: "iceandfire:sea_serpent_scales_purple"
+				count: 20L
+			}]
+			rewards: [{
+				id: "2B99B3AC9F3C2D49"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&bSea Serp&r&9ent Scale&r"
+			x: 7.5d
+			y: -11.5d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "4A3C85C0825C6ADC"
+			tasks: [{
+				id: "7DB44F8E55F25B36"
+				type: "item"
+				item: "iceandfire:sea_serpent_scales_blue"
+				count: 20L
+			}]
+			rewards: [{
+				id: "44F1C0F503DEE62E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&4Sea Serp&r&cent Scale&r"
+			x: 7.5d
+			y: -13.0d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "08E220A3300FE4E5"
+			tasks: [{
+				id: "7D056E3DBAC29156"
+				type: "item"
+				item: "iceandfire:sea_serpent_scales_red"
+				count: 20L
+			}]
+			rewards: [{
+				id: "4B8B0D5C95020AE1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&6Sea Serpent Scale&r"
+			x: 7.5d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "28CEA84226D1A329"
+			tasks: [{
+				id: "16FD29F7AD08FE22"
+				type: "item"
+				item: "iceandfire:sea_serpent_scales_bronze"
+				count: 20L
+			}]
+			rewards: [{
+				id: "0E96B05713CA88D9"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&3Sea Serp&r&bent Scale&r"
+			x: 7.5d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "244B342E87FE8A2E"
+			tasks: [{
+				id: "4CBEEED809260947"
+				type: "item"
+				item: "iceandfire:sea_serpent_scales_teal"
+				count: 20L
+			}]
+			rewards: [{
+				id: "1B908221A3E6FC00"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&1Sea serp&r&3ent Scale&r"
+			x: 7.5d
+			y: -14.5d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "1F19CDD084F93E10"
+			tasks: [{
+				id: "695399B3EFC05B45"
+				type: "item"
+				item: "iceandfire:sea_serpent_scales_deepblue"
+				count: 20L
+			}]
+			rewards: [{
+				id: "521759DA98BA13D5"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -16.5d
+			dependencies: ["2078D1C6EBFE7924"]
+			id: "39CA5AA5A939D5D2"
+			tasks: [{
+				id: "7627431D76D844E8"
+				type: "item"
+				item: {
+					id: "iceandfire:siren_flute"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "577B384C6D2FE780"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -18.0d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "04E8B1B9A28A692E"
+			tasks: [{
+				id: "7AA3C1A4F250D99C"
+				type: "item"
+				item: "iceandfire:siren_tear"
+			}]
+			rewards: [{
+				id: "2482ECF4C0958273"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -18.0d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "69AAF31AC744D0E4"
+			tasks: [{
+				id: "728CC888A12A3474"
+				type: "item"
+				item: "iceandfire:hippocampus_fin"
+			}]
+			rewards: [{
+				id: "630A5FAC658521E0"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "2078D1C6EBFE7924"
+			tasks: [{
+				id: "72CD9CE575EB636E"
+				type: "item"
+				item: "iceandfire:dragon_flute"
+			}]
+			rewards: [{
+				id: "6F5C0E9E81C87852"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			shape: "diamond"
+			description: ["Dragon horns can be used to store dragons."]
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "42AD6E8420559764"
+			tasks: [{
+				id: "03027F593B507EC3"
+				type: "item"
+				item: "iceandfire:dragon_horn"
+			}]
+			rewards: [{
+				id: "467D16C958A19752"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.5d
+			shape: "diamond"
+			description: ["&6Dragon Command Staff&f is an item, that can be used your dragon to stay, to wander or to escort you.  It can also be used to set the home position of tamed creatures through SHIFT right-click."]
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "1FB539BFD1838EA0"
+			tasks: [{
+				id: "7A6CEF22041BC000"
+				type: "item"
+				item: "iceandfire:dragon_stick"
+			}]
+			rewards: [{
+				id: "6535530167C96681"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&6Bronze Dragon Armor&r"
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["25C77554A8FBAE46"]
+			id: "0C2E695908525F8D"
+			tasks: [
+				{
+					id: "1679A8423F9B8B03"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_bronze_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "68E49566849B919C"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_bronze_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "32056340C5CA9CE3"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_bronze_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1A50470BEB20F279"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_bronze_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "75912C258FBAF4AF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&4Red dragon armor&r"
+			x: 4.5d
+			y: -8.5d
+			dependencies: ["35C651C368E8420A"]
+			id: "714EAC1786E01046"
+			tasks: [
+				{
+					id: "1E3AF6FAA4DA135C"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_red_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4537CB4ADC80C78B"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_red_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "318FE6233E4271CC"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_red_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "50F091EE75D645CE"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_red_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2FD117E274588FC0"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&2Emerald Dragon Armor&r"
+			x: -1.5d
+			y: -14.5d
+			dependencies: ["5583212ABE4125F0"]
+			id: "035078485DE1E88E"
+			tasks: [
+				{
+					id: "33C0BCA58BEDE398"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_green_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "59B2326D438EECE4"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_green_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4FDD4BB22F1A5881"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_green_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1AAE132C5CA93C84"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_green_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6CEEE7B7876543A3"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&7Gray Dragon Armor&r"
+			x: 4.5d
+			y: -14.5d
+			dependencies: ["6E58D6EEFB59B161"]
+			id: "73931F93E6248456"
+			tasks: [
+				{
+					id: "5A018C66C7B81B1D"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_gray_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "50C4204C516E387D"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_gray_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "772E187D9BEC709E"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_gray_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6D1AD14C7D5009C1"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_gray_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "16D6848CFBD95620"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&9Blue Dragon Armor&r"
+			x: 4.5d
+			y: -11.5d
+			dependencies: ["76E85ADEB9E774C7"]
+			id: "7A4F20D9F9CF9518"
+			tasks: [
+				{
+					id: "16A94890EF2DD275"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_blue_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5C50587074A7C2DB"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_blue_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C0DE67E4009B875"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_blue_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7B87C5D2ED39109F"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_blue_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4BF69D0FADDEBD34"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&7Silver Dragon armor&r"
+			x: 4.5d
+			y: -10.0d
+			dependencies: ["2E9AC8A42297EEFE"]
+			id: "564FFB804FF115A1"
+			tasks: [
+				{
+					id: "0502CCB5D2CFDD19"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_silver_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1AD0E4C939B4A64B"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_silver_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F62C0E9EBBD1242"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_silver_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0C3D932A7D470CC7"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_silver_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "739C8E3E05BE5A23"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&1Electric Blue Dragon Armor&r"
+			x: 4.5d
+			y: -5.5d
+			dependencies: ["38C5619C90BFCA92"]
+			id: "3876B846E003D0BC"
+			tasks: [
+				{
+					id: "62853B5961D22A77"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_electric_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0AA7827EF401CA9C"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_electric_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "056B99596141503B"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_electric_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "71CFA005795307F0"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_electric_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0116ABEB6F47327F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&dAmethyst Dragon Armor&r"
+			x: 4.5d
+			y: -13.0d
+			dependencies: ["6ADB4877F454381A"]
+			id: "234B420A909843B1"
+			tasks: [
+				{
+					id: "56D0F3714A3900D0"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_amythest_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4B731A4FFA7CD381"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_amythest_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "161BFBACE0F34CED"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_amythest_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05998E59916409A9"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_amythest_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3A8AED14077B36F7"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&fWhite Dragon Armor&r"
+			x: 4.5d
+			y: -7.0d
+			dependencies: ["0EBFE5E72894049A"]
+			id: "0A94984ABAD365A7"
+			tasks: [
+				{
+					id: "755458B8EB145DE0"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_white_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "45532338069BAE48"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_white_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3DFE9D8A8A99197E"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_white_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1D56175EAD5D6941"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_white_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "28E23DAE9259F1A0"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&3Sapphire Dragon Armor&r"
+			x: 4.5d
+			y: -4.0d
+			dependencies: ["614D32113A63D90F"]
+			id: "6FF892321704D6C9"
+			tasks: [
+				{
+					id: "15A9F5C51134872B"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_sapphire_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2C115E6197D08E48"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_sapphire_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03A67C259BFA38FD"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_sapphire_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5C5AB72DBF2A9E8F"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_sapphire_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3F0E8C2E554556AB"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&bTide Guar&r&9dian Armor&r"
+			x: 6.0d
+			y: -11.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"24AA8F84688F0173"
+				"4A3C85C0825C6ADC"
+			]
+			id: "364102175B3CDC13"
+			tasks: [
+				{
+					id: "622A58A5DE248BFC"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_blue_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3DC4032E6A4A92D8"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_blue_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4DCCB06C869C5C0A"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_blue_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "02661367E278F40E"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_blue_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "21CD82400FCE2D24"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&1Tide Guar&r&cdian Armor&r"
+			x: 6.0d
+			y: -13.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"08E220A3300FE4E5"
+				"24AA8F84688F0173"
+			]
+			id: "7B0357D854B612CD"
+			tasks: [
+				{
+					id: "0525B4315BEBC8A2"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_red_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "61390DE8CCCA0651"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_red_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0C81D676CD23B124"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_red_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0CAA4CB625798099"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_red_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "71C2688EEF8D65A9"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&1Tide Guar&r&3dian Armor&r"
+			x: 6.0d
+			y: -14.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"1F19CDD084F93E10"
+				"24AA8F84688F0173"
+			]
+			id: "409841B5BADE1869"
+			tasks: [
+				{
+					id: "4FF1624E0FA37416"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_deepblue_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "56842E0C5096A221"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_deepblue_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "53D5A77DBB456469"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_deepblue_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24105D1E969EFA82"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_deepblue_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2578A445FF63D7A9"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&6Tide Guar&r&3dian Armor&r"
+			x: 6.0d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"24AA8F84688F0173"
+				"28CEA84226D1A329"
+			]
+			id: "0BB3D023C5C7B2B3"
+			tasks: [
+				{
+					id: "2888144520DBB08D"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_bronze_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2C613C6AEC6C1B09"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_bronze_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "097FC3D026297C58"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_bronze_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "407B8762DA9DD9BB"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_bronze_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "599A833AB7897036"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&2Tide Guar&r&bdian Armor&r"
+			x: 6.0d
+			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"486FC07321AC3477"
+				"24AA8F84688F0173"
+			]
+			id: "5687D4BE653B5F5A"
+			tasks: [
+				{
+					id: "29D12E7475A7AB26"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_green_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0727A3F66F3C4499"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_green_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "62BF0F323133FB8F"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_green_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "69E3A73D8D29042F"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_green_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "25372F88EDF291B7"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&5Tide Guar&r&9dian Armor&r"
+			x: 6.0d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"30642661054C9338"
+				"24AA8F84688F0173"
+			]
+			id: "28C460757F8F3AF2"
+			tasks: [
+				{
+					id: "439962961067A44C"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_purple_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "224FB9924F52323A"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_purple_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "438855D471E9B0C4"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_purple_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "214F4AA64D6A3E18"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_purple_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2BD5C52B2D39858C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&3Tide Guar&r&bdian Armor&r"
+			x: 6.0d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"24AA8F84688F0173"
+				"244B342E87FE8A2E"
+			]
+			id: "7101FA82464E6E5F"
+			tasks: [
+				{
+					id: "2F7DA2E12F5B68F5"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_teal_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "75771936CADA2C13"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_teal_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "47850B390970CA57"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_teal_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5EC06F60511C2929"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_teal_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4608D22B83D29478"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&5Lightning DragonForge&r"
+			x: -7.5d
+			y: -6.5d
+			description: [
+				"The Dragonforge is used to make corresponding Dragonsteel ingots of its type using bottles of dragon blood and iron ingots."
+				""
+				"Need a stage 3+ Lightning Dragon "
+			]
+			dependencies: [
+				"327CB86A809B634A"
+				"0122184281CB6A23"
+			]
+			id: "6DEC21588AEDD5A5"
+			tasks: [
+				{
+					id: "0D86BC9A69348BD6"
+					type: "item"
+					item: "iceandfire:dragonforge_lightning_input"
+				}
+				{
+					id: "5DC7953D49E63D95"
+					type: "item"
+					item: "iceandfire:dragonforge_lightning_core_disabled"
+				}
+				{
+					id: "0FEABE3B9DF8F116"
+					type: "item"
+					item: "iceandfire:dragonforge_lightning_brick"
+					count: 17L
+				}
+				{
+					id: "10B4A48F34892259"
+					type: "item"
+					item: "iceandfire:dragon_bone_block"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "7EACAF0612EE1FBB"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&4Fire DragonForge&r"
+			x: -14.0d
+			y: -11.0d
+			description: [
+				"The Dragonforge is used to make corresponding Dragonsteel ingots of its type using bottles of dragon blood and iron ingots."
+				""
+				"Need a stage 3+ Fire Dragon "
+			]
+			dependencies: [
+				"346FE914E0D04650"
+				"5660F56038D1BA17"
+			]
+			id: "17F28C648D9D1281"
+			tasks: [
+				{
+					id: "4DED903A9F2E8977"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_input"
+				}
+				{
+					id: "4B64BC39305958EC"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_core_disabled"
+				}
+				{
+					id: "2EC2E349F2399016"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_brick"
+					count: 17L
+				}
+				{
+					id: "68B6BC809B645054"
+					type: "item"
+					item: "iceandfire:dragon_bone_block"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "675A5278CA284DAF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&bIce dragonForge&r"
+			x: -6.0d
+			y: -17.5d
+			description: [
+				"The Dragonforge is used to make corresponding Dragonsteel ingots of its type using bottles of dragon blood and iron ingots."
+				""
+				"Need a stage 3+ Ice Dragon"
+			]
+			dependencies: [
+				"29554BD8971DEB5B"
+				"3EB0B787AE422AE4"
+			]
+			id: "5046C586A594B8CD"
+			tasks: [
+				{
+					id: "0051BCA3A1C2EE13"
+					type: "item"
+					item: "iceandfire:dragonforge_ice_input"
+				}
+				{
+					id: "753C0E5ACED1B301"
+					type: "item"
+					item: "iceandfire:dragonforge_ice_core_disabled"
+				}
+				{
+					id: "515E90C31641BBFB"
+					type: "item"
+					item: "iceandfire:dragonforge_ice_brick"
+					count: 17L
+				}
+				{
+					id: "4E6DD1A4AB4A0D72"
+					type: "item"
+					item: "iceandfire:dragon_bone_block"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "226B6EE719A4E278"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&5Lightning Dragon Blood&r"
+			x: -6.5d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "327CB86A809B634A"
+			tasks: [{
+				id: "4C2960E97E705C2B"
+				type: "item"
+				item: "iceandfire:lightning_dragon_blood"
+			}]
+			rewards: [{
+				id: "0B3E5801C2F3492B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&4Fire Dragon Blood&r"
+			x: -13.0d
+			y: -11.5d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "5660F56038D1BA17"
+			tasks: [{
+				id: "4E14863B001EFCF1"
+				type: "item"
+				item: "iceandfire:fire_dragon_blood"
+			}]
+			rewards: [{
+				id: "5DB6BAD3CBE5EAD7"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&bIce Dragon Blood&r"
+			x: -5.0d
+			y: -18.0d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "29554BD8971DEB5B"
+			tasks: [{
+				id: "03A0F8CB32D2683E"
+				type: "item"
+				item: "iceandfire:ice_dragon_blood"
+			}]
+			rewards: [{
+				id: "4B32FDF6405DC3BF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&bIce Dragonsteel Ingot&r"
+			x: -9.5d
+			y: -17.5d
+			dependencies: ["5046C586A594B8CD"]
+			id: "1A188D73861F936A"
+			tasks: [{
+				id: "74BF74249E4BB770"
+				type: "item"
+				item: "iceandfire:dragonsteel_ice_ingot"
+				count: 40L
+			}]
+			rewards: [{
+				id: "13D40138733FE08E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&4Fire Dragonsteel Ingot&r"
+			x: -16.0d
+			y: -11.0d
+			dependencies: ["17F28C648D9D1281"]
+			id: "70CD8E8A83503562"
+			tasks: [{
+				id: "1EAEBD48C452B00E"
+				type: "item"
+				item: "iceandfire:dragonsteel_fire_ingot"
+				count: 40L
+			}]
+			rewards: [{
+				id: "09088F288A829FE3"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&5Lightning Dragonsteel Ingot&r"
+			x: -9.5d
+			y: -6.5d
+			dependencies: ["6DEC21588AEDD5A5"]
+			id: "156D218E3F702A33"
+			tasks: [{
+				id: "20FB3A4646241DA8"
+				type: "item"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+				count: 40L
+			}]
+			rewards: [{
+				id: "6864C9FF4EC8D89F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&bIce Dragon Heart&r"
+			x: -5.0d
+			y: -17.0d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "3EB0B787AE422AE4"
+			tasks: [{
+				id: "2FA21F1E0D4AC130"
+				type: "item"
+				item: "iceandfire:ice_dragon_heart"
+			}]
+			rewards: [{
+				id: "2DE8FA92747DF0FB"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&5Lightning Dragon Heart&r"
+			x: -6.5d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "0122184281CB6A23"
+			tasks: [{
+				id: "774415E57CA3D221"
+				type: "item"
+				item: "iceandfire:lightning_dragon_heart"
+			}]
+			rewards: [{
+				id: "217341AA9066BEA4"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&4Fire Dragon Heart&r"
+			x: -13.0d
+			y: -10.5d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "346FE914E0D04650"
+			tasks: [{
+				id: "4EE59D04D813A11A"
+				type: "item"
+				item: "iceandfire:fire_dragon_heart"
+			}]
+			rewards: [{
+				id: "0BD0C10319E3534C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&4Fire Dragonsteel Sword&r"
+			x: -19.0d
+			y: -13.0d
+			dependencies: ["70CD8E8A83503562"]
+			id: "7324F8EEBCFE75AF"
+			tasks: [{
+				id: "53F0C596E2AAB719"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_fire_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7DA14C5B60BD5C5D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&4Fire Dragonsteel Pickaxe&r"
+			x: -19.0d
+			y: -12.0d
+			dependencies: ["70CD8E8A83503562"]
+			id: "2BD942EDBDA37798"
+			tasks: [{
+				id: "1AED1EF1C0F9DFA8"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_fire_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "70DD6E790A97623E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&4Fire Dragonsteel Axe&r"
+			x: -19.0d
+			y: -11.0d
+			dependencies: ["70CD8E8A83503562"]
+			id: "0F4162B6C03494FD"
+			tasks: [{
+				id: "625E22F4DE597707"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_fire_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "39912BC8D29492AA"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&4Fire Dragonsteel Shovel&r"
+			x: -19.0d
+			y: -10.0d
+			dependencies: ["70CD8E8A83503562"]
+			id: "441EC4FA0468CC6F"
+			tasks: [{
+				id: "63B7AEC80C8527BC"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_fire_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F0BB8EB9A83BB83"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&4Fire Dragonsteel Hoe&r"
+			x: -19.0d
+			y: -9.0d
+			dependencies: ["70CD8E8A83503562"]
+			id: "17E50D7EE8C46356"
+			tasks: [{
+				id: "0FDB5DFA6A1C7E8F"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_fire_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "349D016EDFA650B2"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&bIce Dragonsteel Sword&r"
+			x: -12.0d
+			y: -19.5d
+			dependencies: ["1A188D73861F936A"]
+			id: "7EE9BE6821798A98"
+			tasks: [{
+				id: "7E22E2CFA850C2CA"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_ice_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "49E46730801DD43B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&bIce Dragonsteel Pickaxe&r"
+			x: -12.0d
+			y: -18.5d
+			dependencies: ["1A188D73861F936A"]
+			id: "604AD4BCF1BDA529"
+			tasks: [{
+				id: "3C58C8040F36397E"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_ice_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1ECE2A5B745749AA"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&bIce Dragonsteel Axe&r"
+			x: -12.0d
+			y: -17.5d
+			dependencies: ["1A188D73861F936A"]
+			id: "2976FD9E65906E53"
+			tasks: [{
+				id: "7F6286355461575D"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_ice_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "569414AE03BB4213"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&bIce Dragonsteel Shovel&r"
+			x: -12.0d
+			y: -16.5d
+			dependencies: ["1A188D73861F936A"]
+			id: "254A1B55CDCE7E38"
+			tasks: [{
+				id: "0E76532D7F3DAD5C"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_ice_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "005ED22F0925AB63"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&bIce Dragonsteel Hoe&r"
+			x: -12.0d
+			y: -15.5d
+			dependencies: ["1A188D73861F936A"]
+			id: "01A3E84C54ECBB17"
+			tasks: [{
+				id: "1394D1894103F792"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_ice_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B1ECEB4068A334D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&5Lightning Dragonsteel Sword&r"
+			x: -12.0d
+			y: -8.5d
+			dependencies: ["156D218E3F702A33"]
+			id: "33FF68E8383262CD"
+			tasks: [{
+				id: "33A3F219842980C6"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_lightning_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7D27519A97C38BCF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&5Lightning Dragonsteel Pickaxe&r"
+			x: -12.0d
+			y: -7.5d
+			dependencies: ["156D218E3F702A33"]
+			id: "0EA7276D7CFF367E"
+			tasks: [{
+				id: "1F8ACCC274EF8066"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_lightning_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1516EB307660186C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&5Lightning Dragonsteel Axe&r"
+			x: -12.0d
+			y: -6.5d
+			dependencies: ["156D218E3F702A33"]
+			id: "0DEA8A964981079F"
+			tasks: [{
+				id: "4CEB272E3099B713"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_lightning_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "63E3DFEB03FDA756"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&5Lightning Dragonsteel Shovel&r"
+			x: -12.0d
+			y: -5.5d
+			dependencies: ["156D218E3F702A33"]
+			id: "2E3C7EA13DAC6DEF"
+			tasks: [{
+				id: "3C9057D25E56BBC3"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_lightning_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3006B449748BA043"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&5Lightning Dragonsteel Hoe&r"
+			x: -12.0d
+			y: -4.5d
+			dependencies: ["156D218E3F702A33"]
+			id: "683FDC3144E30D13"
+			tasks: [{
+				id: "4746742E1679D8C5"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_lightning_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "58D6E00B0147679B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&4Fire Dragonsteel Armor&r"
+			x: -16.0d
+			y: -13.0d
+			dependencies: ["70CD8E8A83503562"]
+			id: "7FD3CF5E0583A8C7"
+			tasks: [
+				{
+					id: "2096A41429D21152"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "605D632B42650835"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "12AC26443AE3E5F9"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7481FE3DAC91A7CF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&5Lightning Dragonsteel Armor&r"
+			x: -9.5d
+			y: -8.5d
+			dependencies: ["156D218E3F702A33"]
+			id: "3B275FEE9D6B9BFD"
+			tasks: [
+				{
+					id: "19C275EE9A8787B8"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5CDCA0C41061A6BE"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "215B56D5DE8AA432"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2068B13485D0B08F"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5E3804CC3B5C7251"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&bIce Dragonsteel Armor&r"
+			x: -9.5d
+			y: -19.5d
+			dependencies: ["1A188D73861F936A"]
+			id: "20C64AD78338915F"
+			tasks: [
+				{
+					id: "2F0A65EF9988DC59"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4ED5D85673288F4B"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00A56B4D6B6BEC0A"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5CC717E87C2B69C7"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Iron Dragon Armor"
+			x: 11.5d
+			y: -2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "6C0C10C149E03C71"
+			tasks: [
+				{
+					id: "31CA8B4D5A2401B9"
+					type: "item"
+					item: "iceandfire:dragonarmor_iron_head"
+				}
+				{
+					id: "06ED678DA417747F"
+					type: "item"
+					item: "iceandfire:dragonarmor_iron_neck"
+				}
+				{
+					id: "7AA976F125B289FB"
+					type: "item"
+					item: "iceandfire:dragonarmor_iron_body"
+				}
+				{
+					id: "3E8ABED58FAD451D"
+					type: "item"
+					item: "iceandfire:dragonarmor_iron_tail"
+				}
+			]
+			rewards: [{
+				id: "5727C9C48A439F2A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&6Copper Dragon Armor&r"
+			x: 13.0d
+			y: -2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "4E6892AC453536CF"
+			tasks: [
+				{
+					id: "2258EE3ACE1F3AB1"
+					type: "item"
+					item: "iceandfire:dragonarmor_copper_head"
+				}
+				{
+					id: "60A68C6F595DB25E"
+					type: "item"
+					item: "iceandfire:dragonarmor_copper_neck"
+				}
+				{
+					id: "59365C109AEEE2B4"
+					type: "item"
+					item: "iceandfire:dragonarmor_copper_body"
+				}
+				{
+					id: "2207D282861DA0C8"
+					type: "item"
+					item: "iceandfire:dragonarmor_copper_tail"
+				}
+			]
+			rewards: [{
+				id: "4AD0469A90C38AE4"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&eGold Dragon Armor&r"
+			x: 12.0d
+			y: -3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "14A48D207EB739E4"
+			tasks: [
+				{
+					id: "06A10DA2F56B2F12"
+					type: "item"
+					item: "iceandfire:dragonarmor_gold_head"
+				}
+				{
+					id: "5800310AB3C9AAB6"
+					type: "item"
+					item: "iceandfire:dragonarmor_gold_neck"
+				}
+				{
+					id: "75C8A7DA8375F4B8"
+					type: "item"
+					item: "iceandfire:dragonarmor_gold_body"
+				}
+				{
+					id: "2525CB95A2B32532"
+					type: "item"
+					item: "iceandfire:dragonarmor_gold_tail"
+				}
+			]
+			rewards: [{
+				id: "174CC7F9C8DF6C19"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&9Diamond Dragon Armor&r"
+			x: 11.0d
+			y: -2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "305350AE5FE556F0"
+			tasks: [
+				{
+					id: "49D32210CB8F364F"
+					type: "item"
+					item: "iceandfire:dragonarmor_diamond_head"
+				}
+				{
+					id: "5061CD60FD6C41F1"
+					type: "item"
+					item: "iceandfire:dragonarmor_diamond_neck"
+				}
+				{
+					id: "7712CEC03A778D4F"
+					type: "item"
+					item: "iceandfire:dragonarmor_diamond_body"
+				}
+				{
+					id: "6F931166D6D06263"
+					type: "item"
+					item: "iceandfire:dragonarmor_diamond_tail"
+				}
+			]
+			rewards: [{
+				id: "7ADAFA4975C4AABD"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&7Silver Dragon Armor&r"
+			x: 12.5d
+			y: -2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "43AE7401D183AC09"
+			tasks: [
+				{
+					id: "45E80D6374E2076D"
+					type: "item"
+					item: "iceandfire:dragonarmor_silver_head"
+				}
+				{
+					id: "67A4FE5E70B9070D"
+					type: "item"
+					item: "iceandfire:dragonarmor_silver_neck"
+				}
+				{
+					id: "6CD0D7179A5870A1"
+					type: "item"
+					item: "iceandfire:dragonarmor_silver_body"
+				}
+				{
+					id: "133940EE2966B442"
+					type: "item"
+					item: "iceandfire:dragonarmor_silver_tail"
+				}
+			]
+			rewards: [{
+				id: "4B05F5D1EE6E5275"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&4Fire Dragonsteel Dragon Armor&r"
+			x: 12.0d
+			y: -1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "09827CE259A2D188"
+			tasks: [
+				{
+					id: "40052CF016B9C674"
+					type: "item"
+					item: "iceandfire:dragonarmor_dragonsteel_fire_head"
+				}
+				{
+					id: "0E430D6C25B1689E"
+					type: "item"
+					item: "iceandfire:dragonarmor_dragonsteel_fire_neck"
+				}
+				{
+					id: "0A1B788DFBF0023D"
+					type: "item"
+					item: "iceandfire:dragonarmor_dragonsteel_fire_body"
+				}
+				{
+					id: "217B5D0D0BCBDE58"
+					type: "item"
+					item: "iceandfire:dragonarmor_dragonsteel_fire_tail"
+				}
+			]
+			rewards: [{
+				id: "3DFF6B446B068AF0"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&bIce Dragonsteel Dragon Armor&r"
+			x: 11.5d
+			y: -1.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "6C6BDA62FCB41935"
+			tasks: [
+				{
+					id: "410BD197082215A7"
+					type: "item"
+					item: "iceandfire:dragonarmor_dragonsteel_ice_head"
+				}
+				{
+					id: "5886BA5ABA48AF42"
+					type: "item"
+					item: "iceandfire:dragonarmor_dragonsteel_ice_neck"
+				}
+				{
+					id: "58DBC4CD5799751E"
+					type: "item"
+					item: "iceandfire:dragonarmor_dragonsteel_ice_body"
+				}
+				{
+					id: "7CC29D1010BBB8C6"
+					type: "item"
+					item: "iceandfire:dragonarmor_dragonsteel_ice_tail"
+				}
+			]
+			rewards: [{
+				id: "0FB508BB6D9BF462"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&5Lightning Dragonsteel Dragon Armor&r"
+			x: 12.5d
+			y: -1.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "6B90F4DF905BF9C5"
+			tasks: [
+				{
+					id: "78A09717A52DF077"
+					type: "item"
+					item: "iceandfire:dragonarmor_dragonsteel_lightning_head"
+				}
+				{
+					id: "4DE2167717DAC01A"
+					type: "item"
+					item: "iceandfire:dragonarmor_dragonsteel_lightning_neck"
+				}
+				{
+					id: "68AC9F155280159B"
+					type: "item"
+					item: "iceandfire:dragonarmor_dragonsteel_lightning_body"
+				}
+				{
+					id: "6A153E5349A35376"
+					type: "item"
+					item: "iceandfire:dragonarmor_dragonsteel_lightning_tail"
+				}
+			]
+			rewards: [{
+				id: "49B17BB749CC07F9"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			shape: "diamond"
+			description: [
+				"&6Dragon Meal&f are used to grow and level up your dragons."
+				""
+				"&6Sickly Dragon Meal&f, on the other hand, stops dragon growth entirely."
+			]
+			hide_dependency_lines: true
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "2CCF716504E1A3B4"
+			tasks: [
+				{
+					id: "032BF2A49EEB590B"
+					type: "item"
+					item: "iceandfire:dragon_meal"
+				}
+				{
+					id: "16B9D5C11F0D0587"
+					type: "item"
+					item: "iceandfire:sickly_dragon_meal"
+				}
+			]
+			rewards: [{
+				id: "3673026A33F80447"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Jungle Desert Myrmex Chitin"
+			x: -11.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "2DD91ABDBE9DE9FE"
+			tasks: [{
+				id: "04910B3743B338EE"
+				type: "item"
+				item: "iceandfire:myrmex_jungle_chitin"
+				count: 30L
+			}]
+			rewards: [{
+				id: "1BD8828C5256E690"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Jungle Myrmex Chitin Armor"
+			x: -9.0d
+			y: 0.5d
+			dependencies: ["2DD91ABDBE9DE9FE"]
+			id: "2CEF0BBBA39BD8C7"
+			tasks: [
+				{
+					id: "498A196EC5D64111"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_jungle_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "42E16F382F65B7AD"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_jungle_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "29CB071633D49A7A"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_jungle_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3427944801C1C77F"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_jungle_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1A3CEED6F3D3934F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Desert Myrmex Chitin"
+			x: -5.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "4812E7FBE144E0E3"
+			tasks: [{
+				id: "15A37F26340F6E4A"
+				type: "item"
+				item: "iceandfire:myrmex_desert_chitin"
+				count: 30L
+			}]
+			rewards: [{
+				id: "789B155E8C3034CC"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Desert Myrmex Chitin Armor"
+			x: -7.0d
+			y: 0.5d
+			dependencies: ["4812E7FBE144E0E3"]
+			id: "7E5D1729A6BBD10C"
+			tasks: [
+				{
+					id: "5D4C1A8CE34A54CC"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_desert_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "536F0E618F62C392"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_desert_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "098CE6D24DD125CB"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_desert_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "15FB6E7AD29336EE"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_desert_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "03289F9071402F90"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["4812E7FBE144E0E3"]
+			id: "6B93296453443EA1"
+			tasks: [{
+				id: "6F542513187B3403"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_desert_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "472DDF1B80B11E0D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			dependencies: ["4812E7FBE144E0E3"]
+			id: "6D1EE33F8147C24F"
+			tasks: [{
+				id: "62D0AC36195577E6"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_desert_sword_venom"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A9CA471A0F508D3"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["4812E7FBE144E0E3"]
+			id: "2C0275769B0C444F"
+			tasks: [{
+				id: "4E0B7418491278AC"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_desert_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B1D633B56DD4B80"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			dependencies: ["4812E7FBE144E0E3"]
+			id: "74FAAC549784029C"
+			tasks: [{
+				id: "07756999BF7F40B2"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_desert_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B9B2A2F155A1AFF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["4812E7FBE144E0E3"]
+			id: "48582BD29F5BE060"
+			tasks: [{
+				id: "55F4975EEAE42CBE"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_desert_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "12CF2CC2AA01E6F3"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["4812E7FBE144E0E3"]
+			id: "40036E6682CD93B6"
+			tasks: [{
+				id: "1086C096698B53ED"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_desert_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5060E16072913E6D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["4812E7FBE144E0E3"]
+			id: "38614D05F3C18018"
+			tasks: [{
+				id: "3009A98C66843ACA"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_desert_staff"
+					Count: 1b
+					tag: {
+						HiveUUID: [I;
+							0
+							0
+							0
+							0
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "111397BDDF9B5B64"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -13.0d
+			y: 0.5d
+			dependencies: ["2DD91ABDBE9DE9FE"]
+			id: "3D19E22385239BC0"
+			tasks: [{
+				id: "5524AFF266FE5290"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_jungle_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "13A5ED83B9AC7137"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -13.0d
+			y: 2.5d
+			dependencies: ["2DD91ABDBE9DE9FE"]
+			id: "1B4DD141DE9C598E"
+			tasks: [{
+				id: "48448CDA30A0A1FC"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_jungle_sword_venom"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "390701E62079DB5B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -13.0d
+			y: 1.5d
+			dependencies: ["2DD91ABDBE9DE9FE"]
+			id: "3776725A75B13EC8"
+			tasks: [{
+				id: "354923A0211F591F"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_jungle_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1216696DC1DF5CCC"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -13.0d
+			y: 3.5d
+			dependencies: ["2DD91ABDBE9DE9FE"]
+			id: "3D6D8721ED6ACDD1"
+			tasks: [{
+				id: "34762E07205A248E"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_jungle_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "152927E9868ED0CF"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -13.0d
+			y: -2.5d
+			dependencies: ["2DD91ABDBE9DE9FE"]
+			id: "7B4AE370001EF049"
+			tasks: [{
+				id: "52A302E691266530"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_jungle_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6086A00B6902EF89"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -13.0d
+			y: -0.5d
+			dependencies: ["2DD91ABDBE9DE9FE"]
+			id: "03FBD32C35068AC7"
+			tasks: [{
+				id: "3FDFDAEED9B9922B"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_jungle_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4817D421CA194009"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -13.0d
+			y: -1.5d
+			dependencies: ["2DD91ABDBE9DE9FE"]
+			id: "54DE951768D38B58"
+			tasks: [{
+				id: "1E5ADD7AE00A761C"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_jungle_staff"
+					Count: 1b
+					tag: {
+						HiveUUID: [I;
+							0
+							0
+							0
+							0
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "2B6A8F48BBCC7EB6"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.5d
+			dependencies: [
+				"22202C594DEB2738"
+				"2C268DF1937613D8"
+				"412419A7CBFA83F3"
+				"5987F0F9CCCAD3BD"
+			]
+			id: "1912474EB407C2C5"
+			tasks: [
+				{
+					id: "7D2EE3B4181982BD"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_gauntlet_yellow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "19436CF58B9CBC55"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_gauntlet_white"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "27E3635A7A338E9B"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_gauntlet_red"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F1945AA2EC457B0"
+					type: "item"
+					item: "iceandfire:deathworm_tounge"
+				}
+			]
+			rewards: [{
+				id: "03ADCC9C8C02D867"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Tan Death Worm Chitin Armor"
+			x: 2.5d
+			y: 7.0d
+			dependencies: ["2C268DF1937613D8"]
+			id: "3B659622A8EAE279"
+			tasks: [
+				{
+					id: "339BEDEF4A04B8B0"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_yellow_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5239F1D485E63F20"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_yellow_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "665C2201AF8B7168"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_yellow_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5B0CFFECFCD3B54A"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_yellow_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "756E847543278D35"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "White Death Worm Chitin Armor"
+			x: 2.5d
+			y: 4.0d
+			dependencies: ["412419A7CBFA83F3"]
+			id: "0445A41EE6D5B8C2"
+			tasks: [
+				{
+					id: "7B9AF0310CF182E2"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_white_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "09F265A6CA707071"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_white_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "640C3D61E6625C68"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_white_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4424A3781974BBF7"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_white_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "750389C4DCBC17B8"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Red Death Worm Chitin Armor"
+			x: 4.0d
+			y: 5.5d
+			dependencies: ["22202C594DEB2738"]
+			id: "125CEF6FC8624043"
+			tasks: [
+				{
+					id: "765ABFF4E8C5E24E"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_red_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7160DE08E84E7E24"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_red_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "318CE297ACABB61F"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_red_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "02AB6C9FE6AB1429"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_red_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1984FC470D49E345"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Tan Death Worm Chitin"
+			x: 0.5d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "2C268DF1937613D8"
+			tasks: [{
+				id: "30C4EDC6E1DC6987"
+				type: "item"
+				item: "iceandfire:deathworm_chitin_yellow"
+				count: 24L
+			}]
+			rewards: [{
+				id: "4251AC61DD6F8232"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "White Death Worm Chitin"
+			x: 0.5d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "412419A7CBFA83F3"
+			tasks: [{
+				id: "44A0DB5E669AFCCC"
+				type: "item"
+				item: "iceandfire:deathworm_chitin_white"
+				count: 24L
+			}]
+			rewards: [{
+				id: "0C76C710DC627CD0"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Red Death Worm Chitin"
+			x: 2.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "22202C594DEB2738"
+			tasks: [{
+				id: "66DBBE105C40D79C"
+				type: "item"
+				item: "iceandfire:deathworm_chitin_red"
+				count: 24L
+			}]
+			rewards: [{
+				id: "1A48E6844D227E0D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&4Fire Dragon Summoning Crystal&r"
+			x: -16.0d
+			y: -9.5d
+			dependencies: ["70CD8E8A83503562"]
+			id: "2AF998469FF23739"
+			tasks: [{
+				id: "63D41D64BDF19B98"
+				type: "item"
+				item: "iceandfire:summoning_crystal_fire"
+			}]
+			rewards: [{
+				id: "08B5E20209D19FBC"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&bIce Dragon Summoning Crystal&r"
+			x: -9.5d
+			y: -16.0d
+			dependencies: ["1A188D73861F936A"]
+			id: "7570C7D144D88271"
+			tasks: [{
+				id: "0F94C5B892CB7079"
+				type: "item"
+				item: "iceandfire:summoning_crystal_ice"
+			}]
+			rewards: [{
+				id: "38382A42EB7AD6E9"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&5Lightning Dragon Summoning Crystal&r"
+			x: -9.5d
+			y: -5.0d
+			dependencies: ["156D218E3F702A33"]
+			id: "496DD89595495B5E"
+			tasks: [{
+				id: "74FD3D2531FF6FE9"
+				type: "item"
+				item: "iceandfire:summoning_crystal_lightning"
+			}]
+			rewards: [{
+				id: "3E3A4343120932E2"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "7396BF368F6B4303"
+			tasks: [{
+				id: "6318513D57EE6A2C"
+				type: "item"
+				item: "iceandfire:hippogryph_talon"
+			}]
+			rewards: [{
+				id: "0DE1027669A27E71"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["7396BF368F6B4303"]
+			id: "1B6F8CB348E15B9E"
+			tasks: [{
+				id: "0BA7940A4E228397"
+				type: "item"
+				item: {
+					id: "iceandfire:hippogryph_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "19211220D9F4A5E0"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Hippogryf Armor"
+			x: 12.0d
+			y: -2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "0A40B409072B7B7A"
+			tasks: [
+				{
+					id: "0DDA4046827B8869"
+					type: "item"
+					item: "iceandfire:iron_hippogryph_armor"
+				}
+				{
+					id: "198D08E7BC63DB4A"
+					type: "item"
+					item: "iceandfire:gold_hippogryph_armor"
+				}
+				{
+					id: "50A70CC4AEBFA9CA"
+					type: "item"
+					item: "iceandfire:diamond_hippogryph_armor"
+				}
+			]
+			rewards: [{
+				id: "1B10713488B0234D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "63D298C529C76AAC"
+			tasks: [
+				{
+					id: "5F341AA88E7DD003"
+					type: "item"
+					item: "iceandfire:pixie_dust"
+				}
+				{
+					id: "6481D8FF5098CD7A"
+					type: "item"
+					item: "iceandfire:pixie_wings"
+				}
+				{
+					id: "73E0EDFF3220CE59"
+					type: "item"
+					item: {
+						id: "iceandfire:pixie_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4B0D0984E3CEFAD1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&4Fire Lily Mixture&r"
+			x: -11.5d
+			y: -11.5d
+			dependencies: ["5660F56038D1BA17"]
+			id: "7BB71342C3A55A5F"
+			tasks: [{
+				id: "3815A8B81098C4B8"
+				type: "item"
+				item: "iceandfire:fire_stew"
+			}]
+			rewards: [{
+				id: "21F272183355E9C7"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&bFrost Lily Mixture&r"
+			x: -3.5d
+			y: -18.0d
+			dependencies: ["29554BD8971DEB5B"]
+			id: "660C4BCF06FD1153"
+			tasks: [{
+				id: "4117345F90125B56"
+				type: "item"
+				item: "iceandfire:frost_stew"
+			}]
+			rewards: [{
+				id: "6531365967D06AEF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "&5Lightning Lily Mixture&r"
+			x: -5.0d
+			y: -7.0d
+			dependencies: ["327CB86A809B634A"]
+			id: "2BCB603F1DB6AB6E"
+			tasks: [{
+				id: "5526388D541D03BB"
+				type: "item"
+				item: "iceandfire:lightning_stew"
+			}]
+			rewards: [{
+				id: "744DC8FCB4BB92EC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "71AD0D23309E1048"
+			tasks: [
+				{
+					id: "5A6AB9CC3FC261B0"
+					type: "item"
+					item: "iceandfire:ectoplasm"
+				}
+				{
+					id: "6EA234264BEBDBBB"
+					type: "item"
+					item: "iceandfire:ghost_ingot"
+				}
+				{
+					id: "3D8A38E41824D492"
+					type: "item"
+					item: {
+						id: "iceandfire:ghost_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "60FA071D72456267"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Chain"
+			x: -1.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			id: "5987F0F9CCCAD3BD"
+			tasks: [
+				{
+					id: "358C98664171E16B"
+					type: "item"
+					item: "iceandfire:chain"
+				}
+				{
+					id: "0952BA16AD658F67"
+					type: "item"
+					item: "iceandfire:chain_sticky"
+				}
+			]
+			rewards: [{
+				id: "2A1D43165236EA2D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			shape: "diamond"
+			description: [
+				"Dragon Eggs are placeable entities that turn into baby dragons; they are a drop from stage 4-5 female dragons, used to hatch tamed baby dragons."
+				""
+				"&cFire dragon eggs&r (Red, Gray, Emerald and Bronze) must be placed within a fire to start the hatching process. Once the egg starts moving, it will take a few minutes to hatch."
+				""
+				"&bIce dragon eggs&r (Blue, Sapphire, White and Silver) must be placed in water that could be surrounded by ice. If the water around the egg freezes, then it will hatch in a few minutes."
+				""
+				"&5Lightning dragon eggs&r (Copper, Electric Blue, Amethyst and Black) must be exposed to rain to start the hatching process. Once the egg starts moving, it will take a few minutes to hatch. (If the rain stops the process of hatching will stop as well.). When the Lightning Dragon egg hatches there will be a strike of lighting. Have a bucket ready, you may have to put out the fire before it spreads, and the dragon could be killed by the fire."
+			]
+			hide_dependency_lines: true
+			dependencies: ["37498A776C0B5351"]
+			size: 2.0d
+			id: "5DA348ADC870DDC0"
+			tasks: [{
+				id: "4D98839CE1497850"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragon_egg"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "61B56B6080B98793"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Red Dragon Egg"
+			x: 9.0d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "&4Fire Dragon&r"
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "2E09A678A212D7DF"
+			tasks: [{
+				id: "45AFBBEDBF676E38"
+				type: "item"
+				item: "iceandfire:dragonegg_red"
+			}]
+			rewards: [{
+				id: "32B17080220ABD08"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Emerald Dragon Egg"
+			x: 10.5d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "&4Fire Dragon&r"
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "2FC11063E34DCC9F"
+			tasks: [{
+				id: "49E4B30E0D1B5C86"
+				type: "item"
+				item: "iceandfire:dragonegg_green"
+			}]
+			rewards: [{
+				id: "675D0A6AF01A0D5E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Bronze Dragon Egg"
+			x: 9.5d
+			y: 1.0d
+			shape: "diamond"
+			subtitle: "&4Fire Dragon&r"
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "3A1B43D5E55D0BA3"
+			tasks: [{
+				id: "29520A887415E453"
+				type: "item"
+				item: "iceandfire:dragonegg_bronze"
+			}]
+			rewards: [{
+				id: "3C2EFA13841E402B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Gray Dragon Egg"
+			x: 10.0d
+			y: 1.5d
+			shape: "diamond"
+			subtitle: "&4Fire Dragon&r"
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "72CEBD6133B14338"
+			tasks: [{
+				id: "67374D03B8EC94F0"
+				type: "item"
+				item: "iceandfire:dragonegg_gray"
+			}]
+			rewards: [{
+				id: "19F713E0536CF52A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Blue Dragon Egg"
+			x: 10.0d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "&bIce Dragon&r"
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "22F0E80E7C4BFFC1"
+			tasks: [{
+				id: "6ADD5B57A21AE05C"
+				type: "item"
+				item: "iceandfire:dragonegg_blue"
+			}]
+			rewards: [{
+				id: "1646D689DEEAB80A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "White Dragon Egg"
+			x: 9.5d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "&bIce Dragon&r"
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "3F1FDD31A634D163"
+			tasks: [{
+				id: "52F40EBA5464BD59"
+				type: "item"
+				item: "iceandfire:dragonegg_white"
+			}]
+			rewards: [{
+				id: "4EC38DE0CDFEB83F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Sapphire Dragon Egg"
+			x: 9.0d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "&bIce Dragon&r"
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "04AAB21DA8F6FE6A"
+			tasks: [{
+				id: "3BF4737AE7C4138C"
+				type: "item"
+				item: "iceandfire:dragonegg_sapphire"
+			}]
+			rewards: [{
+				id: "197D3E1B89FD2A16"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Silver Dragon Egg"
+			x: 8.5d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "&bIce Dragon&r"
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "47560A17CDA090D7"
+			tasks: [{
+				id: "212E3A5C0DD54353"
+				type: "item"
+				item: "iceandfire:dragonegg_silver"
+			}]
+			rewards: [{
+				id: "0B79045BA8C7A281"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Electric Dragon Egg"
+			x: 8.0d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "&5Lightning Dragon&r"
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "1D974CB182A1D8F2"
+			tasks: [{
+				id: "21E3509507F6D951"
+				type: "item"
+				item: "iceandfire:dragonegg_electric"
+			}]
+			rewards: [{
+				id: "769152E5BD2BA822"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Amethyst Dragon Egg"
+			x: 7.5d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "&5Lightning Dragon&r"
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "03B19298078ECF4A"
+			tasks: [{
+				id: "61DDAED30BA3E94C"
+				type: "item"
+				item: "iceandfire:dragonegg_amythest"
+			}]
+			rewards: [{
+				id: "547F5FFCF09EE2FA"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Copper Dragon Egg"
+			x: 8.0d
+			y: 1.5d
+			shape: "diamond"
+			subtitle: "&5Lightning Dragon&r"
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "19807AF43065ABDF"
+			tasks: [{
+				id: "6B4F290C103B8343"
+				type: "item"
+				item: "iceandfire:dragonegg_copper"
+			}]
+		}
+		{
+			title: "Black Dragon Egg"
+			x: 8.5d
+			y: 1.0d
+			shape: "diamond"
+			subtitle: "&5Lightning Dragon&r"
+			dependencies: ["5DA348ADC870DDC0"]
+			id: "262505EF311F8FAE"
+			tasks: [{
+				id: "75C4FB8BB57B3FEC"
+				type: "item"
+				item: "iceandfire:dragonegg_black"
+			}]
+		}
+		{
+			title: "&4Flamed Dragon Bone Sword&r"
+			x: -13.0d
+			y: -13.0d
+			dependencies: ["5660F56038D1BA17"]
+			id: "29AB08A45FE441ED"
+			tasks: [{
+				id: "4AECD14816C8F8D7"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword_fire"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "558F69B6775BEDAE"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&bIced Dragon Bone Sword&r"
+			x: -5.0d
+			y: -19.5d
+			dependencies: ["29554BD8971DEB5B"]
+			id: "52BDABC6C9C99ECF"
+			tasks: [{
+				id: "364097593DC74D96"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword_ice"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2BD102DF22F97A9B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "&5Lightning Dragon Bone Sword&r"
+			x: -6.5d
+			y: -8.5d
+			dependencies: ["327CB86A809B634A"]
+			id: "4B30B2E7436E8649"
+			tasks: [{
+				id: "60B3B9C0846995F1"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword_lightning"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "29C0386761BD4D2D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+	]
+}

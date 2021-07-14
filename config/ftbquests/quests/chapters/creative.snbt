@@ -1,0 +1,841 @@
+{
+	id: "2F3F4602B9DE2543"
+	group: "3D82B5A12B3D6336"
+	order_index: 2
+	filename: "creative"
+	title: "Creative"
+	icon: "storagedrawers:creative_vending_upgrade"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 9.0d
+			y: -5.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "2BEBB5DFA50EC976"
+			tasks: [{
+				id: "225842B801B6B614"
+				type: "item"
+				item: "powah:energy_cell_creative"
+			}]
+			rewards: [{
+				id: "10022102C55961B6"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "02AE2841660CDD7B"
+			tasks: [{
+				id: "4B4F12713C329DCB"
+				type: "item"
+				item: "simplyjetpacks:jetpack_creative"
+			}]
+			rewards: [{
+				id: "3863C2A042256A27"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "6DF9EB6350A52DD7"
+			tasks: [{
+				id: "39074AD7250287B7"
+				type: "item"
+				item: "simplyjetpacks:jetpack_creative_armored"
+			}]
+			rewards: [{
+				id: "0E031E5B35A012F5"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "4C7D03D5C795FFC9"
+			tasks: [{
+				id: "081C509B78475256"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+			rewards: [{
+				id: "209C0A97F0E51AB2"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "4AC67F15DB22433E"
+			tasks: [{
+				id: "1AF84C76265474A0"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+			rewards: [{
+				id: "58AD6F666FCCD528"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "36C95D4A14413796"
+			tasks: [{
+				id: "38C12FB1010DA567"
+				type: "item"
+				item: "pneumaticcraft:creative_compressor"
+			}]
+			rewards: [{
+				id: "7C0FEC331933AD77"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 8.5d
+			y: -5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "7AFB5503D5E5E885"
+			tasks: [{
+				id: "4AEB60DB0C60A15F"
+				type: "item"
+				item: "immersiveengineering:capacitor_creative"
+			}]
+			rewards: [{
+				id: "65EE46C8592359C3"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "7953D76B192F2E3F"
+			tasks: [{
+				id: "1027A1A65589EFEF"
+				type: "item"
+				item: "rats:creative_cheese"
+			}]
+			rewards: [{
+				id: "12AC9C49A71E5C33"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "1020E858B88567DB"
+			tasks: [{
+				id: "10E009EC5DE0C082"
+				type: "item"
+				item: "rats:rat_upgrade_creative"
+			}]
+			rewards: [{
+				id: "7CBD201BE928C9B2"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "72E2EAA9FCC873C4"
+			tasks: [{
+				id: "7AF1B2BF0BD7AFDB"
+				type: "item"
+				item: "rats:rat_upgrade_combined_creative"
+			}]
+			rewards: [{
+				id: "58A9BDBFD4DEF206"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "107971F6E4BA8CCF"
+			tasks: [{
+				id: "6052B5C7A965A935"
+				type: "item"
+				item: "thermal:machine_efficiency_creative_augment"
+			}]
+			rewards: [{
+				id: "3157F5FE58FCE298"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"3CFDD21EAC199E31"
+				"0A7A3F0694BD7FF6"
+				"65A0FB8C97FE7989"
+				"4FDECF5060962355"
+				"7AFB5503D5E5E885"
+				"36C95D4A14413796"
+				"4C7D03D5C795FFC9"
+				"4AC67F15DB22433E"
+				"5757E00D501EE237"
+				"7953D76B192F2E3F"
+			]
+			size: 2.0d
+			id: "2A2D194AF3FFB1FC"
+			tasks: [{
+				id: "52B21784E9DB22E1"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+			rewards: [{
+				id: "69B18617219CC761"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "2734FEBB2FA98226"
+			tasks: [{
+				id: "112F8B89B74B60DC"
+				type: "item"
+				item: "tconstruct:creative_upgrade"
+			}]
+			rewards: [{
+				id: "70F941182F7317CD"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "4048210DFE7221CA"
+			tasks: [{
+				id: "0ADFEFA76311BC78"
+				type: "item"
+				item: "botanicalmachinery:mana_battery_creative"
+			}]
+			rewards: [{
+				id: "0F4941C695F97B8B"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "2BC07F762E542BFB"
+			tasks: [{
+				id: "64EE5BB97952039A"
+				type: "item"
+				item: "bloodmagic:activationcrystalcreative"
+			}]
+			rewards: [{
+				id: "1F5A24490CBAEF20"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "65A0FB8C97FE7989"
+			tasks: [{
+				id: "56FA71FB327FAB1B"
+				type: "item"
+				item: "mysticalagradditions:creative_essence"
+			}]
+			rewards: [{
+				id: "7C0E2538FD62EE23"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "7167FD63F0C366E7"
+			tasks: [{
+				id: "2A0EBFA356A3664C"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+			rewards: [{
+				id: "6A66EAC0D6F5AFE3"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: -4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "18A4399EB8490890"
+			tasks: [{
+				id: "7D2124E6AAA3DF19"
+				type: "item"
+				item: "ars_nouveau:creative_mana_jar"
+			}]
+			rewards: [{
+				id: "394FD5559EE4AFAD"
+				type: "item"
+				item: "kubejs:condensed_magical_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "1B37AA3A3A7697DA"
+			tasks: [{
+				id: "3170B77FA2A9EE6D"
+				type: "item"
+				item: "ars_nouveau:creative_spell_book"
+			}]
+			rewards: [{
+				id: "4E659EFCDCB3A5E5"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "784A354C3E5ABEFF"
+			tasks: [{
+				id: "3C223DFFDFA2727C"
+				type: "item"
+				item: "elementalcraft:tank_creative"
+			}]
+			rewards: [{
+				id: "1D7D7260DAD52B19"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: -5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "5757E00D501EE237"
+			tasks: [{
+				id: "2BF4517D8C2E8AD1"
+				type: "item"
+				item: "appliedenergistics2:creative_energy_cell"
+			}]
+			rewards: [{
+				id: "76C83D6B930EF320"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "4FDECF5060962355"
+			tasks: [{
+				id: "2531ACE81E3ACC87"
+				type: "item"
+				item: "rftoolspower:dimensionalcell_creative"
+			}]
+			rewards: [{
+				id: "2D18E81458A5DEBD"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "0A7A3F0694BD7FF6"
+			tasks: [{
+				id: "57687487D4669626"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
+			rewards: [{
+				id: "1DD283A39C88BFE5"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"4386474A56271C2B"
+				"50706F6BF5641149"
+			]
+			size: 2.0d
+			id: "3CFDD21EAC199E31"
+			tasks: [{
+				id: "0E8555E140EA7944"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+			}]
+			rewards: [{
+				id: "25DA7A29AFC7EFB1"
+				type: "item"
+				item: "kubejs:unassembled_chroma_ingot"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: [
+				"0990C82D9CE73CAF"
+				"06975DA1C012F61B"
+				"76CA9B4B4D139E35"
+			]
+			id: "4386474A56271C2B"
+			tasks: [{
+				id: "6974BDAC5F5183E6"
+				type: "item"
+				item: "kubejs:assembled_technical_ingot"
+			}]
+			rewards: [{
+				id: "4481B0AEA96704F0"
+				type: "item"
+				item: "mekanism:ingot_refined_obsidian"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: [
+				"1CE7C3FE672DA886"
+				"0C2E50ABC2D63134"
+			]
+			hide: true
+			id: "267CC10126BBC447"
+			tasks: [{
+				id: "647D19F0BA714A7F"
+				type: "item"
+				item: "kubejs:elemental_essence"
+			}]
+			rewards: [{
+				id: "09EA92CF6E7BF128"
+				type: "item"
+				item: {
+					id: "elementalcraft:receptacle_empty"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: [
+				"13ECF17994290FF8"
+				"76A757AA9F1EF7CF"
+			]
+			hide: true
+			id: "3E0D8809FC1484E6"
+			tasks: [{
+				id: "54C2D7E5FD787284"
+				type: "item"
+				item: "kubejs:fallen_pet"
+			}]
+			rewards: [{
+				id: "3CECFCC384BBE0E6"
+				type: "item"
+				item: "quark:dragon_scale"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["7F47CF0B2B6119BC"]
+			hide: true
+			id: "0B6631810D8CF826"
+			tasks: [{
+				id: "0A917C9198555608"
+				type: "item"
+				item: "kubejs:pure_evil"
+			}]
+			rewards: [{
+				id: "44BDC088B1C34FDD"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["71ED6E10B612D8A1"]
+			hide: true
+			id: "19F8EBFB2024235C"
+			tasks: [{
+				id: "7558781D1BFF6B24"
+				type: "item"
+				item: "kubejs:condensed_mana"
+			}]
+			rewards: [{
+				id: "31DF78BC1F5B5786"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			shape: "diamond"
+			description: ["At an old time a king called &k&bGogo08&r wanted to create the most powerful material ever,he bring some mages to solves his problem, and they did it, after years they understood than for the stabilitie of the material, they will need a lot of ingredient, first it was obligatory to had the four artifact of the old magic present on this dimension, for stabilize the artefacts, thenthey used &5the purest essences possible&r, but they came across a problem, nothing on the world and even in the dimansions could handle as much magic, it was decided to used &5an item corupted by the magic of the end&r. The process was done and gave to the king what et wanted : &da dense magical ingot&r."]
+			hide_dependency_lines: true
+			dependencies: [
+				"3E0D8809FC1484E6"
+				"19F8EBFB2024235C"
+				"0B6631810D8CF826"
+				"267CC10126BBC447"
+			]
+			id: "50706F6BF5641149"
+			tasks: [{
+				id: "73A201A23AF12780"
+				type: "item"
+				item: "kubejs:condensed_magical_ingot"
+			}]
+			rewards: [{
+				id: "211E915FFA2F5D4E"
+				type: "item"
+				item: "kubejs:chroma_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["17C79C7A76D2CC4B"]
+			id: "01E05B7EE26D8B94"
+			tasks: [{
+				id: "28E75DEB3B8EFB28"
+				type: "item"
+				item: "kubejs:boots"
+			}]
+			rewards: [{
+				id: "6D69D7AF62DE0C50"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["17C79C7A76D2CC4B"]
+			id: "5DEBDF4B433D5738"
+			tasks: [{
+				id: "07061FA51B26765E"
+				type: "item"
+				item: "kubejs:leggings"
+			}]
+			rewards: [{
+				id: "53F6F9CFD89D8C3C"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			dependencies: ["17C79C7A76D2CC4B"]
+			id: "474D664357991519"
+			tasks: [{
+				id: "5480960E74E1E042"
+				type: "item"
+				item: "kubejs:chestplate"
+			}]
+			rewards: [{
+				id: "78EA43E53FD9A8EA"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			dependencies: ["17C79C7A76D2CC4B"]
+			id: "1F8ED9E4173BF704"
+			tasks: [{
+				id: "1602FF3D811A3DBB"
+				type: "item"
+				item: "kubejs:helmet"
+			}]
+			rewards: [{
+				id: "00D09F2794BED836"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["17C79C7A76D2CC4B"]
+			id: "01B53FE3D1A635B7"
+			tasks: [{
+				id: "039B7AE7EF333EF9"
+				type: "item"
+				item: "kubejs:damage"
+			}]
+			rewards: [{
+				id: "138CA5855F3419D0"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 13.0d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["1F8ED9E4173BF704"]
+			id: "549177B5FB54A8CF"
+			tasks: [{
+				id: "5DF248AECFDE852E"
+				type: "item"
+				item: {
+					id: "overloaded:multi_helmet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "22C19BA85B31B9B8"
+					type: "item"
+					item: "kubejs:chroma_ingot"
+				}
+				{
+					id: "43669BA5DAC53210"
+					type: "item"
+					item: "extendedcrafting:the_ultimate_ingot"
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["474D664357991519"]
+			id: "1B3F8AA2EDE8B391"
+			tasks: [{
+				id: "2C33BB010732D6D5"
+				type: "item"
+				item: {
+					id: "overloaded:multi_chestplate"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "1D17DAFF0213E1CD"
+					type: "item"
+					item: "kubejs:chroma_ingot"
+				}
+				{
+					id: "278F51633EECBE51"
+					type: "item"
+					item: "extendedcrafting:the_ultimate_ingot"
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["5DEBDF4B433D5738"]
+			id: "10274C7ECF978543"
+			tasks: [{
+				id: "47793C8B762E7010"
+				type: "item"
+				item: {
+					id: "overloaded:multi_leggings"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "05EF29E0EED22A16"
+					type: "item"
+					item: "kubejs:chroma_ingot"
+				}
+				{
+					id: "1C97247CA1900237"
+					type: "item"
+					item: "extendedcrafting:the_ultimate_ingot"
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["01E05B7EE26D8B94"]
+			id: "4027E0A5DE7C2077"
+			tasks: [{
+				id: "6273D483588E8B7B"
+				type: "item"
+				item: {
+					id: "overloaded:multi_boots"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "712FF9DDEA38D4F8"
+					type: "item"
+					item: "kubejs:chroma_ingot"
+				}
+				{
+					id: "35C7C4203D4BAA9A"
+					type: "item"
+					item: "extendedcrafting:the_ultimate_ingot"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["01B53FE3D1A635B7"]
+			id: "7E2512B876CF0B18"
+			tasks: [{
+				id: "0E9CC4C3B351C4F5"
+				type: "item"
+				item: {
+					id: "overloaded:railgun"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "5130F2347BA83B14"
+					type: "item"
+					item: "kubejs:chroma_ingot"
+				}
+				{
+					id: "26FAA7C934AFF349"
+					type: "item"
+					item: "extendedcrafting:the_ultimate_ingot"
+				}
+			]
+		}
+	]
+}

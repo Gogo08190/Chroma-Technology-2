@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "674F2646E40CCF92", title: "&dNew starting" }
+		{ id: "247A2B0D60E02610", title: "&bTechnology" }
+		{ id: "1D8552F8A45BF753", title: "&aMagical" }
+		{ id: "02C811A04C8B1382", title: "&5Mobs farm" }
+		{ id: "6717F1A631FB3B83", title: "&6Exploration" }
+		{ id: "3D82B5A12B3D6336", title: "&cEnd Game" }
+	]
+}

@@ -1,0 +1,193 @@
+{
+	id: "36B0A1BC6B8F6154"
+	group: "247A2B0D60E02610"
+	order_index: 12
+	filename: "pipez"
+	title: "Pipez"
+	icon: "pipez:universal_pipe"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["0825EB258F0B3757"]
+			id: "49CB29CB91A177B7"
+			tasks: [{
+				id: "0B4D9E132B75A121"
+				type: "item"
+				item: "pipez:item_pipe"
+			}]
+			rewards: [{
+				id: "676BF8F90FF8793F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["0825EB258F0B3757"]
+			id: "38AA7347E020B665"
+			tasks: [{
+				id: "61FACF5A0C06EA60"
+				type: "item"
+				item: "pipez:fluid_pipe"
+			}]
+			rewards: [{
+				id: "3F26F2BF22790BE6"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["0825EB258F0B3757"]
+			id: "3301805160C39FED"
+			tasks: [{
+				id: "1CEB3AA74C68BA6B"
+				type: "item"
+				item: "pipez:energy_pipe"
+			}]
+			rewards: [{
+				id: "0A260C62E13E1774"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"0825EB258F0B3757"
+				"3301805160C39FED"
+				"38AA7347E020B665"
+				"49CB29CB91A177B7"
+			]
+			id: "76F6E7FB7683A67D"
+			tasks: [{
+				id: "61CB4F76AED1CBFE"
+				type: "item"
+				item: "pipez:universal_pipe"
+			}]
+			rewards: [{
+				id: "49EA42B7E932F52E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["0825EB258F0B3757"]
+			id: "6B2D55E9762CA5D6"
+			tasks: [{
+				id: "1B3CEE7CD04E3008"
+				type: "item"
+				item: "pipez:gas_pipe"
+			}]
+			rewards: [{
+				id: "0606B735692BF21B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["0825EB258F0B3757"]
+			id: "4FF6F712F4756C9B"
+			tasks: [{
+				id: "3FCEE15F98EE26FB"
+				type: "item"
+				item: "pipez:basic_upgrade"
+			}]
+			rewards: [{
+				id: "03F7E616A47BEF7B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["4FF6F712F4756C9B"]
+			id: "7BD88FE32D4E89B5"
+			tasks: [{
+				id: "2F614242CAA579E4"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+			rewards: [{
+				id: "4CE78AB6339D3AE2"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["7BD88FE32D4E89B5"]
+			id: "48023B4CD9083A8D"
+			tasks: [{
+				id: "40C3EE198B845380"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
+			rewards: [{
+				id: "5CEEE9763A03498B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["48023B4CD9083A8D"]
+			id: "25ACDE3541F012E7"
+			tasks: [{
+				id: "3B2A341B997704E5"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
+			rewards: [{
+				id: "2214F44994A88A96"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "0825EB258F0B3757"
+			tasks: [{
+				id: "3BC8F518E9B5152A"
+				type: "item"
+				item: "pipez:wrench"
+			}]
+			rewards: [{
+				id: "1044BB21D2B02B23"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["0825EB258F0B3757"]
+			id: "5E2F5DF44EC3A5A2"
+			tasks: [{
+				id: "0897B20C2916BF8F"
+				type: "item"
+				item: "pipez:filter_destination_tool"
+			}]
+			rewards: [{
+				id: "7E22FADF3DC59B0A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+	]
+}

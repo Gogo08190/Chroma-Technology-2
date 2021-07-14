@@ -1,0 +1,373 @@
+{
+	id: "25E5597827B2F531"
+	group: "02C811A04C8B1382"
+	order_index: 0
+	filename: "mob_grinding_utils"
+	title: "Mob Grinding Utils"
+	icon: "mob_grinding_utils:saw"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.5d
+			shape: "diamond"
+			id: "13268AA068938C8C"
+			tasks: [{
+				id: "23C40AC724F9C845"
+				type: "item"
+				item: "mob_grinding_utils:saw_upgrade_sharpness"
+			}]
+			rewards: [{
+				id: "755BEBBC31336192"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			shape: "diamond"
+			id: "79919D244E3D282D"
+			tasks: [{
+				id: "76CA67D3BE26C23C"
+				type: "item"
+				item: "mob_grinding_utils:saw_upgrade_smite"
+			}]
+			rewards: [{
+				id: "012FA247B5451121"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			shape: "diamond"
+			id: "75E3BF15B2894579"
+			tasks: [{
+				id: "5966FE5EE560A5FC"
+				type: "item"
+				item: "mob_grinding_utils:saw_upgrade_looting"
+			}]
+			rewards: [{
+				id: "4D096334E6CAD52B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			shape: "diamond"
+			id: "04DFEC465773E515"
+			tasks: [{
+				id: "04FC7E1B651D3BB0"
+				type: "item"
+				item: "mob_grinding_utils:saw_upgrade_fire"
+			}]
+			rewards: [{
+				id: "744F309FB6516C38"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			shape: "diamond"
+			id: "0292A89AC87184B0"
+			tasks: [{
+				id: "1F21B58575DC9BDB"
+				type: "item"
+				item: "mob_grinding_utils:saw_upgrade_arthropod"
+			}]
+			rewards: [{
+				id: "372AB39FB3B9BF49"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			shape: "diamond"
+			id: "6927E93C8CD5A343"
+			tasks: [{
+				id: "14C8314E757FB6A3"
+				type: "item"
+				item: "mob_grinding_utils:fan_upgrade_speed"
+			}]
+			rewards: [{
+				id: "7AC34211FEDAB171"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			shape: "diamond"
+			id: "729BDE96C26DF8BA"
+			tasks: [{
+				id: "7B878C764A0B9D01"
+				type: "item"
+				item: "mob_grinding_utils:fan_upgrade_width"
+			}]
+			rewards: [{
+				id: "2DAB3AF0830D3C02"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			shape: "diamond"
+			id: "1BBDED014ABAC998"
+			tasks: [{
+				id: "168F0C536B250122"
+				type: "item"
+				item: "mob_grinding_utils:fan_upgrade_width"
+			}]
+			rewards: [{
+				id: "0C1841F346FF0042"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			shape: "diamond"
+			id: "443D201C83B857AE"
+			tasks: [{
+				id: "08BAF01819303B59"
+				type: "item"
+				item: "mob_grinding_utils:absorption_upgrade"
+			}]
+			rewards: [{
+				id: "14FCB6F808007FDB"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			shape: "diamond"
+			id: "6DAD2FA94D6D5025"
+			tasks: [{
+				id: "4CA4F6C7F2AB32DF"
+				type: "item"
+				item: "mob_grinding_utils:saw_upgrade_beheading"
+			}]
+			rewards: [{
+				id: "28FC36F0D18F3CBF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			shape: "diamond"
+			id: "606B598FC5878C4F"
+			tasks: [{
+				id: "58AAE9D43F4F5EE5"
+				type: "item"
+				item: "mob_grinding_utils:spikes"
+			}]
+			rewards: [{
+				id: "4FB79155FF93467D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			shape: "diamond"
+			id: "2BBD09096B06F125"
+			tasks: [{
+				id: "6E7F1F2A78818710"
+				type: "item"
+				item: "mob_grinding_utils:absorption_hopper"
+			}]
+			rewards: [{
+				id: "6B6E4D957053ACBE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			shape: "diamond"
+			id: "73496B76B43ADAB6"
+			tasks: [{
+				id: "32C1553B0D6B737C"
+				type: "item"
+				item: "mob_grinding_utils:fan"
+			}]
+			rewards: [{
+				id: "5797CBA0DE26344F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			shape: "diamond"
+			id: "64FEA5E62E0DB56B"
+			tasks: [{
+				id: "6EB13450617BFA0D"
+				type: "item"
+				item: "mob_grinding_utils:tank"
+			}]
+			rewards: [{
+				id: "56E6D4694F32345F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["64FEA5E62E0DB56B"]
+			id: "6AC3475BE9F5D8D3"
+			tasks: [{
+				id: "16F4383573231345"
+				type: "item"
+				item: "mob_grinding_utils:jumbo_tank"
+			}]
+			rewards: [{
+				id: "28BA9CBE87A7E8A3"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			shape: "diamond"
+			id: "1F66CAFC8B8BC16F"
+			tasks: [{
+				id: "64CFF27C5B2349CF"
+				type: "item"
+				item: "mob_grinding_utils:wither_muffler"
+			}]
+			rewards: [{
+				id: "09C7FEA97D24D306"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			shape: "diamond"
+			id: "52E8FC9B7802CC0C"
+			tasks: [{
+				id: "16E28F40EF7131DA"
+				type: "item"
+				item: "mob_grinding_utils:dragon_muffler"
+			}]
+			rewards: [{
+				id: "0A0F63EBFE2A0AA1"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["64FEA5E62E0DB56B"]
+			id: "037E5EDD7422754F"
+			tasks: [{
+				id: "77D6F979BE8E50E3"
+				type: "item"
+				item: "mob_grinding_utils:tank_sink"
+			}]
+			rewards: [{
+				id: "6C08BDCA98817745"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			shape: "diamond"
+			id: "530DA8EEE848A823"
+			tasks: [{
+				id: "0EF5BCB4D95B2192"
+				type: "item"
+				item: "mob_grinding_utils:ender_inhibitor_on"
+			}]
+			rewards: [{
+				id: "5531257E9F23BC3D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["606B598FC5878C4F"]
+			size: 2.0d
+			id: "0C9D257F400043A9"
+			tasks: [{
+				id: "1A91D3C7411C6F96"
+				type: "item"
+				item: "mob_grinding_utils:saw"
+			}]
+			rewards: [{
+				id: "1202477B2F25EB10"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			shape: "diamond"
+			id: "5F20D7BD5632C14E"
+			tasks: [{
+				id: "3860B93EE2427995"
+				type: "item"
+				item: "mob_grinding_utils:xp_tap"
+			}]
+			rewards: [{
+				id: "5AF38BBA743ED4B5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["64FEA5E62E0DB56B"]
+			id: "5A9E745C45AE0B30"
+			tasks: [{
+				id: "748F8B417E1A186E"
+				type: "item"
+				item: "mob_grinding_utils:xpsolidifier"
+			}]
+			rewards: [{
+				id: "0CAD98843C2810B8"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+	]
+}

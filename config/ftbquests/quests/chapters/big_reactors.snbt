@@ -1,0 +1,535 @@
+{
+	id: "427619353A6F8DCB"
+	group: "247A2B0D60E02610"
+	order_index: 9
+	filename: "big_reactors"
+	title: "Big Reactors"
+	icon: "bigreactors:basic_reactorfuelrod"
+	default_quest_shape: "diamond"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "5966AAE256374687"
+			tasks: [{
+				id: "6784C81F4C7C1238"
+				type: "item"
+				item: "bigreactors:basic_reactorcasing"
+			}]
+			rewards: [{
+				id: "5610994957DD61F5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "1EC9CF0014B28B91"
+			tasks: [{
+				id: "02141FFA418C348D"
+				type: "item"
+				item: "bigreactors:basic_reactorcontroller"
+			}]
+			rewards: [{
+				id: "777B51CCAC5F378B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Fuel Container"
+			x: 0.5d
+			y: -4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "66E1BF4FE445FDAF"
+			tasks: [
+				{
+					id: "73E8FC785C3019BC"
+					type: "item"
+					item: "bigreactors:basic_reactorcontrolrod"
+				}
+				{
+					id: "615A673F423EFD1C"
+					type: "item"
+					item: "bigreactors:basic_reactorfuelrod"
+				}
+			]
+			rewards: [{
+				id: "354D7D73DC1B4ACE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "6498CE793240188F"
+			tasks: [{
+				id: "5F3A459A66CF2DC5"
+				type: "item"
+				item: "bigreactors:basic_reactorpowertapfe_active"
+			}]
+			rewards: [{
+				id: "078553F09532E6CD"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "29ACACFE5271EB9D"
+			tasks: [{
+				id: "021BC575534C56D3"
+				type: "item"
+				item: "bigreactors:basic_reactorsolidaccessport"
+			}]
+			rewards: [{
+				id: "37BC8C35007F7269"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "5470CC06D2636385"
+			tasks: [{
+				id: "40E8E7441776F7A5"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+			}]
+			rewards: [{
+				id: "30C3975E51B3B398"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "11355EF857B6F9CB"
+			tasks: [{
+				id: "3D939A0C24FBB0C3"
+				type: "item"
+				item: "bigreactors:yellorium_ingot"
+			}]
+			rewards: [{
+				id: "7FE53DEB6A610979"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "13253410042D09E4"
+			tasks: [{
+				id: "65E4D00D5B9BB236"
+				type: "item"
+				item: "bigreactors:cyanite_ingot"
+			}]
+			rewards: [{
+				id: "4E03C067DCF2DB96"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			tags: ["8"]
+			x: 0.0d
+			y: 0.0d
+			shape: "diamond"
+			id: "04DA6AB6810FB0B6"
+			tasks: [{
+				id: "298DA52F65C12CA0"
+				type: "item"
+				item: "bigreactors:wrench"
+			}]
+			rewards: [{
+				id: "159C50BD88D9FA4A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "3D0C1782F1CFA48B"
+			tasks: [{
+				id: "6AFD15B2300E5F4C"
+				type: "item"
+				item: "bigreactors:basic_turbinecasing"
+			}]
+			rewards: [{
+				id: "693AC9F3DB6E33F3"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "16B47015BA584E12"
+			tasks: [{
+				id: "04EFDF3AC5DF2CA6"
+				type: "item"
+				item: "bigreactors:basic_turbineglass"
+			}]
+			rewards: [{
+				id: "72DBFF9ADFAC85C6"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "676917425CFEA071"
+			tasks: [{
+				id: "12411F860DB8EA11"
+				type: "item"
+				item: "bigreactors:basic_turbinecontroller"
+			}]
+			rewards: [{
+				id: "727E7651F7E63A69"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "4E43AD2411554E8F"
+			tasks: [{
+				id: "31D1EDC9FF02E598"
+				type: "item"
+				item: "bigreactors:basic_turbinerotorbearing"
+			}]
+			rewards: [{
+				id: "5E81B9A6A6C335CE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "322A377C2C737FEB"
+			tasks: [{
+				id: "695C861225B81B7D"
+				type: "item"
+				item: "bigreactors:basic_turbinerotorshaft"
+			}]
+			rewards: [{
+				id: "0C41E2B60DEFD4E3"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "3466F1586AB3E557"
+			tasks: [{
+				id: "2F1F329041ECA6F8"
+				type: "item"
+				item: "bigreactors:basic_turbinerotorblade"
+			}]
+			rewards: [{
+				id: "294A1F2AE412505D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "33A8890EE70111B6"
+			tasks: [{
+				id: "0813725D30F44258"
+				type: "item"
+				item: "bigreactors:basic_turbinepowertapfe_active"
+			}]
+			rewards: [{
+				id: "01CB3E425A112F02"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "2C72CBE5B8E004A8"
+			tasks: [{
+				id: "36CE2C42C03E4376"
+				type: "item"
+				item: "bigreactors:basic_turbinefluidport_forge_active"
+			}]
+			rewards: [{
+				id: "5D5BEFBBF1483C3C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "7D5EF1D61A8C47FF"
+			tasks: [{
+				id: "705014CC36DD7D85"
+				type: "item"
+				item: "bigreactors:reinforced_turbinecasing"
+			}]
+			rewards: [{
+				id: "04B65C07F8C16648"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "7C91BB19539EC8B8"
+			tasks: [{
+				id: "4843F7B1FEDA22F6"
+				type: "item"
+				item: "bigreactors:reinforced_turbineglass"
+			}]
+			rewards: [{
+				id: "28E76026F1167201"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "1BA39388FD3F7C6F"
+			tasks: [{
+				id: "3808FE6A7338F4D5"
+				type: "item"
+				item: "bigreactors:reinforced_turbinerotorshaft"
+			}]
+			rewards: [{
+				id: "057C887312A5A0CE"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "32A03EEE396AF568"
+			tasks: [{
+				id: "7A3CF26FF571F46C"
+				type: "item"
+				item: "bigreactors:reinforced_turbinecontroller"
+			}]
+			rewards: [{
+				id: "72EB5A28A48225C1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "53EACFE3751C0A71"
+			tasks: [{
+				id: "6F1AC44885A48E47"
+				type: "item"
+				item: "bigreactors:reinforced_turbinerotorblade"
+			}]
+			rewards: [{
+				id: "72CD94B6DB5CE012"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "6D75ADBE55548A69"
+			tasks: [{
+				id: "6E9C2F6CB4F71AF6"
+				type: "item"
+				item: "bigreactors:reinforced_turbinepowertapfe_active"
+			}]
+			rewards: [{
+				id: "024E93E05C1651EC"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "5F32DC72707D5886"
+			tasks: [{
+				id: "7B7A624F7F6B3D90"
+				type: "item"
+				item: "bigreactors:reinforced_turbinerotorbearing"
+			}]
+			rewards: [{
+				id: "366C3E4AAC9DDD3A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "290B8F072AC5F0E5"
+			tasks: [{
+				id: "461F8EB3FDA9F57E"
+				type: "item"
+				item: "bigreactors:reinforced_turbinefluidport_forge_active"
+			}]
+			rewards: [{
+				id: "5A7449E8E10B197D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "7FB974AF6FBCD268"
+			tasks: [{
+				id: "11633E80DF7A4B0D"
+				type: "item"
+				item: "bigreactors:reinforced_reactorcontroller"
+			}]
+			rewards: [{
+				id: "0FFC74204C5EFF41"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "0F6F3C13055A74DE"
+			tasks: [{
+				id: "09408E04B1EB3CC2"
+				type: "item"
+				item: "bigreactors:reinforced_reactorcasing"
+			}]
+			rewards: [{
+				id: "69C36361C336B42A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "18BF6AC6A77D9790"
+			tasks: [{
+				id: "00A2679C77894D29"
+				type: "item"
+				item: "bigreactors:reinforced_reactorsolidaccessport"
+			}]
+			rewards: [{
+				id: "22A27B7283DC2CA5"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "0078B0084DAFCBC6"
+			tasks: [{
+				id: "38578D8FFD999D45"
+				type: "item"
+				item: "bigreactors:reinforced_reactorpowertapfe_active"
+			}]
+			rewards: [{
+				id: "76B2A8CA5A0ADE41"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["04DA6AB6810FB0B6"]
+			id: "71573D76544366B5"
+			tasks: [{
+				id: "3DD947DFB344D9BF"
+				type: "item"
+				item: "bigreactors:reinforced_reactorcontrolrod"
+			}]
+			rewards: [{
+				id: "31DEAE31D85A9E23"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+	]
+}

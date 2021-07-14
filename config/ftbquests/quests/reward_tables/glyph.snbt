@@ -1,0 +1,63 @@
+{
+	id: "44F2BB69E08616C5"
+	order_index: 6
+	title: "Glyph"
+	icon: "ars_nouveau:blank_glyph"
+	loot_size: 1
+	rewards: [
+		{ item: "ars_nouveau:glyph_summon_steed" }
+		{ item: "ars_nouveau:glyph_craft" }
+		{ item: "ars_nouveau:glyph_phantom_block" }
+		{ item: "ars_nouveau:glyph_grow" }
+		{ item: "ars_nouveau:glyph_glide" }
+		{ item: "ars_nouveau:glyph_self" }
+		{ item: "ars_nouveau:glyph_explosion" }
+		{ item: "ars_nouveau:glyph_place_block" }
+		{ item: "ars_nouveau:glyph_freeze" }
+		{ item: "ars_nouveau:glyph_blink" }
+		{ item: "ars_nouveau:glyph_strength" }
+		{ item: "ars_nouveau:glyph_delay" }
+		{ item: "ars_nouveau:glyph_summon_wolves" }
+		{ item: "ars_nouveau:glyph_snare" }
+		{ item: "ars_nouveau:glyph_fangs" }
+		{ item: "ars_nouveau:glyph_harm" }
+		{ item: "ars_nouveau:glyph_ignite" }
+		{ item: "ars_nouveau:glyph_dampen" }
+		{ item: "ars_nouveau:glyph_gust" }
+		{ item: "ars_nouveau:glyph_projectile" }
+		{ item: "ars_nouveau:glyph_rune" }
+		{ item: "ars_nouveau:glyph_touch" }
+		{ item: "ars_nouveau:glyph_heal" }
+		{ item: "ars_nouveau:glyph_haste" }
+		{ item: "ars_nouveau:glyph_pickup" }
+		{ item: "ars_nouveau:glyph_shield" }
+		{ item: "ars_nouveau:glyph_light" }
+		{ item: "ars_nouveau:glyph_fell" }
+		{ item: "ars_nouveau:glyph_redstone_signal" }
+		{ item: "ars_nouveau:glyph_split" }
+		{ item: "ars_nouveau:glyph_crush" }
+		{ item: "ars_nouveau:glyph_cold_snap" }
+		{ item: "ars_nouveau:glyph_extract" }
+		{ item: "ars_nouveau:glyph_summon_decoy" }
+		{ item: "ars_nouveau:glyph_flare" }
+		{ item: "ars_nouveau:glyph_leap" }
+		{ item: "ars_nouveau:glyph_cut" }
+		{ item: "ars_nouveau:glyph_underfoot" }
+		{ item: "ars_nouveau:glyph_pull" }
+		{ item: "ars_nouveau:glyph_hex" }
+		{ item: "ars_nouveau:glyph_orbit" }
+		{ item: "ars_nouveau:glyph_fortune" }
+		{ item: "ars_nouveau:glyph_lightning" }
+		{ item: "ars_nouveau:glyph_summon_vex" }
+		{ item: "ars_nouveau:glyph_conjure_water" }
+		{ item: "ars_nouveau:glyph_smelt" }
+		{ item: "ars_nouveau:glyph_amplify" }
+		{ item: "ars_nouveau:glyph_slowfall" }
+		{ item: "ars_nouveau:glyph_invisibility" }
+		{ item: "ars_nouveau:glyph_exchange" }
+		{ item: "ars_nouveau:glyph_intangible" }
+		{ item: "ars_nouveau:glyph_dispel" }
+		{ item: "ars_nouveau:glyph_accelerate" }
+		{ item: "ars_nouveau:glyph_duration_down" }
+	]
+}

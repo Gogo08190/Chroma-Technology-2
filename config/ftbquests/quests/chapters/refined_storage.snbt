@@ -1,0 +1,1569 @@
+{
+	id: "6FE04205D540FD9F"
+	group: "247A2B0D60E02610"
+	order_index: 7
+	filename: "refined_storage"
+	title: "Refined Storage"
+	icon: "refinedstorage:machine_casing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 8.0d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			id: "61BF1AA8BC1A54B6"
+			tasks: [{
+				id: "4F4797CEBD4A10A4"
+				type: "item"
+				item: "refinedstorage:1k_storage_part"
+			}]
+			rewards: [{
+				id: "3F62E3D7C59525A2"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: ["61BF1AA8BC1A54B6"]
+			id: "7BB1A1BB50560F2D"
+			tasks: [{
+				id: "153BF1165B8098D7"
+				type: "item"
+				item: "refinedstorage:4k_storage_part"
+			}]
+			rewards: [{
+				id: "1BAF70E1961E99B5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["7BB1A1BB50560F2D"]
+			id: "41C513C19F5E8017"
+			tasks: [{
+				id: "68ECAE76CED84F23"
+				type: "item"
+				item: "refinedstorage:16k_storage_part"
+			}]
+			rewards: [{
+				id: "4C3A679B90BC3C98"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["41C513C19F5E8017"]
+			id: "4E1BF912E3978BBF"
+			tasks: [{
+				id: "27B1898292C814AA"
+				type: "item"
+				item: "refinedstorage:64k_storage_part"
+			}]
+			rewards: [{
+				id: "4CC87336C83DFE0C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["4E1BF912E3978BBF"]
+			id: "6F2FB05287F55DE7"
+			tasks: [{
+				id: "257BE1339CB54C81"
+				type: "item"
+				item: "extrastorage:storagepart_256k"
+			}]
+			rewards: [{
+				id: "1BD642A882E70CD8"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["6F2FB05287F55DE7"]
+			id: "6683A2F8F635885D"
+			tasks: [{
+				id: "43CF9E4ACBD8F428"
+				type: "item"
+				item: "extrastorage:storagepart_1024k"
+			}]
+			rewards: [{
+				id: "6CBD248EE28742EA"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["6683A2F8F635885D"]
+			id: "0688837859FEB8FE"
+			tasks: [{
+				id: "5EA6E316E4EE75EE"
+				type: "item"
+				item: "extrastorage:storagepart_4096k"
+			}]
+			rewards: [{
+				id: "3191C500035FAA9E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["0688837859FEB8FE"]
+			id: "0B497627DE411C41"
+			tasks: [{
+				id: "37CE34DCAEBFAE90"
+				type: "item"
+				item: "extrastorage:storagepart_16384k"
+			}]
+			rewards: [{
+				id: "4A5548FEBD094B85"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["0B497627DE411C41"]
+			id: "5CD8C697C57EA779"
+			tasks: [{
+				id: "2B7A134F9057F614"
+				type: "item"
+				item: "extradisks:65536k_storage_part"
+			}]
+			rewards: [{
+				id: "118255F48B94A040"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["5CD8C697C57EA779"]
+			id: "737E8A12135F05B0"
+			tasks: [{
+				id: "65C14757CD8BC141"
+				type: "item"
+				item: "extradisks:262144k_storage_part"
+			}]
+			rewards: [{
+				id: "270BF6C4CED0E795"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["737E8A12135F05B0"]
+			id: "76B034242ACCEF0A"
+			tasks: [{
+				id: "78A6DA148CD46651"
+				type: "item"
+				item: "extradisks:1048576k_storage_part"
+			}]
+			rewards: [{
+				id: "2791BA9A94B9BD97"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["76B034242ACCEF0A"]
+			id: "2DE10DAE1DA4AA9B"
+			tasks: [{
+				id: "561DF82243D6F8E5"
+				type: "item"
+				item: "extradisks:infinite_storage_part"
+			}]
+			rewards: [{
+				id: "6E7452A66EC2F233"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["61BF1AA8BC1A54B6"]
+			id: "75B29738CEB103F0"
+			tasks: [{
+				id: "0752451D31E87138"
+				type: "item"
+				item: {
+					id: "refinedstorage:1k_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							1078734028
+							479020790
+							-2025884478
+							-200383200
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "109556E82D776733"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["7BB1A1BB50560F2D"]
+			id: "3FC924CCD9825A9D"
+			tasks: [{
+				id: "6623636776509297"
+				type: "item"
+				item: {
+					id: "refinedstorage:4k_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							1670316155
+							-751678904
+							-1785724797
+							-1834754284
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "2E4AF0D9A214DE6A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["41C513C19F5E8017"]
+			id: "38D69F9755ACC638"
+			tasks: [{
+				id: "48954BD819CFBAF0"
+				type: "item"
+				item: {
+					id: "refinedstorage:16k_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							821599444
+							-1199489004
+							-1585357298
+							1469392209
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "00EBFB0FA3841C1F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.0d
+			shape: "diamond"
+			dependencies: ["4E1BF912E3978BBF"]
+			id: "60B7D861EBE1A77F"
+			tasks: [{
+				id: "57716C6B2CF8A997"
+				type: "item"
+				item: {
+					id: "refinedstorage:64k_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							1895664192
+							-1508356402
+							-1441682548
+							-1119639410
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "33EC1AB5DB9278F0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["6F2FB05287F55DE7"]
+			id: "21C613ECD1A3150E"
+			tasks: [{
+				id: "3EA96A8A8DDF29AD"
+				type: "item"
+				item: {
+					id: "extrastorage:disk_256k"
+					Count: 1b
+					tag: {
+						ID: [I;
+							379724972
+							-2142811814
+							-1902704849
+							1146147158
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "4BC5793E92EA3C97"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["6683A2F8F635885D"]
+			id: "0720522B1D7793B9"
+			tasks: [{
+				id: "782885DFF5EC81DF"
+				type: "item"
+				item: {
+					id: "extrastorage:disk_1024k"
+					Count: 1b
+					tag: {
+						ID: [I;
+							709071465
+							1891451682
+							-1692783100
+							1746705209
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7A77CD012826DB09"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["0688837859FEB8FE"]
+			id: "61DC55E30D56DBC5"
+			tasks: [{
+				id: "6B0E3248CFBEF231"
+				type: "item"
+				item: {
+					id: "extrastorage:disk_4096k"
+					Count: 1b
+					tag: {
+						ID: [I;
+							-1974459844
+							-916830519
+							-1485153479
+							1153874146
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "452A271F55EAE25F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["0B497627DE411C41"]
+			id: "02CD1C268069EE1A"
+			tasks: [{
+				id: "489FC140EE267D8E"
+				type: "item"
+				item: {
+					id: "extrastorage:disk_16384k"
+					Count: 1b
+					tag: {
+						ID: [I;
+							-831654825
+							485442435
+							-1698855384
+							1872326019
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "42177860F20CCF77"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["5CD8C697C57EA779"]
+			id: "689F592529CB356B"
+			tasks: [{
+				id: "74F28B6ED236210B"
+				type: "item"
+				item: {
+					id: "extradisks:65536k_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							-586792787
+							-830716961
+							-1348805200
+							787805515
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "61668870E4B04FB1"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["737E8A12135F05B0"]
+			id: "19C2AEEA6CCF0855"
+			tasks: [{
+				id: "2C62EE6D7DA2800F"
+				type: "item"
+				item: {
+					id: "extradisks:262144k_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							829743590
+							-1540403439
+							-1616611280
+							1149282684
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "70968E4F12AD5965"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["76B034242ACCEF0A"]
+			id: "5865F2A83C7669D1"
+			tasks: [{
+				id: "0D0CBA4D4C86A708"
+				type: "item"
+				item: {
+					id: "extradisks:1048576k_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							1284880856
+							1179927066
+							-1700272688
+							-849085372
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "519F2B18233EE55E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["2DE10DAE1DA4AA9B"]
+			id: "3456E8038E1D5A82"
+			tasks: [{
+				id: "25642568EBFFB795"
+				type: "item"
+				item: {
+					id: "extradisks:infinite_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							1209542402
+							-1871296372
+							-1272598796
+							-709660711
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D3C0C78AB301E16"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["70D0CA6E1AE372BE"]
+			id: "04A47A787486757B"
+			tasks: [{
+				id: "6AF7E709DBA85AA5"
+				type: "item"
+				item: "refinedstorage:64k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "4C307918CCC73B5B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["04A47A787486757B"]
+			id: "1BC94D79D8F20ACD"
+			tasks: [{
+				id: "0751602319524016"
+				type: "item"
+				item: "refinedstorage:256k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "30F8376251473F56"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["1BC94D79D8F20ACD"]
+			id: "0C5F3F65E947F4BC"
+			tasks: [{
+				id: "2321F79C09B3FFA7"
+				type: "item"
+				item: "refinedstorage:1024k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "60388E0D07B1D844"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["0C5F3F65E947F4BC"]
+			id: "7871880A39352590"
+			tasks: [{
+				id: "051E120E475E59DF"
+				type: "item"
+				item: "refinedstorage:4096k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "1CEC1B4B34CFAF9D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["7871880A39352590"]
+			id: "2D7641B9942368E3"
+			tasks: [{
+				id: "42384DA55C6B8137"
+				type: "item"
+				item: "extrastorage:storagepart_16384k_fluid"
+			}]
+			rewards: [{
+				id: "48B928F6509CA0BE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["2D7641B9942368E3"]
+			id: "5B21783FEC9061CC"
+			tasks: [{
+				id: "7F384280830D18CD"
+				type: "item"
+				item: "extrastorage:storagepart_65536k_fluid"
+			}]
+			rewards: [{
+				id: "2B98AF859BCE92A7"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["5B21783FEC9061CC"]
+			id: "1E2B6B3744E123D1"
+			tasks: [{
+				id: "368179A0EA4A83BC"
+				type: "item"
+				item: "extrastorage:storagepart_262144k_fluid"
+			}]
+			rewards: [{
+				id: "230F3E32C20F1B85"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["1E2B6B3744E123D1"]
+			id: "6EE5ECA83093C508"
+			tasks: [{
+				id: "62DE81EC2A86180A"
+				type: "item"
+				item: "extrastorage:storagepart_1048576k_fluid"
+			}]
+			rewards: [{
+				id: "1C0AA014F21CC897"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["6EE5ECA83093C508"]
+			id: "77FD30DDEBAD7A52"
+			tasks: [{
+				id: "1F4A30E1D0446A5B"
+				type: "item"
+				item: "extradisks:infinite_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "7A24585273222475"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["04A47A787486757B"]
+			id: "70AFE795BF4D7E39"
+			tasks: [{
+				id: "5F600F97DDAC50A6"
+				type: "item"
+				item: {
+					id: "refinedstorage:64k_fluid_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							1475302387
+							-92320773
+							-1809507150
+							1919397746
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0369B07EF439E20C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["1BC94D79D8F20ACD"]
+			id: "2396324E67F6C9B3"
+			tasks: [{
+				id: "7FF8140107F7DC2A"
+				type: "item"
+				item: {
+					id: "refinedstorage:256k_fluid_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							-85440553
+							1665220970
+							-1486428983
+							-756791296
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0D61A30BEAE19C25"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: ["0C5F3F65E947F4BC"]
+			id: "5203BA374A89AAE9"
+			tasks: [{
+				id: "1EEE2A6E1AA67EA3"
+				type: "item"
+				item: {
+					id: "refinedstorage:1024k_fluid_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							-297864950
+							-1884535774
+							-1967411158
+							-640221498
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0E24E7362FC61195"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["7871880A39352590"]
+			id: "4BAE54245AE94774"
+			tasks: [{
+				id: "7A1A5356BA8FCEB9"
+				type: "item"
+				item: {
+					id: "refinedstorage:4096k_fluid_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							1709050156
+							-1276296020
+							-2069419186
+							-897698869
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1796EA25DC6BE7E5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["2D7641B9942368E3"]
+			id: "3AA01026096D0A0A"
+			tasks: [{
+				id: "0A86595B00F99FB9"
+				type: "item"
+				item: {
+					id: "extrastorage:disk_16384k_fluid"
+					Count: 1b
+					tag: {
+						ID: [I;
+							2062791700
+							-1608432157
+							-1411515500
+							280269347
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7CC8D6F8836763CC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["5B21783FEC9061CC"]
+			id: "10785EB6E0BEDFEE"
+			tasks: [{
+				id: "19C59C7B46349F7A"
+				type: "item"
+				item: {
+					id: "extrastorage:disk_65536k_fluid"
+					Count: 1b
+					tag: {
+						ID: [I;
+							1123328982
+							-852867081
+							-1651087773
+							2041630244
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "36ECE7800B288416"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["1E2B6B3744E123D1"]
+			id: "68206AFCDD46179E"
+			tasks: [{
+				id: "1736182FACDC0A2F"
+				type: "item"
+				item: {
+					id: "extrastorage:disk_262144k_fluid"
+					Count: 1b
+					tag: {
+						ID: [I;
+							-2099737917
+							-1636021396
+							-2040087970
+							-1734275594
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "3DF2A59EDA2F9050"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["6EE5ECA83093C508"]
+			id: "3B31B5F1719DCCCA"
+			tasks: [{
+				id: "42A13E13F0C97C79"
+				type: "item"
+				item: {
+					id: "extrastorage:disk_1048576k_fluid"
+					Count: 1b
+					tag: {
+						ID: [I;
+							-1807990286
+							1171999216
+							-2094915781
+							-611977984
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "030F5B2DBEF18B62"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["77FD30DDEBAD7A52"]
+			id: "1A42096512EBB23F"
+			tasks: [{
+				id: "53678DBE315A2675"
+				type: "item"
+				item: {
+					id: "extradisks:infinite_fluid_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							-2110484127
+							-1020572669
+							-2028095554
+							2138671774
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5A909DF2E642D2E0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 12.0d
+			shape: "diamond"
+			description: ["&bQuartz Enriched Iron &fis used in almost all the recipes in Refined Storage."]
+			dependencies: ["550BDFBC2857D5FD"]
+			id: "70D0CA6E1AE372BE"
+			tasks: [{
+				id: "1D407D55139DA347"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+			}]
+			rewards: [{
+				id: "75412D52974422C0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			shape: "diamond"
+			description: ["&bProcessor Binding &fis used to create different kinds of Processors."]
+			id: "3385ACA0E059CA3B"
+			tasks: [{
+				id: "59016A34F5FAEAC5"
+				type: "item"
+				item: "refinedstorage:processor_binding"
+			}]
+			rewards: [{
+				id: "76CA1C788CA913CF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3385ACA0E059CA3B"]
+			id: "00111854E8EC4C6A"
+			tasks: [{
+				id: "06513D06AE81BCE2"
+				type: "item"
+				item: "refinedstorage:raw_basic_processor"
+			}]
+			rewards: [{
+				id: "2E62140839CD8A44"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3385ACA0E059CA3B"]
+			id: "78B269D66E7BED27"
+			tasks: [{
+				id: "5EF5FA5CEDB1E79B"
+				type: "item"
+				item: "refinedstorage:raw_improved_processor"
+			}]
+			rewards: [{
+				id: "44389D506F44F062"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3385ACA0E059CA3B"]
+			id: "7AEA9CEB83EA5372"
+			tasks: [{
+				id: "036D845CF8081789"
+				type: "item"
+				item: "refinedstorage:raw_advanced_processor"
+			}]
+			rewards: [{
+				id: "614670AC27117F7D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3385ACA0E059CA3B"]
+			id: "3E6BF20D5B570066"
+			tasks: [{
+				id: "368A9082AACE25BE"
+				type: "item"
+				item: "extradisks:raw_withering_processor"
+			}]
+			rewards: [{
+				id: "7CD3CF8302F876BE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: ["00111854E8EC4C6A"]
+			id: "7928C8DD72AFEE2B"
+			tasks: [{
+				id: "0895438EFE40D975"
+				type: "item"
+				item: "refinedstorage:basic_processor"
+			}]
+			rewards: [{
+				id: "0B9385797E758D0A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["7AEA9CEB83EA5372"]
+			id: "793D7E2EE0F45F43"
+			tasks: [{
+				id: "6A2099713983A6A2"
+				type: "item"
+				item: "refinedstorage:advanced_processor"
+			}]
+			rewards: [{
+				id: "0FFBD8BF4D20EFC7"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["3E6BF20D5B570066"]
+			id: "514EE5CDB228E7FF"
+			tasks: [{
+				id: "2DB4C30B1200B93D"
+				type: "item"
+				item: "extradisks:withering_processor"
+			}]
+			rewards: [{
+				id: "5B06F270DFC8FEFE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: ["00111854E8EC4C6A"]
+			id: "15179CA1D880FFF4"
+			tasks: [{
+				id: "7377E782DC112C73"
+				type: "item"
+				item: "refinedstorage:destruction_core"
+			}]
+			rewards: [{
+				id: "26279D08967CE395"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: ["78B269D66E7BED27"]
+			id: "130CAED3DCAD2B52"
+			tasks: [{
+				id: "091C27307DEE2E1E"
+				type: "item"
+				item: "refinedstorage:improved_processor"
+			}]
+			rewards: [{
+				id: "1DCFE4BAD87A201E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 10.0d
+			shape: "diamond"
+			description: ["&bThe Machine Casing &fcan be used to create various Devices."]
+			hide_dependency_lines: true
+			dependencies: ["70D0CA6E1AE372BE"]
+			id: "31F12B7E194CB6E5"
+			tasks: [{
+				id: "6E8C6E8766E54F4B"
+				type: "item"
+				item: "refinedstorage:machine_casing"
+			}]
+			rewards: [{
+				id: "6BBFEA28E327A8D1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 10.5d
+			shape: "diamond"
+			description: ["&bThe Disk Drive &fis used to store your crafted Storage Disks. A total of 8 disks can be stored in each Disk Drive block."]
+			hide_dependency_lines: true
+			dependencies: ["31F12B7E194CB6E5"]
+			id: "0A3A4346A32949C4"
+			tasks: [{
+				id: "00DB528EF81E8EAB"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+			rewards: [{
+				id: "2679C211A4B0E17A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 13.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["70D0CA6E1AE372BE"]
+			id: "097C2AB463807470"
+			tasks: [{
+				id: "5EFD1055600E1B3A"
+				type: "item"
+				item: "refinedstorage:cable"
+			}]
+			rewards: [{
+				id: "6880758BDB4201E6"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Importer / Exporter"
+			x: 5.5d
+			y: 13.0d
+			shape: "diamond"
+			description: [
+				"&bThe Importer&f imports items or fluids from an inventory in front of the block and inserts it in the storage network (if there is space)."
+				""
+				"&bThe Exporter &fextracts items or fluids from the storage network and inserts it in the inventory or tank in front of it."
+			]
+			hide_dependency_lines: true
+			dependencies: ["70D0CA6E1AE372BE"]
+			id: "2A881D29B4AA2541"
+			tasks: [
+				{
+					id: "61AF717B1F593394"
+					type: "item"
+					item: "refinedstorage:importer"
+				}
+				{
+					id: "29F1D42A46E9B96F"
+					type: "item"
+					item: "refinedstorage:exporter"
+				}
+			]
+			rewards: [{
+				id: "380EDB4420D60CC1"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 13.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["70D0CA6E1AE372BE"]
+			id: "512C7FB7F7FC1A02"
+			tasks: [{
+				id: "439617C4ECCC5CB5"
+				type: "item"
+				item: "refinedstorage:wrench"
+			}]
+			rewards: [{
+				id: "6B44032572F18FAE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Network"
+			x: 3.5d
+			y: 10.5d
+			shape: "diamond"
+			description: [
+				"&bA Network Transmitter &fsends a network signal to a Network Receiver that is specified in the given &6Network Card."
+				""
+				"&bThe Network Receiver &fis the block that receives a signal from the &6Network Transmitter&f."
+			]
+			hide_dependency_lines: true
+			dependencies: ["31F12B7E194CB6E5"]
+			id: "28582483B37B4957"
+			tasks: [
+				{
+					id: "0998D03C0622A5BC"
+					type: "item"
+					item: "refinedstorage:network_receiver"
+				}
+				{
+					id: "11A6ECCEDF243D60"
+					type: "item"
+					item: "refinedstorage:network_transmitter"
+				}
+			]
+			rewards: [{
+				id: "69CB902903A975E9"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 11.0d
+			shape: "diamond"
+			description: ["&bThe Crafter &fis a block that crafts items with &6patterns&f. It can take speed upgrades to increase the crafting speed."]
+			hide_dependency_lines: true
+			dependencies: ["31F12B7E194CB6E5"]
+			id: "748CE951AFF3FC3E"
+			tasks: [{
+				id: "66C54E93061738D6"
+				type: "item"
+				title: "Crafter"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "refinedstorage:crafter"
+								Count: 1b
+							}
+							{
+								id: "extrastorage:iron_crafter"
+								Count: 1b
+							}
+							{
+								id: "extrastorage:gold_crafter"
+								Count: 1b
+							}
+							{
+								id: "extrastorage:diamond_crafter"
+								Count: 1b
+							}
+							{
+								id: "extrastorage:netherite_crafter"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "60043DFB7CDDBC29"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Create Autocrafting"
+			x: 6.0d
+			y: 11.0d
+			shape: "diamond"
+			description: ["Used to set up autocrafting."]
+			hide_dependency_lines: true
+			dependencies: ["31F12B7E194CB6E5"]
+			id: "5D0EB3B91ADBAACE"
+			tasks: [
+				{
+					id: "7E4B1160591AD7F5"
+					type: "item"
+					item: "refinedstorage:pattern_grid"
+				}
+				{
+					id: "0DE61496F471FC9F"
+					type: "item"
+					item: "refinedstorage:pattern"
+				}
+			]
+			rewards: [{
+				id: "5940F597DD8F09EF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			shape: "diamond"
+			description: [
+				"&bThe Controller &fis the core of the Refined Storage network. "
+				"You need to connect all the Refined Storage devices to this block. (You can connect devices by placing them right next to the Controller or with cables.)"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"793D7E2EE0F45F43"
+				"31F12B7E194CB6E5"
+			]
+			size: 2.0d
+			id: "711D5D1E489DFCE5"
+			tasks: [{
+				id: "13547F251D91ACF3"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+			rewards: [{
+				id: "63BCC0A5700ADC5B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Wireless Grid"
+			x: 6.5d
+			y: 10.5d
+			shape: "diamond"
+			description: ["&bWireless Grid &fallows you to have access to your storage system anywhere."]
+			hide_dependency_lines: true
+			dependencies: ["31F12B7E194CB6E5"]
+			id: "2880D5E0F97F71E2"
+			tasks: [
+				{
+					id: "59B36C09E3DD6147"
+					type: "item"
+					item: "refinedstorageaddons:wireless_crafting_grid"
+				}
+				{
+					id: "28140BC9A9303052"
+					type: "item"
+					item: "refinedstorage:wireless_crafting_monitor"
+				}
+				{
+					id: "4C156A74CF831A40"
+					type: "item"
+					item: "refinedstorage:wireless_fluid_grid"
+				}
+				{
+					id: "1C52D735DFD8EC09"
+					type: "item"
+					item: "refinedstorage:wireless_grid"
+				}
+			]
+			rewards: [{
+				id: "345093E88E0C204D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 10.5d
+			shape: "diamond"
+			description: [
+				"&bThe Grid &fis a block that allows access to the items and fluids in the storage network."
+				""
+				"&bThe Crafting Grid &fis the same as a regular Grid, but has a crafting inventory. Allowing you to craft items with ease within the Table."
+			]
+			hide_dependency_lines: true
+			dependencies: ["31F12B7E194CB6E5"]
+			id: "68DE59040F51B8AD"
+			tasks: [
+				{
+					id: "6C1A88D14CC8426C"
+					type: "item"
+					item: "refinedstorage:grid"
+				}
+				{
+					id: "02838436AEF7E937"
+					type: "item"
+					item: "refinedstorage:crafting_grid"
+				}
+				{
+					id: "324EAEF3266855D7"
+					type: "item"
+					item: "refinedstorage:fluid_grid"
+				}
+			]
+			rewards: [{
+				id: "1861BC53BCB3006C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			shape: "diamond"
+			description: ["&bThe Upgrade&f is the base item used for every type of upgrade."]
+			hide_dependency_lines: true
+			dependencies: [
+				"130CAED3DCAD2B52"
+				"70D0CA6E1AE372BE"
+			]
+			id: "37872846DC1B7D76"
+			tasks: [{
+				id: "0F69D58B312330F5"
+				type: "item"
+				item: "refinedstorage:upgrade"
+			}]
+			rewards: [{
+				id: "4D8F802FAE4A902B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			shape: "diamond"
+			description: ["&bThe Speed Upgrade&f will increase the speed of the device that it is being inserted to."]
+			dependencies: ["37872846DC1B7D76"]
+			id: "6F91363BEA930A28"
+			tasks: [{
+				id: "546E9546A5D65FCA"
+				type: "item"
+				item: "refinedstorage:speed_upgrade"
+			}]
+			rewards: [{
+				id: "4DE07B11FD87D5C9"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 6.0d
+			shape: "diamond"
+			description: ["&bThe Stack upgrade&r will improve item or fluid transfer speeds by using a whole stack (64 items) instead of 1 item at a time. It can be combined with &nspeed upgrades&r to let the device go to the next slot quicker. By using this upgrade, the amount of FE/t that this device draws will increase."]
+			dependencies: ["37872846DC1B7D76"]
+			id: "28189A53589C72B5"
+			tasks: [{
+				id: "3D70391C54FFA6C7"
+				type: "item"
+				item: "refinedstorage:stack_upgrade"
+			}]
+			rewards: [{
+				id: "69CB0F3EFFA2FF13"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 7.0d
+			shape: "diamond"
+			description: ["&bThe Range Upgrade &fincreases the range of the &6Wireless Transmitter&f."]
+			dependencies: ["37872846DC1B7D76"]
+			id: "1B2FC78CB76EC757"
+			tasks: [{
+				id: "6240D5B8885A3F5D"
+				type: "item"
+				item: "refinedstorage:range_upgrade"
+			}]
+			rewards: [{
+				id: "6B9E0EBB7CB0DA27"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 7.0d
+			shape: "diamond"
+			description: ["&bThe Crafting Upgrade &fwill schedule a crafting task when the item being used in a device is needed but not available."]
+			dependencies: ["37872846DC1B7D76"]
+			id: "46F884E95A611496"
+			tasks: [{
+				id: "511B6F78B4D538C9"
+				type: "item"
+				item: "refinedstorage:crafting_upgrade"
+			}]
+			rewards: [{
+				id: "59371E3C75A6ABF0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: ["78B269D66E7BED27"]
+			id: "48D443323B13BEFA"
+			tasks: [{
+				id: "0CEBCAD5FD67CFB3"
+				type: "item"
+				item: "refinedstorage:construction_core"
+			}]
+			rewards: [{
+				id: "2EE1F15656463468"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+	]
+}

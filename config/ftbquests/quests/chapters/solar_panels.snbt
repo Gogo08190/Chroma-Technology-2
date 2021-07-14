@@ -1,0 +1,470 @@
+{
+	id: "114878C046AA32C8"
+	group: "247A2B0D60E02610"
+	order_index: 17
+	filename: "solar_panels"
+	title: "Solar Flux Reborn"
+	icon: "numina:component_solar_panel"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Oh mirror ! My beautiful Mirror !"
+			description: [
+				"This is the first part to become an ecologist"
+				""
+				"And no, you can't see yourself through it"
+				""
+				"Crafting that &4Mirror&r can unlock you more powerful panels !"
+			]
+			dependencies: ["199D01B97275C878"]
+			id: "4A40B4CFE96EB147"
+			tasks: [{
+				id: "6BB23F5F032EA9E9"
+				type: "item"
+				item: "solarflux:mirror"
+			}]
+			rewards: [{
+				id: "5B737C3C17332546"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Photovoltaic Ecologist "
+			x: 1.0d
+			y: 0.0d
+			subtitle: "Sunshine is usefull, until night.."
+			description: [
+				"You successfully upgraded you &6Mirror&r to a &5Photovoltaic Cell&r"
+				""
+				"Now it's the time to inner your overprotective side of ecology"
+			]
+			dependencies: ["4A40B4CFE96EB147"]
+			id: "32569395D0B753CB"
+			tasks: [{
+				id: "1A8E6305D4109396"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_1"
+			}]
+			rewards: [{
+				id: "4D2260EED8963B71"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Cell V2 "
+			description: [
+				"A better Cell for you Panels !"
+				""
+				"No there are no chains to be scared about !  "
+			]
+			dependencies: ["32569395D0B753CB"]
+			id: "569FF60F346B0D3A"
+			tasks: [{
+				id: "352048FE745B61F4"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_2"
+			}]
+			rewards: [{
+				id: "10D36BFD041A0EA4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			subtitle: "Cell The Third"
+			description: [
+				"Should I really make a text for all cells?"
+				""
+				"Hell No, you're not some crazy random who doesn't know how that mod work right?"
+				""
+				"I guess you should do by yourself now."
+			]
+			dependencies: ["569FF60F346B0D3A"]
+			id: "11F4AB5D7877B79F"
+			tasks: [{
+				id: "40B76468A95169AD"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_3"
+			}]
+			rewards: [{
+				id: "57E1BAECF8047C41"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["11F4AB5D7877B79F"]
+			id: "1600F70CBC97A608"
+			tasks: [{
+				id: "24FEAA5C935A9ABA"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_4"
+			}]
+			rewards: [{
+				id: "2ABA34A300C4C142"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["1600F70CBC97A608"]
+			id: "06B759EC63DB5C47"
+			tasks: [{
+				id: "5444A415620E2176"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_5"
+			}]
+			rewards: [{
+				id: "6E4B9C779D36B803"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: [
+				"06B759EC63DB5C47"
+				"1600F70CBC97A608"
+			]
+			id: "5A83135276797601"
+			tasks: [{
+				id: "62B2421BFB53004E"
+				type: "item"
+				item: "solarflux:photovoltaic_cell_6"
+			}]
+			rewards: [{
+				id: "179B4995E99C1E16"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			subtitle: "Solar Impulse"
+			description: [
+				"You first &6Solar Panel&r !"
+				""
+				"Lol, seriously you really thought this would generate that much?"
+				""
+				"Come on that's only the first tier !"
+			]
+			dependencies: ["4A40B4CFE96EB147"]
+			id: "73FBA4D56F01985F"
+			tasks: [{
+				id: "26A5E35E3B8BFC2E"
+				type: "item"
+				item: "solarflux:sp_1"
+			}]
+			rewards: [{
+				id: "519B9322DFD2570F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Act II , scene II"
+			description: [
+				"A better Panel !"
+				""
+				"Yes that does generate a few more... But really ?"
+				""
+				"You'll stay a polluer to me !"
+			]
+			dependencies: ["73FBA4D56F01985F"]
+			id: "1E9BC6190A24791B"
+			tasks: [{
+				id: "483BFC1E567F0496"
+				type: "item"
+				item: "solarflux:sp_2"
+			}]
+			rewards: [{
+				id: "2D518898C8394F12"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			subtitle: "Third time's a charm"
+			description: [
+				"Tier Three !"
+				""
+				"Yep, that does generates more and more RF"
+				""
+				"Now that you're here why not continue and go even further?"
+			]
+			dependencies: [
+				"32569395D0B753CB"
+				"1E9BC6190A24791B"
+			]
+			id: "360D7041DCC0330E"
+			tasks: [{
+				id: "13E04EA0CF24BB01"
+				type: "item"
+				item: "solarflux:sp_3"
+			}]
+			rewards: [{
+				id: "1685E9BBC4E816B6"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: [
+				"2E31BF26B62BBA2A"
+				"11F4AB5D7877B79F"
+			]
+			id: "2C92FEC0317C6878"
+			tasks: [{
+				id: "2E1A3D4DC2BC0B9F"
+				type: "item"
+				item: "solarflux:sp_5"
+			}]
+			rewards: [{
+				id: "1B0DCB23BB84396B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			subtitle: "Two plus Two is..."
+			description: [
+				"Tier four !"
+				""
+				"Alright I guess that makes 4x more RF!"
+				""
+				"But I guess you can look FOURther to that tier"
+				"(Sorry for the bad joke)"
+				""
+			]
+			dependencies: [
+				"360D7041DCC0330E"
+				"569FF60F346B0D3A"
+			]
+			id: "2E31BF26B62BBA2A"
+			tasks: [{
+				id: "2516A5EEBB350B6C"
+				type: "item"
+				item: "solarflux:sp_4"
+			}]
+			rewards: [{
+				id: "5AA5D0EB397000E6"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			dependencies: [
+				"1600F70CBC97A608"
+				"2C92FEC0317C6878"
+			]
+			id: "071FD30CFD32FE95"
+			tasks: [{
+				id: "7FF1FC7C0878FD1C"
+				type: "item"
+				item: "solarflux:sp_6"
+			}]
+			rewards: [{
+				id: "1E61C748D48DA816"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			dependencies: [
+				"06B759EC63DB5C47"
+				"071FD30CFD32FE95"
+			]
+			id: "6FF9926758A25887"
+			tasks: [{
+				id: "483CA6D2A22EAFEE"
+				type: "item"
+				item: "solarflux:sp_7"
+				consume_items: false
+			}]
+			rewards: [{
+				id: "6B054B6F8663A877"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: [
+				"5A83135276797601"
+				"6FF9926758A25887"
+			]
+			id: "2D45892FF9DFC2C7"
+			tasks: [{
+				id: "4BEA56A4D2BA32D0"
+				type: "item"
+				item: "solarflux:sp_8"
+			}]
+			rewards: [{
+				id: "0A0C5ED4459C960B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			subtitle: "The main component for upgrade"
+			dependencies: ["4A40B4CFE96EB147"]
+			id: "00B29949E4561592"
+			tasks: [{
+				id: "31D7DF463A5D6A1F"
+				type: "item"
+				item: "solarflux:blank_upgrade"
+			}]
+			rewards: [{
+				id: "651FD6E92AEAF0E8"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			subtitle: "More RF production"
+			dependencies: ["00B29949E4561592"]
+			id: "61DBEC329D1D495D"
+			tasks: [{
+				id: "08E2B59FCBDB8F58"
+				type: "item"
+				item: "solarflux:efficiency_upgrade"
+			}]
+			rewards: [{
+				id: "49A5CD668BA3F946"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			subtitle: "Can transfer more FE/t"
+			dependencies: ["00B29949E4561592"]
+			id: "0594BA5B996F8CCC"
+			tasks: [{
+				id: "7637737E8755596B"
+				type: "item"
+				item: "solarflux:transfer_rate_upgrade"
+			}]
+			rewards: [{
+				id: "0F7DEDA95CB48C87"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			subtitle: "More Storage for RF"
+			dependencies: ["00B29949E4561592"]
+			id: "2CB7AE3EA53025F4"
+			tasks: [{
+				id: "5BF03BD4F912A785"
+				type: "item"
+				item: "solarflux:capacity_upgrade"
+			}]
+			rewards: [{
+				id: "398B76EA0FCF0BDD"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["00B29949E4561592"]
+			id: "082E059E08F46C2D"
+			tasks: [{
+				id: "51D02917C3CE0023"
+				type: "item"
+				item: "solarflux:traversal_upgrade"
+			}]
+			rewards: [{
+				id: "7B8CC131DE8CE077"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["00B29949E4561592"]
+			id: "0DB2F30C66CD47A3"
+			tasks: [{
+				id: "0C14AEFF2E54011D"
+				type: "item"
+				item: "solarflux:dispersive_upgrade"
+			}]
+			rewards: [{
+				id: "2BA4AAC51415A310"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["00B29949E4561592"]
+			id: "6FF93A296EBF7983"
+			tasks: [{
+				id: "02D68845368492DD"
+				type: "item"
+				item: "solarflux:block_charging_upgrade"
+			}]
+			rewards: [{
+				id: "6543B0DDC7EB5766"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			subtitle: "Solar Furnace"
+			dependencies: ["00B29949E4561592"]
+			id: "206AC5FB784906D1"
+			tasks: [{
+				id: "0DA2529F67772617"
+				type: "item"
+				item: "solarflux:furnace_upgrade"
+			}]
+			rewards: [{
+				id: "2559166574C9DFDB"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+	]
+}

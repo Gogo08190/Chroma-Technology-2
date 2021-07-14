@@ -1,0 +1,1055 @@
+{
+	id: "1779DE7C89BF8936"
+	group: "247A2B0D60E02610"
+	order_index: 4
+	filename: "rftools"
+	title: "RFTools"
+	icon: "rftoolsbase:smartwrench"
+	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.0d
+			y: 1.5d
+			subtitle: "The Main Crafting Frame"
+			description: ["This &6Machine Frame&r can permit to craft a lot of &bRFtools&r machines"]
+			dependencies: ["00A9D4B61482CC79"]
+			id: "09623CE2AEBEB79E"
+			tasks: [{
+				id: "46583EF0456ED99E"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
+			rewards: [{
+				id: "19FFB0A74BB21032"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["00A9D4B61482CC79"]
+			id: "7E4D0CBC0129C700"
+			tasks: [{
+				id: "3BB91FEE7AAA6F9E"
+				type: "item"
+				item: "rftoolsbase:machine_base"
+			}]
+			rewards: [{
+				id: "098FACC76A75B293"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Crafters"
+			x: 3.5d
+			y: 1.5d
+			subtitle: "Crafting on a row"
+			description: [
+				"Three different tiers of &bCrafters"
+				""
+				"Each Crafter has the double of the previous used in the crafting"
+				""
+				"So you have :"
+				"-> Tier 1 : Two Crafts "
+				"-> Tier 2 : Four Crafts"
+				"-> Tier 3 : Eight Crafts"
+			]
+			dependencies: ["09623CE2AEBEB79E"]
+			id: "4022D2EDF496F644"
+			tasks: [
+				{
+					id: "66316CFD349AC3D1"
+					type: "item"
+					item: "rftoolsutility:crafter1"
+				}
+				{
+					id: "1D5FD984C138FC85"
+					type: "item"
+					item: "rftoolsutility:crafter2"
+				}
+				{
+					id: "5369CF773307B6B5"
+					type: "item"
+					item: "rftoolsutility:crafter3"
+				}
+			]
+			rewards: [{
+				id: "190BF8EF1F6A0751"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["09623CE2AEBEB79E"]
+			id: "3DE9F42332C97CE9"
+			tasks: [{
+				id: "3D7405B832EA3347"
+				type: "item"
+				item: "rftoolspower:power_core1"
+			}]
+			rewards: [{
+				id: "3819FE39CB07E2EA"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			dependencies: ["3DE9F42332C97CE9"]
+			id: "2227F8E6F68CB34E"
+			tasks: [{
+				id: "6B554B789891B690"
+				type: "item"
+				item: "rftoolspower:power_core2"
+			}]
+			rewards: [{
+				id: "5B895238E7DDA154"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["2227F8E6F68CB34E"]
+			id: "461A12848E78F656"
+			tasks: [{
+				id: "2F76D4E710D42743"
+				type: "item"
+				item: "rftoolspower:power_core3"
+			}]
+			rewards: [{
+				id: "1A53C513E009265E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			dependencies: [
+				"69CC37D08B0EE9BC"
+				"461A12848E78F656"
+			]
+			id: "64EB7E903EAEACB2"
+			tasks: [{
+				id: "429CB5DFE5914390"
+				type: "item"
+				item: "rftoolspower:cell3"
+			}]
+			rewards: [{
+				id: "3D459DA81B815A41"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			dependencies: [
+				"792A5555460A637C"
+				"2227F8E6F68CB34E"
+			]
+			id: "69CC37D08B0EE9BC"
+			tasks: [{
+				id: "34F4D2FA3B9260DA"
+				type: "item"
+				item: "rftoolspower:cell2"
+			}]
+			rewards: [{
+				id: "36306D2F1243D3C4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			subtitle: "Multiblock"
+			description: [
+				"The more powercell you put for the multiblock , more energy will be stocked"
+				""
+			]
+			dependencies: ["3DE9F42332C97CE9"]
+			id: "792A5555460A637C"
+			tasks: [{
+				id: "07B94F06C22B79C8"
+				type: "item"
+				item: "rftoolspower:cell1"
+			}]
+			rewards: [{
+				id: "0307D3DF548FE265"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Storage"
+			x: 5.0d
+			y: 0.0d
+			description: [
+				"Here is a little storage advancement"
+				""
+				"Each &6Storage Card&r has a stock limit. So as you understand that, you will have four differents tiers."
+				"Yes each tier as a better stocking capacity of course"
+			]
+			dependencies: ["09623CE2AEBEB79E"]
+			id: "004534788C10F889"
+			tasks: [
+				{
+					id: "22A62A7B0D8DD9D7"
+					type: "item"
+					item: "rftoolsstorage:modular_storage"
+				}
+				{
+					id: "26430BB5A0D577F3"
+					type: "item"
+					item: "rftoolsstorage:storage_module0"
+				}
+				{
+					id: "4706AA8C84D640B0"
+					type: "item"
+					item: "rftoolsstorage:storage_module1"
+				}
+				{
+					id: "11B712EDAD79B7AD"
+					type: "item"
+					item: "rftoolsstorage:storage_module2"
+				}
+				{
+					id: "3A052BF24DF5DF03"
+					type: "item"
+					item: "rftoolsstorage:storage_module3"
+				}
+				{
+					id: "463F4F87606E6A62"
+					type: "item"
+					item: {
+						id: "rftoolsbase:filter_module"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "1E4B52765837AB08"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Advanced Storage"
+			x: 5.0d
+			y: -1.5d
+			subtitle: "Wireless Storage?"
+			description: [
+				"Now that you have a little more stocking space"
+				""
+				"Maybe it's time to have a little bit of wireless storage before going to Refined Storage (or Applied Energistics)"
+			]
+			dependencies: ["004534788C10F889"]
+			id: "6321750171F3BA61"
+			tasks: [
+				{
+					id: "62AE8F62551B0C55"
+					type: "item"
+					item: "rftoolsstorage:storage_scanner"
+				}
+				{
+					id: "46F83276615621DC"
+					type: "item"
+					item: {
+						id: "rftoolsstorage:storage_control_module"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "020743073061B058"
+					type: "item"
+					item: {
+						id: "rftoolsbase:tablet"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "0E3D303A786DFAD8"
+					type: "item"
+					item: {
+						id: "rftoolsutility:redstone_information"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "293B974BFA030DCF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Usefull wrench"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "The Ultimate Wrench"
+			description: [
+				"This &3Wrench&r can do a lot of stuff with the mod &6RFtools&r "
+				""
+				"When you right click with it on a &6RFtools&r machine you can setup the &binput&r and obviously the &coutput&r"
+				""
+				"But when you &nshift right click&r, you break the machine instantly, so you better use that unless your pickaxe is unbreakable or has a very large durability "
+				""
+			]
+			size: 2.0d
+			id: "00A9D4B61482CC79"
+			tasks: [{
+				id: "2401CED96E0C1F1F"
+				type: "item"
+				item: "rftoolsbase:smartwrench"
+			}]
+			rewards: [{
+				id: "6D4E2A34CB5003EE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			subtitle: "The Main Ore"
+			description: [
+				"Mining can be cool sometimes ! "
+				""
+				"You can find that ore on several dimensions, including overworld. There is not a specific layer to find that ore."
+				""
+				"If you have created an &6RFtools&r dimension, you will have more chances to find it below y=40."
+			]
+			dependencies: ["00A9D4B61482CC79"]
+			id: "67A3A02452377E48"
+			tasks: [{
+				id: "3920322DE3343408"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
+			}]
+			rewards: [{
+				id: "546984E2EBB6FC6E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Shields"
+			x: 6.5d
+			y: 3.0d
+			subtitle: "Build a Shield"
+			description: [
+				"In order to create a &bShield&r you must use those &5Shield Projectors&r"
+				""
+				"Each projector has a better protection depending on the tier you're using."
+			]
+			dependencies: ["09623CE2AEBEB79E"]
+			id: "66BA5850A19CE61A"
+			tasks: [
+				{
+					id: "32B9B21E5675E11E"
+					type: "item"
+					item: "rftoolsbuilder:shield_block1"
+				}
+				{
+					id: "60899F0CDD17CC31"
+					type: "item"
+					item: "rftoolsbuilder:shield_block2"
+				}
+				{
+					id: "07373BC7E1EDFECA"
+					type: "item"
+					item: "rftoolsbuilder:shield_block3"
+				}
+				{
+					id: "1D180116ED85EE4A"
+					type: "item"
+					item: "rftoolsbuilder:shield_block4"
+				}
+				{
+					id: "002C1478DF5BAD7B"
+					type: "item"
+					item: "rftoolsbuilder:blue_shield_template_block"
+				}
+			]
+			rewards: [{
+				id: "067F8CE8C260493C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			subtitle: "The RFtools book"
+			description: [
+				"Opening this book can bring you some usefull informations about some &bRFtools&r machines or items"
+				""
+				""
+			]
+			dependencies: ["00A9D4B61482CC79"]
+			id: "755449AB99944F29"
+			tasks: [{
+				id: "66C897B99FF46BDD"
+				type: "item"
+				item: "rftoolsbase:manual"
+			}]
+			rewards: [{
+				id: "0351E885FF94979C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Shape Cards"
+			x: 1.5d
+			y: -2.0d
+			subtitle: "For the builder"
+			description: [
+				"This quest will ask you to craft all &2Shape Cards&r for the &6Builder&r"
+				""
+				"I suggest you check on the &bRFtools&r guide to see what they do.... Unless you wanna have a surprise, it's up to you"
+				""
+			]
+			dependencies: ["00A9D4B61482CC79"]
+			id: "1F57D2A538B7BC90"
+			tasks: [
+				{
+					id: "29FD9C227FFDF1EE"
+					type: "item"
+					item: "rftoolsbuilder:shape_card_def"
+				}
+				{
+					id: "4B84F3202111B818"
+					type: "item"
+					item: "rftoolsbuilder:shape_card_liquid"
+				}
+				{
+					id: "089AB7CD6C712C74"
+					type: "item"
+					item: "rftoolsbuilder:shape_card_pump"
+				}
+				{
+					id: "1C34660B5BA6C4E5"
+					type: "item"
+					item: "rftoolsbuilder:shape_card_pump_clear"
+				}
+				{
+					id: "577F59B619CE4B4A"
+					type: "item"
+					item: "rftoolsbuilder:shape_card_quarry"
+				}
+				{
+					id: "56EA51848EBB6C7E"
+					type: "item"
+					item: "rftoolsbuilder:shape_card_quarry_clear"
+				}
+				{
+					id: "3C894680C61E865A"
+					type: "item"
+					item: "rftoolsbuilder:shape_card_quarry_clear_fortune"
+				}
+				{
+					id: "46DF4804FF9319B3"
+					type: "item"
+					item: "rftoolsbuilder:shape_card_quarry_clear_silk"
+				}
+				{
+					id: "20AED40865A8ACB4"
+					type: "item"
+					item: "rftoolsbuilder:shape_card_quarry_fortune"
+				}
+				{
+					id: "774625151146463F"
+					type: "item"
+					item: "rftoolsbuilder:shape_card_quarry_silk"
+				}
+				{
+					id: "071402B0957AFEAC"
+					type: "item"
+					item: "rftoolsbuilder:shape_card_void"
+				}
+			]
+			rewards: [{
+				id: "5A4982F474E2B0DE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			description: [
+				"Here is the &3Builder !&r"
+				""
+				"Build some cool stuff with it ? You  can!"
+				"Mine an entire chunck? You can!"
+				""
+				"Just put the wanted shape card in it. "
+				""
+				"How does it work? Shift Right Click with a shape card in the main hand and select two blocks that are opposed to each other, you do not want to select a radius of two blocks... unless that's what you really want of course."
+			]
+			dependencies: ["1F57D2A538B7BC90"]
+			id: "770FF84E83C7347C"
+			tasks: [{
+				id: "2D5CC37EAB206B58"
+				type: "item"
+				item: "rftoolsbuilder:builder"
+			}]
+			rewards: [{
+				id: "7DC32589A57DF987"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			subtitle: "Boosting your machines"
+			description: [
+				"The &3Infuser&r can \"upgrade\" your &bRFtools&r machines"
+				""
+				"They will be faster ! But be aware, it does consume a lot more energy and you have to upgrade with those &1Dimensional Shards&r"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"09623CE2AEBEB79E"
+				"67A3A02452377E48"
+			]
+			hide_text_until_complete: false
+			id: "6297DF36C710862F"
+			tasks: [{
+				id: "05A45D287BB225B4"
+				type: "item"
+				item: "rftoolsbase:machine_infuser"
+			}]
+			rewards: [{
+				id: "56E03D0658535DD0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Infusing"
+			x: -1.5d
+			y: -3.5d
+			subtitle: "Shiny "
+			description: [
+				"What happened ?! "
+				""
+				"Seems like my diamonds and my ender pearls have been transformed... "
+			]
+			dependencies: ["67A3A02452377E48"]
+			id: "5EC49D33A07CBDDF"
+			tasks: [
+				{
+					id: "198C80A669E42848"
+					type: "item"
+					item: "rftoolsbase:infused_diamond"
+				}
+				{
+					id: "6073178E64D7C70F"
+					type: "item"
+					item: "rftoolsbase:infused_enderpearl"
+				}
+			]
+			rewards: [{
+				id: "5AB35F7E11264827"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Dimensional Cells"
+			x: 3.5d
+			y: 0.0d
+			subtitle: "Wireless Energy"
+			description: [
+				"As said in the subtitle"
+				""
+				"&4Powercells&r are used to create a wireless network for your energy"
+				""
+				"Depending on the cell it will be less or more effective."
+				""
+				"How does it work? Take a &cCell Card&r and put it in a &1Powercell&r, put it in the first slot and it will have a number on it. "
+				"That number corresponds to your network. The second slot is to copy your network to another cell, take the new created card and put it in another &1Powercell&r."
+				""
+				"Be aware that players can copy your network and put it on their own &1Powercell&r"
+				"So make sure to hide them :)"
+			]
+			dependencies: ["09623CE2AEBEB79E"]
+			id: "4D9AAE2FB270B5FE"
+			tasks: [
+				{
+					id: "3EA4777929211591"
+					type: "item"
+					item: "rftoolspower:dimensionalcell_simple"
+				}
+				{
+					id: "522F654052050F04"
+					type: "item"
+					item: "rftoolspower:dimensionalcell"
+				}
+				{
+					id: "2373108EC0FD9B6D"
+					type: "item"
+					item: "rftoolspower:dimensionalcell_advanced"
+				}
+				{
+					id: "1C8195A7880FA262"
+					type: "item"
+					item: "rftoolspower:powercell_card"
+				}
+			]
+			rewards: [{
+				id: "0F414E529B34A1E1"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Rf With EnderPearls"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Build The Endergenic generator"
+			description: [
+				"Generate some RF with that generator"
+				""
+				"It consumes enderpearls so you better build an Endermen farm"
+				""
+			]
+			dependencies: ["09623CE2AEBEB79E"]
+			id: "7637BBBC0985AAA8"
+			tasks: [
+				{
+					id: "216805F833D4A785"
+					type: "item"
+					item: "rftoolspower:endergenic"
+				}
+				{
+					id: "46CD9E1EC85F6211"
+					type: "item"
+					item: "rftoolspower:pearl_injector"
+				}
+				{
+					id: "1C768273EA721BC3"
+					type: "item"
+					item: "rftoolspower:ender_monitor"
+				}
+				{
+					id: "69497E2259550744"
+					type: "item"
+					item: "rftoolsutility:sequencer"
+				}
+			]
+			rewards: [{
+				id: "7180E1817811038E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			subtitle: "Spawning mobs"
+			description: [
+				"In order to &nspawn&r mobs you will have to craft 3 beams."
+				""
+				"The &cSyringue&r has to be entirely filled with mob essence (Note that Dragons are not spawnable)"
+				""
+				"Each beam has to be filled with one single item."
+			]
+			dependencies: ["09623CE2AEBEB79E"]
+			id: "285912B875D261BE"
+			tasks: [
+				{
+					id: "129B3F14A533B72C"
+					type: "item"
+					item: "rftoolsutility:spawner"
+				}
+				{
+					id: "56DF685978549DE2"
+					type: "item"
+					item: "rftoolsutility:matter_beamer"
+				}
+				{
+					id: "317048B172163642"
+					type: "item"
+					item: "rftoolsutility:syringe"
+				}
+			]
+			rewards: [{
+				id: "5A4FAB584F8F7B8E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Dimensions"
+			x: 3.5d
+			y: 3.0d
+			description: [
+				"Making dimensions"
+				""
+			]
+			dependencies: ["09623CE2AEBEB79E"]
+			id: "5F7A99A47819CFBA"
+			tasks: [
+				{
+					id: "4DA3DA8765930B92"
+					type: "item"
+					item: "rftoolsutility:dialing_device"
+				}
+				{
+					id: "777EB4A1689DABB7"
+					type: "item"
+					item: "rftoolsutility:matter_booster"
+				}
+				{
+					id: "57420EC044B54F7C"
+					type: "item"
+					item: "rftoolsutility:matter_receiver"
+				}
+				{
+					id: "3E8A885CA7280C20"
+					type: "item"
+					item: "rftoolsutility:matter_transmitter"
+				}
+				{
+					id: "20965EEF853A1C0C"
+					type: "item"
+					item: "rftoolsutility:simple_dialer"
+				}
+			]
+			rewards: [{
+				id: "237C2B139E7EBA52"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			dependencies: ["5F7A99A47819CFBA"]
+			id: "539ACDBBE02E0E71"
+			tasks: [
+				{
+					id: "265F61839D388DCE"
+					type: "item"
+					item: {
+						id: "rftoolsutility:charged_porter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1D3793CB05EB8A55"
+					type: "item"
+					item: {
+						id: "rftoolsutility:advanced_charged_porter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "47A1252EF53062B8"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Redstone Stuff"
+			x: -3.0d
+			y: 2.5d
+			dependencies: ["7E4D0CBC0129C700"]
+			id: "0DE62AA91984724A"
+			tasks: [
+				{
+					id: "0681A5C2FFF43ECA"
+					type: "item"
+					item: "rftoolsutility:timer"
+				}
+				{
+					id: "185E9D267A2235D4"
+					type: "item"
+					item: "rftoolsutility:invchecker"
+				}
+				{
+					id: "33CB90002BF7D018"
+					type: "item"
+					item: "rftoolsutility:sensor"
+				}
+				{
+					id: "2F1F3F0761CB35C4"
+					type: "item"
+					item: "rftoolsutility:redstone_receiver"
+				}
+				{
+					id: "0A3C34CAA5888FD5"
+					type: "item"
+					item: "rftoolsutility:redstone_transmitter"
+				}
+				{
+					id: "6299E86AE0960CBA"
+					type: "item"
+					item: "rftoolspower:power_monitor"
+				}
+				{
+					id: "08EBF84E3AE9F526"
+					type: "item"
+					item: "rftoolspower:power_level"
+				}
+			]
+			rewards: [{
+				id: "43D91CE72781CE9C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["7E4D0CBC0129C700"]
+			id: "5C37540CA2DC11AA"
+			tasks: [
+				{
+					id: "2560C096851E8C33"
+					type: "item"
+					item: "rftoolsbase:information_screen"
+				}
+				{
+					id: "614D70B9A498D3F5"
+					type: "item"
+					item: "rftoolsutility:screen"
+				}
+			]
+			rewards: [{
+				id: "3FBBF909D32D25B0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Usefull Modules"
+			x: -4.0d
+			y: -0.5d
+			dependencies: ["5C37540CA2DC11AA"]
+			id: "71D0E2D5DE065D95"
+			tasks: [
+				{
+					id: "2C71222D55C67514"
+					type: "item"
+					item: {
+						id: "rftoolsutility:fluid_module"
+						Count: 1b
+						tag: {
+							color: 65535
+							monitorz: -27
+							format: "Compact"
+							monitordim: "minecraft:overworld"
+							align: "Center"
+							rfcolor_neg: 16711680
+							monitorname: "Tank"
+							rfcolor: 65280
+							showdiff: 0b
+							monitorx: 2
+							monitory: 66
+							text: "Eau"
+							Damage: 0
+							showpct: 0b
+							hidetext: 0b
+						}
+					}
+				}
+				{
+					id: "0C486728C3944F0A"
+					type: "item"
+					item: {
+						id: "rftoolsutility:machineinformation_module"
+						Count: 1b
+						tag: {
+							color: 16711680
+							monitorTag: 2
+							monitorname: "Matter Transmitter"
+							monitorz: -28
+							monitorx: 16
+							monitory: 64
+							monitordim: "minecraft:overworld"
+							Damage: 0
+							txtcolor: 16776960
+						}
+					}
+				}
+				{
+					id: "74BAF6B7D12D71AA"
+					type: "item"
+					item: {
+						id: "rftoolsutility:button_module"
+						Count: 1b
+						tag: {
+							Damage: 0
+							text: "TATATA"
+						}
+					}
+				}
+				{
+					id: "13F5D2414559B11D"
+					type: "item"
+					item: {
+						id: "rftoolsutility:energy_module"
+						Count: 1b
+						tag: {
+							color: 255
+							monitorside: 5
+							monitorz: -32
+							monitordim: "minecraft:overworld"
+							align: "Right"
+							monitorname: "Powercell (High)"
+							showdiff: 0b
+							monitorx: 1
+							monitory: 66
+							text: "Powercell"
+							Damage: 0
+							showpct: 1b
+							hidetext: 0b
+						}
+					}
+				}
+				{
+					id: "20207142981990D4"
+					type: "item"
+					item: {
+						id: "rftoolsutility:energyplus_module"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "47E16A1AB0D31377"
+					type: "item"
+					item: {
+						id: "rftoolsutility:inventory_module"
+						Count: 1b
+						tag: {
+							slot2: 1
+							monitorname: "Chest"
+							slot1: 0
+							monitorz: -31
+							monitorx: 1
+							monitory: 65
+							monitordim: "minecraft:overworld"
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "549988500CEA8D4C"
+					type: "item"
+					item: {
+						id: "rftoolsutility:inventoryplus_module"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "23F55B86911246D0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			subtitle: "Creating blazing rods"
+			description: [
+				"With some energy, you will be able to craft some &6Blazing Rods&r"
+				""
+				"Just put 9 of them and those will be transformed"
+			]
+			dependencies: ["09623CE2AEBEB79E"]
+			id: "5E11075D1320A6B4"
+			tasks: [{
+				id: "1606B9C3FCB1CD7F"
+				type: "item"
+				item: "rftoolspower:blazing_agitator"
+			}]
+			rewards: [{
+				id: "31BFA5C1150F5A66"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			subtitle: "Infusing Blazing Rods"
+			description: [
+				"Once you have crafted the &6Blazing Rods&r you can infuse them with some &bDimensional Shards&r "
+				""
+				"Put one rod and shards and let the recipe do it's job."
+				""
+				"Once that is done this &bInfused&r &6Blazing Rod&r will generates more RF than a singular &6Blazing Rod&r"
+			]
+			dependencies: ["5E11075D1320A6B4"]
+			id: "54750913B1608A4E"
+			tasks: [{
+				id: "0EC88B6D7426810C"
+				type: "item"
+				item: "rftoolspower:blazing_infuser"
+			}]
+			rewards: [{
+				id: "234ABCE7787E731C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			subtitle: "Generates RF with &6Blazing Rods&r"
+			description: [
+				"So as we saw on the last quest,"
+				""
+				"Just pour your &bInfused &6Blazing Rods&r&r and generate some RF !"
+			]
+			dependencies: ["54750913B1608A4E"]
+			id: "368DE1001F1AFFA1"
+			tasks: [{
+				id: "3798CDE0163FEFFF"
+				type: "item"
+				item: "rftoolspower:blazing_generator"
+			}]
+			rewards: [{
+				id: "6B5C5AC0C380B8A2"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+	]
+}

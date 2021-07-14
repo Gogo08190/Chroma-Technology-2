@@ -1,0 +1,602 @@
+{
+	id: "60F22F59617B1E6F"
+	group: "674F2646E40CCF92"
+	order_index: 5
+	filename: "tinkers_construct"
+	title: "Tinkers' Construct"
+	icon: "tconstruct:smeltery_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -1.0d
+			shape: "octagon"
+			id: "31ABCF07DD7C10AB"
+			tasks: [{
+				id: "3FE85548410497B5"
+				type: "item"
+				item: "tconstruct:pattern"
+			}]
+			rewards: [{
+				id: "6451FB4B124BF6C9"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Tinkers' Bench"
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["31ABCF07DD7C10AB"]
+			id: "5ACA5C581C19187A"
+			tasks: [
+				{
+					id: "5533AFFF4804F56F"
+					type: "item"
+					item: {
+						id: "tconstruct:crafting_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "4A632C5561698A05"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "56B2CB6A210083F1"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "3835313E481FC79E"
+					type: "item"
+					item: "tconstruct:part_chest"
+				}
+			]
+			rewards: [{
+				id: "0CCC67837E2BBBE5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "First Tool"
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["5ACA5C581C19187A"]
+			id: "3D218B686676900B"
+			tasks: [
+				{
+					id: "004AD0A79B4D7AEB"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "3CE81083CB370E26"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "732EC207848AFC76"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5D1F6D1CA95B3073"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Improved Tool"
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["3D218B686676900B"]
+			id: "4929C78EAE90EB53"
+			tasks: [{
+				id: "06F0DBF07FAD59A9"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe_head"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:stone"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7D4654E08F8AAD28"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Grout"
+			x: 2.0d
+			y: -1.0d
+			shape: "octagon"
+			id: "31268A6A30E378ED"
+			tasks: [{
+				id: "07183EA905AA4E53"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 8L
+			}]
+			rewards: [{
+				id: "094212F1FDDB30EE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["31268A6A30E378ED"]
+			id: "133F8FDBF9A7B6BC"
+			tasks: [{
+				id: "1B03D14EF335047D"
+				type: "item"
+				item: "tconstruct:seared_brick"
+			}]
+			rewards: [{
+				id: "669D44CF6FF4FA9E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["133F8FDBF9A7B6BC"]
+			id: "1F65AD6F7DC0BAE8"
+			tasks: [{
+				id: "63109B9FA6276ED0"
+				type: "item"
+				item: "tconstruct:seared_heater"
+			}]
+			rewards: [{
+				id: "7ED0B4F807F074BA"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["1F65AD6F7DC0BAE8"]
+			id: "6095B48F384792F4"
+			tasks: [{
+				id: "51546322AADE5E34"
+				type: "item"
+				item: "tconstruct:seared_melter"
+			}]
+			rewards: [{
+				id: "311C065DD466ED1E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["6095B48F384792F4"]
+			id: "6EBA2163247EAEF4"
+			tasks: [{
+				id: "1722DBD93EBD92DF"
+				type: "item"
+				item: "tconstruct:seared_fuel_tank"
+			}]
+			rewards: [{
+				id: "0FC5BE68551CCD98"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["6095B48F384792F4"]
+			id: "4AE4B41405B005E4"
+			tasks: [{
+				id: "6E1D9E8246C0D3A5"
+				type: "item"
+				item: "tconstruct:seared_faucet"
+			}]
+			rewards: [{
+				id: "32C88869387BF542"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Tables and Basins"
+			x: 2.5d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["6095B48F384792F4"]
+			id: "50B33E3AF93D6329"
+			tasks: [
+				{
+					id: "05538DF9636E0FCC"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "3AF9B71A740D5270"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+			]
+			rewards: [{
+				id: "27537E660899B6AE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Seared Bricks"
+			x: 6.0d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["0F1EC2FFAEE234BD"]
+			id: "3E28F93B89C3EECD"
+			tasks: [{
+				id: "5ECB32862BBA6E08"
+				type: "item"
+				title: "Seared Bricks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:seared_bricks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5820A3447877FC61"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: ["50B33E3AF93D6329"]
+			id: "0F1EC2FFAEE234BD"
+			tasks: [{
+				id: "2695C1F263E5984F"
+				type: "item"
+				item: "tconstruct:smeltery_controller"
+			}]
+			rewards: [{
+				id: "7078DF63F9093F60"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["3E28F93B89C3EECD"]
+			id: "67215F091C4C17B3"
+			tasks: [{
+				id: "5B98BAEF5E591001"
+				type: "item"
+				item: "tconstruct:seared_chute"
+			}]
+			rewards: [{
+				id: "162B7C5EAB1C253E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["3E28F93B89C3EECD"]
+			id: "18A19E531F03BB52"
+			tasks: [{
+				id: "3F080511B6201A8D"
+				type: "item"
+				item: "tconstruct:seared_drain"
+			}]
+			rewards: [{
+				id: "7138BC7440124F17"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Sand Cast"
+			x: 6.0d
+			y: 2.0d
+			dependencies: ["3E28F93B89C3EECD"]
+			id: "6708EF69F6D364F0"
+			tasks: [{
+				id: "3F44BBC59519AB4D"
+				type: "item"
+				title: "Sand Cast"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:casts/single_use/blank"
+					}
+				}
+			}]
+			rewards: [{
+				id: "130DF8553001F367"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["6708EF69F6D364F0"]
+			id: "6D91BD95F43ED60B"
+			tasks: [{
+				id: "541B22DADAF2ECDF"
+				type: "item"
+				item: {
+					id: "tconstruct:tinkers_anvil"
+					Count: 1b
+					tag: {
+						texture: "tconstruct:tinkers_bronze_block"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3D07A58011E1BEA2"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			shape: "diamond"
+			id: "6A4D61A49021FA6C"
+			tasks: [{
+				id: "6F756A93DDC3DF7D"
+				type: "item"
+				item: {
+					id: "tconstruct:earth_slime_sling"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "56100556B050BEC9"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			shape: "diamond"
+			id: "1841996C88CE7475"
+			tasks: [{
+				id: "2139333F04C606DA"
+				type: "item"
+				item: "tconstruct:earth_slime_boots"
+			}]
+			rewards: [{
+				id: "78858DB76F222014"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			shape: "diamond"
+			id: "13AD3B646FAB15D3"
+			tasks: [{
+				id: "73D4F56087004464"
+				type: "item"
+				item: "tconstruct:piggy_backpack"
+			}]
+			rewards: [{
+				id: "54FBF5DEDEEB717D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"0F1EC2FFAEE234BD"
+				"291C44E44810338E"
+				"3CF78D943EC2415F"
+			]
+			id: "3EBB9CBD2F635A75"
+			tasks: [{
+				id: "3A7DB50D378BD6C4"
+				type: "item"
+				item: "tconstruct:foundry_controller"
+			}]
+			rewards: [{
+				id: "085205D1C5A4514B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			shape: "octagon"
+			id: "15CB2C072D54C31C"
+			tasks: [{
+				id: "61440D6F2144C35D"
+				type: "item"
+				item: "tconstruct:nether_grout"
+			}]
+			rewards: [{
+				id: "115C3ECFA6A0704C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["15CB2C072D54C31C"]
+			id: "291C44E44810338E"
+			tasks: [{
+				id: "772315087452C90A"
+				type: "item"
+				item: "tconstruct:scorched_brick"
+			}]
+			rewards: [{
+				id: "6A42E9626AF97E4C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Tables and Basins"
+			x: 10.5d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["3EBB9CBD2F635A75"]
+			id: "52B388AE17D8112B"
+			tasks: [
+				{
+					id: "690011F4CD7E55E8"
+					type: "item"
+					item: "tconstruct:scorched_basin"
+				}
+				{
+					id: "66DE40B83A99DE4A"
+					type: "item"
+					item: "tconstruct:scorched_table"
+				}
+			]
+			rewards: [{
+				id: "2123A4CAFD3BC4EE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["3EBB9CBD2F635A75"]
+			id: "50F0F2AAA2F76ACC"
+			tasks: [{
+				id: "57724E60A93EAA4F"
+				type: "item"
+				item: "tconstruct:scorched_fuel_tank"
+			}]
+			rewards: [{
+				id: "09E555CEC38DB507"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["3EBB9CBD2F635A75"]
+			id: "6051A759B46DEFB5"
+			tasks: [{
+				id: "4B0F9A5C58E3E13A"
+				type: "item"
+				item: "tconstruct:scorched_faucet"
+			}]
+			rewards: [{
+				id: "5D65BCC0B73B7E5C"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			dependencies: ["291C44E44810338E"]
+			id: "3CF78D943EC2415F"
+			tasks: [{
+				id: "129D0AB56C46A3E9"
+				type: "item"
+				item: "tconstruct:scorched_bricks"
+			}]
+			rewards: [{
+				id: "29C9569DC32B71DB"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: ["0F1EC2FFAEE234BD"]
+			size: 3.0d
+			id: "57CABF1593171BFD"
+			tasks: [{
+				id: "008668DDC8572DA1"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+			}]
+			rewards: [{
+				id: "4EAE30B0746C7A7E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+	]
+}

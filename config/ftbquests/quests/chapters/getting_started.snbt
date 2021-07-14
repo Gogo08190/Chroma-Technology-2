@@ -1,0 +1,370 @@
+{
+	id: "39A7FB1403A5E974"
+	group: "674F2646E40CCF92"
+	order_index: 1
+	filename: "getting_started"
+	title: "Getting Started"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -3.5d
+			shape: "octagon"
+			subtitle: "Starting basics"
+			dependencies: ["5C0C633D44AEFED9"]
+			id: "785F7763B06CA043"
+			tasks: [{
+				id: "1B5C0EA37FA80623"
+				type: "item"
+				title: "Logs"
+				icon: "minecraft:oak_log"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 32L
+			}]
+			rewards: [{
+				id: "0A4301D6718B8019"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 32
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			dependencies: ["785F7763B06CA043"]
+			id: "6691490B0E029268"
+			tasks: [{
+				id: "6461302C47AF4113"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [{
+				id: "7650B624BC3CC4EB"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			dependencies: ["785F7763B06CA043"]
+			id: "14497C92CAFBCD82"
+			tasks: [{
+				id: "029A4556D2880C5F"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 8L
+			}]
+			rewards: [{
+				id: "67EB4884C29E4B31"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["14497C92CAFBCD82"]
+			id: "1498AB5F7EB96658"
+			tasks: [{
+				id: "60306F1D43D0C8EE"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "2507B0CAC3868A8E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["1498AB5F7EB96658"]
+			id: "665C4124EF2EED68"
+			tasks: [{
+				id: "59C67C25CB831571"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+			rewards: [{
+				id: "5F7DAB4F914C6B6E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["1498AB5F7EB96658"]
+			id: "5AF73FE70F8B6CE2"
+			tasks: [{
+				id: "4DEE7DA7D2F13514"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+			rewards: [{
+				id: "433D4D238930DD7B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			dependencies: ["1498AB5F7EB96658"]
+			id: "47BA5DFD32622803"
+			tasks: [{
+				id: "25828073CA262D3F"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+			rewards: [{
+				id: "0C8A21BF68A90803"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			dependencies: ["47BA5DFD32622803"]
+			id: "0BA22ABEB3D65DE2"
+			tasks: [{
+				id: "468AD74E450DE002"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+			rewards: [{
+				id: "62620766D7F03BD4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			dependencies: ["0BA22ABEB3D65DE2"]
+			id: "5B3BBE4B58C16F35"
+			tasks: [{
+				id: "57CB98BFE4F2E168"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+			rewards: [{
+				id: "08679053284E784E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			dependencies: [
+				"0988763630748AED"
+				"5B3BBE4B58C16F35"
+			]
+			id: "76AC00A4CC0E1999"
+			tasks: [{
+				id: "0A9A8EE4ECBD0089"
+				type: "dimension"
+				title: "Visit Dimension : &4Nether"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "3E88E2F14501B037"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			dependencies: ["47BA5DFD32622803"]
+			id: "0988763630748AED"
+			tasks: [{
+				id: "0C499F43AEA5E483"
+				type: "item"
+				item: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2F11B13E132DC46D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["76AC00A4CC0E1999"]
+			id: "60EDDAA798C340C5"
+			tasks: [{
+				id: "2419AF6FE4922583"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+			rewards: [{
+				id: "075D4BE8BDD332E8"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			dependencies: ["60EDDAA798C340C5"]
+			id: "3C83FC6FC6AF5664"
+			tasks: [{
+				id: "5566F30D97C707FE"
+				type: "item"
+				item: "minecraft:ender_eye"
+			}]
+			rewards: [{
+				id: "1965AE5531511276"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			dependencies: ["61D62087F74D1130"]
+			id: "2CB2CBF1D288A844"
+			tasks: [{
+				id: "33DFA2968BE2741E"
+				type: "item"
+				item: "minecraft:end_stone"
+			}]
+			rewards: [{
+				id: "3A7B7AA5E2C515FF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			dependencies: ["76AC00A4CC0E1999"]
+			id: "15A6CF65FC8F2742"
+			tasks: [{
+				id: "3E541D5720413B2C"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
+			rewards: [{
+				id: "181458E07C655214"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			dependencies: ["3C83FC6FC6AF5664"]
+			id: "61D62087F74D1130"
+			tasks: [{
+				id: "21497095EEFE706E"
+				type: "dimension"
+				title: "Visit Dimension : &dThe End"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "43396FB044465F8B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			dependencies: ["61D62087F74D1130"]
+			id: "7AF5363753DEF27B"
+			tasks: [{
+				id: "4B023AB20431CEE3"
+				type: "item"
+				item: "minecraft:purpur_block"
+			}]
+			rewards: [{
+				id: "237C6EB88EC82E06"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["6691490B0E029268"]
+			id: "3348C57BA6BD5C7F"
+			tasks: [{
+				id: "0AF0AEE17327A193"
+				type: "item"
+				item: "vanillatweaks:pad"
+			}]
+			rewards: [{
+				id: "7974812ED6671BCF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			shape: "gear"
+			description: ["Creating the teleporter allow you to visit a dimension that only consists of caves !"]
+			hide_dependency_lines: true
+			dependencies: [
+				"785F7763B06CA043"
+				"14497C92CAFBCD82"
+			]
+			size: 1.2d
+			id: "22216C516D42C2E4"
+			tasks: [{
+				id: "2D507AD17B6CEC23"
+				type: "item"
+				item: "mining_dimension:teleporter"
+			}]
+			rewards: [{
+				id: "2DF2D5534A5E645F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.5d
+			shape: "gear"
+			dependencies: ["44B65CC1F3AA0296"]
+			id: "7BB2F53904170212"
+			tasks: [{
+				id: "211EA97C53E009D1"
+				type: "item"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "41F6C04BB124DF50"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+	]
+}

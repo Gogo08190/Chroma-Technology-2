@@ -1,0 +1,144 @@
+{
+	id: "587E48F539156A36"
+	order_index: 2
+	title: "Singularities"
+	icon: "extendedcrafting:ultimate_singularity"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:glowstone"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:electrum"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:invar"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:iron"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:lead"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:bronze"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:nickel"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:steel"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:emerald"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:aluminum"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:silver"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:tin"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:copper"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:diamond"
+				}
+			}
+		}
+		{
+			item: {
+				id: "extendedcrafting:singularity"
+				Count: 1b
+				tag: {
+					Id: "extendedcrafting:platinum"
+				}
+			}
+		}
+	]
+}

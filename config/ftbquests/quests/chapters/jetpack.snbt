@@ -1,0 +1,803 @@
+{
+	id: "70902B97F3A6964E"
+	group: "6717F1A631FB3B83"
+	order_index: 1
+	filename: "jetpack"
+	title: "Jetpack"
+	icon: "simplyjetpacks:jetpack_creative"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["0F7B53DE6C38BD6D"]
+			id: "5BF26E440AA0A37C"
+			tasks: [{
+				id: "741E9D438BF1DBBD"
+				type: "item"
+				item: "simplyjetpacks:thruster_ie1"
+			}]
+			rewards: [{
+				id: "0F2E1B42E57CF369"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["5BF26E440AA0A37C"]
+			id: "783E0C66A547329A"
+			tasks: [{
+				id: "0397DB72CBF236A9"
+				type: "item"
+				item: "simplyjetpacks:jetpack_ie1"
+			}]
+			rewards: [{
+				id: "3B759F648B54FA61"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["5BF26E440AA0A37C"]
+			id: "55D9EFC3EAD530D5"
+			tasks: [{
+				id: "0BEAAE5EF9828D40"
+				type: "item"
+				item: "simplyjetpacks:thruster_ie2"
+			}]
+			rewards: [{
+				id: "754FDE76A666290D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["55D9EFC3EAD530D5"]
+			id: "01DB7960EEEF9341"
+			tasks: [{
+				id: "02712DD56BA2C4A0"
+				type: "item"
+				item: "simplyjetpacks:jetpack_ie2"
+			}]
+			rewards: [{
+				id: "5ABA76C8BEA1FDC2"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["55D9EFC3EAD530D5"]
+			id: "7CA9339D079FD44E"
+			tasks: [{
+				id: "2DBDC43165555294"
+				type: "item"
+				item: "simplyjetpacks:thruster_ie3"
+			}]
+			rewards: [{
+				id: "4E4E679FD7C73C93"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["7CA9339D079FD44E"]
+			id: "72E14DC678504527"
+			tasks: [{
+				id: "6D6EC5435A8AC0C7"
+				type: "item"
+				item: "simplyjetpacks:jetpack_ie3"
+			}]
+			rewards: [{
+				id: "430168E53B4CC9EC"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			dependencies: ["04288C5CF1BA4BE3"]
+			id: "6452CB2AD9DA1F48"
+			tasks: [{
+				id: "189D14DC63330586"
+				type: "item"
+				item: "simplyjetpacks:armorplating_ie1"
+			}]
+			rewards: [{
+				id: "7AFD1E5C5F879ECF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			dependencies: ["199D01B97275C878"]
+			id: "721C1D46416860C3"
+			tasks: [{
+				id: "70055A7D427BD259"
+				type: "item"
+				item: "simplyjetpacks:armorplating_ie2"
+			}]
+			rewards: [{
+				id: "1EF109E7863BBE5D"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			dependencies: ["0341C2453C2A59D8"]
+			id: "789B400534836BE0"
+			tasks: [{
+				id: "494F7E2074A3267E"
+				type: "item"
+				item: "simplyjetpacks:armorplating_ie3"
+			}]
+			rewards: [{
+				id: "621FE888AE8D2AC6"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: [
+				"783E0C66A547329A"
+				"6452CB2AD9DA1F48"
+			]
+			id: "3A11A7ADEF61F6D5"
+			tasks: [{
+				id: "33BF981FF55B5A3E"
+				type: "item"
+				item: "simplyjetpacks:jetpack_ie1_armored"
+			}]
+			rewards: [{
+				id: "37591029630A4F91"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			dependencies: [
+				"01DB7960EEEF9341"
+				"721C1D46416860C3"
+			]
+			id: "681A28D0E319B88A"
+			tasks: [{
+				id: "0B155F164CA78385"
+				type: "item"
+				item: "simplyjetpacks:jetpack_ie2_armored"
+			}]
+			rewards: [{
+				id: "51880DC730C8156B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			dependencies: [
+				"72E14DC678504527"
+				"789B400534836BE0"
+			]
+			id: "78A27F1B133461A3"
+			tasks: [{
+				id: "445BC13911DA3015"
+				type: "item"
+				item: "simplyjetpacks:jetpack_ie3_armored"
+			}]
+			rewards: [{
+				id: "2A0F13987AA647DE"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: [
+				"63A82002A0B61C29"
+				"59BACDF85CF0148A"
+				"5419C1AA3EE605F2"
+			]
+			id: "38005B62D89CA4B4"
+			tasks: [{
+				id: "7F30B75BD98B1688"
+				type: "item"
+				item: "simplyjetpacks:thruster_mek1"
+			}]
+			rewards: [{
+				id: "179F43B26EF88279"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["38005B62D89CA4B4"]
+			id: "62796E0574B2DF7F"
+			tasks: [{
+				id: "5EEAB477D886C9A1"
+				type: "item"
+				item: "simplyjetpacks:thruster_mek2"
+			}]
+			rewards: [{
+				id: "39871F12BA66B3E1"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["62796E0574B2DF7F"]
+			id: "2756FB9CFC9741F4"
+			tasks: [{
+				id: "14FFB0519814D21D"
+				type: "item"
+				item: "simplyjetpacks:thruster_mek3"
+			}]
+			rewards: [{
+				id: "3F47CA4D2FC7B8B8"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["2756FB9CFC9741F4"]
+			id: "5189B81724EB5F4E"
+			tasks: [{
+				id: "3F49023B0C5DBF4A"
+				type: "item"
+				item: "simplyjetpacks:thruster_mek4"
+			}]
+			rewards: [{
+				id: "451AD27A847414E3"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			dependencies: ["38005B62D89CA4B4"]
+			id: "56BD56112614047A"
+			tasks: [{
+				id: "14211341D13406B1"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek1"
+			}]
+			rewards: [{
+				id: "2076B94D767EC6C4"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["62796E0574B2DF7F"]
+			id: "1F8D69BFC5C6AADE"
+			tasks: [{
+				id: "54B9287738F7C37E"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek2"
+			}]
+			rewards: [{
+				id: "5888D6220BE68123"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			dependencies: ["2756FB9CFC9741F4"]
+			id: "0B5C5358DCE0DE4A"
+			tasks: [{
+				id: "35137555D8978E0A"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek3"
+			}]
+			rewards: [{
+				id: "64D12F31044F9ACA"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			dependencies: ["5189B81724EB5F4E"]
+			id: "70E8C002E1EF0125"
+			tasks: [{
+				id: "5F923BF095D17A09"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek4"
+			}]
+			rewards: [{
+				id: "3DD94529647BB93E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			dependencies: [
+				"56BD56112614047A"
+				"718C4F06F8BC3E14"
+			]
+			id: "3FA52B125C2DBD3E"
+			tasks: [{
+				id: "6C24BA503F5F4141"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek1_armored"
+			}]
+			rewards: [{
+				id: "2ACCD897680C9228"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			dependencies: [
+				"1F8D69BFC5C6AADE"
+				"16B4C3A82A2EC149"
+			]
+			id: "03C7C46382CAD8DB"
+			tasks: [{
+				id: "745088A2F034B6A3"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek2_armored"
+			}]
+			rewards: [{
+				id: "681C7BA0B5F9A0A3"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			dependencies: [
+				"0B5C5358DCE0DE4A"
+				"2E97B28A450D48BC"
+			]
+			id: "789AEA74A5B11411"
+			tasks: [{
+				id: "75463CEB037F3441"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek3_armored"
+			}]
+			rewards: [{
+				id: "34D1D98890945E0C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.5d
+			dependencies: [
+				"70E8C002E1EF0125"
+				"68EADAA74393D523"
+			]
+			id: "0BC4BD562C194A27"
+			tasks: [{
+				id: "5A734ABA3149EB3A"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek4_armored"
+			}]
+			rewards: [{
+				id: "6F02112E3E65EEC6"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			dependencies: ["59BACDF85CF0148A"]
+			id: "718C4F06F8BC3E14"
+			tasks: [{
+				id: "5091447E59D04941"
+				type: "item"
+				item: "simplyjetpacks:armorplating_mek1"
+			}]
+			rewards: [{
+				id: "5B3603771F0B483D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			dependencies: ["25E926109C6DC5F0"]
+			id: "16B4C3A82A2EC149"
+			tasks: [{
+				id: "23E303F7B75C447C"
+				type: "item"
+				item: "simplyjetpacks:armorplating_mek2"
+			}]
+			rewards: [{
+				id: "01B5FB576978D52C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.0d
+			dependencies: ["6083CEBD7FF77D03"]
+			id: "2E97B28A450D48BC"
+			tasks: [{
+				id: "40C778E42F29356B"
+				type: "item"
+				item: "simplyjetpacks:armorplating_mek3"
+			}]
+			rewards: [{
+				id: "2422FCA8F7F75937"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.0d
+			dependencies: ["7DC080E18C7BD061"]
+			id: "68EADAA74393D523"
+			tasks: [{
+				id: "5148CD9EF2401082"
+				type: "item"
+				item: "simplyjetpacks:armorplating_mek4"
+			}]
+			rewards: [{
+				id: "7E471EDFCBEA211E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			dependencies: [
+				"1A872B4EA72C7D99"
+				"1FEC1980227E337C"
+			]
+			id: "030993F2414CF7FE"
+			tasks: [{
+				id: "3DDB7C4568C3B196"
+				type: "item"
+				item: "simplyjetpacks:thruster_te1"
+			}]
+			rewards: [{
+				id: "1BA8D3888BD79679"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			dependencies: ["030993F2414CF7FE"]
+			id: "64148CD3A7DA68F4"
+			tasks: [{
+				id: "04AFBAC060070427"
+				type: "item"
+				item: "simplyjetpacks:thruster_te2"
+			}]
+			rewards: [{
+				id: "667A2A2ABD97164E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.0d
+			dependencies: ["64148CD3A7DA68F4"]
+			id: "5E1B98A9B3EAD55A"
+			tasks: [{
+				id: "2FCC46E45BE263D0"
+				type: "item"
+				item: "simplyjetpacks:thruster_te3"
+			}]
+			rewards: [{
+				id: "71B3F7B42C872655"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			dependencies: ["5E1B98A9B3EAD55A"]
+			id: "63B15DAAF0E65657"
+			tasks: [{
+				id: "14832F6BDDC2FC1C"
+				type: "item"
+				item: "simplyjetpacks:thruster_te4"
+			}]
+			rewards: [{
+				id: "41C297D846D9E5CE"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.0d
+			dependencies: ["63B15DAAF0E65657"]
+			id: "44A1356893F25D4E"
+			tasks: [{
+				id: "44244C5A14C2011C"
+				type: "item"
+				item: "simplyjetpacks:thruster_te5"
+			}]
+			rewards: [{
+				id: "1484BC096B28E40F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			dependencies: [
+				"7A5FAA81EC666B6E"
+				"7ED1530AD26D29F4"
+			]
+			id: "2716F91088C9E666"
+			tasks: [{
+				id: "056609CAB3484F5B"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te1_armored"
+			}]
+			rewards: [{
+				id: "59F4CF6F0C0F194D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			dependencies: [
+				"14C2E35088431604"
+				"4DDEBC59A4FEDE43"
+			]
+			id: "6F3222D254DCDEAF"
+			tasks: [{
+				id: "787E2DB565DA7F38"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te2_armored"
+			}]
+			rewards: [{
+				id: "000978F59A249F19"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			dependencies: [
+				"5DCDFCF50369940E"
+				"124BD376A1746147"
+			]
+			id: "79A2381F8DA960CC"
+			tasks: [{
+				id: "5A28945589303A06"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te3_armored"
+			}]
+			rewards: [{
+				id: "6D3C0AC07D2DB07E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			dependencies: [
+				"7E9EEF837D4C9752"
+				"7F163ED424D89791"
+			]
+			id: "391E829F4D6887E9"
+			tasks: [{
+				id: "2E380A14B1498EB4"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te4_armored"
+			}]
+			rewards: [{
+				id: "6540B6E6B7DE8C0E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			dependencies: ["44A1356893F25D4E"]
+			id: "76134A7827A3425B"
+			tasks: [{
+				id: "03B7DE66D50A9B0A"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te5"
+			}]
+			rewards: [
+				{
+					id: "4E66560900AE32ED"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+				{
+					id: "397326CC1C94AAB2"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "simplyjetpacks:fuel_efficiency"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			id: "7A5FAA81EC666B6E"
+			tasks: [{
+				id: "42615F44EBED8F98"
+				type: "item"
+				item: "simplyjetpacks:armorplating_te1"
+			}]
+			rewards: [{
+				id: "38A3C5B551437AC3"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["550BDFBC2857D5FD"]
+			id: "14C2E35088431604"
+			tasks: [{
+				id: "76EE3E21F461A367"
+				type: "item"
+				item: "simplyjetpacks:armorplating_te2"
+			}]
+			rewards: [{
+				id: "178328DD18D4B94C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			dependencies: ["550BDFBC2857D5FD"]
+			id: "5DCDFCF50369940E"
+			tasks: [{
+				id: "0B65D04B4149DBDB"
+				type: "item"
+				item: "simplyjetpacks:armorplating_te3"
+			}]
+			rewards: [{
+				id: "2738E1484CBFC1BE"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			dependencies: ["550BDFBC2857D5FD"]
+			id: "7E9EEF837D4C9752"
+			tasks: [{
+				id: "4B04E8DD451E02AA"
+				type: "item"
+				item: "simplyjetpacks:armorplating_te4"
+			}]
+			rewards: [{
+				id: "24EE5ECF62F8C27B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			dependencies: ["030993F2414CF7FE"]
+			id: "7ED1530AD26D29F4"
+			tasks: [{
+				id: "11AB73A4CF118D79"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te1"
+			}]
+			rewards: [{
+				id: "4AF202A4183D16F9"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["64148CD3A7DA68F4"]
+			id: "4DDEBC59A4FEDE43"
+			tasks: [{
+				id: "661363AEF03F5459"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te2"
+			}]
+			rewards: [{
+				id: "42C5CBED43791C6B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			dependencies: ["5E1B98A9B3EAD55A"]
+			id: "124BD376A1746147"
+			tasks: [{
+				id: "53E3C9AC10874D5D"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te3"
+			}]
+			rewards: [{
+				id: "7978598F3798DB03"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			dependencies: ["63B15DAAF0E65657"]
+			id: "7F163ED424D89791"
+			tasks: [{
+				id: "00412EE857F68EB8"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te4"
+			}]
+			rewards: [{
+				id: "3E690FD61ED47FBA"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+	]
+}
