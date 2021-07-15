@@ -278,6 +278,9 @@ events.listen('jei.hide.items', function (event) {
   event.hide('extrastorage:block_262144k_fluid')
   event.hide('extrastorage:block_1048576k_fluid')
 
+  // KubeJS
+  event.hide('kubejs:vous_verrez_en_temps_voulu')
+
   // Refined Storage
   event.hide('refinedstorage:external_storage')
 
