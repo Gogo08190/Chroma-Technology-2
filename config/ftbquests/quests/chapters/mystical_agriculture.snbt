@@ -1,7 +1,7 @@
 {
 	id: "0B9927455580450E"
 	group: "1D8552F8A45BF753"
-	order_index: 4
+	order_index: 5
 	filename: "mystical_agriculture"
 	title: "Mystical agriculture"
 	icon: "mysticalagriculture:master_infusion_crystal"
@@ -16,6 +16,11 @@
 				id: "64BD4152CF670D8B"
 				type: "item"
 				item: "mysticalagriculture:inferium_essence"
+			}]
+			rewards: [{
+				id: "0DA9F138CF88B2E4"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{

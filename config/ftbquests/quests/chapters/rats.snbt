@@ -18,6 +18,11 @@
 				type: "item"
 				item: "rats:trash_can"
 			}]
+			rewards: [{
+				id: "22AA9FAE53A6FDB3"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 0.0d
@@ -29,6 +34,11 @@
 				id: "346CA61B7C572B75"
 				type: "item"
 				item: "rats:garbage_pile"
+			}]
+			rewards: [{
+				id: "27F9FE3375803C55"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -42,6 +52,11 @@
 				advancement: "rats:rats/tame_rat"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "29BC0D83B63DAE6D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 7.0d
@@ -54,6 +69,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_biplane_mount"
 			}]
+			rewards: [{
+				id: "5B1077D27071DFD7"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -4.0d
@@ -65,6 +85,11 @@
 				id: "7E92F14E63897160"
 				type: "item"
 				item: "rats:rat_upgrade_chef"
+			}]
+			rewards: [{
+				id: "203866DC4A17486D"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -81,6 +106,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_nonbeliever"
 			}]
+			rewards: [{
+				id: "7D955671552C4AE2"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: 7.5d
@@ -92,6 +122,11 @@
 				id: "70BE805DF1F1481C"
 				type: "item"
 				item: "rats:rat_upgrade_ethereal"
+			}]
+			rewards: [{
+				id: "7917E4A06F3A1613"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -105,6 +140,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_psychic"
 			}]
+			rewards: [{
+				id: "5DB4D85DD974E880"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: 6.0d
@@ -116,6 +156,11 @@
 				id: "01CF8BCEE4B891FC"
 				type: "item"
 				item: "rats:rat_upgrade_ratinator"
+			}]
+			rewards: [{
+				id: "3C98DA753DB864E4"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -129,6 +174,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_buccaneer"
 			}]
+			rewards: [{
+				id: "234A635E6E22EDB4"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -3.5d
@@ -140,6 +190,11 @@
 				id: "16D09825206105D8"
 				type: "item"
 				item: "rats:rat_upgrade_flight"
+			}]
+			rewards: [{
+				id: "1644694016BCF29A"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -159,6 +214,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "294D35478C88A73A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -3.0d
@@ -170,6 +230,11 @@
 				id: "633F9BA53EDA0637"
 				type: "item"
 				item: "rats:rat_upgrade_beast_mount"
+			}]
+			rewards: [{
+				id: "2B03C835911B548F"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -189,6 +254,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4B458602F8C9991A"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -4.5d
@@ -200,6 +270,11 @@
 				id: "749B392F5EC46E83"
 				type: "item"
 				item: "rats:rat_upgrade_angel"
+			}]
+			rewards: [{
+				id: "2515D4B9CDC25045"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -213,6 +288,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_christmas"
 			}]
+			rewards: [{
+				id: "29439E1FD514B2B6"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: -3.5d
@@ -224,7 +304,11 @@
 				id: "6328B5CC41FB5CB5"
 				type: "item"
 				item: "rats:rat_upgrade_tick_accelerator"
-				count: 6L
+			}]
+			rewards: [{
+				id: "23FAC6DDADBCC999"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -238,6 +322,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_carrat"
 			}]
+			rewards: [{
+				id: "6BE8B43587E1E80F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: -8.0d
@@ -249,6 +338,11 @@
 				id: "0882DFF2F99645C7"
 				type: "item"
 				item: "rats:rat_upgrade_bee"
+			}]
+			rewards: [{
+				id: "4354FEE8F0CAB4B6"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -264,6 +358,11 @@
 				id: "7D61AB0565881042"
 				type: "item"
 				item: "rats:air_raid_siren"
+			}]
+			rewards: [{
+				id: "446DAFA235078C52"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -286,6 +385,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "47B0D27E0DC7F74D"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -4.0d
@@ -297,6 +401,11 @@
 				id: "57AF4155CF253D1A"
 				type: "item"
 				item: "rats:rat_upgrade_golem_mount"
+			}]
+			rewards: [{
+				id: "5F27E33D1F95A636"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -310,6 +419,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_milker"
 			}]
+			rewards: [{
+				id: "08FD5A588C21236F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 4.5d
@@ -321,6 +435,11 @@
 				id: "4D3A165F898CE976"
 				type: "item"
 				item: "rats:rat_upgrade_feral_bite"
+			}]
+			rewards: [{
+				id: "69C94889DD42AA6D"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -334,6 +453,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_quarry"
 			}]
+			rewards: [{
+				id: "3B60769691E79AAC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: -4.5d
@@ -345,6 +469,11 @@
 				id: "305EC40F1884C15D"
 				type: "item"
 				item: "rats:rat_upgrade_chicken_mount"
+			}]
+			rewards: [{
+				id: "527845B2DBE45D3A"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -367,6 +496,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "51CAB2BB93FE586C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -7.5d
@@ -379,6 +513,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_bow"
 			}]
+			rewards: [{
+				id: "2E4D99C70AAFC26F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: -8.0d
@@ -389,6 +528,11 @@
 				id: "5FDAA5AB01396413"
 				type: "item"
 				item: "rats:auto_curdler"
+			}]
+			rewards: [{
+				id: "46C0C8E6853D043F"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -401,6 +545,11 @@
 				id: "2938B7199C3BE261"
 				type: "item"
 				item: "rats:rat_upgrade_god"
+			}]
+			rewards: [{
+				id: "7A3CF8E8A247FA42"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -418,6 +567,11 @@
 				type: "item"
 				item: "rats:ratlantis_rat_skull"
 			}]
+			rewards: [{
+				id: "394E0301DDC954DD"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: 4.0d
@@ -429,6 +583,11 @@
 				id: "6772C12F71293635"
 				type: "item"
 				item: "rats:rat_upgrade_archeologist"
+			}]
+			rewards: [{
+				id: "31D8F3AF9270819C"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -442,6 +601,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_strider_mount"
 			}]
+			rewards: [{
+				id: "4749A89C870A2EB4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: -8.5d
@@ -453,6 +617,11 @@
 				id: "7EACE55C979E5FCC"
 				type: "item"
 				item: "rats:rat_upgrade_voodoo"
+			}]
+			rewards: [{
+				id: "2CAE059FEB4D5C9C"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -466,6 +635,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_undead"
 			}]
+			rewards: [{
+				id: "1D9BD5E8088A0787"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: -6.0d
@@ -477,6 +651,11 @@
 				id: "4A4DE665299266EB"
 				type: "item"
 				item: "rats:rat_upgrade_aristocrat"
+			}]
+			rewards: [{
+				id: "15F6FAE0DE4F09D6"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -490,6 +669,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_demon"
 			}]
+			rewards: [{
+				id: "0B1C8685145B9A00"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: -5.0d
@@ -502,6 +686,11 @@
 				type: "item"
 				item: "rats:rat_upgrade_shears"
 			}]
+			rewards: [{
+				id: "1DEFE1FCED447CE0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: -5.5d
@@ -513,6 +702,11 @@
 				id: "2DDAC323108DA3C1"
 				type: "item"
 				item: "rats:rat_upgrade_dragon"
+			}]
+			rewards: [{
+				id: "39B45EB769334514"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -535,6 +729,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3F199915087BA675"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: 3.0d
@@ -553,6 +752,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4771F9D4313D5FAA"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -7.5d
@@ -564,6 +768,11 @@
 				id: "4F12B66F31E047E0"
 				type: "item"
 				item: "rats:rat_upgrade_crossbow"
+			}]
+			rewards: [{
+				id: "21E14FB60EF1C822"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -586,6 +795,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2839FD75EEDCE448"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -6.5d
@@ -597,7 +811,11 @@
 				id: "6F986ADEAD0452DA"
 				type: "item"
 				item: "rats:rat_upgrade_tick_accelerator"
-				count: 4L
+			}]
+			rewards: [{
+				id: "4EEC9170F771C047"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -617,6 +835,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "36E20C2ABACCC142"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 4.0d
@@ -629,6 +852,11 @@
 				id: "6229414C4CA1F3E0"
 				type: "item"
 				item: "rats:oratchalcum_ingot"
+			}]
+			rewards: [{
+				id: "074881D554DD2F24"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -653,6 +881,11 @@
 					dimension: "rats:ratlantis"
 				}
 			]
+			rewards: [{
+				id: "60B348A0E98EB7A0"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -0.5d
@@ -669,6 +902,11 @@
 				type: "advancement"
 				advancement: "rats:ratlantis/defeat_rat_baron"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "452E92689D6729C8"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -702,6 +940,11 @@
 					item: "rats:marbled_cheese_raw"
 				}
 			]
+			rewards: [{
+				id: "4FD1B26B2CEBE096"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -0.5d
@@ -715,6 +958,11 @@
 				type: "advancement"
 				advancement: "rats:ratlantis/defeat_dutchrat"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "62D94CC373EB76CF"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -737,6 +985,11 @@
 					item: "rats:vial_of_sentience"
 				}
 			]
+			rewards: [{
+				id: "511AFE5BB0B275DB"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -0.5d
@@ -750,6 +1003,11 @@
 				advancement: "rats:ratlantis/ratlantean_ratbot"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "198C201DB0B1E1AB"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -2.0d
@@ -762,6 +1020,11 @@
 				advancement: "rats:rats/defeat_black_death"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "56E22764CAA86184"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: 1.0d
@@ -773,6 +1036,11 @@
 				type: "advancement"
 				advancement: "rats:rats/defeat_rat_king"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "1266DDDDE6451E4F"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -805,6 +1073,11 @@
 				id: "46D6A05DBC911519"
 				type: "item"
 				item: "rats:rat_upgrade_lumberjack"
+			}]
+			rewards: [{
+				id: "017603D46093F22C"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 	]

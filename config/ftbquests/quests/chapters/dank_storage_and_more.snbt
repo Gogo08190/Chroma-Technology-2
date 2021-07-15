@@ -190,6 +190,13 @@
 			x: -7.0d
 			y: -3.5d
 			shape: "gear"
+			dependencies: [
+				"14FD722B6ABD01FB"
+				"372003A137091C76"
+				"3174FD155FEE226D"
+				"4B6FB8FDBE84C131"
+				"57C3937E02FCF9F1"
+			]
 			id: "1D7FFF8B7BE65BCE"
 			tasks: [{
 				id: "2529971E911B4CAA"
@@ -207,12 +214,44 @@
 			y: -5.5d
 			shape: "square"
 			hide_dependency_lines: true
-			dependencies: ["1D7FFF8B7BE65BCE"]
+			dependencies: ["6B73A9F7DE164460"]
 			id: "4B6FB8FDBE84C131"
 			tasks: [{
 				id: "5F820677B353A6F1"
 				type: "item"
-				item: "storagedrawers:oak_full_drawers_1"
+				title: "Drawers"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "storagedrawers:oak_full_drawers_1"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:spruce_full_drawers_1"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:birch_full_drawers_1"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:jungle_full_drawers_1"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:acacia_full_drawers_1"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:dark_oak_full_drawers_1"
+								Count: 1b
+							}
+						]
+					}
+				}
 			}]
 			rewards: [{
 				id: "15F94BB92EF85FE0"
@@ -225,12 +264,44 @@
 			y: -5.5d
 			shape: "square"
 			hide_dependency_lines: true
-			dependencies: ["1D7FFF8B7BE65BCE"]
+			dependencies: ["6B73A9F7DE164460"]
 			id: "3174FD155FEE226D"
 			tasks: [{
 				id: "6E8A554B0A33BB41"
 				type: "item"
-				item: "storagedrawers:oak_full_drawers_2"
+				title: "Drawers 1x2"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "storagedrawers:oak_full_drawers_2"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:spruce_full_drawers_2"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:birch_full_drawers_2"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:jungle_full_drawers_2"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:acacia_full_drawers_2"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:dark_oak_full_drawers_2"
+								Count: 1b
+							}
+						]
+					}
+				}
 			}]
 			rewards: [{
 				id: "1B2D0074E114A2CD"
@@ -243,12 +314,44 @@
 			y: -4.5d
 			shape: "square"
 			hide_dependency_lines: true
-			dependencies: ["1D7FFF8B7BE65BCE"]
+			dependencies: ["6B73A9F7DE164460"]
 			id: "57C3937E02FCF9F1"
 			tasks: [{
 				id: "0D4130D139058EC8"
 				type: "item"
-				item: "storagedrawers:oak_full_drawers_4"
+				title: "Drawers 2x2"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "storagedrawers:oak_full_drawers_4"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:spruce_full_drawers_4"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:birch_full_drawers_4"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:jungle_full_drawers_4"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:acacia_full_drawers_4"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:dark_oak_full_drawers_4"
+								Count: 1b
+							}
+						]
+					}
+				}
 			}]
 			rewards: [{
 				id: "4D91E74A17BC5A40"
@@ -499,7 +602,7 @@
 			y: -2.5d
 			shape: "square"
 			hide_dependency_lines: true
-			dependencies: ["1D7FFF8B7BE65BCE"]
+			dependencies: ["4B6FB8FDBE84C131"]
 			id: "372003A137091C76"
 			tasks: [{
 				id: "6895CFB4A4452F14"
@@ -517,7 +620,7 @@
 			y: -4.5d
 			shape: "square"
 			hide_dependency_lines: true
-			dependencies: ["1D7FFF8B7BE65BCE"]
+			dependencies: ["4B6FB8FDBE84C131"]
 			id: "14FD722B6ABD01FB"
 			tasks: [{
 				id: "4A2A2EE56EB33E4A"
@@ -637,7 +740,10 @@
 			x: -2.0d
 			y: -9.0d
 			shape: "rsquare"
-			dependencies: ["6B73A9F7DE164460"]
+			dependencies: [
+				"6B73A9F7DE164460"
+				"60EDDAA798C340C5"
+			]
 			id: "0CA05F12532600E5"
 			tasks: [{
 				id: "4148F3C36C8EA202"
@@ -677,6 +783,7 @@
 			x: -2.0d
 			y: -8.0d
 			shape: "rsquare"
+			dependencies: ["60EDDAA798C340C5"]
 			id: "62DBC32316AE89B7"
 			tasks: [{
 				id: "1693E02D2DDC182C"
@@ -687,6 +794,83 @@
 				id: "7CD019820B7DE314"
 				type: "loot"
 				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -8.5d
+			y: -7.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6B73A9F7DE164460"]
+			id: "793878D2E05475E7"
+			tasks: [{
+				id: "504070EA85916A64"
+				type: "item"
+				item: {
+					id: "simplybackpacks:commonbackpack"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: -7.5d
+			shape: "square"
+			dependencies: ["793878D2E05475E7"]
+			id: "5C27A05F38053888"
+			tasks: [{
+				id: "2EC7BEC27C802026"
+				type: "item"
+				item: {
+					id: "simplybackpacks:uncommonbackpack"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -7.5d
+			shape: "square"
+			dependencies: ["5C27A05F38053888"]
+			id: "3C1895206D87D4B3"
+			tasks: [{
+				id: "3FAAAF80E1F04F5C"
+				type: "item"
+				item: {
+					id: "simplybackpacks:rarebackpack"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -7.5d
+			shape: "square"
+			dependencies: ["3C1895206D87D4B3"]
+			id: "1586D50EB8C46699"
+			tasks: [{
+				id: "108532D989F4A7DC"
+				type: "item"
+				item: {
+					id: "simplybackpacks:epicbackpack"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
 			}]
 		}
 	]

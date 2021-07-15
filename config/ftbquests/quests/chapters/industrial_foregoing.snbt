@@ -35,7 +35,6 @@
 			x: 0.0d
 			y: -3.0d
 			shape: "diamond"
-			description: [""]
 			hide_dependency_lines: true
 			dependencies: [
 				"63B23FA7CF83536B"

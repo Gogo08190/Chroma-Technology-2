@@ -14,7 +14,7 @@
 			y: -1.0d
 			shape: "rsquare"
 			description: [
-				"Welcome to &bChroma Technology 2 !&r"
+				"Welcome to &bChroma Technology II !&r"
 				""
 				"This modpack is a mixed pack with &a&nExploration&r, &a&nMagic&r and &a&nTech&r."
 				""
@@ -27,7 +27,7 @@
 			tasks: [{
 				id: "5EC4370D86132FA1"
 				type: "checkmark"
-				title: "Chroma Technology 2"
+				title: "Chroma Technology II"
 			}]
 		}
 		{
@@ -68,8 +68,8 @@
 				Count: 1b
 				tag: { }
 			}
-			x: 0.0d
-			y: 1.0d
+			x: -1.5d
+			y: 0.75d
 			shape: "diamond"
 			description: [
 				"You're able to &bclaim chunks&f to protect your base(s). Just click the map icon that is located in the top left corner in your inventory."
@@ -138,6 +138,100 @@
 				type: "xp"
 				xp: 100
 			}]
+		}
+		{
+			icon: "cyclic:heart"
+			x: 1.5d
+			y: 0.75d
+			shape: "diamond"
+			subtitle: "Spice of Life"
+			description: [
+				"As you saw, when you start &5Chroma Technology II&r there is a little suprise."
+				"Indeed you start with only 5 hearts and not 10. "
+				"But don't worry eating healthy might be a good solution to have more hearts."
+			]
+			dependencies: ["5C0C633D44AEFED9"]
+			size: 1.5d
+			id: "2B2CEF1921D77CE5"
+			tasks: [{
+				id: "2C5AE5326A47EE3C"
+				type: "checkmark"
+				title: "Life"
+			}]
+			rewards: [
+				{
+					id: "51F00FDB2705AD15"
+					type: "item"
+					item: {
+						id: "minecraft:leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "65664D3FEFCBAC32"
+					type: "item"
+					item: {
+						id: "minecraft:leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7B7BB9168A622E92"
+					type: "item"
+					item: {
+						id: "minecraft:leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "32FE53095A0DBA25"
+					type: "item"
+					item: {
+						id: "minecraft:leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D47EBADF2C1385B"
+					type: "item"
+					item: {
+						id: "aiotbotania:livingwood_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5874A5188C0323FF"
+					type: "item"
+					item: "minecraft:apple"
+					count: 8
+				}
+				{
+					id: "2B7A6875F91BA70D"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+				}
+			]
 		}
 	]
 }

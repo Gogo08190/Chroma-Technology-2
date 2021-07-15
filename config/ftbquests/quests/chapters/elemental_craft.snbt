@@ -38,7 +38,6 @@
 			y: 0.0d
 			description: ["Can help you if you just read"]
 			dependencies: ["6DE51A98F6BE60C6"]
-			hide: true
 			id: "5B0C726044803D44"
 			tasks: [{
 				id: "28112239F0F4A818"
@@ -69,7 +68,6 @@
 			y: -1.0d
 			description: ["Will contain a few amount of one element"]
 			dependencies: ["5B0C726044803D44"]
-			hide: true
 			id: "0B0EB289CB8CEA3C"
 			tasks: [{
 				id: "5F9506023A982348"
@@ -87,7 +85,6 @@
 			y: -2.0d
 			description: ["Improved version of the small container"]
 			dependencies: ["0B0EB289CB8CEA3C"]
-			hide: true
 			id: "551980577C217831"
 			tasks: [{
 				id: "37D25C967B0DC1C1"
@@ -105,7 +102,6 @@
 			y: 1.0d
 			description: ["When place below an element he will extract from him"]
 			dependencies: ["5B0C726044803D44"]
-			hide: true
 			id: "78BCB3BE7D6BE28F"
 			tasks: [{
 				id: "062724B9830DE552"
@@ -123,7 +119,6 @@
 			y: 0.0d
 			description: ["Place it on an element container countaining the wished element"]
 			dependencies: ["5B0C726044803D44"]
-			hide: true
 			id: "0A3948A727717EB4"
 			tasks: [{
 				id: "37007D614C149D2F"
@@ -141,7 +136,6 @@
 			y: 3.0d
 			description: ["Can craft item with element"]
 			dependencies: ["78BCB3BE7D6BE28F"]
-			hide: true
 			id: "5963F874AAE3DE3E"
 			tasks: [{
 				id: "615AFBF8374AF2AE"
@@ -157,14 +151,18 @@
 		{
 			x: 0.0d
 			y: 3.0d
-			description: ["an improved vrsion"]
+			description: ["An improved version"]
 			dependencies: ["5963F874AAE3DE3E"]
-			hide: true
 			id: "0647945AC4934FB7"
 			tasks: [{
 				id: "51E88B87B8C7E645"
 				type: "item"
 				item: "elementalcraft:binder_improved"
+			}]
+			rewards: [{
+				id: "1C2840C1B2739F01"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -172,7 +170,6 @@
 			y: 1.0d
 			description: ["an improved version"]
 			dependencies: ["78BCB3BE7D6BE28F"]
-			hide: true
 			id: "0129F85F06EF3846"
 			tasks: [{
 				id: "38EDF60E90FC52BE"
@@ -184,7 +181,6 @@
 			x: 6.0d
 			y: -1.5d
 			dependencies: ["0A3948A727717EB4"]
-			hide: true
 			id: "691875E5448101B6"
 			tasks: [{
 				id: "3025BF1D2A1C3B48"
@@ -201,7 +197,6 @@
 			x: 6.0d
 			y: 1.5d
 			dependencies: ["0A3948A727717EB4"]
-			hide: true
 			id: "0482F6AEA4CA8ED4"
 			tasks: [{
 				id: "06B9DF10410391F3"
@@ -218,7 +213,6 @@
 			x: 7.0d
 			y: -0.5d
 			dependencies: ["0A3948A727717EB4"]
-			hide: true
 			id: "528A919751F7A145"
 			tasks: [{
 				id: "5C80C7E025357432"
@@ -235,7 +229,6 @@
 			x: 7.0d
 			y: 0.5d
 			dependencies: ["0A3948A727717EB4"]
-			hide: true
 			id: "12AAAE11B4297E26"
 			tasks: [{
 				id: "40DF1FB75C9A28B8"
@@ -253,7 +246,6 @@
 			y: 0.0d
 			description: ["This will be a primary craft"]
 			dependencies: ["6DE51A98F6BE60C6"]
-			hide: true
 			id: "2669F62A9D905F87"
 			tasks: [{
 				id: "46351F69088FCE4E"
@@ -270,14 +262,13 @@
 			icon: "elementalcraft:pureinfuser"
 			x: 9.5d
 			y: 0.0d
-			description: ["You can now make new craft,you just need to input the right element on the good pedestal except the midle one"]
+			description: ["You can now make new crafts, you just need to input the right element on the good pedestal except the middle one"]
 			dependencies: [
 				"691875E5448101B6"
 				"528A919751F7A145"
 				"12AAAE11B4297E26"
 				"0482F6AEA4CA8ED4"
 			]
-			hide: true
 			id: "1CE7C3FE672DA886"
 			tasks: [
 				{
@@ -335,7 +326,7 @@
 			y: 4.5d
 			description: [
 				""
-				"Can countain fire element for spell"
+				"Can contain fire element for spell"
 			]
 			dependencies: ["0647945AC4934FB7"]
 			id: "008049ADCB42157F"
@@ -366,7 +357,7 @@
 		{
 			x: -1.0d
 			y: 3.5d
-			description: ["Can countain water element for spell"]
+			description: ["Can contain water element for spell"]
 			dependencies: ["0647945AC4934FB7"]
 			id: "476714364042055B"
 			tasks: [{
@@ -396,7 +387,7 @@
 		{
 			x: -1.0d
 			y: 2.5d
-			description: ["Can countain earth element for spell"]
+			description: ["Can contain earth element for spell"]
 			dependencies: ["0647945AC4934FB7"]
 			id: "36A18DF22711B51E"
 			tasks: [{
@@ -426,7 +417,7 @@
 		{
 			x: -0.5d
 			y: 1.5d
-			description: ["Can countain air element for spell"]
+			description: ["Can contain air element for spell"]
 			dependencies: ["0647945AC4934FB7"]
 			id: "4A8F7E1DEF038947"
 			tasks: [{
@@ -457,14 +448,13 @@
 			x: -3.75d
 			y: 3.0d
 			shape: "diamond"
-			subtitle: "Something powerful is inside, perhaps i could do something with other magican material"
+			subtitle: "Something powerful is inside, perhaps I could do something with other magic materials"
 			dependencies: [
 				"008049ADCB42157F"
 				"476714364042055B"
 				"36A18DF22711B51E"
 				"4A8F7E1DEF038947"
 			]
-			hide: true
 			size: 1.5d
 			id: "0C2E50ABC2D63134"
 			tasks: [{
@@ -481,9 +471,8 @@
 		{
 			x: 3.5d
 			y: 4.5d
-			subtitle: "The starter ingredient for all the shrine......Normaly"
+			subtitle: "The starter ingredient for all the shrine......"
 			dependencies: ["5963F874AAE3DE3E"]
-			hide: true
 			id: "746617CE4CE87181"
 			tasks: [{
 				id: "21FFE17492FAE68C"
@@ -501,7 +490,6 @@
 			y: 5.5d
 			description: ["Set fire to nearby entities"]
 			dependencies: ["746617CE4CE87181"]
-			hide: true
 			id: "5D8FFBC33C841F06"
 			tasks: [{
 				id: "47A1E18011FAC1EB"
@@ -519,7 +507,6 @@
 			y: 7.5d
 			description: ["will harvest crops"]
 			dependencies: ["2ECD838CFDF78A86"]
-			hide: true
 			id: "6E4420669E71BF06"
 			tasks: [{
 				id: "281138F8DC1207CC"
@@ -535,9 +522,8 @@
 		{
 			x: 2.5d
 			y: 6.5d
-			description: ["Will acelerate crops grow"]
+			description: ["Will accelerate the growth of plants"]
 			dependencies: ["746617CE4CE87181"]
-			hide: true
 			id: "2ECD838CFDF78A86"
 			tasks: [{
 				id: "331F47ADC46DF997"
@@ -553,9 +539,8 @@
 		{
 			x: 3.5d
 			y: 6.5d
-			description: ["Periodicaly reffil hunger"]
+			description: ["Periodicaly refill hunger"]
 			dependencies: ["746617CE4CE87181"]
-			hide: true
 			id: "5B7DBFB78BA64427"
 			tasks: [{
 				id: "2E196D3AA6196090"
@@ -573,7 +558,6 @@
 			y: 6.5d
 			description: ["Will absorb item around him"]
 			dependencies: ["746617CE4CE87181"]
-			hide: true
 			id: "1F031BC9A972EF50"
 			tasks: [{
 				id: "6642B133819CA0B6"
@@ -584,9 +568,8 @@
 		{
 			x: 5.5d
 			y: 4.5d
-			description: ["By input food he will make reproducing animal"]
+			description: ["By inputing food it will reproduce animals"]
 			dependencies: ["746617CE4CE87181"]
-			hide: true
 			id: "5BD871A97EACEF6A"
 			tasks: [{
 				id: "07176FD7132DB752"
@@ -602,9 +585,8 @@
 		{
 			x: 5.5d
 			y: 5.5d
-			description: ["Dig ore underneath it"]
+			description: ["Dig for ores underneath it"]
 			dependencies: ["746617CE4CE87181"]
-			hide: true
 			id: "0A71E1877179ED7A"
 			tasks: [{
 				id: "4C63022CF1C1BFAA"
@@ -620,9 +602,8 @@
 		{
 			x: 5.5d
 			y: 3.5d
-			description: ["Willl create flower on top of grass"]
+			description: ["Will create flower on top of grass"]
 			dependencies: ["746617CE4CE87181"]
-			hide: true
 			id: "167C3F2892707E65"
 			tasks: [{
 				id: "7AEC1BB3D0FFF6BB"
@@ -638,9 +619,8 @@
 		{
 			x: 1.5d
 			y: 4.5d
-			description: ["Tick aceleration on block stick to him"]
+			description: ["Tick aceleration on block stick to it"]
 			dependencies: ["746617CE4CE87181"]
-			hide: true
 			id: "5B1CB4DF7C9C45A9"
 			tasks: [{
 				id: "3FE395F3FE45F4E4"
@@ -658,7 +638,6 @@
 			y: -2.0d
 			description: ["Permit you to transport element but one use"]
 			dependencies: ["045A7AC4769EEF48"]
-			hide: true
 			id: "4DF85537A3A0A2D6"
 			tasks: [{
 				id: "65E3A9B03A81534A"
@@ -682,7 +661,6 @@
 			y: -3.0d
 			description: ["Permit you to transport element but with durability"]
 			dependencies: ["4DF85537A3A0A2D6"]
-			hide: true
 			id: "64DA51EADABA1B8D"
 			tasks: [{
 				id: "433FE1FFD21EC6DE"
@@ -706,7 +684,6 @@
 			y: -1.0d
 			description: ["A new ingot"]
 			dependencies: ["045A7AC4769EEF48"]
-			hide: true
 			id: "229B9EB4219C784A"
 			tasks: [{
 				id: "035985EC7672BE89"
@@ -724,7 +701,6 @@
 			y: 0.0d
 			description: ["Better Version"]
 			dependencies: ["045A7AC4769EEF48"]
-			hide: true
 			id: "569761A7546843B8"
 			tasks: [{
 				id: "49493C00FF720001"
@@ -742,7 +718,6 @@
 			y: 1.0d
 			description: ["Better Version"]
 			dependencies: ["045A7AC4769EEF48"]
-			hide: true
 			id: "245B081A199D68DE"
 			tasks: [{
 				id: "3E9C07A47BB3296C"
@@ -760,7 +735,6 @@
 			y: 2.0d
 			description: ["Better Version"]
 			dependencies: ["045A7AC4769EEF48"]
-			hide: true
 			id: "45039F83032E5C9A"
 			tasks: [{
 				id: "358EA6042F5C0C6C"
@@ -778,7 +752,6 @@
 			y: 2.0d
 			description: ["Better version"]
 			dependencies: ["045A7AC4769EEF48"]
-			hide: true
 			id: "08369CF09580028E"
 			tasks: [{
 				id: "4CA525FE5F64BC59"
@@ -800,7 +773,6 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["0A3948A727717EB4"]
-			hide: true
 			id: "6C5A44C3DC9A72EE"
 			tasks: [{
 				id: "341D741D2DBA4AAD"
@@ -823,7 +795,7 @@
 		{
 			x: 5.0d
 			y: -5.5d
-			description: ["Like a magic wand with anvil you can add spell to him"]
+			description: ["Like a magic wand with anvil you can add spell to it"]
 			dependencies: ["6C5A44C3DC9A72EE"]
 			id: "25FA26C314664D0B"
 			tasks: [{
@@ -842,7 +814,6 @@
 			y: 6.0d
 			description: ["melt stone into  lava"]
 			dependencies: ["5D8FFBC33C841F06"]
-			hide: true
 			id: "39F6237930F22195"
 			tasks: [{
 				id: "18DD0EA5960E3671"
@@ -861,7 +832,6 @@
 			shape: "gear"
 			description: ["Go into ars"]
 			dependencies: ["1CE7C3FE672DA886"]
-			hide: true
 			size: 3.0d
 			id: "4A44A6FE8FD947B6"
 			tasks: [{
@@ -876,7 +846,6 @@
 			y: -2.0d
 			description: ["Can transport a few amount of element"]
 			dependencies: ["0B0EB289CB8CEA3C"]
-			hide: true
 			id: "73FE028836791BD0"
 			tasks: [{
 				id: "5B07EC173DAA96D5"
@@ -896,7 +865,6 @@
 			y: -3.0d
 			description: ["Improved version of the impaired"]
 			dependencies: ["73FE028836791BD0"]
-			hide: true
 			id: "68AA9DBEA11BDEBC"
 			tasks: [{
 				id: "0994E28D55EBCB13"
@@ -916,7 +884,6 @@
 			y: -4.0d
 			description: ["Improved version of the element pipe"]
 			dependencies: ["68AA9DBEA11BDEBC"]
-			hide: true
 			id: "49189F8854F16C3F"
 			tasks: [{
 				id: "1F987A3950ED9D5C"

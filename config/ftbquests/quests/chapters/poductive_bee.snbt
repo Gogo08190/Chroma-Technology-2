@@ -781,6 +781,12 @@
 				type: "item"
 				item: "productivebees:comb_cinnabar"
 			}]
+			rewards: [{
+				id: "186E3A92D5D000FC"
+				type: "item"
+				item: "thermal:cinnabar_block"
+				count: 4
+			}]
 		}
 		{
 			x: -16.0d
@@ -937,6 +943,12 @@
 				type: "item"
 				item: "productivebees:comb_milky"
 			}]
+			rewards: [{
+				id: "4B56B2C4C1506185"
+				type: "item"
+				item: "productivebees:milk_bottle"
+				count: 16
+			}]
 		}
 		{
 			x: -16.0d
@@ -1019,6 +1031,12 @@
 				type: "item"
 				item: "productivebees:comb_bloody"
 			}]
+			rewards: [{
+				id: "02D82F0C733144B1"
+				type: "item"
+				item: "productivebees:honeycomb_bloody"
+				count: 16
+			}]
 		}
 		{
 			x: -12.0d
@@ -1065,6 +1083,12 @@
 				id: "763B2D646E02F7A2"
 				type: "item"
 				item: "productivebees:comb_plastic"
+			}]
+			rewards: [{
+				id: "5D95F91D3758245F"
+				type: "item"
+				item: "silents_mechanisms:plastic_sheet"
+				count: 16
 			}]
 		}
 		{
@@ -1139,6 +1163,12 @@
 				id: "7946EF53BF136706"
 				type: "item"
 				item: "productivebees:comb_experience"
+			}]
+			rewards: [{
+				id: "2B8BEA1E406C8D32"
+				type: "item"
+				item: "minecraft:experience_bottle"
+				count: 16
 			}]
 		}
 		{
@@ -1422,6 +1452,12 @@
 				type: "item"
 				item: "productivebees:comb_spacial"
 			}]
+			rewards: [{
+				id: "5276716DEF257820"
+				type: "item"
+				item: "appliedenergistics2:purified_certus_quartz_crystal"
+				count: 10
+			}]
 		}
 		{
 			x: -15.0d
@@ -1495,6 +1531,12 @@
 				id: "3767E30F281704F0"
 				type: "item"
 				item: "productivebees:comb_silicon"
+			}]
+			rewards: [{
+				id: "0756F20F4FF896FC"
+				type: "item"
+				item: "appliedenergistics2:silicon"
+				count: 16
 			}]
 		}
 		{
@@ -1629,6 +1671,12 @@
 				id: "411EC40266623875"
 				type: "item"
 				item: "productivebees:comb_soulium"
+			}]
+			rewards: [{
+				id: "269E88E76226F902"
+				type: "item"
+				item: "mysticalagriculture:soulium_ingot"
+				count: 16
 			}]
 		}
 		{
@@ -2052,6 +2100,12 @@
 				type: "item"
 				item: "productivebees:comb_tea"
 			}]
+			rewards: [{
+				id: "520905F4E8753498"
+				type: "item"
+				item: "create:builders_tea"
+				count: 4
+			}]
 		}
 		{
 			x: -11.5d
@@ -2066,6 +2120,20 @@
 				type: "item"
 				item: "productivebees:comb_chocolate"
 			}]
+			rewards: [
+				{
+					id: "0CDCA5301B3ACD2D"
+					type: "item"
+					item: "create:bar_of_chocolate"
+					count: 2
+				}
+				{
+					id: "17B04443AF95AE27"
+					type: "item"
+					item: "create:chocolate_glazed_berries"
+					count: 2
+				}
+			]
 		}
 	]
 }

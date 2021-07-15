@@ -14,7 +14,6 @@
 			description: ["Generates &lSU&r with &bWater&r"]
 			hide_dependency_lines: true
 			dependencies: ["68C911E941D1D7AF"]
-			hide: true
 			id: "073E679B16F65ABE"
 			tasks: [{
 				id: "5D739C65B3825AFE"
@@ -33,7 +32,6 @@
 			description: ["Generate Su with the power of your hand"]
 			hide_dependency_lines: true
 			dependencies: ["68C911E941D1D7AF"]
-			hide: true
 			id: "6C864C7B3A8483E2"
 			tasks: [{
 				id: "473A3995421A5B62"
@@ -59,7 +57,6 @@
 				"68C911E941D1D7AF"
 				"089B371ADFA9EB1D"
 			]
-			hide: true
 			id: "7F5DB13BD613471B"
 			tasks: [{
 				id: "67E4FCD3ECC8C420"
@@ -82,7 +79,6 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["68C911E941D1D7AF"]
-			hide: true
 			id: "02E2A1839E7B90AB"
 			tasks: [
 				{
@@ -115,7 +111,6 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["68C911E941D1D7AF"]
-			hide: true
 			id: "42FB78626FD5BBF1"
 			tasks: [
 				{
@@ -156,7 +151,6 @@
 				"05D226CD9E9B6923"
 				"6C864C7B3A8483E2"
 			]
-			hide: true
 			id: "089B371ADFA9EB1D"
 			tasks: [{
 				id: "222E9336C9AF9BA3"
@@ -178,7 +172,6 @@
 				"6F54D09F940C062C"
 				"089B371ADFA9EB1D"
 			]
-			hide: true
 			id: "3062EC7F5DD6F6C5"
 			tasks: [{
 				id: "7D4B34316B77CB10"
@@ -220,7 +213,6 @@
 				"05D226CD9E9B6923"
 				"6C864C7B3A8483E2"
 			]
-			hide: true
 			id: "7076C4339709478F"
 			tasks: [{
 				id: "5BAE93A3BDDEC2AB"
@@ -239,7 +231,6 @@
 			description: ["Makes non-shaped crafts and other specific crafts"]
 			hide_dependency_lines: true
 			dependencies: ["089B371ADFA9EB1D"]
-			hide: true
 			id: "3F0EFCC65E319E48"
 			tasks: [{
 				id: "4C145A0A01808593"
@@ -261,7 +252,6 @@
 				"05D226CD9E9B6923"
 				"6C864C7B3A8483E2"
 			]
-			hide: true
 			id: "2B0DA4B12759BEC4"
 			tasks: [{
 				id: "7F62F39520296D8F"
@@ -325,7 +315,6 @@
 			description: ["You can now see the SU of your items in your inventory or to see stats about whether the &nspeedometer&r or the &nstressomotor&r  "]
 			hide_dependency_lines: true
 			dependencies: ["089B371ADFA9EB1D"]
-			hide: true
 			id: "116A67096288B9C4"
 			tasks: [{
 				id: "43BDB006C975A376"
@@ -345,7 +334,6 @@
 			description: ["This item will allow you to control some machines properties"]
 			hide_dependency_lines: true
 			dependencies: ["089B371ADFA9EB1D"]
-			hide: true
 			id: "729E0EDD8C18A9FB"
 			tasks: [{
 				id: "044D9A8BAD435209"
@@ -536,6 +524,11 @@
 				type: "item"
 				item: "create:electron_tube"
 			}]
+			rewards: [{
+				id: "2C66AEBA82C01FEC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 9.5d
@@ -546,7 +539,6 @@
 				"3062EC7F5DD6F6C5"
 				"2B0DA4B12759BEC4"
 			]
-			hide: true
 			id: "2EAAD0F72FB9B14D"
 			tasks: [{
 				id: "1D65DD1FEFB3FB43"
@@ -586,7 +578,6 @@
 			description: ["Generates &nSU&r by right clicking on it"]
 			hide_dependency_lines: true
 			dependencies: ["68C911E941D1D7AF"]
-			hide: true
 			id: "77F1D1988FE5B0B5"
 			tasks: [{
 				id: "0A72355E04B0DAE2"
@@ -608,7 +599,6 @@
 				"68C911E941D1D7AF"
 				"3062EC7F5DD6F6C5"
 			]
-			hide: true
 			id: "78EBDDF3425A4FBF"
 			tasks: [{
 				id: "3B7406E65B8F5BA6"
@@ -630,7 +620,6 @@
 				"68C911E941D1D7AF"
 				"3062EC7F5DD6F6C5"
 			]
-			hide: true
 			id: "5075DDE921C4D872"
 			tasks: [{
 				id: "7CD83D632E81159C"
@@ -649,7 +638,6 @@
 			description: ["Can make road"]
 			hide_dependency_lines: true
 			dependencies: ["089B371ADFA9EB1D"]
-			hide: true
 			id: "60B8AC20AE5FBE7A"
 			tasks: [{
 				id: "4756D057287D80C5"
@@ -671,7 +659,6 @@
 				"3062EC7F5DD6F6C5"
 				"089B371ADFA9EB1D"
 			]
-			hide: true
 			id: "59302623F2FF5DAC"
 			tasks: [{
 				id: "4183F055A7580AB4"
@@ -700,7 +687,6 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["7051D702D862480C"]
-			hide: true
 			id: "4FF832240C1892AD"
 			tasks: [{
 				id: "55CE0790A362C7DE"
@@ -734,7 +720,6 @@
 			y: 0.0d
 			description: ["Can import items with the mechanical belt"]
 			dependencies: ["7076C4339709478F"]
-			hide: true
 			id: "46894D5DEEE24DC2"
 			tasks: [{
 				id: "0BDFD8BD7F7BEA6B"
@@ -752,7 +737,6 @@
 			y: 1.0d
 			description: ["Transports items by stacks"]
 			dependencies: ["46894D5DEEE24DC2"]
-			hide: true
 			id: "7037172FF45E362E"
 			tasks: [{
 				id: "0DAF8DA27DCF92CB"
@@ -772,7 +756,6 @@
 			description: ["This item can be turned in two different items by using different methods."]
 			hide_dependency_lines: true
 			dependencies: ["3F0EFCC65E319E48"]
-			hide: true
 			id: "2A1C5492170436E8"
 			tasks: [{
 				id: "169FF6603D7C5F4B"
@@ -795,7 +778,6 @@
 			subtitle: "Void Recipe"
 			description: ["Throw the &5Chromatic Compound&r into the void"]
 			dependencies: ["2A1C5492170436E8"]
-			hide: true
 			id: "72DAAAC24AA2FCFF"
 			tasks: [{
 				id: "79634075A19EC8AD"
@@ -819,7 +801,6 @@
 				"Wait patiently in order to get your magnificent ingot."
 			]
 			dependencies: ["2A1C5492170436E8"]
-			hide: true
 			id: "7051D702D862480C"
 			tasks: [{
 				id: "652CFE0C384B3FE8"
@@ -836,7 +817,7 @@
 			x: -4.5d
 			y: 2.0d
 			subtitle: "Fwoomp !"
-			description: ["Lauch your home-grown vegetabled at your Enemies. Can be powered with Air Pressure from a &dCopper Backtank&f."]
+			description: ["Lauch your home-grown vegetables at your Enemies. Can be powered with Air Pressure from a &dCopper Backtank&f."]
 			hide_dependency_lines: true
 			dependencies: ["3062EC7F5DD6F6C5"]
 			id: "17008C89C8402ABB"

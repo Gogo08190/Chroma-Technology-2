@@ -404,6 +404,7 @@
 			}]
 		}
 		{
+			title: "Industrial Hemp"
 			x: 6.0d
 			y: 7.0d
 			shape: "rsquare"

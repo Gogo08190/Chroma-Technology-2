@@ -344,8 +344,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -3.5d
+			x: 8.5d
+			y: -2.5d
 			shape: "gear"
 			dependencies: ["44B65CC1F3AA0296"]
 			id: "7BB2F53904170212"
@@ -362,6 +362,68 @@
 			}]
 			rewards: [{
 				id: "41F6C04BB124DF50"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Entangled"
+			x: 8.5d
+			y: -3.5d
+			shape: "gear"
+			description: [
+				"Entangled gives you the materials needed to bind two blocks together, allowing you to interact with either one as if they were the same block !"
+				""
+				"This will allow you to transfer items, energy, fluids or whatever you want instantly, you can have more than six sides to work with or you could just hide your messy cables, the possibilities are endless !"
+				""
+				"&6&lBinding an Entangled Block :"
+				"&a1.&r Craft an Entangled Block and an Entangled Binder"
+				"&a2.&r Place down your Entangled Block"
+				"&a3.&r Right-Click on the block you want to bind with the Entangled Binder"
+				"&a4.&r Right-Click on your Entangled Block with the Entangled Binder"
+			]
+			dependencies: ["679EEA8ED654D878"]
+			id: "6B5C0839F2618B98"
+			tasks: [
+				{
+					id: "697DA91113B984D7"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6747852B346FF8C1"
+					type: "item"
+					item: {
+						id: "entangled:item"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "47D96E0789A5333E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.5d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: ["5B3BBE4B58C16F35"]
+			id: "32D9A7820E7750D7"
+			tasks: [{
+				id: "6F7AE8448210A1F5"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			rewards: [{
+				id: "59EBFF9BECA79C0C"
 				type: "loot"
 				table_id: 4063386593177790740L
 			}]

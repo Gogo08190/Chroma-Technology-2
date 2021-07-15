@@ -10,7 +10,7 @@
 	quests: [
 		{
 			x: 0.0d
-			y: 0.0d
+			y: -0.5d
 			shape: "diamond"
 			subtitle: "The Wrench"
 			description: [
@@ -826,7 +826,7 @@
 		}
 		{
 			x: -0.5d
-			y: 0.5d
+			y: 0.0d
 			shape: "diamond"
 			dependencies: ["228DAA7B7CDF1CCD"]
 			id: "5650F5933198B382"
@@ -843,7 +843,7 @@
 		}
 		{
 			x: 0.5d
-			y: 0.5d
+			y: 0.0d
 			shape: "diamond"
 			dependencies: ["40CD7C6041477B82"]
 			id: "3A48D86B55272600"
@@ -917,6 +917,7 @@
 			y: 0.0d
 			shape: "diamond"
 			hide_dependency_lines: true
+			dependencies: ["3795104D47924F52"]
 			id: "00ACE36D15539382"
 			tasks: [{
 				id: "4A3EB2500370A237"
@@ -934,6 +935,7 @@
 			y: 0.0d
 			shape: "diamond"
 			hide_dependency_lines: true
+			dependencies: ["3795104D47924F52"]
 			id: "38011CAD4293320F"
 			tasks: [{
 				id: "0C48FD4AE4938F43"
@@ -1005,6 +1007,7 @@
 			y: 1.0d
 			shape: "diamond"
 			hide_dependency_lines: true
+			dependencies: ["3795104D47924F52"]
 			id: "1E3645AFB0FECCA8"
 			tasks: [{
 				id: "35C7E7F08AFE329B"
@@ -1040,6 +1043,7 @@
 			y: -0.5d
 			shape: "diamond"
 			hide_dependency_lines: true
+			dependencies: ["3795104D47924F52"]
 			id: "70C4E20DC200D914"
 			tasks: [{
 				id: "70EBDC2A9CFAFF11"
@@ -1057,6 +1061,7 @@
 			y: -1.0d
 			shape: "diamond"
 			hide_dependency_lines: true
+			dependencies: ["3795104D47924F52"]
 			id: "1C97B824A1CC03D3"
 			tasks: [{
 				id: "4062FCDE45476E4E"
@@ -1092,6 +1097,7 @@
 			y: 0.0d
 			shape: "diamond"
 			hide_dependency_lines: true
+			dependencies: ["3795104D47924F52"]
 			id: "4F0C57845DDC8798"
 			tasks: [{
 				id: "6015CA7877DB17E4"
@@ -1109,6 +1115,7 @@
 			y: -1.0d
 			shape: "diamond"
 			hide_dependency_lines: true
+			dependencies: ["3795104D47924F52"]
 			id: "6AF5634036B8F105"
 			tasks: [{
 				id: "4382ED8AC2AA188B"
@@ -1126,6 +1133,7 @@
 			y: 0.5d
 			shape: "diamond"
 			hide_dependency_lines: true
+			dependencies: ["3795104D47924F52"]
 			id: "132088E2840CF5E5"
 			tasks: [{
 				id: "44A3C8D9ECD5DBC1"
@@ -1395,6 +1403,35 @@
 				id: "7A7D96D5F70B2172"
 				type: "loot"
 				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "thermal:guidebook"
+				}
+			}
+			x: 0.0d
+			y: 0.5d
+			shape: "diamond"
+			id: "3795104D47924F52"
+			tasks: [{
+				id: "09B91516F8740350"
+				type: "checkmark"
+				title: "ThermalPedia"
+			}]
+			rewards: [{
+				id: "3993E1103D518507"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
 			}]
 		}
 	]

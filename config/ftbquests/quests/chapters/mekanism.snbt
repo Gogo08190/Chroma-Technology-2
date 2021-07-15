@@ -1662,6 +1662,11 @@
 				type: "item"
 				item: "mekanism:elite_induction_cell"
 			}]
+			rewards: [{
+				id: "5F64A1E9C8BF5120"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -5.5d
@@ -1678,6 +1683,11 @@
 				id: "17394280F5A73A3D"
 				type: "item"
 				item: "mekanism:ultimate_induction_cell"
+			}]
+			rewards: [{
+				id: "7CD1D01BC239BC3C"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -1761,6 +1771,11 @@
 				id: "7740D502DCF866C2"
 				type: "item"
 				item: "mekanism:ultimate_induction_provider"
+			}]
+			rewards: [{
+				id: "0E344B24AE5364DA"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -3231,6 +3246,11 @@
 				type: "item"
 				item: "mekanism:isotopic_centrifuge"
 			}]
+			rewards: [{
+				id: "3E68E4B7FAC84DE0"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -6.5d
@@ -3250,6 +3270,11 @@
 				type: "item"
 				item: "mekanism:pellet_polonium"
 			}]
+			rewards: [{
+				id: "0F2B3FC42F22E88C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -7.0d
@@ -3265,6 +3290,11 @@
 				id: "22B9B027207DCC89"
 				type: "item"
 				item: "mekanismgenerators:control_rod_assembly"
+			}]
+			rewards: [{
+				id: "17ED421B48FFAFBB"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -3283,6 +3313,11 @@
 				item: "mekanismgenerators:fission_reactor_port"
 				count: 4L
 			}]
+			rewards: [{
+				id: "7D78E108C827F18F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -6.0d
@@ -3295,6 +3330,11 @@
 				id: "4271F80D790E5C24"
 				type: "item"
 				item: "mekanismgenerators:fission_reactor_casing"
+			}]
+			rewards: [{
+				id: "32D667D3104A05B5"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -3312,6 +3352,11 @@
 				type: "item"
 				item: "mekanismgenerators:fission_fuel_assembly"
 			}]
+			rewards: [{
+				id: "739E4FC7CCA6D223"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: 12.0d
@@ -3325,6 +3370,11 @@
 				type: "item"
 				item: "mekanism:sps_casing"
 				count: 60L
+			}]
+			rewards: [{
+				id: "47024FC28C1E8628"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -3343,6 +3393,11 @@
 				item: "mekanism:sps_port"
 				count: 3L
 			}]
+			rewards: [{
+				id: "6D0C4C6713BDF8D4"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: 13.0d
@@ -3356,6 +3411,11 @@
 				type: "item"
 				item: "mekanism:structural_glass"
 				count: 123L
+			}]
+			rewards: [{
+				id: "2B5B8C07C3A1D817"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -3372,6 +3432,11 @@
 				id: "251937080998A40B"
 				type: "item"
 				item: "mekanism:supercharged_coil"
+			}]
+			rewards: [{
+				id: "35972005A8CFC6AA"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -3390,6 +3455,11 @@
 				id: "1CCE1DCBBEE9E26F"
 				type: "item"
 				item: "mekanism:pellet_antimatter"
+			}]
+			rewards: [{
+				id: "0A982D1984618218"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{

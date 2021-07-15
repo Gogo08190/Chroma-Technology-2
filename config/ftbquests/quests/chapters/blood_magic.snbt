@@ -1,7 +1,7 @@
 {
 	id: "24A21BFBA2BC04D1"
 	group: "1D8552F8A45BF753"
-	order_index: 3
+	order_index: 4
 	filename: "blood_magic"
 	title: "Blood Magic"
 	icon: "bloodmagic:altar"
@@ -33,9 +33,9 @@
 				item: "bloodmagic:altar"
 			}]
 			rewards: [{
-				id: "3AB3A9F097DB4E55"
+				id: "7326C0ACB097ACF4"
 				type: "loot"
-				table_id: 4063386593177790740L
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -124,6 +124,11 @@
 				id: "05D72A7736374B57"
 				type: "item"
 				item: "bloodmagic:soulforge"
+			}]
+			rewards: [{
+				id: "6FEDFFCC6134C609"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -964,9 +969,9 @@
 				}
 			}]
 			rewards: [{
-				id: "4C86F664A450661B"
-				type: "random"
-				table_id: 4063386593177790740L
+				id: "26F150D12BE3650B"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{

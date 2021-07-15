@@ -229,6 +229,11 @@
 				type: "item"
 				item: "enviroenergy:pladium_solar_ccu"
 			}]
+			rewards: [{
+				id: "36CD27A553CAF4B7"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: 9.5d
@@ -514,6 +519,11 @@
 				id: "7D46C47009C108CD"
 				type: "item"
 				item: "enviroenergy:pladium_solar_cell"
+			}]
+			rewards: [{
+				id: "777EE20BC756D736"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -1198,6 +1208,11 @@
 				id: "54CDFF9148B5ECD2"
 				type: "item"
 				item: "envirocore:litherite_crystal"
+			}]
+			rewards: [{
+				id: "1E265E44633DAED0"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{

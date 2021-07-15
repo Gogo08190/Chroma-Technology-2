@@ -20,19 +20,21 @@
 		{ item: "upgradednetherite:fire_upgraded_netherite_ingot" }
 		{ item: "upgradednetherite:gold_upgraded_netherite_ingot" }
 		{ item: "bhc:blue_heart" }
-		{ item: "minecraft:netherite_ingot" }
-		{ item: "minecraft:iron_ingot", count: 12 }
-		{ item: "minecraft:emerald", count: 3 }
+		{ item: "minecraft:netherite_ingot", weight: 2 }
+		{ item: "minecraft:iron_ingot", count: 12, weight: 3 }
+		{ item: "minecraft:emerald", count: 3, weight: 2 }
 		{ item: "upgradednetherite:enchanted_netherite_apple" }
 		{ item: "upgradednetherite:feather_upgraded_netherite_ingot" }
 		{ item: "minecraft:nether_star" }
 		{ item: "cyclic:heart" }
-		{ item: "minecraft:diamond", count: 3 }
-		{ item: "thermal:tin_ingot", count: 12 }
-		{ item: "thermal:silver_ingot", count: 12 }
+		{ item: "minecraft:diamond", count: 3, weight: 2 }
+		{ item: "thermal:tin_ingot", count: 12, weight: 3 }
+		{ item: "thermal:silver_ingot", count: 12, weight: 3 }
 		{ item: "upgradednetherite:netherite_apple" }
-		{ item: "minecraft:ender_pearl", count: 4 }
-		{ item: "mekanism:ingot_osmium", count: 12 }
-		{ item: "minecraft:gold_ingot", count: 24 }
+		{ item: "minecraft:ender_pearl", count: 4, weight: 2 }
+		{ item: "mekanism:ingot_osmium", count: 12, weight: 3 }
+		{ item: "minecraft:gold_ingot", count: 24, weight: 3 }
+		{ item: "cyclic:chorus_flight", count: 2 }
+		{ item: "cyclic:carrot_ender", weight: 2 }
 	]
 }

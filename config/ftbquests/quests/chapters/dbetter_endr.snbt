@@ -220,6 +220,11 @@
 				type: "item"
 				item: "betterendforge:thallasium_ingot"
 			}]
+			rewards: [{
+				id: "3B848BCAEA5674CE"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			title: "&bThallasium Boots&r"

@@ -1,0 +1,622 @@
+{
+	id: "3B34CAE1BCE6B747"
+	group: "1D8552F8A45BF753"
+	order_index: 1
+	filename: "eidolon"
+	title: "Eidolon"
+	icon: "eidolon:goblet"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: 0.5d
+			subtitle: "Welcome in supernaturals"
+			description: ["The main book ok eidolon"]
+			id: "44402901837C9E7C"
+			tasks: [{
+				id: "15811A37A874AEFA"
+				type: "item"
+				item: "eidolon:codex"
+			}]
+			rewards: [{
+				id: "15EB7D3F7379A4B8"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Kill Zombie Brute"
+			x: -2.0d
+			y: 2.0d
+			subtitle: "I'm not the hulk"
+			dependencies: ["44402901837C9E7C"]
+			id: "435B403091249EE4"
+			tasks: [{
+				id: "7C302950D3E0E35E"
+				type: "kill"
+				entity: "eidolon:zombie_brute"
+				value: 10L
+			}]
+			rewards: [{
+				id: "5D943B6021016D8D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "After envy the wraith"
+			dependencies: ["44402901837C9E7C"]
+			id: "74FEF1ECEE7CED77"
+			tasks: [{
+				id: "49005E8C2976B840"
+				type: "kill"
+				title: "Kill Wraith"
+				entity: "eidolon:wraith"
+				value: 10L
+			}]
+			rewards: [{
+				id: "5D2895FDCB53FF10"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			subtitle: "Not purer but pewter"
+			dependencies: ["44402901837C9E7C"]
+			id: "42BA14D76ED7D256"
+			tasks: [{
+				id: "286336531484833D"
+				type: "item"
+				item: "eidolon:pewter_blend"
+			}]
+			rewards: [{
+				id: "73E960FDC13E5207"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			subtitle: "The ingot one"
+			description: [""]
+			dependencies: ["42BA14D76ED7D256"]
+			id: "0FDF771A75BD54BC"
+			tasks: [{
+				id: "25E1E95F83B5E4C4"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+			}]
+			rewards: [{
+				id: "1013869820EDA3A0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			subtitle: "Your protection again wraith"
+			description: [
+				"Just burn bones, this material will block wraith or hostile entity."
+				"It's also a primary material for ritual."
+			]
+			hide_dependency_lines: true
+			dependencies: ["44402901837C9E7C"]
+			id: "07CF981052017413"
+			tasks: [{
+				id: "1D8E0A8292FE9D30"
+				type: "item"
+				item: "eidolon:enchanted_ash"
+			}]
+			rewards: [{
+				id: "14E4D10BC8528C4C"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			icon: "eidolon:necrotic_focus"
+			x: -2.0d
+			y: -4.5d
+			subtitle: "Become a necrotic mage"
+			description: [
+				"This will be all you need for ritual."
+				"The brazier need to be in all ritual, for starting the ritual you just need to ignit the brazier with a flint and steel."
+				"Sometines you will need the hand, sometimes you will need the focus and sometimes you will need both of it."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0FDF771A75BD54BC"]
+			id: "3406BA4778BEE146"
+			tasks: [
+				{
+					id: "37F11C490A36F7DA"
+					type: "item"
+					item: "eidolon:brazier"
+				}
+				{
+					id: "07CD2DAEC4339A7E"
+					type: "item"
+					item: "eidolon:stone_hand"
+					count: 2L
+				}
+				{
+					id: "61D2603495A153BE"
+					type: "item"
+					item: "eidolon:necrotic_focus"
+				}
+			]
+			rewards: [{
+				id: "3132AC7F780EB1E5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.5d
+			subtitle: "A crystallyzed soul"
+			description: [
+				"You need to capture a wraith and do the ritual of crystallization"
+				"This material can be asked for craft or ritual"
+			]
+			dependencies: ["3406BA4778BEE146"]
+			id: "2E0011FFB28B2DF3"
+			tasks: [{
+				id: "5AD42E975D068A28"
+				type: "item"
+				item: "eidolon:soul_shard"
+			}]
+			rewards: [{
+				id: "7ACB1AD20A99B188"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			subtitle: "Sword of the devil"
+			description: ["Give wither damage and heal you"]
+			hide_dependency_lines: true
+			dependencies: ["190F15AD9C1E5119"]
+			id: "13DD47F4731A47A3"
+			tasks: [{
+				id: "63C10FE3B75C2194"
+				type: "item"
+				item: {
+					id: "eidolon:sapping_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B7282720CFADA94"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			subtitle: "Hearth of the devil"
+			description: ["Store the extra heal"]
+			hide_dependency_lines: true
+			dependencies: ["190F15AD9C1E5119"]
+			id: "711EBDD04E850F21"
+			tasks: [{
+				id: "7C6BB07A35629D84"
+				type: "item"
+				item: "eidolon:sanguine_amulet"
+			}]
+			rewards: [{
+				id: "162C716FD35122BB"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			subtitle: "I'm a witch now"
+			description: [
+				"You need a heat source below and water in  the crucible"
+				"Some craft will need step so watchout and don't put everything directly"
+				"But be quick because you solution will disepear"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3406BA4778BEE146"]
+			id: "190F15AD9C1E5119"
+			tasks: [{
+				id: "666F106752E981F9"
+				type: "item"
+				item: "eidolon:crucible"
+			}]
+			rewards: [{
+				id: "1B720FF000815908"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Arcane Gold"
+			x: -1.0d
+			y: -5.5d
+			subtitle: "A new way of goldiness"
+			description: ["A two step craft, first you need to put 2 redstone and one  soul shard"]
+			dependencies: ["190F15AD9C1E5119"]
+			id: "38D913B229B4C3BA"
+			tasks: [{
+				id: "6A6EEE2FE91458CA"
+				type: "item"
+				item: "eidolon:arcane_gold_ingot"
+				count: 2L
+			}]
+			rewards: [{
+				id: "04DB2E47812F75B2"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.5d
+			subtitle: "Better but harder"
+			description: ["Notice for this one you need to right click the crucible 2 times for recipes."]
+			dependencies: ["190F15AD9C1E5119"]
+			id: "3CE203DAEAE124D4"
+			tasks: [{
+				id: "4EB549EE202F8A3C"
+				type: "item"
+				item: "eidolon:lesser_soul_gem"
+			}]
+			rewards: [{
+				id: "2AF4A91DDFA0E168"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Inlay"
+			icon: "eidolon:pewter_inlay"
+			x: -3.5d
+			y: -0.5d
+			subtitle: "It's not a way"
+			hide_dependency_lines: true
+			dependencies: ["0FDF771A75BD54BC"]
+			id: "4366C12FF103E7CE"
+			tasks: [
+				{
+					id: "6BE2E9266567818F"
+					type: "item"
+					item: "eidolon:gold_inlay"
+				}
+				{
+					id: "3289BD5A603A9649"
+					type: "item"
+					item: "eidolon:pewter_inlay"
+				}
+			]
+			rewards: [{
+				id: "72E351038487F4C2"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "A new used"
+			x: -1.0d
+			y: 3.5d
+			subtitle: "A cheaper version"
+			description: [
+				"For the apothecary stand you need to place it on the top of the crucible, this will allow you to use it without blaze"
+				"For the soul enchanter you will need soul shard not lapis, and you can apply multiple enchantment"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"190F15AD9C1E5119"
+				"29EB777C9A14B0F1"
+			]
+			id: "02B0941B1D799F9F"
+			tasks: [
+				{
+					id: "7EABBCE31A56FF59"
+					type: "item"
+					item: "eidolon:wooden_brewing_stand"
+				}
+				{
+					id: "03E965095554F596"
+					type: "item"
+					item: "eidolon:soul_enchanter"
+				}
+			]
+			rewards: [
+				{
+					id: "3A7438621AAE842E"
+					type: "loot"
+					table_id: 4063386593177790740L
+				}
+				{
+					id: "1997C17F24BBB9B1"
+					type: "loot"
+					table_id: 8655552789015021416L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			subtitle: "Now i'm a Mage"
+			description: [
+				""
+				"This crafting station as 4 more slots, and will craft item from eidolon"
+			]
+			hide_dependency_lines: true
+			dependencies: ["190F15AD9C1E5119"]
+			id: "29EB777C9A14B0F1"
+			tasks: [{
+				id: "0CD86B91636F93D9"
+				type: "item"
+				item: "eidolon:worktable"
+			}]
+			rewards: [{
+				id: "5F8EC4D736FCA188"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Warlock's stuff"
+			x: 1.0d
+			y: -5.5d
+			subtitle: "Warlock vibes"
+			description: ["When full set is applied it give some nice effect"]
+			dependencies: ["29EB777C9A14B0F1"]
+			id: "331C2ED42C8E30A4"
+			tasks: [
+				{
+					id: "2BFEB0F7B52AB0AB"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0764A1B390321903"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_cloak"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0A039DD538DDA2B5"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2EB27D922AA05624"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Simple altar"
+			icon: "eidolon:straw_effigy"
+			x: -1.0d
+			y: -9.0d
+			subtitle: "The theory of life"
+			description: [
+				"You need to place the idol on the table to make the ritual work"
+				"To upgrade the altar you will need some item to place on the table, refer to the book to Know what is the best for your altar"
+			]
+			hide_dependency_lines: true
+			dependencies: ["29EB777C9A14B0F1"]
+			id: "2B8A415AA6108395"
+			tasks: [
+				{
+					id: "23402ACD154C09B6"
+					type: "item"
+					item: "eidolon:wooden_altar"
+					count: 6L
+				}
+				{
+					id: "55BD21725079E030"
+					type: "item"
+					item: "eidolon:straw_effigy"
+				}
+			]
+			rewards: [{
+				id: "1B1AD69C7E787190"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Advanced altar"
+			icon: "eidolon:unholy_effigy"
+			x: -1.0d
+			y: -10.0d
+			subtitle: "Now i know 42"
+			description: ["Like the normal one but now you can do better craft "]
+			dependencies: ["2B8A415AA6108395"]
+			id: "1E2529BB6F837FEE"
+			tasks: [
+				{
+					id: "4683DE0871CB05A6"
+					type: "item"
+					item: "eidolon:unholy_effigy"
+				}
+				{
+					id: "5F6557BC2C09C386"
+					type: "item"
+					item: "eidolon:stone_altar"
+					count: 6L
+				}
+			]
+			rewards: [{
+				id: "39FBF6F8170D5398"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -8.5d
+			subtitle: "You choose wizely"
+			description: [
+				"You will need the gaublet for sacrifice or for blood"
+				"This item will be placed on the altar"
+			]
+			dependencies: ["2B8A415AA6108395"]
+			id: "086E86B35DE76656"
+			tasks: [{
+				id: "6D454A9EF34EDC0E"
+				type: "item"
+				item: "eidolon:goblet"
+			}]
+			rewards: [{
+				id: "0BD365EBBC288292"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Item For A Good Altar"
+			icon: "minecraft:wither_skeleton_skull"
+			x: 0.0d
+			y: -8.5d
+			subtitle: "The Power of SATAN"
+			description: ["For a good altar you will need this item, obviously the wither rose must be placed in a flower pot"]
+			dependencies: ["2B8A415AA6108395"]
+			id: "6490CC6C5DF733B0"
+			tasks: [
+				{
+					id: "7BD7598E8C9D7B53"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+				{
+					id: "32F816A48B8FDC99"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+				{
+					id: "7DD0267BBF72B4E6"
+					type: "item"
+					item: "eidolon:candlestick"
+				}
+			]
+			rewards: [{
+				id: "15745D9C8F0C637C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Mystical Signs"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -1.0d
+			y: -11.5d
+			shape: "diamond"
+			subtitle: "Sign of life"
+			description: [
+				"Now you are entering in the late game of eidolon, for the late game you will need to discover the mysticals signs."
+				"With those signs, by selecting it in the book, you can perform prayers. Some prayers will unlock mystical signs or will transform items."
+				""
+				"-For the first sign you will need to throw your book to a witch, this witch will regive you your book but with a new sign"
+				""
+				"-For the second Just throw the book to a cleric villager"
+				""
+				"-For the third you will need to pray twice with 3 wicked signs"
+				""
+				"-For the fourth sign you need to perform a new prayer but this time with the gaublet full of blood (kill a pig near the gaublet) and with the combination ( Wicked, Blood, Wicked )"
+				""
+				"-For the fifth and last sign, you'll need to unlock prayer by sacrifying a villager, to unlock this prayer you'll need to make an unholy symbol, fill the gaublet with blood and perform the prayer ( Wicked, Blood, Wicked )."
+				"Now you need to fill the gaublet with blood of villager, and perform the prayer ( Blood, Wicked, Blood, Soul )."
+				"And finally you will get the last sign"
+			]
+			dependencies: ["2B8A415AA6108395"]
+			hide: false
+			size: 1.3d
+			id: "482269827968DCD2"
+			tasks: [{
+				id: "295FCDF27D851B57"
+				type: "checkmark"
+				title: "The Sign"
+			}]
+			rewards: [{
+				id: "4A4782B8C3763ADC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -9.5d
+			subtitle: "Let's pact with the devil"
+			description: ["For this one you need to sing when looking a pewter inlay with the combination ( Wicked, soul, wicked, soul )"]
+			dependencies: ["2B8A415AA6108395"]
+			id: "49E209C96E8B5FBD"
+			tasks: [{
+				id: "3CD8B91359B2837A"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+			rewards: [{
+				id: "0250CCAB2B71603F"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -9.5d
+			subtitle: "I'm the new Reaper"
+			description: ["The reaper will permit you to loot soul shard on mob"]
+			dependencies: ["2B8A415AA6108395"]
+			id: "0D4EA393B6895823"
+			tasks: [{
+				id: "5BA12980C7F33EAC"
+				type: "item"
+				item: {
+					id: "eidolon:reaper_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "29D8E0897FB67DDF"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+	]
+}

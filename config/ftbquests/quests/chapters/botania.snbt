@@ -1,7 +1,7 @@
 {
 	id: "1D41CEF992ACEE79"
 	group: "1D8552F8A45BF753"
-	order_index: 2
+	order_index: 3
 	filename: "botania"
 	title: "Botania"
 	icon: {
@@ -787,6 +787,11 @@
 				id: "6D92500CEB33D41F"
 				type: "item"
 				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "7FF8EDB74E40D26A"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -4666,6 +4671,7 @@
 		{
 			x: 13.5d
 			y: -1.5d
+			description: ["&aDice of Fate&f is dropped by the hard mode version of Gaia Guardian."]
 			dependencies: ["77CAA7FF46A56DB7"]
 			id: "44AF8A8F691307B7"
 			tasks: [{

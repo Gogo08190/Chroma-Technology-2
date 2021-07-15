@@ -11,6 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			shape: "octagon"
 			dependencies: ["31731B4D3FFE7B7C"]
 			id: "41122C2FC023C374"
 			tasks: [{

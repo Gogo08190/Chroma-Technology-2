@@ -217,6 +217,11 @@
 				type: "item"
 				item: "darkutils:rune_blindness"
 			}]
+			rewards: [{
+				id: "1717C3F75D1E82B6"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: -1.0d
@@ -345,6 +350,11 @@
 				id: "02B3CA627B64F385"
 				type: "item"
 				item: "darkutils:vector_plate"
+			}]
+			rewards: [{
+				id: "05B66064A092D727"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{

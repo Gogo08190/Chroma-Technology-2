@@ -509,7 +509,7 @@
 				"1CE7C3FE672DA886"
 				"0C2E50ABC2D63134"
 			]
-			hide: true
+			hide: false
 			id: "267CC10126BBC447"
 			tasks: [{
 				id: "647D19F0BA714A7F"
@@ -536,7 +536,7 @@
 				"13ECF17994290FF8"
 				"76A757AA9F1EF7CF"
 			]
-			hide: true
+			hide: false
 			id: "3E0D8809FC1484E6"
 			tasks: [{
 				id: "54C2D7E5FD787284"
@@ -555,7 +555,7 @@
 			y: 2.5d
 			shape: "diamond"
 			dependencies: ["7F47CF0B2B6119BC"]
-			hide: true
+			hide: false
 			id: "0B6631810D8CF826"
 			tasks: [{
 				id: "0A917C9198555608"
@@ -574,7 +574,7 @@
 			y: 2.5d
 			shape: "diamond"
 			dependencies: ["71ED6E10B612D8A1"]
-			hide: true
+			hide: false
 			id: "19F8EBFB2024235C"
 			tasks: [{
 				id: "7558781D1BFF6B24"
@@ -591,7 +591,7 @@
 			x: 10.0d
 			y: -0.5d
 			shape: "diamond"
-			description: ["At an old time a king called &k&bGogo08&r wanted to create the most powerful material ever,he bring some mages to solves his problem, and they did it, after years they understood than for the stabilitie of the material, they will need a lot of ingredient, first it was obligatory to had the four artifact of the old magic present on this dimension, for stabilize the artefacts, thenthey used &5the purest essences possible&r, but they came across a problem, nothing on the world and even in the dimansions could handle as much magic, it was decided to used &5an item corupted by the magic of the end&r. The process was done and gave to the king what et wanted : &da dense magical ingot&r."]
+			description: ["Once upon a time a king called &k&bGogo08&r wanted to create the most powerful material ever. He brought some mages to solve his problem. After years of failures, they finally understood that for the stability of the material, they needed a lot of ingredients. First it was obligatory to have the four artifacts of the old magic present on this dimension to stabilize the artefact. Then they used &5the purest essence possible&r, but they encountered a problem, nothing on the world and even in every dimensions could handle such magic. It was then decided to use &5an item corrupted by the magic of the end&r. The process was done and gave to the king what he wanted : &dThe dense magical ingot&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"3E0D8809FC1484E6"

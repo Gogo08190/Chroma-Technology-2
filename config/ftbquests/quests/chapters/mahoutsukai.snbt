@@ -1,7 +1,7 @@
 {
 	id: "78540A242B5ADD20"
 	group: "1D8552F8A45BF753"
-	order_index: 6
+	order_index: 7
 	filename: "mahoutsukai"
 	title: "Mahoutsukai"
 	icon: {
@@ -59,6 +59,11 @@
 				id: "58373435660C9B44"
 				type: "item"
 				item: "mahoutsukai:dagger"
+			}]
+			rewards: [{
+				id: "5BF48D1011A81C7C"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{

@@ -34,7 +34,7 @@
 					id: "45B85B240DA29056"
 					type: "command"
 					auto: "invisible"
-					command: "/say The Miracle is here ! @p you have beaten Death itself ! You will now be known as The Immortal One !"
+					command: "/tellraw @a [{\"text\":\"The Miracle is here ! @p you have beaten Death itself ! You will now be known as The Immortal One !\",\"color\":\"dark_gray\"}]"
 					player_command: true
 				}
 				{
@@ -46,6 +46,12 @@
 					id: "499E916D9A3BF64F"
 					type: "loot"
 					table_id: 8655552789015021416L
+				}
+				{
+					id: "01498F6CD510CF6C"
+					type: "item"
+					title: "&kVous verrez en temps voulu !"
+					item: "kubejs:vous_verrez_en_temps_voulu"
 				}
 			]
 		}
@@ -80,7 +86,7 @@
 					id: "50110B95F63CBDB1"
 					type: "command"
 					auto: "invisible"
-					command: "/say @p played 500 hours on Chroma Technology 2 !"
+					command: "/tellraw @a [{\"text\":\"@p played 500 hours on Chroma Technology II !\",\"color\":\"aqua\"}]"
 					player_command: true
 				}
 			]
@@ -109,7 +115,7 @@
 					id: "218E34E4F70CD2C8"
 					type: "command"
 					auto: "invisible"
-					command: "/say Beware everyone @p has became a mad scientist and has stocked 100000 items in it's applied storage system."
+					command: "/tellraw @a [{\"text\":\"Beware everyone @p has became a mad scientist and has stored 100000 items in it's applied storage system.\",\"color\":\"aqua\"}]"
 					player_command: true
 				}
 				{
@@ -157,7 +163,7 @@
 					id: "5C280AB40B529299"
 					type: "command"
 					auto: "invisible"
-					command: "/say @p has taken 1000000 damage, he really likes to suffer !"
+					command: "/tellraw @a [{\"text\":\"@p has taken 1000000 damage, that player really likes to suffer !\",\"color\":\"dark_red\"}]"
 					player_command: true
 				}
 				{
@@ -215,7 +221,7 @@
 					id: "6937DE04C7537ABE"
 					type: "command"
 					auto: "invisible"
-					command: "/say @p has discovered the Thunder power by killing 25 Lightning Dragons. Be warned, Raiden is coming for you."
+					command: "/tellraw @a [{\"text\":\"@p has discovered the Thunder power by killing 25 Lightning Dragons. Be warned, Raiden is coming for you.\",\"color\":\"light_purple\"}]"
 					player_command: true
 				}
 			]
@@ -263,7 +269,7 @@
 					id: "7E7B0CA616132CFB"
 					type: "command"
 					auto: "invisible"
-					command: "/say @p has killed 25 Fire Dragons and will now rule The Nether ! Be careful to not burn your wings. "
+					command: "/tellraw @a [{\"text\":\"@p has killed 25 Fire Dragons and will now rule The Nether ! Be careful to not burn your wings. \",\"color\":\"red\"}]"
 					player_command: true
 				}
 			]
@@ -311,7 +317,7 @@
 					id: "6C2372D710081F3C"
 					type: "command"
 					auto: "invisible"
-					command: "/say @p has just defeated 25 Ice Dragons ! God is proud that you didn't become an ice cube !"
+					command: "/tellraw @a [{\"text\":\"@p has just defeated 25 Ice Dragons ! God is proud that you didn't become an ice cube !\",\"color\":\"aqua\"}]"
 					player_command: true
 				}
 			]
@@ -342,7 +348,7 @@
 					id: "09E6779AB22A237C"
 					type: "command"
 					auto: "invisible"
-					command: "/say Be careful around @p, because that player has just caused 500000 damage ! RUN !"
+					command: "/tellraw @a [{\"text\":\"Be careful around @p, because that player has just caused 500000 damage ! RUN !\",\"color\":\"dark_aqua\"}]"
 					player_command: true
 				}
 				{
@@ -383,7 +389,7 @@
 					id: "1A3BDBF260B3D07D"
 					type: "command"
 					auto: "invisible"
-					command: "/say @p has killed too many mobs ! Behold the new Doom Guy !"
+					command: "/tellraw @a [{\"text\":\"@p has killed too many mobs ! Behold the new Doom Guy !\",\"color\":\"red\"}]"
 					player_command: true
 				}
 				{
@@ -432,7 +438,7 @@
 					id: "09C9A60911CB49A3"
 					type: "command"
 					auto: "invisible"
-					command: "/say @p brings love around him !"
+					command: "/tellraw @a [{\"text\":\"@p brings love around him !\",\"color\":\"light_purple\"}]"
 					player_command: true
 				}
 				{
@@ -468,7 +474,7 @@
 					id: "4FBAEDEE8D935AA5"
 					type: "command"
 					auto: "invisible"
-					command: "/say @p is going on an adventure ! You can encourage that decision because the new adventurer has already reached 10 millions blocks ! Congratulations !"
+					command: "/tellraw @a [{\"text\":\"@p is going on an adventure ! You can encourage that decision because the new adventurer has already reached 10 millions blocks ! Congratulations !\",\"color\":\"blue\"}]"
 					player_command: true
 				}
 				{
@@ -503,7 +509,7 @@
 					id: "7971D2BC9EA0EE0F"
 					type: "command"
 					auto: "invisible"
-					command: "/say You can now boo @p because @p has left the game too many times. SHAME ON YOU !"
+					command: "/tellraw @a [{\"text\":\"You can now boo @p because @p has left the game too many times. SHAME ON YOU !\",\"color\":\"red\"}]"
 					player_command: true
 				}
 				{
@@ -542,7 +548,7 @@
 					id: "4B3F1729B8EE34D4"
 					type: "command"
 					auto: "invisible"
-					command: "/say Boiiiing boiiing ! @p is now a Kangaroo ! "
+					command: "/tellraw @a [{\"text\":\"Boiiiing boiiing ! @p is now a Kangaroo ! \",\"color\":\"dark_green\"}]"
 					player_command: true
 				}
 				{
@@ -601,7 +607,7 @@
 					id: "444DD1C36F54CC54"
 					type: "command"
 					auto: "invisible"
-					command: "/say Far from town, a little magician named @p has just enchanted 500 items !"
+					command: "/tellraw @a [{\"text\":\"Far from town, a little magician named @p has just enchanted 500 items !\",\"color\":\"dark_purple\"}]"
 					player_command: true
 				}
 			]
@@ -630,7 +636,7 @@
 					id: "5669E19372D3E419"
 					type: "command"
 					auto: "invisible"
-					command: "/say @p has now made Nicki Minaj jealous ! Because @p has twerked more than her ! "
+					command: "/tellraw @a [{\"text\":\"@p has now made Nicki Minaj jealous ! Because @p has twerked more than her ! \",\"color\":\"gold\"}]"
 					player_command: true
 				}
 				{
@@ -670,7 +676,7 @@
 					id: "7DD8D8766BCA904D"
 					type: "command"
 					auto: "invisible"
-					command: "/say @p is the new bell-ringer !"
+					command: "/tellraw @a [{\"text\":\"@p is the new bell-ringer !\",\"color\":\"yellow\"}]"
 					player_command: true
 				}
 				{
@@ -728,7 +734,7 @@
 					id: "527513B16B9C4565"
 					type: "command"
 					auto: "invisible"
-					command: "/say @p eradicated Wandering Trader ! Good Job !"
+					command: "/tellraw @a [{\"text\":\"@p eradicated Wandering Traders ! Good Job !\",\"color\":\"dark_red\"}]"
 					player_command: true
 				}
 				{

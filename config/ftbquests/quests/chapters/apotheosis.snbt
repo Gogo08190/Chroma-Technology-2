@@ -1,7 +1,7 @@
 {
 	id: "13715E656F320955"
 	group: "1D8552F8A45BF753"
-	order_index: 5
+	order_index: 6
 	filename: "apotheosis"
 	title: "Apotheosis"
 	icon: "apotheosis:boss_summoner"
@@ -1011,6 +1011,11 @@
 			}]
 		}
 		{
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
 			x: 0.5d
 			y: -9.0d
 			subtitle: "What are they used for?"

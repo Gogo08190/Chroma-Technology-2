@@ -13,6 +13,7 @@
 			y: 0.0d
 			subtitle: "The Blackest Ingot"
 			description: ["Inner your dark side and craft the &7Black Iron Ingot&r"]
+			dependencies: ["550BDFBC2857D5FD"]
 			id: "2E10FF3D08F8D918"
 			tasks: [{
 				id: "513A7F852CA2776D"

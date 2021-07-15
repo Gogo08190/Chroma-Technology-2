@@ -1336,6 +1336,8 @@
 			y: 4.5d
 			shape: "diamond"
 			description: ["Used to increase the range of the &6ME Wireless Access Point&f."]
+			hide_dependency_lines: true
+			dependencies: ["736C36EFE909F8CD"]
 			id: "294742A2B801C211"
 			tasks: [{
 				id: "7E1E7AC2B2D32149"
@@ -1921,6 +1923,8 @@
 			y: 7.5d
 			shape: "diamond"
 			description: ["Has two key functions, ellimination of excess materials in a cheap manor, and the production of &6Singularity &fand &6Matter Balls&f."]
+			hide_dependency_lines: true
+			dependencies: ["736C36EFE909F8CD"]
 			id: "75B51A2AEE99B05B"
 			tasks: [{
 				id: "0669691565CED903"

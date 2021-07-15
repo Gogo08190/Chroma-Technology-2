@@ -1,7 +1,7 @@
 {
 	id: "3149F0A88E46E869"
 	group: "1D8552F8A45BF753"
-	order_index: 1
+	order_index: 2
 	filename: "ars_nouveau"
 	title: "Ars Nouveau"
 	icon: "ars_nouveau:creative_spell_book"
@@ -15,7 +15,7 @@
 			description: ["The primary ore for this mod"]
 			hide_dependency_lines: true
 			dependencies: ["2C3143BACB0592E9"]
-			hide: true
+			hide: false
 			id: "5776690626AB11D3"
 			tasks: [{
 				id: "48EBD3CF0BDE0464"
@@ -34,7 +34,6 @@
 			y: -4.0d
 			description: ["Enter the new ars"]
 			dependencies: ["4A44A6FE8FD947B6"]
-			hide: true
 			id: "2C3143BACB0592E9"
 			tasks: [{
 				id: "07AFA112C305E05A"
@@ -89,10 +88,10 @@
 		{
 			x: -7.0d
 			y: 1.5d
-			description: ["Can countain a lot of potion"]
+			description: ["Can contain a lot of potion"]
 			hide_dependency_lines: true
 			dependencies: ["5776690626AB11D3"]
-			hide: true
+			hide: false
 			id: "4F5EB894CB99F3B7"
 			tasks: [{
 				id: "0CF24CD3712B29AE"
@@ -114,7 +113,7 @@
 				"4F5EB894CB99F3B7"
 				"13ECF17994290FF8"
 			]
-			hide: true
+			hide: false
 			id: "058DCC593426560A"
 			tasks: [{
 				id: "71E35A6F6801311E"
@@ -130,7 +129,7 @@
 		{
 			x: -7.0d
 			y: 4.5d
-			description: ["Will countain a larger amount of potion"]
+			description: ["Will contain a larger amount of potion"]
 			dependencies: ["058DCC593426560A"]
 			id: "2EE0A9D23E19779F"
 			tasks: [{
@@ -147,7 +146,7 @@
 		{
 			x: -8.0d
 			y: 6.0d
-			description: ["This flask augmant the duracy of the potion"]
+			description: ["This flask augment the effect of potions"]
 			dependencies: ["2EE0A9D23E19779F"]
 			id: "09193B0C52F35E54"
 			tasks: [{
@@ -164,7 +163,7 @@
 		{
 			x: -6.0d
 			y: 6.0d
-			description: ["This flask augment the effect of the potion"]
+			description: ["This flask augment the effect of potions"]
 			dependencies: ["2EE0A9D23E19779F"]
 			id: "77661DB31FF0F00A"
 			tasks: [{
@@ -181,10 +180,10 @@
 		{
 			x: -3.5d
 			y: 4.0d
-			description: ["This wand permit you to link"]
+			description: ["This wand allows you to link jars betweens them by using mana relays"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
-			hide: true
+			hide: false
 			id: "22235B6788A41E43"
 			tasks: [{
 				id: "6E274EFF17BD4682"
@@ -200,7 +199,7 @@
 		{
 			x: -3.5d
 			y: 5.5d
-			description: ["Need to transport mana"]
+			description: ["Can transport mana"]
 			dependencies: ["22235B6788A41E43"]
 			id: "6EE8986D6BF0CB22"
 			tasks: [{
@@ -234,7 +233,7 @@
 		{
 			x: -1.0d
 			y: 1.0d
-			description: ["Can countain mana"]
+			description: ["Can contain mana"]
 			dependencies: ["5776690626AB11D3"]
 			id: "17AEDD9B9E249661"
 			tasks: [{
@@ -252,7 +251,7 @@
 			x: -3.0d
 			y: 1.5d
 			description: [
-				"The mana condenser will create mana from growing thing like crops or animal birth"
+				"The mana condenser will create mana from growing things like crops or animals"
 				"Warning you can not put 2 in the same range (9x9)"
 			]
 			dependencies: ["17AEDD9B9E249661"]
@@ -289,7 +288,7 @@
 			title: "Warding stone"
 			x: 1.0d
 			y: 1.0d
-			description: ["The mob can not pass over this stone"]
+			description: ["Mobs can not go over this stone"]
 			dependencies: ["5776690626AB11D3"]
 			id: "607EC6EB1D915590"
 			tasks: [{
@@ -412,9 +411,8 @@
 			x: -2.0d
 			y: -2.0d
 			description: [
-				"Place the enchanting aparathus on the core"
-				"and the pedestal around"
-				"&lObviously need mana"
+				"Place the enchanting apparatus on the core and the pedestal around."
+				"&lObviously needs mana"
 			]
 			dependencies: ["7CA16C5B91E06D7B"]
 			id: "13ECF17994290FF8"
@@ -445,7 +443,6 @@
 			description: ["A new seed for new craft"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
-			hide: true
 			id: "18D711B3F17EE1B5"
 			tasks: [
 				{
@@ -469,7 +466,7 @@
 			title: "Fiber"
 			x: 0.0d
 			y: -4.0d
-			description: ["Itch material can craft a new and better armor than te previous"]
+			description: ["Each material can craft a new and better armor than te previous one"]
 			dependencies: ["18D711B3F17EE1B5"]
 			id: "0859D403F9FDBE8A"
 			tasks: [
@@ -501,7 +498,7 @@
 			description: ["This pet will transport item "]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
-			hide: true
+			hide: false
 			id: "6784B1D14C0297D1"
 			tasks: [{
 				id: "1B6ED8D5961B8AAB"
@@ -521,7 +518,7 @@
 			description: ["will grab item like vacum hopper"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
-			hide: true
+			hide: false
 			id: "78357E10107D5547"
 			tasks: [
 				{
@@ -545,14 +542,14 @@
 			x: 5.0d
 			y: -3.0d
 			shape: "diamond"
-			subtitle: "The shard of the fallen pet was an old artifact created by some insane mages who tried to create the most powerful pet, but their creation was too powerful to handle a simple countaining artifact, their pet was desecrated and started to ravage the world. In his last hope, a young mage called &d&kdfdf&r sealed him in a newly discovered dimansion. Ever since the day if someone tried to recreate this summoning artifact, this newly created move instantly corupted because it may have one soul of an &0EnderDargon dragon&r."
+			subtitle: "The shard of the fallen pet is an old artifact created by mad mages who tried to create the most powerful pet but their creation was too powerful to be contained in an artifact. Their pet was too corrupted and started to ravage the world. In a last burst of hope a young mage called &d&kAzerty&r trapped him in a newly discovered dimension. Ever since that day, if someone tries to recreate this item, the item's will be corrupted because it can only have one &0ender dragon&r."
 			dependencies: [
 				"6784B1D14C0297D1"
 				"71D77C0887FD4495"
 				"78357E10107D5547"
 				"0C3D2F374DE1B94B"
 			]
-			hide: true
+			hide: false
 			size: 1.5d
 			id: "76A757AA9F1EF7CF"
 			tasks: [{
@@ -569,10 +566,10 @@
 		{
 			x: 6.0d
 			y: -4.0d
-			description: ["This pet will generate wood with the ambiant tree. More the tree a diversifed more the pyxie work fast"]
+			description: ["This pet will generate wood with ambient trees. If there are many diversified more the pixie work fast"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
-			hide: true
+			hide: false
 			id: "71D77C0887FD4495"
 			tasks: [{
 				id: "66EE59C2AE7216D1"
@@ -592,7 +589,7 @@
 			description: ["will autocraft item and potion"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
-			hide: true
+			hide: false
 			id: "0C3D2F374DE1B94B"
 			tasks: [
 				{
@@ -615,10 +612,10 @@
 		{
 			x: 0.0d
 			y: 4.5d
-			description: ["Need to asigned speel to item or to parchment"]
+			description: ["Needed to assign spell to an item or to a parchment"]
 			hide_dependency_lines: true
 			dependencies: ["521852C9625B5CB2"]
-			hide: true
+			hide: false
 			id: "7C89CC353B9E99D6"
 			tasks: [{
 				id: "377164B251DFEFE6"
@@ -652,8 +649,8 @@
 			x: -1.5d
 			y: 6.0d
 			description: [
-				"Shift + right click will save you location"
-				"Right click will teleport to item but consue you scroll"
+				"Shift + right click will save your location"
+				"Right click will teleport to the set destination but consumes your scroll."
 			]
 			dependencies: ["1E6E3EDE5806502E"]
 			id: "001E32C15F3054F8"
@@ -671,7 +668,7 @@
 		{
 			x: -1.5d
 			y: 4.5d
-			description: ["Throw the warp scroll in a portal make frome this stone will create a portal to the destination"]
+			description: ["Throw the warp scroll in a portal made of this stone. It will create a portal to the set destination"]
 			dependencies: ["001E32C15F3054F8"]
 			id: "54A6DD4596C441EA"
 			tasks: [{
@@ -688,7 +685,7 @@
 		{
 			x: 0.0d
 			y: 7.5d
-			description: ["Whitlist or blacklist for pet"]
+			description: ["Whitelist or blacklist for pet"]
 			dependencies: ["1E6E3EDE5806502E"]
 			id: "6C4AD852649DE5E7"
 			tasks: [
@@ -712,7 +709,7 @@
 		{
 			x: 1.5d
 			y: 6.0d
-			description: ["By puting him on the scrible table, you can apply spell from your spell book to the parchment "]
+			description: ["By putting it on the Scribe's table, you can apply a spell from your spell book to the parchment. "]
 			dependencies: ["1E6E3EDE5806502E"]
 			id: "6E549B8DC5D8122D"
 			tasks: [{
@@ -746,7 +743,7 @@
 		{
 			x: 2.5d
 			y: 5.0d
-			description: ["By rightclicking with a spell parchment to a draw runik chalk will apply the spell wrote on him"]
+			description: ["By right clicking with a spell parchment to draw a runic chalk will apply the spell wrote on it"]
 			dependencies: ["6E549B8DC5D8122D"]
 			id: "28261B9D0AF1F24C"
 			tasks: [{
@@ -769,10 +766,10 @@
 		{
 			x: 4.0d
 			y: 1.5d
-			description: ["Permit you to use magic"]
+			description: ["Allows you to use magic"]
 			hide_dependency_lines: true
 			dependencies: ["5776690626AB11D3"]
-			hide: true
+			hide: false
 			id: "521852C9625B5CB2"
 			tasks: [{
 				id: "4616E86FFD5DD96F"
@@ -788,7 +785,7 @@
 		{
 			x: 5.0d
 			y: 1.5d
-			description: ["Improved version of thhe novice"]
+			description: ["Improved version of the novice"]
 			dependencies: ["521852C9625B5CB2"]
 			id: "748432B999DA2E80"
 			tasks: [{
@@ -825,7 +822,7 @@
 			description: ["Will reduce mana cost"]
 			hide_dependency_lines: true
 			dependencies: ["0859D403F9FDBE8A"]
-			hide: true
+			hide: false
 			id: "361E7EC42AC0DDCF"
 			tasks: [
 				{
@@ -882,10 +879,10 @@
 		{
 			x: 5.0d
 			y: 2.5d
-			description: ["Improved versio of the novice"]
+			description: ["Improved version of the novice"]
 			hide_dependency_lines: true
 			dependencies: ["0859D403F9FDBE8A"]
-			hide: true
+			hide: false
 			id: "27ABFB002F1A4A95"
 			tasks: [
 				{
@@ -945,7 +942,7 @@
 			description: ["Improved version of the mage"]
 			hide_dependency_lines: true
 			dependencies: ["0859D403F9FDBE8A"]
-			hide: true
+			hide: false
 			id: "1ACD4A94A87912F3"
 			tasks: [
 				{
@@ -1008,7 +1005,7 @@
 				"13ECF17994290FF8"
 				"7C89CC353B9E99D6"
 			]
-			hide: true
+			hide: false
 			id: "3C23C2213A2F06F3"
 			tasks: [{
 				id: "224C77A8CBE42DC7"
@@ -1075,13 +1072,13 @@
 		{
 			x: 5.5d
 			y: 4.5d
-			description: ["On this sword you can apply spell with the enchant reactive"]
+			description: ["On this sword you can apply spell with the reactive enchant"]
 			hide_dependency_lines: true
 			dependencies: [
 				"13ECF17994290FF8"
 				"7C89CC353B9E99D6"
 			]
-			hide: true
+			hide: false
 			id: "6599FB2CBFDCC3D1"
 			tasks: [{
 				id: "3AA3F19553D33F3F"
@@ -1109,7 +1106,7 @@
 				"13ECF17994290FF8"
 				"7C89CC353B9E99D6"
 			]
-			hide: true
+			hide: false
 			id: "28C73430EDDF0056"
 			tasks: [{
 				id: "41DEAF614EA0A6C2"
@@ -1128,7 +1125,7 @@
 			description: ["Will give you random benefic effect"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
-			hide: true
+			hide: false
 			id: "67AB297C0A8DE714"
 			tasks: [{
 				id: "7201E292C090460B"
@@ -1147,7 +1144,7 @@
 			description: ["You can \"\"Fly\"\""]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
-			hide: true
+			hide: false
 			id: "7A40613403EEADE4"
 			tasks: [{
 				id: "5FF2909CE03EEA9B"
@@ -1166,7 +1163,7 @@
 			description: ["Reduce cost of mana"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
-			hide: true
+			hide: false
 			id: "40457D0814AA136E"
 			tasks: [{
 				id: "061939B2F6D12868"
@@ -1202,7 +1199,7 @@
 			description: ["Boost the number of mana"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
-			hide: true
+			hide: false
 			id: "344E8A5F236AB532"
 			tasks: [{
 				id: "136C198F03DAC1F3"
@@ -1218,10 +1215,10 @@
 		{
 			x: 9.0d
 			y: 6.0d
-			description: ["Regen you mana"]
+			description: ["Regen your mana"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
-			hide: true
+			hide: false
 			id: "15B20346839A9E6C"
 			tasks: [{
 				id: "0FC2FE2366DC4C73"
@@ -1240,7 +1237,7 @@
 			description: ["Place light in the world"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
-			hide: true
+			hide: false
 			id: "6B872E25FA709F67"
 			tasks: [{
 				id: "5F0B0D3EC9179D6A"
@@ -1263,7 +1260,7 @@
 			description: ["A portable trash"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
-			hide: true
+			hide: false
 			id: "06A20582723F351D"
 			tasks: [{
 				id: "5254C791DE42B833"
@@ -1284,10 +1281,10 @@
 			x: 10.0d
 			y: 1.5d
 			shape: "gear"
-			description: ["Enter in botania"]
+			description: ["Will unlock botania"]
 			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
-			hide: true
+			hide: false
 			size: 3.0d
 			id: "1021DC75B3F6CBD8"
 			tasks: [{
