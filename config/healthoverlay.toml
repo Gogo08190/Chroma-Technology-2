@@ -2,7 +2,7 @@
 #All the values are written as a Hexadecimal number in the '#RRGGBB' format
 ["Heart colors"]
 	#Colors for every 10 hearts (not counting the default red)
-	heartColors = ["#F06E14", "#F5DC23", "#2DB928", "#1EAFBE", "#7346E1", "#FA7DEB", "#EB375A", "#FF8278", "#AAFFFA", "#EBEBFF", "#b2b2ff", "7373ff", "4747ff", "9646fa", "c944f5", "d77bf5", "e3adf5", "abf2bc", "79f295", "36f262", "b8f437", "c7f080"]
+	heartColors = ["#F06E14", "#F5DC23", "#2DB928", "#1EAFBE", "#7346E1", "#FA7DEB", "#EB375A", "#FF8278", "#AAFFFA", "#EBEBFF", "#b2b2ff", "#7373ff", "#4747ff", "#9646fa", "#c944f5", "#d77bf5", "#e3adf5", "#abf2bc", "#79f295", "#36f262", "#b8f437", "#c7f080"]
 	#Two alternating colors when poisoned
 	poisonColors = ["#739B00", "#96CD00"]
 	#Two alternating colors when withered
