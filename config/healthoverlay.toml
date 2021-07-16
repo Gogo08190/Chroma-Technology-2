@@ -9,3 +9,4 @@
 	witherColors = ["#0F0F0F", "#2D2D2D"]
 	#Colors for every 10 absorption hearts (not counting the default yellow)
 	absorptionColors = ["#E1FA9B", "#A0FFAF", "#AAFFFA", "#AACDFF", "#D7B4FF", "#FAA5FF", "#FFB4B4", "#FFAA7D", "#D7F0FF", "#EBFFFA"]
+
