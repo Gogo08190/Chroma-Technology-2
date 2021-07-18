@@ -13,6 +13,7 @@
 			y: 3.5d
 			shape: "diamond"
 			hide_dependency_lines: true
+			dependencies: ["70D0CA6E1AE372BE"]
 			id: "61BF1AA8BC1A54B6"
 			tasks: [{
 				id: "4F4797CEBD4A10A4"

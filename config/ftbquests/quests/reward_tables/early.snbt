@@ -233,5 +233,36 @@
 		{ item: "botania:tiny_potato" }
 		{ item: "silentgems:sugar_cookie", weight: 2 }
 		{ item: "minecraft:sugar", count: 16, weight: 2 }
+		{ item: "create:nixie_tube" }
+		{
+			item: {
+				id: "cyclic:randomize_scepter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cyclic:redstone_carrot_speed" }
+		{ item: "cyclic:emerald_carrot_jump" }
+		{ item: "cyclic:lapis_carrot_variant" }
+		{ item: "cyclic:toxic_carrot" }
+		{ item: "cyclic:carrot_ender" }
+		{ item: "cyclic:diamond_carrot_health" }
+		{ item: "minecraft:salmon_bucket" }
+		{ item: "minecraft:cod_bucket" }
+		{ item: "minecraft:tropical_fish_bucket" }
+		{ item: "minecraft:pufferfish_bucket" }
+		{ item: "nomowanderer:no_soliciting_sign" }
+		{
+			item: {
+				id: "waystones:warp_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "pamhc2foodcore:gummybearsitem" }
 	]
 }

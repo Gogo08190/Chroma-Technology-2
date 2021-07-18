@@ -1637,6 +1637,11 @@
 				type: "item"
 				item: "powah:energy_cell_starter"
 			}]
+			rewards: [{
+				id: "3BEA2E9EE90B1ABC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 15.5d
@@ -1653,6 +1658,11 @@
 				id: "4375709B2950B591"
 				type: "item"
 				item: "powah:ender_cell_starter"
+			}]
+			rewards: [{
+				id: "0BA97ECB130FEDFA"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -1671,6 +1681,11 @@
 				type: "item"
 				item: "powah:energy_cable_starter"
 			}]
+			rewards: [{
+				id: "44D32D846552E963"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 16.5d
@@ -1688,6 +1703,11 @@
 				type: "item"
 				item: "powah:ender_gate_starter"
 			}]
+			rewards: [{
+				id: "0F4B83DA60AF06AC"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 14.0d
@@ -1699,6 +1719,11 @@
 				id: "041E37E486A75DC0"
 				type: "item"
 				item: "powah:energizing_rod_starter"
+			}]
+			rewards: [{
+				id: "18410350F6067008"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -1713,6 +1738,11 @@
 				type: "item"
 				item: "powah:furnator_starter"
 			}]
+			rewards: [{
+				id: "16246F327B334B96"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 14.5d
@@ -1725,6 +1755,11 @@
 				id: "7FCAC2B58AC10F8F"
 				type: "item"
 				item: "powah:thermo_generator_starter"
+			}]
+			rewards: [{
+				id: "5DD754EAE0234189"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -1739,6 +1774,11 @@
 				type: "item"
 				item: "powah:magmator_starter"
 			}]
+			rewards: [{
+				id: "0E89D601EE2A8688"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 15.0d
@@ -1751,6 +1791,11 @@
 				id: "33E82C4351ABDF87"
 				type: "item"
 				item: "powah:solar_panel_starter"
+			}]
+			rewards: [{
+				id: "23FB1D18439BA3C2"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -1766,6 +1811,11 @@
 				item: "powah:reactor_starter"
 				count: 36L
 			}]
+			rewards: [{
+				id: "37D6823EB43DA72A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 16.0d
@@ -1778,6 +1828,11 @@
 				id: "29B8FAC4799BC108"
 				type: "item"
 				item: "powah:player_transmitter_starter"
+			}]
+			rewards: [{
+				id: "52EDEA802EFB67DA"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -1792,6 +1847,11 @@
 				type: "item"
 				item: "powah:energy_hopper_starter"
 			}]
+			rewards: [{
+				id: "081DDA0ED4F26881"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 14.0d
@@ -1804,6 +1864,11 @@
 				id: "0ED6591471DCFCA8"
 				type: "item"
 				item: "powah:energy_discharger_starter"
+			}]
+			rewards: [{
+				id: "49AA6DB91D8368A5"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -1822,6 +1887,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "75615BFF370152D5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 15.0d
@@ -1836,6 +1906,11 @@
 				type: "item"
 				item: "powah:capacitor_basic_tiny"
 			}]
+			rewards: [{
+				id: "6E4A5B020EE71AD5"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 5.5d
@@ -1848,6 +1923,11 @@
 				id: "60133EADFCD09B5B"
 				type: "item"
 				item: "powah:energy_cell_basic"
+			}]
+			rewards: [{
+				id: "26B4832D833E619E"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -1866,6 +1946,11 @@
 				type: "item"
 				item: "powah:ender_cell_basic"
 			}]
+			rewards: [{
+				id: "0CFD12E7177BF9DE"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 4.5d
@@ -1882,6 +1967,11 @@
 				id: "3502C8B3767C01F1"
 				type: "item"
 				item: "powah:energy_cable_basic"
+			}]
+			rewards: [{
+				id: "1A8A35865B618549"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -1900,6 +1990,11 @@
 				type: "item"
 				item: "powah:ender_gate_basic"
 			}]
+			rewards: [{
+				id: "7D47925232DFBE66"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 5.0d
@@ -1911,6 +2006,11 @@
 				id: "3F198E6D48199D48"
 				type: "item"
 				item: "powah:energizing_rod_basic"
+			}]
+			rewards: [{
+				id: "6EB6F16E1D9EF2EA"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -1925,6 +2025,11 @@
 				type: "item"
 				item: "powah:furnator_basic"
 			}]
+			rewards: [{
+				id: "6F1E38F2F4CC523B"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 5.5d
@@ -1937,6 +2042,11 @@
 				id: "42A2F80DB26404F7"
 				type: "item"
 				item: "powah:magmator_basic"
+			}]
+			rewards: [{
+				id: "536D7CB97DE5E054"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -1951,6 +2061,11 @@
 				type: "item"
 				item: "powah:thermo_generator_basic"
 			}]
+			rewards: [{
+				id: "60D901A32ED14693"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 6.0d
@@ -1963,6 +2078,11 @@
 				id: "55A11E8D68BAE30D"
 				type: "item"
 				item: "powah:solar_panel_basic"
+			}]
+			rewards: [{
+				id: "37CCB49F3FD95683"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -1978,6 +2098,11 @@
 				item: "powah:reactor_basic"
 				count: 36L
 			}]
+			rewards: [{
+				id: "2690A9349941704E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 7.0d
@@ -1990,6 +2115,11 @@
 				id: "33DE3741660891B9"
 				type: "item"
 				item: "powah:player_transmitter_basic"
+			}]
+			rewards: [{
+				id: "713B005F18CAA215"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -2004,6 +2134,11 @@
 				type: "item"
 				item: "powah:energy_hopper_basic"
 			}]
+			rewards: [{
+				id: "329EB04F26CE869F"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 5.0d
@@ -2016,6 +2151,11 @@
 				id: "3C996D78C11833AF"
 				type: "item"
 				item: "powah:energy_discharger_basic"
+			}]
+			rewards: [{
+				id: "179941DF4547B095"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -2030,6 +2170,11 @@
 				id: "6C51BD463D4224F9"
 				type: "item"
 				item: "powah:capacitor_basic"
+			}]
+			rewards: [{
+				id: "5AA513CB4C464AD6"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -2050,6 +2195,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "5A25F40318813D38"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
