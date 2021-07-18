@@ -966,6 +966,7 @@
 			}]
 		}
 		{
+			icon: "rats:psionic_rat_brain"
 			x: -0.5d
 			y: 10.0d
 			description: ["Throw the vial of a feral rats to spawn the neo ratlantean."]
@@ -1052,6 +1053,11 @@
 				type: "item"
 				item: "rats:plague_tome"
 			}]
+			rewards: [{
+				id: "722CDCFACCA224E9"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: -2.0d
@@ -1061,6 +1067,11 @@
 				id: "24441390853AFB2A"
 				type: "item"
 				item: "rats:filth_corruption"
+			}]
+			rewards: [{
+				id: "5A2BD304D981B233"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{

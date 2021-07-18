@@ -1970,6 +1970,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3E3DFE9C2A31FB7B"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: 19.0d
@@ -5319,15 +5324,14 @@
 			}]
 			rewards: [
 				{
-					id: "40B9FA4A25952384"
-					type: "loot"
-					table_id: 8655552789015021416L
+					id: "2217DF47C028E247"
+					type: "item"
+					item: "botania:blacker_lotus"
 				}
 				{
-					id: "39294ADCB07423D4"
+					id: "7F02CBBD3C53225A"
 					type: "item"
-					item: "botania:terrasteel_nugget"
-					count: 8
+					item: "botania:terrasteel_ingot"
 				}
 			]
 		}

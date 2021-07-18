@@ -815,6 +815,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0A64F42C15C593CF"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: -7.5d
@@ -833,6 +838,11 @@
 						Parent: { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "0DBFAF37E87BB1B8"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{
@@ -853,6 +863,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "70C2C0AB30B8F749"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: -5.5d
@@ -871,6 +886,11 @@
 						Parent: { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "5E1182E55C779D6E"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 	]

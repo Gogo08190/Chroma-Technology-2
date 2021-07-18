@@ -36,5 +36,23 @@
 		{ item: "minecraft:gold_ingot", count: 24, weight: 3 }
 		{ item: "cyclic:chorus_flight", count: 2 }
 		{ item: "cyclic:carrot_ender", weight: 2 }
+		{
+			item: {
+				id: "jousting:lance_netherite"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "inventorypets:pet_meta"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 	]
 }

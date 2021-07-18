@@ -589,6 +589,11 @@
 				type: "item"
 				item: "thermal:dynamo_lapidary"
 			}]
+			rewards: [{
+				id: "03E6D579F9BC73EB"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 1.0d

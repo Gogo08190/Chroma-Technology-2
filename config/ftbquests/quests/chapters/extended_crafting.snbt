@@ -339,6 +339,11 @@
 				type: "item"
 				item: "extendedcrafting:compressor"
 			}]
+			rewards: [{
+				id: "38944BF67A522D04"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -3.0d
