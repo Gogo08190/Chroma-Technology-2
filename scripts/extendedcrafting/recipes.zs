@@ -1,5 +1,5 @@
 // Crystaltine Ingot
-craftingTable.removeRecipe(<item:extendedcrafting:crystaltine_ingot>);
+mods.extendedcrafting.TableCrafting.remove(<item:extendedcrafting:crystaltine_ingot>);
 
 mods.extendedcrafting.TableCrafting.addShaped("crystaltine_ingot", <item:extendedcrafting:crystaltine_ingot>, [
 	[<item:powah:crystal_niotic>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:powah:crystal_niotic>],
