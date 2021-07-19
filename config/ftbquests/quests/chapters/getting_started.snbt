@@ -428,5 +428,22 @@
 				table_id: 4063386593177790740L
 			}]
 		}
+		{
+			x: -1.5d
+			y: -6.0d
+			dependencies: ["22216C516D42C2E4"]
+			id: "274B81B90110E01A"
+			tasks: [{
+				id: "227C65F74D390FCD"
+				type: "dimension"
+				title: "Visit Dimension : &2Mining Dimension"
+				dimension: "mining_dimension:mining"
+			}]
+			rewards: [{
+				id: "120397BA5B5152B6"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
 	]
 }

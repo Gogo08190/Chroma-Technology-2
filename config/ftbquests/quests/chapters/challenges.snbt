@@ -34,7 +34,7 @@
 					id: "45B85B240DA29056"
 					type: "command"
 					command: "/tellraw @a [{\"text\":\"The Miracle is here ! @p you have beaten Death itself ! You will now be known as The Immortal One !\",\"color\":\"dark_gray\"}]"
-					player_command: true
+					player_command: false
 				}
 				{
 					id: "33BB0F672C8E88BA"
@@ -115,7 +115,7 @@
 					type: "command"
 					auto: "invisible"
 					command: "/tellraw @a [{\"text\":\"Beware everyone @p has became a mad scientist and has stored 100000 items in it's applied storage system.\",\"color\":\"aqua\"}]"
-					player_command: true
+					player_command: false
 				}
 				{
 					id: "0A450D857DF6E655"
@@ -163,7 +163,7 @@
 					type: "command"
 					auto: "invisible"
 					command: "/tellraw @a [{\"text\":\"@p has taken 1000000 damage, that player really likes to suffer !\",\"color\":\"dark_red\"}]"
-					player_command: true
+					player_command: false
 				}
 				{
 					id: "770205FD2D9691C3"
@@ -221,7 +221,7 @@
 					type: "command"
 					auto: "invisible"
 					command: "/tellraw @a [{\"text\":\"@p has discovered the Thunder power by killing 25 Lightning Dragons. Be warned, Raiden is coming for you.\",\"color\":\"light_purple\"}]"
-					player_command: true
+					player_command: false
 				}
 			]
 		}
@@ -269,7 +269,7 @@
 					type: "command"
 					auto: "invisible"
 					command: "/tellraw @a [{\"text\":\"@p has killed 25 Fire Dragons and will now rule The Nether ! Be careful to not burn your wings. \",\"color\":\"red\"}]"
-					player_command: true
+					player_command: false
 				}
 			]
 		}
@@ -317,7 +317,7 @@
 					type: "command"
 					auto: "invisible"
 					command: "/tellraw @a [{\"text\":\"@p has just defeated 25 Ice Dragons ! God is proud that you didn't become an ice cube !\",\"color\":\"aqua\"}]"
-					player_command: true
+					player_command: false
 				}
 			]
 		}
@@ -348,7 +348,7 @@
 					type: "command"
 					auto: "invisible"
 					command: "/tellraw @a [{\"text\":\"Be careful around @p, because that player has just caused 500000 damage ! RUN !\",\"color\":\"dark_aqua\"}]"
-					player_command: true
+					player_command: false
 				}
 				{
 					id: "68C784E80C38106D"
@@ -389,7 +389,7 @@
 					type: "command"
 					auto: "invisible"
 					command: "/tellraw @a [{\"text\":\"@p has killed too many mobs ! Behold the new Doom Guy !\",\"color\":\"red\"}]"
-					player_command: true
+					player_command: false
 				}
 				{
 					id: "60C16DC1372CB03D"
@@ -438,7 +438,7 @@
 					type: "command"
 					auto: "invisible"
 					command: "/tellraw @a [{\"text\":\"@p brings love around him !\",\"color\":\"light_purple\"}]"
-					player_command: true
+					player_command: false
 				}
 				{
 					id: "732D16E750312827"
@@ -474,7 +474,7 @@
 					type: "command"
 					auto: "invisible"
 					command: "/tellraw @a [{\"text\":\"@p is going on an adventure ! You can encourage that decision because the new adventurer has already reached 10 millions blocks ! Congratulations !\",\"color\":\"blue\"}]"
-					player_command: true
+					player_command: false
 				}
 				{
 					id: "5B96DC28E4F996D9"
@@ -509,7 +509,7 @@
 					type: "command"
 					auto: "invisible"
 					command: "/tellraw @a [{\"text\":\"You can now boo @p because @p has left the game too many times. SHAME ON YOU !\",\"color\":\"red\"}]"
-					player_command: true
+					player_command: false
 				}
 				{
 					id: "3A7983688412BBBF"
@@ -548,7 +548,7 @@
 					type: "command"
 					auto: "invisible"
 					command: "/tellraw @a [{\"text\":\"Boiiiing boiiing ! @p is now a Kangaroo ! \",\"color\":\"dark_green\"}]"
-					player_command: true
+					player_command: false
 				}
 				{
 					id: "53C9170BBDB7EE82"
@@ -607,7 +607,7 @@
 					type: "command"
 					auto: "invisible"
 					command: "/tellraw @a [{\"text\":\"Far from town, a little magician named @p has just enchanted 500 items !\",\"color\":\"dark_purple\"}]"
-					player_command: true
+					player_command: false
 				}
 			]
 		}
@@ -636,7 +636,7 @@
 					type: "command"
 					auto: "invisible"
 					command: "/tellraw @a [{\"text\":\"@p has now made Nicki Minaj jealous ! Because @p has twerked more than her ! \",\"color\":\"gold\"}]"
-					player_command: true
+					player_command: false
 				}
 				{
 					id: "5D0D3CC01D59C3FA"
@@ -676,7 +676,7 @@
 					type: "command"
 					auto: "invisible"
 					command: "/tellraw @a [{\"text\":\"@p is the new bell-ringer !\",\"color\":\"yellow\"}]"
-					player_command: true
+					player_command: false
 				}
 				{
 					id: "0E33859226C9BC0E"
@@ -734,7 +734,7 @@
 					type: "command"
 					auto: "invisible"
 					command: "/tellraw @a [{\"text\":\"@p eradicated Wandering Traders ! Good Job !\",\"color\":\"dark_red\"}]"
-					player_command: true
+					player_command: false
 				}
 				{
 					id: "37062F6A358262BD"
