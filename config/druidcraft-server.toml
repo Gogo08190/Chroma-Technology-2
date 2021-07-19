@@ -63,7 +63,7 @@
 	beetle_spawn = true
 	#Determines the rarity of the beetle.
 	#Range: 1 ~ 200
-	beetle_weight = 10
+	beetle_weight = 3
 	#Minimum size of the group when spawned.
 	#Range: 1 ~ 200
 	beetle_min_group_size = 1
@@ -89,4 +89,3 @@
 	lunar_moth_biomes = "FOREST, PLAINS, MOUNTAIN, HILLS"
 	#List of biome types from the biome dictionary that lunar moths cannot spawn in. Separate with commas.
 	lunar_moth_exclusions = "DENSE"
-
