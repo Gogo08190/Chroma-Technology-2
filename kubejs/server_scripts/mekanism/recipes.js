@@ -14,6 +14,20 @@ onEvent('recipes', event => {
 
   })
 
+  // Metallurgic Infuser
+  event.remove({ output: 'mekanism:metallurgic_infuser'})
+  event.shaped('mekanism:metallurgic_infuser', [
+    'SFS',
+    'OMO',
+    'SFS'
+  ], {
+    S: '#forge:ingots/steel',
+    F: 'thermal:machine_furnace',
+    O: 'mekanism:ingot_osmium',
+    M: 'industrialforegoing:machine_frame_supreme'
+
+  })
+
   // MekaSuit Boots
   event.remove({ output: 'mekanism:mekasuit_boots'})
   event.shaped('mekanism:mekasuit_boots', [
