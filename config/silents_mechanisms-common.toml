@@ -116,10 +116,10 @@
 		[world.ores.zinc]
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 0
+			veinCount = 20
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 0
+			veinSize = 7
 			#Minimum Y-coordinate (base height) of veins
 			#Range: 0 ~ 255
 			minHeight = 20
@@ -168,4 +168,3 @@
 			#Maximum Y-coordinate (highest level) of veins
 			#Range: 0 ~ 255
 			maxHeight = 24
-
