@@ -4,17 +4,17 @@
 	[Generation.Dimensions]
 		#True if using blacklists, false if using whitelists for dragons and structure gen.
 		"Use Dimension Blacklist" = false
-		#Whitelist dragon gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
+		#Whitelist dragon gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis"
 		whitelistDimensionsDragons = ["minecraft:overworld"]
-		#Whitelisted feature(cyclops caves, hydra dens, etc) gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
+		#Whitelisted feature(cyclops caves, hydra dens, etc) gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis"
 		whitelistDimensionsFeature = ["minecraft:overworld"]
-		#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
+		#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis"
 		whitelistDimensionsMobs = ["minecraft:overworld"]
-		#Blacklisted dragon gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
+		#Blacklisted dragon gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis"
 		blacklistDimensionsDragons = ["minecraft:the_nether", "minecraft:the_end"]
-		#Blacklisted feature(cyclops caves, hydra dens, etc) gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
+		#Blacklisted feature(cyclops caves, hydra dens, etc) gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis"
 		blacklistDimensionsFeature = ["minecraft:the_nether", "minecraft:the_end"]
-		#Blacklisted mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
+		#Blacklisted mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis"
 		blacklistDimensionsMobs = ["minecraft:the_nether", "minecraft:the_end"]
 
 	[Generation.Ores]
@@ -84,9 +84,9 @@
 		#The percentage chance for a block to drop as an item when a dragon breaks it.
 		#Range: 0.0 ~ 1.0
 		"Dragon Block Breaking Drop Chance" = 0.10000000149011612
-		#Blocks that a dragon cannot break. Use the format like "minecraft:chest" or "rats:block_of_cheese" 
+		#Blocks that a dragon cannot break. Use the format like "minecraft:chest" or "rats:block_of_cheese"
 		blacklistedBreakBlocks = []
-		#Blocks that a dragon can break, but won't spawn drops for. Use the format like "minecraft:stone" or "rats:block_of_cheese" 
+		#Blocks that a dragon can break, but won't spawn drops for. Use the format like "minecraft:stone" or "rats:block_of_cheese"
 		noDropBreakBlocks = ["minecraft:stone", "minecraft:dirt", "minecraft:grass_block"]
 
 	[Dragons.Attributes]
@@ -143,7 +143,7 @@
 		"Explosive Dragon Breath" = false
 		#How many blocks away can dragons spot potential prey. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
-		"Dragon Target Search Length" = 128
+		"Dragon Target Search Length" = 64
 		#How many blocks away can dragons wander from their defined "home" position.
 		#Range: 1 ~ 10000
 		"Dragon Wander From Home Distance" = 40
@@ -303,7 +303,7 @@
 
 	[Mobs.Myrmex]
 		#True if myrmex colonies are allowed to spawn
-		"Spawn Myrmex" = true
+		"Spawn Myrmex" = false
 		#How many ticks it takes for a Myrmex Queen to produce an egg.
 		#Range: 1 ~ 10000
 		"Myrmex Gestation Length" = 2500
@@ -449,5 +449,4 @@
 	"Dragon Pathfinding Threads" = 3
 	#Maximum nodes for dragons/myrmex to path too. Decrease this is dragon pathfinding is super slow or intensive.
 	#Range: > 1
-	"Dragon Max Pathfinding Nodes" = 5000
-
+	"Dragon Max Pathfinding Nodes" = 2500
