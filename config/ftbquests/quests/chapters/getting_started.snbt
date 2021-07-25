@@ -166,26 +166,6 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -3.5d
-			dependencies: [
-				"0988763630748AED"
-				"5B3BBE4B58C16F35"
-			]
-			id: "76AC00A4CC0E1999"
-			tasks: [{
-				id: "0A9A8EE4ECBD0089"
-				type: "dimension"
-				title: "Visit Dimension : &4Nether"
-				dimension: "minecraft:the_nether"
-			}]
-			rewards: [{
-				id: "3E88E2F14501B037"
-				type: "loot"
-				table_id: 4063386593177790740L
-			}]
-		}
-		{
 			x: 2.0d
 			y: -4.5d
 			dependencies: ["47BA5DFD32622803"]
@@ -210,7 +190,7 @@
 		{
 			x: 4.0d
 			y: -4.0d
-			dependencies: ["76AC00A4CC0E1999"]
+			dependencies: ["67EC95AF8740F4CB"]
 			id: "60EDDAA798C340C5"
 			tasks: [{
 				id: "2419AF6FE4922583"
@@ -258,7 +238,7 @@
 		{
 			x: 4.0d
 			y: -3.0d
-			dependencies: ["76AC00A4CC0E1999"]
+			dependencies: ["67EC95AF8740F4CB"]
 			id: "15A6CF65FC8F2742"
 			tasks: [{
 				id: "3E541D5720413B2C"
@@ -441,6 +421,26 @@
 			}]
 			rewards: [{
 				id: "120397BA5B5152B6"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			dependencies: [
+				"0988763630748AED"
+				"5B3BBE4B58C16F35"
+			]
+			id: "67EC95AF8740F4CB"
+			tasks: [{
+				id: "7AA6307296B89521"
+				type: "dimension"
+				title: "Visit Dimension : &4Nether"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "43F59119B2538EE7"
 				type: "loot"
 				table_id: 4063386593177790740L
 			}]

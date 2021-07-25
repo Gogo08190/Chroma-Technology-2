@@ -369,5 +369,21 @@
 				table_id: 4063386593177790740L
 			}]
 		}
+		{
+			x: 1.5d
+			y: -4.5d
+			shape: "diamond"
+			id: "75FB15D6B5B3A6F7"
+			tasks: [{
+				id: "1062A77DDDC1E0B4"
+				type: "item"
+				item: "mob_grinding_utils:rotten_egg"
+			}]
+			rewards: [{
+				id: "07F1C59AFDD1AC15"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
 	]
 }

@@ -420,18 +420,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "24A60A929561D67C"
-					type: "loot"
-					table_id: 8655552789015021416L
-				}
-				{
-					id: "6C825BB9A3D9CB53"
-					type: "random"
-					table_id: 8655552789015021416L
-				}
-			]
+			rewards: [{
+				id: "6C825BB9A3D9CB53"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -1.0d

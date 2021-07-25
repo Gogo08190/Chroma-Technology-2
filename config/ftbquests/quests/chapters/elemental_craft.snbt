@@ -176,6 +176,11 @@
 				type: "item"
 				item: "elementalcraft:extractor_improved"
 			}]
+			rewards: [{
+				id: "0D5AE4B3B70C3F9D"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 6.0d
@@ -308,7 +313,6 @@
 			y: 0.0d
 			description: ["A new material"]
 			dependencies: ["1CE7C3FE672DA886"]
-			hide: true
 			id: "045A7AC4769EEF48"
 			tasks: [{
 				id: "65DAAB8AD026BFAB"
@@ -563,6 +567,11 @@
 				id: "6642B133819CA0B6"
 				type: "item"
 				item: "elementalcraft:vacuumshrine"
+			}]
+			rewards: [{
+				id: "30C744CEBB34210A"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{

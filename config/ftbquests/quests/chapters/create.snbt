@@ -103,9 +103,9 @@
 			x: 8.0d
 			y: -2.5d
 			description: [
-				"The windmill bearing Generate Su but he ne wind power"
+				"The windmill bearing Generate Su but he need wind power"
 				"Place a radial chassis on the sticky part"
-				"To connect sail or wool you need to pute slime on the face of the radial chassis"
+				"To connect sail or wool you need to put slime on the face of the radial chassis"
 				"Now connect the sail or the wool to the radial you need 8 at minimal"
 				"Sail ar more efficient than wool"
 			]
@@ -834,6 +834,26 @@
 			}]
 			rewards: [{
 				id: "0CA051F5408E5CF4"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			description: [
+				"To capture the Blaze you need to right click with an empty blaze burner on a blaze"
+				"To make the burner work, you need to refill him with combustible"
+			]
+			dependencies: ["3F0EFCC65E319E48"]
+			id: "6BADF77B8D43F95F"
+			tasks: [{
+				id: "46CF26AC5EF2FEB3"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "6318E467BA652543"
 				type: "loot"
 				table_id: 4063386593177790740L
 			}]

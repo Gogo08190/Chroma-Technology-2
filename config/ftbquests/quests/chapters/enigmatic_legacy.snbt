@@ -1,0 +1,281 @@
+{
+	id: "1429C1F3A692BD99"
+	group: "674F2646E40CCF92"
+	order_index: 6
+	filename: "enigmatic_legacy"
+	title: "Enigmatic Legacy"
+	icon: "enigmaticlegacy:cursed_ring"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Ring Of Doom"
+			icon: "enigmaticlegacy:cursed_ring"
+			x: -1.0d
+			y: 0.0d
+			description: ["As you can see, you spawned with two items of &5Enigmatic Legacy&r this items are here to make the game harder, but with time you can craft items that can help you to deal with those negatives effects. And for some items, you'll need to have the Ring of the Seven Curses activated to drop or craft the items/loots"]
+			id: "3F852341507A5C4B"
+			tasks: [{
+				id: "3248BB5D7FE42351"
+				type: "checkmark"
+				title: "The Sevencurses"
+			}]
+			rewards: [{
+				id: "6EA95F220F5F37A0"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			dependencies: ["3F852341507A5C4B"]
+			id: "5A70DA1E5A7C5CFE"
+			tasks: [{
+				id: "24C686FE6D824339"
+				type: "item"
+				item: "enigmaticlegacy:the_acknowledgment"
+			}]
+			rewards: [{
+				id: "509D9BF5E0A8977E"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			description: ["This item will counter the &5Ring of The Seven Curses&r"]
+			dependencies: ["5A70DA1E5A7C5CFE"]
+			id: "2CC186541A99A05A"
+			tasks: [{
+				id: "6511C7AFF6475EBE"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:earth_heart"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "40AFC3D97A7E6CAD"
+					type: "loot"
+					table_id: 4063386593177790740L
+				}
+				{
+					id: "431EDB860157E02E"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:earth_heart"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			description: ["To craft this item you need to wear the &5Ring of The Seven Curses&r"]
+			dependencies: ["2CC186541A99A05A"]
+			id: "40764DF70E5C29A1"
+			tasks: [{
+				id: "3C613B5C1D9337E9"
+				type: "item"
+				item: "enigmaticlegacy:twisted_core"
+			}]
+			rewards: [
+				{
+					id: "70006F8565D2A0A1"
+					type: "loot"
+					table_id: 4063386593177790740L
+				}
+				{
+					id: "762F8316CE954298"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:earth_heart"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6E9AD262982C27C9"
+					type: "item"
+					item: "enigmaticlegacy:darkest_scroll"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -6.0d
+			description: ["To get this item you need to wear the Ring of The Seven Curses"]
+			dependencies: ["40764DF70E5C29A1"]
+			id: "2AFE2036C8FA5038"
+			tasks: [{
+				id: "7E600E8028F3D6AB"
+				type: "item"
+				item: "enigmaticlegacy:avarice_scroll"
+			}]
+			rewards: [{
+				id: "7ACFB05AFAC1952A"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -7.5d
+			description: ["To get this item you need to wear the Ring of The Seven Curses"]
+			dependencies: ["40764DF70E5C29A1"]
+			id: "636BC5D6D42DEF8C"
+			tasks: [{
+				id: "3E65F5F1ECE2A3FE"
+				type: "item"
+				item: "enigmaticlegacy:enchanter_pearl"
+			}]
+			rewards: [{
+				id: "63DC2944875C3B97"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -14.0d
+			subtitle: "Permit you to destroy the ring"
+			dependencies: ["3F852341507A5C4B"]
+			id: "0EA51D772D2E792D"
+			tasks: [{
+				id: "0CE95D0808E5EFC9"
+				type: "item"
+				item: "enigmaticlegacy:cursed_stone"
+			}]
+			rewards: [{
+				id: "5627B3F4359B9278"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -9.0d
+			description: ["To get this item you need to wear the Ring of The Seven Curses"]
+			dependencies: ["40764DF70E5C29A1"]
+			id: "4E3FCD75E9BE926A"
+			tasks: [{
+				id: "286F65BE7A4621A5"
+				type: "item"
+				item: "enigmaticlegacy:animal_guide"
+			}]
+			rewards: [{
+				id: "1B4143EC93253145"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -11.0d
+			description: ["To get this item you need to wear the Ring of The Seven Curses"]
+			dependencies: ["5A70DA1E5A7C5CFE"]
+			id: "3597780E26222D3B"
+			tasks: [{
+				id: "3DAD3727CDE9A100"
+				type: "item"
+				item: "enigmaticlegacy:evil_essence"
+			}]
+			rewards: [{
+				id: "1B5934EAA8C67736"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			description: ["To get this item you need to wear the Ring of The Seven Curses"]
+			dependencies: ["40764DF70E5C29A1"]
+			id: "12AC311A46464E4D"
+			tasks: [{
+				id: "45CD780D8448FEBC"
+				type: "item"
+				item: "enigmaticlegacy:the_twist"
+			}]
+			rewards: [{
+				id: "6CAB28A45F3D694C"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.5d
+			description: ["To get this item you need to wear the Ring of The Seven Curses"]
+			dependencies: ["40764DF70E5C29A1"]
+			id: "1215F544CD839053"
+			tasks: [{
+				id: "1B5619D515BFEDA5"
+				type: "item"
+				item: "enigmaticlegacy:guardian_heart"
+			}]
+			rewards: [{
+				id: "65B46556EA53664E"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -9.0d
+			description: ["To get this item you need to wear the Ring of The Seven Curses"]
+			dependencies: ["40764DF70E5C29A1"]
+			id: "61A52AB175DA9F8D"
+			tasks: [{
+				id: "4737880B01D22519"
+				type: "item"
+				item: "enigmaticlegacy:berserk_emblem"
+			}]
+			rewards: [{
+				id: "5F051B667D626DE7"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -10.0d
+			description: ["To get this item you need to wear the Ring of The Seven Curses"]
+			dependencies: ["40764DF70E5C29A1"]
+			id: "4EAD9B67065A81C9"
+			tasks: [{
+				id: "14E6AE4B4D5C2F58"
+				type: "item"
+				item: "enigmaticlegacy:cursed_scroll"
+			}]
+			rewards: [{
+				id: "47F3A31250BD1EBC"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -10.0d
+			description: ["To get this item you need to wear the Ring of The Seven Curses"]
+			dependencies: ["40764DF70E5C29A1"]
+			id: "132E9ACB7DF7937E"
+			tasks: [{
+				id: "7697279B4B0A4DE5"
+				type: "item"
+				item: "enigmaticlegacy:dark_mirror"
+			}]
+			rewards: [{
+				id: "421EA957475691DB"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+	]
+}

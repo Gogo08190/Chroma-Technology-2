@@ -370,6 +370,11 @@
 				type: "item"
 				item: "immersiveengineering:capacitor_lv"
 			}]
+			rewards: [{
+				id: "4E0C468958BBF545"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 10.5d
@@ -386,6 +391,11 @@
 				type: "item"
 				item: "immersiveengineering:capacitor_mv"
 			}]
+			rewards: [{
+				id: "53B4EAA6DD239082"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 11.272108843537417d
@@ -401,6 +411,11 @@
 				id: "4A10376FC086ADAD"
 				type: "item"
 				item: "immersiveengineering:capacitor_hv"
+			}]
+			rewards: [{
+				id: "290D1851149754BE"
+				type: "loot"
+				table_id: 4063386593177790740L
 			}]
 		}
 		{

@@ -8,8 +8,8 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
-		x: 1.0d
-		y: 9.0d
+		x: -4.5d
+		y: 2.5d
 		width: 5.0d
 		height: 2.5d
 		rotation: 0.0d
@@ -2645,480 +2645,8 @@
 			}]
 		}
 		{
-			title: "Jungle Desert Myrmex Chitin"
-			x: -11.0d
+			x: -8.5d
 			y: 0.5d
-			hide_dependency_lines: true
-			dependencies: ["37498A776C0B5351"]
-			id: "2DD91ABDBE9DE9FE"
-			tasks: [{
-				id: "04910B3743B338EE"
-				type: "item"
-				item: "iceandfire:myrmex_jungle_chitin"
-				count: 30L
-			}]
-			rewards: [{
-				id: "1BD8828C5256E690"
-				type: "loot"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			title: "Jungle Myrmex Chitin Armor"
-			x: -9.0d
-			y: 0.5d
-			dependencies: ["2DD91ABDBE9DE9FE"]
-			id: "2CEF0BBBA39BD8C7"
-			tasks: [
-				{
-					id: "498A196EC5D64111"
-					type: "item"
-					item: {
-						id: "iceandfire:myrmex_jungle_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "42E16F382F65B7AD"
-					type: "item"
-					item: {
-						id: "iceandfire:myrmex_jungle_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "29CB071633D49A7A"
-					type: "item"
-					item: {
-						id: "iceandfire:myrmex_jungle_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "3427944801C1C77F"
-					type: "item"
-					item: {
-						id: "iceandfire:myrmex_jungle_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "1A3CEED6F3D3934F"
-				type: "loot"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			title: "Desert Myrmex Chitin"
-			x: -5.0d
-			y: 0.5d
-			hide_dependency_lines: true
-			dependencies: ["37498A776C0B5351"]
-			id: "4812E7FBE144E0E3"
-			tasks: [{
-				id: "15A37F26340F6E4A"
-				type: "item"
-				item: "iceandfire:myrmex_desert_chitin"
-				count: 30L
-			}]
-			rewards: [{
-				id: "789B155E8C3034CC"
-				type: "loot"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			title: "Desert Myrmex Chitin Armor"
-			x: -7.0d
-			y: 0.5d
-			dependencies: ["4812E7FBE144E0E3"]
-			id: "7E5D1729A6BBD10C"
-			tasks: [
-				{
-					id: "5D4C1A8CE34A54CC"
-					type: "item"
-					item: {
-						id: "iceandfire:myrmex_desert_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "536F0E618F62C392"
-					type: "item"
-					item: {
-						id: "iceandfire:myrmex_desert_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "098CE6D24DD125CB"
-					type: "item"
-					item: {
-						id: "iceandfire:myrmex_desert_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "15FB6E7AD29336EE"
-					type: "item"
-					item: {
-						id: "iceandfire:myrmex_desert_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "03289F9071402F90"
-				type: "loot"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			x: -3.0d
-			y: 0.5d
-			dependencies: ["4812E7FBE144E0E3"]
-			id: "6B93296453443EA1"
-			tasks: [{
-				id: "6F542513187B3403"
-				type: "item"
-				item: {
-					id: "iceandfire:myrmex_desert_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "472DDF1B80B11E0D"
-				type: "loot"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			x: -3.0d
-			y: 2.5d
-			dependencies: ["4812E7FBE144E0E3"]
-			id: "6D1EE33F8147C24F"
-			tasks: [{
-				id: "62D0AC36195577E6"
-				type: "item"
-				item: {
-					id: "iceandfire:myrmex_desert_sword_venom"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "6A9CA471A0F508D3"
-				type: "loot"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			x: -3.0d
-			y: 1.5d
-			dependencies: ["4812E7FBE144E0E3"]
-			id: "2C0275769B0C444F"
-			tasks: [{
-				id: "4E0B7418491278AC"
-				type: "item"
-				item: {
-					id: "iceandfire:myrmex_desert_shovel"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "3B1D633B56DD4B80"
-				type: "loot"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			x: -3.0d
-			y: 3.5d
-			dependencies: ["4812E7FBE144E0E3"]
-			id: "74FAAC549784029C"
-			tasks: [{
-				id: "07756999BF7F40B2"
-				type: "item"
-				item: {
-					id: "iceandfire:myrmex_desert_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "7B9B2A2F155A1AFF"
-				type: "loot"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			x: -3.0d
-			y: -2.5d
-			dependencies: ["4812E7FBE144E0E3"]
-			id: "48582BD29F5BE060"
-			tasks: [{
-				id: "55F4975EEAE42CBE"
-				type: "item"
-				item: {
-					id: "iceandfire:myrmex_desert_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "12CF2CC2AA01E6F3"
-				type: "loot"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			x: -3.0d
-			y: -0.5d
-			dependencies: ["4812E7FBE144E0E3"]
-			id: "40036E6682CD93B6"
-			tasks: [{
-				id: "1086C096698B53ED"
-				type: "item"
-				item: {
-					id: "iceandfire:myrmex_desert_hoe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "5060E16072913E6D"
-				type: "loot"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			x: -3.0d
-			y: -1.5d
-			dependencies: ["4812E7FBE144E0E3"]
-			id: "38614D05F3C18018"
-			tasks: [{
-				id: "3009A98C66843ACA"
-				type: "item"
-				item: {
-					id: "iceandfire:myrmex_desert_staff"
-					Count: 1b
-					tag: {
-						HiveUUID: [I;
-							0
-							0
-							0
-							0
-						]
-					}
-				}
-			}]
-			rewards: [{
-				id: "111397BDDF9B5B64"
-				type: "loot"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			x: -13.0d
-			y: 0.5d
-			dependencies: ["2DD91ABDBE9DE9FE"]
-			id: "3D19E22385239BC0"
-			tasks: [{
-				id: "5524AFF266FE5290"
-				type: "item"
-				item: {
-					id: "iceandfire:myrmex_jungle_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "13A5ED83B9AC7137"
-				type: "loot"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			x: -13.0d
-			y: 2.5d
-			dependencies: ["2DD91ABDBE9DE9FE"]
-			id: "1B4DD141DE9C598E"
-			tasks: [{
-				id: "48448CDA30A0A1FC"
-				type: "item"
-				item: {
-					id: "iceandfire:myrmex_jungle_sword_venom"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "390701E62079DB5B"
-				type: "loot"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			x: -13.0d
-			y: 1.5d
-			dependencies: ["2DD91ABDBE9DE9FE"]
-			id: "3776725A75B13EC8"
-			tasks: [{
-				id: "354923A0211F591F"
-				type: "item"
-				item: {
-					id: "iceandfire:myrmex_jungle_shovel"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "1216696DC1DF5CCC"
-				type: "loot"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			x: -13.0d
-			y: 3.5d
-			dependencies: ["2DD91ABDBE9DE9FE"]
-			id: "3D6D8721ED6ACDD1"
-			tasks: [{
-				id: "34762E07205A248E"
-				type: "item"
-				item: {
-					id: "iceandfire:myrmex_jungle_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "152927E9868ED0CF"
-				type: "loot"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			x: -13.0d
-			y: -2.5d
-			dependencies: ["2DD91ABDBE9DE9FE"]
-			id: "7B4AE370001EF049"
-			tasks: [{
-				id: "52A302E691266530"
-				type: "item"
-				item: {
-					id: "iceandfire:myrmex_jungle_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "6086A00B6902EF89"
-				type: "loot"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			x: -13.0d
-			y: -0.5d
-			dependencies: ["2DD91ABDBE9DE9FE"]
-			id: "03FBD32C35068AC7"
-			tasks: [{
-				id: "3FDFDAEED9B9922B"
-				type: "item"
-				item: {
-					id: "iceandfire:myrmex_jungle_hoe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "4817D421CA194009"
-				type: "loot"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			x: -13.0d
-			y: -1.5d
-			dependencies: ["2DD91ABDBE9DE9FE"]
-			id: "54DE951768D38B58"
-			tasks: [{
-				id: "1E5ADD7AE00A761C"
-				type: "item"
-				item: {
-					id: "iceandfire:myrmex_jungle_staff"
-					Count: 1b
-					tag: {
-						HiveUUID: [I;
-							0
-							0
-							0
-							0
-						]
-					}
-				}
-			}]
-			rewards: [{
-				id: "2B6A8F48BBCC7EB6"
-				type: "loot"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			x: 0.5d
-			y: 5.5d
 			dependencies: [
 				"22202C594DEB2738"
 				"2C268DF1937613D8"
@@ -3174,8 +2702,8 @@
 		}
 		{
 			title: "Tan Death Worm Chitin Armor"
-			x: 2.5d
-			y: 7.0d
+			x: -10.5d
+			y: -1.5d
 			dependencies: ["2C268DF1937613D8"]
 			id: "3B659622A8EAE279"
 			tasks: [
@@ -3232,8 +2760,8 @@
 		}
 		{
 			title: "White Death Worm Chitin Armor"
-			x: 2.5d
-			y: 4.0d
+			x: -6.0d
+			y: -1.5d
 			dependencies: ["412419A7CBFA83F3"]
 			id: "0445A41EE6D5B8C2"
 			tasks: [
@@ -3290,8 +2818,8 @@
 		}
 		{
 			title: "Red Death Worm Chitin Armor"
-			x: 4.0d
-			y: 5.5d
+			x: -5.0d
+			y: 0.5d
 			dependencies: ["22202C594DEB2738"]
 			id: "125CEF6FC8624043"
 			tasks: [
@@ -3348,8 +2876,8 @@
 		}
 		{
 			title: "Tan Death Worm Chitin"
-			x: 0.5d
-			y: 7.0d
+			x: -10.5d
+			y: 0.5d
 			hide_dependency_lines: true
 			dependencies: ["37498A776C0B5351"]
 			id: "2C268DF1937613D8"
@@ -3367,8 +2895,8 @@
 		}
 		{
 			title: "White Death Worm Chitin"
-			x: 0.5d
-			y: 4.0d
+			x: -8.5d
+			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: ["37498A776C0B5351"]
 			id: "412419A7CBFA83F3"
@@ -3386,8 +2914,8 @@
 		}
 		{
 			title: "Red Death Worm Chitin"
-			x: 2.5d
-			y: 5.5d
+			x: -7.0d
+			y: 0.5d
 			hide_dependency_lines: true
 			dependencies: ["37498A776C0B5351"]
 			id: "22202C594DEB2738"
@@ -3647,8 +3175,8 @@
 		}
 		{
 			title: "Chain"
-			x: -1.5d
-			y: 5.5d
+			x: -8.5d
+			y: 2.5d
 			hide_dependency_lines: true
 			dependencies: ["37498A776C0B5351"]
 			id: "5987F0F9CCCAD3BD"
@@ -3902,6 +3430,11 @@
 				type: "item"
 				item: "iceandfire:dragonegg_copper"
 			}]
+			rewards: [{
+				id: "1AEF3A7D83197F93"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			title: "Black Dragon Egg"
@@ -3915,6 +3448,11 @@
 				id: "75C4FB8BB57B3FEC"
 				type: "item"
 				item: "iceandfire:dragonegg_black"
+			}]
+			rewards: [{
+				id: "009FDD0DBA757672"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
