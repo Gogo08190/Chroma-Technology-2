@@ -241,7 +241,7 @@
 			#Enables/Disables Sand Button Variants
 			enableSandButtons = true
 			#Enables/Disables Clay Button Variants
-			enableClayButtons = true
+			enableClayButtons = false
 			#Enables/Disables Snow Button Variants
 			enableSnowButtons = true
 			#Enables/Disables Ice Button Variants
@@ -263,4 +263,3 @@
 			enableAdvancements = true
 			#Enables/Disables Painting Variants
 			enablePaintings = true
-

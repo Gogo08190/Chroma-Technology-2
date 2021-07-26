@@ -13,7 +13,11 @@
 			icon: "enigmaticlegacy:cursed_ring"
 			x: -1.0d
 			y: 0.0d
-			description: ["As you can see, you spawned with two items of &5Enigmatic Legacy&r this items are here to make the game harder, but with time you can craft items that can help you to deal with those negatives effects. And for some items, you'll need to have the Ring of the Seven Curses activated to drop or craft the items/loots"]
+			description: [
+				"As you can see, you spawned with two items of &5Enigmatic Legacy&r this items are here to make the game harder, but with time you can craft items that can help you to deal with those negatives effects. And for some items, you'll need to have the Ring of the Seven Curses activated to drop or craft the items/loots"
+				""
+				"If you don't have the &4ring of seven curses&f click on the &6emergency item&f."
+			]
 			id: "3F852341507A5C4B"
 			tasks: [{
 				id: "3248BB5D7FE42351"
@@ -45,7 +49,10 @@
 		{
 			x: -1.0d
 			y: -4.0d
-			description: ["This item will counter the &5Ring of The Seven Curses&r"]
+			description: [
+				"This item will counter the &5Ring of The Seven Curses&r"
+				"This item will only spawn in overworld loot chest"
+			]
 			dependencies: ["5A70DA1E5A7C5CFE"]
 			id: "2CC186541A99A05A"
 			tasks: [{

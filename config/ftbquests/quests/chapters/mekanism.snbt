@@ -671,7 +671,7 @@
 			shape: "diamond"
 			description: ["The &bMetallurgic Infuser&f is the first step in the Mekanism tech tree. The &bMetallurgic Infuser&f is a machine used in the production of &aSteel Ingots&f, &aBronze Ingot&f, &aEnriched Alloy&f, and &aObsidian Ingots&f."]
 			hide_dependency_lines: true
-			dependencies: ["6F2326323EF33A63"]
+			dependencies: ["2CFB31CFACB54C1E"]
 			id: "0DB499A573427750"
 			tasks: [{
 				id: "2FB2AFD06DB1A1EB"

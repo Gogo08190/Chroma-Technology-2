@@ -533,7 +533,10 @@
 		{
 			x: 9.5d
 			y: 2.0d
-			description: ["Enhanced version of the milstone but can double ore"]
+			description: [
+				"Enhanced version of the milstone but can double ore"
+				"You need to have the two of theme on a diferent rotation"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"3062EC7F5DD6F6C5"
@@ -839,7 +842,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 5.5d
 			y: 3.0d
 			description: [
 				"To capture the Blaze you need to right click with an empty blaze burner on a blaze"
@@ -856,6 +859,30 @@
 				id: "6318E467BA652543"
 				type: "loot"
 				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Super Heated"
+			x: 4.5d
+			y: 3.0d
+			description: [
+				"You will need to apply lava on a blaze cake base on a depot."
+				""
+				"For this you will need a spout connect with fluid pipe, for moving the fluid in the pipe you will need a mechanical pump connect to a tank."
+				""
+				"You cannot input lava manually so you will need to extract lava with a hose pulley."
+			]
+			dependencies: ["6BADF77B8D43F95F"]
+			id: "356BA5B9FDB12DE1"
+			tasks: [{
+				id: "541ADAC39DFA8D4D"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+			rewards: [{
+				id: "09B8A13824BDDB7B"
+				type: "loot"
+				table_id: 8655552789015021416L
 			}]
 		}
 	]

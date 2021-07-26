@@ -875,25 +875,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -1.5d
-			subtitle: "Disable mob caps for spawners"
-			id: "42C55955301AD6C0"
-			tasks: [{
-				id: "4136800AC321826F"
-				type: "advancement"
-				advancement: "apotheosis:spawner/spawncap"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "05A9781103E6580C"
-				type: "loot"
-				table_id: 377628902063858466L
-			}]
-		}
-		{
 			x: 11.5d
-			y: -0.5d
+			y: -1.5d
 			subtitle: "Disable the presence of players"
 			id: "258047BAA79AC808"
 			tasks: [{
@@ -910,7 +893,7 @@
 		}
 		{
 			x: 9.5d
-			y: -0.5d
+			y: -1.5d
 			subtitle: "Raise spawner count to 20"
 			id: "7B3D9A8DF62F11B1"
 			tasks: [{
@@ -944,7 +927,7 @@
 		}
 		{
 			x: 10.5d
-			y: -0.5d
+			y: -1.5d
 			subtitle: "Raise the max nearby entities to 40"
 			id: "17C29CECB1D3C135"
 			tasks: [{

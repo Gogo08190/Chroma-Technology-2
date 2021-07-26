@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -2.0d
+			x: -1.5d
 			y: 0.0d
 			shape: "gear"
 			description: ["This dock can be placed down and be used as a chest if a Dank is stored inside it."]
@@ -29,7 +29,6 @@
 			x: 0.0d
 			y: 0.0d
 			description: ["This Dank has &69 slots &fand can store &6256 items&f."]
-			dependencies: ["5FE9892938B2BA8A"]
 			id: "037E3020683BAEFC"
 			tasks: [{
 				id: "1AC51AD51B0FA5A2"
