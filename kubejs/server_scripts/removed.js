@@ -151,6 +151,8 @@ onEvent('recipes', event => {
 
   event.remove({id: 'compactmachines:wall'})
 
+  event.remove({id: 'mob_grinding_utils:entity_spawner'})
+
   event.remove({output: 'thermal:earth_tnt'})
   event.remove({output: 'thermal:earth_grenade'})
 
