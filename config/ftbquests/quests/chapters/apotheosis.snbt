@@ -840,59 +840,7 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -4.5d
-			subtitle: "Disable conditions on a apotheosis spawner"
-			id: "722E89301FE1CF21"
-			tasks: [{
-				id: "112C6B816F621C9C"
-				type: "advancement"
-				advancement: "apotheosis:spawner/conditions"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "406AF900AC0255EB"
-				type: "loot"
-				table_id: 377628902063858466L
-			}]
-		}
-		{
-			x: 11.5d
-			y: -2.5d
-			subtitle: "Perfect spawner"
-			description: ["Create a spawner with minimal delays, no redstone, no mob caps, no conditions and no players."]
-			id: "756E339045FAEB4A"
-			tasks: [{
-				id: "293965EB70766769"
-				type: "advancement"
-				advancement: "apotheosis:spawner/ultimate_spawner"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "12B2E8288205D84C"
-				type: "loot"
-				table_id: 377628902063858466L
-			}]
-		}
-		{
-			x: 11.5d
-			y: -1.5d
-			subtitle: "Disable the presence of players"
-			id: "258047BAA79AC808"
-			tasks: [{
-				id: "7C47075BFBF9FC4D"
-				type: "advancement"
-				advancement: "apotheosis:spawner/players"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "087A47CA0E26DB43"
-				type: "loot"
-				table_id: 377628902063858466L
-			}]
-		}
-		{
-			x: 9.5d
+			x: 10.5d
 			y: -1.5d
 			subtitle: "Raise spawner count to 20"
 			id: "7B3D9A8DF62F11B1"
@@ -926,8 +874,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -1.5d
+			x: 11.5d
+			y: -2.5d
 			subtitle: "Raise the max nearby entities to 40"
 			id: "17C29CECB1D3C135"
 			tasks: [{

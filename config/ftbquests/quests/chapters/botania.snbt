@@ -2257,7 +2257,8 @@
 			title: "Alfheim loot"
 			x: 15.0d
 			y: 1.5d
-			dependencies: ["7F45E540DB77DE92"]
+			hide_dependency_lines: true
+			dependencies: ["457116B6E1C7236C"]
 			id: "08C095E10B10E051"
 			tasks: [
 				{
