@@ -215,6 +215,10 @@ events.listen('jei.hide.items', function (event) {
   event.hide('silents_mechanisms:electrum_nugget')
   event.hide('silents_mechanisms:electrum_dust')
   event.hide('silents_mechanisms:compressed_iron_ingot')
+  event.hide('silents_mechanisms:invar_ingot')
+  event.hide('silents_mechanisms:invar_dust')
+  event.hide('silents_mechanisms:invar_nugget')
+  event.hide('silents_mechanisms:invar_block')
 
   // Tinkers' Construct
   event.hide('tconstruct:copper_ingot')
