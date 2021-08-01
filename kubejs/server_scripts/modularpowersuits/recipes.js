@@ -263,7 +263,7 @@ onEvent('recipes', event => {
     })
 
     // Fluid tank
-    event.shaped('item:powersuits:fluid_tank', [
+    event.shaped('powersuits:fluid_tank', [
         'GWG',
         'GBG',
         'GWG'
