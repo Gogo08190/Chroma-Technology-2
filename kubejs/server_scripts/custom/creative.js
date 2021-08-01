@@ -77,4 +77,23 @@ events.listen('recipes', e => {
           F: 'extendedcrafting:ultimate_singularity',
           G: 'createaddition:electric_motor'
       })
+    // Creative Blaze cake
+    e.recipes.create.mechanical_crafting('create:creative_blaze_cake', [
+        '  UUUUU  ',
+        ' UOOOOOU ',
+        'UOKKKKKOU',
+        'UKTTBTTKU',
+        'CKTEPETKC',
+        ' CEEEEEC ',
+        '  CCCCC  '
+      ], {
+        C: 'create:bar_of_chocolate',
+        E: 'mysticalagradditions:creative_essence',
+        K: 'kubejs:chroma_ingot',
+        T: 'kubejs:assembled_technical_ingot',
+        P: 'kubejs:pure_evil',
+        U: 'extendedcrafting:the_ultimate_ingot',
+        O: 'createaddition:overcharged_alloy',
+        B: 'create:blaze_cake'
+      })
 });
