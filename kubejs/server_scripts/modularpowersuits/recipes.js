@@ -261,4 +261,27 @@ onEvent('recipes', event => {
         T: 'numina:component_ion_thruster',
         C: 'numina:component_computer_chip'
     })
+
+    // Fluid tank
+    event.shaped('item:powersuits:fluid_tank', [
+        'GWG',
+        'GBG',
+        'GWG'
+    ], {
+        W: 'numina:component_wiring',
+        G: 'minecraft:glass_pane',
+        B: 'minecraft:water_bucket'
+    })
+
+    // Water Electrolyzer
+    event.shaped('powersuits:water_electrolyzer', [
+        'CRC',
+        'IEI',
+        'CRC'
+    ], {
+        C: 'numina:component_control_circuit',
+        R: 'silents_mechanisms:redstone_alloy_ingot',
+        I: 'minecraft:iron_ingot',
+        E: 'mekanism:electrolytic_core'
+    })
 });
