@@ -50,4 +50,4 @@ craftingTable.removeRecipe(<item:thermal:gold_gear>);
 craftingTable.removeRecipe(<item:thermal:iron_gear>);
 
 //Bronze Gear
-craftingTable.removeRecipe(<item:thermal:iron_gear>);
+craftingTable.removeRecipe(<item:thermal:bronze_gear>);
