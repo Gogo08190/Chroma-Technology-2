@@ -365,10 +365,10 @@
 	MORGAN_TRANSFORM_ENTITY_WHITELIST = ["minecraft:wolf"]
 	#How much damage Morgan gains from killing children
 	#Range: 0.0 ~ 1.0E8
-	MORGAN_CHILD_INCREASE = 1.0
+	MORGAN_CHILD_INCREASE = 0.2
 	#How much damage Morgan gains from killing adult villagers
 	#Range: 0.0 ~ 1.0E8
-	MORGAN_ADULT_INCREASE = 0.2
+	MORGAN_ADULT_INCREASE = 0.1
 	#How much durability Morgan gains from killing villagers
 	#Range: 0 ~ 100000000
 	MORGAN_HEAL_FACTOR = 30
@@ -386,7 +386,7 @@
 	MORGAN_SPIKE_RANGE = 10
 	#Morgan Upgrade Mana Cost
 	#Range: 0 ~ 10000000
-	MORGAN_UPGRADE_MANA_COST = 400
+	MORGAN_UPGRADE_MANA_COST = 4000
 	#Caliburn Smite and Morgan Ball Mana Cost
 	#Range: 0 ~ 100000000
 	CALIBURN_MORGAN_ABILITY_MANA_COST = 300
