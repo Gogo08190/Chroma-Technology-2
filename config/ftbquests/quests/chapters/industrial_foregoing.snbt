@@ -522,11 +522,11 @@
 			y: -3.5d
 			shape: "diamond"
 			description: [
-				"When fully charged with a &bLaser Drill &fit will fluids. To do it will need a specific catalyst that won't be consumed and the machine will need to be placed in a specific biome and be drilling at a specific depth."
+				"When fully charged with a &bLaser Drill &fit will drain fluids. To do it will need a specific catalyst that won't be consumed and the machine will need to be placed in a specific biome and drill at a specific depth."
 				""
 				"To make &bEther Gas&f, it has to be over a Wither."
 				""
-				"In order to keep the Wither contained, I suggest using &cwither proof blocks&f."
+				"In order to keep the Wither contained, I suggest you to use &cwither proof blocks&f."
 				""
 				"Place the &3Stasis Chamber&r underneath the Wither to make sure it can't move anymore."
 			]

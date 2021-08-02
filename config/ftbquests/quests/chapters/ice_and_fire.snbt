@@ -183,7 +183,7 @@
 			}]
 		}
 		{
-			title: "&3sapphire Dragon Scale&r"
+			title: "&3Sapphire Dragon Scale&r"
 			x: 1.5d
 			y: -4.0d
 			hide_dependency_lines: true
@@ -2214,6 +2214,17 @@
 						}
 					}
 				}
+				{
+					id: "216F58B52D34EFEA"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
 			]
 			rewards: [{
 				id: "7481FE3DAC91A7CF"
@@ -2313,6 +2324,17 @@
 					type: "item"
 					item: {
 						id: "iceandfire:dragonsteel_ice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "60386CBE862A9F1F"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_boots"
 						Count: 1b
 						tag: {
 							Damage: 0

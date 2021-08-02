@@ -254,7 +254,6 @@
 		{
 			x: 6.0d
 			y: -3.5d
-			dependencies: ["3C83FC6FC6AF5664"]
 			id: "61D62087F74D1130"
 			tasks: [{
 				id: "21497095EEFE706E"
@@ -411,7 +410,6 @@
 		{
 			x: -1.5d
 			y: -6.0d
-			dependencies: ["22216C516D42C2E4"]
 			id: "274B81B90110E01A"
 			tasks: [{
 				id: "227C65F74D390FCD"
@@ -428,10 +426,6 @@
 		{
 			x: 3.0d
 			y: -3.5d
-			dependencies: [
-				"0988763630748AED"
-				"5B3BBE4B58C16F35"
-			]
 			id: "67EC95AF8740F4CB"
 			tasks: [{
 				id: "7AA6307296B89521"

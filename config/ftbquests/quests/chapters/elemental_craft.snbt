@@ -12,7 +12,7 @@
 			title: "Inert crystal"
 			x: 0.0d
 			y: 0.0d
-			description: ["You can find him by mining"]
+			description: ["You can find it by mining"]
 			id: "6DE51A98F6BE60C6"
 			tasks: [{
 				id: "1AFD8BB3978944B9"
@@ -168,7 +168,7 @@
 		{
 			x: 2.0d
 			y: 1.0d
-			description: ["an improved version"]
+			description: ["An improved version"]
 			dependencies: ["78BCB3BE7D6BE28F"]
 			id: "0129F85F06EF3846"
 			tasks: [{
@@ -265,15 +265,10 @@
 		}
 		{
 			icon: "elementalcraft:pureinfuser"
-			x: 9.5d
+			x: 10.5d
 			y: 0.0d
 			description: ["You can now make new crafts, you just need to input the right element on the good pedestal except the middle one"]
-			dependencies: [
-				"691875E5448101B6"
-				"528A919751F7A145"
-				"12AAAE11B4297E26"
-				"0482F6AEA4CA8ED4"
-			]
+			dependencies: ["303ABA48F3F9C0A3"]
 			id: "1CE7C3FE672DA886"
 			tasks: [
 				{
@@ -309,7 +304,7 @@
 			}]
 		}
 		{
-			x: 11.5d
+			x: 12.5d
 			y: 0.0d
 			description: ["A new material"]
 			dependencies: ["1CE7C3FE672DA886"]
@@ -509,7 +504,7 @@
 		{
 			x: 1.5d
 			y: 7.5d
-			description: ["will harvest crops"]
+			description: ["Will harvest crops"]
 			dependencies: ["2ECD838CFDF78A86"]
 			id: "6E4420669E71BF06"
 			tasks: [{
@@ -643,8 +638,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -2.0d
+			x: 12.5d
+			y: -1.5d
 			description: ["Permit you to transport element but one use"]
 			dependencies: ["045A7AC4769EEF48"]
 			id: "4DF85537A3A0A2D6"
@@ -689,7 +684,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 14.0d
 			y: -1.0d
 			description: ["A new ingot"]
 			dependencies: ["045A7AC4769EEF48"]
@@ -706,7 +701,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 14.5d
 			y: 0.0d
 			description: ["Better Version"]
 			dependencies: ["045A7AC4769EEF48"]
@@ -723,8 +718,8 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: 1.0d
+			x: 14.0d
+			y: 1.5d
 			description: ["Better Version"]
 			dependencies: ["045A7AC4769EEF48"]
 			id: "245B081A199D68DE"
@@ -740,7 +735,7 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 13.0d
 			y: 2.0d
 			description: ["Better Version"]
 			dependencies: ["045A7AC4769EEF48"]
@@ -757,8 +752,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 2.0d
+			x: 12.0d
+			y: 1.5d
 			description: ["Better version"]
 			dependencies: ["045A7AC4769EEF48"]
 			id: "08369CF09580028E"
@@ -821,7 +816,7 @@
 		{
 			x: 0.5d
 			y: 6.0d
-			description: ["melt stone into  lava"]
+			description: ["Melts stone into  lava"]
 			dependencies: ["5D8FFBC33C841F06"]
 			id: "39F6237930F22195"
 			tasks: [{
@@ -836,8 +831,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 4.0d
+			x: 10.5d
+			y: 4.5d
 			shape: "gear"
 			description: ["Go into ars"]
 			dependencies: ["1CE7C3FE672DA886"]
@@ -902,6 +897,27 @@
 			}]
 			rewards: [{
 				id: "6A318A9E028CD5AB"
+				type: "loot"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			dependencies: [
+				"691875E5448101B6"
+				"528A919751F7A145"
+				"12AAAE11B4297E26"
+				"0482F6AEA4CA8ED4"
+			]
+			id: "303ABA48F3F9C0A3"
+			tasks: [{
+				id: "3FEF90364CC90B01"
+				type: "item"
+				item: "elementalcraft:crystallizer"
+			}]
+			rewards: [{
+				id: "541B53F3D940584E"
 				type: "loot"
 				table_id: 8655552789015021416L
 			}]

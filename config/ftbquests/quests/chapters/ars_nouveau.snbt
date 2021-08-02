@@ -1055,7 +1055,7 @@
 		{
 			x: 6.5d
 			y: 7.5d
-			description: ["Dill more effect"]
+			description: ["Will do more effects depending obviously on the effect "]
 			dependencies: ["3C23C2213A2F06F3"]
 			id: "7CC2BFF996A9BDF8"
 			tasks: [{
