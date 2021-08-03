@@ -27,7 +27,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["rats will easly spawn on this block by putting him in the darkness"]
+			description: ["Rats will easly spawn on this block by putting him in the darkness"]
 			dependencies: ["78EC54D48A31D0FE"]
 			id: "4B9B33DA29907B43"
 			tasks: [{
