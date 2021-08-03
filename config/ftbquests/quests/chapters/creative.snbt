@@ -161,8 +161,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -2.5d
+			x: 11.5d
+			y: -3.5d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3CFDD21EAC199E31"]
@@ -180,8 +180,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -2.0d
+			x: 6.5d
+			y: -3.5d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3CFDD21EAC199E31"]
@@ -199,8 +199,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -3.0d
+			x: 7.5d
+			y: -2.5d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["3CFDD21EAC199E31"]
@@ -836,6 +836,25 @@
 					item: "extendedcrafting:the_ultimate_ingot"
 				}
 			]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["3CFDD21EAC199E31"]
+			id: "567A40BEFE55BA9C"
+			tasks: [{
+				id: "25AB5DC3632BE391"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+			rewards: [{
+				id: "59D4637496C18768"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+				random_bonus: 2
+			}]
 		}
 	]
 }
