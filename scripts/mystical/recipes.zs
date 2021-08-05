@@ -19,7 +19,7 @@ craftingTable.removeRecipe(<item:mysticalagriculture:prosperity_seed_base>);
 mods.extendedcrafting.TableCrafting.addShaped("prosperity_seed", <item:mysticalagriculture:prosperity_seed_base>, [
 	[<item:mysticalagriculture:supremium_essence>, <item:mysticalagriculture:prosperity_gemstone_block>, <item:mysticalagriculture:tertium_gemstone>, <item:mysticalagriculture:prosperity_gemstone_block>, <item:mysticalagriculture:supremium_essence>],
 	[<item:mysticalagriculture:prosperity_gemstone_block>, <item:bloodmagic:etherealslate>, <item:minecraft:wheat_seeds>, <item:bloodmagic:etherealslate>, <item:mysticalagriculture:prosperity_gemstone_block>],
-	[<item:mysticalagriculture:tertium_gemstone>, <item:minecraft:wheat_seeds>, <item:mysticalagriculture:infusion_crystal>.withTag({Damage: 0 as int}), <item:minecraft:wheat_seeds>, <item:mysticalagriculture:tertium_gemstone>],
+	[<item:mysticalagriculture:tertium_gemstone>, <item:minecraft:wheat_seeds>, <tag:items:mysticalagriculture:infusion_crystals>, <item:minecraft:wheat_seeds>, <item:mysticalagriculture:tertium_gemstone>],
 	[<item:mysticalagriculture:prosperity_gemstone_block>, <item:bloodmagic:etherealslate>, <item:minecraft:wheat_seeds>, <item:bloodmagic:etherealslate>, <item:mysticalagriculture:prosperity_gemstone_block>],
 	[<item:mysticalagriculture:supremium_essence>, <item:mysticalagriculture:prosperity_gemstone_block>, <item:mysticalagriculture:tertium_gemstone>, <item:mysticalagriculture:prosperity_gemstone_block>, <item:mysticalagriculture:supremium_essence>]
 ]);
