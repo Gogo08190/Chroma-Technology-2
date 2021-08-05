@@ -96,7 +96,7 @@
 			y: 2.0d
 			shape: "diamond"
 			subtitle: "Stocking stacks"
-			description: ["Add &a100,000 items&f in your AE2 system !"]
+			description: ["Add &a100,000,000 items&f in your AE2 system !"]
 			id: "60920DBC6BBB8054"
 			tasks: [{
 				id: "55E17045B12F2E94"
@@ -107,21 +107,21 @@
 					tag: { }
 				}
 				stat: "appliedenergistics2:items_inserted"
-				value: 100000
+				value: 1000000
 			}]
 			rewards: [
 				{
 					id: "218E34E4F70CD2C8"
 					type: "command"
 					auto: "invisible"
-					command: "/tellraw @a [{\"text\":\"Beware everyone @p has became a mad scientist and has stored 100000 items in it's applied storage system.\",\"color\":\"aqua\"}]"
+					command: "/tellraw @a [{\"text\":\"Beware everyone @p has became a mad scientist and has stored 100000000 items in it's applied storage system.\",\"color\":\"aqua\"}]"
 					player_command: false
 				}
 				{
 					id: "0A450D857DF6E655"
 					type: "item"
 					item: {
-						id: "ae2extras:1m_storage_cell"
+						id: "ae2extras:256k_storage_cell"
 						Count: 1b
 						tag: { }
 					}

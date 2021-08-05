@@ -11,7 +11,20 @@ var whitelist = ingredient.matchAny([
   'appliedenergistics2:purified_fluix_crystal',
   'create:shadow_steel',
   'create:chromatic_compound',
-  'fluxnetworks:flux_dust'
+  'fluxnetworks:flux_dust',
+  'iceandfire:dragonegg_red',
+  'iceandfire:dragonegg_green',
+  'iceandfire:dragonegg_amythest',
+  'iceandfire:dragonegg_copper',
+  'iceandfire:dragonegg_bronze',
+  'iceandfire:dragonegg_gray',
+  'iceandfire:dragonegg_blue',
+  'iceandfire:dragonegg_sapphire',
+  'iceandfire:dragonegg_electric',
+  'iceandfire:hippogryph_egg',
+  'iceandfire:dragonegg_white',
+  'iceandfire:dragonegg_black',
+  'iceandfire:dragonegg_silver'
 ])
 
 // Create variable for last clearlag result

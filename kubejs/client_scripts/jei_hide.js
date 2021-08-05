@@ -292,10 +292,10 @@ events.listen('jei.hide.items', function (event) {
   event.hide('extendedcrafting:nether_star_block')
 
   // Dark Utilities
-  event.hide('mob_grinding_utils:entity_spawner')
+  event.hide('darkutils:ender_hopper')
 
   // MobGrindings
-  event.hide('darkutils:ender_hopper')
+  event.hide('mob_grinding_utils:entity_spawner')
 
   // Rats
   event.hide('rats:raw_plastic')
