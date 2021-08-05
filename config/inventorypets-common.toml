@@ -187,7 +187,7 @@
 	#Disable the Ghast pet (default:false)
 	disableGhast = false
 	#Disable the Grave pet (default:false)
-	disableGrave = false
+	disableGrave = true
 	#Disable the Heart pet (default:false)
 	disableHeart = false
 	#Disable the House pet (default:false)
