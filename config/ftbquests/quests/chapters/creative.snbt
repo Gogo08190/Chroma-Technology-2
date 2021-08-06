@@ -258,7 +258,7 @@
 			tasks: [{
 				id: "112F8B89B74B60DC"
 				type: "item"
-				item: "tconstruct:creative_upgrade"
+				item: "tconstruct:creative_slot"
 			}]
 			rewards: [{
 				id: "70F941182F7317CD"
