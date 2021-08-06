@@ -69,7 +69,7 @@
 	enable = true
 
 [soft_fall]
-	enable = true
+	enable = false
 
 [timeless]
 	enable = true
