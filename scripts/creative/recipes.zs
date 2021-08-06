@@ -162,7 +162,7 @@ mods.extendedcrafting.TableCrafting.addShaped("machine_efficiency_creative_augme
 ]);
 
 // Creative Upgrade
-mods.extendedcrafting.TableCrafting.addShaped("creative_upgrade", <item:tconstruct:creative_upgrade>, [
+mods.extendedcrafting.TableCrafting.addShaped("creative_upgrade", <item:tconstruct:creative_slot>.withTag({slot: "upgrades" as string}), [
 	[<item:minecraft:air>, <item:minecraft:iron_block>, <item:minecraft:iron_block>, <item:minecraft:air>, <item:minecraft:air>, <item:extendedcrafting:crystaltine_ingot>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:iron_block>, <item:minecraft:iron_block>, <item:powah:nitro_crystal_block>, <item:powah:nitro_crystal_block>, <item:kubejs:chroma_ingot>, <item:extendedcrafting:crystaltine_ingot>],
 	[<item:minecraft:air>, <item:minecraft:iron_block>, <item:minecraft:iron_block>, <item:minecraft:air>, <item:minecraft:air>, <item:extendedcrafting:crystaltine_ingot>, <item:minecraft:air>],
