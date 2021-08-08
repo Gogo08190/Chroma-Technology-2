@@ -67,7 +67,7 @@ events.listen('recipes', event => {
       }],
     "result":
     {
-      "fluid": "kubejs:molten_coke_brick", "amount": 4000
+      "fluid": "kubejs:molten_coke_brick", "amount": 3000
     },
     "temperature": 800
   })
