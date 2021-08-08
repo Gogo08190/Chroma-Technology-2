@@ -254,13 +254,21 @@
 		{
 			x: 6.0d
 			y: -3.5d
+			dependencies: ["3C83FC6FC6AF5664"]
 			id: "61D62087F74D1130"
-			tasks: [{
-				id: "21497095EEFE706E"
-				type: "dimension"
-				title: "Visit Dimension : &dThe End"
-				dimension: "minecraft:the_end"
-			}]
+			tasks: [
+				{
+					id: "21497095EEFE706E"
+					type: "dimension"
+					title: "Visit Dimension : &dThe End"
+					dimension: "minecraft:the_end"
+				}
+				{
+					id: "37346A00B242FC12"
+					type: "checkmark"
+					title: "Quest Debug"
+				}
+			]
 			rewards: [{
 				id: "43396FB044465F8B"
 				type: "loot"
@@ -410,13 +418,21 @@
 		{
 			x: -1.5d
 			y: -6.0d
+			dependencies: ["22216C516D42C2E4"]
 			id: "274B81B90110E01A"
-			tasks: [{
-				id: "227C65F74D390FCD"
-				type: "dimension"
-				title: "Visit Dimension : &2Mining Dimension"
-				dimension: "mining_dimension:mining"
-			}]
+			tasks: [
+				{
+					id: "227C65F74D390FCD"
+					type: "dimension"
+					title: "Visit Dimension : &2Mining Dimension"
+					dimension: "mining_dimension:mining"
+				}
+				{
+					id: "63916FBAEDED7322"
+					type: "checkmark"
+					title: "Quest Debug"
+				}
+			]
 			rewards: [{
 				id: "120397BA5B5152B6"
 				type: "loot"
@@ -426,13 +442,24 @@
 		{
 			x: 3.0d
 			y: -3.5d
+			dependencies: [
+				"5B3BBE4B58C16F35"
+				"0988763630748AED"
+			]
 			id: "67EC95AF8740F4CB"
-			tasks: [{
-				id: "7AA6307296B89521"
-				type: "dimension"
-				title: "Visit Dimension : &4Nether"
-				dimension: "minecraft:the_nether"
-			}]
+			tasks: [
+				{
+					id: "7AA6307296B89521"
+					type: "dimension"
+					title: "Visit Dimension : &4Nether"
+					dimension: "minecraft:the_nether"
+				}
+				{
+					id: "20FAD7F7A307CD71"
+					type: "checkmark"
+					title: "Quest Debug"
+				}
+			]
 			rewards: [{
 				id: "43F59119B2538EE7"
 				type: "loot"

@@ -24,7 +24,17 @@ var whitelist = ingredient.matchAny([
   'iceandfire:hippogryph_egg',
   'iceandfire:dragonegg_white',
   'iceandfire:dragonegg_black',
-  'iceandfire:dragonegg_silver'
+  'iceandfire:dragonegg_silver',
+  'botania:manasteel_ingot',
+  'botania:terrasteel_ingot',
+  'botania:mana_pearl',
+  'botania:mana_diamond',
+  'botania:elementium_ingot',
+  'botania:mana_string',
+  'botania:mana_powder',
+  'botania:livingrock',
+  'botania:livingwood',
+  'silentgems:chaos_coal'
 ])
 
 // Create variable for last clearlag result
