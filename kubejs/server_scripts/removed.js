@@ -75,6 +75,10 @@ onEvent('recipes', event => {
   event.remove({output: 'cyclic:tile_transporter_empty'})
   event.remove({output: 'cyclic:battery'})
 
+  //create
+  event.remove({output: 'jaopca:create_crushed_ores.netherite_scrap', type: 'create:millstone'})
+
+
   // Badic Nether Ore
   event.remove({output: 'bno:aluminum_block'})
   event.remove({output: 'bno:copper_block'})
