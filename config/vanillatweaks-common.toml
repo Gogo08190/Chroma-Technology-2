@@ -28,7 +28,7 @@
 	#Do you want enchantments?
 	[VanillaTweaks.enchanting]
 		#Want to smelt things when you mine them?
-		enableBlazing = true
+		enableBlazing = false
 		#Want to jump more than a block high with an enchantment?
 		enableHops = true
 		#Want more speed with an enchantment?
@@ -40,7 +40,7 @@
 		#Want more health with an enchant?
 		enableVigor = true
 		#Don't want to aim but love shooting arrows?
-		enableHoming = true
+		enableHoming = false
 
 	#Mob Drops
 	[VanillaTweaks.loot]

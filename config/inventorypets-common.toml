@@ -145,7 +145,7 @@
 	#Disable the Biome pet (default:false)
 	disableBiome = false
 	#Disable the Black Hole pet (default:false)
-	disableBlackHole = false
+	disableBlackHole = true
 	#Disable the (default:false)
 	disableBlaze = false
 	#Disable the (default:false)
