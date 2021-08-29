@@ -160,11 +160,15 @@ onEvent('recipes', event => {
   event.remove({output: 'thermal:earth_tnt'})
   event.remove({output: 'thermal:earth_grenade'})
 
+  //Refined Storage
   event.remove({id: 'refinedstorage:quartz_enriched_iron'})
   event.remove({id: 'refinedstorage:external_storage'})
+  event.remove({id: 'refinedstorageaddons:wireless_crafting_grid'})
 
   event.remove({output: 'extendedcrafting:nether_star_block'})
 
   //silent mechanisme
   event.remove({output: 'silents_mechanisms:compressed_iron_ingot'})
+
+  
 });
