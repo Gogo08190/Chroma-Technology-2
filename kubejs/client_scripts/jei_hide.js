@@ -287,6 +287,7 @@ events.listen('jei.hide.items', function (event) {
 
   // Refined Storage
   event.hide('refinedstorage:external_storage')
+  event.hide('refinedstorageaddons:wireless_crafting_grid')
 
   // Extended Crafting
   event.hide('extendedcrafting:nether_star_block')
