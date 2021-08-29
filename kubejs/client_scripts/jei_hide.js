@@ -103,7 +103,7 @@ events.listen('jei.hide.items', function (event) {
   event.hide('iceandfire:amythest_ore')
   event.hide('iceandfire:amythest_block')
   event.hide('iceandfire:amythest_gem')
-  
+
 
   // Silent Gear
   event.hide('silentgear:iron_rod')
@@ -287,7 +287,6 @@ events.listen('jei.hide.items', function (event) {
 
   // Refined Storage
   event.hide('refinedstorage:external_storage')
-  event.hide('refinedstorageaddons:wireless_crafting_grid')
 
   // Extended Crafting
   event.hide('extendedcrafting:nether_star_block')
