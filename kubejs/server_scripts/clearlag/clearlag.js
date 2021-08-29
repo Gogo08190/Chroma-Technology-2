@@ -41,6 +41,8 @@ var whitelist = ingredient.matchAny([
 var lastClearLagResult = utils.newList()
 // Create variable for total number of items
 var lastTotalClearLagResult = utils.newCountingMap()
+// Minimal Item existence in ticks
+var minItemTime = 300
 
 // Create new function that clears lag
 function clearLag (server) {
@@ -53,7 +55,7 @@ function clearLag (server) {
   lastTotalClearLagResult.clear()
   // Iterate over each entity in itemList and add item counters
   itemList.forEach(function (entity) {
-    if (!whitelist.test(entity.item)) {
+    if (!whitelist.test(entity.item) && entity.getFullNBT().Age >= minItemTime) {
       // Get the name of item
       var key = entity.item.name
       // Add to entity count
