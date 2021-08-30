@@ -9,6 +9,8 @@ mods.extendedcrafting.TableCrafting.addShaped("solar_ccu", <item:enviroenergy:li
 	[<item:envirocore:litherite>, <item:envirocore:litherite>, <item:enviroenergy:litherite_solar_cell>, <item:envirocore:litherite>, <item:envirocore:litherite>]
 ]);
 
+// Solar Ccu Tier 2
+
 craftingTable.removeRecipe(<item:enviroenergy:erodium_solar_ccu>);
 
 mods.extendedcrafting.TableCrafting.addShaped("erodium_solar_ccu", 0, <item:enviroenergy:erodium_solar_ccu>, [
@@ -19,6 +21,8 @@ mods.extendedcrafting.TableCrafting.addShaped("erodium_solar_ccu", 0, <item:envi
 	[<item:envirocore:erodium>, <item:envirocore:erodium>, <item:enviroenergy:erodium_solar_cell>, <item:envirocore:erodium>, <item:envirocore:erodium>]
 ]);
 
+// Solar Ccu Tier 3
+
 craftingTable.removeRecipe(<item:enviroenergy:kyronite_solar_ccu>);
 
 mods.extendedcrafting.TableCrafting.addShaped("kyronite_solar_ccu", 0, <item:enviroenergy:kyronite_solar_ccu>, [
@@ -28,6 +32,8 @@ mods.extendedcrafting.TableCrafting.addShaped("kyronite_solar_ccu", 0, <item:env
 	[<item:envirocore:kyronite>, <item:enviroenergy:erodium_solar_ccu>, <item:enviroenergy:erodium_solar_cell>, <item:enviroenergy:erodium_solar_ccu>, <item:envirocore:kyronite>],
 	[<item:envirocore:kyronite>, <item:envirocore:kyronite>, <item:enviroenergy:kyronite_solar_cell>, <item:envirocore:kyronite>, <item:envirocore:kyronite>]
 ]);
+
+// Solar Ccu Tier 4
 
 craftingTable.removeRecipe(<item:enviroenergy:pladium_solar_ccu>);
 
@@ -41,6 +47,8 @@ mods.extendedcrafting.TableCrafting.addShaped("pladium_solar_ccu", 0, <item:envi
 	[<item:envirocore:pladium_frame>, <item:envirocore:pladium_frame>, <item:envirocore:pladium_frame>, <item:envirocore:pladium_frame>, <item:envirocore:pladium_frame>, <item:envirocore:pladium_frame>, <item:envirocore:pladium_frame>]
 ]);
 
+// Solar Ccu Tier 5
+
 craftingTable.removeRecipe(<item:enviroenergy:ionite_solar_ccu>);
 
 mods.extendedcrafting.TableCrafting.addShaped("ionite_solar_ccu", 0, <item:enviroenergy:ionite_solar_ccu>, [
@@ -52,6 +60,8 @@ mods.extendedcrafting.TableCrafting.addShaped("ionite_solar_ccu", 0, <item:envir
 	[<item:envirocore:ionite_frame>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:enviroenergy:ionite_solar_cell>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:envirocore:ionite_frame>],
 	[<item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>]
 ]);
+
+// Solar Ccu Tier 6
 
 craftingTable.removeRecipe(<item:enviroenergy:aethium_solar_ccu>);
 
@@ -67,6 +77,8 @@ mods.extendedcrafting.TableCrafting.addShaped("aethium_solar_ccu", 0, <item:envi
 	[<item:envirocore:aethium_frame>, <item:envirocore:aethium_frame>, <item:envirocore:aethium_frame>, <item:envirocore:aethium_frame>, <item:envirocore:aethium_frame>, <item:envirocore:aethium_frame>, <item:envirocore:aethium_frame>, <item:envirocore:aethium_frame>, <item:envirocore:aethium_frame>]
 ]);
 
+// Solar Ccu Tier 7
+
 craftingTable.removeRecipe(<item:enviroenergy:nanorite_solar_ccu>);
 
 mods.extendedcrafting.TableCrafting.addShaped("nanorite_solar_ccu", 0, <item:enviroenergy:nanorite_solar_ccu>, [
@@ -80,6 +92,8 @@ mods.extendedcrafting.TableCrafting.addShaped("nanorite_solar_ccu", 0, <item:env
 	[<item:envirocore:nanorite_frame>, <item:envirocore:nanorite>, <item:envirocore:nanorite>, <item:kubejs:condensed_magical_ingot>, <item:kubejs:unassembled_chroma_ingot>, <item:kubejs:condensed_magical_ingot>, <item:envirocore:nanorite>, <item:envirocore:nanorite>, <item:envirocore:nanorite_frame>],
 	[<item:envirocore:nanorite_frame>, <item:envirocore:nanorite_frame>, <item:envirocore:nanorite_frame>, <item:envirocore:nanorite_frame>, <item:envirocore:nanorite_frame>, <item:envirocore:nanorite_frame>, <item:envirocore:nanorite_frame>, <item:envirocore:nanorite_frame>, <item:envirocore:nanorite_frame>]
 ]);
+
+// Solar Ccu Tier 8
 
 craftingTable.removeRecipe(<item:enviroenergy:xerothium_solar_ccu>);
 
@@ -106,7 +120,7 @@ mods.extendedcrafting.TableCrafting.addShaped("void_miner_ccu", <item:envirotech
 	[<item:envirocore:structure_panel>, <item:envirocore:structure_panel>, <item:envirocore:laser_core>, <item:envirocore:structure_panel>, <item:envirocore:structure_panel>]
 ]);
 
-//tier 2
+// Void ore tier 2
 
 craftingTable.removeRecipe(<item:envirotech:erodium_void_miner_ccu>);
 
@@ -118,7 +132,7 @@ mods.extendedcrafting.TableCrafting.addShaped("erodium_void_miner_ccu", <item:en
 	[<item:envirocore:erodium_frame>, <item:envirocore:laser_core>, <item:envirocore:erodium_frame>, <item:envirocore:laser_core>, <item:envirocore:erodium_frame>]
 ]);
 
-//tier 3
+// Void Ore Tier 3
 
 craftingTable.removeRecipe(<item:envirotech:kyronite_void_miner_ccu>);
 
@@ -130,7 +144,7 @@ mods.extendedcrafting.TableCrafting.addShaped("kyronite_void_miner_ccu", <item:e
 	[<item:envirocore:kyronite_frame>, <item:envirocore:laser_core>, <item:envirocore:kyronite_frame>, <item:envirocore:laser_core>, <item:envirocore:kyronite_frame>]
 ]);
 
-//tier 4
+// Void Ore Tier 4
 
 craftingTable.removeRecipe(<item:envirotech:pladium_void_miner_ccu>);
 
@@ -144,7 +158,7 @@ mods.extendedcrafting.TableCrafting.addShaped("pladium_void_miner_ccu", <item:en
 	[<item:envirocore:pladium_frame>, <item:envirocore:pladium_frame>, <item:envirocore:pladium_frame>, <item:envirocore:pladium_frame>, <item:envirocore:pladium_frame>, <item:envirocore:pladium_frame>, <item:envirocore:pladium_frame>]
 ]);
 
-//tier 5
+// Void Ore Tier 5
 
 craftingTable.removeRecipe(<item:envirotech:ionite_void_miner_ccu>);
 
@@ -158,7 +172,7 @@ mods.extendedcrafting.TableCrafting.addShaped("ionite_void_miner_ccu", <item:env
 	[<item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>]
 ]);
 
-//tier 6
+// Void Ore Tier 6
 
 craftingTable.removeRecipe(<item:envirotech:aethium_void_miner_ccu>);
 
@@ -174,7 +188,7 @@ mods.extendedcrafting.TableCrafting.addShaped("aethium_void_miner_ccu", <item:en
 	[<item:envirocore:aethium_frame>, <item:envirocore:aethium_frame>, <item:envirocore:aethium_frame>, <item:envirocore:aethium_frame>, <item:envirocore:aethium_frame>, <item:envirocore:aethium_frame>, <item:envirocore:aethium_frame>, <item:envirocore:aethium_frame>, <item:envirocore:aethium_frame>]
 ]);
 
-//tier 7
+// Void Ore Tier 7
 
 craftingTable.removeRecipe(<item:envirotech:nanorite_void_miner_ccu>);
 
@@ -190,7 +204,7 @@ mods.extendedcrafting.TableCrafting.addShaped("nanorite_void_miner_ccu", <item:e
 	[<item:envirocore:nanorite_frame>, <item:envirocore:nanorite_frame>, <item:envirocore:nanorite_frame>, <item:envirocore:nanorite_frame>, <item:envirocore:nanorite_frame>, <item:envirocore:nanorite_frame>, <item:envirocore:nanorite_frame>, <item:envirocore:nanorite_frame>, <item:envirocore:nanorite_frame>]
 ]);
 
-//tier 8
+// Void Ore Tier 8
 
 craftingTable.removeRecipe(<item:envirotech:xerothium_void_miner_ccu>);
 
