@@ -61,14 +61,14 @@
 				item: "mahoutsukai:dagger"
 			}]
 			rewards: [{
-				id: "5BF48D1011A81C7C"
-				type: "loot"
+				id: "28B2E613C231BADD"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
 		{
 			x: -3.0d
-			y: 4.0d
+			y: 4.5d
 			subtitle: "I'm cold"
 			description: [
 				"Some spell will ask you  to use &8Cloth&r to be created."
@@ -83,14 +83,16 @@
 				item: "mahoutsukai:spell_cloth"
 			}]
 			rewards: [{
-				id: "3E77C869A7108953"
-				type: "loot"
+				id: "253DFCF4DDB799D9"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
 		{
 			x: -4.0d
 			y: 1.5d
+			subtitle: "What have you done???"
+			description: ["In order to use that &bPowdered Diamond&r you'll have to use the &1Hammer&r of &5Mahou Tsukai&r "]
 			dependencies: ["26C2E5ACAAF1E02A"]
 			id: "1B81BC21FA5EF811"
 			tasks: [{
@@ -99,14 +101,16 @@
 				item: "mahoutsukai:powdered_diamond"
 			}]
 			rewards: [{
-				id: "4EFCE50D8A9155F2"
-				type: "loot"
+				id: "3A3614743B6AF188"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
 		{
 			x: -3.0d
 			y: 1.5d
+			subtitle: "Crushed Gem"
+			description: ["In order to use that &2Powdered Emerald&r you'll have to use the &3Hammer&r of &5Mahou Tsukai&r "]
 			dependencies: ["26C2E5ACAAF1E02A"]
 			id: "41C836F13361F603"
 			tasks: [{
@@ -115,14 +119,16 @@
 				item: "mahoutsukai:powdered_emerald"
 			}]
 			rewards: [{
-				id: "2BB6C912EE489FD1"
-				type: "loot"
+				id: "7BE81143CF22D6F1"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
 		{
 			x: -2.0d
 			y: 1.5d
+			subtitle: "Endermen's Nightmare"
+			description: ["In order to use that &9Powdered Ender&r you'll have to use the &3Hammer&r of &5Mahou Tsukai&r "]
 			dependencies: ["26C2E5ACAAF1E02A"]
 			id: "5EFBEE10D0006508"
 			tasks: [{
@@ -131,14 +137,16 @@
 				item: "mahoutsukai:powdered_ender"
 			}]
 			rewards: [{
-				id: "6BD9DAF060D65368"
-				type: "loot"
+				id: "1132205A39EBAF89"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
 		{
 			x: -1.0d
 			y: 1.0d
+			subtitle: "I can't see ! "
+			description: ["In order to use that &cPowdered Eye&r you'll have to use the &3Hammer&r of &5Mahou Tsukai&r "]
 			dependencies: ["26C2E5ACAAF1E02A"]
 			id: "3FC45CE7067772CD"
 			tasks: [{
@@ -147,14 +155,16 @@
 				item: "mahoutsukai:powdered_eye"
 			}]
 			rewards: [{
-				id: "326C6505864F9FA9"
-				type: "loot"
+				id: "37916D6FD7AC255E"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
 		{
 			x: -5.0d
 			y: 1.0d
+			subtitle: "I'm Rich ! "
+			description: ["In order to use that &6Powdered Gold&r you'll have to use the &3Hammer&r of &5Mahou Tsukai&r "]
 			dependencies: ["26C2E5ACAAF1E02A"]
 			id: "2A032D8822F6D038"
 			tasks: [{
@@ -163,14 +173,16 @@
 				item: "mahoutsukai:powdered_gold"
 			}]
 			rewards: [{
-				id: "68C91ED49FD49D23"
-				type: "loot"
+				id: "0B40101159D4AB19"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
 		{
 			x: -6.0d
 			y: 0.0d
+			subtitle: "Crushed Iron"
+			description: ["In order to use that &8Powdered Iron&r you'll have to use the &3Hammer&r of &5Mahou Tsukai&r "]
 			dependencies: ["26C2E5ACAAF1E02A"]
 			id: "6DA7F346F0A55CD3"
 			tasks: [{
@@ -179,7 +191,7 @@
 				item: "mahoutsukai:powdered_iron"
 			}]
 			rewards: [{
-				id: "69B04BB74D90A3D1"
+				id: "4FD30B6606A72E20"
 				type: "random"
 				table_id: 4063386593177790740L
 			}]
@@ -187,6 +199,8 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			subtitle: "Switzerland is proud"
+			description: ["In order to use that &0Powdered Quartz&r you'll have to use the &3Hammer&r of &5Mahou Tsukai&r "]
 			dependencies: ["26C2E5ACAAF1E02A"]
 			id: "5C7F5A7D339DE985"
 			tasks: [{
@@ -195,14 +209,14 @@
 				item: "mahoutsukai:powdered_quartz"
 			}]
 			rewards: [{
-				id: "46280AC628D0B5A9"
-				type: "loot"
+				id: "390491134126A23F"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
 		{
 			x: -3.0d
-			y: 5.0d
+			y: 6.0d
 			subtitle: "First Rule : Don't talk about the Code"
 			description: [
 				"The &4Mystical Code&r allows you to store and use spells. "
@@ -223,22 +237,23 @@
 				}
 			}]
 			rewards: [{
-				id: "7C4EEFADAF8BC148"
+				id: "1902A16A4E4DFE20"
 				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
 		{
 			x: -3.0d
-			y: 7.0d
-			subtitle: "Fay Sight"
+			y: 7.5d
+			subtitle: "Fae Sight"
 			description: [
 				"This Scroll will allow the player to see the &3Fay Line&r."
 				""
 				"If you decide to follow this Line, you will discover the &3Fay Circle&r that make you regenerate your life quickly in exchange of some &5Mahou Power&r. "
 				""
 				"If you are waiting long enough, you will hear the Fay spawns. "
-				"With this spell, you can also get Fay Powder."
+				"With this spell, you can also get Fay Powder. That spell drains 100 &5Mana&r."
+				"&4&lNB : You'll need cloth to create that spell&r"
 			]
 			dependencies: ["2A1D2FE8DBC24DDB"]
 			id: "67353EE77E1685BD"
@@ -256,14 +271,14 @@
 				}
 			}]
 			rewards: [{
-				id: "625F34E3582CFA24"
-				type: "loot"
+				id: "757E382AB664910C"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
 		{
-			x: -3.0d
-			y: 9.0d
+			x: -3.005782312925156d
+			y: 9.334353741496578d
 			subtitle: "I TOLD YOU TO NOT SPEAK ABOUT IT"
 			description: [
 				"This &cMystic Code&r is an advanced version of the previous one."
@@ -293,8 +308,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 10.0d
+			x: -6.0d
+			y: 8.0d
 			subtitle: "It does need a mint"
 			description: ["Use the &8Strengthening&r on a sword and the right click when you find yourself in some &5Dragon's Breath&r"]
 			dependencies: ["64A2DF892DE9F6BE"]
@@ -324,8 +339,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 11.5d
+			x: -7.5d
+			y: 8.0d
 			subtitle: "Is that a JoJo reference ?"
 			description: ["You will have to kill a tamed wolf (A dog then) with the &6Cliburn&r to get the &4Morgan&r"]
 			dependencies: ["64A2DF892DE9F6BE"]
@@ -367,11 +382,17 @@
 					}
 				}
 			}
-			x: -2.0d
-			y: 10.0d
+			x: 2.5d
+			y: 12.0d
 			subtitle: "It does burn"
-			description: ["Throw an enchanted sword into the &bPower Consolidation Lake&r. Make sure you have a total of 5k of &5Mahou&r and throw it with Q (default key). You will have to get wet to get it."]
-			dependencies: ["64A2DF892DE9F6BE"]
+			description: [
+				"Throw an enchanted sword into the &bPower Consolidation Lake&r. Make sure you have a total of 5k of &5Mahou&r and throw it with Q (default key). You will have to get wet to get it."
+				""
+				"The Damage of the Sword are calculated depending of how you enchanted it. In order to deal more damage you'll have to enchant your sword with the &5Smite&r enchantment. "
+				""
+				"Once you have your &6Caliburn&r, you can augment the damage by doing the same thing for 5k &5Mana&r."
+			]
+			dependencies: ["4103AADA2096F6F6"]
 			id: "1F60DFD692E93221"
 			tasks: [{
 				id: "3E5619EECED51889"
@@ -397,8 +418,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 8.5d
+			x: -2.0d
+			y: 12.0d
 			subtitle: "THIS IS SPARTA !"
 			description: [
 				"First you need to get 80 damage absorption with the spell &0&ldamage absorption"
@@ -407,7 +428,7 @@
 				"Have the spell &0&limmunity exchange&r active"
 				"And you need to block something with a vanilla shield affected by the &0&lstrenghening spell&r"
 			]
-			dependencies: ["64A2DF892DE9F6BE"]
+			dependencies: ["7486837A32FEDE6A"]
 			id: "4831B5E3A251BB99"
 			tasks: [{
 				id: "6F12EBF7884B6F54"
@@ -427,10 +448,10 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 8.5d
-			subtitle: "Keys = Doors? "
-			dependencies: ["64A2DF892DE9F6BE"]
+			x: -0.5d
+			y: 12.0d
+			subtitle: "Teleportation and Damage !"
+			dependencies: ["6B7DACB2A1A73313"]
 			id: "5D90B66ADD81DC4C"
 			tasks: [{
 				id: "14EE1EF76411C370"
@@ -450,11 +471,10 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 7.0d
-			subtitle: "I'm Lost"
-			description: ["Use a &0Spatial Disorientation Scroll&r"]
-			dependencies: ["64A2DF892DE9F6BE"]
+			x: -3.5d
+			y: 12.0d
+			subtitle: "Entity Launcher"
+			dependencies: ["5B567C0822E091ED"]
 			id: "2E13A67DDCE9BA7C"
 			tasks: [{
 				id: "5CC8988A0D3920CB"
@@ -474,11 +494,10 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 7.0d
+			x: 1.0d
+			y: 12.0d
 			subtitle: "EXPLOSION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-			description: ["Use an &0&lExplosive Mana Condensation Scroll&r"]
-			dependencies: ["64A2DF892DE9F6BE"]
+			dependencies: ["4E0357DCD146F3F1"]
 			id: "3B77282812F2526C"
 			tasks: [{
 				id: "164837EC771707A9"
@@ -498,8 +517,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 5.5d
+			x: -1.5d
+			y: 8.0d
 			subtitle: "Worming "
 			description: [
 				"You can practice some sympathetic magic with it."
@@ -527,14 +546,14 @@
 				}
 			}]
 			rewards: [{
-				id: "0323E19A60D95128"
+				id: "5A24B77F889C4044"
 				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
 		{
-			x: -0.5d
-			y: 5.5d
+			x: 1.5d
+			y: 8.0d
 			subtitle: "Where's my shovel?"
 			description: ["Use a &2Treasury Projection Scroll&r"]
 			dependencies: ["64A2DF892DE9F6BE"]
@@ -551,11 +570,10 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 4.5d
+			x: -6.5d
+			y: 12.0d
 			subtitle: "Archers ! "
-			description: ["Use the &8Weapon Projectile Spell&r"]
-			dependencies: ["64A2DF892DE9F6BE"]
+			dependencies: ["40794CA7CE57BBF9"]
 			id: "321035D54F8B4D03"
 			tasks: [{
 				id: "503935BABF2CEF56"
@@ -575,11 +593,10 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 4.5d
+			x: -5.0d
+			y: 12.0d
 			subtitle: "Grim Reaper"
-			description: ["Use a &2Presence Concealment Scroll&r"]
-			dependencies: ["64A2DF892DE9F6BE"]
+			dependencies: ["7A67F23101B1EFA3"]
 			id: "6131C87991220D87"
 			tasks: [{
 				id: "746EDA7C4A7AC175"
@@ -599,15 +616,15 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 3.5d
+			x: -8.0d
+			y: 12.0d
 			subtitle: "Stick it to Stick"
 			description: [
-				"Use the &9Strenghtening&r enchant on a stick and hold it in your off-hand. "
+				"Use the &9Strenghtening&r Spell on a stick and hold it in your off-hand. "
 				""
 				"Now you will have to wait the thunder to strike you."
 			]
-			dependencies: ["64A2DF892DE9F6BE"]
+			dependencies: ["4A2671DC9AEAA866"]
 			id: "219D93D90B663BEB"
 			tasks: [{
 				id: "4B48305C1E416155"
@@ -621,10 +638,10 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 3.5d
+			x: -4.5d
+			y: 8.0d
 			subtitle: "This is a lie"
-			description: ["Will increase your &5Mahou&r regen but will avoid Faes to spawn."]
+			description: ["Will increase your &5Mahou&r regen but will avoid Fays to spawn."]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "0ABF8C7E4A32B1B7"
 			tasks: [{
@@ -634,15 +651,18 @@
 			}]
 			rewards: [{
 				id: "00D8BDA71A10D8F1"
-				type: "loot"
+				type: "random"
 				table_id: 8655552789015021416L
 			}]
 		}
 		{
-			x: -7.5d
-			y: 0.0d
+			x: -6.0d
+			y: -1.5d
 			subtitle: "Shiny storage"
-			description: ["This &bAttuned Diamond&r allows you to extra store your &5Mahou&r"]
+			description: [
+				"This &bAttuned Diamond&r allows you to extra store your &5Mahou&r"
+				"            Stores &610000&r Mana"
+			]
 			dependencies: ["2C348BA89EAB5690"]
 			id: "71E38258C00F4A23"
 			tasks: [{
@@ -662,16 +682,19 @@
 				}
 			}]
 			rewards: [{
-				id: "0B418DF3F32307C7"
+				id: "0B2059645BA73ECA"
 				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
 		{
-			x: 1.5d
-			y: 0.0d
+			x: 0.0d
+			y: -1.5d
 			subtitle: "Not for villagers"
-			description: ["The &aAttuned Emerald&r will allow you to store more &5Mahou&r"]
+			description: [
+				"The &aAttuned Emerald&r will allow you to store more &5Mahou&r."
+				"             Stores &65000&r Mana"
+			]
 			dependencies: ["2C348BA89EAB5690"]
 			id: "02FF8E64ED4B5A6D"
 			tasks: [{
@@ -691,12 +714,13 @@
 				}
 			}]
 			rewards: [{
-				id: "088A32ADB7BDC7CA"
-				type: "loot"
+				id: "289D8802FBFEC3F3"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
 		{
+			title: "Durability Exchange"
 			icon: {
 				id: "mahoutsukai:scroll_swap_familiar"
 				Count: 1b
@@ -710,9 +734,15 @@
 				}
 			}
 			x: -3.0d
-			y: 2.5d
-			subtitle: "Trust the process"
-			description: ["The &cDurability Exchange Spell&r allows you to generate &5Mahou&r by using the durability of a dropped item on the newly created spell "]
+			y: 3.0d
+			subtitle: "Your first spell"
+			description: [
+				"The &cDurability Exchange Spell&r allows you to generate &5Mahou&r by using the durability of a dropped item on the newly created spell."
+				"In order to create that spell, you'll have to take the &3Dagger&r and right click with it. "
+				"Once that's done, draw a &5Mahoujin Circle&r and place these three ingredients (please respect order) : "
+				"- 2 &bpowdered diamonds&r"
+				"- 1 &2powdered emerald&r"
+			]
 			dependencies: [
 				"6DA7F346F0A55CD3"
 				"2A032D8822F6D038"
@@ -723,20 +753,28 @@
 				"5C7F5A7D339DE985"
 			]
 			id: "3C9F44D4A5C50520"
-			tasks: [{
-				id: "15592695C9A2257B"
-				type: "checkmark"
-				title: "Durability exchange"
-			}]
+			tasks: [
+				{
+					id: "1487F0C9B8348832"
+					type: "item"
+					item: "mahoutsukai:powdered_diamond"
+					count: 2L
+				}
+				{
+					id: "4E1A6925A0F2448E"
+					type: "item"
+					item: "mahoutsukai:powdered_emerald"
+				}
+			]
 			rewards: [{
-				id: "1357E5AFD4FD595C"
-				type: "loot"
+				id: "6EDB473D89F38CA4"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
 		{
-			x: -3.0d
-			y: 13.0d
+			x: 0.0d
+			y: 8.0d
 			description: ["Like caliburn just throw a lance in the &0&lpower consolidation lake"]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "5DA99295F2B4F033"
@@ -762,6 +800,435 @@
 				type: "random"
 				table_id: 8655552789015021416L
 			}]
+		}
+		{
+			title: "Strengthening Spell"
+			icon: {
+				id: "mahoutsukai:scroll_strengthening"
+				Count: 1b
+				tag: {
+					MAHOUTSUKAI_CASTER_NAME: ""
+				}
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+				}
+			}
+			x: -8.0d
+			y: 10.5d
+			subtitle: "Strong ! "
+			description: [
+				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				""
+				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				""
+				"Drains 50 &5Mana&r"
+			]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "4A2671DC9AEAA866"
+			tasks: [
+				{
+					id: "68A9FD862A13C65D"
+					type: "item"
+					item: "mahoutsukai:powdered_diamond"
+					count: 2L
+				}
+				{
+					id: "29E1A5E751369701"
+					type: "item"
+					item: "mahoutsukai:powdered_iron"
+				}
+				{
+					id: "72BC528B2977F8C1"
+					type: "item"
+					item: {
+						id: "mahoutsukai:scroll_strengthening"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "54C84A8BEAACF86D"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Scroll of Weapon Projectiles"
+			icon: {
+				id: "mahoutsukai:scroll_weapon_shooter"
+				Count: 1b
+				tag: {
+					MAHOUTSUKAI_CASTER_NAME: ""
+				}
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+				}
+			}
+			x: -6.5d
+			y: 10.5d
+			subtitle: "Weapon of Massive Destruction"
+			description: [
+				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				""
+				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				""
+				"Drains 100 &5Mana&r"
+			]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "40794CA7CE57BBF9"
+			tasks: [
+				{
+					id: "1DFD25B66778BA6A"
+					type: "item"
+					item: "mahoutsukai:powdered_gold"
+				}
+				{
+					id: "3A9BDFB18855C375"
+					type: "item"
+					item: "mahoutsukai:powdered_diamond"
+					count: 2L
+				}
+				{
+					id: "71C35DCD76C290F6"
+					type: "item"
+					item: {
+						id: "mahoutsukai:scroll_weapon_shooter"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "33F012F7C8525B8F"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Scroll of Spacial Disorientation"
+			icon: {
+				id: "mahoutsukai:scroll_spatial_disorientation"
+				Count: 1b
+				tag: {
+					MAHOUTSUKAI_CASTER_NAME: ""
+				}
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+				}
+			}
+			x: -3.5d
+			y: 10.5d
+			subtitle: "Spatial Creation"
+			description: [
+				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				" "
+				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				""
+				"That spell drains 100 &5Mana&r on creation and drains 200 &5Mana&r on use. "
+			]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "5B567C0822E091ED"
+			tasks: [
+				{
+					id: "2902848C9E668E0A"
+					type: "item"
+					item: "mahoutsukai:powdered_gold"
+					count: 2L
+				}
+				{
+					id: "13F368AE0E71C676"
+					type: "item"
+					item: "mahoutsukai:powdered_ender"
+				}
+				{
+					id: "221A0503F526FF65"
+					type: "item"
+					item: {
+						id: "mahoutsukai:scroll_spatial_disorientation"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6F0D3557E968B748"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Scroll of Presence Concealment"
+			icon: {
+				id: "mahoutsukai:scroll_presence_concealment"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+				}
+			}
+			x: -5.0d
+			y: 10.5d
+			subtitle: "Ripping Theory"
+			description: [
+				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				""
+				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				""
+				"Drains 800 &5Mana&r."
+			]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "7A67F23101B1EFA3"
+			tasks: [
+				{
+					id: "2B0FB1583F013048"
+					type: "item"
+					item: "mahoutsukai:powdered_diamond"
+				}
+				{
+					id: "2E50D3F06B3855A9"
+					type: "item"
+					item: "mahoutsukai:powdered_iron"
+				}
+				{
+					id: "7DC1AF1BFF407919"
+					type: "item"
+					item: "mahoutsukai:powdered_ender"
+				}
+				{
+					id: "7338D42CDD417FD0"
+					type: "item"
+					item: {
+						id: "mahoutsukai:scroll_presence_concealment"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "59185A2756BF7A61"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Scroll of Proximity Projection"
+			icon: {
+				id: "mahoutsukai:scroll_proximity_projection"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+				}
+			}
+			x: -0.5d
+			y: 10.5d
+			subtitle: "Self Projection"
+			description: [
+				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				""
+				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				""
+				"Drains 30 &5Mana&r"
+			]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "6B7DACB2A1A73313"
+			tasks: [
+				{
+					id: "6785E92E7239BE1A"
+					type: "item"
+					item: "mahoutsukai:powdered_diamond"
+					count: 2L
+				}
+				{
+					id: "379118BA0541DA6C"
+					type: "item"
+					item: "mahoutsukai:powdered_ender"
+				}
+				{
+					id: "2F7E18A872DEB784"
+					type: "item"
+					item: {
+						id: "mahoutsukai:scroll_proximity_projection"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3741BA60FB33A0C2"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Scroll of Explosive Mana Condensation"
+			icon: {
+				id: "mahoutsukai:scroll_mystic_staff"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+				}
+			}
+			x: 1.0d
+			y: 10.5d
+			subtitle: "Here comes the boom"
+			description: [
+				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				""
+				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+			]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "4E0357DCD146F3F1"
+			tasks: [
+				{
+					id: "596245FE7F5CDE65"
+					type: "item"
+					item: "mahoutsukai:powdered_gold"
+					count: 2L
+				}
+				{
+					id: "608B519CF7140484"
+					type: "item"
+					item: "mahoutsukai:powdered_diamond"
+				}
+				{
+					id: "6161CEAA0FEF5BF8"
+					type: "item"
+					item: {
+						id: "mahoutsukai:scroll_mystic_staff"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4F33FA8CCF7E1F02"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Power Consolidation Lake"
+			x: 2.5d
+			y: 10.5d
+			subtitle: "The Lake "
+			description: [
+				"Take the &3Dagger&r and right click with it. "
+				"Draw a &5Mahoujin Circle&r and place the 3 needed ingredients listed above."
+				""
+				"&4&lBe careful, do that spell outside of your base or you'll get surprises&r"
+			]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "4103AADA2096F6F6"
+			tasks: [
+				{
+					id: "21E8438154DC785E"
+					type: "item"
+					item: "mahoutsukai:powdered_diamond"
+					count: 2L
+				}
+				{
+					id: "4F9EB3A166614ACF"
+					type: "item"
+					item: "mahoutsukai:powdered_emerald"
+				}
+			]
+			rewards: [{
+				id: "0223A06B7DE144DF"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 10.5d
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "7486837A32FEDE6A"
+			tasks: [
+				{
+					id: "6AF76A4EE430F1ED"
+					type: "item"
+					item: {
+						id: "mahoutsukai:scroll_death_collection"
+						Count: 1b
+						tag: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						}
+					}
+				}
+				{
+					id: "0774AD2118A8C36F"
+					type: "item"
+					item: {
+						id: "mahoutsukai:scroll_immunity_exchange"
+						Count: 1b
+						tag: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						}
+					}
+				}
+				{
+					id: "130819855236DF8C"
+					type: "item"
+					item: {
+						id: "mahoutsukai:scroll_damage_exchange"
+						Count: 1b
+						tag: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						}
+					}
+				}
+			]
 		}
 	]
 }

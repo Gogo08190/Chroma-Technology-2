@@ -48,7 +48,7 @@
 			}]
 			rewards: [{
 				id: "7650B624BC3CC4EB"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -65,7 +65,7 @@
 			}]
 			rewards: [{
 				id: "67EB4884C29E4B31"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -81,7 +81,7 @@
 			}]
 			rewards: [{
 				id: "2507B0CAC3868A8E"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -97,7 +97,7 @@
 			}]
 			rewards: [{
 				id: "5F7DAB4F914C6B6E"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -113,7 +113,7 @@
 			}]
 			rewards: [{
 				id: "433D4D238930DD7B"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -129,7 +129,7 @@
 			}]
 			rewards: [{
 				id: "0C8A21BF68A90803"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -145,7 +145,7 @@
 			}]
 			rewards: [{
 				id: "62620766D7F03BD4"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -161,7 +161,7 @@
 			}]
 			rewards: [{
 				id: "08679053284E784E"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -183,7 +183,7 @@
 			}]
 			rewards: [{
 				id: "2F11B13E132DC46D"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -199,7 +199,7 @@
 			}]
 			rewards: [{
 				id: "075D4BE8BDD332E8"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -215,7 +215,7 @@
 			}]
 			rewards: [{
 				id: "1965AE5531511276"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -231,7 +231,7 @@
 			}]
 			rewards: [{
 				id: "3A7B7AA5E2C515FF"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -247,7 +247,7 @@
 			}]
 			rewards: [{
 				id: "181458E07C655214"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -271,7 +271,7 @@
 			]
 			rewards: [{
 				id: "43396FB044465F8B"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -287,7 +287,7 @@
 			}]
 			rewards: [{
 				id: "237C6EB88EC82E06"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -303,7 +303,7 @@
 			}]
 			rewards: [{
 				id: "7974812ED6671BCF"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -326,7 +326,7 @@
 			}]
 			rewards: [{
 				id: "2DF2D5534A5E645F"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -349,7 +349,7 @@
 			}]
 			rewards: [{
 				id: "41F6C04BB124DF50"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -393,7 +393,7 @@
 			]
 			rewards: [{
 				id: "47D96E0789A5333E"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -411,7 +411,7 @@
 			}]
 			rewards: [{
 				id: "59EBFF9BECA79C0C"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -435,7 +435,7 @@
 			]
 			rewards: [{
 				id: "120397BA5B5152B6"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -462,7 +462,85 @@
 			]
 			rewards: [{
 				id: "43F59119B2538EE7"
-				type: "loot"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.5d
+			description: [
+				"This &aScanner&r will help you to find some ressouces/mobs/entities..."
+				"But you will need &aUpgrades&r to do this"
+			]
+			hide_dependency_lines: true
+			dependencies: ["47BA5DFD32622803"]
+			id: "2A969C06C468CEAD"
+			tasks: [{
+				id: "446712E63CBC2C47"
+				type: "item"
+				item: "scannable:scanner"
+			}]
+			rewards: [{
+				id: "303E8C5E91DBE60F"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Scanner Upgrades"
+			x: 10.5d
+			y: -3.5d
+			description: ["So this are the &aUpgrades&r"]
+			dependencies: ["2A969C06C468CEAD"]
+			id: "7789E43E121BEE67"
+			tasks: [{
+				id: "1285B9D4AB41F05C"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "scannable:module_fluid"
+								Count: 1b
+							}
+							{
+								id: "scannable:module_ore_rare"
+								Count: 1b
+							}
+							{
+								id: "scannable:module_range"
+								Count: 1b
+							}
+							{
+								id: "scannable:module_entity"
+								Count: 1b
+							}
+							{
+								id: "scannable:module_animal"
+								Count: 1b
+							}
+							{
+								id: "scannable:module_monster"
+								Count: 1b
+							}
+							{
+								id: "scannable:module_block"
+								Count: 1b
+							}
+							{
+								id: "scannable:module_ore_common"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "235F9DBEC1670431"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}

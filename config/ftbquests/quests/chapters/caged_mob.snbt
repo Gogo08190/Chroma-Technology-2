@@ -21,7 +21,7 @@
 			}]
 			rewards: [{
 				id: "7F9F882598EF1BE0"
-				type: "loot"
+				type: "random"
 				table_id: 8655552789015021416L
 			}]
 		}
@@ -37,7 +37,7 @@
 			}]
 			rewards: [{
 				id: "55029E2B8FCB54A5"
-				type: "loot"
+				type: "random"
 				table_id: 8655552789015021416L
 			}]
 		}
@@ -54,7 +54,7 @@
 			rewards: [
 				{
 					id: "5BE30571F145A848"
-					type: "loot"
+					type: "random"
 					table_id: 4063386593177790740L
 				}
 				{
@@ -76,7 +76,7 @@
 			}]
 			rewards: [{
 				id: "216623CB14D02ADE"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -95,7 +95,7 @@
 			}]
 			rewards: [{
 				id: "6F16EDBA72B172AA"
-				type: "loot"
+				type: "random"
 				table_id: 8655552789015021416L
 			}]
 		}
@@ -111,7 +111,7 @@
 			}]
 			rewards: [{
 				id: "07E8FCED48382721"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -127,7 +127,7 @@
 			}]
 			rewards: [{
 				id: "098E8AC7B774596D"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -143,7 +143,7 @@
 			}]
 			rewards: [{
 				id: "6C322802FEDDAFC5"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -160,7 +160,7 @@
 			rewards: [
 				{
 					id: "3BEC94DC1BDB567E"
-					type: "loot"
+					type: "random"
 					table_id: 4063386593177790740L
 				}
 				{
@@ -183,7 +183,7 @@
 			rewards: [
 				{
 					id: "795F41B6C9F81F14"
-					type: "loot"
+					type: "random"
 					table_id: 4063386593177790740L
 				}
 				{
@@ -211,7 +211,7 @@
 			rewards: [
 				{
 					id: "70E02D3F926F5412"
-					type: "loot"
+					type: "random"
 					table_id: 4063386593177790740L
 				}
 				{
@@ -234,7 +234,7 @@
 			rewards: [
 				{
 					id: "7CADDB0C37EDFFBB"
-					type: "loot"
+					type: "random"
 					table_id: 4063386593177790740L
 				}
 				{
@@ -246,9 +246,9 @@
 		}
 		{
 			x: 4.0d
-			y: 2.5d
+			y: 2.0d
 			hide_dependency_lines: true
-			dependencies: ["60230534AE784546"]
+			dependencies: ["41122C2FC023C374"]
 			id: "4617FE0ABF4C79BE"
 			tasks: [{
 				id: "6787D419F130C2AA"
@@ -257,7 +257,7 @@
 			}]
 			rewards: [{
 				id: "342B8E65D44C7C6D"
-				type: "loot"
+				type: "random"
 				table_id: 8655552789015021416L
 			}]
 		}

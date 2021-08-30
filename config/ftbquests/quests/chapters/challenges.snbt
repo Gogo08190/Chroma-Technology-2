@@ -33,6 +33,7 @@
 				{
 					id: "45B85B240DA29056"
 					type: "command"
+					auto: "invisible"
 					command: "/tellraw @a [{\"text\":\"The Miracle is here ! @p you have beaten Death itself ! You will now be known as The Immortal One !\",\"color\":\"dark_gray\"}]"
 					player_command: false
 				}
@@ -43,7 +44,7 @@
 				}
 				{
 					id: "499E916D9A3BF64F"
-					type: "loot"
+					type: "random"
 					table_id: 8655552789015021416L
 				}
 				{
@@ -78,7 +79,7 @@
 				}
 				{
 					id: "1E178A60C2E4FC8C"
-					type: "loot"
+					type: "random"
 					table_id: 8655552789015021416L
 				}
 				{
@@ -107,7 +108,7 @@
 					tag: { }
 				}
 				stat: "appliedenergistics2:items_inserted"
-				value: 1000000
+				value: 100000000
 			}]
 			rewards: [
 				{
@@ -133,7 +134,7 @@
 				}
 				{
 					id: "252C4D947E40D00F"
-					type: "loot"
+					type: "random"
 					table_id: 8655552789015021416L
 				}
 			]
@@ -172,7 +173,7 @@
 				}
 				{
 					id: "45C7006971D7CAB0"
-					type: "loot"
+					type: "random"
 					table_id: 8655552789015021416L
 				}
 			]
@@ -206,7 +207,7 @@
 				}
 				{
 					id: "0D349887A72EF1CB"
-					type: "loot"
+					type: "random"
 					table_id: 8655552789015021416L
 				}
 				{
@@ -254,7 +255,7 @@
 				}
 				{
 					id: "499842CCE65703B5"
-					type: "loot"
+					type: "random"
 					table_id: 8655552789015021416L
 				}
 				{
@@ -302,7 +303,7 @@
 				}
 				{
 					id: "137954CF92E0A7D9"
-					type: "loot"
+					type: "random"
 					table_id: 8655552789015021416L
 				}
 				{
@@ -357,7 +358,7 @@
 				}
 				{
 					id: "28AD922A4C22786A"
-					type: "loot"
+					type: "random"
 					table_id: 8655552789015021416L
 				}
 			]
@@ -398,7 +399,7 @@
 				}
 				{
 					id: "5484DDDE2DB1562F"
-					type: "loot"
+					type: "random"
 					table_id: 8655552789015021416L
 				}
 			]
@@ -442,7 +443,7 @@
 				}
 				{
 					id: "732D16E750312827"
-					type: "loot"
+					type: "random"
 					table_id: 8655552789015021416L
 				}
 			]
@@ -483,7 +484,7 @@
 				}
 				{
 					id: "29A1F12EFF3F3B8B"
-					type: "loot"
+					type: "random"
 					table_id: 8655552789015021416L
 				}
 			]
@@ -518,7 +519,7 @@
 				}
 				{
 					id: "549D424746B1B838"
-					type: "loot"
+					type: "random"
 					table_id: 8655552789015021416L
 				}
 			]
@@ -557,7 +558,7 @@
 				}
 				{
 					id: "07A29A33F7E04371"
-					type: "loot"
+					type: "random"
 					table_id: 8655552789015021416L
 				}
 			]
@@ -594,7 +595,7 @@
 				}
 				{
 					id: "7CD03D88F801EBCD"
-					type: "loot"
+					type: "random"
 					table_id: 8655552789015021416L
 				}
 				{
@@ -645,7 +646,7 @@
 				}
 				{
 					id: "64EDC5E5BB0F61D8"
-					type: "loot"
+					type: "random"
 					table_id: 8655552789015021416L
 				}
 			]
@@ -680,7 +681,7 @@
 				}
 				{
 					id: "0E33859226C9BC0E"
-					type: "loot"
+					type: "random"
 					table_id: 8655552789015021416L
 				}
 			]
@@ -738,7 +739,7 @@
 				}
 				{
 					id: "37062F6A358262BD"
-					type: "loot"
+					type: "random"
 					table_id: 8655552789015021416L
 				}
 			]

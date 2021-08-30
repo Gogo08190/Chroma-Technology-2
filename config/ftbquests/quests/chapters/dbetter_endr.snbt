@@ -22,7 +22,7 @@
 			}]
 			rewards: [{
 				id: "42B37CA075F8805B"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -40,7 +40,7 @@
 			}]
 			rewards: [{
 				id: "50C52F86626276BF"
-				type: "loot"
+				type: "random"
 				table_id: 8655552789015021416L
 			}]
 		}
@@ -97,7 +97,7 @@
 			}]
 			rewards: [{
 				id: "189BF4705D5F2FD9"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -120,7 +120,7 @@
 			}]
 			rewards: [{
 				id: "48C38734E718EF6A"
-				type: "loot"
+				type: "random"
 				table_id: 8655552789015021416L
 			}]
 		}
@@ -143,7 +143,7 @@
 			}]
 			rewards: [{
 				id: "4AA40DF61B868F90"
-				type: "loot"
+				type: "random"
 				table_id: 8655552789015021416L
 			}]
 		}
@@ -166,7 +166,7 @@
 			}]
 			rewards: [{
 				id: "033AF91C896E70C7"
-				type: "loot"
+				type: "random"
 				table_id: 8655552789015021416L
 			}]
 		}
@@ -189,7 +189,7 @@
 			}]
 			rewards: [{
 				id: "275ADA983D4D3BC8"
-				type: "loot"
+				type: "random"
 				table_id: 8655552789015021416L
 			}]
 		}
@@ -205,7 +205,7 @@
 			}]
 			rewards: [{
 				id: "2D0C0B7793FC68CF"
-				type: "loot"
+				type: "random"
 				table_id: 8655552789015021416L
 			}]
 		}
@@ -222,7 +222,7 @@
 			}]
 			rewards: [{
 				id: "3B848BCAEA5674CE"
-				type: "loot"
+				type: "random"
 				table_id: 8655552789015021416L
 			}]
 		}
@@ -245,7 +245,7 @@
 			}]
 			rewards: [{
 				id: "27CA275D7A3C02C9"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -268,7 +268,7 @@
 			}]
 			rewards: [{
 				id: "6B0381517F4780B3"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -291,7 +291,7 @@
 			}]
 			rewards: [{
 				id: "67E34547757405A6"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -314,7 +314,7 @@
 			}]
 			rewards: [{
 				id: "37F41F2F424122A5"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -331,7 +331,7 @@
 			}]
 			rewards: [{
 				id: "627A0EF90D8E562A"
-				type: "loot"
+				type: "random"
 				table_id: 8655552789015021416L
 			}]
 		}
@@ -354,7 +354,7 @@
 			}]
 			rewards: [{
 				id: "03E13B0E3DF816FC"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -377,7 +377,7 @@
 			}]
 			rewards: [{
 				id: "176295CEB880CE79"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -400,7 +400,7 @@
 			}]
 			rewards: [{
 				id: "2CF9FE50063C5CF8"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -423,7 +423,7 @@
 			}]
 			rewards: [{
 				id: "61DCF12A72237CA9"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -446,7 +446,7 @@
 			}]
 			rewards: [{
 				id: "172876D682CF90B2"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -469,7 +469,7 @@
 			}]
 			rewards: [{
 				id: "621A3458ED11E6E5"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -492,7 +492,7 @@
 			}]
 			rewards: [{
 				id: "60C41BBAD326BD57"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -515,7 +515,7 @@
 			}]
 			rewards: [{
 				id: "61BA461A75235FE1"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -533,7 +533,7 @@
 			}]
 			rewards: [{
 				id: "45158F54F60C4EEE"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -613,7 +613,7 @@
 			]
 			rewards: [{
 				id: "796E5749E0B34B01"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -693,7 +693,7 @@
 			]
 			rewards: [{
 				id: "6B70031E5E4EC8CA"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -710,7 +710,7 @@
 			}]
 			rewards: [{
 				id: "5477D0F1F0CCD04D"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -790,7 +790,7 @@
 			]
 			rewards: [{
 				id: "50804372A61373F6"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -809,7 +809,7 @@
 			}]
 			rewards: [{
 				id: "744781F14DC809BA"
-				type: "loot"
+				type: "random"
 				table_id: 8655552789015021416L
 			}]
 		}
@@ -826,7 +826,7 @@
 			}]
 			rewards: [{
 				id: "017FF8C7B1E82EC5"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
@@ -843,7 +843,7 @@
 			}]
 			rewards: [{
 				id: "41731898911E12FE"
-				type: "loot"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}
