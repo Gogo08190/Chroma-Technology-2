@@ -109,6 +109,8 @@
 	#Which thread's CPU usage should be calculated. (0:client thread only, 1:entire Minecraft process including server threads)
 	#Range: 0 ~ 1
 	cpuUsageThread = 0
+	#Permit to set IdleFPS=1.
+	allowOneFps = false
 
 #Debug options
 [debug]

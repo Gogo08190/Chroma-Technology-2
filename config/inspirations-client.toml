@@ -6,3 +6,4 @@ coloredFireworkItems = true
 coloredEnchantedRibbons = true
 #Allows the portal color to be changed by placing colored blocks under the portal. Any block that tints a beacon beam will work for the color.
 customPortalColor = false
+

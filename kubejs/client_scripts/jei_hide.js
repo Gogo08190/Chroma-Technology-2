@@ -103,6 +103,7 @@ events.listen('jei.hide.items', function (event) {
   event.hide('iceandfire:amythest_ore')
   event.hide('iceandfire:amythest_block')
   event.hide('iceandfire:amythest_gem')
+  event.hide(Item.of('iceandfire:gorgon_head', {Damage:0}))
 
 
   // Silent Gear

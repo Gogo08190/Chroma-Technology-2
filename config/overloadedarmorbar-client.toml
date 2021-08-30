@@ -1,8 +1,9 @@
 
 [general]
 	#Colors must be specified in #RRGGBB format
-	"color values" = ["#FFFFFF", "#FF5500", "#FFC747", "#27FFE3", "#00FF00", "#7F00FF""#F06E14", "#F5DC23", "#2DB928", "#1EAFBE", "#7346E1", "#FA7DEB", "#EB375A", "#FF8278", "#AAFFFA", "#EBEBFF", "#B2B2FF", "#7373FF", "#4747FF"]
+	"color values" = ["#FFFFFF", "#FF5500", "#FFC747", "#27FFE3", "#00FF00", "#7F00FF", "FD0083", "FB004D", "FE0000", "F42E00", "280054", "3C003D"]
 	#Always show armor bar even if empty?
 	"Always show bar" = false
 	#Show empty armor icons?
 	"Show empty icons" = false
+

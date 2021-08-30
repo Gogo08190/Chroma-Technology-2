@@ -69,7 +69,7 @@
 
 	#Tweaks
 	[VanillaTweaks.tweaks]
-		#Want a way to clear text in signs?
+		#Want a way to change text in signs without breaking them?
 		enableSignEditing = true
 		#Want the fire arrows to set fire on block it landed?
 		arrowsSetBlockOnFire = true
@@ -108,7 +108,7 @@
 		realisticRelationship = true
 		#Want seeds to auto-plant themselves when broken?
 		selfPlanting = true
-		#How long a plant should take to despawn (and attempt to plant) Default Minecraft is 6000.
+		#How long a plant item should take to despawn (and attempt to plant) Default Minecraft is 6000.
 		#Range: > 0
 		despawnTime = 6000
 		#Percentage chance to plant

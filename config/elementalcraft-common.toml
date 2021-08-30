@@ -126,6 +126,17 @@
 		#Range: 0.0 ~ 2400.0
 		groveShrinePeriode = 200.0
 
+	[shrines.springShrine]
+		#The amount of element consumed by the spring Shrine.
+		#Range: 0 ~ 10000
+		springShrineConsumeAmount = 5
+		#The nember of tick betwenn two spring Shrine activations.
+		#Range: 0.0 ~ 2400.0
+		springShrinePeriode = 5.0
+		#The amound of water filling a tank with a filling shrine upgrades.
+		#Range: 0.0 ~ 10000.0
+		springShrineFilling = 100.0
+
 #Instruments config
 [instruments]
 
@@ -300,6 +311,11 @@
 		#Range: 0 ~ 100
 		diffuserRange = 10
 
+	[instruments.solarSythesizer]
+		#The max amount of runes on a Solar Sythesizer.
+		#Range: 0 ~ 10
+		solarSythesizerMaxRunes = 2
+
 #Pure Infusser and pedestals config
 [pureInfuser]
 	#The max amount of element consumed by the pure infuser per tick.
@@ -377,6 +393,8 @@
 	#CSource Altar genreration distance setting.
 	#Range: 0 ~ 100
 	sourceAltarDistance = 64
+	#Disable creation of sources.
+	disableSourceSpawn = false
 
 	[worldgen.inertCrystal]
 		#Disable creation of inertCrystals.

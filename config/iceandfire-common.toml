@@ -4,24 +4,24 @@
 	[Generation.Dimensions]
 		#True if using blacklists, false if using whitelists for dragons and structure gen.
 		"Use Dimension Blacklist" = false
-		#Whitelist dragon gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis"
+		#Whitelist dragon gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
 		whitelistDimensionsDragons = ["minecraft:overworld"]
-		#Whitelisted feature(cyclops caves, hydra dens, etc) gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis"
+		#Whitelisted feature(cyclops caves, hydra dens, etc) gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
 		whitelistDimensionsFeature = ["minecraft:overworld"]
-		#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis"
+		#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
 		whitelistDimensionsMobs = ["minecraft:overworld"]
-		#Blacklisted dragon gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis"
+		#Blacklisted dragon gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
 		blacklistDimensionsDragons = ["minecraft:the_nether", "minecraft:the_end"]
-		#Blacklisted feature(cyclops caves, hydra dens, etc) gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis"
+		#Blacklisted feature(cyclops caves, hydra dens, etc) gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
 		blacklistDimensionsFeature = ["minecraft:the_nether", "minecraft:the_end"]
-		#Blacklisted mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis"
+		#Blacklisted mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
 		blacklistDimensionsMobs = ["minecraft:the_nether", "minecraft:the_end"]
 
 	[Generation.Ores]
 		#Whether to generate copper ore or not
-		"Generate Copper Ore" = false
+		"Generate Copper Ore" = true
 		#Whether to generate silver ore or not
-		"Generate Silver Ore" = false
+		"Generate Silver Ore" = true
 		#Whether to generate sapphire ore or not
 		"Generate Sapphire Ore" = true
 		#Whether to generate amethyst ore or not
@@ -32,12 +32,12 @@
 		"Generate Dragon Skeletons" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Skeleton Chance" = 385
+		"Generate Dragon Skeleton Chance" = 300
 		#Whether to generate dragon caves or not
 		"Generate Dragon Caves" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Cave Chance" = 115
+		"Generate Dragon Cave Chance" = 180
 		#Whether to generate dragon roosts or not
 		"Generate Dragon Roosts" = true
 		#1 out of this number chance per chunk for generation
@@ -53,7 +53,7 @@
 	[Generation.Structures-Features]
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn(0, 0).
 		#Range: 1 ~ 10000
-		"Dangerous World Gen Dist From Spawn" = 450
+		"Dangerous World Gen Dist From Spawn" = 800
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from the last generated structure.
 		#Range: 1 ~ 10000
 		"Dangerous World Gen Dist Seperation" = 300
@@ -66,27 +66,27 @@
 		"Generate Mausoleums" = true
 		#One out of this number chance per chunk to generate a mausoleum.
 		#Range: 1 ~ 10000
-		"Mausoleum Gen Chance" = 1500
+		"Mausoleum Gen Chance" = 1800
 		#Whether to generate graveyards or not
 		"Generate Graveyards" = true
 		#Graveyard rarity.
 		#Range: 2 ~ 10000
-		"Graveyard Chance" = 225
+		"Graveyard Chance" = 46
 
 [Dragons]
 
 	[Dragons.Griefing]
 		#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default
 		#Range: 0 ~ 2
-		"Dragon Griefing" = 2
+		"Dragon Griefing" = 0
 		#True if tamed dragons can follow the griefing rules.
 		"Tamed Dragon Griefing" = true
 		#The percentage chance for a block to drop as an item when a dragon breaks it.
 		#Range: 0.0 ~ 1.0
 		"Dragon Block Breaking Drop Chance" = 0.10000000149011612
-		#Blocks that a dragon cannot break. Use the format like "minecraft:chest" or "rats:block_of_cheese"
+		#Blocks that a dragon cannot break. Use the format like "minecraft:chest" or "rats:block_of_cheese" 
 		blacklistedBreakBlocks = []
-		#Blocks that a dragon can break, but won't spawn drops for. Use the format like "minecraft:stone" or "rats:block_of_cheese"
+		#Blocks that a dragon can break, but won't spawn drops for. Use the format like "minecraft:stone" or "rats:block_of_cheese" 
 		noDropBreakBlocks = ["minecraft:stone", "minecraft:dirt", "minecraft:grass_block"]
 
 	[Dragons.Attributes]
@@ -101,19 +101,19 @@
 		"Dragon Flute Distance" = 4
 		#Max dragon health. Health is scaled to this
 		#Range: 1.0 ~ 100000.0
-		"Dragon Health" = 6500.0
+		"Dragon Health" = 500.0
 		#Max dragon attack damage. Attack Damage is scaled to this
 		#Range: 1 ~ 10000
-		"Dragon Attack Damage" = 40
+		"Dragon Attack Damage" = 17
 		#Damage dealt from a successful fire breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Fire breath)" = 4.5
+		"Dragon Attack Damage(Fire breath)" = 2.0
 		#Damage dealt from a successful ice breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Ice breath)" = 5.0
+		"Dragon Attack Damage(Ice breath)" = 2.5
 		#Damage dealt from a successful lightning breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Lightning breath)" = 6.5
+		"Dragon Attack Damage(Lightning breath)" = 3.5
 		#Change this to slow down or speed up dragon or amphithere flight.
 		#Range: 0.0 ~ 2.0
 		"Dragon Flight Speed Modifier" = 1.0
@@ -143,7 +143,7 @@
 		"Explosive Dragon Breath" = false
 		#How many blocks away can dragons spot potential prey. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
-		"Dragon Target Search Length" = 64
+		"Dragon Target Search Length" = 128
 		#How many blocks away can dragons wander from their defined "home" position.
 		#Range: 1 ~ 10000
 		"Dragon Wander From Home Distance" = 40
@@ -172,14 +172,14 @@
 		#Range: 1 ~ 10000
 		"Pixie Village Size" = 5
 		#True if pixies are allowed to steal from players
-		"Pixies Steal Items" = false
+		"Pixies Steal Items" = true
 
 	[Mobs.Cyclops]
 		#True if cyclops caves are allowed to spawn
 		"Spawn Cyclopes Caves" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Cyclops Cave Chance" = 180
+		"Spawn Cyclops Cave Chance" = 100
 		#True if wandering cyclopes are allowed to spawn
 		"Spawn Wandering Cyclopes" = true
 		#1 out of this number chance per chunk for generation
@@ -187,7 +187,7 @@
 		"Spawn Wandering Cyclops Chance" = 100
 		#Maximum cyclops health
 		#Range: 1.0 ~ 10000.0
-		"Cyclops Max Health" = 2500.0
+		"Cyclops Max Health" = 150.0
 		#How many blocks away can cyclopes detect sheep. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
 		"Cyclopes Sheep Search Length" = 17
@@ -196,21 +196,21 @@
 		"Cyclops Attack Strength" = 15.0
 		#Amount of damage done with cyclops bite attack.
 		#Range: 1.0 ~ 10000.0
-		"Cyclops Bite Strength" = 50.0
+		"Cyclops Bite Strength" = 40.0
 		#Whether or not cyclops can break logs or leaves in their way
 		"Cyclops Griefing" = true
 
 	[Mobs.Sirens]
 		#Maximum siren health
 		#Range: 1.0 ~ 10000.0
-		"Siren Max Health" = 250.0
+		"Siren Max Health" = 50.0
 		#True if siren islands are allowed to spawn
 		"Spawn Sirens" = true
 		#True to make the screen pink when sirens attract players
 		"Use Siren Shader" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sirens Chance" = 300
+		"Spawn Sirens Chance" = 400
 		#how long(in ticks) can a siren use its sing effect on a player, without a cooldown.
 		#Range: 100 ~ 24000
 		"Siren Max Sing Time" = 12000
@@ -224,25 +224,25 @@
 		"Death Worm Target Search Length" = 64
 		#Default deathworm health, this is scaled to the worm's particular size
 		#Range: 1.0 ~ 10000.0
-		"Death Worm Base Health" = 50.0
+		"Death Worm Base Health" = 10.0
 		#Default deathworm attack strength, this is scaled to the worm's particular size
 		#Range: 1.0 ~ 10000.0
-		"Death Worm Base Attack Strength" = 4.0
+		"Death Worm Base Attack Strength" = 3.0
 		#True if deathworms are allowed to spawn
 		"Spawn Death Worms" = true
 		#True if wild deathworms are allowed to target and attack monsters
 		"Death Worms Target Monsters" = true
 		#Deathworm spawn weight. Higher = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Death Worm Spawn Weight" = 45
+		"Death Worm Spawn Weight" = 30
 		#A double check to see if the game can spawn death worms. Higher number = lower chance to spawn.
 		#Range: 0 ~ 10000
-		"Death Worm Spawn Check Chance" = 5
+		"Death Worm Spawn Check Chance" = 3
 
 	[Mobs.Cockatrice]
 		#Maximum cockatrice health
 		#Range: 1.0 ~ 10000.0
-		"Cockatrice Health" = 80.0
+		"Cockatrice Health" = 40.0
 		#1 out of this number chance per 6000 ticks for a chicken to lay a cockatrice egg.
 		#Range: > 1
 		"Cockatrice chicken Search Length" = 30
@@ -296,14 +296,14 @@
 		"Troll Spawn Check Chance" = 10
 		#Maximum troll health
 		#Range: 1.0 ~ 10000.0
-		"Troll Max Health" = 2000.0
+		"Troll Max Health" = 50.0
 		#Troll attack strength
 		#Range: 1.0 ~ 10000.0
-		"Troll Attack Strength" = 12.0
+		"Troll Attack Strength" = 10.0
 
 	[Mobs.Myrmex]
 		#True if myrmex colonies are allowed to spawn
-		"Spawn Myrmex" = false
+		"Spawn Myrmex" = true
 		#How many ticks it takes for a Myrmex Queen to produce an egg.
 		#Range: 1 ~ 10000
 		"Myrmex Gestation Length" = 2500
@@ -320,8 +320,8 @@
 		#Range: 1.0 ~ 10000.0
 		"Myrmex Base Attack Strength" = 3.0
 		#The maximum radius myrmex area allowed to wander/forage
-		#Range: 100 ~ 20000
-		"Myrmex Maximum Wnader Radius" = 4000
+		#Range: 25 ~ 4000
+		"Myrmex Maximum Wander Radius" = 50
 
 	[Mobs.Amphitheres]
 		#True if amphitheres are allowed to spawn
@@ -340,51 +340,25 @@
 		"Amphithere Flight Speed" = 1.75
 		#Maximum amphithere health
 		#Range: 1.0 ~ 10000.0
-		"Amphithere Max Health" = 150.0
+		"Amphithere Max Health" = 50.0
 		#Amphithere attack strength
 		#Range: 1.0 ~ 10000.0
-		"Amphithere Attack Strength" = 7.5
+		"Amphithere Attack Strength" = 7.0
 
 	[Mobs.SeaSerpents]
 		#True if sea serpents are allowed to spawn
 		"Spawn Sea Serpents" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sea Serpent Chance" = 350
+		"Spawn Sea Serpent Chance" = 250
 		#Whether or not sea serpents can break weak blocks in their way
 		"Sea Serpent Griefing" = true
 		#Default sea serpent health, this is scaled to the sea serpent's particular size
 		#Range: 1.0 ~ 10000.0
-		"Sea Serpent Base Health" = 150.0
+		"Sea Serpent Base Health" = 20.0
 		#Default sea serpent attack strength, this is scaled to the sea serpent's particular size
 		#Range: 1.0 ~ 10000.0
 		"Sea Serpent Base Attack Strength" = 4.0
-
-	[Mobs.Others]
-		#True if dread liches are allowed to spawn
-		"Spawn Liches" = true
-		#Dread Lich spawn weight. Lower = lower chance to spawn
-		#Range: 1 ~ 10000
-		"Lich Spawn Weight" = 2
-		#Maximum hydra health
-		#Range: 1.0 ~ 10000.0
-		"Hydra Max Health" = 1750.0
-		#True if hydra caves are allowed to generate
-		"Generate Hydra Caves" = true
-		#One out of this number chance per chunk to generate a hydra cave.
-		#Range: 1 ~ 10000
-		"Hydra Caves Gen Chance" = 100
-		#Maximum ghost health.
-		#Range: 1.0 ~ 10000.0
-		"Ghost Max Health" = 40.0
-		#Maximum ghost attack strength.
-		#Range: 0.0 ~ 10000.0
-		"Ghost Attack Strength" = 3.0
-		#True if ghosts can rarely spawn from brutal PvP deaths.
-		"Ghost Spawn from PvP deaths" = true
-		#Villager Scribe House generation weight. Lower = lower chance to spawn
-		#Range: 30 ~ 10000
-		"Villager Scribe House Weight" = 30
 
 	[Mobs.Hippocampus]
 		#True if hippocampi are allowed to spawn
@@ -408,13 +382,39 @@
 
 	[Mobs.Gorgons]
 		#True if gorgon temples are allowed to spawn
-		"Spawn Gorgons" = false
+		"Spawn Gorgons" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Spawn Gorgon Chance" = 75
 		#Maximum gorgon health
 		#Range: 1.0 ~ 10000.0
-		"Gorgon Max Health" = 1500.0
+		"Gorgon Max Health" = 100.0
+
+	[Mobs.Others]
+		#True if dread liches are allowed to spawn
+		"Spawn Liches" = true
+		#Dread Lich spawn weight. Lower = lower chance to spawn
+		#Range: 1 ~ 10000
+		"Lich Spawn Weight" = 2
+		#Maximum hydra health
+		#Range: 1.0 ~ 10000.0
+		"Hydra Max Health" = 250.0
+		#True if hydra caves are allowed to generate
+		"Generate Hydra Caves" = true
+		#One out of this number chance per chunk to generate a hydra cave.
+		#Range: 1 ~ 10000
+		"Hydra Caves Gen Chance" = 100
+		#Maximum ghost health.
+		#Range: 1.0 ~ 10000.0
+		"Ghost Max Health" = 30.0
+		#Maximum ghost attack strength.
+		#Range: 0.0 ~ 10000.0
+		"Ghost Attack Strength" = 3.0
+		#True if ghosts can rarely spawn from brutal PvP deaths.
+		"Ghost Spawn from PvP deaths" = true
+		#Villager Scribe House generation weight. Lower = lower chance to spawn
+		#Range: 0 ~ 10000
+		"Villager Scribe House Weight" = 22
 
 [Items]
 	#Default attack strength of a dragonsteel sword.
@@ -426,6 +426,9 @@
 	#Default durability value of dragonsteel tools.
 	#Range: > 1
 	"Dragonsteel Base Durability" = 8000
+	#Default durability value of dragonsteel equipment.
+	#Range: > 1
+	"Dragonsteel Base Durability Equipment" = 8000
 	#Disable this to remove easter egg with tinkers installed.
 	Weezer = true
 	#Percentage of critical strike that will disarm with easter egg tinkers material.
@@ -433,9 +436,6 @@
 	"Easter Egg Tinkers Tool Disarm chance" = 0.20000000298023224
 	#True if the summon crystal can load chunks to find dragons.
 	"Chunk Load Summon Crystal" = true
-	#Default durability value of dragonsteel equipment.
-	#Range: > 1
-	"Dragonsteel Base Durability Equipment" = 8000
 	#True if the dragon bone fire sword ignites attackers.
 	"Dragon Bone Fire Abilities" = true
 	#True if the dragon bone ice sword freezes attackers.
@@ -449,4 +449,5 @@
 	"Dragon Pathfinding Threads" = 3
 	#Maximum nodes for dragons/myrmex to path too. Decrease this is dragon pathfinding is super slow or intensive.
 	#Range: > 1
-	"Dragon Max Pathfinding Nodes" = 2500
+	"Dragon Max Pathfinding Nodes" = 5000
+

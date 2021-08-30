@@ -29,5 +29,7 @@
   "forge:ingots/titanium": "null",
   "forge:rubber": "null",
   "forge:dusts/sulfur": "mekanism:dust_sulfur",
-  "forge:ingots/nickel": "silents_mechanisms:nickel_ingot"
+  "forge:ingots/nickel": "silents_mechanisms:nickel_ingot",
+  "forge:gems/ruby": "silentgems:ruby",
+  "forge:gems/sapphire": "iceandfire:sapphire_gem"
 }

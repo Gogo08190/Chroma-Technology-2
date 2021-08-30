@@ -10,6 +10,8 @@
 		maxStoredPower = 10000
 		#Max Essence [mb] - Default: [64000 mb]
 		tankSize = 64000
+		#Ignore max level for enchanting
+		ignoreEnchantMaxLevels = false
 
 	[MachineMiscConfig.EnchantmentExtractorConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]
