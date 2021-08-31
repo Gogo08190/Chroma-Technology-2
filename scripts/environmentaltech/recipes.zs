@@ -53,11 +53,11 @@ craftingTable.removeRecipe(<item:enviroenergy:ionite_solar_ccu>);
 
 mods.extendedcrafting.TableCrafting.addShaped("ionite_solar_ccu", 0, <item:enviroenergy:ionite_solar_ccu>, [
 	[<item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>],
-	[<item:envirocore:ionite_frame>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:enviroenergy:pladium_solar_cell>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:envirocore:ionite_frame>],
+	[<item:envirocore:ionite_frame>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:enviroenergy:ionite_solar_cell>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:envirocore:ionite_frame>],
 	[<item:envirocore:ionite_frame>, <item:envirocore:ionite>, <item:mekanismgenerators:advanced_solar_generator>, <item:envirocore:ionite_interconnect>, <item:mekanismgenerators:advanced_solar_generator>, <item:envirocore:ionite>, <item:envirocore:ionite_frame>],
-	[<item:envirocore:ionite_frame>, <item:enviroenergy:pladium_solar_cell>, <item:envirocore:ionite_interconnect>, <item:enviroenergy:pladium_solar_ccu>, <item:envirocore:ionite_interconnect>, <item:enviroenergy:pladium_solar_cell>, <item:envirocore:ionite_frame>],
+	[<item:envirocore:ionite_frame>, <item:enviroenergy:ionite_solar_cell>, <item:envirocore:ionite_interconnect>, <item:enviroenergy:pladium_solar_ccu>, <item:envirocore:ionite_interconnect>, <item:enviroenergy:ionite_solar_cell>, <item:envirocore:ionite_frame>],
 	[<item:envirocore:ionite_frame>, <item:envirocore:ionite>, <item:mekanismgenerators:advanced_solar_generator>, <item:envirocore:ionite_interconnect>, <item:mekanismgenerators:advanced_solar_generator>, <item:envirocore:ionite>, <item:envirocore:ionite_frame>],
-	[<item:envirocore:ionite_frame>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:enviroenergy:pladium_solar_cell>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:envirocore:ionite_frame>],
+	[<item:envirocore:ionite_frame>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:enviroenergy:ionite_solar_cell>, <item:envirocore:ionite>, <item:envirocore:ionite>, <item:envirocore:ionite_frame>],
 	[<item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>, <item:envirocore:ionite_frame>]
 ]);
 
