@@ -25,10 +25,9 @@ mods.extendedcrafting.TableCrafting.addShaped("prosperity_seed", <item:mysticala
 ]);
 
 // Dragon Egg Seed
-
 mods.mysticalagriculture.InfusionCrafting.remove(<item:mysticalagriculture:dragon_egg_seeds>);
 
-mods.extendedcrafting.TableCrafting.addShaped("mysticalagriculture:dragon_egg_seeds",<item:mysticalagriculture:dragon_egg_seeds>, [
+mods.extendedcrafting.TableCrafting.addShaped("dragon_egg_seeds",<item:mysticalagriculture:dragon_egg_seeds>, [
 	[<item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:dragon_scale>, <item:mysticalagradditions:dragon_scale>, <item:mysticalagradditions:dragon_scale>, <item:mysticalagradditions:dragon_scale>, <item:mysticalagradditions:dragon_scale>, <item:mysticalagradditions:dragon_scale>, <item:mysticalagradditions:dragon_scale>, <item:mysticalagradditions:insanium_essence>],
 	[<item:mysticalagradditions:dragon_scale>, <item:mysticalagradditions:insanium_essence>, <item:minecraft:dragon_egg>, <item:minecraft:dragon_egg>, <item:minecraft:dragon_egg>, <item:minecraft:dragon_egg>, <item:minecraft:dragon_egg>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:dragon_scale>],
 	[<item:mysticalagradditions:dragon_scale>, <item:minecraft:dragon_egg>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_ingot>, <item:mysticalagradditions:insanium_ingot>, <item:mysticalagradditions:insanium_ingot>, <item:mysticalagradditions:insanium_essence>, <item:minecraft:dragon_egg>, <item:mysticalagradditions:dragon_scale>],
@@ -41,10 +40,9 @@ mods.extendedcrafting.TableCrafting.addShaped("mysticalagriculture:dragon_egg_se
 ]);
 
 // Dragon Egg Crux
-
 craftingTable.removeRecipe(<item:mysticalagradditions:dragon_egg_crux>);
 
-mods.extendedcrafting.TableCrafting.addShaped("mysticalagradditions:dragon_egg_crux",<item:mysticalagradditions:dragon_egg_crux>, [
+mods.extendedcrafting.TableCrafting.addShaped("dragon_egg_crux",<item:mysticalagradditions:dragon_egg_crux>, [
 	[<item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_essence>],
 	[<item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:dragon_scale>, <item:minecraft:dragon_egg>, <item:mysticalagradditions:dragon_scale>, <item:minecraft:dragon_egg>, <item:mysticalagradditions:dragon_scale>, <item:mysticalagradditions:insanium_essence>],
 	[<item:mysticalagradditions:insanium_essence>, <item:minecraft:dragon_egg>, <item:mysticalagradditions:withering_soul>, <item:mysticalagradditions:creative_essence>, <item:mysticalagradditions:withering_soul>, <item:minecraft:dragon_egg>, <item:mysticalagradditions:insanium_essence>],
@@ -55,10 +53,9 @@ mods.extendedcrafting.TableCrafting.addShaped("mysticalagradditions:dragon_egg_c
 ]);
 
 // Nether Star Seed
-
 mods.mysticalagriculture.InfusionCrafting.remove(<item:mysticalagriculture:nether_star_seeds>);
 
-mods.extendedcrafting.TableCrafting.addShaped("mysticalagriculture:nether_star_seeds",<item:mysticalagriculture:nether_star_seeds>, [
+mods.extendedcrafting.TableCrafting.addShaped("nether_star_seeds",<item:mysticalagriculture:nether_star_seeds>, [
 	[<item:mysticalagradditions:insanium_essence>, <item:mysticalagriculture:supremium_ingot>, <item:mysticalagriculture:supremium_ingot>, <item:mysticalagriculture:supremium_ingot>, <item:mysticalagriculture:supremium_ingot>, <item:mysticalagriculture:supremium_ingot>, <item:mysticalagriculture:supremium_ingot>, <item:mysticalagriculture:supremium_ingot>, <item:mysticalagradditions:insanium_essence>],
 	[<item:mysticalagriculture:supremium_ingot>, <item:mysticalagradditions:insanium_essence>, <item:overloaded:nether_star_block>, <item:overloaded:nether_star_block>, <item:overloaded:nether_star_block>, <item:overloaded:nether_star_block>, <item:overloaded:nether_star_block>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagriculture:supremium_ingot>],
 	[<item:mysticalagriculture:supremium_ingot>, <item:overloaded:nether_star_block>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_ingot>, <item:mysticalagradditions:insanium_ingot>, <item:mysticalagradditions:insanium_ingot>, <item:mysticalagradditions:insanium_essence>, <item:overloaded:nether_star_block>, <item:mysticalagriculture:supremium_ingot>],
@@ -71,10 +68,9 @@ mods.extendedcrafting.TableCrafting.addShaped("mysticalagriculture:nether_star_s
 ]);
 
 // Nether Star Crux
-
 craftingTable.removeRecipe(<item:mysticalagradditions:nether_star_crux>);
 
-mods.extendedcrafting.TableCrafting.addShaped("mysticalagradditions:nether_star_crux",<item:mysticalagradditions:nether_star_crux>, [
+mods.extendedcrafting.TableCrafting.addShaped("nether_star_crux",<item:mysticalagradditions:nether_star_crux>, [
 	[<item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_essence>],
 	[<item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:withering_soul>, <item:overloaded:nether_star_block>, <item:mysticalagradditions:withering_soul>, <item:overloaded:nether_star_block>, <item:mysticalagradditions:withering_soul>, <item:mysticalagradditions:insanium_essence>],
 	[<item:mysticalagradditions:insanium_essence>, <item:overloaded:nether_star_block>, <item:minecraft:nether_star>, <item:mysticalagradditions:creative_essence>, <item:minecraft:nether_star>, <item:overloaded:nether_star_block>, <item:mysticalagradditions:insanium_essence>],
@@ -85,10 +81,9 @@ mods.extendedcrafting.TableCrafting.addShaped("mysticalagradditions:nether_star_
 ]);
 
 // Nitro Crystal Seed
-
 mods.mysticalagriculture.InfusionCrafting.remove(<item:mysticalagriculture:nitro_crystal_seeds>);
 
-mods.extendedcrafting.TableCrafting.addShaped("mysticalagriculture:nitro_crystal_seeds",<item:mysticalagriculture:nitro_crystal_seeds>, [
+mods.extendedcrafting.TableCrafting.addShaped("nitro_crystal_seeds",<item:mysticalagriculture:nitro_crystal_seeds>, [
 	[<item:mysticalagradditions:insanium_essence>, <item:mysticalagriculture:supremium_ingot>, <item:mysticalagriculture:supremium_ingot>, <item:mysticalagriculture:supremium_ingot>, <item:mysticalagriculture:supremium_ingot>, <item:mysticalagriculture:supremium_ingot>, <item:mysticalagriculture:supremium_ingot>, <item:mysticalagriculture:supremium_ingot>, <item:mysticalagradditions:insanium_essence>],
 	[<item:mysticalagriculture:supremium_ingot>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_ingot>, <item:powah:nitro_crystal_block>, <item:mysticalagradditions:creative_essence>, <item:powah:nitro_crystal_block>, <item:mysticalagradditions:insanium_ingot>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagriculture:supremium_ingot>],
 	[<item:mysticalagriculture:supremium_ingot>, <item:mysticalagradditions:insanium_ingot>, <item:mysticalagradditions:insanium_essence>, <item:powah:nitro_crystal_block>, <item:mysticalagradditions:insanium_gemstone>, <item:powah:nitro_crystal_block>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_ingot>, <item:mysticalagriculture:supremium_ingot>],
@@ -101,10 +96,9 @@ mods.extendedcrafting.TableCrafting.addShaped("mysticalagriculture:nitro_crystal
 ]);
 
 // Nitro Crystal Crux
-
 craftingTable.removeRecipe(<item:mysticalagradditions:nitro_crystal_crux>);
 
-mods.extendedcrafting.TableCrafting.addShaped("mysticalagradditions:nitro_crystal_crux",<item:mysticalagradditions:nitro_crystal_crux>, [
+mods.extendedcrafting.TableCrafting.addShaped("nitro_crystal_crux",<item:mysticalagradditions:nitro_crystal_crux>, [
 	[<item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_essence>, <item:mysticalagradditions:insanium_essence>],
 	[<item:mysticalagradditions:insanium_essence>, <item:powah:nitro_crystal_block>, <item:powah:nitro_crystal_block>, <item:powah:nitro_crystal_block>, <item:powah:nitro_crystal_block>, <item:powah:nitro_crystal_block>, <item:mysticalagradditions:insanium_essence>],
 	[<item:mysticalagradditions:insanium_essence>, <item:powah:nitro_crystal_block>, <item:powah:crystal_nitro>, <item:powah:capacitor_nitro>, <item:powah:crystal_nitro>, <item:powah:nitro_crystal_block>, <item:mysticalagradditions:insanium_essence>],
