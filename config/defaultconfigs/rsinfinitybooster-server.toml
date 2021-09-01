@@ -2,9 +2,9 @@
 [infinityCard]
 	#The energy need to run the Infinity Card
 	#Range: > 0
-	energyUsage = 40000
+	energyUsage = 8000
 
 [dimensionCard]
 	#The energy need to run the Dimension Card
 	#Range: > 0
-	energyUsage = 80000
+	energyUsage = 16000
