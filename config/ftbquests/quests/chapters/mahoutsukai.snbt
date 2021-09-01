@@ -308,7 +308,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -5.0d
 			y: 8.0d
 			subtitle: "It does need a mint"
 			description: ["Use the &8Strengthening&r on a sword and the right click when you find yourself in some &5Dragon's Breath&r"]
@@ -339,8 +339,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 8.0d
+			x: -6.0d
+			y: 8.5d
 			subtitle: "Is that a JoJo reference ?"
 			description: ["You will have to kill a tamed wolf (A dog then) with the &6Cliburn&r to get the &4Morgan&r"]
 			dependencies: ["64A2DF892DE9F6BE"]
@@ -382,7 +382,7 @@
 					}
 				}
 			}
-			x: 2.5d
+			x: 1.5d
 			y: 12.0d
 			subtitle: "It does burn"
 			description: [
@@ -418,7 +418,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -3.0d
 			y: 12.0d
 			subtitle: "THIS IS SPARTA !"
 			description: [
@@ -428,7 +428,12 @@
 				"Have the spell &0&limmunity exchange&r active"
 				"And you need to block something with a vanilla shield affected by the &0&lstrenghening spell&r"
 			]
-			dependencies: ["7486837A32FEDE6A"]
+			dependencies: [
+				"4A2671DC9AEAA866"
+				"14A992A8B913434E"
+				"3D880CFD076B96AF"
+				"3726E550FCEE90E0"
+			]
 			id: "4831B5E3A251BB99"
 			tasks: [{
 				id: "6F12EBF7884B6F54"
@@ -471,7 +476,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -7.5d
 			y: 12.0d
 			subtitle: "Entity Launcher"
 			dependencies: ["5B567C0822E091ED"]
@@ -494,7 +499,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 0.5d
 			y: 12.0d
 			subtitle: "EXPLOSION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 			dependencies: ["4E0357DCD146F3F1"]
@@ -517,7 +522,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -2.0d
 			y: 8.0d
 			subtitle: "Worming "
 			description: [
@@ -552,17 +557,60 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 8.0d
+			title: "Scroll of Treasury Projection Gauntlet"
+			icon: {
+				id: "mahoutsukai:scroll_treasury_projection"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+				}
+			}
+			x: 0.0d
+			y: 8.5d
 			subtitle: "Where's my shovel?"
-			description: ["Use a &2Treasury Projection Scroll&r"]
+			description: [
+				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				""
+				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				""
+				"Drains 1000 &5Mana&r on the creation of the spell. "
+				"Drains 120 &5Mana&r per weapon projected"
+			]
 			dependencies: ["64A2DF892DE9F6BE"]
 			id: "679BD9A0CB0B693A"
-			tasks: [{
-				id: "2463496FE800391B"
-				type: "item"
-				item: "mahoutsukai:treasury_projection_gauntlet"
-			}]
+			tasks: [
+				{
+					id: "2463496FE800391B"
+					type: "item"
+					item: "mahoutsukai:treasury_projection_gauntlet"
+				}
+				{
+					id: "24460CF4CFB9D25D"
+					type: "item"
+					item: {
+						id: "mahoutsukai:scroll_treasury_projection"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						}
+					}
+				}
+				{
+					id: "1D9874EB0E68D4E8"
+					type: "item"
+					item: "mahoutsukai:powdered_eye"
+				}
+				{
+					id: "74629906B55BD963"
+					type: "item"
+					item: "mahoutsukai:powdered_eye"
+					count: 2L
+				}
+			]
 			rewards: [{
 				id: "31532332A7304970"
 				type: "random"
@@ -593,7 +641,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -5.5d
 			y: 12.0d
 			subtitle: "Grim Reaper"
 			dependencies: ["7A67F23101B1EFA3"]
@@ -616,8 +664,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 12.0d
+			x: -3.0d
+			y: 14.0d
 			subtitle: "Stick it to Stick"
 			description: [
 				"Use the &9Strenghtening&r Spell on a stick and hold it in your off-hand. "
@@ -638,7 +686,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -4.0d
 			y: 8.0d
 			subtitle: "This is a lie"
 			description: ["Will increase your &5Mahou&r regen but will avoid Fays to spawn."]
@@ -773,7 +821,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -1.0d
 			y: 8.0d
 			description: ["Like caliburn just throw a lance in the &0&lpower consolidation lake"]
 			dependencies: ["64A2DF892DE9F6BE"]
@@ -815,8 +863,8 @@
 					}
 				}
 			}
-			x: -8.0d
-			y: 10.5d
+			x: -3.0d
+			y: 13.0d
 			subtitle: "Strong ! "
 			description: [
 				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
@@ -873,7 +921,7 @@
 					}
 				}
 			}
-			x: -6.5d
+			x: -5.5d
 			y: 10.5d
 			subtitle: "Weapon of Massive Destruction"
 			description: [
@@ -931,7 +979,7 @@
 					}
 				}
 			}
-			x: -3.5d
+			x: -6.5d
 			y: 10.5d
 			subtitle: "Spatial Creation"
 			description: [
@@ -980,13 +1028,16 @@
 			icon: {
 				id: "mahoutsukai:scroll_presence_concealment"
 				Count: 1b
+				tag: {
+					MAHOUTSUKAI_CASTER_NAME: ""
+				}
 				ForgeCaps: {
 					Parent: {
 						MAHOUTSUKAI_CASTER_NAME: ""
 					}
 				}
 			}
-			x: -5.0d
+			x: -4.5d
 			y: 10.5d
 			subtitle: "Ripping Theory"
 			description: [
@@ -1045,7 +1096,7 @@
 					}
 				}
 			}
-			x: -0.5d
+			x: -1.5d
 			y: 10.5d
 			subtitle: "Self Projection"
 			description: [
@@ -1100,7 +1151,7 @@
 					}
 				}
 			}
-			x: 1.0d
+			x: -0.5d
 			y: 10.5d
 			subtitle: "Here comes the boom"
 			description: [
@@ -1144,7 +1195,7 @@
 		}
 		{
 			title: "Power Consolidation Lake"
-			x: 2.5d
+			x: 0.5d
 			y: 10.5d
 			subtitle: "The Lake "
 			description: [
@@ -1175,52 +1226,49 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 10.5d
+			title: "Damage Absorption Spell"
+			icon: {
+				id: "mahoutsukai:scroll_damage_exchange"
+				Count: 1b
+				tag: {
+					MAHOUTSUKAI_CASTER_NAME: ""
+				}
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+				}
+			}
+			x: -3.0d
+			y: 11.0d
+			subtitle: "That doesn't hurt"
+			description: [
+				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				""
+				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				""
+				"Drains 40 &5Mana&r"
+			]
 			dependencies: ["64A2DF892DE9F6BE"]
-			id: "7486837A32FEDE6A"
+			id: "14A992A8B913434E"
 			tasks: [
 				{
-					id: "6AF76A4EE430F1ED"
+					id: "7FE741B89573354D"
 					type: "item"
-					item: {
-						id: "mahoutsukai:scroll_death_collection"
-						Count: 1b
-						tag: {
-							MAHOUTSUKAI_CASTER_NAME: ""
-						}
-						ForgeCaps: {
-							Parent: {
-								MAHOUTSUKAI_CASTER_NAME: ""
-							}
-						}
-					}
+					item: "mahoutsukai:powdered_iron"
 				}
 				{
-					id: "0774AD2118A8C36F"
+					id: "7097A51107BB0611"
 					type: "item"
-					item: {
-						id: "mahoutsukai:scroll_immunity_exchange"
-						Count: 1b
-						tag: {
-							MAHOUTSUKAI_CASTER_NAME: ""
-						}
-						ForgeCaps: {
-							Parent: {
-								MAHOUTSUKAI_CASTER_NAME: ""
-							}
-						}
-					}
+					item: "mahoutsukai:powdered_emerald"
+					count: 2L
 				}
 				{
-					id: "130819855236DF8C"
+					id: "0C452CF0992EF5F3"
 					type: "item"
 					item: {
 						id: "mahoutsukai:scroll_damage_exchange"
 						Count: 1b
-						tag: {
-							MAHOUTSUKAI_CASTER_NAME: ""
-						}
 						ForgeCaps: {
 							Parent: {
 								MAHOUTSUKAI_CASTER_NAME: ""
@@ -1229,6 +1277,127 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "004D97CD72A89C49"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Mystic Eyes of Death Collection Spell"
+			icon: {
+				id: "mahoutsukai:scroll_death_collection"
+				Count: 1b
+				tag: {
+					MAHOUTSUKAI_CASTER_NAME: ""
+				}
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+				}
+			}
+			x: -2.0d
+			y: 12.0d
+			subtitle: "Watch them die"
+			description: [
+				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				""
+				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				""
+				"Drains 400 &5Mana&r"
+			]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "3726E550FCEE90E0"
+			tasks: [
+				{
+					id: "49395F262AB510D9"
+					type: "item"
+					item: "mahoutsukai:powdered_eye"
+					count: 2L
+				}
+				{
+					id: "00FAE66B1B1CCE54"
+					type: "item"
+					item: "mahoutsukai:powdered_iron"
+				}
+				{
+					id: "2C27EC39F63DC45D"
+					type: "item"
+					item: {
+						id: "mahoutsukai:scroll_death_collection"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4C40297CB2136E10"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Immunity Exchange Spell"
+			icon: {
+				id: "mahoutsukai:scroll_immunity_exchange"
+				Count: 1b
+				tag: {
+					MAHOUTSUKAI_CASTER_NAME: ""
+				}
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+				}
+			}
+			x: -4.0d
+			y: 12.0d
+			subtitle: "Worth"
+			description: [
+				"In order to create that spell, you'll have to place a &9&nSpell Cloth&r on the ground. Once that's done, take the &3Dagger&r and right click with it."
+				""
+				"Draw a &5Mahoujin Circle&r on the &9Cloth&r and place the 3 needed ingredients listed above."
+				""
+				"Drains 400 &5Mana&r"
+			]
+			dependencies: ["64A2DF892DE9F6BE"]
+			id: "3D880CFD076B96AF"
+			tasks: [
+				{
+					id: "31C6DBDFAFA58B9B"
+					type: "item"
+					item: "mahoutsukai:powdered_eye"
+				}
+				{
+					id: "3837D2E9D9DAFD37"
+					type: "item"
+					item: "mahoutsukai:powdered_emerald"
+					count: 2L
+				}
+				{
+					id: "6D914B164C49306E"
+					type: "item"
+					item: {
+						id: "mahoutsukai:scroll_immunity_exchange"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5380C355C03A6881"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
 		}
 	]
 }

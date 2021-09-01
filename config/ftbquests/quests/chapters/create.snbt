@@ -842,8 +842,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 3.0d
+			x: 4.0d
+			y: 1.5d
 			description: [
 				"To capture the Blaze you need to right click with an empty blaze burner on a blaze"
 				"To make the burner work, you need to refill him with combustible"
@@ -863,8 +863,8 @@
 		}
 		{
 			title: "Super Heated"
-			x: 4.5d
-			y: 3.0d
+			x: 4.0d
+			y: 2.5d
 			description: [
 				"You will need to apply lava on a blaze cake base on a depot."
 				""
@@ -883,6 +883,180 @@
 				id: "09B8A13824BDDB7B"
 				type: "random"
 				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			description: [
+				"This item will allow you to harvest harvestable item"
+				"You can hold your assigned keyboard key to know how to use it"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7728E7D79AB10B5D"]
+			id: "14B5902BC0D1451C"
+			tasks: [{
+				id: "3AB3026D0087F9EB"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+			rewards: [{
+				id: "28096D8AAD25CF95"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.5d
+			description: [
+				"Thizs item can break breakable item or turning dirt in to farmland"
+				"You can hold your assigned keyboard key to know how to use it"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7728E7D79AB10B5D"]
+			id: "319C55BB7D299117"
+			tasks: [{
+				id: "229D186505180FB4"
+				type: "item"
+				item: "create:mechanical_plough"
+			}]
+			rewards: [{
+				id: "1772759E7C9F4748"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.5d
+			description: [
+				"This item will permit you to transfer item from 2 create auto structure"
+				"You can hold your assigned keyboard key to know how to use it"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7728E7D79AB10B5D"]
+			id: "6399EB73E3C77612"
+			tasks: [{
+				id: "65CA7F43643FC897"
+				type: "item"
+				item: "create:portable_storage_interface"
+				count: 2L
+			}]
+			rewards: [{
+				id: "6519CC934F2D8248"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			description: [
+				"This item will transport item from 2 point"
+				"You can hold your assigned keyboard key to know how to use it"
+			]
+			id: "41F89C18A3E14F1D"
+			tasks: [{
+				id: "51A433F86B1A1CCE"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "5032501D876BD4B2"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.0d
+			description: ["This item will charge item (with rf)"]
+			hide_dependency_lines: true
+			dependencies: ["3062EC7F5DD6F6C5"]
+			id: "137FA8A991848E78"
+			tasks: [{
+				id: "4A22CACBF3640C04"
+				type: "item"
+				item: "createaddition:charger"
+			}]
+			rewards: [{
+				id: "14CE4DDA401AB6EC"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.0d
+			description: [
+				"This item will break wood or hurt mob or player"
+				"You can hold your assigned keyboard key to know how to use it"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7728E7D79AB10B5D"]
+			id: "2FD0BB23AE8F8887"
+			tasks: [{
+				id: "60A63C2694EB0F15"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [{
+				id: "1D8A6E072DA050EF"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			description: [
+				"This item will break block"
+				"You can hold your assigned keyboard key to know how to use it"
+			]
+			hide_dependency_lines: true
+			id: "6C20519FDDDA2073"
+			tasks: [{
+				id: "17D6183755C9140C"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+			rewards: [{
+				id: "2FA9EC5A89FB7871"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			icon: "create:mechanical_bearing"
+			x: 8.0d
+			y: 6.5d
+			description: [
+				"This block will permit yuou to create some create structure, you will also need chassis to create good auto system"
+				"You can hold your assigned keyboard key to know how to use it"
+			]
+			id: "7728E7D79AB10B5D"
+			tasks: [
+				{
+					id: "719A900010D29121"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+				{
+					id: "3396D4E5E707AC1A"
+					type: "item"
+					item: "create:linear_chassis"
+				}
+				{
+					id: "6F84BF14C3170EB0"
+					type: "item"
+					item: "create:secondary_linear_chassis"
+				}
+			]
+			rewards: [{
+				id: "30D41E373CAED423"
+				type: "random"
+				table_id: 4063386593177790740L
 			}]
 		}
 	]
