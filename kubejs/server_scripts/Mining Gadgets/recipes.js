@@ -22,7 +22,7 @@ onEvent('recipes', event => {
   'MPP'
   ], {
     M: 'botania:mana_diamond',
-    P: 'powah:steel_energized',
+    P: 'tconstruct:rose_gold_ingot',
     S: 'silents_mechanisms:redstone_alloy_ingot',
     U: 'mininggadgets:upgrade_empty'
   })
@@ -32,13 +32,12 @@ onEvent('recipes', event => {
   event.shaped('mininggadgets:mininggadget_fancy', [
   'MPP',
   'MUS',
-  'MPR'
+  'MPP'
   ], {
     M: 'botania:mana_diamond',
     P: 'powah:steel_energized',
     S: 'silents_mechanisms:redstone_alloy_ingot',
-    U: 'mininggadgets:upgrade_empty',
-    R: 'tconstruct:rose_gold_ingot'
+    U: 'mininggadgets:upgrade_empty'
   })
 
   // Mining Gadget MK3
