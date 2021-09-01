@@ -36,7 +36,7 @@
 	capacity = 3200000
 	#The base energy used by the Controller
 	#Range: > 0
-	baseUsage = 64
+	baseUsage = 0
 	#The maximum energy that the Controller can receive
 	#Range: > 0
 	maxTransfer = 2147483647
