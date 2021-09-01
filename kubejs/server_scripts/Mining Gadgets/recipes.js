@@ -29,7 +29,7 @@ onEvent('recipes', event => {
 
   // Mining Gadget MK2
   event.remove({ output: 'mininggadgets:mininggadget_fancy' })
-  event.shaped('mininggadgets:mininggadget_simple', [
+  event.shaped('mininggadgets:mininggadget_fancy', [
   'MPP',
   'MUS',
   'MPR'
