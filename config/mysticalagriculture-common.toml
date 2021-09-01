@@ -14,7 +14,7 @@
 	#Range: 0.0 ~ 1.0
 	fertilizedEssenceChance = 0.1
 	#Should crops have a chance of dropping a second seed when harvested?
-	secondarySeedDrops = true
+	secondarySeedDrops = false
 	#Should the Wither drop essence when killed with an essence weapon?
 	witherDropsEssence = true
 	#Should the Ender Dragon drop essence when killed with an essence weapon?
@@ -69,4 +69,3 @@
 	inferiumBiomeWhitelist = []
 	#The list of biome IDs that Soulstone veins can spawn in.
 	soulstoneBiomeWhitelist = []
-
