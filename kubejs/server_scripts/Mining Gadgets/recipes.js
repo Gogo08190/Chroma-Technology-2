@@ -16,7 +16,7 @@ onEvent('recipes', event => {
 
 //Mining Gadget MK1
   event.remove({ output: 'mininggadgets:mininggadget_simple' })
-  event.shaped('mininggadgets:mininggadget_simple' [
+  event.shaped('mininggadgets:mininggadget_simple', [
   'MPP',
   'MUS',
   'MPP'
@@ -29,7 +29,7 @@ onEvent('recipes', event => {
 
   // Mining Gadget MK2
   event.remove({ output: 'mininggadgets:mininggadget_fancy' })
-  event.shaped('mininggadgets:mininggadget_simple' [
+  event.shaped('mininggadgets:mininggadget_simple', [
   'MPP',
   'MUS',
   'MPR'
@@ -43,7 +43,7 @@ onEvent('recipes', event => {
 
   // Mining Gadget MK3
   event.remove({ output: 'mininggadgets:mininggadget' })
-  event.shaped('mininggadgets:mininggadget' [
+  event.shaped('mininggadgets:mininggadget', [
   'MPF',
   'BUN',
   'MPF'
