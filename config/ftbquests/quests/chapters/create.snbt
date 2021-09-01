@@ -889,8 +889,8 @@
 			x: 5.0d
 			y: 3.5d
 			description: [
-				"This item will allow you to harvest harvestable item"
-				"You can hold your assigned keyboard key to know how to use it"
+				"This item will allow you to harvest harvestable item."
+				"You can hold your assigned keyboard key to know how to use it."
 			]
 			hide_dependency_lines: true
 			dependencies: ["7728E7D79AB10B5D"]
@@ -910,8 +910,8 @@
 			x: 6.5d
 			y: 3.5d
 			description: [
-				"Thizs item can break breakable item or turning dirt in to farmland"
-				"You can hold your assigned keyboard key to know how to use it"
+				"Thizs item can break breakable item or turning dirt in to farmland."
+				"You can hold your assigned keyboard key to know how to use it."
 			]
 			hide_dependency_lines: true
 			dependencies: ["7728E7D79AB10B5D"]
@@ -931,8 +931,8 @@
 			x: 8.0d
 			y: 3.5d
 			description: [
-				"This item will permit you to transfer item from 2 create auto structure"
-				"You can hold your assigned keyboard key to know how to use it"
+				"This item will permit you to transfer item from 2 create auto structure."
+				"You can hold your assigned keyboard key to know how to use it."
 			]
 			hide_dependency_lines: true
 			dependencies: ["7728E7D79AB10B5D"]
@@ -953,8 +953,8 @@
 			x: 5.0d
 			y: 5.0d
 			description: [
-				"This item will transport item from 2 point"
-				"You can hold your assigned keyboard key to know how to use it"
+				"This item will transport item from 2 points."
+				"You can hold your assigned keyboard key to know how to use it."
 			]
 			id: "41F89C18A3E14F1D"
 			tasks: [{
@@ -971,7 +971,7 @@
 		{
 			x: 8.0d
 			y: 5.0d
-			description: ["This item will charge item (with rf)"]
+			description: ["This item will charge item (with rf)."]
 			hide_dependency_lines: true
 			dependencies: ["3062EC7F5DD6F6C5"]
 			id: "137FA8A991848E78"
@@ -990,8 +990,8 @@
 			x: 6.5d
 			y: 5.0d
 			description: [
-				"This item will break wood or hurt mob or player"
-				"You can hold your assigned keyboard key to know how to use it"
+				"This item will break wood or hurt mob or player."
+				"You can hold your assigned keyboard key to know how to use it."
 			]
 			hide_dependency_lines: true
 			dependencies: ["7728E7D79AB10B5D"]
@@ -1011,8 +1011,8 @@
 			x: 5.0d
 			y: 6.5d
 			description: [
-				"This item will break block"
-				"You can hold your assigned keyboard key to know how to use it"
+				"This item will break block."
+				"You can hold your assigned keyboard key to know how to use it."
 			]
 			hide_dependency_lines: true
 			id: "6C20519FDDDA2073"
@@ -1032,8 +1032,8 @@
 			x: 8.0d
 			y: 6.5d
 			description: [
-				"This block will permit yuou to create some create structure, you will also need chassis to create good auto system"
-				"You can hold your assigned keyboard key to know how to use it"
+				"This block will permit yuou to create some create structure, you will also need chassis to create good auto system."
+				"You can hold your assigned keyboard key to know how to use it."
 			]
 			id: "7728E7D79AB10B5D"
 			tasks: [
