@@ -164,8 +164,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 2.0d
+			x: 6.5d
+			y: 3.5d
 			description: ["Makes some large crafts and autocrafts"]
 			hide_dependency_lines: true
 			dependencies: [
@@ -206,7 +206,7 @@
 		}
 		{
 			x: 8.0d
-			y: 0.5d
+			y: 2.0d
 			description: ["Allows you to transport items"]
 			hide_dependency_lines: true
 			dependencies: [
@@ -265,8 +265,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -0.5d
+			x: -4.5d
+			y: 5.0d
 			subtitle: "Paaanik"
 			description: [
 				"Every machine (except this one) generates speed."
@@ -291,8 +291,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -0.5d
+			x: -4.5d
+			y: 3.5d
 			subtitle: "Sonic"
 			description: ["With the goggles you can see how fast is your system."]
 			dependencies: ["116A67096288B9C4"]
@@ -310,7 +310,7 @@
 		}
 		{
 			x: -4.5d
-			y: 0.5d
+			y: 2.0d
 			subtitle: "Goggles Glass "
 			description: ["You can now see the SU of your items in your inventory or to see stats about whether the &nspeedometer&r or the &nstressomotor&r  "]
 			hide_dependency_lines: true
@@ -328,8 +328,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 0.5d
+			x: -5.5d
+			y: 1.0d
 			subtitle: "*Krr Krr Krr*"
 			description: ["This item will allow you to control some machines properties"]
 			hide_dependency_lines: true
@@ -347,8 +347,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -4.0d
+			x: -6.0d
+			y: -5.0d
 			id: "05D226CD9E9B6923"
 			tasks: [{
 				id: "4A90E72D008294C9"
@@ -362,8 +362,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -4.0d
+			x: -6.0d
+			y: -3.5d
 			shape: "circle"
 			description: [
 				"The most important item from &1&l&nCreate&r mod."
@@ -385,7 +385,7 @@
 		}
 		{
 			x: -6.0d
-			y: -4.0d
+			y: -2.5d
 			subtitle: "Wheels for fun"
 			description: ["Like the shaft, this small gear will grant you Kinetic Power and of course you're able to use it."]
 			dependencies: ["68C911E941D1D7AF"]
@@ -403,7 +403,7 @@
 		}
 		{
 			x: -6.0d
-			y: -2.5d
+			y: -1.0d
 			subtitle: "Larger but better"
 			description: [
 				"Like the &8CogWheel&r but better. "
@@ -424,7 +424,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -5.0d
 			y: -2.0d
 			description: ["This item will allow you to split the shaft and reduce how big is your system."]
 			dependencies: ["21A09830915B9206"]
@@ -442,7 +442,7 @@
 		}
 		{
 			x: -7.0d
-			y: -3.0d
+			y: -2.0d
 			description: ["You can now choose how fast goes your system."]
 			dependencies: ["21A09830915B9206"]
 			id: "1ACDB90B84C899BA"
@@ -458,7 +458,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -3.0d
 			y: -2.5d
 			subtitle: "Reigning Red"
 			description: ["Place a &lSandpaper&r in your off-hand and then take a &cRose Quartz&r in your main hand and press right click."]
@@ -479,8 +479,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -1.5d
+			x: -4.0d
+			y: -4.5d
 			id: "61CC654782143EAB"
 			tasks: [{
 				id: "60A8CC891BF81843"
@@ -500,8 +500,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -1.5d
+			x: -2.0d
+			y: -4.5d
 			id: "506C7BFA07D9FB25"
 			tasks: [{
 				id: "72B773ECF487CAE3"
@@ -516,7 +516,7 @@
 		}
 		{
 			x: -3.0d
-			y: -2.5d
+			y: -1.0d
 			dependencies: ["7782DA352B0A316E"]
 			id: "6F54D09F940C062C"
 			tasks: [{
@@ -531,8 +531,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 2.0d
+			x: 8.0d
+			y: 0.5d
 			description: [
 				"Enhanced version of the milstone but can double ore"
 				"You need to have the two of theme on a diferent rotation"
@@ -654,8 +654,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 0.5d
+			x: -3.5d
+			y: 1.0d
 			description: ["Allows you to reach a better distance and make a good knockback punch."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -681,8 +681,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 2.0d
+			x: -5.5d
+			y: 3.0d
 			subtitle: "I like symmetry"
 			description: [
 				"This item will help you to construct by setting up a zone."
@@ -720,7 +720,7 @@
 		}
 		{
 			x: 9.0d
-			y: 0.0d
+			y: 2.5d
 			description: ["Can import items with the mechanical belt"]
 			dependencies: ["7076C4339709478F"]
 			id: "46894D5DEEE24DC2"
@@ -737,7 +737,7 @@
 		}
 		{
 			x: 9.0d
-			y: 1.0d
+			y: 1.5d
 			description: ["Transports items by stacks"]
 			dependencies: ["46894D5DEEE24DC2"]
 			id: "7037172FF45E362E"
@@ -753,7 +753,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -3.0d
 			y: -5.5d
 			subtitle: "Smeltery "
 			description: ["This item can be turned in two different items by using different methods."]
@@ -776,7 +776,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -4.0d
 			y: -6.5d
 			subtitle: "Void Recipe"
 			description: ["Throw the &5Chromatic Compound&r into the void"]
@@ -794,7 +794,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -2.0d
 			y: -6.5d
 			subtitle: "Lightning Recipe"
 			description: [
@@ -817,8 +817,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 2.0d
+			x: -3.5d
+			y: 3.0d
 			subtitle: "Fwoomp !"
 			description: ["Lauch your home-grown vegetables at your Enemies. Can be powered with Air Pressure from a &dCopper Backtank&f."]
 			hide_dependency_lines: true
@@ -886,11 +886,11 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 3.5d
+			x: 0.5d
+			y: 6.0d
 			description: [
-				"This item will allow you to harvest harvestable item."
-				"You can hold your assigned keyboard key to know how to use it."
+				"This item will allow you to &4harvest&r harvestable item."
+				"&5You can hold your assigned keyboard key to know how to use it.&r"
 			]
 			hide_dependency_lines: true
 			dependencies: ["7728E7D79AB10B5D"]
@@ -907,11 +907,11 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 3.5d
+			x: 1.0d
+			y: 5.0d
 			description: [
-				"Thizs item can break breakable item or turning dirt in to farmland."
-				"You can hold your assigned keyboard key to know how to use it."
+				"This item can &4break breakable item&r or &4turning dirt in to farmland&r."
+				"&5You can hold your assigned keyboard key to know how to use it.&r"
 			]
 			hide_dependency_lines: true
 			dependencies: ["7728E7D79AB10B5D"]
@@ -928,11 +928,11 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 3.5d
+			x: 2.5d
+			y: 5.0d
 			description: [
-				"This item will permit you to transfer item from 2 create auto structure."
-				"You can hold your assigned keyboard key to know how to use it."
+				"This item will permit you to &4transfer item from 2 create auto structure&r."
+				"&5You can hold your assigned keyboard key to know how to use it.&r"
 			]
 			hide_dependency_lines: true
 			dependencies: ["7728E7D79AB10B5D"]
@@ -951,10 +951,10 @@
 		}
 		{
 			x: 5.0d
-			y: 5.0d
+			y: 3.5d
 			description: [
-				"This item will transport item from 2 points."
-				"You can hold your assigned keyboard key to know how to use it."
+				"This item will &4transport&r item from 2 points."
+				"&5You can hold your assigned keyboard key to know how to use it.&r"
 			]
 			id: "41F89C18A3E14F1D"
 			tasks: [{
@@ -970,8 +970,8 @@
 		}
 		{
 			x: 8.0d
-			y: 5.0d
-			description: ["This item will charge item (with rf)."]
+			y: 3.5d
+			description: ["This item will &4charge&r item (with rf)."]
 			hide_dependency_lines: true
 			dependencies: ["3062EC7F5DD6F6C5"]
 			id: "137FA8A991848E78"
@@ -987,11 +987,11 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: -0.5d
 			y: 5.0d
 			description: [
-				"This item will break wood or hurt mob or player."
-				"You can hold your assigned keyboard key to know how to use it."
+				"This item will &4cut wood&r or hurt mob or player."
+				"&5You can hold your assigned keyboard key to know how to use it.&r"
 			]
 			hide_dependency_lines: true
 			dependencies: ["7728E7D79AB10B5D"]
@@ -1008,11 +1008,11 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 6.5d
+			x: 1.5d
+			y: 6.0d
 			description: [
-				"This item will break block."
-				"You can hold your assigned keyboard key to know how to use it."
+				"This item will &4break&r block."
+				"&5You can hold your assigned keyboard key to know how to use it.&r"
 			]
 			hide_dependency_lines: true
 			id: "6C20519FDDDA2073"
@@ -1029,11 +1029,11 @@
 		}
 		{
 			icon: "create:mechanical_bearing"
-			x: 8.0d
-			y: 6.5d
+			x: 1.0d
+			y: 3.5d
 			description: [
-				"This block will permit yuou to create some create structure, you will also need chassis to create good auto system."
-				"You can hold your assigned keyboard key to know how to use it."
+				"This block allows you to make some create structure, you will also need &4chassis&r to create good auto system."
+				"&5You can hold your assigned keyboard key to know how to use it.&r"
 			]
 			id: "7728E7D79AB10B5D"
 			tasks: [
