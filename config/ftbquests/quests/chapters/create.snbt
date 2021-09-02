@@ -145,7 +145,7 @@
 		{
 			x: 5.0d
 			y: 0.5d
-			description: ["Make plates"]
+			description: ["Make plates."]
 			hide_dependency_lines: true
 			dependencies: [
 				"05D226CD9E9B6923"
@@ -166,7 +166,7 @@
 		{
 			x: 6.5d
 			y: 3.5d
-			description: ["Makes some large crafts and autocrafts"]
+			description: ["Makes some large crafts and autocrafts."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6F54D09F940C062C"
@@ -207,7 +207,7 @@
 		{
 			x: 8.0d
 			y: 2.0d
-			description: ["Allows you to transport items"]
+			description: ["Allows you to transport items."]
 			hide_dependency_lines: true
 			dependencies: [
 				"05D226CD9E9B6923"
@@ -228,7 +228,7 @@
 		{
 			x: 5.0d
 			y: 2.0d
-			description: ["Makes non-shaped crafts and other specific crafts"]
+			description: ["Makes non-shaped crafts and other specific crafts."]
 			hide_dependency_lines: true
 			dependencies: ["089B371ADFA9EB1D"]
 			id: "3F0EFCC65E319E48"
@@ -534,8 +534,8 @@
 			x: 8.0d
 			y: 0.5d
 			description: [
-				"Enhanced version of the milstone but can double ore"
-				"You need to have the two of theme on a diferent rotation"
+				"Enhanced version of the milstone but can double ore."
+				"You need to have the two of theme on a diferent rotation."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -638,7 +638,7 @@
 		{
 			x: 6.5d
 			y: 2.0d
-			description: ["Can make road"]
+			description: ["Can make rods."]
 			hide_dependency_lines: true
 			dependencies: ["089B371ADFA9EB1D"]
 			id: "60B8AC20AE5FBE7A"
@@ -721,7 +721,7 @@
 		{
 			x: 9.0d
 			y: 2.5d
-			description: ["Can import items with the mechanical belt"]
+			description: ["Can import items with the mechanical belt."]
 			dependencies: ["7076C4339709478F"]
 			id: "46894D5DEEE24DC2"
 			tasks: [{
@@ -738,7 +738,7 @@
 		{
 			x: 9.0d
 			y: 1.5d
-			description: ["Transports items by stacks"]
+			description: ["Transports items by stacks."]
 			dependencies: ["46894D5DEEE24DC2"]
 			id: "7037172FF45E362E"
 			tasks: [{
@@ -845,8 +845,8 @@
 			x: 4.0d
 			y: 1.5d
 			description: [
-				"To capture the Blaze you need to right click with an empty blaze burner on a blaze"
-				"To make the burner work, you need to refill him with combustible"
+				"To capture the Blaze you need to right click with an empty blaze burner on a blaze."
+				"To make the burner work, you need to refill him with combustible."
 			]
 			dependencies: ["3F0EFCC65E319E48"]
 			id: "6BADF77B8D43F95F"
@@ -890,7 +890,7 @@
 			y: 6.0d
 			description: [
 				"This item will allow you to &4harvest&r harvestable item."
-				"&5You can hold your assigned keyboard key to know how to use it.&r"
+				"&5You can hold your assigned keyboard key to know how to use it&r."
 			]
 			hide_dependency_lines: true
 			dependencies: ["7728E7D79AB10B5D"]
@@ -911,7 +911,7 @@
 			y: 5.0d
 			description: [
 				"This item can &4break breakable item&r or &4turning dirt in to farmland&r."
-				"&5You can hold your assigned keyboard key to know how to use it.&r"
+				"&5You can hold your assigned keyboard key to know how to use it&r."
 			]
 			hide_dependency_lines: true
 			dependencies: ["7728E7D79AB10B5D"]
@@ -928,11 +928,12 @@
 			}]
 		}
 		{
+			title: "Portable Storage Interface"
 			x: 2.5d
 			y: 5.0d
 			description: [
 				"This item will permit you to &4transfer item from 2 create auto structure&r."
-				"&5You can hold your assigned keyboard key to know how to use it.&r"
+				"&5You can hold your assigned keyboard key to know how to use it&r."
 			]
 			hide_dependency_lines: true
 			dependencies: ["7728E7D79AB10B5D"]
@@ -954,7 +955,7 @@
 			y: 3.5d
 			description: [
 				"This item will &4transport&r item from 2 points."
-				"&5You can hold your assigned keyboard key to know how to use it.&r"
+				"&5You can hold your assigned keyboard key to know how to use it&r."
 			]
 			id: "41F89C18A3E14F1D"
 			tasks: [{
@@ -991,7 +992,7 @@
 			y: 5.0d
 			description: [
 				"This item will &4cut wood&r or hurt mob or player."
-				"&5You can hold your assigned keyboard key to know how to use it.&r"
+				"&5You can hold your assigned keyboard key to know how to use it&r."
 			]
 			hide_dependency_lines: true
 			dependencies: ["7728E7D79AB10B5D"]
@@ -1028,12 +1029,13 @@
 			}]
 		}
 		{
+			title: "Chassis"
 			icon: "create:mechanical_bearing"
 			x: 1.0d
 			y: 3.5d
 			description: [
 				"This block allows you to make some create structure, you will also need &4chassis&r to create good auto system."
-				"&5You can hold your assigned keyboard key to know how to use it.&r"
+				"&5You can hold your assigned keyboard key to know how to use it&r."
 			]
 			id: "7728E7D79AB10B5D"
 			tasks: [

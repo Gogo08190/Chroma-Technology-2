@@ -70,7 +70,7 @@
 			x: 16.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["&bThe Thermo Generator &fis a &66FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&bThe Thermo Generator &fis a &6800FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "0C735A02F1B9234B"
 			tasks: [{
@@ -489,7 +489,7 @@
 			x: 10.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["&bThe Thermo Generator &fis a &66FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&bThe Thermo Generator &fis a &6200FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
 			dependencies: ["0D8119105447C49D"]
 			id: "4BE021261B73FC6E"
 			tasks: [{
@@ -757,7 +757,7 @@
 			x: 4.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["&bThe Thermo Generator &fis a &66FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&bThe Thermo Generator &fis a &690FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
 			dependencies: ["0B7E73D585F86047"]
 			id: "7B28138ACCC3798E"
 			tasks: [{
@@ -1080,7 +1080,7 @@
 			x: 7.0d
 			y: -4.0d
 			shape: "diamond"
-			description: ["&bThe Thermo Generator &fis a &66FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&bThe Thermo Generator &fis a &642FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "19B48C1ACCB70A25"
 			tasks: [{
@@ -1401,7 +1401,7 @@
 			x: 13.0d
 			y: -4.0d
 			shape: "diamond"
-			description: ["&bThe Thermo Generator &fis a &66FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&bThe Thermo Generator &fis a &618FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
 			dependencies: ["770CF5AB3E997837"]
 			id: "262D18C51054176B"
 			tasks: [{
@@ -1748,7 +1748,7 @@
 			x: 14.5d
 			y: -10.0d
 			shape: "diamond"
-			description: ["&bThe Thermo Generator &fis a &66FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&bThe Thermo Generator &fis a &63FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "2C2C120858F87BEE"
 			tasks: [{
@@ -2053,7 +2053,7 @@
 			x: 5.5d
 			y: -10.0d
 			shape: "diamond"
-			description: ["&bThe Thermo Generator &fis a &66FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["&bThe Thermo Generator &fis a &68FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
 			dependencies: ["24D6425171F874D0"]
 			id: "595A92180145FC7A"
 			tasks: [{
