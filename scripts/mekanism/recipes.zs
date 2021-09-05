@@ -8,8 +8,3 @@ mods.extendedcrafting.TableCrafting.addShaped("digital_miner", <item:mekanism:di
 	[<item:mekanism:ultimate_control_circuit>, <item:mekanism:teleportation_core>, <item:mekanism:alloy_atomic>, <item:mekanism:teleportation_core>, <item:mekanism:ultimate_control_circuit>],
 	[<item:mekanism:steel_casing>, <item:mekanism:alloy_atomic>, <item:mekanism:ultimate_induction_cell>, <item:mekanism:alloy_atomic>, <item:mekanism:steel_casing>]
 ]);
-
-// Enrichement Chamber
-mods.mekanism.enrichment.removeRecipe(IIngredient inputStack, @Optional IIngredient outputStack);
-mods.mekanism.enrichment.removeRecipe(<appliedenergistics2:quartz_ore>);
-mods.mekanism.enrichment.removeRecipe(<joapca:mekanism.ore_to_material.certus_quartz:4>);
