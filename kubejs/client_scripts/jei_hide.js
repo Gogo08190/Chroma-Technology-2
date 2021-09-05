@@ -311,6 +311,9 @@ events.listen('jei.hide.items', function (event) {
 
   // Better End
   event.hide('betterendforge:pearlberry_seed')
+
+  // Mekanism
+  event.hide ('joapca:mekanism.ore_to_material.certus_quatrz')
 })
 
 onEvent('jei.hide.items', event => {
