@@ -95,8 +95,8 @@
 [wireless]
 	wirelessBaseCost = 8.0
 	wirelessCostMultiplier = 1.0
-	wirelessBaseRange = 16.0
-	wirelessBoosterRangeMultiplier = 1.0
+	wirelessBaseRange = 256.0
+	wirelessBoosterRangeMultiplier = 2.0
 	wirelessBoosterExp = 1.5
 	wirelessHighWirelessCount = 64.0
 	wirelessTerminalDrainMultiplier = 1.0
@@ -154,4 +154,3 @@
 	#The speed multiplier to use when the crystals are submerged in the improved fluid.
 	#Range: 1.0 ~ 10.0
 	improvedFluidMultiplier = 2.0
-
