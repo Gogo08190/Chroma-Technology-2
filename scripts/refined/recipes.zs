@@ -55,7 +55,7 @@ mods.extendedcrafting.TableCrafting.addShaped("netherite_crafter",<item:extrasto
 	[<item:refinedstorage:crafter>, <item:refinedstorage:crafter>, <item:refinedstorage:crafter>, <item:refinedstorage:crafter>, <item:minecraft:netherite_block>, <item:refinedstorage:crafter>, <item:refinedstorage:crafter>, <item:refinedstorage:crafter>, <item:refinedstorage:crafter>]
 ]);
 
-// infinite storage disk
+// Infinite storage disk
 
 craftingTable.removeRecipe(<item:extradisks:infinite_storage_part>);
 
@@ -71,21 +71,11 @@ mods.extendedcrafting.TableCrafting.addShaped("infinite_storage_part", 0, <item:
 	[<item:minecraft:air>, <item:minecraft:air>, <item:kubejs:chroma_ingot>, <item:kubejs:chroma_ingot>, <item:extradisks:1048576k_storage_part>, <item:kubejs:chroma_ingot>, <item:kubejs:chroma_ingot>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 
-//infinite flui storage part
+//Infinite fluid storage part
 
 craftingTable.removeRecipe(<item:extradisks:infinite_fluid_storage_part>);
 
 mods.extendedcrafting.TableCrafting.addShaped("infinite_fluid_storage_part", 0, mods.extendedcrafting.TableCrafting.addShaped("77ead649-8131-4395-9f52-8a0a18fa9338", 0, <>, [
-	[<item:minecraft:air>, <item:minecraft:air>, <item:kubejs:chroma_ingot>, <item:kubejs:chroma_ingot>, <item:extrastorage:storagepart_1048576k_fluid>, <item:kubejs:chroma_ingot>, <item:kubejs:chroma_ingot>, <item:minecraft:air>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:kubejs:chroma_ingot>, <item:extrastorage:storagepart_65536k_fluid>, <item:extrastorage:storagepart_16384k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_16384k_fluid>, <item:extrastorage:storagepart_65536k_fluid>, <item:kubejs:chroma_ingot>, <item:minecraft:air>], 
-	[<item:kubejs:chroma_ingot>, <item:extrastorage:storagepart_65536k_fluid>, <item:extrastorage:storagepart_16384k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_16384k_fluid>, <item:extrastorage:storagepart_65536k_fluid>, <item:kubejs:chroma_ingot>], 
-	[<item:kubejs:chroma_ingot>, <item:extrastorage:storagepart_16384k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>, <item:kubejs:assembled_technical_ingot>, <item:extrastorage:storagepart_262144k_fluid>, <item:kubejs:assembled_technical_ingot>, <item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_16384k_fluid>, <item:kubejs:chroma_ingot>], 
-	[<item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_262144k_fluid>, <item:extradisks:1048576k_storage_block>, <item:extrastorage:storagepart_262144k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>], 
-	[<item:kubejs:chroma_ingot>, <item:extrastorage:storagepart_16384k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>, <item:kubejs:assembled_technical_ingot>, <item:extrastorage:storagepart_262144k_fluid>, <item:kubejs:assembled_technical_ingot>, <item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_16384k_fluid>, <item:kubejs:chroma_ingot>], 
-	[<item:kubejs:chroma_ingot>, <item:extrastorage:storagepart_65536k_fluid>, <item:extrastorage:storagepart_16384k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_16384k_fluid>, <item:extrastorage:storagepart_65536k_fluid>, <item:kubejs:chroma_ingot>], 
-	[<item:minecraft:air>, <item:kubejs:chroma_ingot>, <item:extrastorage:storagepart_65536k_fluid>, <item:extrastorage:storagepart_16384k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_16384k_fluid>, <item:extrastorage:storagepart_65536k_fluid>, <item:kubejs:chroma_ingot>, <item:minecraft:air>], 
-	[<item:minecraft:air>, <item:minecraft:air>, <item:kubejs:chroma_ingot>, <item:kubejs:chroma_ingot>, <item:extrastorage:storagepart_1048576k_fluid>, <item:kubejs:chroma_ingot>, <item:kubejs:chroma_ingot>, <item:minecraft:air>, <item:minecraft:air>]
-]);, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:kubejs:chroma_ingot>, <item:kubejs:chroma_ingot>, <item:extrastorage:storagepart_1048576k_fluid>, <item:kubejs:chroma_ingot>, <item:kubejs:chroma_ingot>, <item:minecraft:air>, <item:minecraft:air>], 
 	[<item:minecraft:air>, <item:kubejs:chroma_ingot>, <item:extrastorage:storagepart_65536k_fluid>, <item:extrastorage:storagepart_16384k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_16384k_fluid>, <item:extrastorage:storagepart_65536k_fluid>, <item:kubejs:chroma_ingot>, <item:minecraft:air>], 
 	[<item:kubejs:chroma_ingot>, <item:extrastorage:storagepart_65536k_fluid>, <item:extrastorage:storagepart_16384k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_1048576k_fluid>, <item:extrastorage:storagepart_16384k_fluid>, <item:extrastorage:storagepart_65536k_fluid>, <item:kubejs:chroma_ingot>], 
