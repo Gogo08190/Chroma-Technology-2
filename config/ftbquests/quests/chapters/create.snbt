@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 5.0d
-			y: -4.0d
+			x: 0.0d
+			y: -0.5d
 			description: ["Generates &lSU&r with &bWater&r"]
 			hide_dependency_lines: true
 			dependencies: ["68C911E941D1D7AF"]
@@ -27,8 +27,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -4.0d
+			x: 1.5d
+			y: -2.5d
 			description: ["Generate Su with the power of your hand"]
 			hide_dependency_lines: true
 			dependencies: ["68C911E941D1D7AF"]
@@ -45,8 +45,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -4.0d
+			x: 3.0d
+			y: -0.5d
 			description: [
 				"Generates speed with heat."
 				"Place a heat source on a block below and add a lever on it."
@@ -71,8 +71,8 @@
 		}
 		{
 			icon: "create:flywheel"
-			x: 5.0d
-			y: -2.5d
+			x: 0.0d
+			y: -1.5d
 			description: [
 				"Connect two items to a blast furnace."
 				"Make the blast furnace work and then will generate speed."
@@ -100,8 +100,8 @@
 		}
 		{
 			icon: "create:windmill_bearing"
-			x: 8.0d
-			y: -2.5d
+			x: 3.0d
+			y: -1.5d
 			description: [
 				"The windmill bearing Generate Su but he need wind power"
 				"Place a radial chassis on the sticky part"
@@ -143,20 +143,32 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 0.5d
-			description: ["Make plates."]
+			icon: "create:mechanical_press"
+			x: 0.0d
+			y: 1.0d
+			description: [
+				"This item will allow you to make &eplate&r."
+				"The item can be placed on the &aflour&r to be &eplated&r or on a suport like a &8belt&r or a &8depot&r."
+				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"05D226CD9E9B6923"
 				"6C864C7B3A8483E2"
 			]
 			id: "089B371ADFA9EB1D"
-			tasks: [{
-				id: "222E9336C9AF9BA3"
-				type: "item"
-				item: "create:mechanical_press"
-			}]
+			tasks: [
+				{
+					id: "222E9336C9AF9BA3"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "7DEDADA7B3ED3506"
+					type: "item"
+					item: "create:depot"
+				}
+			]
 			rewards: [{
 				id: "0C07A0B5D69D4964"
 				type: "random"
@@ -164,20 +176,33 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 3.5d
-			description: ["Makes some large crafts and autocrafts."]
+			icon: "create:mechanical_crafter"
+			x: 5.5d
+			y: -10.0d
+			description: [
+				"With this item you will be allow to make some new &6larger craft&r."
+				"But it's also allow you to &4auto craft&r."
+				"The &6crafter slot cover&r will allow you to use the &4mechanical crafter&r without using all the slot, you will just need to apply it on the &8non used slot&r."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"6F54D09F940C062C"
 				"089B371ADFA9EB1D"
+				"2CCC9D567D823DD4"
 			]
 			id: "3062EC7F5DD6F6C5"
-			tasks: [{
-				id: "7D4B34316B77CB10"
-				type: "item"
-				item: "create:mechanical_crafter"
-			}]
+			tasks: [
+				{
+					id: "7D4B34316B77CB10"
+					type: "item"
+					item: "create:mechanical_crafter"
+				}
+				{
+					id: "5D14B7D67280560C"
+					type: "item"
+					item: "create:crafter_slot_cover"
+				}
+			]
 			rewards: [{
 				id: "3EEBADCD08750A68"
 				type: "random"
@@ -185,11 +210,14 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.0d
+			x: 1.5d
+			y: -4.5d
 			shape: "gear"
 			hide_dependency_lines: true
-			dependencies: ["3062EC7F5DD6F6C5"]
+			dependencies: [
+				"3062EC7F5DD6F6C5"
+				"72DAAAC24AA2FCFF"
+			]
 			size: 3.0d
 			id: "66FD49F775513DE9"
 			tasks: [{
@@ -205,9 +233,14 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 3.0d
 			y: 2.0d
-			description: ["Allows you to transport items."]
+			description: [
+				"Allows you to transport items."
+				"To use it you will need to right click on one &8shaft&r and right click on the second &8shaft&r. "
+				"&aThe flow direction&r is decided by the rotation of the connected &8shaft&r."
+				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"05D226CD9E9B6923"
@@ -226,17 +259,29 @@
 			}]
 		}
 		{
-			x: 5.0d
+			icon: "create:mechanical_mixer"
+			x: 0.0d
 			y: 2.0d
-			description: ["Makes non-shaped crafts and other specific crafts."]
+			description: [
+				"This item will allow you to make some &anew craft&r but, it will permit you to make &anon shaped craft&r like : a &6colored bed&r."
+				"but you will need a second thing to make craft the &8bassin&r, he is just here to permit you to make &acraft&r by &aputting item&r on the &8basin&r."
+				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
+			]
 			hide_dependency_lines: true
 			dependencies: ["089B371ADFA9EB1D"]
 			id: "3F0EFCC65E319E48"
-			tasks: [{
-				id: "4C145A0A01808593"
-				type: "item"
-				item: "create:mechanical_mixer"
-			}]
+			tasks: [
+				{
+					id: "4C145A0A01808593"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "05C6D0D11C67D263"
+					type: "item"
+					item: "create:basin"
+				}
+			]
 			rewards: [{
 				id: "14A07BC696853FAC"
 				type: "random"
@@ -244,9 +289,13 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 0.5d
-			description: ["Turns gems into dust"]
+			x: 1.5d
+			y: 1.0d
+			description: [
+				"This item will allow you to make some &anew recipe&r, but she also allow you to &8mill&r some item."
+				"The &aitem&r are insert by the &atop&r."
+				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"05D226CD9E9B6923"
@@ -265,8 +314,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 5.0d
+			x: -4.0d
+			y: -7.0d
 			subtitle: "Paaanik"
 			description: [
 				"Every machine (except this one) generates speed."
@@ -291,8 +340,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 3.5d
+			x: -4.0d
+			y: -8.5d
 			subtitle: "Sonic"
 			description: ["With the goggles you can see how fast is your system."]
 			dependencies: ["116A67096288B9C4"]
@@ -309,8 +358,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 2.0d
+			x: -4.0d
+			y: -10.5d
 			subtitle: "Goggles Glass "
 			description: ["You can now see the SU of your items in your inventory or to see stats about whether the &nspeedometer&r or the &nstressomotor&r  "]
 			hide_dependency_lines: true
@@ -328,8 +377,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 1.0d
+			x: -5.0d
+			y: -11.5d
 			subtitle: "*Krr Krr Krr*"
 			description: ["This item will allow you to control some machines properties"]
 			hide_dependency_lines: true
@@ -347,8 +396,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -5.0d
+			x: 2.0d
+			y: -11.5d
 			id: "05D226CD9E9B6923"
 			tasks: [{
 				id: "4A90E72D008294C9"
@@ -362,15 +411,16 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -3.5d
+			x: 0.0d
+			y: -12.5d
 			shape: "circle"
 			description: [
 				"The most important item from &1&l&nCreate&r mod."
 				""
 				"This item will allow you to use the kinetic power and to transport items."
 			]
-			dependencies: ["05D226CD9E9B6923"]
+			hide_dependency_lines: true
+			dependencies: ["486A5DD23496E2F4"]
 			id: "68C911E941D1D7AF"
 			tasks: [{
 				id: "4E1BD8FA0CFA2DE1"
@@ -384,8 +434,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -2.5d
+			x: 0.0d
+			y: -14.0d
 			subtitle: "Wheels for fun"
 			description: ["Like the shaft, this small gear will grant you Kinetic Power and of course you're able to use it."]
 			dependencies: ["68C911E941D1D7AF"]
@@ -402,8 +452,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -1.0d
+			x: 3.0d
+			y: -14.0d
 			subtitle: "Larger but better"
 			description: [
 				"Like the &8CogWheel&r but better. "
@@ -424,8 +474,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -2.0d
+			x: 3.0d
+			y: -12.5d
 			description: ["This item will allow you to split the shaft and reduce how big is your system."]
 			dependencies: ["21A09830915B9206"]
 			id: "70108F5B41B0BB63"
@@ -441,10 +491,14 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -2.0d
+			x: 5.5d
+			y: -7.0d
 			description: ["You can now choose how fast goes your system."]
-			dependencies: ["21A09830915B9206"]
+			hide_dependency_lines: true
+			dependencies: [
+				"2CCC9D567D823DD4"
+				"3103DCAF912B2BFB"
+			]
 			id: "1ACDB90B84C899BA"
 			tasks: [{
 				id: "762A661A5A22173C"
@@ -458,8 +512,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -2.5d
+			x: 1.5d
+			y: -9.0d
 			subtitle: "Reigning Red"
 			description: ["Place a &lSandpaper&r in your off-hand and then take a &cRose Quartz&r in your main hand and press right click."]
 			dependencies: [
@@ -479,8 +533,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -4.5d
+			x: 0.5d
+			y: -7.5d
 			id: "61CC654782143EAB"
 			tasks: [{
 				id: "60A8CC891BF81843"
@@ -500,8 +554,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -4.5d
+			x: 2.5d
+			y: -7.5d
 			id: "506C7BFA07D9FB25"
 			tasks: [{
 				id: "72B773ECF487CAE3"
@@ -515,8 +569,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -1.0d
+			x: 1.5d
+			y: -10.5d
 			dependencies: ["7782DA352B0A316E"]
 			id: "6F54D09F940C062C"
 			tasks: [{
@@ -531,17 +585,15 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 0.5d
+			x: 3.0d
+			y: 1.0d
 			description: [
-				"Enhanced version of the milstone but can double ore."
-				"You need to have the two of theme on a diferent rotation."
+				"This item will &4crush&r other item, if something didn't have a recipe, he will be &4destroyed&r."
+				"You need to have the two of theme on a &adiferent rotation&r."
+				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
 			]
 			hide_dependency_lines: true
-			dependencies: [
-				"3062EC7F5DD6F6C5"
-				"2B0DA4B12759BEC4"
-			]
+			dependencies: ["3062EC7F5DD6F6C5"]
 			id: "2EAAD0F72FB9B14D"
 			tasks: [{
 				id: "1D65DD1FEFB3FB43"
@@ -556,8 +608,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -5.0d
+			x: 1.5d
+			y: -15.5d
 			subtitle: "CUCKOO"
 			description: ["CUCKOO CUCKOO CUCKOO"]
 			hide_dependency_lines: true
@@ -575,8 +627,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -2.5d
+			x: 1.5d
+			y: -1.5d
 			subtitle: "Manual Wheel"
 			description: ["Generates &nSU&r by right clicking on it"]
 			hide_dependency_lines: true
@@ -594,8 +646,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -5.5d
+			x: -1.0d
+			y: 0.0d
 			description: ["Will generate speed with FE"]
 			hide_dependency_lines: true
 			dependencies: [
@@ -615,8 +667,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -5.5d
+			x: 4.0d
+			y: 0.0d
 			description: ["Will generate FE with speed"]
 			hide_dependency_lines: true
 			dependencies: [
@@ -636,9 +688,13 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 1.5d
 			y: 2.0d
-			description: ["Can make rods."]
+			description: [
+				"This item will allow you to make &6rods&r but also to make &6wires&r."
+				"you can insert the item just by &aright clicking&r or &aimport&r item with an &8mechanical belt&r."
+				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
+			]
 			hide_dependency_lines: true
 			dependencies: ["089B371ADFA9EB1D"]
 			id: "60B8AC20AE5FBE7A"
@@ -654,8 +710,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 1.0d
+			x: -3.0d
+			y: -11.5d
 			description: ["Allows you to reach a better distance and make a good knockback punch."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -681,8 +737,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 3.0d
+			x: -5.0d
+			y: -9.5d
 			subtitle: "I like symmetry"
 			description: [
 				"This item will help you to construct by setting up a zone."
@@ -719,9 +775,13 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 4.0d
 			y: 2.5d
-			description: ["Can import items with the mechanical belt."]
+			description: [
+				"This item will permit you to &aextrat&r or &ainsert&r item from a chest or something else with an &2inventory&r."
+				"But this one will only &aextract&r or &ainsert&r one item  by one item."
+				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
+			]
 			dependencies: ["7076C4339709478F"]
 			id: "46894D5DEEE24DC2"
 			tasks: [{
@@ -736,10 +796,18 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 4.0d
 			y: 1.5d
-			description: ["Transports items by stacks."]
-			dependencies: ["46894D5DEEE24DC2"]
+			description: [
+				"This item is the improved version of the &8Andesite Funel&r."
+				"This one will &aextract&r or &ainsert&r item per stack but also will allow you tu used &6filter&r."
+				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"46894D5DEEE24DC2"
+				"2CCC9D567D823DD4"
+			]
 			id: "7037172FF45E362E"
 			tasks: [{
 				id: "0DAF8DA27DCF92CB"
@@ -753,12 +821,15 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -5.5d
+			x: 1.5d
+			y: -12.5d
 			subtitle: "Smeltery "
 			description: ["This item can be turned in two different items by using different methods."]
 			hide_dependency_lines: true
-			dependencies: ["3F0EFCC65E319E48"]
+			dependencies: [
+				"3F0EFCC65E319E48"
+				"356BA5B9FDB12DE1"
+			]
 			id: "2A1C5492170436E8"
 			tasks: [{
 				id: "169FF6603D7C5F4B"
@@ -776,8 +847,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -6.5d
+			x: 0.0d
+			y: -11.0d
 			subtitle: "Void Recipe"
 			description: ["Throw the &5Chromatic Compound&r into the void"]
 			dependencies: ["2A1C5492170436E8"]
@@ -794,8 +865,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -6.5d
+			x: 3.0d
+			y: -11.0d
 			subtitle: "Lightning Recipe"
 			description: [
 				"Place a &6Glowstone Block&r near the &5Chromatic Compound&r."
@@ -817,8 +888,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 3.0d
+			x: -3.0d
+			y: -9.5d
 			subtitle: "Fwoomp !"
 			description: ["Lauch your home-grown vegetables at your Enemies. Can be powered with Air Pressure from a &dCopper Backtank&f."]
 			hide_dependency_lines: true
@@ -842,11 +913,11 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: -1.0d
 			y: 1.5d
 			description: [
-				"To capture the Blaze you need to right click with an empty blaze burner on a blaze."
-				"To make the burner work, you need to refill him with combustible."
+				"To capture the Blaze you need to &aright click&r with an&8 empty blaze burner&r on a &eblaze&r."
+				"To make the &eburner&r work, you need to &arefill&r him with &2combustible&r."
 			]
 			dependencies: ["3F0EFCC65E319E48"]
 			id: "6BADF77B8D43F95F"
@@ -863,14 +934,14 @@
 		}
 		{
 			title: "Super Heated"
-			x: 4.0d
+			x: -1.0d
 			y: 2.5d
 			description: [
-				"You will need to apply lava on a blaze cake base on a depot."
+				"You will need to apply &6lava&r on a &4blaze cake base&r on a &1depot&r."
 				""
-				"For this you will need a spout connect with fluid pipe, for moving the fluid in the pipe you will need a mechanical pump connect to a tank."
+				"For this you will need a &4spout&r connect with &4fluid pipe&r, for moving the fluid in the &4pipe&r you will need a &4mechanical pump&r connect to a tank."
 				""
-				"You cannot input lava manually so you will need to extract lava with a hose pulley."
+				"You cannot input lava manually so you will need to extract lava with a &4hose pulley&r."
 			]
 			dependencies: ["6BADF77B8D43F95F"]
 			id: "356BA5B9FDB12DE1"
@@ -886,8 +957,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 6.0d
+			x: 1.0d
+			y: 3.0d
 			description: [
 				"This item will allow you to &4harvest&r harvestable item."
 				"&5You can hold your assigned keyboard key to know how to use it&r."
@@ -907,8 +978,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 5.0d
+			x: 1.5d
+			y: 4.0d
 			description: [
 				"This item can &4break breakable item&r or &4turning dirt in to farmland&r."
 				"&5You can hold your assigned keyboard key to know how to use it&r."
@@ -929,8 +1000,8 @@
 		}
 		{
 			title: "Portable Storage Interface"
-			x: 2.5d
-			y: 5.0d
+			x: 3.0d
+			y: 4.0d
 			description: [
 				"This item will permit you to &4transfer item from 2 create auto structure&r."
 				"&5You can hold your assigned keyboard key to know how to use it&r."
@@ -951,11 +1022,16 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 3.5d
+			x: 7.5d
+			y: -7.0d
 			description: [
 				"This item will &4transport&r item from 2 points."
 				"&5You can hold your assigned keyboard key to know how to use it&r."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"2CCC9D567D823DD4"
+				"3103DCAF912B2BFB"
 			]
 			id: "41F89C18A3E14F1D"
 			tasks: [{
@@ -970,11 +1046,14 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 3.5d
+			x: 7.5d
+			y: -10.0d
 			description: ["This item will &4charge&r item (with rf)."]
 			hide_dependency_lines: true
-			dependencies: ["3062EC7F5DD6F6C5"]
+			dependencies: [
+				"3062EC7F5DD6F6C5"
+				"2CCC9D567D823DD4"
+			]
 			id: "137FA8A991848E78"
 			tasks: [{
 				id: "4A22CACBF3640C04"
@@ -988,8 +1067,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 5.0d
+			x: 0.0d
+			y: 4.0d
 			description: [
 				"This item will &4cut wood&r or hurt mob or player."
 				"&5You can hold your assigned keyboard key to know how to use it&r."
@@ -1009,8 +1088,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 6.0d
+			x: 2.0d
+			y: 3.0d
 			description: [
 				"This item will &4break&r block."
 				"&5You can hold your assigned keyboard key to know how to use it.&r"
@@ -1031,8 +1110,8 @@
 		{
 			title: "Chassis"
 			icon: "create:mechanical_bearing"
-			x: 1.0d
-			y: 3.5d
+			x: 1.5d
+			y: 5.5d
 			description: [
 				"This block allows you to make some create structure, you will also need &4chassis&r to create good auto system."
 				"&5You can hold your assigned keyboard key to know how to use it&r."
@@ -1057,6 +1136,84 @@
 			]
 			rewards: [{
 				id: "30D41E373CAED423"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -11.5d
+			dependencies: ["05D226CD9E9B6923"]
+			id: "486A5DD23496E2F4"
+			tasks: [{
+				id: "26D461358CFC4956"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -8.0d
+			description: [
+				"You will need &63 deployer&r to make this &acraft&r."
+				"It'ch one have to be equipped with one of all the &a3 ressources&r :"
+				"&7Cogwheel x5&r"
+				"&7Large cogwheel x5&r"
+				"&7Iron nuggets x5&r"
+				"This &a3 ressources&r had to be applied on an &egold plate&r, you have to applied this one by on and retry &athe process fith time&r, and you will have &a80%&r chance to have the &6precision mechanism&r."
+				"&5If you want more information about this you can check the Jei recipe&r."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2CCC9D567D823DD4"]
+			id: "3103DCAF912B2BFB"
+			tasks: [{
+				id: "30D77119CFF24DDF"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+			rewards: [{
+				id: "3DE1F1971BF95859"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -9.0d
+			description: [
+				"The &6deployer&r is lika an &aautomatic user&r, you can give a tool to him to make him &ado your work&r. "
+				"It will also be required for the craft of the &6precision mechanism&r."
+				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
+			]
+			id: "243744CD1A864E59"
+			tasks: [{
+				id: "052096B3AB3A6EDB"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "17ECF5A62EBB78C1"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -11.0d
+			description: ["This ingot will unlock for you the second part of &6create&r, he will be make by puting &7zinc&r and &4coper&r in a &esuper heated mixer&r."]
+			hide_dependency_lines: true
+			dependencies: [
+				"21A09830915B9206"
+				"6BADF77B8D43F95F"
+			]
+			id: "2CCC9D567D823DD4"
+			tasks: [{
+				id: "4CDD048056E76723"
+				type: "item"
+				item: "silents_mechanisms:brass_ingot"
+			}]
+			rewards: [{
+				id: "74CE36A19D409439"
 				type: "random"
 				table_id: 4063386593177790740L
 			}]

@@ -2067,5 +2067,59 @@
 				}
 			]
 		}
+		{
+			x: -10.5d
+			y: -9.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["4A5A2B7DE466A2F8"]
+			id: "0CDAFB80B477DBAE"
+			tasks: [{
+				id: "6F852636489B7118"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_comb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:destabilized_redstone"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "09D23FAE7807936F"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 3
+			}]
+		}
+		{
+			x: -12.5d
+			y: -7.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["4A5A2B7DE466A2F8"]
+			id: "7790B9935DB26E1F"
+			tasks: [{
+				id: "0D783D86F235CDA2"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_comb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:energized_glowstone"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E8E4AD067D43762"
+				type: "item"
+				item: "minecraft:glowstone"
+				count: 5
+			}]
+		}
 	]
 }

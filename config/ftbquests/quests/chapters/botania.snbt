@@ -1057,6 +1057,8 @@
 					id: "24DDA67F6EE3EA7D"
 					type: "item"
 					item: "botania:alfheim_portal"
+					consume_items: false
+					only_from_crafting: false
 				}
 				{
 					id: "01A5F8955C65D17F"
