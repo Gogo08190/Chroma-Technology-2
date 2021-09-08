@@ -234,7 +234,11 @@
 			x: -1.0d
 			y: 1.0d
 			description: ["Can contain mana"]
-			dependencies: ["5776690626AB11D3"]
+			dependencies: [
+				"5776690626AB11D3"
+				"4AE130BFB7428AC2"
+				"6B7C53F53B9A00B9"
+			]
 			id: "17AEDD9B9E249661"
 			tasks: [{
 				id: "6E5DD3B8EA750031"
@@ -251,8 +255,8 @@
 			x: -3.0d
 			y: 1.5d
 			description: [
-				"The mana condenser will create mana from growing things like crops or animals"
-				"Warning you can not put 2 in the same range (9x9)"
+				"&eThe mana condenser&r will &dcreate mana&r from &agrowing things like crops or tree&r."
+				"&4Warning you can not put 2 in the same range (9x9)&r."
 			]
 			dependencies: ["17AEDD9B9E249661"]
 			id: "2C674E27EA9091AC"
@@ -270,7 +274,7 @@
 		{
 			x: -1.5d
 			y: 3.0d
-			description: ["Will create mana from lava  (don't have a limit )"]
+			description: ["&eThe volcanic sourcelink&r will &dgenerate mana&r like an &6endoflame&r, you will need to throw &4burning thing&r nearby &ethe volcanic sourcelink&r &4(archwood have bonus mana)&r."]
 			dependencies: ["17AEDD9B9E249661"]
 			id: "40FF29FF508397B4"
 			tasks: [{
@@ -1316,6 +1320,94 @@
 					table_id: 4968239402355922629L
 				}
 			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			description: [
+				"This item will &dgenerate mana&r when  nearby &aanimal  are breed&r or when &0nearby mob died&r."
+				"It also generate &dpassive mana&r from nearby &ababy animal&r."
+			]
+			id: "4AE130BFB7428AC2"
+			tasks: [{
+				id: "4CE6BD23DE44CAB9"
+				type: "item"
+				item: "ars_nouveau:vitalic_sourcelink"
+			}]
+			rewards: [{
+				id: "2E125926D672504F"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			description: [
+				"This item will &dgenerate mana&r from &2nearby food&r, &dmana food&r are &emore efficiant than other normal food&r."
+				"It will also &aconvert dirt&r in to &dmycellium&r."
+			]
+			id: "6B7C53F53B9A00B9"
+			tasks: [{
+				id: "07C9C5287B32428F"
+				type: "item"
+				item: "ars_nouveau:mycelial_sourcelink"
+			}]
+			rewards: [{
+				id: "52FECCAAFFF16FFF"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			description: [
+				"This item will &dgenerate mana&r by &5consuming potion from nearby potion jar&r."
+				"&eMore the potion is efficient and more mana is generate&r."
+			]
+			id: "6BB2E4D78A9DF938"
+			tasks: [{
+				id: "1067DE98AEB40F50"
+				type: "item"
+				item: "ars_nouveau:alchemical_sourcelink"
+			}]
+			rewards: [{
+				id: "08935F50B0DA0562"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			icon: "ars_nouveau:wilden_tribute"
+			x: 2.0d
+			y: -4.0d
+			description: [
+				"If you want to summon &6the wilden chimeras&r for the &5wilden tribute&r, you will need to craft the &5wilden ritual&r, this ritual can spawn &5wilden mob&r for a limited duration of time but also can spawn &6the wilden chimeras&r for this you will need to craft the ritual with the &53 wilden item&r :"
+				"&6Wilden Horn&r"
+				"&6Wilden Spike&r"
+				"&6Wilden Wing&r"
+				"&4Watchout the boss will break block at spawn ONLY.&r"
+				"&2Have a nice fight.&r"
+			]
+			id: "3E6421CAEB07402E"
+			tasks: [
+				{
+					id: "0AC004EE2C48BE3D"
+					type: "item"
+					item: "ars_nouveau:ritual_wilden_summon"
+				}
+				{
+					id: "3D0DEDD80A921500"
+					type: "item"
+					item: "ars_nouveau:wilden_tribute"
+				}
+			]
+			rewards: [{
+				id: "5C76D970EB5C6AA9"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
 		}
 	]
 }

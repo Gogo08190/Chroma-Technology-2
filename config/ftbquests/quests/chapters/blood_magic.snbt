@@ -155,7 +155,7 @@
 			description: [
 				"Once you have that &8Snare&r you will have to throw it to an agressive mob such as zombies or skeletons or whatever you like."
 				""
-				"Once that is done, if you're lucky enough, a little white potion effect will appear on the mob, you will have to kill it to have the &4Demonic Will&r"
+				"Once that is done, if you're lucky enough, a little white potion effect will appear on the mob, you will have to kill it to have the &4Demonic Will&r."
 			]
 			dependencies: ["0DB48A26E11F0114"]
 			id: "46C51346F06DCE1E"
@@ -952,7 +952,7 @@
 				""
 				"For a long period of time, you will be using your own blood to start and pursue the mod."
 				""
-				"This &4Sacrificial Knife&r will help you get blood. Don't hurt yourself too much, or your soul will directly belong to the Devil"
+				"This &4Sacrificial Knife&r will help you get blood. Don't hurt yourself too much, or your soul will directly belong to the Devil."
 				""
 			]
 			dependencies: ["0F612F5A82310C1F"]
@@ -1095,8 +1095,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 2.5d
+			x: 1.0d
+			y: 2.0d
 			subtitle: "Stones for rituals"
 			dependencies: ["42BD78F424A0A430"]
 			id: "40D248A1059955C2"
@@ -1146,7 +1146,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 1.0d
 			y: 3.5d
 			subtitle: "Rituals !"
 			description: [
@@ -1187,6 +1187,696 @@
 			}]
 			rewards: [{
 				id: "0AA1E94158272202"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			subtitle: "A Vaccum chest "
+			description: [
+				"Picks up items within its range and places them into the linked chest"
+				""
+				"In order to create the &6Air Runes&r you will have to craft the &cInscription Tool&r and fill it with air."
+				""
+				"It needs the &bWeak Activation Crystal&r and costs &41000 LP&r"
+			]
+			dependencies: ["452D06A5F2021FE0"]
+			id: "7A2221A9A8FBEE44"
+			tasks: [{
+				id: "06E82BC368ACFF4C"
+				type: "item"
+				title: "Call Of The Zephyr"
+				item: "bloodmagic:airritualstone"
+				count: 12L
+			}]
+			rewards: [{
+				id: "709FFC652101978B"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Crack of the Fractured Crystal"
+			x: -0.5d
+			y: 4.5d
+			subtitle: "Breaking Demons"
+			description: [
+				"Breaks &cDemon Will Crystal Clusters&r of all &caspects&r within its range, dropping the results on the top of the crystals"
+				""
+				"You will need the &bWeak Activation Crystal&r and it costs &440000 LP&r "
+				""
+				"You'll need the &5Ritual Diviner [Dusk]&r to create this ritual"
+			]
+			dependencies: ["452D06A5F2021FE0"]
+			id: "009DD7F63AD952B7"
+			tasks: [
+				{
+					id: "31977D4A636DBA2E"
+					type: "item"
+					item: "bloodmagic:fireritualstone"
+					count: 20L
+				}
+				{
+					id: "35B5C4704D267C95"
+					type: "item"
+					item: "bloodmagic:earthritualstone"
+					count: 8L
+				}
+				{
+					id: "176E21E532A6B019"
+					type: "item"
+					item: "bloodmagic:airritualstone"
+					count: 4L
+				}
+				{
+					id: "1965375E03235654"
+					type: "item"
+					item: "bloodmagic:duskritualstone"
+					count: 12L
+				}
+			]
+			rewards: [{
+				id: "0F7C04DB8CF92E1A"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Focus of the Ellipsoid"
+			x: 0.5d
+			y: 4.5d
+			subtitle: "Sphere creation"
+			description: [
+				"Creates a hollow spheroid around the ritual using the blocks in the attached chest."
+				""
+				"For this ritual you'll need the &bWeak Activation Crystal&r."
+				""
+				"This ritual consumes &420000 LP&r for the activation"
+			]
+			dependencies: ["452D06A5F2021FE0"]
+			id: "69CEEB4B7AD134CA"
+			tasks: [
+				{
+					id: "3B2734CD6B9C34E6"
+					type: "item"
+					item: "bloodmagic:waterritualstone"
+					count: 8L
+				}
+				{
+					id: "39B755ADDDB65697"
+					type: "item"
+					item: "bloodmagic:fireritualstone"
+					count: 8L
+				}
+				{
+					id: "4E048AFD2435A396"
+					type: "item"
+					item: "bloodmagic:earthritualstone"
+					count: 8L
+				}
+				{
+					id: "61769101F3D7C0F5"
+					type: "item"
+					item: "bloodmagic:airritualstone"
+					count: 8L
+				}
+				{
+					id: "2EEAED51504F43D9"
+					type: "item"
+					item: "bloodmagic:duskritualstone"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "216111979C6BC385"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			subtitle: "A nice little farm"
+			description: [
+				"Harvests plants within its range, dropping the results on the ground."
+				""
+				"In order to do this ritual, you'll need the &bWeak Activation Crystal&r and the &cRitual Diviner [Dusk]&r."
+				""
+				"This ritual consume &420000 LP&r on activation."
+			]
+			dependencies: ["452D06A5F2021FE0"]
+			id: "4B740F8597D6916C"
+			tasks: [
+				{
+					id: "7FE92F838AC58B39"
+					type: "item"
+					item: "bloodmagic:waterritualstone"
+					count: 8L
+				}
+				{
+					id: "6A983C48C6D53982"
+					type: "item"
+					item: "bloodmagic:earthritualstone"
+					count: 12L
+				}
+				{
+					id: "2CCD33943DB79567"
+					type: "item"
+					item: "bloodmagic:duskritualstone"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Resonance of the Faceted Crystal"
+			x: 0.0d
+			y: 5.5d
+			subtitle: "Separating Crystals"
+			description: [
+				"Splits apart a well-grown &9Raw crystal cluster&r into sperately &8aspected crystal clusters."
+				""
+				"This ritual needs : "
+				"- The &cRitual Diviner [Dusk]."
+				"- A &bWeak Activation Crystal."
+				"- &420000 LP to activate the ritual"
+			]
+			dependencies: ["452D06A5F2021FE0"]
+			id: "4A4974AB0C32B67D"
+			tasks: [
+				{
+					id: "6C5FA76B24A239AB"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 4L
+				}
+				{
+					id: "789784994AE44415"
+					type: "item"
+					item: "bloodmagic:waterritualstone"
+				}
+				{
+					id: "57BA1E8619C0CF8D"
+					type: "item"
+					item: "bloodmagic:fireritualstone"
+				}
+				{
+					id: "33956B672CB0103F"
+					type: "item"
+					item: "bloodmagic:earthritualstone"
+				}
+				{
+					id: "30A6A045ACF34972"
+					type: "item"
+					item: "bloodmagic:airritualstone"
+				}
+				{
+					id: "0CDD863635FCFB40"
+					type: "item"
+					item: "bloodmagic:duskritualstone"
+					count: 12L
+				}
+			]
+			rewards: [{
+				id: "195440C15EFD78DC"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Ritual of Living Evolution"
+			x: 0.5d
+			y: 6.5d
+			subtitle: "A better Living Armor"
+			description: [
+				"Increases the amount of maximum Upgrade Points on your &nLiving Armor&r to 300."
+				""
+				"In order to create the ritual you'll need :"
+				"- The &cRitual Diviner [Dusk]&r"
+				"- A &bWeak Activation Crystal&r"
+				"- A total of &450000 LP&r to activate it."
+			]
+			dependencies: ["452D06A5F2021FE0"]
+			id: "49E215BC72FD13CB"
+			tasks: [
+				{
+					id: "075439E3A6A61763"
+					type: "item"
+					item: "bloodmagic:fireritualstone"
+					count: 12L
+				}
+				{
+					id: "215F52F5E145897E"
+					type: "item"
+					item: "bloodmagic:earthritualstone"
+					count: 24L
+				}
+				{
+					id: "00F4711D1CF0B230"
+					type: "item"
+					item: "bloodmagic:duskritualstone"
+					count: 12L
+				}
+			]
+			rewards: [{
+				id: "54F5E4075CE01434"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Ritual of Magnetism"
+			x: 2.5d
+			y: 4.5d
+			subtitle: "Ore digger"
+			description: [
+				"Pulls up ores from the ground and puts them into its placement range."
+				""
+				"To create this ritual you'll need :"
+				"- The &bRitual Diviner&r"
+				"- A &cWeak Activation Crystal&r"
+				"- A total of &45000 LP&r to activate it."
+			]
+			dependencies: ["452D06A5F2021FE0"]
+			id: "425E4EB468AFEA1E"
+			tasks: [
+				{
+					id: "17147D0BE3725EA9"
+					type: "item"
+					item: "bloodmagic:fireritualstone"
+					count: 4L
+				}
+				{
+					id: "1A5C53FBE8986110"
+					type: "item"
+					item: "bloodmagic:earthritualstone"
+					count: 8L
+				}
+				{
+					id: "4641B1D5CCBECDBC"
+					type: "item"
+					item: "bloodmagic:airritualstone"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "7E0BEFEF71BF7681"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Ritual of Regeneration"
+			x: 1.0d
+			y: 5.5d
+			subtitle: "Heals everyone or everything"
+			description: [
+				"Casts regeneration on entities within its range if they are missing health."
+				""
+				"To do this ritual you'll need : "
+				"- The &bDusk Ritual Diviner"
+				"- A &cWeak Crystal&r"
+				"- &425000 LP&r"
+			]
+			dependencies: ["452D06A5F2021FE0"]
+			id: "138B4AF29E48424C"
+			tasks: [
+				{
+					id: "7CF1181397D47FE4"
+					type: "item"
+					item: "bloodmagic:waterritualstone"
+					count: 8L
+				}
+				{
+					id: "58A5FC4EF76E3502"
+					type: "item"
+					item: "bloodmagic:fireritualstone"
+					count: 6L
+				}
+				{
+					id: "54385EBE8BA09B35"
+					type: "item"
+					item: "bloodmagic:earthritualstone"
+					count: 20L
+				}
+				{
+					id: "05D47CB6E5C4B7F2"
+					type: "item"
+					item: "bloodmagic:airritualstone"
+					count: 6L
+				}
+				{
+					id: "15D8032607C1CD2C"
+					type: "item"
+					item: "bloodmagic:duskritualstone"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "31504AABE0F6BCDC"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Ritual of the Crusher"
+			x: -0.5d
+			y: 6.5d
+			subtitle: "Auto Breaker"
+			description: [
+				"Breaks blocks within its crushing range and places the items into the linked chest."
+				""
+				"In order to do this ritual you'll need :"
+				"- The &bDusk Ritual Diviner&r"
+				"- A &cWeak Activation Crystal&r"
+				"- &45000 LP&r"
+			]
+			dependencies: ["452D06A5F2021FE0"]
+			id: "5167B34BB813D921"
+			tasks: [
+				{
+					id: "5EB96A7B2C8FFBAE"
+					type: "item"
+					item: "bloodmagic:fireritualstone"
+					count: 4L
+				}
+				{
+					id: "7E851CBC6E8B2AF1"
+					type: "item"
+					item: "bloodmagic:earthritualstone"
+					count: 4L
+				}
+				{
+					id: "53848E75C25FC2B3"
+					type: "item"
+					item: "bloodmagic:airritualstone"
+					count: 4L
+				}
+				{
+					id: "36376E2330708C0A"
+					type: "item"
+					item: "bloodmagic:duskritualstone"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "552772F309020E94"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Ritual of the Feathered Knife"
+			x: 1.5d
+			y: 6.5d
+			subtitle: "Wireless Sacrificial Knife"
+			description: [
+				"Drains health from players in its area and puts the &4LP&r into a nearby &6Blood Altar&r. &4LP&r Gains are affected by &cRunes of Self Sacrifice&r"
+				""
+				"In order to activate the ritual you'll need : "
+				"- The &bDusk Ritual Diviner&r"
+				"- A &cWeak Activation Crystal&r"
+				"- &425000 LP&r"
+			]
+			dependencies: ["452D06A5F2021FE0"]
+			id: "3A7B56D36E832388"
+			tasks: [
+				{
+					id: "1AA7A156132B1F9C"
+					type: "item"
+					item: "bloodmagic:waterritualstone"
+					count: 4L
+				}
+				{
+					id: "070B0BCF3AA972F4"
+					type: "item"
+					item: "bloodmagic:fireritualstone"
+					count: 8L
+				}
+				{
+					id: "15D5461633F32CC3"
+					type: "item"
+					item: "bloodmagic:earthritualstone"
+					count: 16L
+				}
+				{
+					id: "068E1D2DAE2A308C"
+					type: "item"
+					item: "bloodmagic:airritualstone"
+					count: 8L
+				}
+				{
+					id: "310D732AFB103D2B"
+					type: "item"
+					item: "bloodmagic:duskritualstone"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "66177D323FA00753"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Ritual of the Full Spring"
+			x: 2.5d
+			y: 6.5d
+			subtitle: "Water !"
+			description: [
+				"Generates a source of water from the &2Master Ritual Stone&r"
+				""
+				"To create this ritual you'll need : "
+				"- A basic &bRitual Diviner&r"
+				"- A &cWeak Activation Crystal&r"
+				"- &4500 LP&r"
+			]
+			dependencies: ["452D06A5F2021FE0"]
+			id: "311236BDFB9D3A47"
+			tasks: [{
+				id: "4A145224487F7E4B"
+				type: "item"
+				item: "bloodmagic:waterritualstone"
+				count: 4L
+			}]
+			rewards: [{
+				id: "7AFE049EA9166003"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Ritual of the Green Grove"
+			x: -1.0d
+			y: 5.5d
+			subtitle: "Harvest time"
+			description: [
+				"Grows crops within its area"
+				""
+				"To create this ritual you'll need : "
+				"- A basic &bRitual Diviner&r"
+				"- A &cWeak Activation Crystal&r"
+				"- &45000 LP&r"
+			]
+			dependencies: ["452D06A5F2021FE0"]
+			id: "48DDDF9EA9D5F046"
+			tasks: [
+				{
+					id: "410F208ED4AEC5EA"
+					type: "item"
+					item: "bloodmagic:waterritualstone"
+					count: 4L
+				}
+				{
+					id: "6668ED209DBA812D"
+					type: "item"
+					item: "bloodmagic:earthritualstone"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "789E7A2305B27F12"
+				type: "loot"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Ritual of the Shepherd"
+			x: 3.0d
+			y: 5.5d
+			subtitle: "They grow up so fast !"
+			description: [
+				"Increases the maturity rate of baby animals within its range."
+				""
+				"In order to do this ritual you'll need :"
+				"- The &cRitual Diviner [Dusk]."
+				"- A &bWeak Activation Crystal."
+				"- &410000 LP&r"
+			]
+			dependencies: ["452D06A5F2021FE0"]
+			id: "0C67F3F6BEB619C3"
+			tasks: [
+				{
+					id: "1B2158530E427306"
+					type: "item"
+					item: "bloodmagic:waterritualstone"
+					count: 4L
+				}
+				{
+					id: "7DC963C7A40093FB"
+					type: "item"
+					item: "bloodmagic:earthritualstone"
+					count: 4L
+				}
+				{
+					id: "5AB4C36AB907B29C"
+					type: "item"
+					item: "bloodmagic:airritualstone"
+					count: 4L
+				}
+				{
+					id: "1056F82134D54DCB"
+					type: "item"
+					item: "bloodmagic:duskritualstone"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "2983F0350A2DDC88"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Serenade of the Nether"
+			x: 0.0d
+			y: 7.5d
+			subtitle: "Lava everywhere !"
+			description: [
+				"Generates a source of lava from the &5Master Ritual Stone&r"
+				""
+				"To create this ritual you'll need : "
+				"- A basic &bRitual Diviner&r"
+				"- A &cWeak Activation Crystal&r"
+				"- &410000 LP&r to activate it"
+			]
+			dependencies: ["452D06A5F2021FE0"]
+			id: "00935023E0E209D5"
+			tasks: [{
+				id: "68F0FB6BC102E47E"
+				type: "item"
+				item: "bloodmagic:fireritualstone"
+				count: 4L
+			}]
+			rewards: [{
+				id: "7D4A926CD356BB61"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Sound of the Cleansing Soul"
+			x: 2.0d
+			y: 7.5d
+			subtitle: "I don't like those upgrades..."
+			description: [
+				"Removes all upgrades from your &bLiving Armor&r and gives you the corresponding &bUpgrade Tomes&r. These tomes can be used to re-apply them to your &bLiving Armor&r"
+				""
+				"In order to do this ritual you'll need :"
+				"- The &2Dusk Ritual Diviner"
+				"- A &cWeak Activation Crystal&r"
+				"- &425000 LP&r to activate it"
+			]
+			dependencies: ["452D06A5F2021FE0"]
+			id: "4CC9F130D1EFE108"
+			tasks: [
+				{
+					id: "3EB43578F1D5AB38"
+					type: "item"
+					item: "bloodmagic:waterritualstone"
+					count: 8L
+				}
+				{
+					id: "0E58337BBAD3F643"
+					type: "item"
+					item: "bloodmagic:fireritualstone"
+					count: 12L
+				}
+				{
+					id: "79041753A8D08645"
+					type: "item"
+					item: "bloodmagic:earthritualstone"
+					count: 20L
+				}
+				{
+					id: "0EEF3E0986C182B5"
+					type: "item"
+					item: "bloodmagic:airritualstone"
+					count: 4L
+				}
+				{
+					id: "641B7DE260885940"
+					type: "item"
+					item: "bloodmagic:duskritualstone"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "329CFDA14C6FF838"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			title: "Well of Suffering"
+			x: 1.0d
+			y: 7.5d
+			subtitle: "More blood !"
+			description: [
+				"Attacks mobs within its damage zone and puts the &4LP&r into a nearby &bBlood Altar&r"
+				""
+				"In order to do this ritual you'll need :"
+				"- The &5Dusk Ritual Diviner&r"
+				"- A &cWeak Activation Crystal&r"
+				"- &40000 LP&r to activate it"
+			]
+			dependencies: ["452D06A5F2021FE0"]
+			id: "03E87D29319C3B30"
+			tasks: [
+				{
+					id: "4C618BEB52ADD33A"
+					type: "item"
+					item: "bloodmagic:waterritualstone"
+					count: 16L
+				}
+				{
+					id: "786855B31538F061"
+					type: "item"
+					item: "bloodmagic:fireritualstone"
+					count: 8L
+				}
+				{
+					id: "1F42AF0643C6C3A5"
+					type: "item"
+					item: "bloodmagic:earthritualstone"
+					count: 4L
+				}
+				{
+					id: "33AFCC3B0907F134"
+					type: "item"
+					item: "bloodmagic:airritualstone"
+					count: 4L
+				}
+				{
+					id: "28B1D6452E9DB00C"
+					type: "item"
+					item: "bloodmagic:duskritualstone"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "599FDEA60CD810EE"
 				type: "random"
 				table_id: 8655552789015021416L
 			}]
