@@ -2329,7 +2329,7 @@
 			}]
 		}
 		{
-			x: 12.5d
+			x: 12.0d
 			y: 6.5d
 			shape: "diamond"
 			description: ["After you linked up the Wireless Terminal in the &6ME Security Terminal&f, it grants a portable access to the ME Network. Put it into a Charger to recharge it."]
@@ -2350,46 +2350,6 @@
 			}]
 			rewards: [{
 				id: "3CFC7DA73BE6927F"
-				type: "random"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			x: 11.5d
-			y: 6.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["7326A06A7FEF2F04"]
-			id: "0784D4C6FBA8817B"
-			tasks: [{
-				id: "6D4FC4EEA415C55C"
-				type: "item"
-				item: {
-					id: "ae2wtlib:wireless_crafting_terminal"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "042D114946B4A5DC"
-				type: "random"
-				table_id: 8655552789015021416L
-			}]
-		}
-		{
-			x: 12.0d
-			y: 6.0d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["736C36EFE909F8CD"]
-			id: "64581AED87779851"
-			tasks: [{
-				id: "756F690F5BDEFCFD"
-				type: "item"
-				item: "ae2wtlib:infinity_booster_card"
-			}]
-			rewards: [{
-				id: "5D7145052A84EF6E"
 				type: "random"
 				table_id: 8655552789015021416L
 			}]
