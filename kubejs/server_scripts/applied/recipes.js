@@ -27,16 +27,16 @@ onEvent('recipes', event => {
     })
 
   // Infinity Booster Card
-  // event.remove({output: 'ae2wtlib:infinity_booster_card'})
-  // event.shaped(Item.of('ae2wtlib:infinity_booster_card'), [
-  //   'SWS',
-  //   'FNF',
-  //   'SWS'
-  // ], {
-  //     W: 'appliedenergistics2:wireless_receiver',
-  //     F: 'appliedenergistics2:fluix_pearl',
-  //     N: 'minecraft:nether_star',
-  //     S: '#forge:ingots/steel'
-  // })
+  event.remove({output: 'ae2wtlib:infinity_booster_card'})
+  event.shaped(Item.of('ae2wtlib:infinity_booster_card'), [
+    'SWS',
+    'FNF',
+    'SWS'
+  ], {
+      W: 'appliedenergistics2:wireless_receiver',
+      F: 'appliedenergistics2:fluix_pearl',
+      N: 'minecraft:nether_star',
+      S: '#forge:ingots/steel'
+  })
 
 });
