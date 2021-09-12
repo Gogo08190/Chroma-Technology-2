@@ -423,4 +423,16 @@ onEvent('recipes', event => {
     "energy": 2000,
     "experience": 0.00
   })
+
+  // Gene Indexer
+  event.remove({ output: 'productivebees:gene_indexer' })
+  event.shaped('productivebees:gene_indexer', [
+  'PRP',
+  'PTP',
+  'PPP'
+  ], {
+    T: 'minecraft:crafting_table',
+    R: 'minecraft:comparator',
+    P: 'powah:steel_energized'
+  })
 });
