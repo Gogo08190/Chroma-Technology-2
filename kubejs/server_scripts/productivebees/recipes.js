@@ -448,7 +448,7 @@ onEvent('recipes', event => {
     P: 'powah:steel_energized'
   })
 
-  // Botller
+  // Bottler
   event.remove({ output: 'productivebees:bottler' })
   event.shaped('productivebees:bottler', [
   'PSP',
