@@ -435,4 +435,28 @@ onEvent('recipes', event => {
     R: 'minecraft:comparator',
     P: 'powah:steel_energized'
   })
+
+  // Catcher
+  event.remove({ output: 'productivebees:catcher' })
+  event.shaped('productivebees:catcher', [
+  'PMP',
+  'PDP',
+  'PPP'
+  ], {
+    D: 'minecraft:dispenser',
+    M: 'minecraft:dirt',
+    P: 'powah:steel_energized'
+  })
+
+  // Botller
+  event.remove({ output: 'productivebees:bottler' })
+  event.shaped('productivebees:bottler', [
+  'PSP',
+  'PGP',
+  'PPP'
+  ], {
+    G: '#forge:glass',
+    S: 'minecraft:smooth_stone_slab',
+    P: 'powah:steel_energized'
+  })
 });
