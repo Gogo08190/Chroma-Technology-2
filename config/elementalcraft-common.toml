@@ -421,7 +421,7 @@
 	sourceCapacityMax = 1000000
 	#The element a source can generate per tick.
 	#Range: 0 ~ 100
-	sourceRecoverRate = 5
+	sourceRecoverRate = 100
 
 #mod interaction config
 [interaction]
@@ -447,4 +447,3 @@
 [spell]
 	#Define if a spell will be cast (and destroyed) or not if you dont have enought element.
 	spellConsumeOnFail = false
-
