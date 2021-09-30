@@ -45,7 +45,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 4.0d
 			y: -5.0d
 			description: ["When installed in a hive, the speed upgrade will decrease the time a bee sprend inside the hive."]
 			dependencies: ["7C7C531322E1044F"]
@@ -79,7 +79,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 2.0d
 			y: -5.0d
 			description: ["When Installed in a hive, the bees will produce comb blocks instead of honeycombs."]
 			dependencies: ["7C7C531322E1044F"]
@@ -2119,6 +2119,41 @@
 				type: "item"
 				item: "minecraft:glowstone"
 				count: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			description: ["Slowly Extracts genes from visiting bees totally not hurting them in the process."]
+			dependencies: ["7C7C531322E1044F"]
+			id: "742DB77CD22E7CC7"
+			tasks: [{
+				id: "29FDD5570CFB0A45"
+				type: "item"
+				item: "productivebees:upgrade_bee_sampler"
+			}]
+			rewards: [{
+				id: "35C16C03BE52E780"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			shape: "square"
+			description: ["This block can store &4bee's Genetics&r."]
+			dependencies: ["71E4BB753498AB6B"]
+			id: "0AA2338CC48C990F"
+			tasks: [{
+				id: "24277FC6893B6F01"
+				type: "item"
+				item: "productivebees:gene_indexer"
+			}]
+			rewards: [{
+				id: "5D66D6D7443B8CF0"
+				type: "random"
+				table_id: 8655552789015021416L
 			}]
 		}
 	]

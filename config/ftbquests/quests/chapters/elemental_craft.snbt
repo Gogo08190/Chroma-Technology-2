@@ -12,7 +12,7 @@
 			title: "Inert crystal"
 			x: 0.0d
 			y: 0.0d
-			description: ["You can find it by mining"]
+			description: ["The &9Inert Ore &rcan be found in caves. "]
 			id: "6DE51A98F6BE60C6"
 			tasks: [{
 				id: "1AFD8BB3978944B9"
@@ -36,7 +36,7 @@
 			}
 			x: 2.0d
 			y: 0.0d
-			description: ["Can help you if you just read"]
+			description: ["The &5Elementopia&r will bring you all informations about the &5Elemental Craft&r mod."]
 			dependencies: ["6DE51A98F6BE60C6"]
 			id: "5B0C726044803D44"
 			tasks: [{
@@ -66,7 +66,7 @@
 		{
 			x: 3.5d
 			y: -1.0d
-			description: ["Will contain a few amount of one element"]
+			description: ["Will contain a few amount of one element."]
 			dependencies: ["5B0C726044803D44"]
 			id: "0B0EB289CB8CEA3C"
 			tasks: [{
@@ -83,7 +83,7 @@
 		{
 			x: 5.0d
 			y: -2.0d
-			description: ["Improved version of the small container"]
+			description: ["An improved version of the small container"]
 			dependencies: ["0B0EB289CB8CEA3C"]
 			id: "551980577C217831"
 			tasks: [{
@@ -100,7 +100,7 @@
 		{
 			x: 3.5d
 			y: 1.0d
-			description: ["When place below an element he will extract from him"]
+			description: ["When placed below an &5Elemental Orb&r it will extract the affix element."]
 			dependencies: ["5B0C726044803D44"]
 			id: "78BCB3BE7D6BE28F"
 			tasks: [{
@@ -117,7 +117,7 @@
 		{
 			x: 5.0d
 			y: 0.0d
-			description: ["Place it on an element container countaining the wished element"]
+			description: ["This has to be place on an &5Element Container&r. To trigger the recipe, you'll have to put it on the needed element."]
 			dependencies: ["5B0C726044803D44"]
 			id: "0A3948A727717EB4"
 			tasks: [{
@@ -134,7 +134,7 @@
 		{
 			x: 3.5d
 			y: 3.0d
-			description: ["Can craft item with element"]
+			description: ["Can crafts new items with element"]
 			dependencies: ["78BCB3BE7D6BE28F"]
 			id: "5963F874AAE3DE3E"
 			tasks: [{
@@ -151,7 +151,7 @@
 		{
 			x: 0.0d
 			y: 3.0d
-			description: ["An improved version"]
+			description: ["An improved version of the &5Element Binder&r. It's faster and drains less element."]
 			dependencies: ["5963F874AAE3DE3E"]
 			id: "0647945AC4934FB7"
 			tasks: [{
@@ -168,7 +168,7 @@
 		{
 			x: 2.0d
 			y: 1.0d
-			description: ["An improved version"]
+			description: ["Can extract faster and better the contained &5element&r"]
 			dependencies: ["78BCB3BE7D6BE28F"]
 			id: "0129F85F06EF3846"
 			tasks: [{
@@ -249,7 +249,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["This will be a primary craft"]
+			description: ["This item can be used for some &bElemental Craft&r recipes"]
 			dependencies: ["6DE51A98F6BE60C6"]
 			id: "2669F62A9D905F87"
 			tasks: [{
@@ -306,7 +306,7 @@
 		{
 			x: 12.5d
 			y: 0.0d
-			description: ["A new material"]
+			description: ["This is the result of the four elements combined with one diamond."]
 			dependencies: ["1CE7C3FE672DA886"]
 			id: "045A7AC4769EEF48"
 			tasks: [{
@@ -325,7 +325,7 @@
 			y: 4.5d
 			description: [
 				""
-				"Can contain fire element for spell"
+				"Can contain &4fire element&r for spells"
 			]
 			dependencies: ["0647945AC4934FB7"]
 			id: "008049ADCB42157F"
@@ -356,7 +356,7 @@
 		{
 			x: -1.0d
 			y: 3.5d
-			description: ["Can contain water element for spell"]
+			description: ["Can contain &3water element&r for spells"]
 			dependencies: ["0647945AC4934FB7"]
 			id: "476714364042055B"
 			tasks: [{
@@ -386,7 +386,7 @@
 		{
 			x: -1.0d
 			y: 2.5d
-			description: ["Can contain earth element for spell"]
+			description: ["Can contain &2earth element&r for spells"]
 			dependencies: ["0647945AC4934FB7"]
 			id: "36A18DF22711B51E"
 			tasks: [{
@@ -416,7 +416,7 @@
 		{
 			x: -0.5d
 			y: 1.5d
-			description: ["Can contain air element for spell"]
+			description: ["Can contain &6air element&r for spells"]
 			dependencies: ["0647945AC4934FB7"]
 			id: "4A8F7E1DEF038947"
 			tasks: [{
@@ -487,7 +487,7 @@
 		{
 			x: 1.5d
 			y: 5.5d
-			description: ["Set fire to nearby entities"]
+			description: ["Nearby entities are set on fire"]
 			dependencies: ["746617CE4CE87181"]
 			id: "5D8FFBC33C841F06"
 			tasks: [{
@@ -538,7 +538,7 @@
 		{
 			x: 3.5d
 			y: 6.5d
-			description: ["Periodicaly refill hunger"]
+			description: ["Periodically refill hunger"]
 			dependencies: ["746617CE4CE87181"]
 			id: "5B7DBFB78BA64427"
 			tasks: [{
@@ -555,7 +555,7 @@
 		{
 			x: 4.5d
 			y: 6.5d
-			description: ["Will absorb item around him"]
+			description: ["Will absorb items around it"]
 			dependencies: ["746617CE4CE87181"]
 			id: "1F031BC9A972EF50"
 			tasks: [{
@@ -606,7 +606,7 @@
 		{
 			x: 5.5d
 			y: 3.5d
-			description: ["Will create flower on top of grass"]
+			description: ["Will create flowers on top of grass"]
 			dependencies: ["746617CE4CE87181"]
 			id: "167C3F2892707E65"
 			tasks: [{
@@ -623,7 +623,7 @@
 		{
 			x: 1.5d
 			y: 4.5d
-			description: ["Tick aceleration on block stick to it"]
+			description: ["When this face another block, it will accelerate the tick of this block."]
 			dependencies: ["746617CE4CE87181"]
 			id: "5B1CB4DF7C9C45A9"
 			tasks: [{
@@ -640,7 +640,7 @@
 		{
 			x: 12.5d
 			y: -1.5d
-			description: ["Permit you to transport element but one use"]
+			description: ["Allow you to transport &5Elemental Nodes&r that can be found in the nature. This has 4 durability"]
 			dependencies: ["045A7AC4769EEF48"]
 			id: "4DF85537A3A0A2D6"
 			tasks: [{
@@ -663,7 +663,7 @@
 		{
 			x: 12.5d
 			y: -3.0d
-			description: ["Permit you to transport element but with durability"]
+			description: ["This an improved version of the &nReceptacle&r but this one has more durability"]
 			dependencies: ["4DF85537A3A0A2D6"]
 			id: "64DA51EADABA1B8D"
 			tasks: [{
@@ -686,7 +686,7 @@
 		{
 			x: 14.0d
 			y: -1.0d
-			description: ["A new ingot"]
+			description: ["With the &6Pure Crystal&r, you can craft this new ingot."]
 			dependencies: ["045A7AC4769EEF48"]
 			id: "229B9EB4219C784A"
 			tasks: [{
@@ -703,7 +703,7 @@
 		{
 			x: 14.5d
 			y: 0.0d
-			description: ["Better Version"]
+			description: ["Can stock a very large amount of &4Fire Element&r"]
 			dependencies: ["045A7AC4769EEF48"]
 			id: "569761A7546843B8"
 			tasks: [{
@@ -720,7 +720,7 @@
 		{
 			x: 14.0d
 			y: 1.5d
-			description: ["Better Version"]
+			description: ["Can stock a very large amount of &3Water Element&r"]
 			dependencies: ["045A7AC4769EEF48"]
 			id: "245B081A199D68DE"
 			tasks: [{
@@ -737,7 +737,7 @@
 		{
 			x: 13.0d
 			y: 2.0d
-			description: ["Better Version"]
+			description: ["Can stock a very large amount of &2Earth Element&r"]
 			dependencies: ["045A7AC4769EEF48"]
 			id: "45039F83032E5C9A"
 			tasks: [{
@@ -754,7 +754,7 @@
 		{
 			x: 12.0d
 			y: 1.5d
-			description: ["Better version"]
+			description: ["Can stock a very large amount of &6Air Element&r"]
 			dependencies: ["045A7AC4769EEF48"]
 			id: "08369CF09580028E"
 			tasks: [{
@@ -769,11 +769,11 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -4.0d
+			x: 8.0d
+			y: -3.5d
 			description: [
-				"Permit you to craft spell"
-				"Spell can also be found in overworld in chest"
+				"Allows you to craft spells"
+				"Spells can also be found in the overworld."
 			]
 			hide_dependency_lines: true
 			dependencies: ["0A3948A727717EB4"]
@@ -797,9 +797,9 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: -5.5d
-			description: ["Like a magic wand with anvil you can add spell to it"]
+			x: 8.0d
+			y: -5.0d
+			description: ["Like a magic wand with anvil you can add spells to it"]
 			dependencies: ["6C5A44C3DC9A72EE"]
 			id: "25FA26C314664D0B"
 			tasks: [{
@@ -834,7 +834,7 @@
 			x: 10.5d
 			y: 4.5d
 			shape: "gear"
-			description: ["Go into ars"]
+			description: ["So now that you've managed to get some &6Pure Crystals&r, you will be able to go to the &5Ars Nouveau&r mod"]
 			dependencies: ["1CE7C3FE672DA886"]
 			size: 3.0d
 			id: "4A44A6FE8FD947B6"
@@ -848,7 +848,7 @@
 			title: "Impaired element pipe"
 			x: 2.5d
 			y: -2.0d
-			description: ["Can transport a few amount of element"]
+			description: ["Can transport a few amount of element between two &5Elemental Craft&r blocks"]
 			dependencies: ["0B0EB289CB8CEA3C"]
 			id: "73FE028836791BD0"
 			tasks: [{
@@ -904,6 +904,7 @@
 		{
 			x: 9.0d
 			y: 0.0d
+			description: ["Can craft &5Elemental Gems&r"]
 			dependencies: [
 				"691875E5448101B6"
 				"528A919751F7A145"
@@ -920,6 +921,396 @@
 				id: "541B53F3D940584E"
 				type: "random"
 				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -7.5d
+			subtitle: "Ghast Power ! "
+			description: ["Throw a fire ball in the direction you are looking. Consumes &4fire&r from an &5Element Holder&r"]
+			dependencies: ["25FA26C314664D0B"]
+			id: "330355F1FF081837"
+			tasks: [{
+				id: "1C39B95356B0746B"
+				type: "item"
+				item: {
+					id: "elementalcraft:scroll"
+					Count: 1b
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:fireball"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C5C98D6CA0611F3"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -8.0d
+			subtitle: "Watch out ! "
+			description: ["Summon a column of &8gravel&r above the targeted &2block&r or &3entity&r. Consumes &3earth&r from an &5Element Holde&r and three &8gravel&r."]
+			dependencies: ["25FA26C314664D0B"]
+			id: "6D8A63233CB88E60"
+			tasks: [{
+				id: "52060A7349574FAA"
+				type: "item"
+				item: {
+					id: "elementalcraft:scroll"
+					Count: 1b
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:gravelfall"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "59B399FC255FB786"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -8.0d
+			subtitle: "Remove effects"
+			description: ["Remove all negative &3effects&r on you or the targeted entity. Consumes &bwater&r from an &5Element Holder&r"]
+			dependencies: ["25FA26C314664D0B"]
+			id: "559921F927A27C47"
+			tasks: [{
+				id: "0BB747F4BC730922"
+				type: "item"
+				item: {
+					id: "elementalcraft:scroll"
+					Count: 1b
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:purification"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "09C371B3A464B2C0"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -7.5d
+			subtitle: "Stone Prison"
+			description: ["Summon a three by three &2stone wall&r in front of you to protect you from attacks. Consumes &2earth&r from &5Element Holder&r and nine &8stones&r"]
+			dependencies: ["25FA26C314664D0B"]
+			id: "74CAF5F63273168C"
+			tasks: [{
+				id: "7BFFD15E4E7F8CFE"
+				type: "item"
+				item: {
+					id: "elementalcraft:scroll"
+					Count: 1b
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:stonewall"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2CBB01A26DA6F9DF"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -9.5d
+			subtitle: "I need Healing  "
+			description: ["Heal you or targeted &2entity&r. Consumes water from an &5Element Holder&r."]
+			dependencies: ["25FA26C314664D0B"]
+			id: "04C9E1D2871D7AD2"
+			tasks: [{
+				id: "59E1894881297A96"
+				type: "item"
+				item: {
+					id: "elementalcraft:scroll"
+					Count: 1b
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:heal"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "791CC50D94120F7E"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -9.0d
+			subtitle: "Ninja ! "
+			description: ["Teleport behind targeted &2entity&r or closest &2monster&r and strike it with increased damage. Be careful to not use it near an &9Ender Lock Shrine&r. Consumes &6air&r from an &5Element Holder&r"]
+			dependencies: ["25FA26C314664D0B"]
+			id: "131BBE320B0E95A3"
+			tasks: [{
+				id: "4146DD2A9B503952"
+				type: "item"
+				item: {
+					id: "elementalcraft:scroll"
+					Count: 1b
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:ender_strike"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F58DAA891B4433D"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -9.5d
+			subtitle: "Magnet"
+			description: ["Pull all nearby &5items to you&r. Consumes &6air&r from an &5Element Holder&r."]
+			dependencies: ["25FA26C314664D0B"]
+			id: "57BE7DDF1A6A02C8"
+			tasks: [{
+				id: "16272D5D1F409145"
+				type: "item"
+				item: {
+					id: "elementalcraft:scroll"
+					Count: 1b
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:item_pull"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7313FF3562696FA5"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -8.5d
+			subtitle: "My little farm"
+			description: ["Fully grow targeted &2animal child&r. Consumes &bwater&r from an &5Element Holder&r"]
+			dependencies: ["25FA26C314664D0B"]
+			id: "0B9B0000C22360FE"
+			tasks: [{
+				id: "7B3F310E6B486310"
+				type: "item"
+				item: {
+					id: "elementalcraft:scroll"
+					Count: 1b
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:animal_growth"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "69B1A0B34BDBB883"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -8.5d
+			subtitle: "Timber !"
+			description: ["Cut down targeted &2tree&r. Consumes &2earth&r from an &5Element Holder&r."]
+			dependencies: ["25FA26C314664D0B"]
+			id: "66EADC97E798EE73"
+			tasks: [{
+				id: "087B924143E5A104"
+				type: "item"
+				item: {
+					id: "elementalcraft:scroll"
+					Count: 1b
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:tree_fall"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0EE8BA506C4D2154"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -10.5d
+			subtitle: "Let it grow !"
+			description: ["Full grow targeted &2crops&r. Consumes &3water&r from an &5Element Holder&r"]
+			dependencies: ["25FA26C314664D0B"]
+			id: "7DEBC5C6ED6801E0"
+			tasks: [{
+				id: "0436070834303E42"
+				type: "item"
+				item: {
+					id: "elementalcraft:scroll"
+					Count: 1b
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:ripening"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "46F673D5DEAAC1A2"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -10.0d
+			subtitle: "Fire ! "
+			description: ["Hit all entities around you with a burning circular attack. Consumes &4fire&r from an &5Element Holder&r"]
+			dependencies: ["25FA26C314664D0B"]
+			id: "20C1184A78CE397F"
+			tasks: [{
+				id: "605A7ADE743DC038"
+				type: "item"
+				item: {
+					id: "elementalcraft:scroll"
+					Count: 1b
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:flame_cleave"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "700A5019A39F5264"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -11.0d
+			subtitle: "Hell's Wrath"
+			description: ["Breathe fire in front of you dealing damage to all the &2entities&r in a cone. Consumes &4fire&r from an &5Element Holder&r"]
+			dependencies: ["25FA26C314664D0B"]
+			id: "28424AFDE24EC46A"
+			tasks: [{
+				id: "74E2F107C957AAFD"
+				type: "item"
+				item: {
+					id: "elementalcraft:scroll"
+					Count: 1b
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:inferno"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A132321A67B387F"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -10.5d
+			subtitle: "I believe I can fly !"
+			description: ["Dash in targeted direction. Consumes &2air&r from an &5Element Holder&r"]
+			dependencies: ["25FA26C314664D0B"]
+			id: "7B784948BC7AE30B"
+			tasks: [{
+				id: "61D3F390DBAF400D"
+				type: "item"
+				item: {
+					id: "elementalcraft:scroll"
+					Count: 1b
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:dash"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0FCC92BF55CA9642"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -7.0d
+			subtitle: "Ores !"
+			description: ["Mine a whole &2ore vein&r with silk touch. Consumes &2earth&r from an &5Element Holder&r."]
+			dependencies: ["25FA26C314664D0B"]
+			id: "3090FD49548D12F0"
+			tasks: [{
+				id: "1AA8CA21B08ECD3F"
+				type: "item"
+				item: {
+					id: "elementalcraft:scroll"
+					Count: 1b
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:silk_vein"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "334447CA743D0A17"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -7.0d
+			subtitle: "Gotta go fast !"
+			description: ["Increase speed and attach speed for you to the targeted &2entity&r. Consumes &6air&r from an &5Element Holder&r"]
+			dependencies: ["25FA26C314664D0B"]
+			id: "4B3DF1A02BAADAA2"
+			tasks: [{
+				id: "206573C18FF25A32"
+				type: "item"
+				item: {
+					id: "elementalcraft:scroll"
+					Count: 1b
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:speed"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4FF529884931D511"
+				type: "random"
+				table_id: 4063386593177790740L
 			}]
 		}
 	]

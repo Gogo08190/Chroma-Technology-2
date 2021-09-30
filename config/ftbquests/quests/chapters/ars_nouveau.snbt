@@ -234,11 +234,7 @@
 			x: -1.0d
 			y: 1.0d
 			description: ["Can contain mana"]
-			dependencies: [
-				"5776690626AB11D3"
-				"4AE130BFB7428AC2"
-				"6B7C53F53B9A00B9"
-			]
+			dependencies: ["5776690626AB11D3"]
 			id: "17AEDD9B9E249661"
 			tasks: [{
 				id: "6E5DD3B8EA750031"
@@ -255,7 +251,7 @@
 			x: -3.0d
 			y: 1.5d
 			description: [
-				"&eThe mana condenser&r will &dcreate mana&r from &agrowing things like crops or tree&r."
+				"&eThe mana condenser&r will &dcreate mana&r from &agrowing things like crops or trees&r."
 				"&4Warning you can not put 2 in the same range (9x9)&r."
 			]
 			dependencies: ["17AEDD9B9E249661"]
@@ -274,7 +270,7 @@
 		{
 			x: -1.5d
 			y: 3.0d
-			description: ["&eThe volcanic sourcelink&r will &dgenerate mana&r like an &6endoflame&r, you will need to throw &4burning thing&r nearby &ethe volcanic sourcelink&r &4(archwood have bonus mana)&r."]
+			description: ["&eThe volcanic sourcelink&r will &dgenerate mana&r like an &6endoflame&r, you will need to throw &4burning things&r nearby &ethe volcanic sourcelink&r &4(archwood has bonus mana)&r."]
 			dependencies: ["17AEDD9B9E249661"]
 			id: "40FF29FF508397B4"
 			tasks: [{
@@ -1325,9 +1321,10 @@
 			x: -3.0d
 			y: 0.0d
 			description: [
-				"This item will &dgenerate mana&r when  nearby &aanimal  are breed&r or when &0nearby mob died&r."
-				"It also generate &dpassive mana&r from nearby &ababy animal&r."
+				"This item will &dgenerate mana&r when  nearby &aanimal  are bred&r or when &0nearby mobs died&r."
+				"It also generates &dpassive mana&r from nearby &ababy animal&r."
 			]
+			dependencies: ["17AEDD9B9E249661"]
 			id: "4AE130BFB7428AC2"
 			tasks: [{
 				id: "4CE6BD23DE44CAB9"
@@ -1344,9 +1341,10 @@
 			x: 0.0d
 			y: 2.5d
 			description: [
-				"This item will &dgenerate mana&r from &2nearby food&r, &dmana food&r are &emore efficiant than other normal food&r."
-				"It will also &aconvert dirt&r in to &dmycellium&r."
+				"This item will &dgenerate mana&r from &2nearby food&r, &dmana food&r are &emore efficient than other normal food&r."
+				"It will also &aconvert dirt&r to &dmycellium&r."
 			]
+			dependencies: ["17AEDD9B9E249661"]
 			id: "6B7C53F53B9A00B9"
 			tasks: [{
 				id: "07C9C5287B32428F"
@@ -1364,8 +1362,9 @@
 			y: 2.5d
 			description: [
 				"This item will &dgenerate mana&r by &5consuming potion from nearby potion jar&r."
-				"&eMore the potion is efficient and more mana is generate&r."
+				"&eMore the potion is efficient and more mana is generated&r."
 			]
+			dependencies: ["17AEDD9B9E249661"]
 			id: "6BB2E4D78A9DF938"
 			tasks: [{
 				id: "1067DE98AEB40F50"
@@ -1407,6 +1406,16 @@
 				id: "5C76D970EB5C6AA9"
 				type: "random"
 				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			id: "074D7E30C16E104E"
+			tasks: [{
+				id: "2F2D433E941752B6"
+				type: "item"
+				item: "ars_nouveau:ritual"
 			}]
 		}
 	]

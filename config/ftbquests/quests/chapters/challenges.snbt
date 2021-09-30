@@ -51,6 +51,7 @@
 					id: "01498F6CD510CF6C"
 					type: "item"
 					title: "&kVous verrez en temps voulu !"
+					auto: "invisible"
 					item: "kubejs:vous_verrez_en_temps_voulu"
 				}
 			]

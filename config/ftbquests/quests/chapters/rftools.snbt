@@ -191,7 +191,7 @@
 		}
 		{
 			title: "Storage"
-			x: 5.0d
+			x: 2.0d
 			y: 0.0d
 			description: [
 				"Here is a little storage advancement"
@@ -245,15 +245,15 @@
 		}
 		{
 			title: "Advanced Storage"
-			x: 5.0d
-			y: -1.5d
+			x: 4.5d
+			y: 0.0d
 			subtitle: "Wireless Storage?"
 			description: [
 				"Now that you have a little more stocking space"
 				""
 				"Maybe it's time to have a little bit of wireless storage before going to Refined Storage (or Applied Energistics)"
 			]
-			dependencies: ["004534788C10F889"]
+			dependencies: ["09623CE2AEBEB79E"]
 			id: "6321750171F3BA61"
 			tasks: [
 				{
@@ -418,8 +418,8 @@
 		}
 		{
 			title: "Shape Cards"
-			x: 1.5d
-			y: -2.0d
+			x: 2.0d
+			y: -1.5d
 			subtitle: "For the builder"
 			description: [
 				"This quest will ask you to craft all &2Shape Cards&r for the &6Builder&r"
@@ -493,8 +493,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -3.5d
+			x: 0.5d
+			y: -2.0d
 			description: [
 				"Here is the &3Builder !&r"
 				""
@@ -505,7 +505,7 @@
 				""
 				"How does it work? Shift Right Click with a shape card in the main hand and select two blocks that are opposed to each other, you do not want to select a radius of two blocks... unless that's what you really want of course."
 			]
-			dependencies: ["1F57D2A538B7BC90"]
+			dependencies: ["00A9D4B61482CC79"]
 			id: "770FF84E83C7347C"
 			tasks: [{
 				id: "2D5CC37EAB206B58"
@@ -519,7 +519,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: -2.5d
 			y: -2.0d
 			subtitle: "Boosting your machines"
 			description: [
@@ -625,8 +625,8 @@
 		}
 		{
 			title: "Rf With EnderPearls"
-			x: 2.0d
-			y: 0.0d
+			x: 0.5d
+			y: 1.5d
 			subtitle: "Build The Endergenic generator"
 			description: [
 				"Generate some RF with that generator"

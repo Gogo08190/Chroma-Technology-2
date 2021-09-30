@@ -1,0 +1,568 @@
+{
+	id: "4884A22C46156BD0"
+	group: "02C811A04C8B1382"
+	order_index: 3
+	filename: "woot"
+	title: "Woot"
+	icon: {
+		id: "woot:intern"
+		Count: 1b
+		tag: {
+			mode: "BUILD_1"
+		}
+	}
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 3.5d
+			y: -7.0d
+			shape: "square"
+			description: [
+				"&5Layout Guide &rshow you the factory layout and can switch through each y-level."
+				""
+				"- Right clicking will switch through the different tiers."
+				"- Sneak right click will switch through the y-levels of the current tier."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4009E91C9A0B5AF7"]
+			id: "079AB9543A8C8A2D"
+			tasks: [{
+				id: "5F5FD18FCCDE500D"
+				type: "item"
+				item: "woot:layout"
+			}]
+			rewards: [{
+				id: "47188AEE292AC4CD"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -10.0d
+			shape: "diamond"
+			description: ["The &5YA Hammer &rhas two main usages. The first one is used for recipes in the anvil. The second is used for vanilla crafting. The &5YA Hammer&r is never consumed when used in recipes."]
+			hide_dependency_lines: true
+			dependencies: ["514642F7571E7FDA"]
+			id: "3DFDCC41337EFD39"
+			tasks: [{
+				id: "49B887BF0E5DB0D0"
+				type: "item"
+				item: "woot:hammer"
+			}]
+			rewards: [{
+				id: "3977925BC44CE543"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.0d
+			shape: "square"
+			description: [
+				"&5The Intern &rallows you to automatically build your factory."
+				""
+				"The Intern can also validate your factory structure."
+			]
+			hide_dependency_lines: true
+			dependencies: ["514642F7571E7FDA"]
+			id: "23A6A71398489F52"
+			tasks: [{
+				id: "50680B0DEBC2DBB9"
+				type: "item"
+				item: {
+					id: "woot:intern"
+					Count: 1b
+					tag: {
+						mode: "BUILD_1"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1B0E1DDAA14AEE4B"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["514642F7571E7FDA"]
+			id: "09567F3122310276"
+			tasks: [{
+				id: "564A97C11B3576EF"
+				type: "item"
+				item: "woot:anvil"
+			}]
+			rewards: [{
+				id: "23F02053BEAC4B8A"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -9.5d
+			shape: "diamond"
+			description: [
+				"The main resource in Woot is &5Stygian Iron&r."
+				"You will need this to create the machines, tools and factory components."
+			]
+			hide_dependency_lines: true
+			dependencies: ["4009E91C9A0B5AF7"]
+			id: "4CB01E79CC920D6E"
+			tasks: [{
+				id: "147755E85AAB29A3"
+				type: "item"
+				item: "woot:si_dust"
+			}]
+			rewards: [{
+				id: "0E966F5C2C5EFE4D"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -9.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["4CB01E79CC920D6E"]
+			id: "514642F7571E7FDA"
+			tasks: [{
+				id: "1D1E82CF10AD7A75"
+				type: "item"
+				item: "woot:si_ingot"
+			}]
+			rewards: [{
+				id: "3D4BD5F0927466CA"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			shape: "diamond"
+			description: ["The Woot factory runs on Conatus Fluid, which is primarily generated with the &5Fluid Vat&r. The machine takes a fluid and a catalyst, then converts itself into Conatus Fluid. Different fluid/catalyst combinations give differing amounts on Conatus Fluid."]
+			hide_dependency_lines: true
+			dependencies: [
+				"3DFDCC41337EFD39"
+				"09567F3122310276"
+			]
+			id: "5162EF6BCD20B41C"
+			tasks: [{
+				id: "7663C245E3CB4FEA"
+				type: "item"
+				item: "woot:fluidconvertor"
+			}]
+			rewards: [{
+				id: "70F6F7C53CC94EF3"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			shape: "diamond"
+			description: ["The factory is fueled by &aConatus Fluid &rwhich is stored in the &5Conatus Cell &rat the base of the factory. This can be created in the &bFluid Vat&r from a variety of different sources."]
+			dependencies: ["5162EF6BCD20B41C"]
+			id: "487103E984EF2011"
+			tasks: [{
+				id: "5E9EEBD0B3BD982E"
+				type: "item"
+				item: "woot:conatus_fluid_bucket"
+			}]
+			rewards: [{
+				id: "23E409222D0A1A3F"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "woot:wootguide"
+				}
+			}
+			x: 3.0d
+			y: -8.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			size: 1.5d
+			id: "4009E91C9A0B5AF7"
+			tasks: [{
+				id: "0BBB675975BA587F"
+				type: "checkmark"
+				title: "Woot Guide"
+			}]
+			rewards: [
+				{
+					id: "5575EF03700CD2C4"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "woot:wootguide"
+						}
+					}
+				}
+				{
+					id: "35093B24350542B4"
+					type: "random"
+					table_id: 4063386593177790740L
+				}
+			]
+		}
+		{
+			title: "Tier 1 Factory"
+			x: 3.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "My First Factory"
+			description: [
+				"Place chests beside the &5Loot Exporter &rto get mobs loots."
+				""
+				"You can find the items needed for each tier in the Woot Guide."
+			]
+			size: 2.0d
+			id: "197E0349F1BA3FF0"
+			tasks: [
+				{
+					id: "7F2CB818E431E4DC"
+					type: "item"
+					item: "woot:heart"
+				}
+				{
+					id: "20F40B2DD214E9D6"
+					type: "item"
+					item: "woot:factory_ctr_base_pri"
+				}
+				{
+					id: "4353EFB6CBFCF860"
+					type: "item"
+					title: "Conatus Cell"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "woot:cell_1"
+									Count: 1b
+								}
+								{
+									id: "woot:cell_2"
+									Count: 1b
+								}
+								{
+									id: "woot:cell_3"
+									Count: 1b
+								}
+								{
+									id: "woot:cell_4"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "1F3AFD8C6722B1E5"
+					type: "item"
+					item: "woot:import"
+				}
+				{
+					id: "5DC18A8BF68979A3"
+					type: "item"
+					item: "woot:export"
+				}
+			]
+			rewards: [{
+				id: "46A0153D15AEC65E"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			shape: "diamond"
+			description: [
+				"Some mobs require ingredients to drop their loot and these must be provided in chests/tanks beside the &5Ingredient Importer&r."
+				"All ingredients for ALL mobs be provided or no loot will be produced."
+			]
+			id: "3ADEC05FAC404B85"
+			tasks: [{
+				id: "299C6DC39B0AB568"
+				type: "item"
+				item: "woot:import"
+			}]
+			rewards: [{
+				id: "257D92E8F6F54457"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			shape: "diamond"
+			description: [
+				"A &5Mob Shard&r is used to capture a mob to use in the factory."
+				"First you must create the &5Mob Shard &rthen attack a mob to program that shard."
+				"With the shard in your inventory you must kill a certain number of that mob."
+				"When the kill count is reached the shard will be converted into a &5Mob Controller&r."
+			]
+			id: "5F406F6126C8EE95"
+			tasks: [{
+				id: "01FFF612ABF597D6"
+				type: "item"
+				item: {
+					id: "woot:mobshard"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0F057EA566CE571E"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.0d
+			shape: "square"
+			description: [
+				"The &5Mob Controller &rtells the factory which mob you would like to spawn."
+				"However not all factories are created equally"
+				"Each &5Mob Controller &rrequires a minimum tier of factory to use."
+				"The tier can be seen by right clicking on a &5Mob Controller&r."
+				"The &5Mob Controller &ris created on the &aStygian Anvil&r by combining a fully programmed &6Mob Shard&r with a &bPrism &rand &cStygian Iron Plate&r."
+			]
+			id: "6700C53617FF5CEE"
+			tasks: [{
+				id: "14A4BE5DF4112447"
+				type: "item"
+				item: "woot:controller"
+			}]
+			rewards: [{
+				id: "1846C9FDF6D5FAF3"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			shape: "diamond"
+			description: [
+				"Perks are applied to the &5Perk Slot&r."
+				"A &5Perk Slot &rcan accept a single type of perk."
+				"An empty &5Perk Slot&r can take any level I perk. All previous levels of perk must be applied before the next level is accepted."
+				"Different tiers of factory have a maximum level of perk that they will work with."
+				"Higher tier perks can be applied to lower tier factories, however the factory will ignore any perk benefits over its level capacity."
+			]
+			id: "1B74ED621978E7C9"
+			tasks: [{
+				id: "4030E44DC4031CFE"
+				type: "item"
+				item: "woot:factory_upgrade"
+			}]
+			rewards: [{
+				id: "57788F30E299671B"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.0d
+			shape: "diamond"
+			description: ["A valid &5Mob Controller&r must be placed on &6Primary Base&r for the factory to form."]
+			id: "6582FFC1B45EF9E0"
+			tasks: [{
+				id: "6FB31A6BD9F004E0"
+				type: "item"
+				item: "woot:factory_ctr_base_pri"
+			}]
+			rewards: [{
+				id: "4D7BB344842F8A00"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			shape: "diamond"
+			description: ["This exotic reduces the amount of item recipe ingredients required by &d85.0%&r."]
+			id: "1FF2719D6763FCC0"
+			tasks: [{
+				id: "5939121C14F3A476"
+				type: "item"
+				item: "woot:exotic_b"
+			}]
+			rewards: [{
+				id: "28110D11A75A7427"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			shape: "diamond"
+			description: ["This exotic spawns &d10 mobs&r for each controller."]
+			id: "64DD4018FA36F7AB"
+			tasks: [{
+				id: "62846D854F459209"
+				type: "item"
+				item: "woot:exotic_e"
+			}]
+			rewards: [{
+				id: "659CAD2017E4ECA9"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			shape: "diamond"
+			description: ["This exotic reduces the amount of fluid recipe ingredients required by &d85.0%&r."]
+			id: "20CBAF9499839B2E"
+			tasks: [{
+				id: "3B338B157EDE5ACA"
+				type: "item"
+				item: "woot:exotic_a"
+			}]
+			rewards: [{
+				id: "158D71C9C9D9A545"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			shape: "diamond"
+			description: ["This exotic runs the factory at a fixed spawn time of &d20 ticks&r."]
+			id: "1DF7A9FCDD8CB724"
+			tasks: [{
+				id: "551C7E386D720308"
+				type: "item"
+				item: "woot:exotic_d"
+			}]
+			rewards: [{
+				id: "1118CDEF36977751"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			shape: "diamond"
+			description: ["This exotic reduces the amount of Conatus fluid required bu &d85.0%&r."]
+			id: "2726974364A62A39"
+			tasks: [{
+				id: "204FBFD073F236AD"
+				type: "item"
+				item: "woot:exotic_c"
+			}]
+			rewards: [{
+				id: "6BC3F5B414B33681"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			shape: "diamond"
+			description: [
+				"The &5Dye Liquifier &rtakes dyed items, or items that can creates dyes and converts them into red, yellow, blue and white fluids."
+				"These are then combined into Pure Dye which can be used to create dye casings or any color in the &5Injection Press&r."
+				""
+				"Items can be inserted from any side. Pure Dye can be extracted from any side. The &5Dye Liquifier&r will automatically output to an adjacent fluid handler."
+			]
+			id: "375C87CBC1BC445C"
+			tasks: [{
+				id: "356B4F3A13C87990"
+				type: "item"
+				item: "woot:squeezer"
+			}]
+			rewards: [{
+				id: "32896B8E92A426B0"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			shape: "diamond"
+			description: [
+				"The &5Enchant Liquifier &rtakes enchanted items (books, swords, etc), extracts the enchantments from them and creates Liquid Enchant fluid. Higher level enchants create more fluid."
+				""
+				"Items can be inserted from any side. Liquid Enchant can be extracted from any side. The &5Enchant Liquifier &rwill automatically output to an adjacent fluid handler."
+			]
+			id: "39D56BD64A190B29"
+			tasks: [{
+				id: "50D7E51100104A84"
+				type: "item"
+				item: "woot:enchsqueezer"
+			}]
+			rewards: [{
+				id: "7535B1A312531110"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			shape: "square"
+			description: ["&5Dee's Oracle &rallows you to view any simulated mob, the associated drops and drop chance at each looting level."]
+			id: "6928F7656C5965B7"
+			tasks: [{
+				id: "21E2479BFA8D5691"
+				type: "item"
+				item: "woot:oracle"
+			}]
+			rewards: [{
+				id: "2BBE2A74CAE2F299"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			shape: "diamond"
+			description: ["The &5Injection Press&r injects fluids into items. It can be used with Pure Dye to create Dye Plates. It can be uses with Liquid Enchant to create factory upgrade plates and enchanted books."]
+			id: "382EAC32691AC539"
+			tasks: [{
+				id: "21C4853686C8407C"
+				type: "item"
+				item: "woot:infuser"
+			}]
+			rewards: [{
+				id: "4F5FE2A229819FC1"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+	]
+}

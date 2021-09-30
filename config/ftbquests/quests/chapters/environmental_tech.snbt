@@ -405,9 +405,9 @@
 			dependencies: ["6B844BF327DD048F"]
 			id: "7B82FE0EDBAA15DD"
 			tasks: [{
-				id: "33D6E04AA3A5BBD3"
+				id: "30028B1118E0AC71"
 				type: "item"
-				item: "enviroenergy:aethium_solar_ccu"
+				item: "enviroenergy:aethium_lightning_ccu"
 			}]
 			rewards: [{
 				id: "6A21FCEABA449113"

@@ -9,8 +9,9 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
-			y: -0.5d
+			x: 0.5d
+			y: 0.0d
+			shape: "diamond"
 			description: ["Generates &lSU&r with &bWater&r"]
 			hide_dependency_lines: true
 			dependencies: ["68C911E941D1D7AF"]
@@ -29,7 +30,8 @@
 		{
 			x: 1.5d
 			y: -2.5d
-			description: ["Generate Su with the power of your hand"]
+			shape: "diamond"
+			description: ["Generates &bSU&r with the power of your hand"]
 			hide_dependency_lines: true
 			dependencies: ["68C911E941D1D7AF"]
 			id: "6C864C7B3A8483E2"
@@ -45,8 +47,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -0.5d
+			x: 2.5d
+			y: 0.0d
+			shape: "diamond"
 			description: [
 				"Generates speed with heat."
 				"Place a heat source on a block below and add a lever on it."
@@ -71,8 +74,9 @@
 		}
 		{
 			icon: "create:flywheel"
-			x: 0.0d
-			y: -1.5d
+			x: 1.0d
+			y: -1.0d
+			shape: "diamond"
 			description: [
 				"Connect two items to a blast furnace."
 				"Make the blast furnace work and then will generate speed."
@@ -100,8 +104,9 @@
 		}
 		{
 			icon: "create:windmill_bearing"
-			x: 3.0d
-			y: -1.5d
+			x: 2.0d
+			y: -1.0d
+			shape: "diamond"
 			description: [
 				"The windmill bearing Generate Su but he need wind power"
 				"Place a radial chassis on the sticky part"
@@ -144,11 +149,12 @@
 		}
 		{
 			icon: "create:mechanical_press"
-			x: 0.0d
+			x: 1.0d
 			y: 1.0d
+			shape: "diamond"
 			description: [
 				"This item will allow you to make &eplate&r."
-				"The item can be placed on the &aflour&r to be &eplated&r or on a suport like a &8belt&r or a &8depot&r."
+				"The item can be placed on the &aflour&r to craft &eplates&r or on a support like a &8belt&r or a &8depot&r."
 				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
 			]
 			hide_dependency_lines: true
@@ -177,11 +183,12 @@
 		}
 		{
 			icon: "create:mechanical_crafter"
-			x: 5.5d
-			y: -10.0d
+			x: 6.0d
+			y: -10.5d
+			shape: "diamond"
 			description: [
-				"With this item you will be allow to make some new &6larger craft&r."
-				"But it's also allow you to &4auto craft&r."
+				"With this item will allow you to make some new &6larger craft&r."
+				"But it also allows you to &4auto craft&r."
 				"The &6crafter slot cover&r will allow you to use the &4mechanical crafter&r without using all the slot, you will just need to apply it on the &8non used slot&r."
 			]
 			hide_dependency_lines: true
@@ -211,7 +218,7 @@
 		}
 		{
 			x: 1.5d
-			y: -4.5d
+			y: -5.0d
 			shape: "gear"
 			hide_dependency_lines: true
 			dependencies: [
@@ -233,8 +240,9 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 2.5d
 			y: 2.0d
+			shape: "diamond"
 			description: [
 				"Allows you to transport items."
 				"To use it you will need to right click on one &8shaft&r and right click on the second &8shaft&r. "
@@ -260,11 +268,12 @@
 		}
 		{
 			icon: "create:mechanical_mixer"
-			x: 0.0d
+			x: 0.5d
 			y: 2.0d
+			shape: "diamond"
 			description: [
-				"This item will allow you to make some &anew craft&r but, it will permit you to make &anon shaped craft&r like : a &6colored bed&r."
-				"but you will need a second thing to make craft the &8bassin&r, he is just here to permit you to make &acraft&r by &aputting item&r on the &8basin&r."
+				"This item will allow you to make some &anew craft&r but, it will allow you to make &anon shaped craft&r like : a &6colored bed&r."
+				"But you will need a second thing to craft the &8bassin&r, it's just here to &acraft&r by &aputting item&r on the &8basin&r."
 				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
 			]
 			hide_dependency_lines: true
@@ -290,7 +299,8 @@
 		}
 		{
 			x: 1.5d
-			y: 1.0d
+			y: 0.0d
+			shape: "diamond"
 			description: [
 				"This item will allow you to make some &anew recipe&r, but she also allow you to &8mill&r some item."
 				"The &aitem&r are insert by the &atop&r."
@@ -316,6 +326,7 @@
 		{
 			x: -4.0d
 			y: -7.0d
+			shape: "rsquare"
 			subtitle: "Paaanik"
 			description: [
 				"Every machine (except this one) generates speed."
@@ -342,6 +353,7 @@
 		{
 			x: -4.0d
 			y: -8.5d
+			shape: "rsquare"
 			subtitle: "Sonic"
 			description: ["With the goggles you can see how fast is your system."]
 			dependencies: ["116A67096288B9C4"]
@@ -360,6 +372,7 @@
 		{
 			x: -4.0d
 			y: -10.5d
+			shape: "hexagon"
 			subtitle: "Goggles Glass "
 			description: ["You can now see the SU of your items in your inventory or to see stats about whether the &nspeedometer&r or the &nstressomotor&r  "]
 			hide_dependency_lines: true
@@ -379,6 +392,7 @@
 		{
 			x: -5.0d
 			y: -11.5d
+			shape: "hexagon"
 			subtitle: "*Krr Krr Krr*"
 			description: ["This item will allow you to control some machines properties"]
 			hide_dependency_lines: true
@@ -398,6 +412,7 @@
 		{
 			x: 2.0d
 			y: -11.5d
+			shape: "pentagon"
 			id: "05D226CD9E9B6923"
 			tasks: [{
 				id: "4A90E72D008294C9"
@@ -413,7 +428,7 @@
 		{
 			x: 0.0d
 			y: -12.5d
-			shape: "circle"
+			shape: "hexagon"
 			description: [
 				"The most important item from &1&l&nCreate&r mod."
 				""
@@ -436,6 +451,7 @@
 		{
 			x: 0.0d
 			y: -14.0d
+			shape: "diamond"
 			subtitle: "Wheels for fun"
 			description: ["Like the shaft, this small gear will grant you Kinetic Power and of course you're able to use it."]
 			dependencies: ["68C911E941D1D7AF"]
@@ -454,6 +470,7 @@
 		{
 			x: 3.0d
 			y: -14.0d
+			shape: "diamond"
 			subtitle: "Larger but better"
 			description: [
 				"Like the &8CogWheel&r but better. "
@@ -476,6 +493,8 @@
 		{
 			x: 3.0d
 			y: -12.5d
+			shape: "hexagon"
+			subtitle: "Splitter"
 			description: ["This item will allow you to split the shaft and reduce how big is your system."]
 			dependencies: ["21A09830915B9206"]
 			id: "70108F5B41B0BB63"
@@ -491,8 +510,9 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -7.0d
+			x: 6.0d
+			y: -8.5d
+			shape: "diamond"
 			description: ["You can now choose how fast goes your system."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -514,6 +534,7 @@
 		{
 			x: 1.5d
 			y: -9.0d
+			shape: "hexagon"
 			subtitle: "Reigning Red"
 			description: ["Place a &lSandpaper&r in your off-hand and then take a &cRose Quartz&r in your main hand and press right click."]
 			dependencies: [
@@ -535,6 +556,7 @@
 		{
 			x: 0.5d
 			y: -7.5d
+			shape: "hexagon"
 			id: "61CC654782143EAB"
 			tasks: [{
 				id: "60A8CC891BF81843"
@@ -556,6 +578,7 @@
 		{
 			x: 2.5d
 			y: -7.5d
+			shape: "hexagon"
 			id: "506C7BFA07D9FB25"
 			tasks: [{
 				id: "72B773ECF487CAE3"
@@ -571,6 +594,7 @@
 		{
 			x: 1.5d
 			y: -10.5d
+			shape: "pentagon"
 			dependencies: ["7782DA352B0A316E"]
 			id: "6F54D09F940C062C"
 			tasks: [{
@@ -585,8 +609,9 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 2.0d
 			y: 1.0d
+			shape: "diamond"
 			description: [
 				"This item will &4crush&r other item, if something didn't have a recipe, he will be &4destroyed&r."
 				"You need to have the two of theme on a &adiferent rotation&r."
@@ -610,10 +635,12 @@
 		{
 			x: 1.5d
 			y: -15.5d
+			shape: "heart"
 			subtitle: "CUCKOO"
 			description: ["CUCKOO CUCKOO CUCKOO"]
 			hide_dependency_lines: true
 			dependencies: ["4C8625AEEC329BAA"]
+			size: 2.0d
 			id: "44B65CC1F3AA0296"
 			tasks: [{
 				id: "10E8F2C8C56DFCC7"
@@ -629,6 +656,7 @@
 		{
 			x: 1.5d
 			y: -1.5d
+			shape: "diamond"
 			subtitle: "Manual Wheel"
 			description: ["Generates &nSU&r by right clicking on it"]
 			hide_dependency_lines: true
@@ -646,8 +674,9 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 0.0d
+			x: 0.0d
+			y: 0.5d
+			shape: "diamond"
 			description: ["Will generate speed with FE"]
 			hide_dependency_lines: true
 			dependencies: [
@@ -667,8 +696,9 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 0.0d
+			x: 3.0d
+			y: 0.5d
+			shape: "diamond"
 			description: ["Will generate FE with speed"]
 			hide_dependency_lines: true
 			dependencies: [
@@ -690,6 +720,7 @@
 		{
 			x: 1.5d
 			y: 2.0d
+			shape: "diamond"
 			description: [
 				"This item will allow you to make &6rods&r but also to make &6wires&r."
 				"you can insert the item just by &aright clicking&r or &aimport&r item with an &8mechanical belt&r."
@@ -712,6 +743,7 @@
 		{
 			x: -3.0d
 			y: -11.5d
+			shape: "hexagon"
 			description: ["Allows you to reach a better distance and make a good knockback punch."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -739,6 +771,7 @@
 		{
 			x: -5.0d
 			y: -9.5d
+			shape: "hexagon"
 			subtitle: "I like symmetry"
 			description: [
 				"This item will help you to construct by setting up a zone."
@@ -775,8 +808,9 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 3.0d
 			y: 2.5d
+			shape: "diamond"
 			description: [
 				"This item will permit you to &aextrat&r or &ainsert&r item from a chest or something else with an &2inventory&r."
 				"But this one will only &aextract&r or &ainsert&r one item  by one item."
@@ -796,8 +830,9 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 3.0d
 			y: 1.5d
+			shape: "diamond"
 			description: [
 				"This item is the improved version of the &8Andesite Funel&r."
 				"This one will &aextract&r or &ainsert&r item per stack but also will allow you tu used &6filter&r."
@@ -823,6 +858,7 @@
 		{
 			x: 1.5d
 			y: -12.5d
+			shape: "diamond"
 			subtitle: "Smeltery "
 			description: ["This item can be turned in two different items by using different methods."]
 			hide_dependency_lines: true
@@ -849,6 +885,7 @@
 		{
 			x: 0.0d
 			y: -11.0d
+			shape: "octagon"
 			subtitle: "Void Recipe"
 			description: ["Throw the &5Chromatic Compound&r into the void"]
 			dependencies: ["2A1C5492170436E8"]
@@ -867,6 +904,7 @@
 		{
 			x: 3.0d
 			y: -11.0d
+			shape: "octagon"
 			subtitle: "Lightning Recipe"
 			description: [
 				"Place a &6Glowstone Block&r near the &5Chromatic Compound&r."
@@ -890,6 +928,7 @@
 		{
 			x: -3.0d
 			y: -9.5d
+			shape: "hexagon"
 			subtitle: "Fwoomp !"
 			description: ["Lauch your home-grown vegetables at your Enemies. Can be powered with Air Pressure from a &dCopper Backtank&f."]
 			hide_dependency_lines: true
@@ -913,8 +952,9 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: 0.0d
 			y: 1.5d
+			shape: "diamond"
 			description: [
 				"To capture the Blaze you need to &aright click&r with an&8 empty blaze burner&r on a &eblaze&r."
 				"To make the &eburner&r work, you need to &arefill&r him with &2combustible&r."
@@ -934,8 +974,9 @@
 		}
 		{
 			title: "Super Heated"
-			x: -1.0d
+			x: 0.0d
 			y: 2.5d
+			shape: "diamond"
 			description: [
 				"You will need to apply &6lava&r on a &4blaze cake base&r on a &1depot&r."
 				""
@@ -959,6 +1000,7 @@
 		{
 			x: 1.0d
 			y: 3.0d
+			shape: "diamond"
 			description: [
 				"This item will allow you to &4harvest&r harvestable item."
 				"&5You can hold your assigned keyboard key to know how to use it&r."
@@ -980,6 +1022,7 @@
 		{
 			x: 1.5d
 			y: 4.0d
+			shape: "diamond"
 			description: [
 				"This item can &4break breakable item&r or &4turning dirt in to farmland&r."
 				"&5You can hold your assigned keyboard key to know how to use it&r."
@@ -1000,10 +1043,11 @@
 		}
 		{
 			title: "Portable Storage Interface"
-			x: 3.0d
-			y: 4.0d
+			x: 2.5d
+			y: 4.5d
+			shape: "diamond"
 			description: [
-				"This item will permit you to &4transfer item from 2 create auto structure&r."
+				"This item will allow you to &4transfer item from 2 create auto structure&r."
 				"&5You can hold your assigned keyboard key to know how to use it&r."
 			]
 			hide_dependency_lines: true
@@ -1022,8 +1066,9 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -7.0d
+			x: 7.0d
+			y: -8.5d
+			shape: "diamond"
 			description: [
 				"This item will &4transport&r item from 2 points."
 				"&5You can hold your assigned keyboard key to know how to use it&r."
@@ -1046,8 +1091,9 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -10.0d
+			x: 7.0d
+			y: -10.5d
+			shape: "diamond"
 			description: ["This item will &4charge&r item (with rf)."]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1067,8 +1113,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 4.0d
+			x: 0.5d
+			y: 4.5d
+			shape: "diamond"
 			description: [
 				"This item will &4cut wood&r or hurt mob or player."
 				"&5You can hold your assigned keyboard key to know how to use it&r."
@@ -1090,8 +1137,9 @@
 		{
 			x: 2.0d
 			y: 3.0d
+			shape: "diamond"
 			description: [
-				"This item will &4break&r block."
+				"This item will &4break&r blocks."
 				"&5You can hold your assigned keyboard key to know how to use it.&r"
 			]
 			hide_dependency_lines: true
@@ -1111,7 +1159,8 @@
 			title: "Chassis"
 			icon: "create:mechanical_bearing"
 			x: 1.5d
-			y: 5.5d
+			y: 5.0d
+			shape: "diamond"
 			description: [
 				"This block allows you to make some create structure, you will also need &4chassis&r to create good auto system."
 				"&5You can hold your assigned keyboard key to know how to use it&r."
@@ -1143,6 +1192,7 @@
 		{
 			x: 1.0d
 			y: -11.5d
+			shape: "pentagon"
 			dependencies: ["05D226CD9E9B6923"]
 			id: "486A5DD23496E2F4"
 			tasks: [{
@@ -1153,14 +1203,15 @@
 		}
 		{
 			x: 6.5d
-			y: -8.0d
+			y: -9.0d
+			shape: "diamond"
 			description: [
-				"You will need &63 deployer&r to make this &acraft&r."
-				"It'ch one have to be equipped with one of all the &a3 ressources&r :"
+				"You will need &63 deployers&r to make this &acraft&r."
+				"Each one has to be equipped with one of all the &a3 ressources&r :"
 				"&7Cogwheel x5&r"
 				"&7Large cogwheel x5&r"
 				"&7Iron nuggets x5&r"
-				"This &a3 ressources&r had to be applied on an &egold plate&r, you have to applied this one by on and retry &athe process fith time&r, and you will have &a80%&r chance to have the &6precision mechanism&r."
+				"This &a3 ressources&r had to be applied on an &egold plate&r, you have to apply this one by on and retry &athe process fith time&r, and you will have &a80%&r chance to have the &6precision mechanism&r."
 				"&5If you want more information about this you can check the Jei recipe&r."
 			]
 			hide_dependency_lines: true
@@ -1179,9 +1230,10 @@
 		}
 		{
 			x: 6.5d
-			y: -9.0d
+			y: -10.0d
+			shape: "diamond"
 			description: [
-				"The &6deployer&r is lika an &aautomatic user&r, you can give a tool to him to make him &ado your work&r. "
+				"The &6deployer&r is like an &aautomatic user&r, you can give a tool to it to make it &ado your work&r. "
 				"It will also be required for the craft of the &6precision mechanism&r."
 				"&5If you want more information about this you can can hold your assigned keyboard key to know how to use it&r."
 			]
@@ -1200,7 +1252,8 @@
 		{
 			x: 6.5d
 			y: -11.0d
-			description: ["This ingot will unlock for you the second part of &6create&r, he will be make by puting &7zinc&r and &4coper&r in a &esuper heated mixer&r."]
+			shape: "diamond"
+			description: ["This ingot will unlock for you the second part of &6create&r, to craft it, simply put a &7zinc ingot&r and &4copper&r in a &esuper heated mixer&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"21A09830915B9206"

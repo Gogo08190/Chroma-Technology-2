@@ -607,7 +607,7 @@
 				{
 					id: "74629906B55BD963"
 					type: "item"
-					item: "mahoutsukai:powdered_eye"
+					item: "mahoutsukai:powdered_diamond"
 					count: 2L
 				}
 			]
@@ -788,8 +788,8 @@
 				"The &cDurability Exchange Spell&r allows you to generate &5Mahou&r by using the durability of a dropped item on the newly created spell."
 				"In order to create that spell, you'll have to take the &3Dagger&r and right click with it. "
 				"Once that's done, draw a &5Mahoujin Circle&r and place these three ingredients (please respect order) : "
-				"- 2 &bpowdered diamonds&r"
-				"- 1 &2powdered emerald&r"
+				"- 1 &bpowdered diamonds&r"
+				"- 2 &2powdered emerald&r"
 			]
 			dependencies: [
 				"6DA7F346F0A55CD3"
@@ -806,12 +806,12 @@
 					id: "1487F0C9B8348832"
 					type: "item"
 					item: "mahoutsukai:powdered_diamond"
-					count: 2L
 				}
 				{
 					id: "4E1A6925A0F2448E"
 					type: "item"
 					item: "mahoutsukai:powdered_emerald"
+					count: 2L
 				}
 			]
 			rewards: [{
