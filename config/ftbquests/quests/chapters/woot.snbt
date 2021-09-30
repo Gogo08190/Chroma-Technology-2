@@ -226,14 +226,16 @@
 		{
 			title: "Tier 1 Factory"
 			x: 3.0d
-			y: 0.0d
+			y: -1.0d
 			shape: "octagon"
 			subtitle: "My First Factory"
 			description: [
 				"Place chests beside the &5Loot Exporter &rto get mobs loots."
-				""
+				"Some mobs require ingredients to drop their loot and these must be provided in chests/tanks beside the &5Ingredient Importer&r."
 				"You can find the items needed for each tier in the Woot Guide."
 			]
+			hide_dependency_lines: true
+			dependencies: ["09567F3122310276"]
 			size: 2.0d
 			id: "197E0349F1BA3FF0"
 			tasks: [
@@ -298,31 +300,13 @@
 			y: -2.0d
 			shape: "diamond"
 			description: [
-				"Some mobs require ingredients to drop their loot and these must be provided in chests/tanks beside the &5Ingredient Importer&r."
-				"All ingredients for ALL mobs be provided or no loot will be produced."
-			]
-			id: "3ADEC05FAC404B85"
-			tasks: [{
-				id: "299C6DC39B0AB568"
-				type: "item"
-				item: "woot:import"
-			}]
-			rewards: [{
-				id: "257D92E8F6F54457"
-				type: "random"
-				table_id: 4063386593177790740L
-			}]
-		}
-		{
-			x: 3.0d
-			y: -2.0d
-			shape: "diamond"
-			description: [
 				"A &5Mob Shard&r is used to capture a mob to use in the factory."
 				"First you must create the &5Mob Shard &rthen attack a mob to program that shard."
 				"With the shard in your inventory you must kill a certain number of that mob."
 				"When the kill count is reached the shard will be converted into a &5Mob Controller&r."
 			]
+			hide_dependency_lines: true
+			dependencies: ["09567F3122310276"]
 			id: "5F406F6126C8EE95"
 			tasks: [{
 				id: "01FFF612ABF597D6"
@@ -350,6 +334,8 @@
 				"The tier can be seen by right clicking on a &5Mob Controller&r."
 				"The &5Mob Controller &ris created on the &aStygian Anvil&r by combining a fully programmed &6Mob Shard&r with a &bPrism &rand &cStygian Iron Plate&r."
 			]
+			hide_dependency_lines: true
+			dependencies: ["09567F3122310276"]
 			id: "6700C53617FF5CEE"
 			tasks: [{
 				id: "14A4BE5DF4112447"
@@ -373,6 +359,8 @@
 				"Different tiers of factory have a maximum level of perk that they will work with."
 				"Higher tier perks can be applied to lower tier factories, however the factory will ignore any perk benefits over its level capacity."
 			]
+			hide_dependency_lines: true
+			dependencies: ["382EAC32691AC539"]
 			id: "1B74ED621978E7C9"
 			tasks: [{
 				id: "4030E44DC4031CFE"
@@ -390,6 +378,8 @@
 			y: -6.0d
 			shape: "diamond"
 			description: ["A valid &5Mob Controller&r must be placed on &6Primary Base&r for the factory to form."]
+			hide_dependency_lines: true
+			dependencies: ["382EAC32691AC539"]
 			id: "6582FFC1B45EF9E0"
 			tasks: [{
 				id: "6FB31A6BD9F004E0"
@@ -407,6 +397,8 @@
 			y: -4.0d
 			shape: "diamond"
 			description: ["This exotic reduces the amount of item recipe ingredients required by &d85.0%&r."]
+			hide_dependency_lines: true
+			dependencies: ["4009E91C9A0B5AF7"]
 			id: "1FF2719D6763FCC0"
 			tasks: [{
 				id: "5939121C14F3A476"
@@ -424,6 +416,8 @@
 			y: -4.0d
 			shape: "diamond"
 			description: ["This exotic spawns &d10 mobs&r for each controller."]
+			hide_dependency_lines: true
+			dependencies: ["4009E91C9A0B5AF7"]
 			id: "64DD4018FA36F7AB"
 			tasks: [{
 				id: "62846D854F459209"
@@ -441,6 +435,8 @@
 			y: -3.0d
 			shape: "diamond"
 			description: ["This exotic reduces the amount of fluid recipe ingredients required by &d85.0%&r."]
+			hide_dependency_lines: true
+			dependencies: ["4009E91C9A0B5AF7"]
 			id: "20CBAF9499839B2E"
 			tasks: [{
 				id: "3B338B157EDE5ACA"
@@ -458,6 +454,8 @@
 			y: -3.0d
 			shape: "diamond"
 			description: ["This exotic runs the factory at a fixed spawn time of &d20 ticks&r."]
+			hide_dependency_lines: true
+			dependencies: ["4009E91C9A0B5AF7"]
 			id: "1DF7A9FCDD8CB724"
 			tasks: [{
 				id: "551C7E386D720308"
@@ -475,6 +473,8 @@
 			y: -3.5d
 			shape: "diamond"
 			description: ["This exotic reduces the amount of Conatus fluid required bu &d85.0%&r."]
+			hide_dependency_lines: true
+			dependencies: ["4009E91C9A0B5AF7"]
 			id: "2726974364A62A39"
 			tasks: [{
 				id: "204FBFD073F236AD"
@@ -497,6 +497,11 @@
 				""
 				"Items can be inserted from any side. Pure Dye can be extracted from any side. The &5Dye Liquifier&r will automatically output to an adjacent fluid handler."
 			]
+			hide_dependency_lines: true
+			dependencies: [
+				"09567F3122310276"
+				"3DFDCC41337EFD39"
+			]
 			id: "375C87CBC1BC445C"
 			tasks: [{
 				id: "356B4F3A13C87990"
@@ -518,6 +523,11 @@
 				""
 				"Items can be inserted from any side. Liquid Enchant can be extracted from any side. The &5Enchant Liquifier &rwill automatically output to an adjacent fluid handler."
 			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3DFDCC41337EFD39"
+				"09567F3122310276"
+			]
 			id: "39D56BD64A190B29"
 			tasks: [{
 				id: "50D7E51100104A84"
@@ -535,6 +545,11 @@
 			y: -5.0d
 			shape: "square"
 			description: ["&5Dee's Oracle &rallows you to view any simulated mob, the associated drops and drop chance at each looting level."]
+			hide_dependency_lines: true
+			dependencies: [
+				"3DFDCC41337EFD39"
+				"09567F3122310276"
+			]
 			id: "6928F7656C5965B7"
 			tasks: [{
 				id: "21E2479BFA8D5691"
@@ -552,6 +567,11 @@
 			y: -6.5d
 			shape: "diamond"
 			description: ["The &5Injection Press&r injects fluids into items. It can be used with Pure Dye to create Dye Plates. It can be uses with Liquid Enchant to create factory upgrade plates and enchanted books."]
+			hide_dependency_lines: true
+			dependencies: [
+				"3DFDCC41337EFD39"
+				"09567F3122310276"
+			]
 			id: "382EAC32691AC539"
 			tasks: [{
 				id: "21C4853686C8407C"
