@@ -15,8 +15,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 1.0d
-			y: -4.0d
+			x: 1.5d
+			y: -3.5d
 			description: ["A handgun that can be loaded with lots of different bullets."]
 			id: "2C6D93A0E4905ECF"
 			tasks: [{
@@ -31,8 +31,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -4.0d
+			x: 1.0d
+			y: 0.0d
 			description: ["&bSojourner's Staff &fholds many torches that you can place by right clicking with it. It can also place torchers at distance for a higher torch cost."]
 			id: "51D860BC3E10865F"
 			tasks: [{
@@ -302,28 +302,6 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -3.5d
-			description: [
-				"&bRod of Lyssa &fis a better fishing rod that in addition to usual fishing drops can do other things."
-				""
-				"You can use it to fish items dropped in the world. Also can pull entities more than regular rod, more so vertically than horizontally."
-				""
-				"Also if player is sneaking it can steal items from mob's inventory."
-			]
-			id: "2D4D516661C0C852"
-			tasks: [{
-				id: "090D01BF47E5D7D3"
-				type: "item"
-				item: "xreliquary:rod_of_lyssa"
-			}]
-			rewards: [{
-				id: "7476774F2C3DF7F6"
-				type: "random"
-				table_id: 4063386593177790740L
-			}]
-		}
-		{
 			x: 3.0d
 			y: -2.0d
 			description: ["Powerful thrown explosive that can kill most of the mobs in one hit."]
@@ -522,8 +500,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -0.5d
+			x: 4.0d
+			y: 0.0d
 			description: ["&bHero's Medallion&f stores experience. When turned on it drains it from player. When turned off player can take one level out of it per right click."]
 			id: "56C964291C4B3390"
 			tasks: [{
