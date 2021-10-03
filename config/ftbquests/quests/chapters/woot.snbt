@@ -11,7 +11,6 @@
 			mode: "BUILD_1"
 		}
 	}
-	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -290,9 +289,9 @@
 				}
 			]
 			rewards: [{
-				id: "46A0153D15AEC65E"
+				id: "38726F313E25ED30"
 				type: "random"
-				table_id: 4063386593177790740L
+				table_id: 8655552789015021416L
 			}]
 		}
 		{

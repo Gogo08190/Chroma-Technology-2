@@ -34,6 +34,8 @@ onEvent('recipes', event => {
     "copper_ingot",
     "copper_block",
     "copper_nugget",
+    "copper_ore",
+    "ore_copper",
   ]
 
   copper.forEach(function (item, index) {
@@ -54,6 +56,7 @@ onEvent('recipes', event => {
     "storage_tin",
     "tin_ingot",
     "tin_block",
+    "tin_ore",
   ]
 
   tin.forEach(function (item, index) {
@@ -84,6 +87,8 @@ onEvent('recipes', event => {
     "lead_ingot",
     "lead_block",
     "lead_nugget",
+    "lead_ore",
+    "ore_lead",
   ]
 
   lead.forEach(function (item, index) {
@@ -103,6 +108,8 @@ onEvent('recipes', event => {
     "silver_ingot",
     "silver_block",
     "silver_nugget",
+    "silver_ore",
+    "ore_silver",
   ]
 
   silver.forEach(function (item, index) {
@@ -122,6 +129,8 @@ onEvent('recipes', event => {
     "nickel_ingot",
     "nickel_block",
     "nickel_nugget",
+    "nickel_ore",
+    "ore_nickel",
   ]
 
   nickel.forEach(function (item, index) {
@@ -139,6 +148,8 @@ onEvent('recipes', event => {
     "uranium_ingot",
     "uranium_block",
     "uranium_nugget",
+    "uranium_ore",
+    "ore_uranium",
   ]
 
   uranium.forEach(function (item, index) {
@@ -159,6 +170,9 @@ onEvent('recipes', event => {
     "aluminum_ingot",
     "aluminum_block",
     "aluminum_nugget",
+    "aluminum_ore",
+    "ore_aluminum",
+    "bauxite_ore",
   ]
 
   aluminum.forEach(function (item, index) {
@@ -336,6 +350,7 @@ onEvent('recipes', event => {
     "nugget_zinc",
     "zinc_block",
     "block_zinc",
+    "zinc_ore",
   ]
 
   zinc.forEach(function (item, index) {

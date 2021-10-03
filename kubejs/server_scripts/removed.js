@@ -155,6 +155,8 @@ onEvent('recipes', event => {
 
   event.remove({id: 'compactmachines:wall'})
 
+  event.remove({id: 'xreliquary:rod_of_lyssa'})
+
   event.remove({output: 'mob_grinding_utils:entity_spawner'})
 
   event.remove({output: 'thermal:earth_tnt'})

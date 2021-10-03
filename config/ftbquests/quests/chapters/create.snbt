@@ -112,7 +112,7 @@
 				"Place a radial chassis on the sticky part"
 				"To connect sail or wool you need to put slime on the face of the radial chassis"
 				"Now connect the sail or the wool to the radial you need 8 at minimal"
-				"Sail ar more efficient than wool"
+				"Sail are more efficient than wool"
 			]
 			hide_dependency_lines: true
 			dependencies: ["68C911E941D1D7AF"]

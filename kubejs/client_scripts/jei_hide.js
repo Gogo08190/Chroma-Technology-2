@@ -105,6 +105,9 @@ events.listen('jei.hide.items', function (event) {
   event.hide('iceandfire:amythest_gem')
   event.hide(Item.of('iceandfire:gorgon_head', {Damage:0}))
 
+  // Reliquary
+  event.hide('xreliquary:rod_of_lyssa')
+
 
   // Silent Gear
   event.hide('silentgear:iron_rod')
