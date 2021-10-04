@@ -892,5 +892,182 @@
 				table_id: 4063386593177790740L
 			}]
 		}
+		{
+			x: 8.5d
+			y: -4.0d
+			shape: "diamond"
+			id: "0536293C1980FE25"
+			tasks: [{
+				id: "6D1040DB78B04274"
+				type: "item"
+				item: "storagenetwork:kabel"
+			}]
+			rewards: [{
+				id: "0FED63E459752352"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["0536293C1980FE25"]
+			id: "68E6E32CBB4C68FE"
+			tasks: [{
+				id: "5E0BFA0AE2DA98A6"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+			}]
+			rewards: [{
+				id: "2479D7A854CFB4BA"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.5d
+			shape: "diamond"
+			dependencies: ["0536293C1980FE25"]
+			id: "251B6745AD828A17"
+			tasks: [{
+				id: "1BEAC4199305E742"
+				type: "item"
+				item: "storagenetwork:import_kabel"
+			}]
+			rewards: [{
+				id: "6AE43C13D4FA5B3B"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.5d
+			shape: "diamond"
+			dependencies: ["0536293C1980FE25"]
+			id: "26951D69C0D70915"
+			tasks: [{
+				id: "5CC814FCE9A962C2"
+				type: "item"
+				item: "storagenetwork:export_kabel"
+			}]
+			rewards: [{
+				id: "687B8DFB4BA183B1"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			shape: "gear"
+			dependencies: ["0536293C1980FE25"]
+			id: "1BCEC262B1CA5E00"
+			tasks: [{
+				id: "78B335DE2205E23E"
+				type: "item"
+				item: "storagenetwork:master"
+			}]
+			rewards: [{
+				id: "7FD5A72CEE163E64"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			shape: "pentagon"
+			dependencies: ["0536293C1980FE25"]
+			id: "5B4119D8656553C7"
+			tasks: [{
+				id: "31C31899DC61DA23"
+				type: "item"
+				item: "storagenetwork:request"
+			}]
+			rewards: [{
+				id: "0F05F7E3C8DF448E"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			shape: "octagon"
+			dependencies: ["1BCEC262B1CA5E00"]
+			id: "04B2759E0C8D2755"
+			tasks: [{
+				id: "1405B941942D2C68"
+				type: "item"
+				item: "storagenetwork:inventory_remote"
+			}]
+			rewards: [{
+				id: "795ECC9B96B16937"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.0d
+			shape: "diamond"
+			dependencies: ["0536293C1980FE25"]
+			id: "63A6A52C0BB84F41"
+			tasks: [{
+				id: "2BF333275DA80040"
+				type: "item"
+				item: "storagenetwork:stack_upgrade"
+			}]
+			rewards: [{
+				id: "1C9EC3D88C2315E4"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			shape: "diamond"
+			dependencies: ["0536293C1980FE25"]
+			id: "2A1473E62F94D469"
+			tasks: [{
+				id: "36E0E8262CA55263"
+				type: "item"
+				item: "storagenetwork:speed_upgrade"
+			}]
+			rewards: [{
+				id: "746E148D639983BF"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
+		{
+			title: "Filtered Cable"
+			x: 9.0d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["0536293C1980FE25"]
+			id: "5A618B7D5293B8F3"
+			tasks: [
+				{
+					id: "23E0382D7A17CC5F"
+					type: "item"
+					item: "storagenetwork:import_filter_kabel"
+				}
+				{
+					id: "0E5C2DE3C0F37D76"
+					type: "item"
+					item: "storagenetwork:filter_kabel"
+				}
+			]
+			rewards: [{
+				id: "0234FA5CB146FE25"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
+		}
 	]
 }
