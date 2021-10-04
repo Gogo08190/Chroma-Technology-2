@@ -9,6 +9,10 @@
 
 #Furnace Settings
 [furnaces]
+	# The capacity of the recipe cache, higher values use more memory.
+	# Default: 10
+	#Range: 1 ~ 100
+	recipe_cache = 10
 
 	[furnaces.iron_furnace]
 		# Number of ticks to complete one smelting operation.
@@ -81,11 +85,11 @@
 		speed = 20
 
 	[furnaces.furance_xp_drop]
-		# This value indicates when the furnace should 'overload' and spit out the xp stored.
+		# This value indicates when the furnace should 'overload' and spit out the xp stored. 
 		# Default: 10, Recipes
 		#Range: 1 ~ 500
 		value = 10
-		# This value indicates when the furnace should 'overload' and spit out the xp stored.
+		# This value indicates when the furnace should 'overload' and spit out the xp stored. 
 		# Default: 100000, Single recipe uses
 		#Range: 1 ~ 1000000
 		value_two = 100000
@@ -147,3 +151,4 @@
 		rainbow = true
 		# Show furnace settings errors in chat, used for debugging
 		errors = false
+

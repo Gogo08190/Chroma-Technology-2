@@ -69,3 +69,4 @@
 	inferiumBiomeWhitelist = []
 	#The list of biome IDs that Soulstone veins can spawn in.
 	soulstoneBiomeWhitelist = []
+

@@ -447,3 +447,4 @@
 [spell]
 	#Define if a spell will be cast (and destroyed) or not if you dont have enought element.
 	spellConsumeOnFail = false
+

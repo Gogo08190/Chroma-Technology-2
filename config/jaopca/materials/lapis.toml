@@ -11,3 +11,7 @@
 	#The model type of the material.
 	modelType = "metallic"
 
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
+

@@ -8,9 +8,9 @@
 	showHearths = false
 	#Does dps message update dynamically or will it only appear after each parse? 
 	dynamicDPS = true
-	#possible skins: 0 = default, 1 = original, 2 = my attempt
-	#Range: 0 ~ 2
-	texture = 0
+	#Skin used by the dummy
+	#Allowed Values: DEFAULT, ORIGINAL, DUNGEONS, ALTERNATIVE
+	texture = "DEFAULT"
 
 	[visuals.damage_number_colors]
 		#hex color for various damage sources
@@ -19,10 +19,11 @@
 		dragon_breath = "0xFF00FF"
 		wither = "0x666666"
 		explosion = "0xFFCC33"
-		indirect_magic = "0x990033"
 		magic = "0x3399FF"
 		trident = "0x00FFCC"
 		fire = "0xFF9900"
 		lightning = "0xFFFF00"
 		cactus = "0x006600"
+		magic_indirect = "844ce7"
+		true_damage = "910038"
 

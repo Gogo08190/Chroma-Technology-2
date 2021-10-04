@@ -1,5 +1,5 @@
 
-#General settings
+#General Settings
 [General]
 	#Ignore speed boosts for field of view
 	useFOVFix = true
@@ -9,6 +9,10 @@
 	fovFixDefaultState = true
 	#Use sounds
 	useSounds = true
+
+["Development Settings"]
 	#Enable debugging info
 	enableDebugging = false
+	#Draw spacers used in GUIs
+	drawSpacers = false
 

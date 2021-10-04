@@ -14,4 +14,10 @@
 	toGearMaterialBlacklist = []
 	#The materials that should not have press to coin recipes added.
 	toCoinMaterialBlacklist = []
+	#The materials that should not have press material to coin recipes added.
+	materialToCoinMaterialBlacklist = []
+	#The materials that should not have press nugget to coin recipes added.
+	nuggetToCoinMaterialBlacklist = []
+	#The materials that should not have chiller recipes added.
+	chillerToIngotMaterialBlacklist = []
 

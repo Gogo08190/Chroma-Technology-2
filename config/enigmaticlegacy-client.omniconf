@@ -9,6 +9,9 @@
 ##########################################################################################################
 
 "Generic Config" {
+    # Whether or not flame particles should appear when the Astral Breaker breaks a block [default: true]
+    B:AstralBreakerFlameParticlesToggle=true
+
     # Controls how obscured your vision is in lava when Blazing Core is equipped. Lower value equals more visibility. [range: 0.0 ~ 1024.0, default: 0.3]
     D:BlazingCoreLavaDensity=0.3
 
