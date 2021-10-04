@@ -1697,8 +1697,8 @@
 			}]
 		}
 		{
-			x: -15.5d
-			y: -9.0d
+			x: -17.0d
+			y: -10.5d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["4A5A2B7DE466A2F8"]
@@ -2154,6 +2154,33 @@
 				id: "5D66D6D7443B8CF0"
 				type: "random"
 				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: -14.0d
+			y: -10.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["4A5A2B7DE466A2F8"]
+			id: "6339048BE8D92FBD"
+			tasks: [{
+				id: "0718FD2F4FAD00DC"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_comb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:quartz_enriched_iron"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6F28347574BDCF70"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				count: 16
 			}]
 		}
 	]

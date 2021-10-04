@@ -1389,6 +1389,8 @@
 				"&4Watchout the boss will break block at spawn ONLY.&r"
 				"&2Have a nice fight.&r"
 			]
+			hide_dependency_lines: true
+			dependencies: ["074D7E30C16E104E"]
 			id: "3E6421CAEB07402E"
 			tasks: [
 				{
@@ -1411,11 +1413,19 @@
 		{
 			x: 0.0d
 			y: -1.5d
+			description: ["After right clicking with a ritual tablet, the brazier will ignit, just simply right click with the required item"]
+			hide_dependency_lines: true
+			dependencies: ["13ECF17994290FF8"]
 			id: "074D7E30C16E104E"
 			tasks: [{
 				id: "2F2D433E941752B6"
 				type: "item"
 				item: "ars_nouveau:ritual"
+			}]
+			rewards: [{
+				id: "0102D5428E09F188"
+				type: "random"
+				table_id: 4063386593177790740L
 			}]
 		}
 	]

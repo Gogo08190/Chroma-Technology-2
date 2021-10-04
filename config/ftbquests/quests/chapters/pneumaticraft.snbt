@@ -233,6 +233,7 @@
 			}]
 		}
 		{
+			title: "Assembly processing"
 			icon: "pneumaticcraft:assembly_controller"
 			x: 9.0d
 			y: 1.5d
@@ -1091,16 +1092,25 @@
 			}]
 		}
 		{
+			title: "Refinery"
 			x: 3.5d
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: ["3082CAF4D296AF61"]
 			id: "61046F40617A8BFD"
-			tasks: [{
-				id: "48D7D9B20ADC92BA"
-				type: "item"
-				item: "pneumaticcraft:refinery_output"
-			}]
+			tasks: [
+				{
+					id: "48D7D9B20ADC92BA"
+					type: "item"
+					item: "pneumaticcraft:refinery_output"
+					count: 4L
+				}
+				{
+					id: "5035D21E0E4E27AD"
+					type: "item"
+					item: "pneumaticcraft:refinery"
+				}
+			]
 			rewards: [{
 				id: "37A3D2FEF97B0176"
 				type: "random"
