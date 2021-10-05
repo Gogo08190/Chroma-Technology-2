@@ -561,9 +561,6 @@
 			icon: {
 				id: "mahoutsukai:scroll_treasury_projection"
 				Count: 1b
-				tag: {
-					MAHOUTSUKAI_CASTER_NAME: ""
-				}
 				ForgeCaps: {
 					Parent: {
 						MAHOUTSUKAI_CASTER_NAME: ""
@@ -1093,9 +1090,6 @@
 			icon: {
 				id: "mahoutsukai:scroll_proximity_projection"
 				Count: 1b
-				tag: {
-					MAHOUTSUKAI_CASTER_NAME: ""
-				}
 				ForgeCaps: {
 					Parent: {
 						MAHOUTSUKAI_CASTER_NAME: ""
@@ -1151,9 +1145,6 @@
 			icon: {
 				id: "mahoutsukai:scroll_mystic_staff"
 				Count: 1b
-				tag: {
-					MAHOUTSUKAI_CASTER_NAME: ""
-				}
 				ForgeCaps: {
 					Parent: {
 						MAHOUTSUKAI_CASTER_NAME: ""

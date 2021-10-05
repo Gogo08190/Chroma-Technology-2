@@ -1411,10 +1411,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -1.5d
+			x: -3.0d
+			y: -2.5d
 			description: ["After right clicking with a ritual tablet, the brazier will ignit, just simply right click with the required item"]
-			hide_dependency_lines: true
 			dependencies: ["13ECF17994290FF8"]
 			id: "074D7E30C16E104E"
 			tasks: [{
