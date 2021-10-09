@@ -1,10 +1,10 @@
 {
 	id: "114878C046AA32C8"
 	group: "247A2B0D60E02610"
-	order_index: 17
+	order_index: 16
 	filename: "solar_panels"
 	title: "Solar Flux Reborn"
-	icon: "numina:component_solar_panel"
+	icon: "solarflux:sp_8"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	quests: [
