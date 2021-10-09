@@ -1729,13 +1729,20 @@
 			size: 2.0d
 			min_width: 300
 			id: "195589B926F6EC61"
-			tasks: [{
-				id: "33C83972A57426F9"
-				type: "dimension"
-				title: "A new Realm"
-				icon: "iceandfire:dread_portal"
-				dimension: "bloodmagic:dungeon"
-			}]
+			tasks: [
+				{
+					id: "33C83972A57426F9"
+					type: "dimension"
+					title: "A new Realm"
+					icon: "iceandfire:dread_portal"
+					dimension: "bloodmagic:dungeon"
+				}
+				{
+					id: "156E8C836D02FF42"
+					type: "checkmark"
+					title: "Visit the &3Demon Realm&r."
+				}
+			]
 			rewards: [{
 				id: "437871D443DFE4B5"
 				type: "random"
