@@ -961,5 +961,15 @@
 				title: "Informations about Tomes"
 			}]
 		}
+		{
+			x: 1.0d
+			y: -4.0d
+			id: "19053DB28BFA73C5"
+			tasks: [{
+				id: "02CDBF6FF364F033"
+				type: "item"
+				item: "apotheosis:enchantment_library"
+			}]
+		}
 	]
 }
