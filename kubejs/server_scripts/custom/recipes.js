@@ -132,4 +132,8 @@ events.listen('recipes', event => {
     O: 'minecraft:obsidian',
     P: 'powah:aerial_pearl'
   })
+
+  event.smelting('thermal:lead_ingot', 'thermal:lead_dust')
+  event.smelting('silents_mechanisms:uranium_dust', 'silents_mechanisms:uranium_ingot')
+  event.smelting('mekanism:uranium_ore', 'silents_mechanisms:uranium_ingot')
 });
