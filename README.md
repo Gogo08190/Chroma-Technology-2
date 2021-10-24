@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.curseforge.com/minecraft/modpacks/chroma-technology">
+  <a href="https://www.curseforge.com/minecraft/modpacks/chroma-technology-2">
     <img border="0" alt="CurseForge" src="https://imgur.com/JFrClUh.png">
   </a>
 </p>
