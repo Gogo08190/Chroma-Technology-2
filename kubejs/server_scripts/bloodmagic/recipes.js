@@ -8,7 +8,7 @@ onEvent('recipes', event => {
   'M B'
   ], {
     M: 'mythicbotany:alfsteel_armor_upgrade',
-    A: Item.of('aiotbotania:alfsteel_aiot', '{mana:0,Damage:0}'),
+    A: 'mythicbotany:alfsteel_sword',
     B: 'botania:bifrost_perm'
   })
 
