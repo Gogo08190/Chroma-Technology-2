@@ -21,7 +21,7 @@ onEvent('recipes', event => {
   'ICI'
   ], {
     I: '#forge:ingots/iron',
-    C: 'numina:component_computer_chip',
+    C: 'immersiveengineering:component_steel',
     B: 'silents_mechanisms:circuit_board',
     S: 'rftoolsbase:information_screen',
     H: 'thermal:obsidian_glass'
