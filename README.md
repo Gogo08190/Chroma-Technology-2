@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.curseforge.com/minecraft/modpacks/chroma-technology">
+  <a href="https://www.curseforge.com/minecraft/modpacks/chroma-technology-2">
     <img border="0" alt="CurseForge" src="https://imgur.com/JFrClUh.png">
   </a>
 </p>
@@ -11,6 +11,14 @@
 <p align="center">
   <a href="https://discord.gg/cVEMguY">
     <img src="https://img.shields.io/discord/370244934483312640?color=1b1b1b&label=Discord&logo=Discord&style=for-the-badge">
+  </a>
+  
+  <a href="https://youtube.com/user/gogo08190">
+    <img src="https://img.shields.io/youtube/channel/subscribers/UChUu8YrCDvPNfNn4Dcdorsg?label=Youtube&style=for-the-badge">
+  </a>
+  
+  <a href="https://twitch.tv/gogo08190">
+    <img src="https://img.shields.io/twitch/status/gogo08190?style=for-the-badge">
   </a>
 </p>
 
