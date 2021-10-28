@@ -256,9 +256,15 @@
 			dependencies: ["3CFDD21EAC199E31"]
 			id: "2734FEBB2FA98226"
 			tasks: [{
-				id: "112F8B89B74B60DC"
+				id: "3B3639E48F29335D"
 				type: "item"
-				item: "tconstruct:creative_slot"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "upgrades"
+					}
+				}
 			}]
 			rewards: [{
 				id: "70F941182F7317CD"

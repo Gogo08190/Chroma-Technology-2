@@ -1519,25 +1519,6 @@
 			}]
 		}
 		{
-			x: -18.5d
-			y: -6.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["4A5A2B7DE466A2F8"]
-			id: "4396C4CE700B186A"
-			tasks: [{
-				id: "596BEEC0EAFECED1"
-				type: "item"
-				item: "productivebees:comb_soulsteel"
-			}]
-			rewards: [{
-				id: "3BDC7C43281B43E8"
-				type: "item"
-				item: "tconstruct:soulsteel_ingot"
-				count: 36
-			}]
-		}
-		{
 			x: -16.0d
 			y: -12.5d
 			shape: "diamond"
@@ -1933,7 +1914,7 @@
 		}
 		{
 			x: -18.5d
-			y: -4.5d
+			y: -6.5d
 			shape: "diamond"
 			hide_dependency_lines: true
 			dependencies: ["4A5A2B7DE466A2F8"]

@@ -414,6 +414,7 @@
 			}]
 		}
 		{
+			title: "Item Transportation Upgrade"
 			x: -4.0d
 			y: -8.0d
 			shape: "diamond"
@@ -435,7 +436,7 @@
 				{
 					id: "670102E4F51C48A8"
 					type: "item"
-					title: "Item Exsport Upgrade"
+					title: "Item Export Upgrade"
 					item: "pedestals:coin/export"
 				}
 			]

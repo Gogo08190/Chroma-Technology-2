@@ -893,11 +893,18 @@
 				type: "item"
 				item: "appliedenergistics2:drive"
 			}]
-			rewards: [{
-				id: "6EF463E0FF5A7043"
-				type: "random"
-				table_id: 8655552789015021416L
-			}]
+			rewards: [
+				{
+					id: "6EF463E0FF5A7043"
+					type: "random"
+					table_id: 8655552789015021416L
+				}
+				{
+					id: "44F9EB885296310E"
+					type: "item"
+					item: "refinedstorage:external_storage"
+				}
+			]
 		}
 		{
 			x: 11.5d

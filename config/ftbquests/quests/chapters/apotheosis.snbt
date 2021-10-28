@@ -970,6 +970,18 @@
 				type: "item"
 				item: "apotheosis:enchantment_library"
 			}]
+			rewards: [
+				{
+					id: "6CB43958995A7853"
+					type: "random"
+					table_id: 8655552789015021416L
+				}
+				{
+					id: "260D27AE229254E0"
+					type: "random"
+					table_id: 377628902063858466L
+				}
+			]
 		}
 	]
 }

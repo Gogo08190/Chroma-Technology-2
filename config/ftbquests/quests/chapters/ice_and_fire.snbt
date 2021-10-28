@@ -3518,6 +3518,11 @@
 				item: "iceandfire:dragonscales_black"
 				count: 24L
 			}]
+			rewards: [{
+				id: "06DA6F594261B527"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			title: "&8Black Dragon Armor&r"
@@ -3571,6 +3576,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "5CE32E554748EA43"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			title: "&6Copper Dragon Scale&r"
@@ -3582,6 +3592,11 @@
 				type: "item"
 				item: "iceandfire:dragonscales_copper"
 				count: 24L
+			}]
+			rewards: [{
+				id: "2C7F5D5AAF99FA5E"
+				type: "random"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -3636,6 +3651,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "54D3F7016D70235B"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: 1.0d

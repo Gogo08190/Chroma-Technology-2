@@ -540,7 +540,7 @@
 			tasks: [{
 				id: "7AFFC40410D69555"
 				type: "stat"
-				icon: "powersuits:jump_assist"
+				icon: "pneumaticcraft:jet_boots_upgrade_5"
 				stat: "minecraft:jump"
 				value: 50000
 			}]
