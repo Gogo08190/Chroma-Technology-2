@@ -15,7 +15,7 @@ onEvent('recipes', event => {
 
   // Flux Core
   event.remove({ output: '4x fluxnetworks:flux_core' })
-  event.shaped('fluxnetworks:flux_core', [
+  event.shaped('4x fluxnetworks:flux_core', [
   'FOF',
   'OEO',
   'FOF'
