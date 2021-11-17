@@ -126,7 +126,7 @@
 	"Godly: maxPingChance" = 1.0
 	#Inside this radius, ping properties will not change. The smaller it is, the easier it will be to narrow down a dragon's location. Default: 0
 	#Range: 1 ~ 500
-	"Godly: pingCapRadius" = 0
+	"Godly: pingCapRadius" = 1
 	#Mathematical property governing the relationship between distance and ping properties. The higher this is, the easier it will be to narrow down a dragon's location. Default: 3.5
 	#Range: 1.0 ~ 5.0
 	"Godly: sigPower" = 3.5

@@ -42,7 +42,7 @@ var lastClearLagResult = utils.newList()
 // Create variable for total number of items
 var lastTotalClearLagResult = utils.newCountingMap()
 // Minimal Item existence in ticks
-var minItemTime = 300
+var minItemTime = 1200
 
 // Create new function that clears lag
 function clearLag (server) {

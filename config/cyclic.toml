@@ -143,6 +143,22 @@
 			#Power per tick while in use
 			#Range: 0 ~ 64000
 			structure = 10
+			#Power per recipe in the packager
+			#Range: 0 ~ 64000
+			packager = 50
+
+		[cyclic.energy.generator_fuel]
+			#RF energy per tick generated while burning furnace fuel in this machine.  Burn time in ticks is the same as furnace values, so 1 coal = 1600 ticks
+			#Range: 1 ~ 6400
+			rf_per_tick = 80
+
+		[cyclic.energy.generator_food]
+			#RF energy per tick generated while burning food in this machine
+			#Range: 1 ~ 6400
+			rf_per_tick = 60
+			#This [factor * (item.food + item.saturation) = ticks] results in the number of ticks food will burn at. IE Bread has (5 + 0.6) with factor 100, will burn for 560 ticks.
+			#Range: 1 ~ 6400
+			ticks_per_food = 100
 
 	#####################################################################################
 	# Item specific configs
@@ -263,6 +279,16 @@
 				#True means left, False means right
 				prefer_left_wall = false
 
+			[cyclic.items.charms.charm_torch]
+				#Light level limit for placing torches
+				#Range: 0 ~ 15
+				light_level = 9
+
+		[cyclic.items.prospector]
+			#Ore Prospector radius around player to search for ores
+			#Range: 1 ~ 99
+			range = 32
+
 	#####################################################################################
 	# Block specific configs
 	#####################################################################################
@@ -294,9 +320,9 @@
 
 		#Uncrafter settings
 		[cyclic.blocks.uncrafter]
-			#When searching for a recipe, does it ignore all NBT values (such as enchantments, RepairCost, Damage, etc).  For example, if false it will not uncraft damaged or enchanted items
+			#False will mean you cannot uncraft damaged repairable items. When searching for a recipe, does it ignore all NBT values (such as enchantments, RepairCost, Damage, etc).  For example, if false it will not uncraft damaged or enchanted items
 			nbt_ignored = true
-			#ITEM IDS HERE.  Block ALL recipes that output this item, no matter which recipe they use
+			#ITEM IDS HERE.  Block ALL recipes that output this item, no matter which recipe they use. For example, if you add 'minecraft:stick' here, all recipes that craft into one or more sticks will be disabled (including two wooden planks).
 			ignore_list = ["minecraft:elytra", "minecraft:tipped_arrow", "minecraft:*_dye", "spectrite:spectrite_arrow", "spectrite:spectrite_arrow_special", "techreborn:uumatter", "projecte:*"]
 			#RECIPE IDS HERE.  Block these recipe ids from being reversed, but do not block all recipes for this output item
 			ignore_recipes = ["botania:cobweb", "minecraft:magma_cream", "minecraft:beacon", "minecraft:stick_from_bamboo_item", "minecraft:netherite_ingot_from_netherite_block", "mysticalagriculture:essence*", "mysticalagriculture:farmland_till", "refinedstorage:coloring_recipes*"]
@@ -321,6 +347,12 @@
 			#Controller Max distance to search (using manhattan distance)
 			#Range: 1 ~ 256
 			controller_distance = 64
+
+		#Ender shelf settings
+		[cyclic.blocks.sound]
+			#Sound Recorder - how far out does it listen to record sounds
+			#Range: 1 ~ 64
+			radius = 8
 
 	#####################################################################################
 	#Fluid cost for various machines

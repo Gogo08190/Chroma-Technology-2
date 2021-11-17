@@ -77,7 +77,7 @@
 	#How many durability damage take the Poison Upgraded Armor when protect the player ? 
 	#Range: 1 ~ 100
 	DamageDurabilityPoisonArmor = 5
-	#Enable Poison Upgraded Armor Effect : Climbs Walls. ?
+	#Enable Poison Upgraded Armor Effect : Climbs Walls ?
 	EnableClimbWall = true
 
 ["Phantom Armor Effect Options"]
@@ -86,6 +86,8 @@
 	#How many durability damage take the Phantom Upgraded Armor when protect the player ? (Fall distance * Value)
 	#Range: 1 ~ 100
 	MultiplierDamageDurabilityPhantomArmor = 1
+	#Enable Phantom Upgraded Armor Effect : Step Height ?
+	EnableStepHeight = true
 
 ["Feather Armor Effect Options"]
 	#Feather Upgraded Armor loose durability when the player walk on water ? 

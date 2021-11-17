@@ -17,7 +17,7 @@
     "use_particle_culling": true,
     "use_fog_occlusion": true,
     "use_compact_vertex_format": false,
-    "use_block_face_culling": true,
+    "use_block_face_culling": false,
     "allow_direct_memory_access": true,
     "ignore_driver_blacklist": false
   },

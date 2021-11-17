@@ -58,4 +58,8 @@
 	SHOW_MORGAN_CALIBURN_COOLDOWN = false
 	#No Shaders
 	NO_SHADERS = false
+	#Old Circle Render
+	OLD_CIRCLE_RENDER = false
+	#Old Circle Animation
+	OLD_CIRCLE_ANIM = false
 

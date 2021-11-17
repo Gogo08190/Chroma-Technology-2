@@ -98,9 +98,6 @@
 	#Cooldown in minutes to use the command tbbind [-1..1440|default:-1]
 	#Range: -1 ~ 1440
 	cooldown_teleport_bind = -1
-	#Cooldown in minutes to use the perk Tomb Raider [60..1440|default:60]
-	#Range: 60 ~ 1440
-	cooldown_tomb_raiding = 60
 	#Fishing treasures can only be found in open water [false/true|default:true]
 	fishing_treasure_in_open_water = true
 
@@ -157,8 +154,6 @@
 
 #Allows to customize or disable the enchantments
 [enchantments]
-	#Restricts the effect of Shadow Step to players [false/true|default:false]
-	restrict_shadow_step_to_player = true
 	#The wearer is also affected by the effect if his alignment is not bad [false/true|default:true]
 	nerf_plague_bringer = true
 	#Maximum duration of stolen effects in minutes [1..MAX|default:60]
