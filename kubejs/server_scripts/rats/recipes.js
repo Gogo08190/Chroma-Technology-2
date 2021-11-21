@@ -15,9 +15,6 @@ onEvent('recipes', event => {
       {"item": "rats:cheese"},
       {"item": "rats:cheese"},
       {"item": "rats:cheese"},
-      {"item": "rats:cheese"},
-      {"item": "rats:cheese"},
-      {"item": "rats:cheese"},
       {"item": "rats:cheese"}
       ],
       "energy": 5000,

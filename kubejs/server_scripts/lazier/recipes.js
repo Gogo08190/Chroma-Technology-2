@@ -8,7 +8,7 @@ onEvent('recipes', event => {
       inputs: [
           {
               input: {
-                  tag: 'refinedstorage:raw_basic_processor'
+                  item: 'refinedstorage:raw_basic_processor'
               }
           },
           {
@@ -18,11 +18,11 @@ onEvent('recipes', event => {
           },
           {
               input: {
-                  item: '#forge:silicon'
+                  tag: '#forge:silicon'
               }
           }
       ]
-  });
+  })
 
   event.custom({
     type: 'lazierae2:circuit_etcher',
@@ -33,7 +33,7 @@ onEvent('recipes', event => {
     inputs: [
         {
             input: {
-                tag: 'refinedstorage:raw_improved_processor'
+                item: 'refinedstorage:raw_improved_processor'
             }
         },
         {
@@ -43,11 +43,11 @@ onEvent('recipes', event => {
         },
         {
             input: {
-                item: '#forge:silicon'
+                tag: '#forge:silicon'
             }
         }
     ]
-  });
+  })
 
   event.custom({
     type: 'lazierae2:circuit_etcher',
@@ -58,7 +58,7 @@ onEvent('recipes', event => {
     inputs: [
         {
             input: {
-                tag: 'refinedstorage:raw_advanced_processor'
+                item: 'refinedstorage:raw_advanced_processor'
             }
         },
         {
@@ -68,11 +68,11 @@ onEvent('recipes', event => {
         },
         {
             input: {
-                item: '#forge:silicon'
+                tag: '#forge:silicon'
             }
         }
     ]
-  });
+  })
 
   event.custom({
     type: 'lazierae2:circuit_etcher',
@@ -83,21 +83,21 @@ onEvent('recipes', event => {
     inputs: [
         {
             input: {
-                tag: 'refinedstorage:raw_basic_processor'
+                item: 'refinedstorage:raw_basic_processor'
             }
         },
         {
             input: {
-                tag: 'minecraft:glowstone_dust'
+                item: 'minecraft:glowstone_dust'
             }
         },
         {
             input: {
-                item: '#forge:silicon'
+                tag: '#forge:silicon'
             }
         }
     ]
-  });
+  })
 
   event.custom({
     type: 'lazierae2:circuit_etcher',
@@ -108,19 +108,19 @@ onEvent('recipes', event => {
     inputs: [
         {
             input: {
-                tag: 'refinedstorage:raw_basic_processor'
+                item: 'refinedstorage:raw_basic_processor'
             }
         },
         {
             input: {
-                tag: 'minecraft:quartz'
+                item: 'minecraft:quartz'
             }
         },
         {
             input: {
-                item: '#forge:silicon'
+                tag: '#forge:silicon'
             }
         }
     ]
-  });
+  })
 });
