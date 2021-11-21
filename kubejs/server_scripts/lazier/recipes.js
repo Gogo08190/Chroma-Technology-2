@@ -13,7 +13,7 @@ onEvent('recipes', event => {
           },
           {
               input: {
-                  tag: 'forge:dusts/redstone'
+                  item: 'forge:dusts/redstone'
               }
           },
           {
@@ -38,7 +38,7 @@ onEvent('recipes', event => {
         },
         {
             input: {
-                tag: 'forge:dusts/redstone'
+                item: 'forge:dusts/redstone'
             }
         },
         {
@@ -63,7 +63,7 @@ onEvent('recipes', event => {
         },
         {
             input: {
-                tag: 'forge:dusts/redstone'
+                item: 'forge:dusts/redstone'
             }
         },
         {
