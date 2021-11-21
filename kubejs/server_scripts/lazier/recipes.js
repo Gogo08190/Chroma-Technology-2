@@ -13,7 +13,7 @@ onEvent('recipes', event => {
           },
           {
               input: {
-                  item: 'forge:dusts/redstone'
+                  item: 'minecraft:redstone'
               }
           },
           {
@@ -38,7 +38,7 @@ onEvent('recipes', event => {
         },
         {
             input: {
-                item: 'forge:dusts/redstone'
+                item: 'minecraft:redstone'
             }
         },
         {
@@ -63,7 +63,7 @@ onEvent('recipes', event => {
         },
         {
             input: {
-                item: 'forge:dusts/redstone'
+                item: 'minecraft:redstone'
             }
         },
         {
