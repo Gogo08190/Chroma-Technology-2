@@ -320,7 +320,6 @@ events.listen('jei.hide.items', function (event) {
 
   event.hide([
     /appliedenergistics2:facade/,
-    /chiselsandbits:block_bit/,
     /mysticalagriculture:soul_jar/,
     /ftblibrary:fluid_container/,
     /tconstruct:part_builder/,
