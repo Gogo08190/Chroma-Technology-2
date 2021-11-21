@@ -18,7 +18,7 @@ onEvent('recipes', event => {
           },
           {
               input: {
-                  tag: '#forge:silicon'
+                  item: 'refinedstorage:silicon'
               }
           }
       ]
@@ -43,7 +43,7 @@ onEvent('recipes', event => {
         },
         {
             input: {
-                tag: '#forge:silicon'
+                item: 'refinedstorage:silicon'
             }
         }
     ]
@@ -68,7 +68,7 @@ onEvent('recipes', event => {
         },
         {
             input: {
-                tag: '#forge:silicon'
+                item: 'refinedstorage:silicon'
             }
         }
     ]
@@ -93,7 +93,7 @@ onEvent('recipes', event => {
         },
         {
             input: {
-                tag: '#forge:silicon'
+                item: 'refinedstorage:silicon'
             }
         }
     ]
@@ -118,7 +118,7 @@ onEvent('recipes', event => {
         },
         {
             input: {
-                tag: '#forge:silicon'
+                item: 'refinedstorage:silicon'
             }
         }
     ]
