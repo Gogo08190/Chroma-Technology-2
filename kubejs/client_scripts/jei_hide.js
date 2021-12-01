@@ -324,8 +324,7 @@ events.listen('jei.hide.items', function (event) {
     /ftblibrary:fluid_container/,
     /tconstruct:part_builder/,
     /tconstruct:tinker_station/,
-    /tconstruct:crafting_station/,
-    'tconstruct:scorched_anvil'/
+    /tconstruct:crafting_station/
   ])
 })
 
@@ -342,7 +341,6 @@ onEvent('jei.add.items', e => {
     'mysticalagriculture:soul_jar',
     Item.of('appliedenergistics2:facade', '{item:"minecraft:stone"}'),
     Item.of('tconstruct:part_builder', '{texture:"minecraft:oak_planks"}'),
-    Item.of('tconstruct:tinker_station', '{texture:"minecraft:oak_planks"}'),
-    Item.of('tconstruct:tinkers_anvil', '{texture:"tconstruct:tinkers_bronze_block"}')
+    Item.of('tconstruct:tinker_station', '{texture:"minecraft:oak_planks"}')
   ])
 })
