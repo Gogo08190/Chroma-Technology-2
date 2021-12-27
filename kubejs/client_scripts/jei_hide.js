@@ -55,6 +55,7 @@ events.listen('jei.hide.items', function (event) {
   event.hide('immersiveengineering:nugget_constantan')
   event.hide('immersiveengineering:ingot_constantan')
   event.hide('immersiveengineering:slab_storage_constantan')
+  event.hide('tombstone:book_of_recycling')
 
   // Mekanism
   event.hide('mekanism:copper_ore')

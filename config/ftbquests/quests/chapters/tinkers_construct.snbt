@@ -397,8 +397,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 4.5d
+			x: 4.0d
+			y: 3.5d
 			shape: "diamond"
 			id: "6A4D61A49021FA6C"
 			tasks: [{
@@ -419,24 +419,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 4.5d
-			shape: "diamond"
-			id: "1841996C88CE7475"
-			tasks: [{
-				id: "2139333F04C606DA"
-				type: "item"
-				item: "tconstruct:earth_slime_boots"
-			}]
-			rewards: [{
-				id: "78858DB76F222014"
-				type: "random"
-				table_id: 4063386593177790740L
-			}]
-		}
-		{
 			x: 4.0d
-			y: 4.0d
+			y: 4.5d
 			shape: "diamond"
 			id: "13AD3B646FAB15D3"
 			tasks: [{

@@ -510,8 +510,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -8.5d
+			x: 7.0d
+			y: -9.5d
 			shape: "diamond"
 			description: ["You can now choose how fast goes your system."]
 			hide_dependency_lines: true
@@ -1067,7 +1067,7 @@
 		}
 		{
 			x: 7.0d
-			y: -8.5d
+			y: -10.5d
 			shape: "diamond"
 			description: [
 				"This item will &4transport&r item from 2 points."
@@ -1086,28 +1086,6 @@
 			}]
 			rewards: [{
 				id: "5032501D876BD4B2"
-				type: "random"
-				table_id: 4063386593177790740L
-			}]
-		}
-		{
-			x: 7.0d
-			y: -10.5d
-			shape: "diamond"
-			description: ["This item will &4charge&r item (with rf)."]
-			hide_dependency_lines: true
-			dependencies: [
-				"3062EC7F5DD6F6C5"
-				"2CCC9D567D823DD4"
-			]
-			id: "137FA8A991848E78"
-			tasks: [{
-				id: "4A22CACBF3640C04"
-				type: "item"
-				item: "createaddition:charger"
-			}]
-			rewards: [{
-				id: "14CE4DDA401AB6EC"
 				type: "random"
 				table_id: 4063386593177790740L
 			}]
@@ -1202,8 +1180,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -9.0d
+			x: 6.0d
+			y: -9.5d
 			shape: "diamond"
 			description: [
 				"You will need &63 deployers&r to make this &acraft&r."

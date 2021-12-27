@@ -122,6 +122,7 @@ onEvent('recipes', event => {
   event.remove({output: 'farmersdelight:potato_crate'})
   event.remove({output: 'farmersdelight:beetroot_crate'})
   event.remove({output: 'farmersdelight:carrot_crate'})
+  event.remove({output: 'tombstone:book_of_recycling'})
 
   event.remove({output: 'minecraft:enchanted_golden_apple'})
   event.remove({id: 'apotheosis:enchanted_golden_apple'})

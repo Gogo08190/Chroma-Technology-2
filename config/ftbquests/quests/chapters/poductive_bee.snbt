@@ -2164,5 +2164,153 @@
 				count: 16
 			}]
 		}
+		{
+			x: -12.0d
+			y: -15.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["4A5A2B7DE466A2F8"]
+			id: "1B1257ABE47DE4DB"
+			tasks: [{
+				id: "06847592AF80FEA7"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_comb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:fire_dragonsteel"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "75FF2391A2F95F87"
+				type: "item"
+				item: "iceandfire:dragonsteel_fire_ingot"
+				count: 5
+			}]
+		}
+		{
+			x: -11.5d
+			y: -16.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["4A5A2B7DE466A2F8"]
+			id: "5CD7CE5703C4C2A5"
+			tasks: [{
+				id: "3FAD7E1DFE4CE944"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_comb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:ice_dragonsteel"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E8342F5BD539DB1"
+				type: "item"
+				item: "iceandfire:dragonsteel_ice_ingot"
+				count: 5
+			}]
+		}
+		{
+			x: -12.0d
+			y: -16.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["4A5A2B7DE466A2F8"]
+			id: "6C8F2734387AF6E7"
+			tasks: [{
+				id: "1712B7E689EC2ED9"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_comb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:lightning_dragonsteel"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2E7A5B3791FD396E"
+				type: "item"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+				count: 5
+			}]
+		}
+		{
+			x: -16.5d
+			y: -14.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["4A5A2B7DE466A2F8"]
+			id: "4F2D8FD73B0F5AA4"
+			tasks: [{
+				id: "58F36218CB6A6EBB"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_comb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:fluix"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "697AC63FEAB26631"
+				type: "item"
+				item: "appliedenergistics2:fluix_block"
+				count: 5
+			}]
+		}
+		{
+			x: -14.5d
+			y: -14.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["4A5A2B7DE466A2F8"]
+			id: "38141970A1581F24"
+			tasks: [{
+				id: "4DE2577B6BD604B7"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_comb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:grave"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "040B1A439C0154DF"
+					type: "item"
+					item: {
+						id: "tombstone:decorative_grave_simple"
+						Count: 1b
+						tag: {
+							model_texture: 0
+						}
+					}
+				}
+				{
+					id: "58C71317154E3782"
+					type: "item"
+					item: "tombstone:grave_dust"
+					count: 10
+				}
+			]
+		}
 	]
 }
