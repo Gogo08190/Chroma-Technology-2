@@ -3771,5 +3771,269 @@
 				table_id: 8655552789015021416L
 			}]
 		}
+		{
+			x: 8.5d
+			y: 9.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["76CA9B4B4D139E35"]
+			id: "5381813F797ABCD9"
+			tasks: [{
+				id: "3A24F4C526965887"
+				type: "item"
+				item: "mekanism:qio_drive_base"
+			}]
+			rewards: [{
+				id: "5F504368D2AA8386"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 9.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"76CA9B4B4D139E35"
+				"5381813F797ABCD9"
+			]
+			id: "05D152B159895B1A"
+			tasks: [{
+				id: "5B120BB372174544"
+				type: "item"
+				item: "mekanism:qio_drive_hyper_dense"
+			}]
+			rewards: [{
+				id: "1ED7D4840280876C"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 8.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"76CA9B4B4D139E35"
+				"05D152B159895B1A"
+			]
+			id: "770CBD3A672DD6FF"
+			tasks: [{
+				id: "6D86DDB92A0C6B21"
+				type: "item"
+				item: "mekanism:qio_drive_time_dilating"
+			}]
+			rewards: [{
+				id: "5AFAB41CB067D0C2"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 9.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"76CA9B4B4D139E35"
+				"770CBD3A672DD6FF"
+			]
+			id: "382A866F71402BFC"
+			tasks: [{
+				id: "42BEDD81ADD983A5"
+				type: "item"
+				item: "mekanism:qio_drive_supermassive"
+			}]
+			rewards: [{
+				id: "425BB7CDFDBC0C88"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 9.5d
+			shape: "diamond"
+			description: [
+				"The foudation of any Quantum Item Orchestration system."
+				"QIO Drives are stored here"
+			]
+			hide_dependency_lines: true
+			dependencies: ["76CA9B4B4D139E35"]
+			id: "4FCDEF84770C4C7A"
+			tasks: [{
+				id: "6C762AB4D1CBD687"
+				type: "item"
+				item: "mekanism:qio_drive_array"
+			}]
+			rewards: [{
+				id: "324F690F735BD22B"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 10.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["76CA9B4B4D139E35"]
+			id: "6C89273C92F26376"
+			tasks: [{
+				id: "51F6455136F32DBB"
+				type: "item"
+				item: "mekanism:qio_dashboard"
+			}]
+			rewards: [{
+				id: "54772DBE01E9C093"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 10.0d
+			shape: "diamond"
+			description: ["A QIO-linked item import unit. Place on a block and import its contents to your QIO system."]
+			hide_dependency_lines: true
+			dependencies: ["76CA9B4B4D139E35"]
+			id: "5DB20AC600A6E20C"
+			tasks: [{
+				id: "663F14CD043437BE"
+				type: "item"
+				item: "mekanism:qio_importer"
+			}]
+			rewards: [{
+				id: "6B35D16CB9A920E2"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 9.5d
+			shape: "diamond"
+			description: ["A QIO-linked item export unit. Place on a block and export contents from your QIO systeme to the block."]
+			hide_dependency_lines: true
+			dependencies: ["76CA9B4B4D139E35"]
+			id: "13A6BBCE1995D3BD"
+			tasks: [{
+				id: "0F6942800A91C4CD"
+				type: "item"
+				item: "mekanism:qio_exporter"
+			}]
+			rewards: [{
+				id: "3635C07B80644383"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 7.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["76CA9B4B4D139E35"]
+			id: "664D01AB895CF62D"
+			tasks: [{
+				id: "188917BCFBF01051"
+				type: "item"
+				item: "mekanism:portable_qio_dashboard"
+			}]
+			rewards: [{
+				id: "67907F8C22921619"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 10.5d
+			shape: "diamond"
+			description: ["A QIO-linked redstone adapter. Use to monitor your QIO system's contents."]
+			hide_dependency_lines: true
+			dependencies: ["76CA9B4B4D139E35"]
+			id: "52B113A3A2D0F018"
+			tasks: [{
+				id: "14146053A5E08FD0"
+				type: "item"
+				item: "mekanism:qio_redstone_adapter"
+			}]
+			rewards: [{
+				id: "5C5C9088FE9CBBCE"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 12.0d
+			shape: "diamond"
+			description: ["A machine used to extract pigments from blocks and items."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6F2326323EF33A63"
+				"59BACDF85CF0148A"
+			]
+			id: "3267112FBC86E44E"
+			tasks: [{
+				id: "7E46BF00986C91EE"
+				type: "item"
+				item: "mekanism:pigment_extractor"
+			}]
+			rewards: [{
+				id: "380F81DE3B36EEE3"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 12.5d
+			shape: "diamond"
+			description: ["A sturdy machine capable of mixing two pigments together to produce a new pigment."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6F2326323EF33A63"
+				"39DD69009C6A2070"
+				"6083CEBD7FF77D03"
+			]
+			id: "4EEF190167857DBF"
+			tasks: [{
+				id: "11BB02C15273D11C"
+				type: "item"
+				item: "mekanism:pigment_mixer"
+			}]
+			rewards: [{
+				id: "35F865F00D0C6077"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 12.5d
+			shape: "diamond"
+			description: ["A machine used to color blocks and items via a careful application of a stored pigment."]
+			hide_dependency_lines: true
+			dependencies: [
+				"6F2326323EF33A63"
+				"310C29C40CBF16D0"
+				"7C096F70E21229EC"
+			]
+			id: "595767A10F40C0D7"
+			tasks: [{
+				id: "7F0716D20ED7C5A7"
+				type: "item"
+				item: "mekanism:painting_machine"
+			}]
+			rewards: [{
+				id: "79DB17D884E3C65B"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
+		}
 	]
 }
