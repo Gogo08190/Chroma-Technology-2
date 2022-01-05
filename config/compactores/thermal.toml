@@ -2,17 +2,16 @@
 rockTexture = "minecraft:block/stone"
 
 [":copper_ore"]
-oreTexture = ":block/ores/copper_ore"
+oreTexture = ":block/copper_ore"
 
 [":tin_ore"]
-oreTexture = ":block/ores/tin_ore"
+oreTexture = ":block/tin_ore"
 
 [":silver_ore"]
-oreTexture = ":block/ores/silver_ore"
+oreTexture = ":block/silver_ore"
 
 [":lead_ore"]
-oreTexture = ":block/ores/lead_ore"
+oreTexture = ":block/lead_ore"
 
 [":nickel_ore"]
-oreTexture = ":block/ores/nickel_ore"
-
+oreTexture = ":block/nickel_ore"
