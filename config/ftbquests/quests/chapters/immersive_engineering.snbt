@@ -4,16 +4,7 @@
 	order_index: 0
 	filename: "immersive_engineering"
 	title: "Immersive Engineering"
-	icon: {
-		id: "immersiveengineering:toolbox"
-		Count: 1b
-		ForgeCaps: {
-			Parent: {
-				Size: 23
-				Items: [ ]
-			}
-		}
-	}
+	icon: "immersiveengineering:toolbox"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

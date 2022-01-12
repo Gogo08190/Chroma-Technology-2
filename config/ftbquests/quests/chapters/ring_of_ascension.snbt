@@ -3,7 +3,7 @@
 	group: "6717F1A631FB3B83"
 	order_index: 6
 	filename: "ring_of_ascension"
-	title: "Ring Of ascension"
+	title: "Ring Of Ascension"
 	icon: "ringsofascension:ring_knockback_resistance"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

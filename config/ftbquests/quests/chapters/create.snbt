@@ -1178,6 +1178,11 @@
 				type: "item"
 				item: "create:andesite_casing"
 			}]
+			rewards: [{
+				id: "6869668FD555F76C"
+				type: "random"
+				table_id: 4063386593177790740L
+			}]
 		}
 		{
 			x: 6.0d
