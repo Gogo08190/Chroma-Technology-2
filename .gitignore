@@ -1,30 +1,3 @@
-downloads/
-dumps/
-journeymap/
-local/
-logs/
-mods/
-patchouli_books/
-resourcepacks/
-saves/
-schematics/
-screenshots/
-woot/
-crash-reports/
-backups/
-servers.dat
-
-
-.curseclient
-BotaniaVars.dat
-minecraftinstance.json
-options.txt
-patchouli_data.json
-realms_persistence.json
-reauth.toml
-usercache.json
-usernamecache.json
-
 ### PhpStorm ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
