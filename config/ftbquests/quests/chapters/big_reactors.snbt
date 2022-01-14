@@ -540,6 +540,11 @@
 				type: "item"
 				item: "bigreactors:inanite_block"
 			}]
+			rewards: [{
+				id: "3E66FE7B2B3D31AA"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -2.5d
@@ -550,6 +555,11 @@
 				type: "item"
 				item: "bigreactors:ridiculite_block"
 			}]
+			rewards: [{
+				id: "33EA706E9FC8FA18"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
 		}
 		{
 			x: -3.0d
@@ -559,6 +569,11 @@
 				id: "7686584EC3CAF6B8"
 				type: "item"
 				item: "bigreactors:ludicrite_block"
+			}]
+			rewards: [{
+				id: "451E9A226052FD5E"
+				type: "random"
+				table_id: 8655552789015021416L
 			}]
 		}
 		{
@@ -609,6 +624,11 @@
 					item: "bigreactors:reprocessorfluidinjector"
 				}
 			]
+			rewards: [{
+				id: "641D8FCFD4A260E0"
+				type: "random"
+				table_id: 8655552789015021416L
+			}]
 		}
 	]
 }
