@@ -531,5 +531,84 @@
 				table_id: 8655552789015021416L
 			}]
 		}
+		{
+			x: -3.5d
+			y: 1.0d
+			id: "5DEA18246553BE04"
+			tasks: [{
+				id: "16A57808B9E77728"
+				type: "item"
+				item: "bigreactors:inanite_block"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			id: "5CF3CD5D6A33F4B1"
+			tasks: [{
+				id: "43FBBC11AFE417C8"
+				type: "item"
+				item: "bigreactors:ridiculite_block"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			id: "2A312FAD427E3922"
+			tasks: [{
+				id: "7686584EC3CAF6B8"
+				type: "item"
+				item: "bigreactors:ludicrite_block"
+			}]
+		}
+		{
+			title: "The Reprocessor"
+			x: 3.0d
+			y: 1.5d
+			description: [
+				"The Reprocessor is a multiblock machine that let you reuse spent fuel by converting waste produced in the reactor into new fuel sources or other resources."
+				"The Reprocessor is a 3 by 3 and 7 blocks high machine build from Casing blocks and one each og the other device parts."
+				"Check the Extreme Book to see how to build the multiblock"
+			]
+			id: "70825FA16C44F057"
+			tasks: [
+				{
+					id: "33BAD1A96C247BDC"
+					type: "item"
+					item: "bigreactors:reprocessorcontroller"
+				}
+				{
+					id: "0E2C171EB27EE0EF"
+					type: "item"
+					item: "bigreactors:reprocessorcasing"
+					count: 52L
+				}
+				{
+					id: "7BC6D59721CE6037"
+					type: "item"
+					item: "bigreactors:reprocessoroutputport"
+				}
+				{
+					id: "33529FB217DFFA3D"
+					type: "item"
+					item: "bigreactors:reprocessorpowerport"
+				}
+				{
+					id: "291B5E73BF71A895"
+					type: "item"
+					item: "bigreactors:reprocessorcollector"
+				}
+				{
+					id: "76C56BB2459C0282"
+					type: "item"
+					item: "bigreactors:reprocessorwasteinjector"
+				}
+				{
+					id: "4E499D43C34AFC08"
+					type: "item"
+					item: "bigreactors:reprocessorfluidinjector"
+				}
+			]
+		}
 	]
 }

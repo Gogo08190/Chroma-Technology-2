@@ -1181,5 +1181,17 @@
 				table_id: 8655552789015021416L
 			}]
 		}
+		{
+			x: 12.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["40640FAFB1980839"]
+			id: "5A583BF97AEBCBDC"
+			tasks: [{
+				id: "18A115D402F4F740"
+				type: "item"
+				item: "pneumaticcraft:flux_compressor"
+			}]
+		}
 	]
 }
