@@ -9,7 +9,7 @@
 # Please note that as of release 2.6.0 of Enigmatic Legacy, those options are automatically generated
 # for most items in the mod. They may refer to items that do not exist yet or are not obtainable in any
 # case, and may not work for certain items due to non-generic obtaining methods or generic oversight.
-# 
+#
 # If you discover option that does not work, but for whatever reason you really need it, submit an issue
 # pointing out to such option here: https://github.com/Extegral/Enigmatic-Legacy/issues
 ##########################################################################################################
@@ -539,7 +539,7 @@
 
 "Save the Bees" {
     # If true, bees will never affected by the Second Curse of Ring of the Seven Curses. [default: false, synchronized: yes]
-    B:CursedRingDontTouchMyBees=false
+    B:CursedRingDontTouchMyBees=true
 }
 
 
@@ -551,13 +551,13 @@
 
 "The Seven Curses" {
     # How much less effective armor will be for those who bear the ring. Measured as percetage. [range: 0 ~ 100, default: 30, synchronized: yes]
-    I:CursedRingArmorDebuff=30
+    I:CursedRingArmorDebuff=0
 
     # How much additional Enchanting Power ring provides in Enchanting Table. [range: 0 ~ 32768, default: 10, synchronized: yes]
     I:CursedRingEnchantingBonus=10
 
     # Allows to adjust how frequently Endermen will try to randomly teleport to player bearing the ring, even if they can't see the player and are not angered yet. Lower value = less probability of this happening. [range: 0.01 ~ 32768.0, default: 1.0, synchronized: yes]
-    D:CursedRingEndermenRandomportFrequency=1.0
+    D:CursedRingEndermenRandomportFrequency=0.01
 
     # Range in which Endermen can try to randomly teleport to bearers of the ring. [range: 8.0 ~ 32768.0, default: 32.0, synchronized: yes]
     D:CursedRingEndermenRandomportRange=32.0
@@ -575,13 +575,13 @@
     I:CursedRingLootingBonus=1
 
     # How much damage monsters receive from bearers of the ring will be decreased, in percents. [range: 0 ~ 32768, default: 50, synchronized: yes]
-    I:CursedRingMonsterDamageDebuff=50
+    I:CursedRingMonsterDamageDebuff=0
 
     # Range in which neutral creatures are angered against bearers of the ring. [range: 4.0 ~ 32768.0, default: 24.0, synchronized: yes]
     D:CursedRingNeutralAngerRange=24.0
 
     # Range in which neutral creatures can see and target bearers of the ring even if they can't directly see them. [range: 0.0 ~ 32768.0, default: 4.0, synchronized: yes]
-    D:CursedRingNeutralXRayRange=4.0
+    D:CursedRingNeutralXRayRange=0
 
     # Defines how much damage bearers of the ring receive from any source. Measured as percentage. [range: 0 ~ 32768, default: 200, synchronized: yes]
     I:CursedRingPainModifier=200
@@ -589,5 +589,3 @@
     # If true, Ring of the Seven Curses will be equipped into player's ring slot right away when entering a new world, instead of just being added to their inventory. [default: false, synchronized: yes]
     B:CursedRingUltraHardcode=false
 }
-
-
