@@ -127,9 +127,9 @@
 
 ["Rings Loot"]
 	#The minimum number of rings that can be found inside a single chest. Values below 0 decrease the chance of the rings appearing.
-	ringMinLoot = -5
+	ringMinLoot = -2
 	#The maximum number of rings that can be found inside a single chest.
-	ringMaxLoot = 1
+	ringMaxLoot = 3
 
 ["Rings Locations"]
 	ringLocationFireResistance = "minecraft:chests/nether_bridge;minecraft:chests/ruined_portal;minecraft:chests/bastion_treasure"
