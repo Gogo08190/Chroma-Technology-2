@@ -233,5 +233,39 @@
 				}
 			]
 		}
+		{
+			title: "Broken Heart"
+			icon: "cyclic:heart_empty"
+			x: 0.0d
+			y: 1.5d
+			shape: "heart"
+			subtitle: "Lost my heart.."
+			description: ["If you have lost hearts and have not recovered the souls crystals through the ring of seven curses."]
+			dependencies: ["5C0C633D44AEFED9"]
+			optional: true
+			id: "40C230D239C6CE9F"
+			tasks: [{
+				id: "28008D3E23A8F829"
+				type: "item"
+				item: "cyclic:heart"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0272E0F70B811E13"
+					type: "item"
+					auto: "enabled"
+					item: "enigmaticlegacy:soul_crystal"
+					count: 5
+				}
+				{
+					id: "1CD0198BB4F5E3BD"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 40C230D239C6CE9F"
+					player_command: true
+				}
+			]
+		}
 	]
 }

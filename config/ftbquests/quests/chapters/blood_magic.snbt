@@ -1417,8 +1417,8 @@
 				count: 8L
 			}]
 			rewards: [{
-				id: "789E7A2305B27F12"
-				type: "loot"
+				id: "54E0D3C0A670DF53"
+				type: "random"
 				table_id: 4063386593177790740L
 			}]
 		}

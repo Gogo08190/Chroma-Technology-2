@@ -498,8 +498,8 @@
 			description: [
 				"Here is the &3Builder !&r"
 				""
-				"Build some cool stuff with it ? You  can!"
-				"Mine an entire chunck? You can!"
+				"Build some cool stuff with it ? You can!"
+				"Mine an entire chunk? You can!"
 				""
 				"Just put the wanted shape card in it. "
 				""
@@ -1036,7 +1036,7 @@
 			description: [
 				"So as we saw on the last quest,"
 				""
-				"Just pour your &bInfused &6Blazing Rods&r&r and generate some RF !"
+				"Just put your &bInfused &6Blazing Rods&r&r and generate some RF !"
 			]
 			dependencies: ["54750913B1608A4E"]
 			id: "368DE1001F1AFFA1"

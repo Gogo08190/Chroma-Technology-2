@@ -534,6 +534,8 @@
 		{
 			x: -3.5d
 			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["70825FA16C44F057"]
 			id: "5DEA18246553BE04"
 			tasks: [{
 				id: "16A57808B9E77728"
@@ -549,6 +551,8 @@
 		{
 			x: -2.5d
 			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["70825FA16C44F057"]
 			id: "5CF3CD5D6A33F4B1"
 			tasks: [{
 				id: "43FBBC11AFE417C8"
@@ -564,6 +568,8 @@
 		{
 			x: -3.0d
 			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["70825FA16C44F057"]
 			id: "2A312FAD427E3922"
 			tasks: [{
 				id: "7686584EC3CAF6B8"
